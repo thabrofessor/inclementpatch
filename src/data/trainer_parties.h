@@ -1432,26 +1432,18 @@ static const struct TrainerMonItemCustomMoves sParty_Calvin1[] = {
     .moves = MOVE_LEER, MOVE_TACKLE, MOVE_ODOR_SLEUTH
     }
     {
-	.iv = 0,
-    .lvl = 0,
     .species = SPECIES_BULBASAUR,
     .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
-    .iv = 0,
-    .lvl = 0,
     .species = SPECIES_CHARMANDER,
     .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
-    .iv = 0,
-    .lvl = 0,
     .species = SPECIES_SQUIRTLE,
     .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
-    .iv = 0,
-    .lvl = 0,
     .species = SPECIES_CATERPIE,
     .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
