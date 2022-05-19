@@ -1541,21 +1541,27 @@ static const struct TrainerMonItemCustomMoves sParty_Calvin4[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Rick[] = {
     {
-    .lvl = -4,
+    .lvl = -2,
     .species = SPECIES_WURMPLE,
     .moves = MOVE_STRING_SHOT, MOVE_POISON_STING
     },
     {
-    .lvl = -4,
+    .lvl = -2,
     .species = SPECIES_SEWADDLE,
     .moves = MOVE_STRING_SHOT, MOVE_TACKLE
     },
     {
-    .lvl = -4,
+    .lvl = -2,
     .species = SPECIES_GRUBBIN,
     .moves = MOVE_STRING_SHOT, MOVE_VISE_GRIP
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_WEEDLE,
+	    .heldItem = ITEM_BLACK_SLUDGE,
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_POISON_STING, MOVE_STRING_SHOT, MOVE_BUG_BITE, MOVE_DOUBLE_TEAM
     }
-    
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Allen[] = {
