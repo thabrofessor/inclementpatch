@@ -1422,34 +1422,40 @@ static const struct TrainerMonItemCustomMoves sParty_Archie1[] = { // Slateport
 
 static const struct TrainerMonItemCustomMoves sParty_Calvin1[] = {
     {
-    .lvl = -2,
+    .lvl = -1,
     .species = SPECIES_POOCHYENA,
+    .heldItem = ITEM_ORAN_BERRY, 
     .moves = MOVE_HOWL, MOVE_TACKLE
     },
     {
-    .lvl = -2,
+    .lvl = -1,
     .species = SPECIES_LILLIPUP,
+    .heldItem = ITEM_ORAN_BERRY
     .moves = MOVE_LEER, MOVE_TACKLE, MOVE_ODOR_SLEUTH
     },
     {
-	    .lvl = -2,
-    .species = SPECIES_BULBASAUR,
-    .moves = MOVE_LEER, MOVE_NONE, MOVE_NONE, MOVE_NONE
+    .lvl = -2,
+    .species = SPECIES_KRICKETOT,
+    .heldItem = ITEM_ORAN_BERRY
+    .moves = MOVE_GROWL, MOVE_BIDE, MOVE_STRUGGLE_BUG, MOVE_ROUND
     },
     {
-	    .lvl = -2,
-    .species = SPECIES_CHARMANDER,
-    .moves = MOVE_LEER, MOVE_NONE, MOVE_NONE, MOVE_NONE
+    .lvl = -2,
+    .species = SPECIES_RALTS,
+    .heldItem = ITEM_ORAN_BERRY
+    .moves = MOVE_CONFUSION, MOVE_DOUBLE_TEAM, MOVE_HYPNOSIS, MOVE_CONFUSE_RAY
     },
     {
-	    .lvl = -2,
-    .species = SPECIES_SQUIRTLE,
-    .moves = MOVE_LEER, MOVE_NONE, MOVE_NONE, MOVE_NONE
+    .lvl = 0,
+    .species = SPECIES_SUNKERN,
+    .heldItem = ITEM_ORAN_BERRY
+    .moves = MOVE_GRASS_WHISTLE, MOVE_INGRAIN, MOVE_ABSORB, MOVE_GROWTH
     },
     {
-	    .lvl = -2,
+    .lvl = -2,
     .species = SPECIES_CATERPIE,
-    .moves = MOVE_LEER, MOVE_NONE, MOVE_NONE, MOVE_NONE
+    .heldItem = ITEM_ORAN_BERRY
+    .moves = MOVE_ELECTROWEB, MOVE_TACKLE, MOVE_STRING_SHOT, MOVE_BUG_BITE
     }
 };
 
