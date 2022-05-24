@@ -1557,7 +1557,7 @@ static const struct TrainerMonItemCustomMoves sParty_Rick[] = {
     .species = SPECIES_CATERPIE,
     .heldItem = ITEM_ORAN_BERRY,
     .moves = MOVE_ELECTROWEB, MOVE_TACKLE, MOVE_STRING_SHOT, MOVE_BUG_BITE
-    }
+    },
     {
     .lvl = -2,
     .species = SPECIES_KRICKETOT,
@@ -1604,7 +1604,7 @@ static const struct TrainerMonItemCustomMoves sParty_Allen[] = {
 	    .heldItem = ITEM_BLACK_SLUDGE,
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_POISON_STING, MOVE_STRING_SHOT, MOVE_BUG_BITE, MOVE_DOUBLE_TEAM
-    }
+    },
     {
     .lvl = -1,
     .species = SPECIES_PICHU,
