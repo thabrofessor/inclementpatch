@@ -1549,20 +1549,35 @@ static const struct TrainerMonItemCustomMoves sParty_Rick[] = {
     {
     .lvl = -2,
     .species = SPECIES_WURMPLE,
+	    .heldItem = ITEM_ORAN_BERRY,
     .moves = MOVE_STRING_SHOT, MOVE_POISON_STING
     },
     {
     .lvl = -2,
+    .species = SPECIES_CATERPIE,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = MOVE_ELECTROWEB, MOVE_TACKLE, MOVE_STRING_SHOT, MOVE_BUG_BITE
+    }
+    {
+    .lvl = -2,
+    .species = SPECIES_KRICKETOT,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = MOVE_GROWL, MOVE_BIDE, MOVE_STRUGGLE_BUG, MOVE_ROUND
+    },
+    {
+    .lvl = -1,
     .species = SPECIES_SEWADDLE,
+	    .heldItem = ITEM_ORAN_BERRY,
     .moves = MOVE_STRING_SHOT, MOVE_TACKLE
     },
     {
-    .lvl = -2,
+    .lvl = -1,
     .species = SPECIES_GRUBBIN,
+	    .heldItem = ITEM_ORAN_BERRY,
     .moves = MOVE_STRING_SHOT, MOVE_VISE_GRIP
     },
     {
-    .lvl = -2,
+    .lvl = -0,
     .species = SPECIES_WEEDLE,
 	    .heldItem = ITEM_BLACK_SLUDGE,
     .spread = SPREAD_25_IV_0_EV,
@@ -1572,26 +1587,79 @@ static const struct TrainerMonItemCustomMoves sParty_Rick[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Allen[] = {
     {
-    .lvl = -4,
+    .lvl = -2,
     .species = SPECIES_ZIGZAGOON,
+	.heldItem = ITEM_ORAN_BERRY,     
     .moves = MOVE_TACKLE, MOVE_GROWL, MOVE_TAIL_WHIP
     },
     {
-    .lvl = -4,
+    .lvl = -2,
+    .species = SPECIES_SCATTERBUG,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = MOVE_TACKLE, MOVE_STRING_SHOT, MOVE_STUN_SPORE, MOVE_BUG_BITE
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_WEEDLE,
+	    .heldItem = ITEM_BLACK_SLUDGE,
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_POISON_STING, MOVE_STRING_SHOT, MOVE_BUG_BITE, MOVE_DOUBLE_TEAM
+    }
+    {
+    .lvl = -1,
+    .species = SPECIES_PICHU,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = MOVE_THUNDER_SHOCK, MOVE_SWEET_KISS, MOVE_NASTY_PLOT, MOVE_NUZZLE
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_RALTS,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = MOVE_CONFUSION, MOVE_DOUBLE_TEAM, MOVE_HYPNOSIS, MOVE_CONFUSE_RAY
+    },	
+    {
+    .lvl = -0,
     .species = SPECIES_TAILLOW,
+	    .heldItem = ITEM_ORAN_BERRY,
     .moves = MOVE_QUICK_ATTACK, MOVE_GROWL, MOVE_RAGE
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Tiana[] = {
     {
-    .lvl = -3,
+    .lvl = -1,
     .species = SPECIES_BUIZEL,
+	       .heldItem = ITEM_ORAN_BERRY,
     .moves = MOVE_GROWL, MOVE_QUICK_ATTACK
     },
     {
-    .lvl = -3,
+    .lvl = -2,
+    .species = SPECIES_WURMPLE,
+	    .heldItem = ITEM_ORAN_BERRY,
+    .moves = MOVE_STRING_SHOT, MOVE_POISON_STING
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_SCATTERBUG,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = MOVE_TACKLE, MOVE_STRING_SHOT, MOVE_STUN_SPORE, MOVE_BUG_BITE
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_KRICKETOT,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = MOVE_GROWL, MOVE_BIDE, MOVE_STRUGGLE_BUG, MOVE_ROUND
+    },	
+    {
+    .lvl = 0,
+    .species = SPECIES_SUNKERN,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = MOVE_GRASS_WHISTLE, MOVE_INGRAIN, MOVE_ABSORB, MOVE_GROWTH
+    },	
+    {
+    .lvl = -1,
     .species = SPECIES_SHROOMISH,
+	       .heldItem = ITEM_ORAN_BERRY,
     .moves = MOVE_TACKLE, MOVE_STUN_SPORE
     }
 };
