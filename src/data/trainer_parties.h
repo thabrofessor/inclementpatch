@@ -1423,7 +1423,7 @@ static const struct TrainerMonItemCustomMoves sParty_Archie1[] = { // Slateport
 static const struct TrainerMonItemCustomMoves sParty_Calvin1[] = {
     {
     .lvl = -1,
-    .species = SPECIES_POOCHYENA,
+    .species = SPECIES_ETERNATUS,
     .heldItem = ITEM_ORAN_BERRY, 
     .moves = MOVE_HOWL, MOVE_TACKLE
     },
