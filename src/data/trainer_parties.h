@@ -1683,7 +1683,7 @@ static const struct TrainerMonItemCustomMoves sParty_Billy[] = {
     .lvl = -1,
     .species = SPECIES_YUNGOOS,
     .heldItem = ITEM_ORAN_BERRY, 
-    .moves = MOVE_TACKLE, MOVE_PERSUIT, MOVE_MUD_SLAP, MOVE_YAWN
+    .moves = MOVE_TACKLE, MOVE_BITE, MOVE_MUD_SLAP, MOVE_YAWN
     },
     {
     .lvl = -1,
@@ -2656,7 +2656,7 @@ static const struct TrainerMonItemCustomMoves sParty_Devan[] = { // Route 116
     .lvl = -1,
     .species = SPECIES_GEODUDE_ALOLAN,
     .heldItem = ITEM_SITRUS_BERRY,	    
-    .moves = MOVE_ROLL_OUT, MOVE_ROCK_THROW, MOVE_THUNDER_PUNCH, MOVE_EXPLOSION
+    .moves = MOVE_ROLE_OUT, MOVE_ROCK_THROW, MOVE_THUNDER_PUNCH, MOVE_EXPLOSION
     }	
 };
 
