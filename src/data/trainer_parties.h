@@ -2617,7 +2617,7 @@ static const struct TrainerMonItemCustomMoves sParty_Clark[] = { // Route 116
     .lvl = -1,
     .species = SPECIES_GOLETT,
     .heldItem = ITEM_SITRUS_BERRY,	    
-    .moves = MOVE_ROLEOUT, MOVE_SHADOW_PUNCH, MOVE_CURSE, MOVE_MAGNITUDE
+    .moves = MOVE_ROCK_BLAST, MOVE_SHADOW_PUNCH, MOVE_CURSE, MOVE_MAGNITUDE
     }	
 };
 
@@ -2656,7 +2656,7 @@ static const struct TrainerMonItemCustomMoves sParty_Devan[] = { // Route 116
     .lvl = -1,
     .species = SPECIES_GEODUDE_ALOLAN,
     .heldItem = ITEM_SITRUS_BERRY,	    
-    .moves = MOVE_ROLEOUT, MOVE_ROCK_THROW, MOVE_THUNDER_PUNCH, MOVE_EXPLOSION
+    .moves = MOVE_ROCK_BLAST, MOVE_ROCK_THROW, MOVE_THUNDER_PUNCH, MOVE_EXPLOSION
     }	
 };
 
