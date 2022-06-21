@@ -2736,7 +2736,7 @@ static const struct TrainerMonItemCustomMoves sParty_Sarah[] = {
     .lvl = -1,
     .species = SPECIES_SMOOCHUM,
     .heldItem = ITEM_SITRUS_BERRY,
-    .moves = MOVE_LICK, MOVE_SING, MOVE_POWDER_SNOW, MOVE_COFUSION
+    .moves = MOVE_LICK, MOVE_SING, MOVE_POWDER_SNOW, MOVE_CONFUSION
     }	
 };
 
@@ -2801,7 +2801,7 @@ static const struct TrainerMonItemCustomMoves sParty_Jerry1[] = {
     {
     .lvl = -1,
     .species = SPECIES_BURMY_SANDY_CLOAK,
-    .heldItem = ITEM_SITRUS_BERRY	    
+    .heldItem = ITEM_SITRUS_BERRY,	    
     .moves = MOVE_PROTECT, MOVE_TACKLE, MOVE_BUG_BITE, MOVE_HIDDEN_POWER
     },
     {
