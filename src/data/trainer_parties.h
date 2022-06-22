@@ -1457,7 +1457,13 @@ static const struct TrainerMonItemCustomMoves sParty_Calvin1[] = {
     .species = SPECIES_CATERPIE,
     .heldItem = ITEM_ORAN_BERRY,
     .moves = MOVE_ELECTROWEB, MOVE_TACKLE, MOVE_STRING_SHOT, MOVE_BUG_BITE
-    }
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_CATERPIE,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = MOVE_ELECTROWEB, MOVE_TACKLE, MOVE_STRING_SHOT, MOVE_BUG_BITE
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Calvin2[] = {
