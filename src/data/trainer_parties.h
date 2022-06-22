@@ -3684,7 +3684,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brenden[] = {
     .species = SPECIES_PAWNIARD,
     .heldItem = ITEM_BERRY_JUICE,	    
     .spread = SPREAD_25_IV_0_EV,
-    .moves = MOVE_FURY-CUTTER, MOVE_METAL_CLAW, MOVE_SLASH, MOVE_SWORDS_DANCE
+    .moves = MOVE_FURY_CUTTER, MOVE_METAL_CLAW, MOVE_SLASH, MOVE_SWORDS_DANCE
     },
     {
     .lvl = -3,
@@ -3737,7 +3737,7 @@ static const struct TrainerMonItemCustomMoves sParty_Lilith[] = {
     .species = SPECIES_TOXEL,
     .heldItem = ITEM_BERRY_JUICE,	    
     .spread = SPREAD_25_IV_0_EV,
-    .moves = MOVE_NUZZLE, MOVE_ROCK_ACID, MOVE_SUBSTITUTE, MOVE_PROTECT
+    .moves = MOVE_NUZZLE, MOVE_TOXIC, MOVE_SUBSTITUTE, MOVE_PROTECT
     },
     {
     .lvl = -3,
