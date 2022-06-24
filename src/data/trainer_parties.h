@@ -1309,6 +1309,7 @@ static const struct TrainerMonItemCustomMoves sParty_Grunt14[] = { // Slateport 
     {
     .lvl = -2,
     .species = SPECIES_PALPITOAD,
+    .heldItem = ITEM_BERRY_JUICE,	    
     .ability = 2, // Water Absorb
     .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_BUBBLE_BEAM, MOVE_ACID, MOVE_MUD_SHOT, MOVE_ROUND
@@ -1316,16 +1317,46 @@ static const struct TrainerMonItemCustomMoves sParty_Grunt14[] = { // Slateport 
     {
     .lvl = -2,
     .species = SPECIES_BASCULIN,
+    .heldItem = ITEM_BERRY_JUICE,	    
     .ability = 1, // Adaptability
     .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_AQUA_JET, MOVE_CRUNCH, MOVE_TAKE_DOWN, MOVE_REVENGE
-    }
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_ZUBAT,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_BITE, MOVE_AIR_CUTTER, MOVE_POISON_FANG, MOVE_CONFUSE_RAY
+    },	
+    {
+    .lvl = -2,
+    .species = SPECIES_TRUBBISH,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_TOXIC_SPIKES, MOVE_SOUDGE, MOVE_EXPLOSION, MOVE_ROCK_BLAST
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_CACNEA,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_SAND_ATTACK, MOVE_LEECH_SEED, MOVE_NEEDLE_ARM, MOVE_SPIKES
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_WAILMER,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_BRINE, MOVE_REST, MOVE_AMNESIA, MOVE_BOUNCE
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Grunt15[] = { // Slateport
     {
     .lvl = -3,
     .species = SPECIES_GOLBAT,
+    .heldItem = ITEM_BERRY_JUICE,	    
     .ability = 0, // Inner Focus
     .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_AERIAL_ACE, MOVE_POISON_FANG, MOVE_CONFUSE_RAY, MOVE_SCREECH
@@ -1333,6 +1364,7 @@ static const struct TrainerMonItemCustomMoves sParty_Grunt15[] = { // Slateport
     {
     .lvl = -3,
     .species = SPECIES_CLAUNCHER,
+    .heldItem = ITEM_BERRY_JUICE,	    
     .ability = 0, // Mega Launcher
     .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_BUBBLE_BEAM, MOVE_AQUA_JET, MOVE_SMACK_DOWN, MOVE_VENOSHOCK
@@ -1340,10 +1372,32 @@ static const struct TrainerMonItemCustomMoves sParty_Grunt15[] = { // Slateport
     {
     .lvl = -3,
     .species = SPECIES_GRIMER_ALOLAN,
+    .heldItem = ITEM_BERRY_JUICE,	    
     .ability = 0, // Poison Touch
     .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_POISON_FANG, MOVE_BITE, MOVE_DISABLE, MOVE_MINIMIZE
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_PUMPKABOO,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_CONFUSE_RAY, MOVE_EMBER, MOVE_LEECH_SEED, MOVE_SHADOW_SNEAK
+    },	
+    {
+    .lvl = -3,
+    .species = SPECIES_KOFFING,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_SMOKESCREEN, MOVE_TOXIC, MOVE_SLUDGE, MOVE_EXPLOSION
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_MURKROW,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_AERIAL_ACE, MOVE_SUCKER_PUNCH, MOVE_ROOST, MOVE_CONFUSE_RAY
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Grunt24[] = { // Mt. Chimney
