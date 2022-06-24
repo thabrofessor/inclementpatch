@@ -1334,7 +1334,7 @@ static const struct TrainerMonItemCustomMoves sParty_Grunt14[] = { // Slateport 
     .species = SPECIES_TRUBBISH,
     .heldItem = ITEM_BERRY_JUICE,	    
     .spread = SPREAD_15_IV_0_EV,
-    .moves = MOVE_TOXIC_SPIKES, MOVE_SlUDGE, MOVE_EXPLOSION, MOVE_ROCK_BLAST
+    .moves = MOVE_TOXIC_SPIKES, MOVE_SlUGE, MOVE_EXPLOSION, MOVE_ROCK_BLAST
     },
     {
     .lvl = -2,
