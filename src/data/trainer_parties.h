@@ -4226,7 +4226,7 @@ static const struct TrainerMonItemCustomMoves sParty_Ricky1[] = {
     .lvl = 0,
     .species = SPECIES_EXEGGCUTE,
     .heldItem = ITEM_BERRY_JUICE,	    
-    .moves = MOVE_SLEEP_POWDER, MOVE_LEECH_SEED, MOVE_BULLET_SEED, MOVE_CONFUSSION
+    .moves = MOVE_SLEEP_POWDER, MOVE_LEECH_SEED, MOVE_BULLET_SEED, MOVE_CONFUSION
     },
     {
     .lvl = 0,
@@ -4340,7 +4340,7 @@ static const struct TrainerMonItemCustomMoves sParty_Lola1[] = {
     .lvl = -3,
     .species = SPECIES_YAMASK,
     .heldItem = ITEM_BERRY_JUICE,	    
-    .moves = MOVE_WILLO_O_WISP, MOVE_HEX, MOVE_NASTY_PLOT, MOVE_TOXIC_SPIKES
+    .moves = MOVE_CONFUSE_RAY, MOVE_HEX, MOVE_NASTY_PLOT, MOVE_TOXIC_SPIKES
     },
     {
     .lvl = -3,
