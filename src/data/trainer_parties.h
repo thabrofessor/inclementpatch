@@ -5321,8 +5321,7 @@ static const struct TrainerMonItemCustomMoves sParty_Miguel1[] = {
     {
     .lvl = -3,
     .species = SPECIES_HERDIER,
-    .heldItem = ITEM_SITRUS_BERRY,	    
-    .heldItem = ITEM_BERRY_JUICE,	    
+    .heldItem = ITEM_SITRUS_BERRY,	    	    
     .moves = MOVE_TAKE_DOWN, MOVE_BITE, MOVE_ODOR_SLEUTH, MOVE_SURF
     },
     {
@@ -7807,7 +7806,7 @@ static const struct TrainerMonItemCustomMoves sParty_Melina[] = {
     {
     .lvl = -1,
     .species = SPECIES_WORMADAM,
-    .heldItem = ITEM_SITRUS_BERRY	    
+    .heldItem = ITEM_SITRUS_BERRY,	    
     .moves = MOVE_PROTECT, MOVE_TACKLE, MOVE_BUG_BITE, MOVE_HIDDEN_POWER
     },
     {
