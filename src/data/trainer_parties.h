@@ -3063,7 +3063,28 @@ static const struct TrainerMonItemCustomMoves sParty_Mike2[] = { // Actually the
     .ability = 2, // Defiant
     .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_CROSS_CHOP, MOVE_ASSURANCE, MOVE_SWAGGER, MOVE_THRASH
-    }
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_LOUDRED,
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_UPROAR, MOVE_EXTRASENSORY, MOVE_WORK_UP, MOVE_NONE
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_OMANYTE,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_WATER_GUN, MOVE_BITE, MOVE_MUD_SHOT, MOVE_ANCIENT_POWER
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_KABUTO,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .ability = 1, // Battle Armor
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_ROCK_TOMB, MOVE_AQUA_JET, MOVE_ABSORB, MOVE_SCREECH 
+    }	
 };
 
 // Rustboro Gym
@@ -7883,7 +7904,32 @@ static const struct TrainerMonItemCustomMoves sParty_Victor[] = {
     .spread = SPREAD_25_IV_0_EV,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = MOVE_PSYCHIC_FANGS, MOVE_FIRE_FANG, MOVE_ICE_FANG, MOVE_THUNDER_FANG
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_NIDORINA,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_DOUBLE_KICK, MOVE_TOXIC_SPIKES, MOVE_CRUNCH, MOVE_POISON_FANG
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_KROKOROK,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_BITE, MOVE_SAND_ATTACK, MOVE_DIG, MOVE_FIRE_FANG
+    },	
+    {
+    .lvl = -3,
+    .species = SPECIES_SPOINK,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_PSYBEAM, MOVE_CONFUSE_RAY, MOVE_BOUNCE, MOVE_AMNESIA
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_BUIZEL,
+	       .heldItem = ITEM_ORAN_BERRY,
+    .moves = MOVE_GROWL, MOVE_QUICK_ATTACK
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Victoria[] = {
@@ -7901,6 +7947,29 @@ static const struct TrainerMonItemCustomMoves sParty_Victoria[] = {
     .spread = SPREAD_25_IV_0_EV,
     .heldItem = ITEM_LEFTOVERS,
     .moves = MOVE_LEECH_SEED, MOVE_STUN_SPORE, MOVE_SUBSTITUTE, MOVE_GIGA_DRAIN
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_FARFETCHD_GALARIAN,
+    .heldItem = ITEM_SITRUS_BERRY,	    
+    .moves = MOVE_AIR_CUTTER, MOVE_KNOCK_OFF, MOVE_LEAF_BLADE, MOVE_SLASH
+    },	
+    {
+    .lvl = -1,
+    .species = SPECIES_SUDOWOODO,
+    .spread = SPREAD_31_IV_HP_ATK_ADAMANT,    
+    .moves = MOVE_HEAD_SMASH, MOVE_CURSE, MOVE_SUCKER_PUNCH, MOVE_LOW_KICK
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_FINNEON,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_GUST, MOVE_ATTRACT, MOVE_WATER_GUN, MOVE_RAIN_DANCE
+    },
+    {
+    .lvl = -4,
+    .species = SPECIES_FRILLISH,
+    .moves = MOVE_BUBBLE_BEAM, MOVE_ABSORB, MOVE_NIGHT_SHADE, MOVE_WATER_SPORT
     }
 };
 
@@ -7926,7 +7995,27 @@ static const struct TrainerMonItemCustomMoves sParty_Vivi[] = {
     .spread = SPREAD_25_IV_0_EV,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = MOVE_AERIAL_ACE, MOVE_SEED_BOMB, MOVE_BULLDOZE, MOVE_SYNTHESIS
-    }
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_VANILLISH,
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_FREEZE_DRY, MOVE_WATER_PULSE, MOVE_ACID_ARMOR, MOVE_FLASH_CANNON
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_PUMPKABOO,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_CONFUSE_RAY, MOVE_EMBER, MOVE_LEECH_SEED, MOVE_SHADOW_SNEAK
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_PAWNIARD,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_FURY-CUTTER, MOVE_METAL_CLAW, MOVE_SLASH, MOVE_SWORDS_DANCE
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Vicky[] = {
@@ -7937,7 +8026,39 @@ static const struct TrainerMonItemCustomMoves sParty_Vicky[] = {
     .spread = SPREAD_25_IV_0_EV,
     .heldItem = ITEM_LIFE_ORB,
     .moves = MOVE_MEGAHORN, MOVE_BRICK_BREAK, MOVE_NIGHT_SLASH, MOVE_BULLET_SEED
-    }
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_NIDORINO,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_HORN_ATTACK, MOVE_TOXIC_SPIKES, MOVE_POISON_TAIL, MOVE_IRON_TAIL
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_DELIBIRD,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_FLY, MOVE_EXTREME_SPEED, MOVE_SEED_BOMB, MOVE_GUNK_SHOT
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_SKIPLOOM,
+    .heldItem = ITEM_SITRUS_BERRY	    
+    .moves = MOVE_LEEH_SEED, MOVE_MEGA_DRAIN, MOVE_U_TURN, MOVE_GROWTH
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_STUFFUL,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_BRUTAL_SWING, MOVE_BIDE, MOVE_FORCE_PALM, MOVE_BULLDOZE
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_SPRITZEE,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_CALM_MIND, MOVE_DRAINING_KISS, MOVE_PSYCHIC, MOVE_DISARMING_VOICE
+    }	
 };
 
 // Route 111 South
@@ -7955,7 +8076,31 @@ static const struct TrainerMonItemCustomMoves sParty_Tyron[] = {
     .ability = 1, // Technician
     .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_FURY_CUTTER, MOVE_AERIAL_ACE, MOVE_QUICK_ATTACK, MOVE_PURSUIT
-    }
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_YANMA,
+    .spread = SPREAD_25_IV_0_EV,    
+    .moves = MOVE_SIGNAL_BEAM, MOVE_AIR_CUTTER, MOVE_ANCIENT_POWER, MOVE_UPROAR
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_DUSTOX,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_BUG_BUZZ, MOVE_QUIVER_DANCE, MOVE_TOXIC, MOVE_PROTECT
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_SWIRLIX,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_DRAINING_KISS, MOVE_COTTON_GUARD, MOVE_WISH, MOVE_STICKY_WEB
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_CLAMPERL,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_CLAMP, MOVE_IRON_DEFENSE, MOVE_WATER_GUN, MOVE_SHELL_SMASH
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Celina[] = {
@@ -7971,7 +8116,31 @@ static const struct TrainerMonItemCustomMoves sParty_Celina[] = {
     .ability = 2, // Infiltrator
     .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_STRENGTH_SAP, MOVE_ACROBATICS, MOVE_SEED_BOMB, MOVE_LEECH_SEED
-    }
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_TRUMBEAK,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = MOVE_PECK, MOVE_ECHOED_VOICE, MOVE_ROCK_SMASH, MOVE_SUPERSONIC
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_HERDIER,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_TAKE_DOWN, MOVE_BITE, MOVE_ODOR_SLEUTH, MOVE_SURF
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_MANTYKE,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_AERIAL_ACE, MOVE_HEADBUTT, MOVE_WATER_PULSE, MOVE_CONFUSE_RAY
+    },
+    {
+    .lvl = 0,
+    .species = SPECIES_DRIFLOON,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_MINIMIZE, MOVE_GUST, MOVE_HEX, MOVE_OMINOUS_WIND
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Bianca[] = {
@@ -7987,7 +8156,31 @@ static const struct TrainerMonItemCustomMoves sParty_Bianca[] = {
     .ability = 2, // Hustle
     .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_SUCKER_PUNCH, MOVE_HYPER_FANG, MOVE_QUICK_ATTACK, MOVE_ENDEAVOR
-    }
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_HATTREM,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = MOVE_NUZZLE, MOVE_CONFUSION, MOVE_LIFE_DEW, MOVE_DISARMING_VOICE
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_FLAAFFY,
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_ELECTRO_BALL, MOVE_COTTON_SPORE, MOVE_CHARGE, MOVE_TAKE_DOWN
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_SCRAGGY,
+    .ability = 1, // Moxie
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_FEINT_ATTACK, MOVE_LOW_KICK, MOVE_HEADBUTT, MOVE_LEER
+    },
+    {
+    .lvl = -4,
+    .species = SPECIES_PANCHAM,
+    .moves = MOVE_KARATE_CHOP, MOVE_WORK_UP, MOVE_COMET_PUNCH
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Hayden[] = {
@@ -8002,7 +8195,33 @@ static const struct TrainerMonItemCustomMoves sParty_Hayden[] = {
     .species = SPECIES_VAPOREON,
     .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_WATER_PULSE, MOVE_AURORA_BEAM, MOVE_CHARM, MOVE_COPYCAT
-    }
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_SEWADDLE,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = MOVE_BUG_BITE, MOVE_GRASS_WHISTLE, MOVE_RAZOR_LEAF, MOVE_PROTECT 
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_NUZLEAF,
+    .heldItem = ITEM_SITRUS_BERRY,	    
+    .spread = SPREAD_10_IV_0_EV,
+    .moves = MOVE_FEINT_ATTACK, MOVE_LEAF_BLADE, MOVE_AIR_CUTTER, MOVE_GROWTH
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_CRANIDOS,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_ROCK_TOMB, MOVE_HEADBUTT, MOVE_PURSUIT
+    },	
+    {
+    .lvl = -1,
+    .species = SPECIES_GROWLITHE,
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_FLAME_BURST, MOVE_TAKE_DOWN, MOVE_REVERSAL, MOVE_AGILITY
+    }	
 };
 
 // Route 111 North of Rocks
@@ -8019,7 +8238,32 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy1[] = {
     .species = SPECIES_LOUDRED,
     .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_UPROAR, MOVE_EXTRASENSORY, MOVE_WORK_UP, MOVE_NONE
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_KLINKLANG,
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_GEAR_GRIND, MOVE_WILD_CHARGE, MOVE_DOUBLE_EDGE, MOVE_SHIFT_GEAR
+    },
+    {
+    .lvl = 0,
+    .species = SPECIES_OBSTAGOON,
+    .ability = 1, // Guts
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,    
+    .moves = MOVE_CROSS_CHOP, MOVE_RETURN, MOVE_NIGHT_SLASH, MOVE_SCARY_FACE
+    },	
+    {
+    .lvl = -1,
+    .species = SPECIES_CHANDELURE,
+    .spread = SPREAD_31_IV_SPATK_SPEED_TIMID,    
+    .moves = MOVE_FLAMETHROWER, MOVE_SHADOW_BALL, MOVE_ACID_ARMOR, MOVE_PAIN_SPLIT
+    },	
+    {
+    .lvl = -2,
+    .species = SPECIES_AMPHAROS,
+    .spread = SPREAD_31_IV_SPATK_SPEED_MODEST,
+    .moves = MOVE_THUNDER, MOVE_AGILITY, MOVE_DRAGON_PULSE, MOVE_SIGNAL_BEAM
+    }	
 };
 
 // Route 118 Gabby
@@ -8035,7 +8279,32 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy2[] = {
     .species = SPECIES_EXPLOUD,
     .spread = SPREAD_31_IV_HP_SPATK_MODEST,
     .moves = MOVE_HYPER_VOICE, MOVE_EXTRASENSORY, MOVE_FOCUS_BLAST, MOVE_ICE_BEAM
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_KLINKLANG,
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_GEAR_GRIND, MOVE_WILD_CHARGE, MOVE_DOUBLE_EDGE, MOVE_SHIFT_GEAR
+    },
+    {
+    .lvl = 0,
+    .species = SPECIES_OBSTAGOON,
+    .ability = 1, // Guts
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,    
+    .moves = MOVE_CROSS_CHOP, MOVE_RETURN, MOVE_NIGHT_SLASH, MOVE_SCARY_FACE
+    },	
+    {
+    .lvl = -1,
+    .species = SPECIES_CHANDELURE,
+    .spread = SPREAD_31_IV_SPATK_SPEED_TIMID,    
+    .moves = MOVE_FLAMETHROWER, MOVE_SHADOW_BALL, MOVE_ACID_ARMOR, MOVE_PAIN_SPLIT
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_AMPHAROS,
+    .spread = SPREAD_31_IV_SPATK_SPEED_MODEST,
+    .moves = MOVE_THUNDER, MOVE_AGILITY, MOVE_DRAGON_PULSE, MOVE_SIGNAL_BEAM
+    }	
 };
 
 // Route 120 Gabby
@@ -8063,7 +8332,20 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy3[] = {
     .species = SPECIES_SYLVEON,
     .spread = SPREAD_31_IV_HP_SPATK_MODEST,
     .moves = MOVE_HYPER_VOICE, MOVE_PSYSHOCK, MOVE_SHADOW_BALL, MOVE_YAWN
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_KLINKLANG,
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_GEAR_GRIND, MOVE_WILD_CHARGE, MOVE_DOUBLE_EDGE, MOVE_SHIFT_GEAR
+    },
+    {
+    .lvl = 0,
+    .species = SPECIES_OBSTAGOON,
+    .ability = 1, // Guts
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,    
+    .moves = MOVE_CROSS_CHOP, MOVE_RETURN, MOVE_NIGHT_SLASH, MOVE_SCARY_FACE
+    },	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy4[] = {
@@ -8094,6 +8376,20 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy4[] = {
     .heldItem = ITEM_SITRUS_BERRY,
     .spread = SPREAD_31_IV_HP_SPATK_MODEST,
     .moves = MOVE_HYPER_VOICE, MOVE_PSYSHOCK, MOVE_SHADOW_BALL, MOVE_YAWN
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_CHANDELURE,
+    .spread = SPREAD_31_IV_SPATK_SPEED_TIMID,    
+    .moves = MOVE_FLAMETHROWER, MOVE_SHADOW_BALL, MOVE_ACID_ARMOR, MOVE_PAIN_SPLIT
+    },	
+    {
+    .lvl = 0,
+    .species = SPECIES_TOGEKISS,
+    .heldItem = ITEM_CHOICE_SCARF,
+    .ability = 1, // Serene Grace
+    .spread = SPREAD_31_IV_SPATK_SPEED_TIMID,
+    .moves = MOVE_AIR_SLASH, MOVE_MOONBLAST, MOVE_FIRE_BLAST, MOVE_AURA_SPHERE
     }
 };
 
@@ -8125,7 +8421,21 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy5[] = {
     .heldItem = ITEM_SITRUS_BERRY,
     .spread = SPREAD_31_IV_HP_SPATK_MODEST,
     .moves = MOVE_HYPER_VOICE, MOVE_PSYSHOCK, MOVE_SHADOW_BALL, MOVE_YAWN
-    }
+    },
+    {
+    .lvl = 0,
+    .species = SPECIES_OBSTAGOON,
+    .ability = 1, // Guts
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,    
+    .moves = MOVE_CROSS_CHOP, MOVE_RETURN, MOVE_NIGHT_SLASH, MOVE_SCARY_FACE
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_BLISSEY,
+    .heldItem = ITEM_LEFTOVERS,
+    .spread = SPREAD_31_IV_DEF_SPATK,
+    .moves = MOVE_BLIZZARD, MOVE_FIRE_BLAST, MOVE_THUNDER, MOVE_SOFT_BOILED
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy6[] = {
@@ -8156,7 +8466,21 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy6[] = {
     .heldItem = ITEM_SITRUS_BERRY,
     .spread = SPREAD_31_IV_HP_SPATK_MODEST,
     .moves = MOVE_HYPER_VOICE, MOVE_MYSTICAL_FIRE, MOVE_SHADOW_BALL, MOVE_YAWN
-    }
+    },
+    {
+    .lvl = 0,
+    .species = SPECIES_OBSTAGOON,
+    .ability = 1, // Guts
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,    
+    .moves = MOVE_CROSS_CHOP, MOVE_RETURN, MOVE_NIGHT_SLASH, MOVE_SCARY_FACE
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_BLISSEY,
+    .heldItem = ITEM_LEFTOVERS,
+    .spread = SPREAD_31_IV_DEF_SPATK,
+    .moves = MOVE_BLIZZARD, MOVE_FIRE_BLAST, MOVE_THUNDER, MOVE_SOFT_BOILED
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Irene[] = {
@@ -8174,7 +8498,32 @@ static const struct TrainerMonItemCustomMoves sParty_Irene[] = {
     .ability = 2, // Sap Sipper
     .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_AQUA_TAIL, MOVE_PLAY_ROUGH, MOVE_ROLLOUT, MOVE_DEFENSE_CURL
-    }
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_DELIBIRD,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_FLY, MOVE_EXTREME_SPEED, MOVE_SEED_BOMB, MOVE_GUNK_SHOT
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_SKIPLOOM,
+    .heldItem = ITEM_SITRUS_BERRY	    
+    .moves = MOVE_LEEH_SEED, MOVE_MEGA_DRAIN, MOVE_U_TURN, MOVE_GROWTH
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_ODDISH,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = MOVE_GROWTH, MOVE_ABSORB, MOVE_ACID, MOVE_POISON_POWDER
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_PSYDUCK,
+    .heldItem = ITEM_SITRUS_BERRY	    
+    .moves = MOVE_CONFUSION, MOVE_AMNESIA, MOVE_WATER_GUN, MOVE_CROSS_CHOP
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Travis[] = {
@@ -8190,7 +8539,33 @@ static const struct TrainerMonItemCustomMoves sParty_Travis[] = {
     .species = SPECIES_PIDGEOTTO,
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_AIR_CUTTER, MOVE_UPROAR, MOVE_TAILWIND, MOVE_ROOST
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_LOMBRE,
+    .heldItem = ITEM_NUGGET,
+    .moves = MOVE_ASTONISH, MOVE_ABSORB, MOVE_BUBBLE, MOVE_FAKE_OUT
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_NUZLEAF,
+    .heldItem = ITEM_SITRUS_BERRY,	    
+    .spread = SPREAD_10_IV_0_EV,
+    .moves = MOVE_FEINT_ATTACK, MOVE_LEAF_BLADE, MOVE_AIR_CUTTER, MOVE_GROWTH
+    },
+    {
+    .lvl = -4,
+    .species = SPECIES_CUBONE,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_MUD_SLAP, MOVE_HEADBUTT, MOVE_BONE_CLUB, MOVE_BONEMERANG  
+    },	
+    {
+    .lvl = -1,
+    .species = SPECIES_NATU,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = MOVE_PECK, MOVE_NIGHT_SHADE, MOVE_OMINOUS_WIND, MOVE_WISH
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Wilton1[] = {
@@ -8216,7 +8591,27 @@ static const struct TrainerMonItemCustomMoves sParty_Wilton1[] = {
     .ability = 2, // Rough Skin
     .spread = SPREAD_31_IV_0_EV,
     .moves = MOVE_DIG, MOVE_DUAL_CHOP, MOVE_POISON_JAB, MOVE_FLAMETHROWER
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_VIBRAVA,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_EARTH_POWER, MOVE_BUG_BUZZ, MOVE_ROCK_SLIDE, MOVE_HYPER_BEAM
+    },
+    {
+    .lvl = -4,
+    .species = SPECIES_SANDYGAST,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_MEGA_DRAIN, MOVE_SHORE_UP, MOVE_BULLDOZE, MOVE_IRON_DEFENSE   
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_WOOBAT,
+    .heldItem = ITEM_SITRUS_BERRY,	    
+    .moves = MOVE_HEART_STAMP, MOVE_ASSURANCE, MOVE_GUST, MOVE_ODOR_SLEUTH
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Wilton2[] = {
@@ -8365,7 +8760,27 @@ static const struct TrainerMonItemCustomMoves sParty_Brooke1[] = {
     .ability = 2, // Technician
     .spread = SPREAD_31_IV_0_EV,
     .moves = MOVE_MEGA_DRAIN, MOVE_EXTRASENSORY, MOVE_TOXIC, MOVE_VENOSHOCK
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_STARAVIA,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_AERIAL_ACE, MOVE_QUICK_ATTACK, MOVE_GROWL, MOVE_DOUBLE_TEAM
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_SEEL,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = MOVE_ICE_SHARD, MOVE_ENCORE, MOVE_HEADBUTT, MOVE_ICY_WIND
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_GRIMER,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .ability = 2, // Poison Touch
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_SHADOW_SNEAK, MOVE_VENOSHOCK, MOVE_POISON_GAS
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Brooke2[] = {
@@ -8498,7 +8913,38 @@ static const struct TrainerMonItemCustomMoves sParty_Daisuke[] = {
     .ability = 2, // Iron Fist
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_DRAIN_PUNCH, MOVE_ROCK_SLIDE, MOVE_CHIP_AWAY, MOVE_BULK_UP
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_PIDGEOTTO,
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_AIR_CUTTER, MOVE_UPROAR, MOVE_TAILWIND, MOVE_ROOST
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_KROKOROK,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_BITE, MOVE_SAND_ATTACK, MOVE_DIG, MOVE_FIRE_FANG
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_WHIRLIPEDE,
+    .heldItem = ITEM_SITRUS_BERRY	    
+    .moves = MOVE_IRON_DEFENSE, MOVE_ROLLOUT, MOVE_POISON_TAIL, MOVE_BUG_BITE
+    },	
+    {
+    .lvl = -3,
+    .species = SPECIES_KRABBY,
+    .heldItem = ITEM_SITRUS_BERRY	    
+    .moves = MOVE_WATER_GUN, MOVE_HARDEN, MOVE_VISE_GRIP, MOVE_MUD_SHOT
+    },
+    {
+    .lvl = 0,
+    .species = SPECIES_EXEGGCUTE,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_SLEEP_POWDER, MOVE_LEECH_SEED, MOVE_BULLET_SEED, MOVE_CONFUSSION
+    }	
 };
 
 // Route 111 Desert
@@ -8516,7 +8962,35 @@ static const struct TrainerMonItemCustomMoves sParty_Heidi[] = {
     .heldItem = ITEM_SAFETY_GOGGLES,
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_SLEEP_POWDER, MOVE_GIGA_DRAIN, MOVE_QUIVER_DANCE, MOVE_GRASSY_TERRAIN
-    }
+    },
+    {
+    .lvl = 0,
+    .species = SPECIES_DUOSION,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_PSYWAVE, MOVE_RECOVER, MOVE_HIDDEN_POWER, MOVE_ACID_ARMOR
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_GRAVELER,
+    .ability = 1, // Sturdy
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_BULLDOZE, MOVE_SMACK_DOWN, MOVE_SELF_DESTRUCT, MOVE_ROCK_POLISH
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_DOUBLADE,
+    .heldItem = ITEM_EVIOLITE,
+    .spread = SPREAD_31_IV_0_EV,
+    .moves = MOVE_SHADOW_CLAW, MOVE_IRON_HEAD, MOVE_PSYCHO_CUT, MOVE_SHADOW_SNEAK
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_ROTOM,
+    .heldItem = ITEM_SITRUS_BERRY	    
+    .spread = SPREAD_10_IV_0_EV,
+    .moves = MOVE_DOUBLE_TEAM, MOVE_SUBSTITUTE, MOVE_CONFUSE_RAY, MOVE_DISCHARGE
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Beau[] = {
@@ -8539,7 +9013,26 @@ static const struct TrainerMonItemCustomMoves sParty_Beau[] = {
     .ability = 1, // Overcoat
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_BONE_RUSH, MOVE_NASTY_PLOT, MOVE_AIR_SLASH, MOVE_DARK_PULSE
-    }
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_SEWADDLE,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = MOVE_BUG_BITE, MOVE_GRASS_WHISTLE, MOVE_RAZOR_LEAF, MOVE_PROTECT 
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_ONIX,
+    .heldItem = ITEM_EVIOLITE,
+    .spread = SPREAD_31_IV_0_EV,
+    .moves = MOVE_CURSE, MOVE_IRON_TAIL, MOVE_STONE_EDGE, MOVE_DIG
+    },	
+    {
+    .lvl = -2,
+    .species = SPECIES_VANILLISH,
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_FREEZE_DRY, MOVE_WATER_PULSE, MOVE_ACID_ARMOR, MOVE_FLASH_CANNON
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Drew[] = {
@@ -8556,7 +9049,33 @@ static const struct TrainerMonItemCustomMoves sParty_Drew[] = {
     .ability = 1, // Sand Rush
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_SUCKER_PUNCH, MOVE_NEEDLE_ARM, MOVE_PIN_MISSILE, MOVE_SPIKY_SHIELD
-    }
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_KRICKETUNE,
+    .spread = SPREAD_10_IV_0_EV,
+    .moves = MOVE_X_SCISSOR, MOVE_UPROAR, MOVE_AIR_SLASH, MOVE_SING
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_PALPITOAD,
+    .ability = 2, // Water Absorb
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_BUBBLE_BEAM, MOVE_ACID, MOVE_MUD_SHOT, MOVE_ROUND
+    },
+    {
+    .lvl = 0,
+    .species = SPECIES_VIGOROTH,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_YAWN, MOVE_SLACK_OFF, MOVE_AMNESIA, MOVE_CHIP_AWAY
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_WORMADAM_TRASH_CLOAK,
+    .spread = SPREAD_15_IV_0_EV,    
+    .moves = MOVE_QUIVER_DANCE, MOVE_PSYBEAM, MOVE_HIDDEN_POWER, MOVE_ROCK_BLAST
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Becky[] = {
@@ -8580,7 +9099,27 @@ static const struct TrainerMonItemCustomMoves sParty_Becky[] = {
     .species = SPECIES_ABOMASNOW,
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_WOOD_HAMMER, MOVE_BLIZZARD, MOVE_ICE_PUNCH, MOVE_AURORA_VEIL
-    }
+    },
+    {
+    .lvl = 0,
+    .species = SPECIES_POLIWHIRL,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = MOVE_HYPNOSIS, MOVE_BUBBLE_BEAM, MOVE_BELLY_DRUM, MOVE_BODY_SLAM
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_GRIMER_ALOLAN,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .ability = 0, // Poison Touch
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_POISON_FANG, MOVE_BITE, MOVE_DISABLE, MOVE_MINIMIZE
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_LAIRON,
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_IRON_HEAD, MOVE_ROCK_SLIDE, MOVE_TAKE_DOWN, MOVE_PROTECT
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Celia[] = {
@@ -8597,7 +9136,32 @@ static const struct TrainerMonItemCustomMoves sParty_Celia[] = {
     .heldItem = ITEM_SAFETY_GOGGLES,
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_SLUDGE, MOVE_PETAL_DANCE, MOVE_STUN_SPORE, MOVE_TAKE_DOWN
-    }
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_SEWADDLE,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = MOVE_BUG_BITE, MOVE_GRASS_WHISTLE, MOVE_RAZOR_LEAF, MOVE_PROTECT 
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_WEEPINBELL,
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_POISON_JAB, MOVE_RAZOR_LEAF, MOVE_KNOCK_OFF, MOVE_GASTRO_ACID
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_KLANG,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = MOVE_CHARGE_BEAM, MOVE_THUNDER_WAVE, MOVE_VISE_GRIP, MOVE_GEAR_GRIND
+    },
+    {
+    .lvl = 0,
+    .species = SPECIES_ROSELIA,
+    .heldItem = ITEM_BLACK_SLUDGE,
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_GIGA_DRAIN, MOVE_VENOSHOCK, MOVE_POISON_POWDER, MOVE_LEECH_SEED
+    },	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Bryan[] = {
@@ -8612,7 +9176,34 @@ static const struct TrainerMonItemCustomMoves sParty_Bryan[] = {
     .species = SPECIES_TYRANTRUM,
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_ROCK_SLIDE, MOVE_DRAGON_CLAW, MOVE_CRUNCH, MOVE_THUNDER_FANG
-    }
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_GRAVELER_ALOLAN,
+    .heldItem = ITEM_SITRUS_BERRY,	    
+    .moves = ROLLOUT, MOVE_ROCK_THROW, MOVE_THUNDER_PUNCH, MOVE_EXPLOSION
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_YANMA,
+    .spread = SPREAD_25_IV_0_EV,    
+    .moves = MOVE_SIGNAL_BEAM, MOVE_AIR_CUTTER, MOVE_ANCIENT_POWER, MOVE_UPROAR
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_EELEKTRIK,
+    .heldItem = ITEM_FLYING_GEM,
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_DISCHARGE, MOVE_CRUNCH, MOVE_ACID_SPRAY, MOVE_ACROBATICS
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_GABITE,
+    .heldItem = ITEM_ROCKY_HELMET,
+    .ability = 2, // Rough Skin
+    .spread = SPREAD_31_IV_0_EV,
+    .moves = MOVE_DIG, MOVE_DUAL_CHOP, MOVE_POISON_JAB, MOVE_FLAMETHROWER
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Branden[] = {
@@ -8630,7 +9221,34 @@ static const struct TrainerMonItemCustomMoves sParty_Branden[] = {
     .ability = 2, // Chlorophyll
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_LEAF_BLADE, MOVE_X_SCISSOR, MOVE_SUNNY_DAY, MOVE_SYNTHESIS
-    }
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_GOTHORITA,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .spread = SPREAD_31_IV_HP_DEF_BOLD,
+    .moves = MOVE_FUTURE_SIGHT, MOVE_NASTY_PLOT, MOVE_PROTECT, MOVE_THUNDERBOLT
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_KADABRA,
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_PSYBEAM, MOVE_MIRACLE_EYE, MOVE_NONE
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_FRAXURE,
+    .heldItem = ITEM_FOCUS_SASH,
+    .ability = 1, // Mold Breaker
+    .spread = SPREAD_31_IV_ATK_SPEED_ADAMANT,
+    .moves = MOVE_OUTRAGE, MOVE_EARTHQUAKE, MOVE_CRUNCH, MOVE_DRAGON_DANCE
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_PUPITAR,
+    .spread = SPREAD_31_IV_0_EV,
+    .moves = MOVE_PAYBACK, MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_SCREECH
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Dusty1[] = {
@@ -8652,7 +9270,27 @@ static const struct TrainerMonItemCustomMoves sParty_Dusty1[] = {
     .species = SPECIES_BASTIODON,
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_METAL_BURST, MOVE_SHORE_UP, MOVE_BLOCK, MOVE_SWAGGER
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_ARIADOS,
+    .heldItem = ITEM_SITRUS_BERRY
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_POISON_JAB, MOVE_LEECH_LIFE, MOVE_SUCKER_PUNCH, MOVE_PSYCHIC_FANGS
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_ONIX,
+    .heldItem = ITEM_EVIOLITE,
+    .spread = SPREAD_31_IV_0_EV,
+    .moves = MOVE_CURSE, MOVE_IRON_TAIL, MOVE_STONE_EDGE, MOVE_DIG
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_WORMADAM_SANDY_CLOAK,
+    .spread = SPREAD_15_IV_0_EV,    
+    .moves = MOVE_QUIVER_DANCE, MOVE_PSYBEAM, MOVE_HIDDEN_POWER, MOVE_ROCK_BLAST
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Dusty2[] = {
@@ -8755,7 +9393,32 @@ static const struct TrainerMonItemCustomMoves sParty_Vivian[] = {
     .heldItem = ITEM_LIECHI_BERRY,
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_THUNDER_PUNCH, MOVE_LOW_SWEEP, MOVE_BULLET_PUNCH, MOVE_ROCK_SLIDE
-    }
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_LUXIO,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .spread = SPREAD_10_IV_0_EV,
+    .moves = MOVE_BITE, MOVE_SPARK, MOVE_HOWL, MOVE_ROAR
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_FLAAFFY,
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_ELECTRO_BALL, MOVE_COTTON_SPORE, MOVE_CHARGE, MOVE_TAKE_DOWN
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_VOLTORB,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_SPARK, MOVE_SELF_DESTRUCT, MOVE_ROLLOUT, MOVE_MIRROR_COAT
+    },
+    {
+    .lvl = 0,
+    .species = SPECIES_CHINCHOU,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_WATER_PULSE, MOVE_SPARK, MOVE_SIGNAL_BEAM, MOVE_AGILITY
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Kirk[] = {
@@ -8779,7 +9442,28 @@ static const struct TrainerMonItemCustomMoves sParty_Kirk[] = {
     .heldItem = ITEM_SITRUS_BERRY,
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_BLAZE_KICK, MOVE_WILD_CHARGE, MOVE_DOUBLE_KICK, MOVE_PURSUIT
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_PLUSLE,
+    .heldItem = ITEM_ORAN_BERRY,
+    .spread = SPREAD_10_IV_0_EV,
+    .moves = MOVE_ELECTRO_BALL, MOVE_NUZZLE, MOVE_HELPING_HAND, MOVE_CHARM
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_DOTTLER,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_CONFUSION, MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_STRUGGLE_BUG
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_ARCHEN,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_ROCK_TOMB, MOVE_BITE, MOVE_AERIAL_ACE, MOVE_QUICK_ATTACK
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Ben[] = {
@@ -8804,7 +9488,26 @@ static const struct TrainerMonItemCustomMoves sParty_Ben[] = {
     .ability = 2, // Sturdy
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_ZING_ZAP, MOVE_MAGNET_RISE, MOVE_PIN_MISSILE, MOVE_IRON_HEAD
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_MINUN,
+    .heldItem = ITEM_ORAN_BERRY,
+    .spread = SPREAD_10_IV_0_EV,
+    .moves = MOVE_ELECTRO_BALL, MOVE_NUZZLE, MOVE_HELPING_HAND, MOVE_FAKE_TEARS
+    },
+    {
+    .lvl = -4,
+    .species = SPECIES_JOLTIK,
+    .heldItem = ITEM_SITRUS_BERRY	    
+    .moves = MOVE_THUNDER_SHOCK, MOVE_FURY_CUTTER, MOVE_ABSORB, MOVE_SPIDER_WEB
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_PONYTA_GALARIAN,
+	    .heldItem = ITEM_ORAN_BERRY,
+    .moves = MOVE_GROWL, MOVE_TACKLE, MOVE_CONFUSION, MOVE_FAIRY_WIND
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Angelo[] = {
@@ -8824,6 +9527,34 @@ static const struct TrainerMonItemCustomMoves sParty_Angelo[] = {
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_SHOCK_WAVE, MOVE_QUICK_ATTACK, MOVE_CONFUSE_RAY, MOVE_STRUGGLE_BUG
     },
+    {
+    .lvl = -2,
+    .species = SPECIES_CHARJABUG,
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_X_SCISSOR, MOVE_WILD_CHARGE, MOVE_CRUNCH, MOVE_ACROBATICS
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_KLANG,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = MOVE_CHARGE_BEAM, MOVE_THUNDER_WAVE, MOVE_VISE_GRIP, MOVE_GEAR_GRIND
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_TYRUNT,
+    .heldItem = ITEM_RED_CARD,
+    .ability = 2, // Sturdy
+    .spread = SPREAD_ROXANNE_ONE_MON,
+    .moves = MOVE_ROCK_TOMB, MOVE_BITE, MOVE_DRAGON_TAIL, MOVE_POISON_FANG
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_AMAURA,
+    .heldItem = ITEM_CHOPLE_BERRY,
+    .ability = 0, // Refrigerate
+    .spread = SPREAD_ROXANNE_ONE_MON,
+    .moves = MOVE_ROCK_TOMB, MOVE_THUNDER_WAVE, MOVE_BULLDOZE, MOVE_ECHOED_VOICE
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Shawn[] = {
@@ -8839,7 +9570,32 @@ static const struct TrainerMonItemCustomMoves sParty_Shawn[] = {
     .species = SPECIES_RAICHU,
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_THUNDERBOLT, MOVE_GRASS_KNOT, MOVE_SIGNAL_BEAM, MOVE_QUICK_ATTACK
-    }
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_DEDENNE,
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_PLAY_ROUGH, MOVE_WILD_CHARGE, MOVE_GRASS_KNOT, MOVE_SUPER_FANG
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_TOGEDEMARU,
+    .heldItem = ITEM_CHOPLE_BERRY,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_IRON_TAIL, MOVE_ZING_ZAP, MOVE_THUNDER_WAVE, MOVE_ZEN_HEADBUTT
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_SHELLOS_EAST_SEA,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_MUD_SLAP, MOVE_RECOVER, MOVE_WATER_GUN, MOVE_HIDDEN_POWER
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_SHELLOS,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_MUD_SLAP, MOVE_RECOVER, MOVE_WATER_GUN, MOVE_HIDDEN_POWER
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Wattson1[] = {
@@ -9092,7 +9848,37 @@ static const struct TrainerMonItemCustomMoves sParty_Larry[] = {
     .species = SPECIES_VICTREEBEL,
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_LEAF_TORNADO, MOVE_POISON_JAB, MOVE_GROWTH, MOVE_SLEEP_POWDER
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_NIDORINA,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_DOUBLE_KICK, MOVE_TOXIC_SPIKES, MOVE_CRUNCH, MOVE_POISON_FANG
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_CORVISQUIRE,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = MOVE_PECK, MOVE_ROCK_SMASH, MOVE_SAND_ATTACK, MOVE_TAILWIND
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_HATTREM,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = MOVE_NUZZLE, MOVE_CONFUSION, MOVE_LIFE_DEW, MOVE_DISARMING_VOICE
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_STEENEE,
+    .spread = SPREAD_10_IV_0_EV,
+    .moves = MOVE_ACUPRESSURE, MOVE_SYNTHESIS, MOVE_LEAF_STORM, MOVE_DRAINING_KISS
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_CHARJABUG,
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_X_SCISSOR, MOVE_WILD_CHARGE, MOVE_CRUNCH, MOVE_ACROBATICS
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Carol[] = {
@@ -9107,7 +9893,34 @@ static const struct TrainerMonItemCustomMoves sParty_Carol[] = {
     .species = SPECIES_VILEPLUME,
     .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_GIGA_DRAIN, MOVE_MOONBLAST, MOVE_TOXIC, MOVE_MOONLIGHT
-    }
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_MORGREM,
+    .heldItem = ITEM_LIGHT_CLAY,
+    .ability = 0, // Prankster
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_SUCKER_PUNCH, MOVE_SPIRIT_BREAK, MOVE_LIGHT_SCREEN, MOVE_REFLECT
+    },
+    {
+    .lvl = 0,
+    .species = SPECIES_DUOSION,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_PSYWAVE, MOVE_RECOVER, MOVE_HIDDEN_POWER, MOVE_ACID_ARMOR
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_STARYU,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_SWIFT, MOVE_PSYWAVE, MOVE_WATER_GUN, MOVE_RECOVER
+    },
+    {
+    .lvl = -4,
+    .species = SPECIES_CRABRAWLER,
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_PURSUIT, MOVE_ROCK_SMASH, MOVE_LEER, MOVE_BUBBLE_BEAM
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Brice[] = {
@@ -9122,7 +9935,34 @@ static const struct TrainerMonItemCustomMoves sParty_Brice[] = {
     .species = SPECIES_CRUSTLE,
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_X_SCISSOR, MOVE_ROCK_BLAST, MOVE_WITHDRAW, MOVE_SLASH
-    }
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_PALPITOAD,
+    .ability = 2, // Water Absorb
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_BUBBLE_BEAM, MOVE_ACID, MOVE_MUD_SHOT, MOVE_ROUND
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_TRUMBEAK,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = MOVE_PECK, MOVE_ECHOED_VOICE, MOVE_ROCK_SMASH, MOVE_SUPERSONIC
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_DOTTLER,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_CONFUSION, MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_STRUGGLE_BUG
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_ELGYEM,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_CONFUSION, MOVE_CALM_MIND, MOVE_HIDDEN_POWER, MOVE_RECOVER
+    }	
 };
 
 // Quality team design right here
@@ -9154,6 +9994,12 @@ static const struct TrainerMonItemCustomMoves sParty_Trent1[] = {
     .ability = 2, // Galvanize
     .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_GEODUDE,
+    .heldItem = ITEM_SITRUS_BERRY,	    
+    .moves = MOVE_ROCK_THROW, MOVE_DEFENSE_CURL, MOVE_EXPLOSION
     }
 };
 
@@ -9291,7 +10137,35 @@ static const struct TrainerMonItemCustomMoves sParty_Bryant[] = {
     .ability = 2, // Flash Fire
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_FLAMETHROWER, MOVE_SWIFT, MOVE_QUICK_ATTACK, MOVE_SMOKESCREEN
-    }
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_BOLDORE,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_POWER_GEM, MOVE_SHOCK_WAVE, MOVE_ROUND, MOVE_IRON_DEFENSE
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_PARASECT,
+    .heldItem = ITEM_LEFTOVERS,
+    .ability = 1, // Dry Skin
+    .spread = SPREAD_31_IV_HP_SPDEF_CAREFUL,
+    .moves = MOVE_SPORE, MOVE_LEECH_LIFE, MOVE_SEED_BOMB, MOVE_SUBSTITUTE
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_SHIELDON,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_TAUNT, MOVE_COUNTER, MOVE_ROCK_TOMB, MOVE_IRON_DEFENSE
+    },
+    {
+    .lvl = 0,
+    .species = SPECIES_BUNEARY,
+    .heldItem = ITEM_NUGGET,
+    .moves = MOVE_ENDURE, MOVE_POUND, MOVE_DEFENSE_CURL, MOVE_BABY_DOLL_EYES
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Shayla[] = {
@@ -9308,7 +10182,34 @@ static const struct TrainerMonItemCustomMoves sParty_Shayla[] = {
     .ability = 1, // Flower Veil
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_PETAL_DANCE, MOVE_REFLECT, MOVE_SYNTHESIS, MOVE_POISON_POWDER
-    }
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_FLOETTE,
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_MAGICAL_LEAF, MOVE_DRAINING_KISS, MOVE_WISH, MOVE_LEECH_SEED
+    },
+    {
+    .lvl = 0,
+    .species = SPECIES_FLETCHINDER,
+    .heldItem = ITEM_FLYING_GEM,
+    .ability = 2, // Gale Wings
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_FLAME_CHARGE, MOVE_ACROBATICS, MOVE_STEEL_WING, MOVE_ROOST
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_SKORUPI,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_FELL_STINGER, MOVE_BITE, MOVE_TOXIC_SPIKES, MOVE_VENOSHOCK
+    },
+    {
+    .lvl = -4,
+    .species = SPECIES_ZORUA,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_PURSUIT, MOVE_KNOCK_OFF, MOVE_REVENGE, MOVE_HEX
+    }	
 };
 
 // Route 113
@@ -9325,7 +10226,33 @@ static const struct TrainerMonItemCustomMoves sParty_Jaylen[] = {
     .species = SPECIES_DARUMAKA,
     .spread = SPREAD_31_IV_0_EV,
     .moves = MOVE_FLARE_BLITZ, MOVE_HEADBUTT, MOVE_BITE, MOVE_WORK_UP
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_KROKOROK,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_BITE, MOVE_SAND_ATTACK, MOVE_DIG, MOVE_FIRE_FANG
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_YANMA,
+    .spread = SPREAD_25_IV_0_EV,    
+    .moves = MOVE_SIGNAL_BEAM, MOVE_AIR_CUTTER, MOVE_ANCIENT_POWER, MOVE_UPROAR
+    },
+    {
+    .lvl = -4,
+    .species = SPECIES_CUFANT,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_ROCK_SMASH, MOVE_BULLDOZE, MOVE_IRON_DEFENSE, MOVE_IRON_HEAD 
+    },
+    {
+    .lvl = -4,
+    .species = SPECIES_MIENFOO,
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_FAKE_OUT, MOVE_DETECT, MOVE_MEDITATE, MOVE_LOW_SWEEP
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Dillon[] = {
@@ -9341,7 +10268,35 @@ static const struct TrainerMonItemCustomMoves sParty_Dillon[] = {
     .species = SPECIES_STOUTLAND,
     .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_RETALIATE, MOVE_CRUNCH, MOVE_FIRE_FANG, MOVE_ROAR
-    }
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_NIDORINO,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_HORN_ATTACK, MOVE_TOXIC_SPIKES, MOVE_POISON_TAIL, MOVE_IRON_TAIL
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_TRANQUILL,
+    .spread = SPREAD_15_IV_0_EV,    
+    .moves = MOVE_QUICK_ATTACK, MOVE_AIR_SLASH, MOVE_ROOST, MOVE_DETECT
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_LILEEP,
+    .heldItem = ITEM_ORAN_BERRY,
+    .ability = 2, // Storm Drain
+    .spread = SPREAD_ROXANNE_ONE_MON,
+    .moves = MOVE_ROCK_TOMB, MOVE_MEGA_DRAIN, MOVE_INFESTATION, MOVE_PAIN_SPLIT
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_ANORITH,
+    .heldItem = ITEM_WATER_GEM,
+    .ability = 0, // Battle Armor
+    .spread = SPREAD_ROXANNE_ONE_MON,
+    .moves = MOVE_ROCK_TOMB, MOVE_CUT, MOVE_BUG_BITE, MOVE_AQUA_JET
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Lawrence[] = {
@@ -9356,7 +10311,33 @@ static const struct TrainerMonItemCustomMoves sParty_Lawrence[] = {
     .species = SPECIES_HIPPOPOTAS,
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_EARTHQUAKE, MOVE_CRUNCH, MOVE_TAKE_DOWN, MOVE_YAWN
-    }
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_GLOOM,
+    .spread = SPREAD_10_IV_0_EV,
+    .moves = MOVE_GIGA_DRAIN, MOVE_SLEEP_POWDER, MOVE_ACID, MOVE_LUCKY_CHANT
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_MACHOKE,
+    .heldItem = ITEM_LIECHI_BERRY,
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_THUNDER_PUNCH, MOVE_LOW_SWEEP, MOVE_BULLET_PUNCH, MOVE_ROCK_SLIDE
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_SKIDDO,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = MOVE_TACKLE, MOVE_GROWTH, MOVE_VINE_WHIP, MOVE_LEECH_SEED
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_PAWNIARD,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_FURY-CUTTER, MOVE_METAL_CLAW, MOVE_SLASH, MOVE_SWORDS_DANCE
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Lung[] = {
@@ -9371,7 +10352,34 @@ static const struct TrainerMonItemCustomMoves sParty_Lung[] = {
     .species = SPECIES_NINJASK,
     .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_SWORDS_DANCE, MOVE_AERIAL_ACE, MOVE_FURY_CUTTER, MOVE_DIG
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_HAUNTER,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_HYPNOSIS, MOVE_CONFUSE_RAY, MOVE_HEX, MOVE_SUCKER_PUNCH
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_MORGREM,
+    .heldItem = ITEM_LIGHT_CLAY,
+    .ability = 0, // Prankster
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_SUCKER_PUNCH, MOVE_SPIRIT_BREAK, MOVE_LIGHT_SCREEN, MOVE_REFLECT
+    },	
+    {
+    .lvl = -3,
+    .species = SPECIES_STUFFUL,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_BRUTAL_SWING, MOVE_BIDE, MOVE_FORCE_PALM, MOVE_BULLDOZE
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_SPRITZEE,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_CALM_MIND, MOVE_DRAINING_KISS, MOVE_PSYCHIC, MOVE_DISARMING_VOICE
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Lao1[] = {
@@ -9392,7 +10400,28 @@ static const struct TrainerMonItemCustomMoves sParty_Lao1[] = {
     .species = SPECIES_KOFFING,
     .spread = SPREAD_31_IV_0_EV,
     .moves = MOVE_SLUDGE_BOMB, MOVE_TOXIC, MOVE_SELF_DESTRUCT, MOVE_GYRO_BALL
-    }
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_CORVISQUIRE,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = MOVE_PECK, MOVE_ROCK_SMASH, MOVE_SAND_ATTACK, MOVE_TAILWIND
+    },
+    {
+    .lvl = 0,
+    .species = SPECIES_NOSEPASS,
+    .heldItem = ITEM_BERRY_JUICE,
+    .ability = 2, // Sand Force
+    .spread = SPREAD_ROXANNE_NOSEPASS,
+    .moves = MOVE_SANDSTORM, MOVE_ROCK_TOMB, MOVE_BULLDOZE, MOVE_FIRE_PUNCH
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_VULLABY,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_AIR_SLASH, MOVE_KNOCK_OFF, MOVE_IRON_DEFENSE, MOVE_ROOST 
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Lao2[] = {
@@ -9498,7 +10527,26 @@ static const struct TrainerMonItemCustomMoves sParty_Madeline1[] = {
     .species = SPECIES_SEALEO,
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_BRINE, MOVE_AURORA_BEAM, MOVE_HAIL, MOVE_SWAGGER
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_STARAVIA,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_AERIAL_ACE, MOVE_QUICK_ATTACK, MOVE_GROWL, MOVE_DOUBLE_TEAM
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_PONYTA_GALARIAN,
+	    .heldItem = ITEM_ORAN_BERRY,
+    .moves = MOVE_GROWL, MOVE_TACKLE, MOVE_CONFUSION, MOVE_FAIRY_WIND
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_ARCHEN,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_ROCK_TOMB, MOVE_BITE, MOVE_AERIAL_ACE, MOVE_QUICK_ATTACK
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Madeline2[] = {
@@ -9604,7 +10652,37 @@ static const struct TrainerMonItemCustomMoves sParty_ToriAndTia[] = {
     .species = SPECIES_SPINDA,
     .spread = SPREAD_31_IV_0_EV,
     .moves = MOVE_HYPNOSIS, MOVE_DIZZY_PUNCH, MOVE_PSYCH_UP, MOVE_SUCKER_PUNCH
-    }
+    },
+
+    {
+    .lvl = -3,
+    .species = SPECIES_SKIPLOOM,
+    .heldItem = ITEM_SITRUS_BERRY	    
+    .moves = MOVE_LEEH_SEED, MOVE_MEGA_DRAIN, MOVE_U_TURN, MOVE_GROWTH
+    },
+
+    {
+    .lvl = -2,
+    .species = SPECIES_GOTHORITA,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .spread = SPREAD_31_IV_HP_DEF_BOLD,
+    .moves = MOVE_FUTURE_SIGHT, MOVE_NASTY_PLOT, MOVE_PROTECT, MOVE_THUNDERBOLT
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_OMANYTE,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_WATER_GUN, MOVE_BITE, MOVE_MUD_SHOT, MOVE_ANCIENT_POWER
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_KABUTO,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .ability = 1, // Battle Armor
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_ROCK_TOMB, MOVE_AQUA_JET, MOVE_ABSORB, MOVE_SCREECH 
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Wyatt[] = {
@@ -9619,7 +10697,36 @@ static const struct TrainerMonItemCustomMoves sParty_Wyatt[] = {
     .species = SPECIES_NIDOKING,
     .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_POISON_FANG, MOVE_EARTH_POWER, MOVE_THRASH, MOVE_THUNDER_PUNCH
-    }
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_MORGREM,
+    .heldItem = ITEM_LIGHT_CLAY,
+    .ability = 0, // Prankster
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_SUCKER_PUNCH, MOVE_SPIRIT_BREAK, MOVE_LIGHT_SCREEN, MOVE_REFLECT
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_FRAXURE,
+    .heldItem = ITEM_FOCUS_SASH,
+    .ability = 1, // Mold Breaker
+    .spread = SPREAD_31_IV_ATK_SPEED_ADAMANT,
+    .moves = MOVE_OUTRAGE, MOVE_EARTHQUAKE, MOVE_CRUNCH, MOVE_DRAGON_DANCE
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_CACNEA,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_SAND_ATTACK, MOVE_LEECH_SEED, MOVE_NEEDLE_ARM, MOVE_SPIKES
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_MUDBRAY,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_DOUBLE_KICK, MOVE_HIGH_HORSEPOWER, MOVE_IRON_DEFENSE, MOVE_HEAVY_SLAM
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Sophie[] = {
@@ -9640,7 +10747,26 @@ static const struct TrainerMonItemCustomMoves sParty_Sophie[] = {
     .species = SPECIES_SANDSLASH_ALOLAN,
     .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_ICICLE_SPEAR, MOVE_IRON_HEAD, MOVE_METAL_BURST, MOVE_SLASH
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_LOMBRE,
+    .heldItem = ITEM_NUGGET,
+    .moves = MOVE_ASTONISH, MOVE_ABSORB, MOVE_BUBBLE, MOVE_FAKE_OUT
+    },	
+    {
+    .lvl = -3,
+    .species = SPECIES_MURKROW,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_AERIAL_ACE, MOVE_SUCKER_PUNCH, MOVE_ROOST, MOVE_CONFUSE_RAY
+    },
+    {
+    .lvl = 5,
+    .species = SPECIES_LITLEO,
+    .ability = 1, // Unnerve, Rivalry OP
+    .moves = MOVE_TACKLE, MOVE_LEER, MOVE_EMBER
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Coby[] = {
@@ -9656,7 +10782,33 @@ static const struct TrainerMonItemCustomMoves sParty_Coby[] = {
     .ability = 1, // Skill Link
     .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_BEAK_BLAST, MOVE_ROCK_BLAST, MOVE_BULLET_SEED, MOVE_ROOST
-    }
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_LAMPENT,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = MOVE_MINIMIZE, MOVE_CONFUSE_RAY, MOVE_WILL_O_WISP, MOVE_HEX
+    },
+    {
+    .lvl = 0,
+    .species = SPECIES_FLETCHINDER,
+    .heldItem = ITEM_FLYING_GEM,
+    .ability = 2, // Gale Wings
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_FLAME_CHARGE, MOVE_ACROBATICS, MOVE_STEEL_WING, MOVE_ROOST
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_STEENEE,
+    .spread = SPREAD_10_IV_0_EV,
+    .moves = MOVE_ACUPRESSURE, MOVE_SYNTHESIS, MOVE_LEAF_STORM, MOVE_DRAINING_KISS
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_CHARJABUG,
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_X_SCISSOR, MOVE_WILD_CHARGE, MOVE_CRUNCH, MOVE_ACROBATICS
+    }	
 };
 
 // Route 114
@@ -9716,7 +10868,31 @@ static const struct TrainerMonItemCustomMoves sParty_Nolan[] = {
     .species = SPECIES_SEAKING,
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_WATERFALL, MOVE_POISON_JAB, MOVE_AQUA_RING, MOVE_AGILITY
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_LUVDISC,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = MOVE_TACKLE, MOVE_CHARM, MOVE_WATER_GUN, MOVE_AGILITY
+    },
+    {
+    .lvl = 0,
+    .species = SPECIES_POLIWHIRL,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = MOVE_HYPNOSIS, MOVE_BUBBLE_BEAM, MOVE_BELLY_DRUM, MOVE_BODY_SLAM
+    },
+    {
+    .lvl = -4,
+    .species = SPECIES_TIRTOUGA,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_AQUA_JET, MOVE_ANCIENT_POWER, MOVE_CRUNCH, MOVE_CURSE  
+    },
+    {
+    .lvl = -4,
+    .species = SPECIES_FRILLISH,
+    .moves = MOVE_BUBBLE_BEAM, MOVE_ABSORB, MOVE_NIGHT_SHADE, MOVE_WATER_SPORT
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Charlotte[] = {
@@ -9725,7 +10901,40 @@ static const struct TrainerMonItemCustomMoves sParty_Charlotte[] = {
     .species = SPECIES_TANGROWTH,
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_GIGA_DRAIN, MOVE_ANCIENT_POWER, MOVE_STUN_SPORE, MOVE_KNOCK_OFF
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_PIDGEOTTO,
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_AIR_CUTTER, MOVE_UPROAR, MOVE_TAILWIND, MOVE_ROOST
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_SPINDA,
+    .ability = 2, // Contrary
+    .spread = SPREAD_31_IV_0_EV,
+    .moves = MOVE_TEETER_DANCE, MOVE_DIZZY_PUNCH, MOVE_SUCKER_PUNCH, MOVE_SUPERPOWER
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_TRANQUILL,
+    .spread = SPREAD_15_IV_0_EV,    
+    .moves = MOVE_QUICK_ATTACK, MOVE_AIR_SLASH, MOVE_ROOST, MOVE_DETECT
+    },
+    {
+    .lvl = -4,
+    .species = SPECIES_DWEBBLE,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .ability = 0, // Sturdy
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_ROCK_TOMB, MOVE_FURY_CUTTER, MOVE_SAND_TOMB, MOVE_WITHDRAW
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_HONEDGE,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_SWORDS_DANCE, MOVE_SHADOW_SNEAK, MOVE_IRON_DEFENSE, MOVE_IRON_HEAD
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Kai[] = {
@@ -9734,7 +10943,39 @@ static const struct TrainerMonItemCustomMoves sParty_Kai[] = {
     .species = SPECIES_WHISCASH,
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_AQUA_TAIL, MOVE_EARTHQUAKE, MOVE_TICKLE, MOVE_ZEN_HEADBUTT
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_LOMBRE,
+    .heldItem = ITEM_NUGGET,
+    .moves = MOVE_ASTONISH, MOVE_ABSORB, MOVE_BUBBLE, MOVE_FAKE_OUT
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_PALPITOAD,
+    .ability = 2, // Water Absorb
+    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_BUBBLE_BEAM, MOVE_ACID, MOVE_MUD_SHOT, MOVE_ROUND
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_SEADRA,
+    .spread = SPREAD_31_IV_20_EV,
+    .moves = MOVE_BRINE, MOVE_AGILITY, MOVE_FOCUS_ENERGY, MOVE_AURORA_BEAM
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_AIPOM,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_SAND_ATTACK, MOVE_BEAT_UP, MOVE_FAKE_OUT, MOVE_LOW_KICK
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_SWIRLIX,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_DRAINING_KISS, MOVE_COTTON_GUARD, MOVE_WISH, MOVE_STICKY_WEB
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Claude[] = {
@@ -9755,7 +10996,26 @@ static const struct TrainerMonItemCustomMoves sParty_Claude[] = {
     .species = SPECIES_QWILFISH,
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_AQUA_TAIL, MOVE_POISON_JAB, MOVE_REVENGE, MOVE_STOCKPILE
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_CORSOLA_GALARIAN,
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_ICE_BEAM, MOVE_TOXIC, MOVE_HEX, MOVE_GIGA_DRAIN
+    },
+    {
+    .lvl = 0,
+    .species = SPECIES_DRIFLOON,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_MINIMIZE, MOVE_GUST, MOVE_HEX, MOVE_OMINOUS_WIND
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_SCRAGGY,
+    .ability = 1, // Moxie
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_FEINT_ATTACK, MOVE_LOW_KICK, MOVE_HEADBUTT, MOVE_LEER
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Nancy[] = {
@@ -9770,7 +11030,32 @@ static const struct TrainerMonItemCustomMoves sParty_Nancy[] = {
     .species = SPECIES_TORTERRA,
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_EARTHQUAKE, MOVE_SEED_BOMB, MOVE_CURSE, MOVE_LEECH_SEED
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_SEWADDLE,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = MOVE_BUG_BITE, MOVE_GRASS_WHISTLE, MOVE_RAZOR_LEAF, MOVE_PROTECT 
+    },
+     {
+    .lvl = -1,
+    .species = SPECIES_MORGREM,
+    .heldItem = ITEM_LIGHT_CLAY,
+    .ability = 0, // Prankster
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_SUCKER_PUNCH, MOVE_SPIRIT_BREAK, MOVE_LIGHT_SCREEN, MOVE_REFLECT
+    },
+    {
+    .lvl = -4,
+    .species = SPECIES_PANCHAM,
+    .moves = MOVE_KARATE_CHOP, MOVE_WORK_UP, MOVE_COMET_PUNCH
     }
+    {
+    .lvl = -2,
+    .species = SPECIES_BUIZEL,
+	       .heldItem = ITEM_ORAN_BERRY,
+    .moves = MOVE_GROWL, MOVE_QUICK_ATTACK
+    },	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_TyraAndIvy[] = {
@@ -9785,7 +11070,32 @@ static const struct TrainerMonItemCustomMoves sParty_TyraAndIvy[] = {
     .species = SPECIES_DONPHAN,
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_EARTHQUAKE, MOVE_ASSURANCE, MOVE_FIRE_FANG, MOVE_SCARY_FACE
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_WHIRLIPEDE,
+    .heldItem = ITEM_SITRUS_BERRY	    
+    .moves = MOVE_IRON_DEFENSE, MOVE_ROLLOUT, MOVE_POISON_TAIL, MOVE_BUG_BITE
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_SPINDA,
+    .ability = 2, // Contrary
+    .spread = SPREAD_31_IV_0_EV,
+    .moves = MOVE_TEETER_DANCE, MOVE_DIZZY_PUNCH, MOVE_SUCKER_PUNCH, MOVE_SUPERPOWER
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_HOUNDOUR,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_BITE, MOVE_FIRE_FANG, MOVE_BEAT_UP, MOVE_THUNDER_FANG
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_PHANPY,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .moves = MOVE_SLACK_OFF, MOVE_ICE_SHARD, MOVE_ROLLOUT, MOVE_BODY_SLAM
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Shane[] = {
@@ -9806,7 +11116,27 @@ static const struct TrainerMonItemCustomMoves sParty_Shane[] = {
     .species = SPECIES_ARBOK,
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_POISON_JAB, MOVE_CRUNCH, MOVE_GLARE, MOVE_ICE_FANG
-    }
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_SNEASEL,
+    .spread = SPREAD_15_IV_0_EV,    
+    .moves = MOVE_FEINT_ATTACK, MOVE_ICE_SHARD, MOVE_HONE_CLAWS, MOVE_QUICK_ATTACK
+    },
+    {
+    .lvl = 1,
+    .species = SPECIES_KIRLIA,
+    .heldItem = ITEM_FOCUS_SASH,
+    .ability = 1, // Trace
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_PSYCHIC, MOVE_DRAINING_KISS, MOVE_HYPNOSIS, MOVE_CHARM
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_CHARJABUG,
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_X_SCISSOR, MOVE_WILD_CHARGE, MOVE_CRUNCH, MOVE_ACROBATICS
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Steve1[] = {
