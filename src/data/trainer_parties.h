@@ -15197,7 +15197,7 @@ static const struct TrainerMonItemCustomMoves sParty_Foster[] = {
     .ability = 1, // Heat Proof
     .spread = SPREAD_31_IV_60_EV,
     .moves = MOVE_HYPNOSIS, MOVE_CONFUSE_RAY, MOVE_EXTRASENSORY, MOVE_FLASH_CANNON
-    {,
+    },
     {	    
     .lvl = -3,
     .species = SPECIES_CHIMECHO,
