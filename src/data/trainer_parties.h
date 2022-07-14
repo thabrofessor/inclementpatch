@@ -19739,7 +19739,15 @@ static const struct TrainerMonItemCustomMoves sParty_Cale[] = {
     .ability = 2, // Overcoat
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_QUIVER_DANCE, MOVE_BUG_BUZZ, MOVE_LEAF_STORM, MOVE_PSYCHIC
-    }
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_KECLEON,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .spread = SPREAD_31_IV_40_EV,
+    .ability = 2, // Protean
+    .moves = MOVE_SUCKER_PUNCH, MOVE_RETURN, MOVE_FIRE_PUNCH, MOVE_TRICK_ROOM
+    }	
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Tammy[] = {
