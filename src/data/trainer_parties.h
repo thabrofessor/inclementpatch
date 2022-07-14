@@ -15198,7 +15198,7 @@ static const struct TrainerMonItemCustomMoves sParty_Foster[] = {
     .spread = SPREAD_31_IV_60_EV,
     .moves = MOVE_HYPNOSIS, MOVE_CONFUSE_RAY, MOVE_EXTRASENSORY, MOVE_FLASH_CANNON
     {,
-    },	    
+    {	    
     .lvl = -3,
     .species = SPECIES_CHIMECHO,
     .spread = SPREAD_31_IV_80_EV,
@@ -15223,8 +15223,7 @@ static const struct TrainerMonItemCustomMoves sParty_Foster[] = {
     .heldItem = ITEM_FLAME_ORB,
     .ability = 2, // Flare Boost
     .spread = SPREAD_31_IV_SPATK_SPEED_TIMID,
-    .moves = MOVE_SHADOW_BALL, MOVE_THUNDERBOLT, MOVE_PROTECT, MOVE_HYPNOSIS
-    }	    
+    .moves = MOVE_SHADOW_BALL, MOVE_THUNDERBOLT, MOVE_PROTECT, MOVE_HYPNOSIS	    
     },
     {
     .lvl = -2,
