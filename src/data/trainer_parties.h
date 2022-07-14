@@ -18017,7 +18017,7 @@ static const struct TrainerMonItemCustomMoves sParty_Dayton[] = {
     .lvl = -3,
     .species = SPECIES_THIEVUL,
     .heldItem = ITEM_SITRUS_BERRY,	    
-    .moves = MOVE_QUICK_ATTACK, MOVE_SUCKER_PUNCH, MOVE_HOWL, MOVE_KNOCK-OFF
+    .moves = MOVE_QUICK_ATTACK, MOVE_SUCKER_PUNCH, MOVE_HOWL, MOVE_KNOCK_OFF
     },
     {
     .lvl = -3,
