@@ -22107,7 +22107,7 @@ static const struct TrainerMonItemCustomMoves sParty_Grunt38[] = {
     .lvl = -1,
     .species = SPECIES_DUGTRIO_ALOLAN,
     .heldItem = ITEM_SITRUS_BERRY,	    
-    .moves = MOVE_MUG_SLAP, MOVE_METAL_CLAW, MOVE_DIG, MOVE_FISSURE
+    .moves = MOVE_MUD_SLAP, MOVE_METAL_CLAW, MOVE_DIG, MOVE_FISSURE
     }	
 };
 
