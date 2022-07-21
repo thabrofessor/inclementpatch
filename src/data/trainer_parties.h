@@ -1311,7 +1311,7 @@ static const struct TrainerMonItemCustomMoves sParty_Grunt14[] = { // Slateport 
     .species = SPECIES_PALPITOAD,
     .heldItem = ITEM_BERRY_JUICE,	    
     .ability = 2, // Water Absorb
-    .spread = SPREAD_15_IV_40_EV,
+    .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_BUBBLE_BEAM, MOVE_ACID, MOVE_MUD_SHOT, MOVE_ROUND
     },
     {
@@ -1319,7 +1319,7 @@ static const struct TrainerMonItemCustomMoves sParty_Grunt14[] = { // Slateport 
     .species = SPECIES_BASCULIN,
     .heldItem = ITEM_BERRY_JUICE,	    
     .ability = 1, // Adaptability
-    .spread = SPREAD_25_IV_60_EV,
+    .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_AQUA_JET, MOVE_CRUNCH, MOVE_TAKE_DOWN, MOVE_REVENGE
     },
     {
