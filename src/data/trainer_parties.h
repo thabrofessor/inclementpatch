@@ -30792,7 +30792,7 @@ static const struct TrainerMonItemCustomMoves sParty_Leonard[] = { // with Phill
 
 static const struct TrainerMonItemCustomMoves sParty_Sidney[] = {
     {
-    .lvl = 1,
+    .lvl = 4,
     .species = SPECIES_TYRANITAR,
     .heldItem = ITEM_CHOPLE_BERRY,
     .ability = 0, // Sand Stream
@@ -30800,7 +30800,7 @@ static const struct TrainerMonItemCustomMoves sParty_Sidney[] = {
     .moves = MOVE_STONE_EDGE, MOVE_CRUNCH, MOVE_STEALTH_ROCK, MOVE_FIRE_PUNCH
     },
     {
-    .lvl = 1,
+    .lvl = 4,
     .species = SPECIES_CACTURNE,
     .heldItem = ITEM_FOCUS_SASH,
     .ability = 1, // Sand Rush
@@ -30808,7 +30808,7 @@ static const struct TrainerMonItemCustomMoves sParty_Sidney[] = {
     .moves = MOVE_KNOCK_OFF, MOVE_NEEDLE_ARM, MOVE_CLOSE_COMBAT, MOVE_SWORDS_DANCE
     },
     {
-    .lvl = 1,
+    .lvl = 4,
     .species = SPECIES_MUK_ALOLAN,
     .heldItem = ITEM_ASSAULT_VEST,
     .ability = 0, // Poison Touch
@@ -30816,7 +30816,7 @@ static const struct TrainerMonItemCustomMoves sParty_Sidney[] = {
     .moves = MOVE_GUNK_SHOT, MOVE_KNOCK_OFF, MOVE_FIRE_PUNCH, MOVE_ICE_PUNCH
     },
     {
-    .lvl = 1,
+    .lvl = 15,
     .species = SPECIES_GRENINJA,
     .heldItem = ITEM_LIFE_ORB,
     .ability = 2, // Protean
@@ -30824,7 +30824,7 @@ static const struct TrainerMonItemCustomMoves sParty_Sidney[] = {
     .moves = MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_EXTRASENSORY, MOVE_GUNK_SHOT
     },
     {
-    .lvl = 1,
+    .lvl = 5,
     .species = SPECIES_MANDIBUZZ,
     .heldItem = ITEM_LEFTOVERS,
     .ability = 1, // Overcoat
@@ -30832,7 +30832,7 @@ static const struct TrainerMonItemCustomMoves sParty_Sidney[] = {
     .moves = MOVE_FOUL_PLAY, MOVE_TOXIC, MOVE_ROOST, MOVE_WHIRLWIND
     },
     {
-    .lvl = 2,
+    .lvl = 6,
     .species = SPECIES_ABSOL,
     .heldItem = ITEM_ABSOLITE,
     .spread = SPREAD_31_IV_ATK_SPEED_NAIVE,
@@ -30842,7 +30842,7 @@ static const struct TrainerMonItemCustomMoves sParty_Sidney[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Phoebe[] = {
     {
-    .lvl = 1,
+    .lvl = 4,
     .species = SPECIES_MISMAGIUS,
     .heldItem = ITEM_LIFE_ORB,
     .ability = 2, // Pixilate
@@ -30850,7 +30850,7 @@ static const struct TrainerMonItemCustomMoves sParty_Phoebe[] = {
     .moves = MOVE_SHADOW_BALL, MOVE_HYPER_VOICE, MOVE_MYSTICAL_FIRE, MOVE_NASTY_PLOT
     },
     {
-    .lvl = 1,
+    .lvl = 4,
     .species = SPECIES_GOLURK,
     .heldItem = ITEM_ASSAULT_VEST,
     .ability = 0, // Iron Fist
@@ -30858,7 +30858,7 @@ static const struct TrainerMonItemCustomMoves sParty_Phoebe[] = {
     .moves = MOVE_SHADOW_PUNCH, MOVE_EARTHQUAKE, MOVE_METEOR_MASH, MOVE_DRAIN_PUNCH
     },
     {
-    .lvl = 1,
+    .lvl = 4,
     .species = SPECIES_CHANDELURE,
     .heldItem = ITEM_CHOICE_SCARF,
     .ability = 0, // Flash Fire
@@ -30866,7 +30866,7 @@ static const struct TrainerMonItemCustomMoves sParty_Phoebe[] = {
     .moves = MOVE_SHADOW_BALL, MOVE_FIRE_BLAST, MOVE_ENERGY_BALL, MOVE_PSYCHIC
     },
     {
-    .lvl = 1,
+    .lvl = 5,
     .species = SPECIES_DUSKNOIR,
     .heldItem = ITEM_SHELL_BELL,
     .ability = 1, // Iron Fist
@@ -30874,14 +30874,14 @@ static const struct TrainerMonItemCustomMoves sParty_Phoebe[] = {
     .moves = MOVE_SHADOW_PUNCH, MOVE_ICE_PUNCH, MOVE_THUNDER_PUNCH, MOVE_EARTHQUAKE
     },
     {
-    .lvl = 1,
+    .lvl = 5,
     .species = SPECIES_AEGISLASH,
     .heldItem = ITEM_SPELL_TAG,
     .spread = SPREAD_31_IV_HP_SPATK_QUIET,
     .moves = MOVE_FLASH_CANNON, MOVE_SHADOW_BALL, MOVE_SHADOW_SNEAK, MOVE_KINGS_SHIELD
     },
     {
-    .lvl = 2,
+    .lvl = 6,
     .species = SPECIES_BANETTE,
     .heldItem = ITEM_BANETTITE,
     .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
@@ -30891,7 +30891,7 @@ static const struct TrainerMonItemCustomMoves sParty_Phoebe[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Glacia[] = {
     {
-    .lvl = 1,
+    .lvl = 4,
     .species = SPECIES_ABOMASNOW,
     .heldItem = ITEM_CHOICE_SCARF,
     .ability = 0, // Snow Warning
@@ -30899,7 +30899,7 @@ static const struct TrainerMonItemCustomMoves sParty_Glacia[] = {
     .moves = MOVE_BLIZZARD, MOVE_LEAF_STORM, MOVE_EARTH_POWER, MOVE_AURORA_VEIL
     },
     {
-    .lvl = 1,
+    .lvl = 4,
     .species = SPECIES_FROSLASS,
     .heldItem = ITEM_LIGHT_CLAY,
     .ability = 2, // Whiteout
@@ -30907,7 +30907,7 @@ static const struct TrainerMonItemCustomMoves sParty_Glacia[] = {
     .moves = MOVE_SHADOW_BALL, MOVE_FREEZE_DRY, MOVE_PSYCHIC, MOVE_AURORA_VEIL
     },
     {
-    .lvl = 2,
+    .lvl = 4,
     .species = SPECIES_WALREIN,
     .heldItem = ITEM_LEFTOVERS,
     .ability = 1, // Ice Body
@@ -30915,7 +30915,7 @@ static const struct TrainerMonItemCustomMoves sParty_Glacia[] = {
     .moves = MOVE_PROTECT, MOVE_SUBSTITUTE, MOVE_TOXIC, MOVE_SUPER_FANG
     },
     {
-    .lvl = 1,
+    .lvl = 5,
     .species = SPECIES_MAMOSWINE,
     .heldItem = ITEM_ASSAULT_VEST,
     .ability = 2, // Thick Fat
@@ -30923,7 +30923,7 @@ static const struct TrainerMonItemCustomMoves sParty_Glacia[] = {
     .moves = MOVE_EARTHQUAKE, MOVE_ICICLE_CRASH, MOVE_SUPERPOWER, MOVE_ICE_SHARD
     },
     {
-    .lvl = 1,
+    .lvl = 5,
     .species = SPECIES_GLACEON,
     .heldItem = ITEM_LIFE_ORB,
     .ability = 2, // Slush Rush
@@ -30931,7 +30931,7 @@ static const struct TrainerMonItemCustomMoves sParty_Glacia[] = {
     .moves = MOVE_BLIZZARD, MOVE_FIRE_BLAST, MOVE_THUNDERBOLT, MOVE_SURF
     },
     {
-    .lvl = 2,
+    .lvl = 6,
     .species = SPECIES_GLALIE,
     .heldItem = ITEM_GLALITITE,
     .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
@@ -30941,7 +30941,7 @@ static const struct TrainerMonItemCustomMoves sParty_Glacia[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Drake[] = {
     {
-    .lvl = 1,
+    .lvl = 4,
     .species = SPECIES_DRAGALGE,
     .heldItem = ITEM_POISON_GEM,
     .ability = 2, // Adaptability
@@ -30949,7 +30949,7 @@ static const struct TrainerMonItemCustomMoves sParty_Drake[] = {
     .moves = MOVE_SLUDGE_WAVE, MOVE_DRACO_METEOR, MOVE_FOCUS_BLAST, MOVE_TOXIC_SPIKES
     },
     {
-    .lvl = 1,
+    .lvl = 4,
     .species = SPECIES_KOMMO_O,
     .heldItem = ITEM_WHITE_HERB,
     .ability = 1, // Soundproof
@@ -30957,7 +30957,7 @@ static const struct TrainerMonItemCustomMoves sParty_Drake[] = {
     .moves = MOVE_CLOSE_COMBAT, MOVE_OUTRAGE, MOVE_IRON_TAIL, MOVE_SHELL_SMASH
     },
     {
-    .lvl = 1,
+    .lvl = 4,
     .species = SPECIES_SERPERIOR,
     .heldItem = ITEM_LIFE_ORB,
     .ability = 2, // Contrary
@@ -30965,7 +30965,7 @@ static const struct TrainerMonItemCustomMoves sParty_Drake[] = {
     .moves = MOVE_LEAF_STORM, MOVE_DRACO_METEOR, MOVE_HIDDEN_POWER, MOVE_GLARE
     },
     {
-    .lvl = 1,
+    .lvl = 5,
     .species = SPECIES_GARCHOMP,
     .heldItem = ITEM_YACHE_BERRY,
     .ability = 2, // Rough Skin
@@ -30973,7 +30973,7 @@ static const struct TrainerMonItemCustomMoves sParty_Drake[] = {
     .moves = MOVE_OUTRAGE, MOVE_EARTHQUAKE, MOVE_STRENGTH, MOVE_SWORDS_DANCE
     },
     {
-    .lvl = 1,
+    .lvl = 5,
     .species = SPECIES_NAGANADEL,
     .heldItem = ITEM_WHITE_HERB,
     .ability = 0, // Beast Boost
@@ -30981,7 +30981,7 @@ static const struct TrainerMonItemCustomMoves sParty_Drake[] = {
     .moves = MOVE_SLUDGE_WAVE, MOVE_DRACO_METEOR, MOVE_FIRE_BLAST, MOVE_NASTY_PLOT
     },
     {
-    .lvl = 2,
+    .lvl = 6,
     .species = SPECIES_SALAMENCE,
     .heldItem = ITEM_SALAMENCITE,
     .ability = 0, // Intimidate -> Aerilate
@@ -30992,7 +30992,7 @@ static const struct TrainerMonItemCustomMoves sParty_Drake[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Wallace[] = {
     {
-    .lvl = 2,
+    .lvl = 5,
     .species = SPECIES_WAILORD,
     .heldItem = ITEM_CHOICE_SCARF,
     .ability = 2, // Drizzle
@@ -31000,14 +31000,14 @@ static const struct TrainerMonItemCustomMoves sParty_Wallace[] = {
     .moves = MOVE_WATER_SPOUT, MOVE_ICE_BEAM, MOVE_WEATHER_BALL, MOVE_EARTHQUAKE
     },
     {
-    .lvl = 2,
+    .lvl = 5,
     .species = SPECIES_LATIOS,
     .heldItem = ITEM_SOUL_DEW,
     .spread = SPREAD_31_IV_SPATK_SPEED_TIMID,
     .moves = MOVE_PSYSHOCK, MOVE_DRACO_METEOR, MOVE_THUNDER, MOVE_AURA_SPHERE
     },
     {
-    .lvl = 2,
+    .lvl = 5,
     .species = SPECIES_LUDICOLO,
     .heldItem = ITEM_SHELL_BELL,
     .ability = 0, // Swift Swim
@@ -31015,7 +31015,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wallace[] = {
     .moves = MOVE_SCALD, MOVE_GIGA_DRAIN, MOVE_ICE_BEAM, MOVE_QUIVER_DANCE
     },
     {
-    .lvl = 2,
+    .lvl = 6,
     .species = SPECIES_WHISCASH,
     .heldItem = ITEM_SALAC_BERRY,
     .ability = 0, // Adaptability
@@ -31023,7 +31023,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wallace[] = {
     .moves = MOVE_LIQUIDATION, MOVE_EARTHQUAKE, MOVE_SUBSTITUTE, MOVE_DRAGON_DANCE
     },
     {
-    .lvl = 2,
+    .lvl = 6,
     .species = SPECIES_VIKAVOLT,
     .heldItem = ITEM_LIFE_ORB,
     .ability = 0, // Levitate
@@ -31031,7 +31031,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wallace[] = {
     .moves = MOVE_THUNDER, MOVE_HURRICANE, MOVE_BUG_BUZZ, MOVE_ENERGY_BALL
     },
     {
-    .lvl = 3,
+    .lvl = 7,
     .species = SPECIES_MILOTIC,
     .heldItem = ITEM_MILOTICITE,
     .ability = 1, // Competitive -> Prism Scales
