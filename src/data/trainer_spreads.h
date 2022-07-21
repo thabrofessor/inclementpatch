@@ -25,7 +25,7 @@ const struct TrainerMonSpread gSets[] = {
 	
 	[SPREAD_25_IV_0_EV] =
 	{
-		.EVs = {},
+		.EVs = {60, 60, 60, 60, 60, 60},
 		.IVs = {25, 25, 25, 25, 25, 25},
 		.nature = NATURE_HARDY
 	},
