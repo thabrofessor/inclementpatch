@@ -294,7 +294,7 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR1[] = {
 static const struct TrainerMonItemCustomMoves sParty_BrendanRoute103Mudkip[] = {
     {
     .lvl = 0,
-    .species = SPECIES_TREECKO,
+    .species = SPECIES_TREECKO,	    
 	.moves = MOVE_POUND, MOVE_LEER, MOVE_NONE, MOVE_NONE
     }
 };
@@ -795,6 +795,7 @@ static const struct TrainerMonItemCustomMoves sParty_MayRoute103Mudkip[] = {
     {
     .lvl = 0,
     .species = SPECIES_TREECKO,
+    .spread = SPREAD_15_IV_0_EV,	    
 	.moves = MOVE_POUND, MOVE_LEER
     }
 };
@@ -803,6 +804,7 @@ static const struct TrainerMonItemCustomMoves sParty_MayRoute103Treecko[] = { //
     {
     .lvl = 0,
     .species = SPECIES_TORCHIC,
+    .spread = SPREAD_15_IV_0_EV,	    
 	.moves = MOVE_SCRATCH, MOVE_GROWL
     }
 };
@@ -811,6 +813,7 @@ static const struct TrainerMonItemCustomMoves sParty_MayRoute103Torchic[] = { //
     {
     .lvl = 0,
     .species = SPECIES_MUDKIP,
+    .spread = SPREAD_15_IV_0_EV,	    
 	.moves = MOVE_TACKLE, MOVE_GROWL
     }
 };
