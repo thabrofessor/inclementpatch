@@ -16379,7 +16379,7 @@ static const struct TrainerMonItemCustomMoves sParty_David[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Alice[] = {
     {
-    .lvl = 0
+    .lvl = 0,
     .species = SPECIES_CORSOLA,
     .spread = SPREAD_31_IV_60_EV,
     .moves = MOVE_POWER_GEM, MOVE_EARTH_POWER, MOVE_BRINE, MOVE_RECOVER
