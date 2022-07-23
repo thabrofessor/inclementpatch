@@ -1070,7 +1070,7 @@ static const struct TrainerMonItemCustomMoves sParty_MayRustboroTreecko[] = {
     .moves = MOVE_BUBBLE_BEAM, MOVE_RECOVER, MOVE_PSYWAVE, MOVE_SWIFT
     },
     {
-    .lvl = ,
+    .lvl = 0,
     .species = SPECIES_STEENEE,
     .ability = 2, // Sweet Veil
     .spread = SPREAD_15_IV_0_EV,
