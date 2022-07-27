@@ -4142,7 +4142,7 @@
             ]
           },
           "rock_smash_mons": {
-            "encounter_rate": 255,
+            "encounter_rate": 180,
             "mons": [
               {
                 "min_level": 14,
