@@ -18016,7 +18016,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_SKIDDO] =
     {
-        .baseHP        = 66,
+        .baseHP        = 166,
         .baseAttack    = 65,
         .baseDefense   = 48,
         .baseSpeed     = 52,
@@ -18034,7 +18034,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_SAP_SIPPER, ABILITY_GRASS_PELT, ABILITY_LEAF_GUARD},
+            .abilities = {ABILITY_SAP_SIPPER, ABILITY_sTAMINA, ABILITY_LEAF_GUARD},
         #else
             .abilities = {ABILITY_SAP_SIPPER, ABILITY_SAP_SIPPER, ABILITY_GRASS_PELT},
         #endif
@@ -18044,14 +18044,14 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_GOGOAT] =
     {
-        .baseHP        = 123,
+        .baseHP        = 183,
         .baseAttack    = 100,
         .baseDefense   = 62,
         .baseSpDefense = 81,
         #ifdef REBALANCED_VERSION
             .baseSpAttack  = 79,
             .baseSpeed     = 95,
-            .abilities = {ABILITY_SAP_SIPPER, ABILITY_GRASS_PELT, ABILITY_GRASSY_SURGE},
+            .abilities = {ABILITY_SAP_SIPPER, ABILITY_STAMINA, ABILITY_GRASSY_SURGE},
         #else
             .baseSpAttack  = 97,
             .baseSpeed     = 68,
