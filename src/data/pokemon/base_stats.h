@@ -18034,7 +18034,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_SAP_SIPPER, ABILITY_sTAMINA, ABILITY_LEAF_GUARD},
+            .abilities = {ABILITY_SAP_SIPPER, ABILITY_STAMINA, ABILITY_LEAF_GUARD},
         #else
             .abilities = {ABILITY_SAP_SIPPER, ABILITY_SAP_SIPPER, ABILITY_GRASS_PELT},
         #endif
