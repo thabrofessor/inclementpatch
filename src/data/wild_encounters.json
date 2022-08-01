@@ -17566,7 +17566,42 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_PICHU"
+                "species": "SPECIES_CATERPIE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_WEEDLE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_PIDGEY"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_SKIDDO"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_RUFFLET"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_FLETCHLING"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_PIKIPEK"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_ABRA"
               },
               {
                 "min_level": 5,
@@ -17576,52 +17611,17 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_PICHU"
+                "species": "SPECIES_FARFETCHD"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_PICHU"
+                "species": "SPECIES_HELIOPTILE"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_PICHU"
-              },
-              {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_PICHU"
-              },
-              {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_PICHU"
-              },
-              {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_PICHU"
-              },
-              {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_PICHU"
-              },
-              {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_PICHU"
-              },
-              {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_PICHU"
-              },
-              {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_PICHU"
+                "species": "SPECIES_RIOLU"
               }
             ]
           },
@@ -17656,7 +17656,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_POLIWAG"
+                "species": "SPECIES_ARROKUDA"
               },
               {
                 "min_level": 5,
