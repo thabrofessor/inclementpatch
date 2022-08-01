@@ -2142,7 +2142,7 @@ static const struct TrainerMonItemCustomMoves sParty_Billy[] = {
     .species = SPECIES_RATTATA_ALOLAN,
     .heldItem = ITEM_ORAN_BERRY, 
 	    .spread = SPREAD_15_IV_0_EV,
-    .moves = MOVE_BITE, MOVE_QUICK_ATTACK, MOVE_CRUNCH, MOVE_SUCKER_PUNCH
+    .moves = MOVE_BITE, MOVE_QUICK_ATTACK, MOVE_TAUNT, MOVE_SUCKER_PUNCH
     }	
 };
 
