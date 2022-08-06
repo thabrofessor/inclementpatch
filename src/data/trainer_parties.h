@@ -13387,7 +13387,7 @@ static const struct TrainerMonItemCustomMoves sParty_Cyndy1[] = {
     {
     .lvl = 5,
     .species = SPECIES_HAKAMO_O,
-	.heldItem =ITEM_ LIFE_ORB,    
+	.heldItem = ITEM_LIFE_ORB,    
     .spread = SPREAD_25_IV_0_EV,
     .moves = MOVE_SKY_UPPERCUT, MOVE_DRAGON_CLAW, MOVE_DRAGON_DANCE, MOVE_NOBLE_ROAR
     },
@@ -13758,7 +13758,7 @@ static const struct TrainerMonItemCustomMoves sParty_Kyra[] = {
     {
     .lvl = 3,
     .species = SPECIES_DRACOZOLT,
-	 .heldItem = LIFE_ORB,   
+	 .heldItem = ITEM_LIFE_ORB,   
     .spread = SPREAD_31_IV_60_EV,
     .moves = MOVE_THUNDER, MOVE_ICICLE_CRASH, MOVE_SIGNAL_BEAM, MOVE_ANCIENT_POWER
     },
@@ -14318,7 +14318,6 @@ static const struct TrainerMonItemCustomMoves sParty_Shelby1[] = {
     .lvl = -1,
     .species = SPECIES_TRUMBEAK,
 	  .heldItem = ITEM_EVIOLITE,  
-    .heldItem = ITEM_SITRUS_BERRY,
 	    .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_PECK, MOVE_ECHOED_VOICE, MOVE_ROCK_SMASH, MOVE_SUPERSONIC
     },
@@ -16976,7 +16975,7 @@ static const struct TrainerMonItemCustomMoves sParty_Camron[] = { // Double with
     {
     .lvl = 0,
     .species = SPECIES_MASQUERAIN,
-	    .heldItem = SILVER_POWDER,
+	    .heldItem = ITEM_SILVER_POWDER,
     .spread = SPREAD_31_IV_60_EV,
     .moves = MOVE_BUG_BUZZ, MOVE_AIR_SLASH, MOVE_QUIVER_DANCE, MOVE_HYDRO_PUMP
     },
@@ -17531,7 +17530,7 @@ static const struct TrainerMonItemCustomMoves sParty_Austina[] = {
     {
     .lvl = 1,
     .species = SPECIES_MOTHIM,
-	.heldItem = SILVER_POWDER,    
+	.heldItem = ITEM_SILVER_POWDER,    
     .ability = 2, // Tinted Lens
     .spread = SPREAD_15_IV_0_EV,    
     .moves = MOVE_QUIVER_DANCE, MOVE_HIDDEN_POWER, MOVE_SILVER_WIND, MOVE_PSYBEAM
@@ -18193,7 +18192,7 @@ static const struct TrainerMonItemCustomMoves sParty_KiraAndDan1[] = {
     {
     .lvl = 0,
     .species = SPECIES_VOLBEAT,
-	.heldItem = LIFE_ORB,    
+	.heldItem = ITEM_LIFE_ORB,    
     .ability = 2, // Prankster
     .spread = SPREAD_31_IV_60_EV,
     .moves = MOVE_TAIL_GLOW, MOVE_BUG_BUZZ, MOVE_THUNDER_WAVE, MOVE_PROTECT
@@ -21653,7 +21652,7 @@ static const struct TrainerMonItemCustomMoves sParty_Pat[] = {
     {
     .lvl = 1,
     .species = SPECIES_ELECTIVIRE,
-	.heldItem = LIFE_ORB,    
+	.heldItem = ITEM_LIFE_ORB,    
     .ability = 2, // Vital Spirit
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_SUBSTITUTE, MOVE_FOCUS_PUNCH, MOVE_THUNDER_PUNCH, MOVE_FIRE_PUNCH
