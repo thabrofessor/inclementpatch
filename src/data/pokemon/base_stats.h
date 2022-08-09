@@ -3814,13 +3814,13 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ARTICUNO] =
     {
-        .baseHP        = 90,
-        .baseAttack    = 85,
-        .baseDefense   = 100,
+        .baseHP        = 250,
+        .baseAttack    = 105,
+        .baseDefense   = 135,
         .baseSpeed     = 85,
         #ifdef REBALANCED_VERSION
             .baseSpAttack  = 125,
-            .baseSpDefense = 95,
+            .baseSpDefense = 125,
         #else
             .baseSpAttack  = 95,
             .baseSpDefense = 125,
@@ -3843,12 +3843,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ZAPDOS] =
     {
-        .baseHP        = 90,
-        .baseAttack    = 90,
-        .baseDefense   = 85,
+        .baseHP        = 250,
+        .baseAttack    = 100,
+        .baseDefense   = 125,
         .baseSpeed     = 100,
         .baseSpAttack  = 125,
-        .baseSpDefense = 90,
+        .baseSpDefense = 125,
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_FLYING,
         .catchRate = 3,
@@ -3867,12 +3867,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_MOLTRES] =
     {
-        .baseHP        = 90,
-        .baseAttack    = 100,
-        .baseDefense   = 90,
+        .baseHP        = 250,
+        .baseAttack    = 110,
+        .baseDefense   = 125,
         .baseSpeed     = 90,
-        .baseSpAttack  = 125,
-        .baseSpDefense = 85,
+        .baseSpAttack  = 135,
+        .baseSpDefense = 115,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_FLYING,
         .catchRate = 3,
@@ -3966,12 +3966,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_MEWTWO] =
     {
-        .baseHP        = 106,
-        .baseAttack    = 110,
-        .baseDefense   = 90,
-        .baseSpeed     = 130,
-        .baseSpAttack  = 154,
-        .baseSpDefense = 90,
+        .baseHP        = 255,
+        .baseAttack    = 150,
+        .baseDefense   = 130,
+        .baseSpeed     = 150,
+        .baseSpAttack  = 184,
+        .baseSpDefense = 130,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 3,
@@ -3990,12 +3990,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_MEW] =
     {
-        .baseHP        = 100,
-        .baseAttack    = 100,
-        .baseDefense   = 100,
-        .baseSpeed     = 100,
-        .baseSpAttack  = 100,
-        .baseSpDefense = 100,
+        .baseHP        = 250,
+        .baseAttack    = 150,
+        .baseDefense   = 150,
+        .baseSpeed     = 149,
+        .baseSpAttack  = 150,
+        .baseSpDefense = 150,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 45,
@@ -6491,12 +6491,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_RAIKOU] =
     {
-        .baseHP        = 90,
-        .baseAttack    = 85,
-        .baseDefense   = 75,
-        .baseSpeed     = 115,
+        .baseHP        = 250,
+        .baseAttack    = 90,
+        .baseDefense   = 95,
+        .baseSpeed     = 135,
         .baseSpAttack  = 115,
-        .baseSpDefense = 100,
+        .baseSpDefense = 140,
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_ELECTRIC,
         .catchRate = 3,
@@ -6516,12 +6516,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ENTEI] =
     {
-        .baseHP        = 115,
-        .baseAttack    = 115,
-        .baseDefense   = 85,
+        .baseHP        = 255,
+        .baseAttack    = 120,
+        .baseDefense   = 135,
         .baseSpeed     = 100,
         .baseSpAttack  = 90,
-        .baseSpDefense = 75,
+        .baseSpDefense = 125,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_FIRE,
         .catchRate = 3,
@@ -6541,12 +6541,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_SUICUNE] =
     {
-        .baseHP        = 100,
-        .baseAttack    = 75,
-        .baseDefense   = 115,
+        .baseHP        = 255,
+        .baseAttack    = 85,
+        .baseDefense   = 155,
         .baseSpeed     = 85,
         .baseSpAttack  = 90,
-        .baseSpDefense = 115,
+        .baseSpDefense = 155,
         .type1 = TYPE_WATER,
         .type2 = TYPE_WATER,
         .catchRate = 3,
@@ -6642,12 +6642,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_LUGIA] =
     {
-        .baseHP        = 106,
-        .baseAttack    = 90,
-        .baseDefense   = 130,
+        .baseHP        = 255,
+        .baseAttack    = 95,
+        .baseDefense   = 170,
         .baseSpeed     = 110,
-        .baseSpAttack  = 90,
-        .baseSpDefense = 154,
+        .baseSpAttack  = 95,
+        .baseSpDefense = 195,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_FLYING,
         .catchRate = 3,
@@ -6666,12 +6666,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_HO_OH] =
     {
-        .baseHP        = 106,
-        .baseAttack    = 130,
-        .baseDefense   = 90,
+        .baseHP        = 255,
+        .baseAttack    = 141,
+        .baseDefense   = 130,
         .baseSpeed     = 90,
         .baseSpAttack  = 110,
-        .baseSpDefense = 154,
+        .baseSpDefense = 194,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_FLYING,
         .catchRate = 3,
@@ -6692,7 +6692,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_CELEBI] =
     {
-        .baseHP        = 100,
+        .baseHP        = 225,
         .baseAttack    = 100,
         .baseDefense   = 100,
         .baseSpeed     = 100,
@@ -10183,7 +10183,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_REGIROCK] =
     {
-        .baseHP        = 80,
+        .baseHP        = 175,
         .baseAttack    = 100,
         .baseDefense   = 200,
         .baseSpeed     = 50,
@@ -10207,7 +10207,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_REGICE] =
     {
-        .baseHP        = 80,
+        .baseHP        = 175,
         .baseAttack    = 50,
         .baseDefense   = 100,
         .baseSpeed     = 50,
@@ -10231,7 +10231,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_REGISTEEL] =
     {
-        .baseHP        = 80,
+        .baseHP        = 175,
         .baseAttack    = 75,
         .baseDefense   = 150,
         .baseSpeed     = 50,
@@ -10256,12 +10256,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_LATIAS] =
     {
-        .baseHP        = 80,
+        .baseHP        = 250,
         .baseAttack    = 80,
         .baseDefense   = 90,
         .baseSpeed     = 110,
-        .baseSpAttack  = 110,
-        .baseSpDefense = 130,
+        .baseSpAttack  = 140,
+        .baseSpDefense = 155,
         .type1 = TYPE_DRAGON,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 3,
@@ -10280,12 +10280,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_LATIOS] =
     {
-        .baseHP        = 80,
+        .baseHP        = 250,
         .baseAttack    = 90,
         .baseDefense   = 80,
         .baseSpeed     = 110,
-        .baseSpAttack  = 130,
-        .baseSpDefense = 110,
+        .baseSpAttack  = 160,
+        .baseSpDefense = 135,
         .type1 = TYPE_DRAGON,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 3,
@@ -10304,12 +10304,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_KYOGRE] =
     {
-        .baseHP        = 100,
+        .baseHP        = 250,
         .baseAttack    = 100,
-        .baseDefense   = 90,
+        .baseDefense   = 130,
         .baseSpeed     = 90,
         .baseSpAttack  = 150,
-        .baseSpDefense = 140,
+        .baseSpDefense = 180,
         .type1 = TYPE_WATER,
         .type2 = TYPE_WATER,
         .catchRate = 3,
@@ -10328,12 +10328,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_GROUDON] =
     {
-        .baseHP        = 100,
+        .baseHP        = 250,
         .baseAttack    = 150,
-        .baseDefense   = 140,
+        .baseDefense   = 180,
         .baseSpeed     = 90,
         .baseSpAttack  = 100,
-        .baseSpDefense = 90,
+        .baseSpDefense = 130,
         .type1 = TYPE_GROUND,
         .type2 = TYPE_GROUND,
         .catchRate = 3,
@@ -10352,12 +10352,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_RAYQUAZA] =
     {
-        .baseHP        = 105,
+        .baseHP        = 255,
         .baseAttack    = 150,
-        .baseDefense   = 90,
-        .baseSpeed     = 95,
+        .baseDefense   = 150,
+        .baseSpeed     = 120,
         .baseSpAttack  = 150,
-        .baseSpDefense = 90,
+        .baseSpDefense = 150,
         .type1 = TYPE_DRAGON,
         .type2 = TYPE_FLYING,
         .catchRate = 3,
@@ -10377,12 +10377,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_JIRACHI] =
     {
-        .baseHP        = 100,
-        .baseAttack    = 100,
-        .baseDefense   = 100,
-        .baseSpeed     = 100,
-        .baseSpAttack  = 100,
-        .baseSpDefense = 100,
+        .baseHP        = 250,
+        .baseAttack    = 110,
+        .baseDefense   = 110,
+        .baseSpeed     = 110,
+        .baseSpAttack  = 110,
+        .baseSpDefense = 110,
         .type1 = TYPE_STEEL,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 3,
@@ -10403,12 +10403,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_DEOXYS] =
     {
-        .baseHP        = 50,
+        .baseHP        = 250,
         .baseAttack    = 150,
-        .baseDefense   = 50,
-        .baseSpeed     = 150,
+        .baseDefense   = 100,
+        .baseSpeed     = 200,
         .baseSpAttack  = 150,
-        .baseSpDefense = 50,
+        .baseSpDefense = 100,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 3,
@@ -12970,7 +12970,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_UXIE] =
     {
-        .baseHP        = 75,
+        .baseHP        = 220,
         .baseAttack    = 75,
         .baseDefense   = 130,
         .baseSpeed     = 95,
@@ -12995,7 +12995,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_MESPRIT] =
     {
-        .baseHP        = 80,
+        .baseHP        = 225,
         .baseAttack    = 105,
         .baseDefense   = 105,
         .baseSpeed     = 80,
@@ -13021,7 +13021,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_AZELF] =
     {
-        .baseHP        = 75,
+        .baseHP        = 220,
         .baseAttack    = 125,
         .baseDefense   = 70,
         .baseSpeed     = 115,
@@ -13046,12 +13046,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_DIALGA] =
     {
-        .baseHP        = 100,
+        .baseHP        = 245,
         .baseAttack    = 120,
-        .baseDefense   = 120,
+        .baseDefense   = 170,
         .baseSpeed     = 90,
         .baseSpAttack  = 150,
-        .baseSpDefense = 100,
+        .baseSpDefense = 150,
         .type1 = TYPE_STEEL,
         .type2 = TYPE_DRAGON,
         .catchRate = 3,
@@ -13070,12 +13070,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_PALKIA] =
     {
-        .baseHP        = 90,
+        .baseHP        = 250,
         .baseAttack    = 120,
-        .baseDefense   = 100,
+        .baseDefense   = 140,
         .baseSpeed     = 100,
         .baseSpAttack  = 150,
-        .baseSpDefense = 120,
+        .baseSpDefense = 165,
         .type1 = TYPE_WATER,
         .type2 = TYPE_DRAGON,
         .catchRate = 3,
@@ -13094,7 +13094,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_HEATRAN] =
     {
-        .baseHP        = 91,
+        .baseHP        = 141,
         .baseAttack    = 90,
         .baseDefense   = 106,
         .baseSpeed     = 77,
@@ -13118,12 +13118,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_REGIGIGAS] =
     {
-        .baseHP        = 110,
+        .baseHP        = 240,
         .baseAttack    = 160,
-        .baseDefense   = 110,
+        .baseDefense   = 160,
         .baseSpeed     = 100,
         .baseSpAttack  = 80,
-        .baseSpDefense = 110,
+        .baseSpDefense = 160,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_NORMAL,
         .catchRate = 3,
@@ -13142,12 +13142,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_GIRATINA] =
     {
-        .baseHP        = 150,
+        .baseHP        = 255,
         .baseAttack    = 100,
-        .baseDefense   = 120,
+        .baseDefense   = 140,
         .baseSpeed     = 90,
         .baseSpAttack  = 100,
-        .baseSpDefense = 120,
+        .baseSpDefense = 140,
         .type1 = TYPE_GHOST,
         .type2 = TYPE_DRAGON,
         .catchRate = 3,
@@ -13166,7 +13166,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_CRESSELIA] =
     {
-        .baseHP        = 120,
+        .baseHP        = 220,
         .baseAttack    = 70,
         .baseDefense   = 120,
         .baseSpeed     = 85,
@@ -13190,7 +13190,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_PHIONE] =
     {
-        .baseHP        = 80,
+        .baseHP        = 200,
         .baseAttack    = 80,
         .baseDefense   = 80,
         .baseSpeed     = 80,
@@ -13214,7 +13214,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_MANAPHY] =
     {
-        .baseHP        = 100,
+        .baseHP        = 150,
         .baseAttack    = 100,
         .baseDefense   = 100,
         .baseSpeed     = 100,
@@ -13238,12 +13238,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_DARKRAI] =
     {
-        .baseHP        = 70,
-        .baseAttack    = 90,
-        .baseDefense   = 90,
+        .baseHP        = 255,
+        .baseAttack    = 150,
+        .baseDefense   = 110,
         .baseSpeed     = 125,
         .baseSpAttack  = 135,
-        .baseSpDefense = 90,
+        .baseSpDefense = 150,
         .type1 = TYPE_DARK,
         .type2 = TYPE_DARK,
         .catchRate = 3,
@@ -13263,7 +13263,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_SHAYMIN] =
     {
-        .baseHP        = 100,
+        .baseHP        = 150,
         .baseAttack    = 100,
         .baseDefense   = 100,
         .baseSpeed     = 100,
@@ -13289,12 +13289,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ARCEUS] =
     {
-        .baseHP        = 120,
-        .baseAttack    = 120,
-        .baseDefense   = 120,
-        .baseSpeed     = 120,
-        .baseSpAttack  = 120,
-        .baseSpDefense = 120,
+        .baseHP        = 250,
+        .baseAttack    = 150,
+        .baseDefense   = 150,
+        .baseSpeed     = 150,
+        .baseSpAttack  = 150,
+        .baseSpDefense = 150,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_NORMAL,
         .catchRate = 3,
@@ -13313,12 +13313,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_VICTINI] =
     {
-        .baseHP        = 100,
-        .baseAttack    = 100,
-        .baseDefense   = 100,
-        .baseSpeed     = 100,
-        .baseSpAttack  = 100,
-        .baseSpDefense = 100,
+        .baseHP        = 250,
+        .baseAttack    = 110,
+        .baseDefense   = 110,
+        .baseSpeed     = 110,
+        .baseSpAttack  = 110,
+        .baseSpDefense = 110,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_FIRE,
         .catchRate = 3,
@@ -17137,7 +17137,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_COBALION] =
     {
-        .baseHP        = 91,
+        .baseHP        = 161,
         .baseAttack    = 90,
         .baseDefense   = 129,
         .baseSpeed     = 108,
@@ -17161,7 +17161,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_TERRAKION] =
     {
-        .baseHP        = 91,
+        .baseHP        = 161,
         .baseAttack    = 129,
         .baseDefense   = 90,
         .baseSpeed     = 108,
@@ -17185,7 +17185,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_VIRIZION] =
     {
-        .baseHP        = 91,
+        .baseHP        = 161,
         .baseAttack    = 90,
         .baseDefense   = 72,
         .baseSpeed     = 108,
@@ -17209,12 +17209,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_TORNADUS] =
     {
-        .baseHP        = 79,
+        .baseHP        = 250,
         .baseAttack    = 115,
-        .baseDefense   = 70,
+        .baseDefense   = 90,
         .baseSpeed     = 111,
         .baseSpAttack  = 125,
-        .baseSpDefense = 80,
+        .baseSpDefense = 109,
         .type1 = TYPE_FLYING,
         .type2 = TYPE_FLYING,
         .catchRate = 3,
@@ -17233,12 +17233,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_THUNDURUS] =
     {
-        .baseHP        = 79,
+        .baseHP        = 250,
         .baseAttack    = 115,
-        .baseDefense   = 70,
+        .baseDefense   = 90,
         .baseSpeed     = 111,
         .baseSpAttack  = 125,
-        .baseSpDefense = 80,
+        .baseSpDefense = 109,
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_FLYING,
         .catchRate = 3,
@@ -17257,8 +17257,8 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_RESHIRAM] =
     {
-        .baseHP        = 100,
-        .baseAttack    = 120,
+        .baseHP        = 250,
+        .baseAttack    = 140,
         .baseDefense   = 100,
         .baseSpeed     = 90,
         .baseSpAttack  = 150,
@@ -17281,9 +17281,9 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ZEKROM] =
     {
-        .baseHP        = 100,
+        .baseHP        = 250,
         .baseAttack    = 150,
-        .baseDefense   = 120,
+        .baseDefense   = 140,
         .baseSpeed     = 90,
         .baseSpAttack  = 120,
         .baseSpDefense = 100,
@@ -17305,7 +17305,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_LANDORUS] =
     {
-        .baseHP        = 89,
+        .baseHP        = 189,
         .baseAttack    = 125,
         .baseDefense   = 90,
         .baseSpeed     = 101,
@@ -17329,12 +17329,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_KYUREM] =
     {
-        .baseHP        = 125,
+        .baseHP        = 255,
         .baseAttack    = 130,
-        .baseDefense   = 90,
-        .baseSpeed     = 95,
+        .baseDefense   = 130,
+        .baseSpeed     = 110,
         .baseSpAttack  = 130,
-        .baseSpDefense = 90,
+        .baseSpDefense = 120,
         .type1 = TYPE_DRAGON,
         .type2 = TYPE_ICE,
         .catchRate = 3,
@@ -17355,7 +17355,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_KELDEO] =
     {
-        .baseHP        = 91,
+        .baseHP        = 161,
         .baseAttack    = 72,
         .baseDefense   = 90,
         .baseSpeed     = 108,
@@ -17379,7 +17379,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_MELOETTA] =
     {
-        .baseHP        = 100,
+        .baseHP        = 150,
         .baseAttack    = 77,
         .baseDefense   = 77,
         .baseSpeed     = 90,
@@ -17407,12 +17407,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_GENESECT] =
     {
-        .baseHP        = 71,
-        .baseAttack    = 120,
-        .baseDefense   = 95,
+        .baseHP        = 251,
+        .baseAttack    = 170,
+        .baseDefense   = 105,
         .baseSpeed     = 99,
-        .baseSpAttack  = 120,
-        .baseSpDefense = 95,
+        .baseSpAttack  = 170,
+        .baseSpDefense = 105,
         .type1 = TYPE_BUG,
         .type2 = TYPE_STEEL,
         .catchRate = 3,
@@ -19149,12 +19149,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_XERNEAS] =
     {
-        .baseHP        = 126,
+        .baseHP        = 246,
         .baseAttack    = 131,
-        .baseDefense   = 95,
+        .baseDefense   = 145,
         .baseSpeed     = 99,
         .baseSpAttack  = 131,
-        .baseSpDefense = 98,
+        .baseSpDefense = 148,
         .type1 = TYPE_FAIRY,
         .type2 = TYPE_FAIRY,
         .catchRate = 45,
@@ -19173,12 +19173,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_YVELTAL] =
     {
-        .baseHP        = 126,
+        .baseHP        = 246,
         .baseAttack    = 131,
-        .baseDefense   = 95,
+        .baseDefense   = 145,
         .baseSpeed     = 99,
         .baseSpAttack  = 131,
-        .baseSpDefense = 98,
+        .baseSpDefense = 148,
         .type1 = TYPE_DARK,
         .type2 = TYPE_FLYING,
         .catchRate = 45,
@@ -19197,9 +19197,9 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ZYGARDE] =
     {
-        .baseHP        = 108,
-        .baseAttack    = 100,
-        .baseDefense   = 121,
+        .baseHP        = 208,
+        .baseAttack    = 200,
+        .baseDefense   = 221,
         .baseSpeed     = 95,
         .baseSpAttack  = 81,
         .baseSpDefense = 95,
@@ -19221,7 +19221,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_DIANCIE] =
     {
-        .baseHP        = 50,
+        .baseHP        = 100,
         .baseAttack    = 100,
         .baseDefense   = 150,
         .baseSpeed     = 50,
@@ -19246,7 +19246,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_HOOPA] =
     {
-        .baseHP        = 80,
+        .baseHP        = 205,
         .baseAttack    = 110,
         .baseDefense   = 60,
         .baseSpeed     = 70,
@@ -19270,7 +19270,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_VOLCANION] =
     {
-        .baseHP        = 80,
+        .baseHP        = 180,
         .baseAttack    = 110,
         .baseDefense   = 120,
         .baseSpeed     = 70,
@@ -20652,7 +20652,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_TYPE_NULL] =
     {
-        .baseHP        = 95,
+        .baseHP        = 186,
         .baseAttack    = 95,
         .baseDefense   = 95,
         .baseSpeed     = 59,
@@ -20677,12 +20677,12 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_SILVALLY] =
     {
         #ifdef REBALANCED_VERSION
-            .baseHP        = 100,
+            .baseHP        = 255,
             .baseAttack    = 100,
-            .baseDefense   = 100,
+            .baseDefense   = 110,
             .baseSpeed     = 100,
             .baseSpAttack  = 100,
-            .baseSpDefense = 100,
+            .baseSpDefense = 110,
         #else
             .baseHP        = 95,
             .baseAttack    = 95,
@@ -21005,10 +21005,10 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_TAPU_KOKO] =
     {
-        .baseHP        = 70,
+        .baseHP        = 255,
         .baseAttack    = 115,
         .baseDefense   = 85,
-        .baseSpeed     = 130,
+        .baseSpeed     = 150,
         .baseSpAttack  = 95,
         .baseSpDefense = 75,
         .type1 = TYPE_ELECTRIC,
@@ -21029,11 +21029,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_TAPU_LELE] =
     {
-        .baseHP        = 70,
+        .baseHP        = 255,
         .baseAttack    = 85,
         .baseDefense   = 75,
         .baseSpeed     = 95,
-        .baseSpAttack  = 130,
+        .baseSpAttack  = 150,
         .baseSpDefense = 115,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_FAIRY,
@@ -21053,8 +21053,8 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_TAPU_BULU] =
     {
-        .baseHP        = 70,
-        .baseAttack    = 130,
+        .baseHP        = 255,
+        .baseAttack    = 150,
         .baseDefense   = 115,
         .baseSpeed     = 75,
         .baseSpAttack  = 85,
@@ -21077,12 +21077,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_TAPU_FINI] =
     {
-        .baseHP        = 70,
+        .baseHP        = 255,
         .baseAttack    = 75,
         .baseDefense   = 115,
         .baseSpeed     = 85,
         .baseSpAttack  = 95,
-        .baseSpDefense = 130,
+        .baseSpDefense = 150,
         .type1 = TYPE_WATER,
         .type2 = TYPE_FAIRY,
         .catchRate = 3,
@@ -21101,12 +21101,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_COSMOG] =
     {
-        .baseHP        = 43,
+        .baseHP        = 243,
         .baseAttack    = 29,
-        .baseDefense   = 31,
+        .baseDefense   = 131,
         .baseSpeed     = 37,
         .baseSpAttack  = 29,
-        .baseSpDefense = 31,
+        .baseSpDefense = 131,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 45,
@@ -21125,12 +21125,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_COSMOEM] =
     {
-        .baseHP        = 43,
+        .baseHP        = 248,
         .baseAttack    = 29,
-        .baseDefense   = 131,
+        .baseDefense   = 141,
         .baseSpeed     = 37,
         .baseSpAttack  = 29,
-        .baseSpDefense = 131,
+        .baseSpDefense = 141,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 45,
@@ -21150,8 +21150,8 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_SOLGALEO] =
     {
-        .baseHP        = 137,
-        .baseAttack    = 137,
+        .baseHP        = 255,
+        .baseAttack    = 189,
         .baseDefense   = 107,
         .baseSpeed     = 97,
         .baseSpAttack  = 113,
@@ -21174,11 +21174,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_LUNALA] =
     {
-        .baseHP        = 137,
+        .baseHP        = 255,
         .baseAttack    = 113,
         .baseDefense   = 89,
         .baseSpeed     = 97,
-        .baseSpAttack  = 137,
+        .baseSpAttack  = 189,
         .baseSpDefense = 107,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_GHOST,
@@ -21198,12 +21198,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_NIHILEGO] =
     {
-        .baseHP        = 109,
-        .baseAttack    = 53,
+        .baseHP        = 255,
+        .baseAttack    = 57,
         .baseDefense   = 47,
         .baseSpeed     = 103,
         .baseSpAttack  = 127,
-        .baseSpDefense = 131,
+        .baseSpDefense = 161,
         .type1 = TYPE_ROCK,
         .type2 = TYPE_POISON,
         .catchRate = 45,
@@ -21223,11 +21223,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_BUZZWOLE] =
     {
-        .baseHP        = 107,
-        .baseAttack    = 139,
+        .baseHP        = 255,
+        .baseAttack    = 169,
         .baseDefense   = 139,
         .baseSpeed     = 79,
-        .baseSpAttack  = 53,
+        .baseSpAttack  = 55,
         .baseSpDefense = 53,
         .type1 = TYPE_BUG,
         .type2 = TYPE_FIGHTING,
@@ -21249,7 +21249,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_PHEROMOSA] =
     {
-        .baseHP        = 71,
+        .baseHP        = 251,
         .baseAttack    = 137,
         .baseDefense   = 37,
         .baseSpeed     = 151,
@@ -21274,8 +21274,8 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_XURKITREE] =
     {
-        .baseHP        = 83,
-        .baseAttack    = 89,
+        .baseHP        = 253,
+        .baseAttack    = 99,
         .baseDefense   = 71,
         .baseSpeed     = 83,
         .baseSpAttack  = 173,
@@ -21299,11 +21299,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_CELESTEELA] =
     {
-        .baseHP        = 97,
-        .baseAttack    = 101,
+        .baseHP        = 255,
+        .baseAttack    = 121,
         .baseDefense   = 103,
         .baseSpeed     = 61,
-        .baseSpAttack  = 107,
+        .baseSpAttack  = 109,
         .baseSpDefense = 101,
         .type1 = TYPE_STEEL,
         .type2 = TYPE_FLYING,
@@ -21326,7 +21326,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_KARTANA] =
     {
-        .baseHP        = 59,
+        .baseHP        = 239,
         .baseAttack    = 181,
         .baseDefense   = 131,
         .baseSpeed     = 109,
@@ -21351,12 +21351,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_GUZZLORD] =
     {
-        .baseHP        = 223,
+        .baseHP        = 253,
         .baseAttack    = 101,
-        .baseDefense   = 53,
+        .baseDefense   = 153,
         .baseSpeed     = 43,
         .baseSpAttack  = 97,
-        .baseSpDefense = 53,
+        .baseSpDefense = 153,
         .type1 = TYPE_DARK,
         .type2 = TYPE_DRAGON,
         .catchRate = 45,
@@ -21376,12 +21376,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_NECROZMA] =
     {
-        .baseHP        = 97,
-        .baseAttack    = 107,
-        .baseDefense   = 101,
+        .baseHP        = 255,
+        .baseAttack    = 147,
+        .baseDefense   = 166,
         .baseSpeed     = 79,
-        .baseSpAttack  = 127,
-        .baseSpDefense = 89,
+        .baseSpAttack  = 129,
+        .baseSpDefense = 149,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 255,
@@ -21401,7 +21401,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_MAGEARNA] =
     {
-        .baseHP        = 80,
+        .baseHP        = 130,
         .baseAttack    = 95,
         .baseDefense   = 115,
         .baseSpeed     = 65,
@@ -21425,7 +21425,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_MARSHADOW] =
     {
-        .baseHP        = 90,
+        .baseHP        = 215,
         .baseAttack    = 125,
         .baseDefense   = 80,
         .baseSpeed     = 125,
@@ -21450,7 +21450,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_POIPOLE] =
     {
-        .baseHP        = 67,
+        .baseHP        = 247,
         .baseAttack    = 73,
         .baseDefense   = 67,
         .baseSpeed     = 73,
@@ -21475,11 +21475,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_NAGANADEL] =
     {
-        .baseHP        = 73,
+        .baseHP        = 253,
         .baseAttack    = 73,
         .baseDefense   = 73,
-        .baseSpeed     = 121,
-        .baseSpAttack  = 127,
+        .baseSpeed     = 131,
+        .baseSpAttack  = 147,
         .baseSpDefense = 73,
         .type1 = TYPE_POISON,
         .type2 = TYPE_DRAGON,
@@ -21500,7 +21500,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_STAKATAKA] =
     {
-        .baseHP        = 61,
+        .baseHP        = 241,
         .baseAttack    = 131,
         .baseDefense   = 211,
         .baseSpeed     = 13,
@@ -21525,7 +21525,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_BLACEPHALON] =
     {
-        .baseHP        = 53,
+        .baseHP        = 233,
         .baseAttack    = 127,
         .baseDefense   = 53,
         .baseSpeed     = 107,
@@ -21550,9 +21550,9 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ZERAORA] =
     {
-        .baseHP        = 88,
+        .baseHP        = 158,
         .baseAttack    = 112,
-        .baseDefense   = 75,
+        .baseDefense   = 80,
         .baseSpeed     = 143,
         .baseSpAttack  = 102,
         .baseSpDefense = 80,
@@ -21574,12 +21574,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_MELTAN] =
     {
-        .baseHP        = 46,
+        .baseHP        = 146,
         .baseAttack    = 65,
-        .baseDefense   = 65,
+        .baseDefense   = 165,
         .baseSpeed     = 34,
         .baseSpAttack  = 55,
-        .baseSpDefense = 35,
+        .baseSpDefense = 135,
         .type1 = TYPE_STEEL,
         .type2 = TYPE_STEEL,
         .catchRate = 3,
@@ -21598,7 +21598,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_MELMETAL] =
     {
-        .baseHP        = 135,
+        .baseHP        = 235,
         .baseAttack    = 143,
         .baseDefense   = 143,
         .baseSpeed     = 34,
