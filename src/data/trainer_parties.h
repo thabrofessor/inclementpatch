@@ -2217,6 +2217,13 @@ static const struct TrainerMonItemCustomMoves sParty_Darian[] = {
     .moves = MOVE_BOUNCE, MOVE_REVERSAL, MOVE_MIMIC, MOVE_HYDRO_PUMP
     },
     {
+    .lvl = 4,
+    .species = SPECIES_FEEBAS,
+	    .heldItem = ITEM_BERRY_JUICE,
+	    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_TACKLE, MOVE_SPLASH
+    },
+    {
     .lvl = -2,
     .species = SPECIES_GOLDEEN,
 	    .heldItem = ITEM_BERRY_JUICE,
@@ -2236,13 +2243,6 @@ static const struct TrainerMonItemCustomMoves sParty_Darian[] = {
     .heldItem = ITEM_ORAN_BERRY,
 	    .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_INFESTATION, MOVE_BUG_BITE, MOVE_BUBBLE_BEAM, MOVE_AQUA_RING
-    },
-    {
-    .lvl = 2,
-    .species = SPECIES_ARROKUDA,
-    .heldItem = ITEM_ORAN_BERRY,
-	    .spread = SPREAD_15_IV_0_EV,
-    .moves = MOVE_AQUA_JET, MOVE_PECK, MOVE_BITE, MOVE_DIVE
     },
     {
     .lvl = 0,
@@ -2679,13 +2679,6 @@ static const struct TrainerMonItemCustomMoves sParty_Ivan[] = {
     .moves = MOVE_REST, MOVE_SNORE, MOVE_WATER_GUN, MOVE_MUD_BOMB
     },
     {
-    .lvl = 4,
-    .species = SPECIES_FEEBAS,
-	    .heldItem = ITEM_BERRY_JUICE,
-	    .spread = SPREAD_15_IV_0_EV,
-    .moves = MOVE_TACKLE, MOVE_SPLASH
-    },
-    {
     .lvl = -2,
     .species = SPECIES_TENTACOOL,
 	    .heldItem = ITEM_BERRY_JUICE,
@@ -2713,7 +2706,15 @@ static const struct TrainerMonItemCustomMoves sParty_Ivan[] = {
     .heldItem = ITEM_SITRUS_BERRY,
 	    .spread = SPREAD_15_IV_0_EV,
     .moves = MOVE_WATER_GUN, MOVE_HARDEN, MOVE_VISE_GRIP, MOVE_MUD_SHOT
-    }	
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_ARROKUDA,
+    .heldItem = ITEM_ORAN_BERRY,
+	    .spread = SPREAD_15_IV_0_EV,
+    .moves = MOVE_AQUA_JET, MOVE_PECK, MOVE_BITE, MOVE_DIVE
+    }
+
 };
 
 // Petalburg Woods
