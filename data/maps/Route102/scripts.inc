@@ -60,6 +60,11 @@ Route102_EventScript_CalvinRematch:: @ 81EC19C
 	msgbox Route102_Text_CalvinRematchPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route102_EventScript_Calvin_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_CALVIN_2, Route102_Text_RickIntro, Route102_Text_RickDefeated
+	msgbox Route102_Text_RickPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 Route102_EventScript_Rick:: @ 81EC1B3
 	trainerbattle_single TRAINER_RICK, Route102_Text_RickIntro, Route102_Text_RickDefeated
 	msgbox Route102_Text_RickPostBattle, MSGBOX_AUTOCLOSE
