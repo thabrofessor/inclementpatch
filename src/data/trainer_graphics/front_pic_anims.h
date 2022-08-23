@@ -374,6 +374,10 @@ static const union AnimCmd *const sAnims_RubySapphireMay[] ={
     sAnim_GeneralFrame0,
 };
 
+static const union AnimCmd *const sAnims_Blue[] ={
+    sAnim_GeneralFrame0,
+};
+
 const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
 {
     [TRAINER_PIC_HIKER] = sAnims_Hiker,
@@ -471,4 +475,5 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
     [TRAINER_PIC_RS_MAY] = sAnims_RubySapphireMay,
     [TRAINER_PIC_MAGMA_ADMIN_F] = sAnims_MagmaAdmin,
     [TRAINER_PIC_CYNTHIA] = sAnims_Cynthia,
+    [TRAINER_PIC_BLUE] = sAnims_Blue,
 };
