@@ -96,7 +96,7 @@ const struct MonCoords gTrainerFrontPicCoords[] =
     [TRAINER_PIC_MAGMA_ADMIN_F] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_CYNTHIA] = {.size = 8, .y_offset = 1},
         [TRAINER_PIC_BLUE] = {.size = 8, .y_offset = 1},
-            [TRAINER_PIC_CRYSTAL] = {.size = 8, .y_offset = 1},
+            [TRAINER_PIC_WES] = {.size = 8, .y_offset = 1},
 };
 
 #define TRAINER_SPRITE(trainerPic, sprite, size) [TRAINER_PIC_##trainerPic] = {sprite, size, TRAINER_PIC_##trainerPic}
@@ -199,7 +199,7 @@ const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
     TRAINER_SPRITE(MAGMA_ADMIN_F, gTrainerFrontPic_MagmaAdminF, 0x800),
     TRAINER_SPRITE(CYNTHIA, gTrainerFrontPic_Cynthia, 0x800),
         TRAINER_SPRITE(BLUE, gTrainerFrontPic_Blue, 0x800),
-            TRAINER_SPRITE(CRYSTAL, gTrainerFrontPic_Crystal, 0x800),
+            TRAINER_SPRITE(WES, gTrainerFrontPic_Wes, 0x800),
 };
 
 #define TRAINER_PAL(trainerPic, pal) [TRAINER_PIC_##trainerPic] = {pal, TRAINER_PIC_##trainerPic}
@@ -302,6 +302,6 @@ const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
     TRAINER_PAL(MAGMA_ADMIN_F, gTrainerPalette_MagmaAdmin),
     TRAINER_PAL(CYNTHIA, gTrainerPalette_Cynthia),
         TRAINER_PAL(BLUE, gTrainerPalette_Blue),
-          TRAINER_PAL(CRYSTAL, gTrainerPalette_Crystal),
+          TRAINER_PAL(WES, gTrainerPalette_Wes),
 };
 
