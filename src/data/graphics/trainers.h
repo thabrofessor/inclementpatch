@@ -300,3 +300,4 @@ const u32 gTrainerPalette_Blue[] = INCBIN_U32("graphics/trainers/palettes/blue.g
 
 const u32 gTrainerFrontPic_Crystal[] = INCBIN_U32("graphics/trainers/front_pics/crystal_front_pic.4bpp.lz");
 const u32 gTrainerPalette_Crystal[] = INCBIN_U32("graphics/trainers/palettes/crystal.gbapal.lz");
+
