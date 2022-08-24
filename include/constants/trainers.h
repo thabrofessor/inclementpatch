@@ -112,9 +112,8 @@
 #define TRAINER_PIC_RS_MAY                92
 #define TRAINER_PIC_MAGMA_ADMIN_F         93
 #define TRAINER_PIC_CYNTHIA               94
-#define TRAINER_PIC_CYNTHIA               95
-#define TRAINER_PIC_BLUE               96
-#define TRAINER_PIC_WES               97
+#define TRAINER_PIC_BLUE               95
+#define TRAINER_PIC_WES               96
 
 #define TRAINER_BACK_PIC_BRENDAN                0
 #define TRAINER_BACK_PIC_MAY                    1
