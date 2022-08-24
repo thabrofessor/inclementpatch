@@ -304,3 +304,4 @@ const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
         TRAINER_PAL(BLUE, gTrainerPalette_Blue),
           TRAINER_PAL(CRYSTAL, gTrainerPalette_Crystal),
 };
+
