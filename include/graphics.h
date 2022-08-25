@@ -6713,7 +6713,7 @@ extern const u32 gTrainerFrontPic_Dray[];
 extern const u32 gTrainerFrontPic_DaisyOak[];
 extern const u32 gTrainerFrontPic_Lance[];
 extern const u32 gTrainerFrontPic_Crush[];
-extern const u32 gTrainerFrontPic_Lorelie[];
+extern const u32 gTrainerFrontPic_Lorelei[];
 extern const u32 gTrainerFrontPic_Oak[];
 extern const u32 gTrainerFrontPic_Cam[];
 extern const u32 gTrainerFrontPic_Dorkly[];
