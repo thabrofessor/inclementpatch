@@ -114,6 +114,29 @@
 #define TRAINER_PIC_CYNTHIA               94
 #define TRAINER_PIC_BLUE               95
 #define TRAINER_PIC_WES               96
+#define TRAINER_PIC_AGATHA               97
+#define TRAINER_PIC_BABE               98
+#define TRAINER_PIC_BILL               99
+#define TRAINER_PIC_BLAINE               100
+#define TRAINER_PIC_BROCK               101
+#define TRAINER_PIC_BRUNO               102
+#define TRAINER_PIC_BURGLAR               103
+#define TRAINER_PIC_DRAY               104
+#define TRAINER_PIC_DAISY_OAK               105
+#define TRAINER_PIC_LANCE               106
+#define TRAINER_PIC_CRUSH               107
+#define TRAINER_PIC_LORELEI               108
+#define TRAINER_PIC_OAK               109
+#define TRAINER_PIC_CAM               110
+#define TRAINER_PIC_DORKLY               111
+#define TRAINER_PIC_ERICA               112
+#define TRAINER_PIC_GIOVANI               113
+#define TRAINER_PIC_KOGA               114
+#define TRAINER_PIC_LT_SURGE               115
+#define TRAINER_PIC_MISTY               116
+#define TRAINER_PIC_MR_FUJI               117
+#define TRAINER_PIC_YELLOW               118
+
 
 #define TRAINER_BACK_PIC_BRENDAN                0
 #define TRAINER_BACK_PIC_MAY                    1
