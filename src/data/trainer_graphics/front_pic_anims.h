@@ -382,6 +382,94 @@ static const union AnimCmd *const sAnims_Wes[] ={
     sAnim_GeneralFrame0,
 };
 
+static const union AnimCmd *const sAnims_Agatha[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Babe[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Bill[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Blaine[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Brock[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Bruno[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Burglar[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Dray[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_DaisyOak[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Lance[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Crush[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Lorelei[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Oak[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Cam[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Dorkly[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Erica[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Giovani[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Koga[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_LtSurge[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Misty[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_MrFuji[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Yellow[] ={
+    sAnim_GeneralFrame0,
+};
+
 const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
 {
     [TRAINER_PIC_HIKER] = sAnims_Hiker,
@@ -481,4 +569,26 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
     [TRAINER_PIC_CYNTHIA] = sAnims_Cynthia,
     [TRAINER_PIC_BLUE] = sAnims_Blue,
         [TRAINER_PIC_WES] = sAnims_Wes,
+            [TRAINER_PIC_AGATHA] = sAnims_Agatha,
+            [TRAINER_PIC_BABE] = sAnims_Babe,
+            [TRAINER_PIC_BILL] = sAnims_Bill,
+            [TRAINER_PIC_BLAINE] = sAnims_Blaine,
+            [TRAINER_PIC_BROCK] = sAnims_Brock,
+            [TRAINER_PIC_BRUNO] = sAnims_Bruno,
+            [TRAINER_PIC_BURGLAR] = sAnims_Burglar,
+            [TRAINER_PIC_DRAY] = sAnims_Dray,
+            [TRAINER_PIC_DAISY_OAK] = sAnims_DaisyOak,
+            [TRAINER_PIC_LANCE] = sAnims_Lance,
+            [TRAINER_PIC_CRUSH] = sAnims_Crush,
+            [TRAINER_PIC_LORELEI] = sAnims_Lorelei,
+            [TRAINER_PIC_OAK] = sAnims_Oak,
+            [TRAINER_PIC_CAM] = sAnims_Cam,
+            [TRAINER_PIC_DORKLY] = sAnims_Dorkly,
+            [TRAINER_PIC_ERICA] = sAnims_Erica,
+            [TRAINER_PIC_GIOVANI] = sAnims_Giovani,
+            [TRAINER_PIC_KOGA] = sAnims_Koga,
+            [TRAINER_PIC_LT_SURGE] = sAnims_LtSurge,
+            [TRAINER_PIC_MISTY] = sAnims_Misty,
+            [TRAINER_PIC_MR_FUJI] = sAnims_MrFuji,
+            [TRAINER_PIC_YELLOW] = sAnims_Yellow,
 };
