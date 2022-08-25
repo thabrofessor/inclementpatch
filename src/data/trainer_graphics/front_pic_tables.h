@@ -230,7 +230,7 @@ const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
                 TRAINER_SPRITE(BRUNO, gTrainerFrontPic_Bruno, 0x800),
                 TRAINER_SPRITE(BURGLAR, gTrainerFrontPic_Burglar, 0x800),
                 TRAINER_SPRITE(DRAY, gTrainerFrontPic_Dray, 0x800),
-                TRAINER_SPRITE(DAISY_OAK, gTrainerFrontPic_Oak, 0x800),
+                TRAINER_SPRITE(DAISY_OAK, gTrainerFrontPic_DaisyOak, 0x800),
                 TRAINER_SPRITE(LANCE, gTrainerFrontPic_Lance, 0x800),
                 TRAINER_SPRITE(CRUSH, gTrainerFrontPic_Crush, 0x800),
                 TRAINER_SPRITE(LORELEI, gTrainerFrontPic_Lorelei, 0x800),
