@@ -369,3 +369,6 @@ const u32 gTrainerPalette_Yellow[] = INCBIN_U32("graphics/trainers/palettes/yell
 
 const u32 gTrainerFrontPic_Shady[] = INCBIN_U32("graphics/trainers/front_pics/shady_front_pic.4bpp.lz");
 const u32 gTrainerPalette_Shady[] = INCBIN_U32("graphics/trainers/palettes/shady.gbapal.lz");
+
+const u32 gTrainerFrontPic_Falkner[] = INCBIN_U32("graphics/trainers/front_pics/falkner_front_pic.4bpp.lz");
+const u32 gTrainerPalette_Falkner[] = INCBIN_U32("graphics/trainers/palettes/falkner.gbapal.lz");
