@@ -137,6 +137,7 @@
 #define TRAINER_PIC_MR_FUJI               117
 #define TRAINER_PIC_YELLOW               118
 #define TRAINER_PIC_SHADY               119
+#define TRAINER_PIC_FALKNER               120
 
 
 #define TRAINER_BACK_PIC_BRENDAN                0
