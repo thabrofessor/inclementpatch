@@ -470,6 +470,10 @@ static const union AnimCmd *const sAnims_Yellow[] ={
     sAnim_GeneralFrame0,
 };
 
+static const union AnimCmd *const sAnims_Shady[] ={
+    sAnim_GeneralFrame0,
+};
+
 const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
 {
     [TRAINER_PIC_HIKER] = sAnims_Hiker,
@@ -591,4 +595,5 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
             [TRAINER_PIC_MISTY] = sAnims_Misty,
             [TRAINER_PIC_MR_FUJI] = sAnims_MrFuji,
             [TRAINER_PIC_YELLOW] = sAnims_Yellow,
+                [TRAINER_PIC_SHADY] = sAnims_Shady,
 };
