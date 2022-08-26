@@ -600,5 +600,5 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
             [TRAINER_PIC_MR_FUJI] = sAnims_MrFuji,
             [TRAINER_PIC_YELLOW] = sAnims_Yellow,
                 [TRAINER_PIC_SHADY] = sAnims_Shady,
-                    [TRAINER_PIC_SHADY] = sAnims_Falkner,
+                    [TRAINER_PIC_FALKNER] = sAnims_Falkner,
 };
