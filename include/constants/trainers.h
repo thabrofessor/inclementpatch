@@ -147,16 +147,15 @@
 #define TRAINER_PIC_ELESA               127
 #define TRAINER_PIC_JASMINE               128
 #define TRAINER_PIC_LI               129
-#define TRAINER_PIC_LT_SURGE               130
-#define TRAINER_PIC_MORTY               131
-#define TRAINER_PIC_PRYCE               132
-#define TRAINER_PIC_SABRINA               133
-#define TRAINER_PIC_SILVER               134
-#define TRAINER_PIC_THIEF               135
-#define TRAINER_PIC_WHITNEY               136
-#define TRAINER_PIC_ETHAN               137
-#define TRAINER_PIC_LYRA               138
-#define TRAINER_PIC_BRO               139
+#define TRAINER_PIC_MORTY               130
+#define TRAINER_PIC_PRYCE               131
+#define TRAINER_PIC_SABRINA               132
+#define TRAINER_PIC_SILVER               133
+#define TRAINER_PIC_THIEF               134
+#define TRAINER_PIC_WHITNEY               135
+#define TRAINER_PIC_ETHAN               136
+#define TRAINER_PIC_LYRA               137
+#define TRAINER_PIC_BRO               138
 
 
 
