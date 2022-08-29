@@ -139,6 +139,28 @@
 #define TRAINER_PIC_SHADY               119
 #define TRAINER_PIC_FALKNER               120
 
+#define TRAINER_PIC_BUGSY               121
+#define TRAINER_PIC_CAITLIN               122
+#define TRAINER_PIC_CHUCK               123
+#define TRAINER_PIC_CLAIR               124
+#define TRAINER_PIC_CRYSTAL               125
+#define TRAINER_PIC_DAHLIA               126
+#define TRAINER_PIC_ELESA               127
+#define TRAINER_PIC_JASMINE               128
+#define TRAINER_PIC_LI               129
+#define TRAINER_PIC_LT_SURGE               130
+#define TRAINER_PIC_MORTY               131
+#define TRAINER_PIC_PRYCE               132
+#define TRAINER_PIC_SABRINA               133
+#define TRAINER_PIC_SILVER               134
+#define TRAINER_PIC_THIEF               135
+#define TRAINER_PIC_WHITNEY               136
+#define TRAINER_PIC_ETHAN               137
+#define TRAINER_PIC_LYRA               138
+#define TRAINER_PIC_BRO               139
+
+
+
 
 #define TRAINER_BACK_PIC_BRENDAN                0
 #define TRAINER_BACK_PIC_MAY                    1
