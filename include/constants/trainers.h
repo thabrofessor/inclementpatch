@@ -138,7 +138,6 @@
 #define TRAINER_PIC_YELLOW               118
 #define TRAINER_PIC_SHADY               119
 #define TRAINER_PIC_FALKNER               120
-
 #define TRAINER_PIC_BUGSY               121
 #define TRAINER_PIC_CAITLIN               122
 #define TRAINER_PIC_CHUCK               123
