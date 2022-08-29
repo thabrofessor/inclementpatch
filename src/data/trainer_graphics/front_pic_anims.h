@@ -514,10 +514,6 @@ static const union AnimCmd *const sAnims_Li[] ={
     sAnim_GeneralFrame0,
 };
 
-static const union AnimCmd *const sAnims_LtSurge[] ={
-    sAnim_GeneralFrame0,
-};
-
 static const union AnimCmd *const sAnims_Morty[] ={
     sAnim_GeneralFrame0,
 };
@@ -686,7 +682,6 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
                   [TRAINER_PIC_FALKNER] = sAnims_Elesa,
                   [TRAINER_PIC_FALKNER] = sAnims_Jasmine,
                   [TRAINER_PIC_FALKNER] = sAnims_Li,
-                  [TRAINER_PIC_FALKNER] = sAnims_LtSurge,
                   [TRAINER_PIC_FALKNER] = sAnims_Morty,
                   [TRAINER_PIC_FALKNER] = sAnims_Pryce,
                   [TRAINER_PIC_FALKNER] = sAnims_Sabrina,
