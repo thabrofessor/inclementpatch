@@ -400,9 +400,6 @@ const u32 gTrainerPalette_Jasmine[] = INCBIN_U32("graphics/trainers/palettes/jas
 const u32 gTrainerFrontPic_Li[] = INCBIN_U32("graphics/trainers/front_pics/li_front_pic.4bpp.lz");
 const u32 gTrainerPalette_Li[] = INCBIN_U32("graphics/trainers/palettes/li.gbapal.lz");
 
-const u32 gTrainerFrontPic_LtSurge[] = INCBIN_U32("graphics/trainers/front_pics/lt_surge_front_pic.4bpp.lz");
-const u32 gTrainerPalette_LtSurge[] = INCBIN_U32("graphics/trainers/palettes/lt_lurge.gbapal.lz");
-
 const u32 gTrainerFrontPic_Morty[] = INCBIN_U32("graphics/trainers/front_pics/morty_front_pic.4bpp.lz");
 const u32 gTrainerPalette_Morty[] = INCBIN_U32("graphics/trainers/palettes/morty.gbapal.lz");
 
