@@ -478,6 +478,82 @@ static const union AnimCmd *const sAnims_Falkner[] ={
     sAnim_GeneralFrame0,
 };
 
+static const union AnimCmd *const sAnims_Bugsy[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Caitlin[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Chuck[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Clair[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Crystal[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Dahlia[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Elesa[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Jasmine[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Li[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_LtSurge[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Morty[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Pryce[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Sabrina[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Silver[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Thief[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Whitney[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Ethan[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Lyra[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Bro[] ={
+    sAnim_GeneralFrame0,
+};
+
 const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
 {
     [TRAINER_PIC_HIKER] = sAnims_Hiker,
@@ -601,4 +677,23 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
             [TRAINER_PIC_YELLOW] = sAnims_Yellow,
                 [TRAINER_PIC_SHADY] = sAnims_Shady,
                     [TRAINER_PIC_FALKNER] = sAnims_Falkner,
+                  [TRAINER_PIC_FALKNER] = sAnims_Bugsy,
+                  [TRAINER_PIC_FALKNER] = sAnims_Catlin,
+                  [TRAINER_PIC_FALKNER] = sAnims_Chuck,
+                  [TRAINER_PIC_FALKNER] = sAnims_Clair,
+                  [TRAINER_PIC_FALKNER] = sAnims_Crystal,
+                  [TRAINER_PIC_FALKNER] = sAnims_Dahlia,
+                  [TRAINER_PIC_FALKNER] = sAnims_Elesa,
+                  [TRAINER_PIC_FALKNER] = sAnims_Jasmine,
+                  [TRAINER_PIC_FALKNER] = sAnims_Li,
+                  [TRAINER_PIC_FALKNER] = sAnims_LtSurge,
+                  [TRAINER_PIC_FALKNER] = sAnims_Morty,
+                  [TRAINER_PIC_FALKNER] = sAnims_Pryce,
+                  [TRAINER_PIC_FALKNER] = sAnims_Sabrina,
+                  [TRAINER_PIC_FALKNER] = sAnims_Silver,
+                  [TRAINER_PIC_FALKNER] = sAnims_Thief,
+                  [TRAINER_PIC_FALKNER] = sAnims_Whitney,
+                  [TRAINER_PIC_FALKNER] = sAnims_Ethan,
+                  [TRAINER_PIC_FALKNER] = sAnims_Lyra,
+                  [TRAINER_PIC_FALKNER] = sAnims_Bro,   
 };
