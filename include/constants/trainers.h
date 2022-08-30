@@ -159,7 +159,7 @@
 #define TRAINER_PIC_ARGENTA               139
 #define TRAINER_PIC_PALMER               140
 #define TRAINER_PIC_THORTON               141
-#define TRAINER_PIC_THORTON               142
+#define TRAINER_PIC_CYRUS               142
 
 
 #define TRAINER_BACK_PIC_BRENDAN                0
