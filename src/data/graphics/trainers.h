@@ -426,3 +426,12 @@ const u32 gTrainerPalette_Lyra[] = INCBIN_U32("graphics/trainers/palettes/lyra.g
 
 const u32 gTrainerFrontPic_Bro[] = INCBIN_U32("graphics/trainers/front_pics/bro_front_pic.4bpp.lz");
 const u32 gTrainerPalette_Bro[] = INCBIN_U32("graphics/trainers/palettes/bro.gbapal.lz");
+
+const u32 gTrainerFrontPic_Argenta[] = INCBIN_U32("graphics/trainers/front_pics/argenta_front_pic.4bpp.lz");
+const u32 gTrainerPalette_Argenta[] = INCBIN_U32("graphics/trainers/palettes/argenta.gbapal.lz");
+
+const u32 gTrainerFrontPic_Palmer[] = INCBIN_U32("graphics/trainers/front_pics/palmer_front_pic.4bpp.lz");
+const u32 gTrainerPalette_Palmer[] = INCBIN_U32("graphics/trainers/palettes/palmer.gbapal.lz");
+
+const u32 gTrainerFrontPic_Thorton[] = INCBIN_U32("graphics/trainers/front_pics/thorton_front_pic.4bpp.lz");
+const u32 gTrainerPalette_Thorton[] = INCBIN_U32("graphics/trainers/palettes/thorton.gbapal.lz");
