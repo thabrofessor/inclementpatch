@@ -435,3 +435,6 @@ const u32 gTrainerPalette_Palmer[] = INCBIN_U32("graphics/trainers/palettes/palm
 
 const u32 gTrainerFrontPic_Thorton[] = INCBIN_U32("graphics/trainers/front_pics/thorton_front_pic.4bpp.lz");
 const u32 gTrainerPalette_Thorton[] = INCBIN_U32("graphics/trainers/palettes/thorton.gbapal.lz");
+
+const u32 gTrainerFrontPic_Cyrus[] = INCBIN_U32("graphics/trainers/front_pics/cyrus_front_pic.4bpp.lz");
+const u32 gTrainerPalette_Cyrus[] = INCBIN_U32("graphics/trainers/palettes/cyrus.gbapal.lz");
