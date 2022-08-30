@@ -139,6 +139,9 @@ const struct MonCoords gTrainerFrontPicCoords[] =
                    [TRAINER_PIC_ETHAN] = {.size = 8, .y_offset = 1},
                    [TRAINER_PIC_LYRA] = {.size = 8, .y_offset = 1},
                    [TRAINER_PIC_BRO] = {.size = 8, .y_offset = 1},
+                       [TRAINER_PIC_ARGENTA] = {.size = 8, .y_offset = 1},
+                       [TRAINER_PIC_PALMER] = {.size = 8, .y_offset = 1},
+                       [TRAINER_PIC_THORTON] = {.size = 8, .y_offset = 1},
 };
 
 #define TRAINER_SPRITE(trainerPic, sprite, size) [TRAINER_PIC_##trainerPic] = {sprite, size, TRAINER_PIC_##trainerPic}
@@ -284,6 +287,9 @@ const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
                           TRAINER_SPRITE(ETHAN, gTrainerFrontPic_Ethan, 0x800),
                           TRAINER_SPRITE(LYRA, gTrainerFrontPic_Lyra, 0x800),
                           TRAINER_SPRITE(BRO, gTrainerFrontPic_Bro, 0x800),
+                              TRAINER_SPRITE(ARGENTA, gTrainerFrontPic_Argenta, 0x800),
+                              TRAINER_SPRITE(PALMER, gTrainerFrontPic_Palmer, 0x800),
+                              TRAINER_SPRITE(THORTON, gTrainerFrontPic_Thorton, 0x800),
     
 };
 
@@ -430,5 +436,8 @@ const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
                           TRAINER_PAL(ETHAN, gTrainerPalette_Ethan),
                           TRAINER_PAL(LYRA, gTrainerPalette_Lyra),
                           TRAINER_PAL(BRO, gTrainerPalette_Bro),
+                              TRAINER_PAL(ARGENTA, gTrainerPalette_Argenta),
+                              TRAINER_PAL(PALMER, gTrainerPalette_Palmer),
+                              TRAINER_PAL(THORTON, gTrainerPalette_Thorton),
 };
 
