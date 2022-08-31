@@ -149,6 +149,15 @@ const struct MonCoords gTrainerFrontPicCoords[] =
                                [TRAINER_PIC_LINEBACKER] = {.size = 8, .y_offset = 1},
                                [TRAINER_PIC_ROCKSTAR] = {.size = 8, .y_offset = 1},
                                [TRAINER_PIC_STARLET] = {.size = 8, .y_offset = 1},
+                                   [TRAINER_PIC_GEM] = {.size = 8, .y_offset = 1},
+                                   [TRAINER_PIC_ARCH] = {.size = 8, .y_offset = 1},
+                                   [TRAINER_PIC_COLE] = {.size = 8, .y_offset = 1},
+                                   [TRAINER_PIC_CHAD] = {.size = 8, .y_offset = 1},
+                                   [TRAINER_PIC_BOARDER] = {.size = 8, .y_offset = 1},
+                                   [TRAINER_PIC_DARACH] = {.size = 8, .y_offset = 1},
+                                   [TRAINER_PIC_JANINE] = {.size = 8, .y_offset = 1},
+                                   [TRAINER_PIC_GHETSIS] = {.size = 8, .y_offset = 1},
+                                   [TRAINER_PIC_LYSANDER] = {.size = 8, .y_offset = 1},
 };
 
 #define TRAINER_SPRITE(trainerPic, sprite, size) [TRAINER_PIC_##trainerPic] = {sprite, size, TRAINER_PIC_##trainerPic}
@@ -304,6 +313,15 @@ const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
                                    TRAINER_SPRITE(LINEBACKER, gTrainerFrontPic_Linebacker, 0x800), 
                                    TRAINER_SPRITE(ROCKSTAR, gTrainerFrontPic_Rockstar, 0x800), 
                                    TRAINER_SPRITE(STARLET, gTrainerFrontPic_Starlet, 0x800), 
+                                       TRAINER_SPRITE(GEM, gTrainerFrontPic_Gem, 0x800),
+                                       TRAINER_SPRITE(ARCH, gTrainerFrontPic_Arch, 0x800),
+                                       TRAINER_SPRITE(COLE, gTrainerFrontPic_Cole, 0x800),
+                                       TRAINER_SPRITE(CHAD, gTrainerFrontPic_Chad, 0x800),
+                                       TRAINER_SPRITE(BOARDER, gTrainerFrontPic_Boarder, 0x800),
+                                       TRAINER_SPRITE(DARACH, gTrainerFrontPic_Darach, 0x800),
+                                       TRAINER_SPRITE(JANINE, gTrainerFrontPic_Janine, 0x800),
+                                       TRAINER_SPRITE(GHETSIS, gTrainerFrontPic_Ghetsis, 0x800),
+                                       TRAINER_SPRITE(LYSANDER, gTrainerFrontPic_Lysander, 0x800),
 };
 
 #define TRAINER_PAL(trainerPic, pal) [TRAINER_PIC_##trainerPic] = {pal, TRAINER_PIC_##trainerPic}
@@ -459,5 +477,14 @@ const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
                                       TRAINER_PAL(LINEBACKER, gTrainerPalette_Linebacker),
                                       TRAINER_PAL(ROCKSTAR, gTrainerPalette_Rockstar),
                                       TRAINER_PAL(STARLET, gTrainerPalette_Starlet),
+                                          TRAINER_PAL(GEM, gTrainerPalette_Gem),
+                                          TRAINER_PAL(ARCH, gTrainerPalette_Arch),
+                                          TRAINER_PAL(COLE, gTrainerPalette_Cole),
+                                          TRAINER_PAL(CHAD, gTrainerPalette_Chad),
+                                          TRAINER_PAL(BOARDER, gTrainerPalette_Boarder),
+                                          TRAINER_PAL(DARACH, gTrainerPalette_Darach),
+                                          TRAINER_PAL(JANINE, gTrainerPalette_Janine),
+                                          TRAINER_PAL(GHETSIS, gTrainerPalette_Ghetsis),
+                                          TRAINER_PAL(LYSANDER, gTrainerPalette_Lysander),
 };
 
