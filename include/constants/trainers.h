@@ -160,6 +160,12 @@
 #define TRAINER_PIC_PALMER               140
 #define TRAINER_PIC_THORTON               141
 #define TRAINER_PIC_CYRUS               142
+#define TRAINER_PIC_FANS               143
+#define TRAINER_PIC_KAREN               144
+#define TRAINER_PIC_HOOPSTAR               145
+#define TRAINER_PIC_LINEBACKER               146
+#define TRAINER_PIC_ROCKSTAR               147
+#define TRAINER_PIC_STARLET               148
 
 
 #define TRAINER_BACK_PIC_BRENDAN                0
