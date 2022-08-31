@@ -590,6 +590,42 @@ static const union AnimCmd *const sAnims_Starlet[] ={
     sAnim_GeneralFrame0,
 };
 
+static const union AnimCmd *const sAnims_Gem[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Arch[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Cole[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Chad[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Boarder[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Darach[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Janine[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Ghetsis[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Lysander[] ={
+    sAnim_GeneralFrame0,
+};
+
 const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
 {
     [TRAINER_PIC_HIKER] = sAnims_Hiker,
@@ -741,4 +777,13 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
                               [TRAINER_PIC_LINEBACKER] = sAnims_Linebacker,
                               [TRAINER_PIC_ROCKSTAR] = sAnims_Rockstar,
                               [TRAINER_PIC_STARLET] = sAnims_Starlet,
+                                  [TRAINER_PIC_GEM] = sAnims_Gem,
+                                  [TRAINER_PIC_ARCH] = sAnims_Arch,
+                                  [TRAINER_PIC_COLE] = sAnims_Cole,
+                                  [TRAINER_PIC_CHAD] = sAnims_Chad,
+                                  [TRAINER_PIC_BOARDER] = sAnims_Boarder,
+                                  [TRAINER_PIC_DARACH] = sAnims_Darach,
+                                  [TRAINER_PIC_JANINE] = sAnims_Janine,
+                                  [TRAINER_PIC_GHETSIS] = sAnims_Ghetsis,
+                                  [TRAINER_PIC_LYSANDER] = sAnims_Lysander,
 };
