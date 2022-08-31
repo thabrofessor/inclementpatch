@@ -166,6 +166,15 @@
 #define TRAINER_PIC_LINEBACKER               146
 #define TRAINER_PIC_ROCKSTAR               147
 #define TRAINER_PIC_STARLET               148
+#define TRAINER_PIC_GEM               149
+#define TRAINER_PIC_COLE               150
+#define TRAINER_PIC_CHAD               151
+#define TRAINER_PIC_BOARDER               152
+#define TRAINER_PIC_DARACH               153
+#define TRAINER_PIC_JANINE               154
+#define TRAINER_PIC_GHETSIS               155
+#define TRAINER_PIC_LYSANDER               156
+#define TRAINER_PIC_ARCH              157
 
 
 #define TRAINER_BACK_PIC_BRENDAN                0
