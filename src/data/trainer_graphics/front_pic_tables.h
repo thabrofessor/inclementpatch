@@ -143,6 +143,12 @@ const struct MonCoords gTrainerFrontPicCoords[] =
                        [TRAINER_PIC_PALMER] = {.size = 8, .y_offset = 1},
                        [TRAINER_PIC_THORTON] = {.size = 8, .y_offset = 1},
                            [TRAINER_PIC_CYRUS] = {.size = 8, .y_offset = 1},
+                               [TRAINER_PIC_FANS] = {.size = 8, .y_offset = 1},
+                               [TRAINER_PIC_KAREN] = {.size = 8, .y_offset = 1},
+                               [TRAINER_PIC_HOOPSTAR] = {.size = 8, .y_offset = 1},
+                               [TRAINER_PIC_LINEBACKER] = {.size = 8, .y_offset = 1},
+                               [TRAINER_PIC_ROCKSTAR] = {.size = 8, .y_offset = 1},
+                               [TRAINER_PIC_STARLET] = {.size = 8, .y_offset = 1},
 };
 
 #define TRAINER_SPRITE(trainerPic, sprite, size) [TRAINER_PIC_##trainerPic] = {sprite, size, TRAINER_PIC_##trainerPic}
@@ -291,7 +297,13 @@ const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
                               TRAINER_SPRITE(ARGENTA, gTrainerFrontPic_Argenta, 0x800),
                               TRAINER_SPRITE(PALMER, gTrainerFrontPic_Palmer, 0x800),
                               TRAINER_SPRITE(THORTON, gTrainerFrontPic_Thorton, 0x800),
-                               TRAINER_SPRITE(CYRUS, gTrainerFrontPic_Cyrus, 0x800),   
+                               TRAINER_SPRITE(CYRUS, gTrainerFrontPic_Cyrus, 0x800),  
+                                   TRAINER_SPRITE(FANS, gTrainerFrontPic_Fans, 0x800), 
+                                   TRAINER_SPRITE(KAREN, gTrainerFrontPic_Karen, 0x800), 
+                                   TRAINER_SPRITE(HOOPSTAR, gTrainerFrontPic_Hoopstar, 0x800), 
+                                   TRAINER_SPRITE(LINEBACKER, gTrainerFrontPic_Linebacker, 0x800), 
+                                   TRAINER_SPRITE(ROCKSTAR, gTrainerFrontPic_Rockstar, 0x800), 
+                                   TRAINER_SPRITE(STARLET, gTrainerFrontPic_Starlet, 0x800), 
 };
 
 #define TRAINER_PAL(trainerPic, pal) [TRAINER_PIC_##trainerPic] = {pal, TRAINER_PIC_##trainerPic}
@@ -441,5 +453,11 @@ const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
                               TRAINER_PAL(PALMER, gTrainerPalette_Palmer),
                               TRAINER_PAL(THORTON, gTrainerPalette_Thorton),
                                   TRAINER_PAL(CYRUS, gTrainerPalette_Cyrus),
+                                      TRAINER_PAL(FANS, gTrainerPalette_Fans),
+                                      TRAINER_PAL(KAREN, gTrainerPalette_Karen),
+                                      TRAINER_PAL(HOOPSTAR, gTrainerPalette_Hoopstar),
+                                      TRAINER_PAL(LINEBACKER, gTrainerPalette_Linebacker),
+                                      TRAINER_PAL(ROCKSTAR, gTrainerPalette_Rockstar),
+                                      TRAINER_PAL(STARLET, gTrainerPalette_Starlet),
 };
 
