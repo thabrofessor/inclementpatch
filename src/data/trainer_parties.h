@@ -34382,6 +34382,17 @@ static const struct TrainerMonItemCustomMoves sParty_LeafAlteringCave[] = {
     }
 };
 
+static const struct TrainerMonItemCustomMoves sParty_Bro1[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_NINETALES,
+    .heldItem = ITEM_LEFTOVERS,
+    .ability = 1, // Pyromancy
+    .spread = SPREAD_31_IV_HP_SPEED_TIMID,
+    .moves = MOVE_FLAMETHROWER, MOVE_FOUL_PLAY, MOVE_CALM_MIND, MOVE_DRAINING_KISS
+    }
+};
+
 // Cut rematches
 static const struct TrainerMonItemCustomMoves sParty_Bernie5[] = {
     {
