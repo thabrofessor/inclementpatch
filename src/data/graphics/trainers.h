@@ -438,3 +438,22 @@ const u32 gTrainerPalette_Thorton[] = INCBIN_U32("graphics/trainers/palettes/tho
 
 const u32 gTrainerFrontPic_Cyrus[] = INCBIN_U32("graphics/trainers/front_pics/cyrus_front_pic.4bpp.lz");
 const u32 gTrainerPalette_Cyrus[] = INCBIN_U32("graphics/trainers/palettes/cyrus.gbapal.lz");
+
+const u32 gTrainerFrontPic_Fans[] = INCBIN_U32("graphics/trainers/front_pics/fans_front_pic.4bpp.lz");
+const u32 gTrainerPalette_Fans[] = INCBIN_U32("graphics/trainers/palettes/fans.gbapal.lz");
+
+const u32 gTrainerFrontPic_Karen[] = INCBIN_U32("graphics/trainers/front_pics/karen_front_pic.4bpp.lz");
+const u32 gTrainerPalette_Karen[] = INCBIN_U32("graphics/trainers/palettes/karen.gbapal.lz");
+
+const u32 gTrainerFrontPic_Hoopstar[] = INCBIN_U32("graphics/trainers/front_pics/hoopstar_front_pic.4bpp.lz");
+const u32 gTrainerPalette_Hoopstar[] = INCBIN_U32("graphics/trainers/palettes/hoopstar.gbapal.lz");
+
+const u32 gTrainerFrontPic_Linebacker[] = INCBIN_U32("graphics/trainers/front_pics/linebacker_front_pic.4bpp.lz");
+const u32 gTrainerPalette_Linebacker[] = INCBIN_U32("graphics/trainers/palettes/linebacker.gbapal.lz");
+
+const u32 gTrainerFrontPic_Rockstar[] = INCBIN_U32("graphics/trainers/front_pics/rockstar_front_pic.4bpp.lz");
+const u32 gTrainerPalette_Rockstar[] = INCBIN_U32("graphics/trainers/palettes/rockstar.gbapal.lz");
+
+const u32 gTrainerFrontPic_Starlet[] = INCBIN_U32("graphics/trainers/front_pics/starlet_front_pic.4bpp.lz");
+const u32 gTrainerPalette_Starlet[] = INCBIN_U32("graphics/trainers/palettes/starlet.gbapal.lz");
+
