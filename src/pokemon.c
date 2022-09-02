@@ -3287,6 +3287,14 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
             value = Random32();
             shinyValue = HIHALF(value) ^ LOHALF(value) ^ HIHALF(personality) ^ LOHALF(personality);
         } while (shinyValue < getShinyOdds());
+	    if(gTrainerBattleOpponent_A == TRAINER_BRO_1)
+	{
+	    do
+	    {
+	        value = Random32();
+	        shinyValue = HIHALF(value) ^ LOHALF(value) ^ HIHALF(personality) ^ LOHALF(personality);
+	    } while (shinyValue >= SHINY_ODDS);
+	}
     }
     else if (otIdType == OT_ID_PRESET) //Pokemon has a preset OT ID
     {
