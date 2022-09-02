@@ -34384,12 +34384,26 @@ static const struct TrainerMonItemCustomMoves sParty_LeafAlteringCave[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Bro1[] = {
     {
-    .lvl = 5,
-    .species = SPECIES_LUGIA,
-    .heldItem = ITEM_LEFTOVERS,
-    .ability = 1, // Pyromancy
-    .spread = SPREAD_31_IV_HP_SPEED_TIMID,
-    .moves = MOVE_FLAMETHROWER, MOVE_FOUL_PLAY, MOVE_CALM_MIND, MOVE_DRAINING_KISS
+    .lvl = -5,
+    .species = SPECIES_KANGASKHAN,
+    .heldItem = ITEM_KANGASKHANITE,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    },
+	    {
+    .lvl = -5,
+    .species = SPECIES_LUCARIO,
+    .heldItem = ITEM_LUCARIONITE,
+    .ability = 0, // Steadfast
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    },
+	    {
+    .lvl = -5,
+    .species = SPECIES_KYOGRE,
+    .heldItem = ITEM_BLUE_ORB,
+    .spread = SPREAD_31_IV_SPATK_SPEED_TIMID,
+    .moves = MOVE_SPLASH 
     }
 };
 
