@@ -114,3 +114,8 @@ Route102_Text_RouteSignOldale: @ 81EC35B
 Route102_Text_RouteSignPetalburg: @ 81EC373
 	.string "Route 102\n"
 	.string "{LEFT_ARROW} Petalburg City$"
+	
+Route102_EventScript_Bro:: @ 81EC1B3
+	trainerbattle_single TRAINER_BRO, Route102_Text_RickIntro, Route102_Text_RickDefeated
+	msgbox Route102_Text_RickPostBattle, MSGBOX_AUTOCLOSE
+	end	
