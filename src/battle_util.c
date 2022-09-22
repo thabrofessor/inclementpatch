@@ -3969,9 +3969,9 @@ static bool32 TryChangeBattleTerrain(u32 battler, u32 statusFlag, u8 *timer)
         gFieldStatuses |= statusFlag;
 
         if (GetBattlerHoldEffect(battler, TRUE) == HOLD_EFFECT_TERRAIN_EXTENDER)
-            *timer = 8;
+            *timer = 255;
         else
-            *timer = 5;
+            *timer = 255;
 
         gBattlerAttacker = gBattleScripting.battler = battler;
         return TRUE;
