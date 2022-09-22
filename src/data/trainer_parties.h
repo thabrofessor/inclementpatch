@@ -34385,14 +34385,14 @@ static const struct TrainerMonItemCustomMoves sParty_LeafAlteringCave[] = {
 static const struct TrainerMonItemCustomMoves sParty_Bro1[] = {
     {
     .lvl = -5,
-    .species = SPECIES_MEGA_KANGASKHAN,
+    .species = SPECIES_KANGASKHAN,
     .heldItem = ITEM_ITEM_WHITE_HERB,
     .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
     .moves = MOVE_SPLASH
     },
 	    {
     .lvl = -5,
-    .species = SPECIES_MEGA_LUCARIO,
+    .species = SPECIES_LUCARIO,
     .heldItem = ITEM_ITEM_WHITE_HERB,
     .ability = 0, // Steadfast
     .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
