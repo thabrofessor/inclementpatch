@@ -34382,7 +34382,7 @@ static const struct TrainerMonItemCustomMoves sParty_LeafAlteringCave[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Bro1[] = {
+static const struct TrainerMonItemCustomMoves sParty_BROC_121[] = {
     {
     .lvl = -5,
     .species = SPECIES_KANGASKHAN,
