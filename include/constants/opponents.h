@@ -2443,12 +2443,85 @@
 #define TRAINER_BROL_120                         2427
 #define TRAINER_BROL_121                         2428
 
+#define TRAINER_BROM_1                         2429
+#define TRAINER_BROM_2                         2430
+#define TRAINER_BROM_3                         2431
+#define TRAINER_BROM_4                         2432
+#define TRAINER_BROM_5                         2433
+#define TRAINER_BROM_6                         2434
+#define TRAINER_BROM_7                         2435
+#define TRAINER_BROM_8                         2436
+#define TRAINER_BROM_9                         2437
+#define TRAINER_BROM_10                         2438
+#define TRAINER_BROM_11                         2439
+#define TRAINER_BROM_12                         2440
+#define TRAINER_BROM_13                         2441
+#define TRAINER_BROM_14                        2442
+#define TRAINER_BROM_15                        2443
+#define TRAINER_BROM_16                         2444
+#define TRAINER_BROM_17                        2445
+#define TRAINER_BROM_18                         2446
+#define TRAINER_BROM_19                        2447
+#define TRAINER_BROM_20                         2448
+#define TRAINER_BROM_21                         2449
+#define TRAINER_BROM_22                         2450
+#define TRAINER_BROM_23                         2451
+#define TRAINER_BROM_24                         2452
+#define TRAINER_BROM_25                         2453
+#define TRAINER_BROM_26                         2454
+#define TRAINER_BROM_27                         2455
+#define TRAINER_BROM_28                         2456
+#define TRAINER_BROM_29                         2457
+#define TRAINER_BROM_30                         2458
+#define TRAINER_BROM_31                         2459
+#define TRAINER_BROM_32                         2460
+#define TRAINER_BROM_33                         2461
+#define TRAINER_BROM_34                         2462
+#define TRAINER_BROM_35                        2463
+#define TRAINER_BROM_36                         2464
+#define TRAINER_BROM_37                         2465
+#define TRAINER_BROM_38                         2466
+#define TRAINER_BROM_39                         2467
+#define TRAINER_BROM_40                         2468
+#define TRAINER_BROM_41                         2469
+#define TRAINER_BROM_42                         2470
+#define TRAINER_BROM_43                         2471
+#define TRAINER_BROM_44                         2472
+#define TRAINER_BROM_45                         2473
+#define TRAINER_BROM_46                         2474
+#define TRAINER_BROM_47                         2475
+#define TRAINER_BROM_48                         2476
+#define TRAINER_BROM_49                         2477
+#define TRAINER_BROM_50                         2478
+#define TRAINER_BROM_51                         2479
+#define TRAINER_BROM_52                         2480
+#define TRAINER_BROM_53                        2481
+#define TRAINER_BROM_54                         2482
+#define TRAINER_BROM_55                         2483
+#define TRAINER_BROM_56                         2484
+#define TRAINER_BROM_57                         2485
+#define TRAINER_BROM_58                         2486
+#define TRAINER_BROM_59                         2487
+#define TRAINER_BROM_60                         2488
+#define TRAINER_BROM_61                         2489
+#define TRAINER_BROM_62                         2490
+#define TRAINER_BROM_63                         2491
+#define TRAINER_BROM_64                         2492
+#define TRAINER_BROM_65                         2493
+#define TRAINER_BROM_66                         2494
+#define TRAINER_BROM_67                         2495
+#define TRAINER_BROM_68                         2496
+#define TRAINER_BROM_69                         2497
+#define TRAINER_BROM_70                         2498
+#define TRAINER_BROM_71                         2499
+#define TRAINER_BROM_72                         2500
+
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT                      2428
-#define MAX_TRAINERS_COUNT                  2428
+#define TRAINERS_COUNT                      2500
+#define MAX_TRAINERS_COUNT                  2500
 
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H
