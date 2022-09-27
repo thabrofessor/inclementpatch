@@ -34389,6 +34389,27 @@ static const struct TrainerMonItemCustomMoves sParty_BROC_121[] = {
     .heldItem = ITEM_WHITE_HERB,
     .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
     .moves = MOVE_SPLASH
+    },
+	    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    },
+	    {
+    .lvl = -5,
+    .species = SPECIES_VENUSAUR_MEGA,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    },
+	    {
+    .lvl = -5,
+    .species = SPECIES_BLASTOISE_MEGA,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
     }
 };
 
