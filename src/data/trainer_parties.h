@@ -34385,7 +34385,7 @@ static const struct TrainerMonItemCustomMoves sParty_LeafAlteringCave[] = {
 static const struct TrainerMonItemCustomMoves sParty_BROC_121[] = {
     {
     .lvl = -5,
-    .species = SPECIES_KANGASKHAN,
+    .species = SPECIES_XERNEAS_ACTIVE,
     .heldItem = ITEM_WHITE_HERB,
     .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
     .moves = MOVE_SPLASH
