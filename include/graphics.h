@@ -6779,7 +6779,7 @@ extern const u32 gTrainerFrontPic_Galacticf[];
 extern const u32 gTrainerFrontPic_Historian[];
 extern const u32 gTrainerFrontPic_Pres[];
 extern const u32 gTrainerFrontPic_Sagem[];
-extern const u32 gTrainerFrontPic_SageF[];
+extern const u32 gTrainerFrontPic_Sagef[];
 extern const u32 gTrainerFrontPic_Cooltm[];
 extern const u32 gTrainerFrontPic_Cooltf[];
 
