@@ -488,7 +488,7 @@ const u32 gTrainerFrontPic_Lusamine[] = INCBIN_U32("graphics/trainers/front_pics
 const u32 gTrainerPalette_Lusamine[] = INCBIN_U32("graphics/trainers/palettes/lusamine.gbapal.lz");
 
 const u32 gTrainerFrontPic_Will[] = INCBIN_U32("graphics/trainers/front_pics/will_front_pic.4bpp.lz");
-const u32 gTrainerPalette_WIll[] = INCBIN_U32("graphics/trainers/palettes/will.gbapal.lz");
+const u32 gTrainerPalette_Will[] = INCBIN_U32("graphics/trainers/palettes/will.gbapal.lz");
 
 const u32 gTrainerFrontPic_N[] = INCBIN_U32("graphics/trainers/front_pics/n_front_pic.4bpp.lz");
 const u32 gTrainerPalette_N[] = INCBIN_U32("graphics/trainers/palettes/n.gbapal.lz");
