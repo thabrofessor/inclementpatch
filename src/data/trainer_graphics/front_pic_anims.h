@@ -626,6 +626,82 @@ static const union AnimCmd *const sAnims_Lysander[] ={
     sAnim_GeneralFrame0,
 };
 
+static const union AnimCmd *const sAnims_Lusamine[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Will[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_N[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Guzma[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Scott[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Jenny[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Joy[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Rocketm[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Rocketf[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Plasmam[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Plasmaf[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Galacticm[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Galacticf[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Historian[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Pres[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Sagem[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Sagef[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Cooltm[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Cooltf[] ={
+    sAnim_GeneralFrame0,
+};
+
 const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
 {
     [TRAINER_PIC_HIKER] = sAnims_Hiker,
@@ -786,4 +862,23 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
                                   [TRAINER_PIC_JANINE] = sAnims_Janine,
                                   [TRAINER_PIC_GHETSIS] = sAnims_Ghetsis,
                                   [TRAINER_PIC_LYSANDER] = sAnims_Lysander,
+                                      [TRAINER_PIC_GEM] = sAnims_Lusamine,
+                                      [TRAINER_PIC_GEM] = sAnims_Will,
+                                      [TRAINER_PIC_GEM] = sAnims_N,
+                                      [TRAINER_PIC_GEM] = sAnims_Guzma,
+                                      [TRAINER_PIC_GEM] = sAnims_Scott,
+                                      [TRAINER_PIC_GEM] = sAnims_Jenny,
+                                      [TRAINER_PIC_GEM] = sAnims_Joy,
+                                      [TRAINER_PIC_GEM] = sAnims_Rocketm,
+                                      [TRAINER_PIC_GEM] = sAnims_Rocketf,
+                                      [TRAINER_PIC_GEM] = sAnims_Plasmam,
+                                      [TRAINER_PIC_GEM] = sAnims_Plasmaf,
+                                      [TRAINER_PIC_GEM] = sAnims_Galacticm,
+                                      [TRAINER_PIC_GEM] = sAnims_Galacticf,
+                                      [TRAINER_PIC_GEM] = sAnims_Historian,
+                                      [TRAINER_PIC_GEM] = sAnims_Pres,
+                                      [TRAINER_PIC_GEM] = sAnims_Sagem,
+                                      [TRAINER_PIC_GEM] = sAnims_Sagef,
+                                      [TRAINER_PIC_GEM] = sAnims_Cooltm,
+                                      [TRAINER_PIC_GEM] = sAnims_Cooltf,
 };
