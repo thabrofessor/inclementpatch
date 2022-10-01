@@ -541,7 +541,7 @@ const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
                                               TRAINER_PAL(PRES, gTrainerPalette_Pres),
                                               TRAINER_PAL(SAGEM, gTrainerPalette_Sagem),
                                               TRAINER_PAL(SAGEF, gTrainerPalette_Sagef),
-                                              TRAINER_PAL(COOLTM, gTrainerPalette_Coolm),
-                                              TRAINER_PAL(COOLTF, gTrainerPalette_Coolf),
+                                              TRAINER_PAL(COOLTM, gTrainerPalette_Cooltm),
+                                              TRAINER_PAL(COOLTF, gTrainerPalette_Cooltf),
 };
 
