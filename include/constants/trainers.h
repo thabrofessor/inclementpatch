@@ -175,6 +175,25 @@
 #define TRAINER_PIC_GHETSIS               155
 #define TRAINER_PIC_LYSANDER               156
 #define TRAINER_PIC_ARCH              157
+#define TRAINER_PIC_LUSAMINE              158
+#define TRAINER_PIC_WILL              159
+#define TRAINER_PIC_N              160
+#define TRAINER_PIC_GUZMA              161
+#define TRAINER_PIC_SCOTT              162
+#define TRAINER_PIC_JENNY              163
+#define TRAINER_PIC_JOY              164
+#define TRAINER_PIC_ROCKETM              165
+#define TRAINER_PIC_ROCKETF              166
+#define TRAINER_PIC_PLASMAM              167
+#define TRAINER_PIC_PLASMAF              168
+#define TRAINER_PIC_GALACTICM              169
+#define TRAINER_PIC_GALACTICF              170
+#define TRAINER_PIC_HISTORIAN              171
+#define TRAINER_PIC_PRES              172
+#define TRAINER_PIC_SAGEM             173
+#define TRAINER_PIC_SAGEF              174
+#define TRAINER_PIC_COOLTM              175
+#define TRAINER_PIC_COOLTF              176
 
 
 #define TRAINER_BACK_PIC_BRENDAN                0
