@@ -11978,8 +11978,2780 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("Bro"),
         .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
         .doubleBattle = FALSE,
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
         .partySize = ARRAY_COUNT(sParty_BRO_1),
         .party = {.ItemCustomMoves = sParty_BRO_1},
+    },
+        
+    [TRAINER_BRO_2] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BRO,
+        .trainerName = _("Bro"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BRO_2),
+        .party = {.ItemCustomMoves = sParty_BRO_2},
+    },
+        
+    [TRAINER_BRO_3] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BRO,
+        .trainerName = _("Bro"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BRO_3),
+        .party = {.ItemCustomMoves = sParty_BRO_3},
+    },
+        
+    [TRAINER_BRO_4] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BRO,
+        .trainerName = _("Bro"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BRO_4),
+        .party = {.ItemCustomMoves = sParty_BRO_4},
+    },
+        
+    [TRAINER_BRO_5] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BRO,
+        .trainerName = _("Bro"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BRO_5),
+        .party = {.ItemCustomMoves = sParty_BRO_5},
+    },
+        
+    [TRAINER_BRO_6] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BRO,
+        .trainerName = _("Bro"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BRO_6),
+        .party = {.ItemCustomMoves = sParty_BRO_6},
+    },
+        
+    [TRAINER_BRO_7] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BRO,
+        .trainerName = _("Bro"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BRO_7),
+        .party = {.ItemCustomMoves = sParty_BRO_7},
+    },
+        
+    [TRAINER_BRO_8] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BRO,
+        .trainerName = _("Bro"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BRO_8),
+        .party = {.ItemCustomMoves = sParty_BRO_8},
+    },
+        
+    [TRAINER_BRO_9] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BRO,
+        .trainerName = _("Bro"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BRO_9),
+        .party = {.ItemCustomMoves = sParty_BRO_9},
+    },
+        
+    [TRAINER_PRESS_1] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_PRES,
+        .trainerName = _("MrPresident"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_PRESS_1),
+        .party = {.ItemCustomMoves = sParty_PRESS_1},
+    },
+            
+    [TRAINER_PRESS_2] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_PRES,
+        .trainerName = _("MrPresident"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_PRESS_2),
+        .party = {.ItemCustomMoves = sParty_PRESS_2},
+    },
+            
+    [TRAINER_PRESS_3] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_PRES,
+        .trainerName = _("MrPresident"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_PRESS_3),
+        .party = {.ItemCustomMoves = sParty_PRESS_3},
+    },
+            
+    [TRAINER_PRESS_4] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_PRES,
+        .trainerName = _("MrPresident"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_PRESS_4),
+        .party = {.ItemCustomMoves = sParty_PRESS_4},
+    },
+            
+    [TRAINER_PRESS_5] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_PRES,
+        .trainerName = _("MrPresident"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_PRESS_5),
+        .party = {.ItemCustomMoves = sParty_PRESS_5},
+    },
+            
+    [TRAINER_PRESS_6] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_PRES,
+        .trainerName = _("MrPresident"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_PRESS_6),
+        .party = {.ItemCustomMoves = sParty_PRESS_6},
+    },
+            
+    [TRAINER_PRESS_7] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_PRES,
+        .trainerName = _("MrPresident"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_PRESS_7),
+        .party = {.ItemCustomMoves = sParty_PRESS_7},
+    },
+            
+    [TRAINER_PRESS_8] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_PRES,
+        .trainerName = _("MrPresident"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_PRESS_8),
+        .party = {.ItemCustomMoves = sParty_PRESS_8},
+    },
+            
+    [TRAINER_PRESS_9] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_PRES,
+        .trainerName = _("MrPresident"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_PRESS_9),
+        .party = {.ItemCustomMoves = sParty_PRESS_9},
+    },
+                
+    [TRAINER_RED_1] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RED,
+        .trainerName = _("Red"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_RED_1),
+        .party = {.ItemCustomMoves = sParty_RED_1},
+    },
+                    
+    [TRAINER_RED_2] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RED,
+        .trainerName = _("Red"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_RED_2),
+        .party = {.ItemCustomMoves = sParty_RED_2},
+    },
+                    
+    [TRAINER_RED_3] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RED,
+        .trainerName = _("Red"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_RED_3),
+        .party = {.ItemCustomMoves = sParty_RED_3},
+    },
+                    
+    [TRAINER_RED_4] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RED,
+        .trainerName = _("Red"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_RED_4),
+        .party = {.ItemCustomMoves = sParty_RED_4},
+    },
+                    
+    [TRAINER_RED_5] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RED,
+        .trainerName = _("Red"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_RED_5),
+        .party = {.ItemCustomMoves = sParty_RED_5},
+    },
+                    
+    [TRAINER_RED_6] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RED,
+        .trainerName = _("Red"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_RED_6),
+        .party = {.ItemCustomMoves = sParty_RED_6},
+    },
+                    
+    [TRAINER_RED_7] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RED,
+        .trainerName = _("Red"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_RED_7),
+        .party = {.ItemCustomMoves = sParty_RED_7},
+    },
+                    
+    [TRAINER_RED_8] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RED,
+        .trainerName = _("Red"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_RED_8),
+        .party = {.ItemCustomMoves = sParty_RED_8},
+    },
+                    
+    [TRAINER_RED_9] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RED,
+        .trainerName = _("Red"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_RED_9),
+        .party = {.ItemCustomMoves = sParty_RED_9},
+    },
+                    
+    [TRAINER_BLUE_1] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BLUE,
+        .trainerName = _("Blue"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BLUE_1),
+        .party = {.ItemCustomMoves = sParty_BLUE_1},
+    },
+                        
+    [TRAINER_BLUE_2] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BLUE,
+        .trainerName = _("Blue"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BLUE_2),
+        .party = {.ItemCustomMoves = sParty_BLUE_2},
+    },
+                        
+    [TRAINER_BLUE_3] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BLUE,
+        .trainerName = _("Blue"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BLUE_3),
+        .party = {.ItemCustomMoves = sParty_BLUE_3},
+    },
+                        
+    [TRAINER_BLUE_4] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BLUE,
+        .trainerName = _("Blue"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BLUE_4),
+        .party = {.ItemCustomMoves = sParty_BLUE_4},
+    },
+                        
+    [TRAINER_BLUE_5] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BLUE,
+        .trainerName = _("Blue"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BLUE_5),
+        .party = {.ItemCustomMoves = sParty_BLUE_5},
+    },
+                        
+    [TRAINER_BLUE_6] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BLUE,
+        .trainerName = _("Blue"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BLUE_6),
+        .party = {.ItemCustomMoves = sParty_BLUE_6},
+    },
+                        
+    [TRAINER_BLUE_7] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BLUE,
+        .trainerName = _("Blue"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BLUE_7),
+        .party = {.ItemCustomMoves = sParty_BLUE_7},
+    },
+                        
+    [TRAINER_BLUE_8] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BLUE,
+        .trainerName = _("Blue"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BLUE_8),
+        .party = {.ItemCustomMoves = sParty_BLUE_8},
+    },
+                        
+    [TRAINER_BLUE_9] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BLUE,
+        .trainerName = _("Blue"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BLUE_9),
+        .party = {.ItemCustomMoves = sParty_BLUE_9},
+    },
+                        
+    [TRAINER_GOLD_1] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_GOLD,
+        .trainerName = _("Gold"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_GOLD_1),
+        .party = {.ItemCustomMoves = sParty_GOLD_1},
+    },
+                            
+    [TRAINER_GOLD_2] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_GOLD,
+        .trainerName = _("Gold"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_GOLD_2),
+        .party = {.ItemCustomMoves = sParty_GOLD_2},
+    },
+                            
+    [TRAINER_GOLD_3] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_GOLD,
+        .trainerName = _("Gold"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_GOLD_3),
+        .party = {.ItemCustomMoves = sParty_GOLD_3},
+    },
+                            
+    [TRAINER_GOLD_4] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_GOLD,
+        .trainerName = _("Gold"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_GOLD_4),
+        .party = {.ItemCustomMoves = sParty_GOLD_4},
+    },
+                            
+    [TRAINER_GOLD_5] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_GOLD,
+        .trainerName = _("Gold"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_GOLD_5),
+        .party = {.ItemCustomMoves = sParty_GOLD_5},
+    },
+                            
+    [TRAINER_GOLD_6] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_GOLD,
+        .trainerName = _("Gold"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_GOLD_6),
+        .party = {.ItemCustomMoves = sParty_GOLD_6},
+    },
+                            
+    [TRAINER_GOLD_7] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_GOLD,
+        .trainerName = _("Gold"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_GOLD_7),
+        .party = {.ItemCustomMoves = sParty_GOLD_7},
+    },
+                            
+    [TRAINER_GOLD_8] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_GOLD,
+        .trainerName = _("Gold"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_GOLD_8),
+        .party = {.ItemCustomMoves = sParty_GOLD_8},
+    },
+                            
+    [TRAINER_GOLD_9] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_GOLD,
+        .trainerName = _("Gold"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_GOLD_9),
+        .party = {.ItemCustomMoves = sParty_GOLD_9},
+    },
+                            
+    [TRAINER_DRAY_1] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_DRAY,
+        .trainerName = _("Dray"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_DRAY_1),
+        .party = {.ItemCustomMoves = sParty_DRAY_1},
+    },
+                                
+    [TRAINER_DRAY_2] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_DRAY,
+        .trainerName = _("Dray"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_DRAY_2),
+        .party = {.ItemCustomMoves = sParty_DRAY_2},
+    },
+                                
+    [TRAINER_DRAY_3] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_DRAY,
+        .trainerName = _("Dray"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_DRAY_3),
+        .party = {.ItemCustomMoves = sParty_DRAY_3},
+    },
+                                
+    [TRAINER_DRAY_4] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_DRAY,
+        .trainerName = _("Dray"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_DRAY_4),
+        .party = {.ItemCustomMoves = sParty_DRAY_4},
+    },
+                                
+    [TRAINER_DRAY_5] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_DRAY,
+        .trainerName = _("Dray"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_DRAY_5),
+        .party = {.ItemCustomMoves = sParty_DRAY_5},
+    },
+                                
+    [TRAINER_DRAY_6] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_DRAY,
+        .trainerName = _("Dray"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_DRAY_6),
+        .party = {.ItemCustomMoves = sParty_DRAY_6},
+    },
+                                
+    [TRAINER_DRAY_7] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_DRAY,
+        .trainerName = _("Dray"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_DRAY_7),
+        .party = {.ItemCustomMoves = sParty_DRAY_7},
+    },
+                                
+    [TRAINER_DRAY_8] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_DRAY,
+        .trainerName = _("Dray"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_DRAY_8),
+        .party = {.ItemCustomMoves = sParty_DRAY_8},
+    },
+                                
+    [TRAINER_DRAY_9] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_DRAY,
+        .trainerName = _("Dray"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_DRAY_9),
+        .party = {.ItemCustomMoves = sParty_DRAY_9},
+    },
+                                
+    [TRAINER_SHADY_1] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_SHADY,
+        .trainerName = _("Shady"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_SHADY_1),
+        .party = {.ItemCustomMoves = sParty_SHADY_1},
+    },
+                                    
+    [TRAINER_SHADY_2] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_SHADY,
+        .trainerName = _("Shady"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_SHADY_2),
+        .party = {.ItemCustomMoves = sParty_SHADY_2},
+    },
+                                    
+    [TRAINER_SHADY_3] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_SHADY,
+        .trainerName = _("Shady"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_SHADY_3),
+        .party = {.ItemCustomMoves = sParty_SHADY_3},
+    },
+                                    
+    [TRAINER_SHADY_4] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_SHADY,
+        .trainerName = _("Shady"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_SHADY_4),
+        .party = {.ItemCustomMoves = sParty_SHADY_4},
+    },
+                                    
+    [TRAINER_SHADY_5] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_SHADY,
+        .trainerName = _("Shady"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_SHADY_5),
+        .party = {.ItemCustomMoves = sParty_SHADY_5},
+    },
+                                    
+    [TRAINER_SHADY_6] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_SHADY,
+        .trainerName = _("Shady"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_SHADY_6),
+        .party = {.ItemCustomMoves = sParty_SHADY_6},
+    },
+                                    
+    [TRAINER_SHADY_7] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_SHADY,
+        .trainerName = _("Shady"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_SHADY_7),
+        .party = {.ItemCustomMoves = sParty_SHADY_7},
+    },
+                                    
+    [TRAINER_SHADY_8] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_SHADY,
+        .trainerName = _("Shady"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_SHADY_8),
+        .party = {.ItemCustomMoves = sParty_SHADY_8},
+    },
+                                    
+    [TRAINER_SHADY_9] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_SHADY,
+        .trainerName = _("Shady"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_SHADY_9),
+        .party = {.ItemCustomMoves = sParty_SHADY_9},
+    },
+                                    
+    [TRAINER_WES_1] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_WES,
+        .trainerName = _("Wes"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_WES_1),
+        .party = {.ItemCustomMoves = sParty_WES_1},
+    },
+                                        
+    [TRAINER_WES_2] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_WES,
+        .trainerName = _("Wes"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_WES_2),
+        .party = {.ItemCustomMoves = sParty_WES_2},
+    },
+                                        
+    [TRAINER_WES_3] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_WES,
+        .trainerName = _("Wes"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_WES_3),
+        .party = {.ItemCustomMoves = sParty_WES_3},
+    },
+                                        
+    [TRAINER_WES_4] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_WES,
+        .trainerName = _("Wes"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_WES_4),
+        .party = {.ItemCustomMoves = sParty_WES_4},
+    },
+                                        
+    [TRAINER_WES_5] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_WES,
+        .trainerName = _("Wes"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_WES_5),
+        .party = {.ItemCustomMoves = sParty_WES_5},
+    },
+                                        
+    [TRAINER_WES_6] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_WES,
+        .trainerName = _("Wes"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_WES_6),
+        .party = {.ItemCustomMoves = sParty_WES_6},
+    },
+                                        
+    [TRAINER_WES_7] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_WES,
+        .trainerName = _("Wes"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_WES_7),
+        .party = {.ItemCustomMoves = sParty_WES_7},
+    },
+                                        
+    [TRAINER_WES_8] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_WES,
+        .trainerName = _("Wes"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_WES_8),
+        .party = {.ItemCustomMoves = sParty_WES_8},
+    },
+                                        
+    [TRAINER_WES_9] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_WES,
+        .trainerName = _("Wes"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_WES_9),
+        .party = {.ItemCustomMoves = sParty_WES_9},
+    },
+                                     
+    [TRAINER_OAK_1] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_OAK,
+        .trainerName = _("Oak"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_OAK_1),
+        .party = {.ItemCustomMoves = sParty_OAK_1},
+    }, 
+                                         
+    [TRAINER_OAK_2] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_OAK,
+        .trainerName = _("Oak"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_OAK_2),
+        .party = {.ItemCustomMoves = sParty_OAK_2},
+    },
+                                         
+    [TRAINER_OAK_3] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_OAK,
+        .trainerName = _("Oak"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_OAK_3),
+        .party = {.ItemCustomMoves = sParty_OAK_3},
+    },
+                                         
+    [TRAINER_OAK_4] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_OAK,
+        .trainerName = _("Oak"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_OAK_4),
+        .party = {.ItemCustomMoves = sParty_OAK_4},
+    },
+                                         
+    [TRAINER_OAK_5] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_OAK,
+        .trainerName = _("Oak"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_OAK_5),
+        .party = {.ItemCustomMoves = sParty_OAK_5},
+    },
+                                         
+    [TRAINER_OAK_6] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_OAK,
+        .trainerName = _("Oak"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_OAK_6),
+        .party = {.ItemCustomMoves = sParty_OAK_6},
+    },
+                                         
+    [TRAINER_OAK_7] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_OAK,
+        .trainerName = _("Oak"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_OAK_7),
+        .party = {.ItemCustomMoves = sParty_OAK_7},
+    },
+                                         
+    [TRAINER_OAK_8] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_OAK,
+        .trainerName = _("Oak"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_OAK_8),
+        .party = {.ItemCustomMoves = sParty_OAK_8},
+    },
+                                         
+    [TRAINER_OAK_9] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_OAK,
+        .trainerName = _("Oak"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_OAK_9),
+        .party = {.ItemCustomMoves = sParty_OAK_9},
+    },
+                                             
+    [TRAINER_HISTORIAN_1] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_HISTORIAN,
+        .trainerName = _("TheHistorian"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_HISTORY_1),
+        .party = {.ItemCustomMoves = sParty_HISTORY_1},
+    },
+                                                 
+    [TRAINER_HISTORIAN_2] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_HISTORIAN,
+        .trainerName = _("TheHistorian"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_HISTORY_2),
+        .party = {.ItemCustomMoves = sParty_HISTORY_2},
+    },
+                                                 
+    [TRAINER_HISTORIAN_3] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_HISTORIAN,
+        .trainerName = _("TheHistorian"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_HISTORY_3),
+        .party = {.ItemCustomMoves = sParty_HISTORY_3},
+    },
+                                                 
+    [TRAINER_HISTORIAN_4] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_HISTORIAN,
+        .trainerName = _("TheHistorian"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_HISTORY_4),
+        .party = {.ItemCustomMoves = sParty_HISTORY_4},
+    },
+                                                 
+    [TRAINER_HISTORIAN_5] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_HISTORIAN,
+        .trainerName = _("TheHistorian"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_HISTORY_5),
+        .party = {.ItemCustomMoves = sParty_HISTORY_5},
+    },
+                                                 
+    [TRAINER_HISTORIAN_6] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_HISTORIAN,
+        .trainerName = _("TheHistorian"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_HISTORY_6),
+        .party = {.ItemCustomMoves = sParty_HISTORY_6},
+    },
+                                                 
+    [TRAINER_HISTORIAN_7] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_HISTORIAN,
+        .trainerName = _("TheHistorian"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_HISTORY_7),
+        .party = {.ItemCustomMoves = sParty_HISTORY_7},
+    },
+                                                 
+    [TRAINER_HISTORIAN_8] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_HISTORIAN,
+        .trainerName = _("TheHistorian"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_HISTORY_8),
+        .party = {.ItemCustomMoves = sParty_HISTORY_8},
+    },
+                                                 
+    [TRAINER_HISTORIAN_9] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_HISTORIAN,
+        .trainerName = _("TheHistorian"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_HISTORY_9),
+        .party = {.ItemCustomMoves = sParty_HISTORY_9},
+    },
+                                                 
+    [TRAINER_AGATHA_1] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_AGATHA,
+        .trainerName = _("Agatha"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_AGATHA_1),
+        .party = {.ItemCustomMoves = sParty_AGATHA_1},
+    },
+                                                     
+    [TRAINER_AGATHA_2] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_AGATHA,
+        .trainerName = _("Agatha"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_AGATHA_2),
+        .party = {.ItemCustomMoves = sParty_AGATHA_2},
+    },
+                                                     
+    [TRAINER_AGATHA_3] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_AGATHA,
+        .trainerName = _("Agatha"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_AGATHA_3),
+        .party = {.ItemCustomMoves = sParty_AGATHA_3},
+    },
+                                                     
+    [TRAINER_AGATHA_4] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_AGATHA,
+        .trainerName = _("Agatha"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_AGATHA_4),
+        .party = {.ItemCustomMoves = sParty_AGATHA_4},
+    },
+                                                     
+    [TRAINER_AGATHA_5] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_AGATHA,
+        .trainerName = _("Agatha"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_AGATHA_5),
+        .party = {.ItemCustomMoves = sParty_AGATHA_5},
+    },
+                                                     
+    [TRAINER_AGATHA_6] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_AGATHA,
+        .trainerName = _("Agatha"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_AGATHA_6),
+        .party = {.ItemCustomMoves = sParty_AGATHA_6},
+    },
+                                                     
+    [TRAINER_AGATHA_7] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_AGATHA,
+        .trainerName = _("Agatha"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_AGATHA_7),
+        .party = {.ItemCustomMoves = sParty_AGATHA_7},
+    },
+                                                     
+    [TRAINER_AGATHA_8] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_AGATHA,
+        .trainerName = _("Agatha"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_AGATHA_8),
+        .party = {.ItemCustomMoves = sParty_AGATHA_8},
+    },
+                                                     
+    [TRAINER_AGATHA_9] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_AGATHA,
+        .trainerName = _("Agatha"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_AGATHA_9),
+        .party = {.ItemCustomMoves = sParty_AGATHA_9},
+    },
+                                                     
+    [TRAINER_LANCE_1] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LANCE,
+        .trainerName = _("Lance"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_LANCE_1),
+        .party = {.ItemCustomMoves = sParty_LANCE_1},
+    },
+                                                         
+    [TRAINER_LANCE_2] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LANCE,
+        .trainerName = _("Lance"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_LANCE_2),
+        .party = {.ItemCustomMoves = sParty_LANCE_2},
+    },
+                                                         
+    [TRAINER_LANCE_3] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LANCE,
+        .trainerName = _("Lance"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_LANCE_3),
+        .party = {.ItemCustomMoves = sParty_LANCE_3},
+    },
+                                                         
+    [TRAINER_LANCE_4] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LANCE,
+        .trainerName = _("Lance"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_LANCE_4),
+        .party = {.ItemCustomMoves = sParty_LANCE_4},
+    },
+                                                         
+    [TRAINER_LANCE_5] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LANCE,
+        .trainerName = _("Lance"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_LANCE_5),
+        .party = {.ItemCustomMoves = sParty_LANCE_5},
+    },
+                                                         
+    [TRAINER_LANCE_6] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LANCE,
+        .trainerName = _("Lance"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_LANCE_6),
+        .party = {.ItemCustomMoves = sParty_LANCE_6},
+    },
+                                                         
+    [TRAINER_LANCE_7] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LANCE,
+        .trainerName = _("Lance"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_LANCE_7),
+        .party = {.ItemCustomMoves = sParty_LANCE_7},
+    },
+                                                         
+    [TRAINER_LANCE_8] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LANCE,
+        .trainerName = _("Lance"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_LANCE_8),
+        .party = {.ItemCustomMoves = sParty_LANCE_8},
+    },
+                                                         
+    [TRAINER_LANCE_9] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LANCE,
+        .trainerName = _("Lance"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_LANCE_9),
+        .party = {.ItemCustomMoves = sParty_LANCE_9},
+    },
+                                                         
+    [TRAINER_CYNTHIA_1] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CYNTHIA,
+        .trainerName = _("Cynthia"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_CYNTHIA_1),
+        .party = {.ItemCustomMoves = sParty_CYNTHIA_1},
+    },
+                                                             
+    [TRAINER_CYNTHIA_2] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CYNTHIA,
+        .trainerName = _("Cynthia"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_CYNTHIA_2),
+        .party = {.ItemCustomMoves = sParty_CYNTHIA_2},
+    },
+                                                             
+    [TRAINER_CYNTHIA_3] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CYNTHIA,
+        .trainerName = _("Cynthia"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_CYNTHIA_3),
+        .party = {.ItemCustomMoves = sParty_CYNTHIA_3},
+    },
+                                                             
+    [TRAINER_CYNTHIA_4] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CYNTHIA,
+        .trainerName = _("Cynthia"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_CYNTHIA_4),
+        .party = {.ItemCustomMoves = sParty_CYNTHIA_4},
+    },
+                                                             
+    [TRAINER_CYNTHIA_5] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CYNTHIA,
+        .trainerName = _("Cynthia"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_CYNTHIA_5),
+        .party = {.ItemCustomMoves = sParty_CYNTHIA_5},
+    },
+                                                             
+    [TRAINER_CYNTHIA_6] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CYNTHIA,
+        .trainerName = _("Cynthia"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_CYNTHIA_6),
+        .party = {.ItemCustomMoves = sParty_CYNTHIA_6},
+    },
+                                                             
+    [TRAINER_CYNTHIA_7] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CYNTHIA,
+        .trainerName = _("Cynthia"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_CYNTHIA_7),
+        .party = {.ItemCustomMoves = sParty_CYNTHIA_7},
+    },
+                                                             
+    [TRAINER_CYNTHIA_8] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CYNTHIA,
+        .trainerName = _("Cynthia"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_CYNTHIA_8),
+        .party = {.ItemCustomMoves = sParty_CYNTHIA_8},
+    },
+                                                             
+    [TRAINER_CYNTHIA_9] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CYNTHIA,
+        .trainerName = _("Cynthia"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_CYNTHIA_9),
+        .party = {.ItemCustomMoves = sParty_CYNTHIA_9},
+    },
+                                                             
+    [TRAINER_GIOVANNI_1] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_GIOVANNI,
+        .trainerName = _("Giovanni"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_GIOVANNI_1),
+        .party = {.ItemCustomMoves = sParty_GIOVANNI_1},
+    },
+                                                                 
+    [TRAINER_GIOVANNI_2] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_GIOVANNI,
+        .trainerName = _("Giovanni"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_GIOVANNI_2),
+        .party = {.ItemCustomMoves = sParty_GIOVANNI_2},
+    },
+                                                                 
+    [TRAINER_GIOVANNI_3] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_GIOVANNI,
+        .trainerName = _("Giovanni"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_GIOVANNI_3),
+        .party = {.ItemCustomMoves = sParty_GIOVANNI_3},
+    },
+                                                                 
+    [TRAINER_GIOVANNI_4] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_GIOVANNI,
+        .trainerName = _("Giovanni"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_GIOVANNI_4),
+        .party = {.ItemCustomMoves = sParty_GIOVANNI_4},
+    },
+                                                                 
+    [TRAINER_GIOVANNI_5] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_GIOVANNI,
+        .trainerName = _("Giovanni"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_GIOVANNI_5),
+        .party = {.ItemCustomMoves = sParty_GIOVANNI_5},
+    },
+                                                                 
+    [TRAINER_GIOVANNI_6] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_GIOVANNI,
+        .trainerName = _("Giovanni"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_GIOVANNI_6),
+        .party = {.ItemCustomMoves = sParty_GIOVANNI_6},
+    },
+                                                                 
+    [TRAINER_GIOVANNI_7] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_GIOVANNI,
+        .trainerName = _("Giovanni"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_GIOVANNI_7),
+        .party = {.ItemCustomMoves = sParty_GIOVANNI_7},
+    },
+                                                                 
+    [TRAINER_GIOVANNI_8] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_GIOVANNI,
+        .trainerName = _("Giovanni"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_GIOVANNI_8),
+        .party = {.ItemCustomMoves = sParty_GIOVANNI_8},
+    },
+                                                                 
+    [TRAINER_GIOVANNI_9] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_GIOVANNI,
+        .trainerName = _("Giovanni"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_GIOVANNI_9),
+        .party = {.ItemCustomMoves = sParty_GIOVANNI_9},
+    },
+                                                                 
+    [TRAINER_STEVEN_1] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_STEVEN,
+        .trainerName = _("Steven"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_STEVEN_1),
+        .party = {.ItemCustomMoves = sParty_STEVEN_1},
+    },
+                                                                     
+    [TRAINER_STEVEN_2] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_STEVEN,
+        .trainerName = _("Steven"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_STEVEN_2),
+        .party = {.ItemCustomMoves = sParty_STEVEN_2},
+    },
+                                                                     
+    [TRAINER_STEVEN_3] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_STEVEN,
+        .trainerName = _("Steven"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_STEVEN_3),
+        .party = {.ItemCustomMoves = sParty_STEVEN_3},
+    },
+                                                                     
+    [TRAINER_STEVEN_4] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_STEVEN,
+        .trainerName = _("Steven"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_STEVEN_4),
+        .party = {.ItemCustomMoves = sParty_STEVEN_4},
+    },
+                                                                     
+    [TRAINER_STEVEN_5] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_STEVEN,
+        .trainerName = _("Steven"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_STEVEN_5),
+        .party = {.ItemCustomMoves = sParty_STEVEN_5},
+    },
+                                                                     
+    [TRAINER_STEVEN_6] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_STEVEN,
+        .trainerName = _("Steven"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILIT | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_STEVEN_6),
+        .party = {.ItemCustomMoves = sParty_STEVEN_6},
+    },
+                                                                     
+    [TRAINER_STEVEN_7] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_STEVEN,
+        .trainerName = _("Steven"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_STEVEN_7),
+        .party = {.ItemCustomMoves = sParty_STEVEN_7},
+    },
+                                                                     
+    [TRAINER_STEVEN_8] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_STEVEN,
+        .trainerName = _("Steven"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_STEVEN_8),
+        .party = {.ItemCustomMoves = sParty_STEVEN_8},
+    },
+                                                                     
+    [TRAINER_STEVEN_9] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_STEVEN,
+        .trainerName = _("Steven"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_STEVEN_9),
+        .party = {.ItemCustomMoves = sParty_STEVEN_9},
+    },
+                                                                     
+    [TRAINER_CYRUS_1] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CYRUS,
+        .trainerName = _("Cyrus"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_CYRUS_1),
+        .party = {.ItemCustomMoves = sParty_CYRUS_1},
+    },
+                                                                         
+    [TRAINER_CYRUS_2] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CYRUS,
+        .trainerName = _("Cyrus"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_CYRUS_2),
+        .party = {.ItemCustomMoves = sParty_CYRUS_2},
+    },
+                                                                         
+    [TRAINER_CYRUS_3] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CYRUS,
+        .trainerName = _("Cyrus"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_CYRUS_3),
+        .party = {.ItemCustomMoves = sParty_CYRUS_3},
+    },
+                                                                         
+    [TRAINER_CYRUS_4] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CYRUS,
+        .trainerName = _("Cyrus"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_CYRUS_4),
+        .party = {.ItemCustomMoves = sParty_CYRUS_4},
+    },
+                                                                         
+    [TRAINER_CYRUS_5] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CYRUS,
+        .trainerName = _("Cyrus"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_CYRUS_5),
+        .party = {.ItemCustomMoves = sParty_CYRUS_5},
+    },
+                                                                         
+    [TRAINER_CYRUS_6] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CYRUS,
+        .trainerName = _("Cyrus"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_CYRUS_6),
+        .party = {.ItemCustomMoves = sParty_CYRUS_6},
+    },
+                                                                         
+    [TRAINER_CYRUS_7] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CYRUS,
+        .trainerName = _("Cyrus"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_CYRUS_7),
+        .party = {.ItemCustomMoves = sParty_CYRUS_7},
+    },
+                                                                         
+    [TRAINER_CYRUS_8] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CYRUS,
+        .trainerName = _("Cyrus"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_CYRUS_8),
+        .party = {.ItemCustomMoves = sParty_CYRUS_8},
+    },
+                                                                         
+    [TRAINER_CYRUS_9] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CYRUS,
+        .trainerName = _("Cyrus"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_CYRUS_9),
+        .party = {.ItemCustomMoves = sParty_CYRUS_9},
+    },
+                                                                         
+    [TRAINER_WALLACE_1] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CHAMPION_WALLACE,
+        .trainerName = _("Wallace"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_WALACE_1),
+        .party = {.ItemCustomMoves = sParty_WALACE_1},
+    },
+                                                                             
+    [TRAINER_WALLACE_2] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CHAMPION_WALLACE,
+        .trainerName = _("Wallace"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_WALACE_2),
+        .party = {.ItemCustomMoves = sParty_WALACE_2},
+    },
+                                                                             
+    [TRAINER_WALLACE_3] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CHAMPION_WALLACE,
+        .trainerName = _("Wallace"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_WALACE_3),
+        .party = {.ItemCustomMoves = sParty_WALACE_3},
+    },
+                                                                             
+    [TRAINER_WALLACE_4] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CHAMPION_WALLACE,
+        .trainerName = _("Wallace"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_WALACE_4),
+        .party = {.ItemCustomMoves = sParty_WALACE_4},
+    },
+                                                                             
+    [TRAINER_WALLACE_5] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CHAMPION_WALLACE,
+        .trainerName = _("Wallace"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_WALACE_5),
+        .party = {.ItemCustomMoves = sParty_WALACE_5},
+    },
+                                                                             
+    [TRAINER_WALLACE_6] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CHAMPION_WALLACE,
+        .trainerName = _("Wallace"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_WALACE_6),
+        .party = {.ItemCustomMoves = sParty_WALACE_6},
+    },
+                                                                             
+    [TRAINER_WALLACE_7] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CHAMPION_WALLACE,
+        .trainerName = _("Wallace"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_WALACE_7),
+        .party = {.ItemCustomMoves = sParty_WALACE_7},
+    },
+                                                                             
+    [TRAINER_WALLACE_8] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CHAMPION_WALLACE,
+        .trainerName = _("Wallace"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_WALACE_8),
+        .party = {.ItemCustomMoves = sParty_WALACE_8},
+    },
+                                                                             
+    [TRAINER_WALLACE_9] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_CHAMPION_WALLACE,
+        .trainerName = _("Wallace"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_WALACE_9),
+        .party = {.ItemCustomMoves = sParty_WALACE_9},
+    },
+                                                                             
+    [TRAINER_TRAINER_DRAKE_1A] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_DRAKE,
+        .trainerName = _("Drake"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_DRAKE_1A),
+        .party = {.ItemCustomMoves = sParty_DRAKE_1A},
+    },
+                                                                             
+    [TRAINER_TRAINER_DRAKE_2A] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_DRAKE,
+        .trainerName = _("Drake"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_DRAKE_2A),
+        .party = {.ItemCustomMoves = sParty_DRAKE_2A},
+    },
+                                                                                 
+    [TRAINER_TRAINER_DRAKE_3A] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_DRAKE,
+        .trainerName = _("Drake"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_DRAKE_3A),
+        .party = {.ItemCustomMoves = sParty_DRAKE_3A},
+    },
+                                                                                 
+    [TRAINER_TRAINER_DRAKE_4A] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_DRAKE,
+        .trainerName = _("Drake"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_DRAKE_4A),
+        .party = {.ItemCustomMoves = sParty_DRAKE_4A},
+    },
+                                                                                 
+    [TRAINER_TRAINER_DRAKE_5A] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_DRAKE,
+        .trainerName = _("Drake"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_DRAKE_5A),
+        .party = {.ItemCustomMoves = sParty_DRAKE_5A},
+    },
+                                                                                 
+    [TRAINER_TRAINER_DRAKE_6A] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_DRAKE,
+        .trainerName = _("Drake"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_DRAKE_6A),
+        .party = {.ItemCustomMoves = sParty_DRAKE_6A},
+    },
+                                                                                 
+    [TRAINER_TRAINER_DRAKE_7A] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_DRAKE,
+        .trainerName = _("Drake"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_DRAKE_7A),
+        .party = {.ItemCustomMoves = sParty_DRAKE_7A},
+    },
+                                                                                 
+    [TRAINER_TRAINER_DRAKE_8A] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_DRAKE,
+        .trainerName = _("Drake"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_DRAKE_8A),
+        .party = {.ItemCustomMoves = sParty_DRAKE_8A},
+    },
+                                                                                 
+    [TRAINER_TRAINER_DRAKE_9A] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_DRAKE,
+        .trainerName = _("Drake"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_DRAKE_9A),
+        .party = {.ItemCustomMoves = sParty_DRAKE_9A},
+    },
+                                                                                 
+    [TRAINER_TRAINER_KAREN_1] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_KAREN,
+        .trainerName = _("Karen"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_KAREN_1),
+        .party = {.ItemCustomMoves = sParty_KAREN_1},
+    },
+                                                                                     
+    [TRAINER_TRAINER_KAREN_2] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_KAREN,
+        .trainerName = _("Karen"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_KAREN_2),
+        .party = {.ItemCustomMoves = sParty_KAREN_2},
+    },
+                                                                                     
+    [TRAINER_TRAINER_KAREN_3] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_KAREN,
+        .trainerName = _("Karen"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_KAREN_3),
+        .party = {.ItemCustomMoves = sParty_KAREN_3},
+    },
+                                                                                     
+    [TRAINER_TRAINER_KAREN_4] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_KAREN,
+        .trainerName = _("Karen"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_KAREN_4),
+        .party = {.ItemCustomMoves = sParty_KAREN_4},
+    },
+                                                                                     
+    [TRAINER_TRAINER_KAREN_5] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_KAREN,
+        .trainerName = _("Karen"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_KAREN_5),
+        .party = {.ItemCustomMoves = sParty_KAREN_5},
+    },
+                                                                                     
+    [TRAINER_TRAINER_KAREN_6] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_KAREN,
+        .trainerName = _("Karen"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_KAREN_6),
+        .party = {.ItemCustomMoves = sParty_KAREN_6},
+    },
+                                                                                     
+    [TRAINER_TRAINER_KAREN_7] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_KAREN,
+        .trainerName = _("Karen"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_KAREN_7),
+        .party = {.ItemCustomMoves = sParty_KAREN_7},
+    },
+                                                                                     
+    [TRAINER_TRAINER_KAREN_8] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_KAREN,
+        .trainerName = _("Karen"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_KAREN_8),
+        .party = {.ItemCustomMoves = sParty_KAREN_8},
+    },
+                                                                                     
+    [TRAINER_TRAINER_KAREN_9] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_KAREN,
+        .trainerName = _("Karen"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_KAREN_9),
+        .party = {.ItemCustomMoves = sParty_KAREN_9},
+    },
+                                                                                     
+    [TRAINER_TRAINER_PHOEBE_1A] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_PHOEBE,
+        .trainerName = _("Phoebe"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_PHOEBE_1A),
+        .party = {.ItemCustomMoves = sParty_PHOEBE_1A},
+    },
+                                                                                         
+    [TRAINER_TRAINER_PHOEBE_2A] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_PHOEBE,
+        .trainerName = _("Phoebe"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_PHOEBE_2A),
+        .party = {.ItemCustomMoves = sParty_PHOEBE_2A},
+    },
+                                                                                         
+    [TRAINER_TRAINER_PHOEBE_3A] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_PHOEBE,
+        .trainerName = _("Phoebe"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_PHOEBE_3A),
+        .party = {.ItemCustomMoves = sParty_PHOEBE_3A},
+    },
+                                                                                         
+    [TRAINER_TRAINER_PHOEBE_4A] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_PHOEBE,
+        .trainerName = _("Phoebe"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_PHOEBE_4A),
+        .party = {.ItemCustomMoves = sParty_PHOEBE_4A},
+    },
+                                                                                         
+    [TRAINER_TRAINER_PHOEBE_5A] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_PHOEBE,
+        .trainerName = _("Phoebe"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_PHOEBE_5A),
+        .party = {.ItemCustomMoves = sParty_PHOEBE_5A},
+    },
+                                                                                         
+    [TRAINER_TRAINER_PHOEBE_6A] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_PHOEBE,
+        .trainerName = _("Phoebe"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_PHOEBE_6A),
+        .party = {.ItemCustomMoves = sParty_PHOEBE_6A},
+    },
+                                                                                         
+    [TRAINER_TRAINER_PHOEBE_7A] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_PHOEBE,
+        .trainerName = _("Phoebe"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_PHOEBE_7A),
+        .party = {.ItemCustomMoves = sParty_PHOEBE_7A},
+    },
+                                                                                         
+    [TRAINER_TRAINER_PHOEBE_8A] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_PHOEBE,
+        .trainerName = _("Phoebe"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_PHOEBE_8A),
+        .party = {.ItemCustomMoves = sParty_PHOEBE_8A},
+    },
+                                                                                         
+    [TRAINER_TRAINER_PHOEBE_9A] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_PHOEBE,
+        .trainerName = _("Phoebe"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_PHOEBE_9A),
+        .party = {.ItemCustomMoves = sParty_PHOEBE_9A},
+    },
+                                                                                         
+    [TRAINER_TRAINER_LORELIE_1] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LORELIE,
+        .trainerName = _("Lorelie"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_LORELIE_1),
+        .party = {.ItemCustomMoves = sParty_LORELIE_1},
+    },
+                                                                                         
+    [TRAINER_TRAINER_LORELIE_2] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LORELIE,
+        .trainerName = _("Lorelie"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_LORELIE_2),
+        .party = {.ItemCustomMoves = sParty_LORELIE_2},
+    },
+                                                                                             
+    [TRAINER_TRAINER_LORELIE_3] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LORELIE,
+        .trainerName = _("Lorelie"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_LORELIE_3),
+        .party = {.ItemCustomMoves = sParty_LORELIE_3},
+    },
+                                                                                             
+    [TRAINER_TRAINER_LORELIE_4] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LORELIE,
+        .trainerName = _("Lorelie"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_LORELIE_4),
+        .party = {.ItemCustomMoves = sParty_LORELIE_4},
+    },
+                                                                                             
+    [TRAINER_TRAINER_LORELIE_5] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LORELIE,
+        .trainerName = _("Lorelie"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_LORELIE_5),
+        .party = {.ItemCustomMoves = sParty_LORELIE_5},
+    },
+                                                                                             
+    [TRAINER_TRAINER_LORELIE_6] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LORELIE,
+        .trainerName = _("Lorelie"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_LORELIE_6),
+        .party = {.ItemCustomMoves = sParty_LORELIE_6},
+    },
+                                                                                             
+    [TRAINER_TRAINER_LORELIE_7] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LORELIE,
+        .trainerName = _("Lorelie"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_LORELIE_7),
+        .party = {.ItemCustomMoves = sParty_LORELIE_7},
+    },
+                                                                                             
+    [TRAINER_TRAINER_LORELIE_8] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LORELIE,
+        .trainerName = _("Lorelie"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_LORELIE_8),
+        .party = {.ItemCustomMoves = sParty_LORELIE_8},
+    },
+                                                                                             
+    [TRAINER_TRAINER_LORELIE_9] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LORELIE,
+        .trainerName = _("Lorelie"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_LORELIE_9),
+        .party = {.ItemCustomMoves = sParty_LORELIE_9},
+    },
+                                                                                             
+    [TRAINER_TRAINER_BRUNO_1] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BRUNO,
+        .trainerName = _("Bruno"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BRUNO_1),
+        .party = {.ItemCustomMoves = sParty_BRUNO_1},
+    },
+                                                                                                 
+    [TRAINER_TRAINER_BRUNO_2] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BRUNO,
+        .trainerName = _("Bruno"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BRUNO_2),
+        .party = {.ItemCustomMoves = sParty_BRUNO_2},
+    },
+                                                                                                 
+    [TRAINER_TRAINER_BRUNO_3] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BRUNO,
+        .trainerName = _("Bruno"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BRUNO_3),
+        .party = {.ItemCustomMoves = sParty_BRUNO_3},
+    },
+                                                                                                 
+    [TRAINER_TRAINER_BRUNO_4] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BRUNO,
+        .trainerName = _("Bruno"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BRUNO_4),
+        .party = {.ItemCustomMoves = sParty_BRUNO_4},
+    },
+                                                                                                 
+    [TRAINER_TRAINER_BRUNO_5] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BRUNO,
+        .trainerName = _("Bruno"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BRUNO_5),
+        .party = {.ItemCustomMoves = sParty_BRUNO_5},
+    },
+                                                                                                 
+    [TRAINER_TRAINER_BRUNO_6] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BRUNO,
+        .trainerName = _("Bruno"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BRUNO_6),
+        .party = {.ItemCustomMoves = sParty_BRUNO_6},
+    },
+                                                                                                 
+    [TRAINER_TRAINER_BRUNO_7] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BRUNO,
+        .trainerName = _("Bruno"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BRUNO_7),
+        .party = {.ItemCustomMoves = sParty_BRUNO_7},
+    },
+                                                                                                 
+    [TRAINER_TRAINER_BRUNO_8] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BRUNO,
+        .trainerName = _("Bruno"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION}
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BRUNO_8),
+        .party = {.ItemCustomMoves = sParty_BRUNO_8},
+    },
+                                                                                                 
+    [TRAINER_TRAINER_BRUNO_9] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BRUNO,
+        .trainerName = _("Bruno"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_BRUNO_9),
+        .party = {.ItemCustomMoves = sParty_BRUNO_9},
+    },
+                                                                                                 
+    [TRAINER_TRAINER_ARCH_1] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_1,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_ARCH,
+        .trainerName = _("Arch"),
+        .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_ARCH_1),
+        .party = {.ItemCustomMoves = sParty_ARCH_1},
     },
 };
