@@ -13103,7 +13103,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_OAK_9},
     },
                                              
-    [TRAINER_HISTORIAN_1] =
+    [TRAINER_HISTORY_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -13117,7 +13117,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_HISTORY_1},
     },
                                                  
-    [TRAINER_HISTORIAN_2] =
+    [TRAINER_HISTORY_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -13131,7 +13131,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_HISTORY_2},
     },
                                                  
-    [TRAINER_HISTORIAN_3] =
+    [TRAINER_HISTORY_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -13145,7 +13145,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_HISTORY_3},
     },
                                                  
-    [TRAINER_HISTORIAN_4] =
+    [TRAINER_HISTORY_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -13159,7 +13159,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_HISTORY_4},
     },
                                                  
-    [TRAINER_HISTORIAN_5] =
+    [TRAINER_HISTORY_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -13173,7 +13173,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_HISTORY_5},
     },
                                                  
-    [TRAINER_HISTORIAN_6] =
+    [TRAINER_HISTORY_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -13187,7 +13187,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_HISTORY_6},
     },
                                                  
-    [TRAINER_HISTORIAN_7] =
+    [TRAINER_HISTORY_7] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -13201,7 +13201,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_HISTORY_7},
     },
                                                  
-    [TRAINER_HISTORIAN_8] =
+    [TRAINER_HISTORY_8] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -13215,7 +13215,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_HISTORY_8},
     },
                                                  
-    [TRAINER_HISTORIAN_9] =
+    [TRAINER_HISTORY_9] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
