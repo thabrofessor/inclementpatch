@@ -43941,6 +43941,186 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_9M[] = {
     }
 };
 
+static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_1T[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_2T[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_3T[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_4T[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_5T[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_6T[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_7T[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_8T[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_9T[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_1B[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_2B[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_3B[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_4B[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_5B[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_6B[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_7B[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_8B[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_9B[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
 static const struct TrainerMonItemCustomMoves sParty_STARLET_1[] = {
     {
     .lvl = -5,
