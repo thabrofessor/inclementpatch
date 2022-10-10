@@ -1487,7 +1487,7 @@
 #define TRAINER_WILL_7                         1482
 #define TRAINER_WILL_8                         1483
 #define TRAINER_WILL_9                         1484
-#define TRAINER_THORTON_1                         1485
+#define TRAINER_THORTON_1                         2975
 #define TRAINER_THORTON_2                         1485
 #define TRAINER_THORTON_3                         1486
 #define TRAINER_THORTON_4                         1487
@@ -2989,8 +2989,8 @@
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT                      2975
-#define MAX_TRAINERS_COUNT                  2975
+#define TRAINERS_COUNT                      2976
+#define MAX_TRAINERS_COUNT                  2976
 
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H
