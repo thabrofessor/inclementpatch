@@ -13481,7 +13481,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_LANCE_9},
     },
                                                          
-    [TRAINER_CYNTHIA_1] =
+    [TRAINER_CYNTHIA_1A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -13491,11 +13491,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_CYNTHIA_1),
-        .party = {.ItemCustomMoves = sParty_CYNTHIA_1},
+        .partySize = ARRAY_COUNT(sParty_CYNTHIA_1A),
+        .party = {.ItemCustomMoves = sParty_CYNTHIA_1A},
     },
                                                              
-    [TRAINER_CYNTHIA_2] =
+    [TRAINER_CYNTHIA_2A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -13505,11 +13505,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_CYNTHIA_2),
-        .party = {.ItemCustomMoves = sParty_CYNTHIA_2},
+        .partySize = ARRAY_COUNT(sParty_CYNTHIA_2A),
+        .party = {.ItemCustomMoves = sParty_CYNTHIA_2A},
     },
                                                              
-    [TRAINER_CYNTHIA_3] =
+    [TRAINER_CYNTHIA_3A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -13519,11 +13519,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_CYNTHIA_3),
-        .party = {.ItemCustomMoves = sParty_CYNTHIA_3},
+        .partySize = ARRAY_COUNT(sParty_CYNTHIA_3A),
+        .party = {.ItemCustomMoves = sParty_CYNTHIA_3A},
     },
                                                              
-    [TRAINER_CYNTHIA_4] =
+    [TRAINER_CYNTHIA_4A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -13533,11 +13533,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_CYNTHIA_4),
-        .party = {.ItemCustomMoves = sParty_CYNTHIA_4},
+        .partySize = ARRAY_COUNT(sParty_CYNTHIA_4A),
+        .party = {.ItemCustomMoves = sParty_CYNTHIA_4A},
     },
                                                              
-    [TRAINER_CYNTHIA_5] =
+    [TRAINER_CYNTHIA_5A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -13547,11 +13547,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_CYNTHIA_5),
-        .party = {.ItemCustomMoves = sParty_CYNTHIA_5},
+        .partySize = ARRAY_COUNT(sParty_CYNTHIA_5A),
+        .party = {.ItemCustomMoves = sParty_CYNTHIA_5A},
     },
                                                              
-    [TRAINER_CYNTHIA_6] =
+    [TRAINER_CYNTHIA_6A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -13561,11 +13561,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_CYNTHIA_6),
-        .party = {.ItemCustomMoves = sParty_CYNTHIA_6},
+        .partySize = ARRAY_COUNT(sParty_CYNTHIA_6A),
+        .party = {.ItemCustomMoves = sParty_CYNTHIA_6A},
     },
                                                              
-    [TRAINER_CYNTHIA_7] =
+    [TRAINER_CYNTHIA_7A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -13575,11 +13575,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_CYNTHIA_7),
-        .party = {.ItemCustomMoves = sParty_CYNTHIA_7},
+        .partySize = ARRAY_COUNT(sParty_CYNTHIA_7A),
+        .party = {.ItemCustomMoves = sParty_CYNTHIA_7A},
     },
                                                              
-    [TRAINER_CYNTHIA_8] =
+    [TRAINER_CYNTHIA_8A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -13589,11 +13589,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_CYNTHIA_8),
-        .party = {.ItemCustomMoves = sParty_CYNTHIA_8},
+        .partySize = ARRAY_COUNT(sParty_CYNTHIA_8A),
+        .party = {.ItemCustomMoves = sParty_CYNTHIA_8A},
     },
                                                              
-    [TRAINER_CYNTHIA_9] =
+    [TRAINER_CYNTHIA_9A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -13603,8 +13603,8 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_CYNTHIA_9),
-        .party = {.ItemCustomMoves = sParty_CYNTHIA_9},
+        .partySize = ARRAY_COUNT(sParty_CYNTHIA_9A),
+        .party = {.ItemCustomMoves = sParty_CYNTHIA_9A},
     },
                                                              
     [TRAINER_GIOVANNI_1] =
