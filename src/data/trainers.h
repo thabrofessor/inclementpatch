@@ -16883,7 +16883,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_YELLOW_9},
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                                    
-    [TRAINER_SIDNEY_1] =
+    [TRAINER_SIDNEY_1A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -16893,11 +16893,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_SIDNEY_1),
-        .party = {.ItemCustomMoves = sParty_SIDNEY_1},
+        .partySize = ARRAY_COUNT(sParty_SIDNEY_1A),
+        .party = {.ItemCustomMoves = sParty_SIDNEY_1A},
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-    [TRAINER_SIDNEY_2] =
+    [TRAINER_SIDNEY_2A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -16907,11 +16907,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_SIDNEY_2),
-        .party = {.ItemCustomMoves = sParty_SIDNEY_2},
+        .partySize = ARRAY_COUNT(sParty_SIDNEY_2A),
+        .party = {.ItemCustomMoves = sParty_SIDNEY_2A},
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-    [TRAINER_SIDNEY_3] =
+    [TRAINER_SIDNEY_3A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -16921,11 +16921,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_SIDNEY_3),
-        .party = {.ItemCustomMoves = sParty_SIDNEY_3},
+        .partySize = ARRAY_COUNT(sParty_SIDNEY_3A),
+        .party = {.ItemCustomMoves = sParty_SIDNEY_3A},
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-    [TRAINER_SIDNEY_4] =
+    [TRAINER_SIDNEY_4A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -16935,11 +16935,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_SIDNEY_4),
-        .party = {.ItemCustomMoves = sParty_SIDNEY_4},
+        .partySize = ARRAY_COUNT(sParty_SIDNEY_4A),
+        .party = {.ItemCustomMoves = sParty_SIDNEY_4A},
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-    [TRAINER_SIDNEY_5] =
+    [TRAINER_SIDNEY_5A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -16949,11 +16949,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_SIDNEY_5),
-        .party = {.ItemCustomMoves = sParty_SIDNEY_5},
+        .partySize = ARRAY_COUNT(sParty_SIDNEY_5A),
+        .party = {.ItemCustomMoves = sParty_SIDNEY_5A},
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-    [TRAINER_SIDNEY_6] =
+    [TRAINER_SIDNEY_6A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -16963,11 +16963,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_SIDNEY_6),
-        .party = {.ItemCustomMoves = sParty_SIDNEY_6},
+        .partySize = ARRAY_COUNT(sParty_SIDNEY_6A),
+        .party = {.ItemCustomMoves = sParty_SIDNEY_6A},
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-    [TRAINER_SIDNEY_7] =
+    [TRAINER_SIDNEY_7A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -16977,11 +16977,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_SIDNEY_7),
-        .party = {.ItemCustomMoves = sParty_SIDNEY_7},
+        .partySize = ARRAY_COUNT(sParty_SIDNEY_7A),
+        .party = {.ItemCustomMoves = sParty_SIDNEY_7A},
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-    [TRAINER_SIDNEY_8] =
+    [TRAINER_SIDNEY_8A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -16991,11 +16991,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_SIDNEY_8),
-        .party = {.ItemCustomMoves = sParty_SIDNEY_8},
+        .partySize = ARRAY_COUNT(sParty_SIDNEY_8A),
+        .party = {.ItemCustomMoves = sParty_SIDNEY_8A},
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-    [TRAINER_SIDNEY_9] =
+    [TRAINER_SIDNEY_9A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -17005,8 +17005,8 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_SIDNEY_9),
-        .party = {.ItemCustomMoves = sParty_SIDNEY_9},
+        .partySize = ARRAY_COUNT(sParty_SIDNEY_9A),
+        .party = {.ItemCustomMoves = sParty_SIDNEY_9A},
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
     [TRAINER_DAISY_1] =
@@ -23813,7 +23813,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_MORTY_9},
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-    [TRAINER_BRAWLY_1] =
+    [TRAINER_BRAWLY_1A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -23823,11 +23823,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_BRAWLY_1),
-        .party = {.ItemCustomMoves = sParty_BRAWLY_1},
+        .partySize = ARRAY_COUNT(sParty_BRAWLY_1A),
+        .party = {.ItemCustomMoves = sParty_BRAWLY_1A},
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-    [TRAINER_BRAWLY_2] =
+    [TRAINER_BRAWLY_2A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -23837,11 +23837,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_BRAWLY_2),
-        .party = {.ItemCustomMoves = sParty_BRAWLY_2},
+        .partySize = ARRAY_COUNT(sParty_BRAWLY_2A),
+        .party = {.ItemCustomMoves = sParty_BRAWLY_2A},
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-    [TRAINER_BRAWLY_3] =
+    [TRAINER_BRAWLY_3A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -23851,11 +23851,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_BRAWLY_3),
-        .party = {.ItemCustomMoves = sParty_BRAWLY_3},
+        .partySize = ARRAY_COUNT(sParty_BRAWLY_3A),
+        .party = {.ItemCustomMoves = sParty_BRAWLY_3A},
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-    [TRAINER_BRAWLY_4] =
+    [TRAINER_BRAWLY_4A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -23865,11 +23865,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_BRAWLY_4),
-        .party = {.ItemCustomMoves = sParty_BRAWLY_4},
+        .partySize = ARRAY_COUNT(sParty_BRAWLY_4A),
+        .party = {.ItemCustomMoves = sParty_BRAWLY_4A},
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-    [TRAINER_BRAWLY_5] =
+    [TRAINER_BRAWLY_5A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -23879,11 +23879,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_BRAWLY_5),
-        .party = {.ItemCustomMoves = sParty_BRAWLY_5},
+        .partySize = ARRAY_COUNT(sParty_BRAWLY_5A),
+        .party = {.ItemCustomMoves = sParty_BRAWLY_5A},
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-    [TRAINER_BRAWLY_6] =
+    [TRAINER_BRAWLY_6A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -23893,11 +23893,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_BRAWLY_6),
-        .party = {.ItemCustomMoves = sParty_BRAWLY_6},
+        .partySize = ARRAY_COUNT(sParty_BRAWLY_6A),
+        .party = {.ItemCustomMoves = sParty_BRAWLY_6A},
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-    [TRAINER_BRAWLY_7] =
+    [TRAINER_BRAWLY_7A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -23907,11 +23907,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_BRAWLY_7),
-        .party = {.ItemCustomMoves = sParty_BRAWLY_7},
+        .partySize = ARRAY_COUNT(sParty_BRAWLY_7A),
+        .party = {.ItemCustomMoves = sParty_BRAWLY_7A},
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-    [TRAINER_BRAWLY_8] =
+    [TRAINER_BRAWLY_8A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -23921,11 +23921,11 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_BRAWLY_8),
-        .party = {.ItemCustomMoves = sParty_BRAWLY_8},
+        .partySize = ARRAY_COUNT(sParty_BRAWLY_8A),
+        .party = {.ItemCustomMoves = sParty_BRAWLY_8A},
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-    [TRAINER_BRAWLY_9] =
+    [TRAINER_BRAWLY_9A] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -23935,8 +23935,8 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
-        .partySize = ARRAY_COUNT(sParty_BRAWLY_9),
-        .party = {.ItemCustomMoves = sParty_BRAWLY_9},
+        .partySize = ARRAY_COUNT(sParty_BRAWLY_9A),
+        .party = {.ItemCustomMoves = sParty_BRAWLY_9A},
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
     [TRAINER_BUGSY_1] =

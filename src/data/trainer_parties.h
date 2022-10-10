@@ -38451,7 +38451,7 @@ static const struct TrainerMonItemCustomMoves sParty_YELLOW_9[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_SIDNEY_1[] = {
+static const struct TrainerMonItemCustomMoves sParty_SIDNEY_1A[] = {
     {
     .lvl = -5,
     .species = SPECIES_XERNEAS_ACTIVE,
@@ -38461,7 +38461,7 @@ static const struct TrainerMonItemCustomMoves sParty_SIDNEY_1[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_SIDNEY_2[] = {
+static const struct TrainerMonItemCustomMoves sParty_SIDNEY_2A[] = {
     {
     .lvl = -5,
     .species = SPECIES_XERNEAS_ACTIVE,
@@ -38471,7 +38471,7 @@ static const struct TrainerMonItemCustomMoves sParty_SIDNEY_2[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_SIDNEY_3[] = {
+static const struct TrainerMonItemCustomMoves sParty_SIDNEY_3A[] = {
     {
     .lvl = -5,
     .species = SPECIES_XERNEAS_ACTIVE,
@@ -38481,7 +38481,7 @@ static const struct TrainerMonItemCustomMoves sParty_SIDNEY_3[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_SIDNEY_4[] = {
+static const struct TrainerMonItemCustomMoves sParty_SIDNEY_4A[] = {
     {
     .lvl = -5,
     .species = SPECIES_XERNEAS_ACTIVE,
@@ -38491,7 +38491,7 @@ static const struct TrainerMonItemCustomMoves sParty_SIDNEY_4[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_SIDNEY_5[] = {
+static const struct TrainerMonItemCustomMoves sParty_SIDNEY_5A[] = {
     {
     .lvl = -5,
     .species = SPECIES_XERNEAS_ACTIVE,
@@ -38501,7 +38501,7 @@ static const struct TrainerMonItemCustomMoves sParty_SIDNEY_5[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_SIDNEY_6[] = {
+static const struct TrainerMonItemCustomMoves sParty_SIDNEY_6A[] = {
     {
     .lvl = -5,
     .species = SPECIES_XERNEAS_ACTIVE,
@@ -38511,7 +38511,7 @@ static const struct TrainerMonItemCustomMoves sParty_SIDNEY_6[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_SIDNEY_7[] = {
+static const struct TrainerMonItemCustomMoves sParty_SIDNEY_7A[] = {
     {
     .lvl = -5,
     .species = SPECIES_XERNEAS_ACTIVE,
@@ -38521,7 +38521,7 @@ static const struct TrainerMonItemCustomMoves sParty_SIDNEY_7[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_SIDNEY_8[] = {
+static const struct TrainerMonItemCustomMoves sParty_SIDNEY_8A[] = {
     {
     .lvl = -5,
     .species = SPECIES_XERNEAS_ACTIVE,
@@ -38531,7 +38531,7 @@ static const struct TrainerMonItemCustomMoves sParty_SIDNEY_8[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_SIDNEY_9[] = {
+static const struct TrainerMonItemCustomMoves sParty_SIDNEY_9A[] = {
     {
     .lvl = -5,
     .species = SPECIES_XERNEAS_ACTIVE,
@@ -43401,7 +43401,7 @@ static const struct TrainerMonItemCustomMoves sParty_MORTY_9[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_BRAWLY_1[] = {
+static const struct TrainerMonItemCustomMoves sParty_BRAWLY_1A[] = {
     {
     .lvl = -5,
     .species = SPECIES_XERNEAS_ACTIVE,
@@ -43411,7 +43411,7 @@ static const struct TrainerMonItemCustomMoves sParty_BRAWLY_1[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_BRAWLY_2[] = {
+static const struct TrainerMonItemCustomMoves sParty_BRAWLY_2A[] = {
     {
     .lvl = -5,
     .species = SPECIES_XERNEAS_ACTIVE,
@@ -43421,7 +43421,7 @@ static const struct TrainerMonItemCustomMoves sParty_BRAWLY_2[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_BRAWLY_3[] = {
+static const struct TrainerMonItemCustomMoves sParty_BRAWLY_3A[] = {
     {
     .lvl = -5,
     .species = SPECIES_XERNEAS_ACTIVE,
@@ -43431,7 +43431,7 @@ static const struct TrainerMonItemCustomMoves sParty_BRAWLY_3[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_BRAWLY_4[] = {
+static const struct TrainerMonItemCustomMoves sParty_BRAWLY_4A[] = {
     {
     .lvl = -5,
     .species = SPECIES_XERNEAS_ACTIVE,
@@ -43441,7 +43441,7 @@ static const struct TrainerMonItemCustomMoves sParty_BRAWLY_4[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_BRAWLY_5[] = {
+static const struct TrainerMonItemCustomMoves sParty_BRAWLY_5A[] = {
     {
     .lvl = -5,
     .species = SPECIES_XERNEAS_ACTIVE,
@@ -43451,7 +43451,7 @@ static const struct TrainerMonItemCustomMoves sParty_BRAWLY_5[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_BRAWLY_6[] = {
+static const struct TrainerMonItemCustomMoves sParty_BRAWLY_6A[] = {
     {
     .lvl = -5,
     .species = SPECIES_XERNEAS_ACTIVE,
@@ -43461,7 +43461,7 @@ static const struct TrainerMonItemCustomMoves sParty_BRAWLY_6[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_BRAWLY_7[] = {
+static const struct TrainerMonItemCustomMoves sParty_BRAWLY_7A[] = {
     {
     .lvl = -5,
     .species = SPECIES_XERNEAS_ACTIVE,
@@ -43471,7 +43471,7 @@ static const struct TrainerMonItemCustomMoves sParty_BRAWLY_7[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_BRAWLY_8[] = {
+static const struct TrainerMonItemCustomMoves sParty_BRAWLY_8A[] = {
     {
     .lvl = -5,
     .species = SPECIES_XERNEAS_ACTIVE,
@@ -43481,7 +43481,7 @@ static const struct TrainerMonItemCustomMoves sParty_BRAWLY_8[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_BRAWLY_9[] = {
+static const struct TrainerMonItemCustomMoves sParty_BRAWLY_9A[] = {
     {
     .lvl = -5,
     .species = SPECIES_XERNEAS_ACTIVE,
