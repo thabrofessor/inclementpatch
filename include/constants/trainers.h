@@ -194,7 +194,7 @@
 #define TRAINER_PIC_SAGEF              174
 #define TRAINER_PIC_COOLTM              175
 #define TRAINER_PIC_COOLTF              176
-
+#define TRAINER_PIC_BIRCH              177
 
 #define TRAINER_BACK_PIC_BRENDAN                0
 #define TRAINER_BACK_PIC_MAY                    1
