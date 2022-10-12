@@ -702,6 +702,10 @@ static const union AnimCmd *const sAnims_Cooltf[] ={
     sAnim_GeneralFrame0,
 };
 
+static const union AnimCmd *const sAnims_Birch[] ={
+    sAnim_GeneralFrame0,
+};
+
 const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
 {
     [TRAINER_PIC_HIKER] = sAnims_Hiker,
@@ -881,4 +885,5 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
                                       [TRAINER_PIC_SAGEF] = sAnims_Sagef,
                                       [TRAINER_PIC_COOLTM] = sAnims_Cooltm,
                                       [TRAINER_PIC_COOLTF] = sAnims_Cooltf,
+                                          [TRAINER_PIC_BIRCH] = sAnims_Birch,
 };
