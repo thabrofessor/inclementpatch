@@ -541,3 +541,5 @@ const u32 gTrainerPalette_Cooltm[] = INCBIN_U32("graphics/trainers/palettes/cool
 const u32 gTrainerFrontPic_Cooltf[] = INCBIN_U32("graphics/trainers/front_pics/cooltf_front_pic.4bpp.lz");
 const u32 gTrainerPalette_Cooltf[] = INCBIN_U32("graphics/trainers/palettes/cooltf.gbapal.lz");
 
+const u32 gTrainerFrontPic_Birch[] = INCBIN_U32("graphics/trainers/front_pics/birch_front_pic.4bpp.lz");
+const u32 gTrainerPalette_Birch[] = INCBIN_U32("graphics/trainers/palettes/birch.gbapal.lz");
