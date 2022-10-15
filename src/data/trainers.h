@@ -30449,7 +30449,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_POKEFANF_6},
     },
 
-        [POKEMONBREEDERF_1] =
+        [TRAINER_POKEMONBREEDERF_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30463,7 +30463,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_POKEMONBREEDERF_1},
     },
                                                                                                                                                                                                      
-        [POKEMONBREEDERF_2] =
+        [TRAINER_POKEMONBREEDERF_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30477,7 +30477,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_POKEMONBREEDERF_2},
     },
                                                                                                                                                                                                      
-        [POKEMONBREEDERF_3] =
+        [TRAINER_POKEMONBREEDERF_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30491,7 +30491,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_POKEMONBREEDERF_3},
     },
                                                                                                                                                                                                      
-        [POKEMONBREEDERF_4] =
+        [TRAINER_POKEMONBREEDERF_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30505,7 +30505,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_POKEMONBREEDERF_4},
     },
                                                                                                                                                                                                      
-        [POKEMONBREEDERF_5] =
+        [TRAINER_POKEMONBREEDERF_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30519,7 +30519,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_POKEMONBREEDERF_5},
     },
                                                                                                                                                                                                      
-        [POKEMONBREEDERF_6] =
+        [TRAINER_POKEMONBREEDERF_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30533,7 +30533,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_POKEMONBREEDERF_6},
     },
                                                                                                                                                                                                      
-        [GENTLMAN_1] =
+        [TRAINER_GENTLMAN_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30547,7 +30547,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_GENTLMAN_1},
     },
                                                                                                                                                                                                      
-        [GENTLMAN_2] =
+        [TRAINER_GENTLMAN_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30561,7 +30561,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_GENTLMAN_2},
     },
                                                                                                                                                                                                          
-        [GENTLMAN_3] =
+        [TRAINER_GENTLMAN_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30575,7 +30575,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_GENTLMAN_3},
     },
                                                                                                                                                                                                          
-        [GENTLMAN_4] =
+        [TRAINER_GENTLMAN_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30589,7 +30589,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_GENTLMAN_4},
     },
                                                                                                                                                                                                          
-        [GENTLMAN_5] =
+        [TRAINER_GENTLMAN_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30603,7 +30603,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_GENTLMAN_5},
     },
                                                                                                                                                                                                          
-        [GENTLMAN_6] =
+        [TRAINER_GENTLMAN_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30617,7 +30617,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_GENTLMAN_6},
     },
                                                                                                                                                                                                          
-        [BUGMANIAC_1] =
+        [TRAINER_BUGMANIAC_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30631,7 +30631,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_BUGMANIAC_1},
     },    
                                                                                                                                                                                                          
-        [BUGMANIAC_2] =
+        [TRAINER_BUGMANIAC_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30645,7 +30645,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_BUGMANIAC_2},
     }, 
                                                                                                                                                                                                              
-        [BUGMANIAC_3] =
+        [TRAINER_BUGMANIAC_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30659,7 +30659,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_BUGMANIAC_3},
     }, 
                                                                                                                                                                                                              
-        [BUGMANIAC_4] =
+        [TRAINER_BUGMANIAC_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30673,7 +30673,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_BUGMANIAC_4},
     }, 
                                                                                                                                                                                                              
-        [BUGMANIAC_5] =
+        [TRAINER_BUGMANIAC_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30687,7 +30687,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_BUGMANIAC_5},
     }, 
                                                                                                                                                                                                              
-        [BUGMANIAC_6] =
+        [TRAINER_BUGMANIAC_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30701,7 +30701,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_BUGMANIAC_6},
     }, 
                                                                                                                                                                                                              
-        [COOLTRAINERF_1] =
+        [TRAINER_COOLTRAINERF_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30715,7 +30715,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLTRAINERF_1},
     }, 
                                                                                                                                                                                                                  
-        [COOLTRAINERF_2] =
+        [TRAINER_COOLTRAINERF_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30729,7 +30729,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLTRAINERF_2},
     }, 
                                                                                                                                                                                                                  
-        [COOLTRAINERF_3] =
+        [TRAINER_COOLTRAINERF_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30743,7 +30743,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLTRAINERF_3},
     }, 
                                                                                                                                                                                                                  
-        [COOLTRAINERF_4] =
+        [TRAINER_COOLTRAINERF_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30757,7 +30757,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLTRAINERF_4},
     }, 
                                                                                                                                                                                                                  
-        [COOLTRAINERF_5] =
+        [TRAINER_COOLTRAINERF_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30771,7 +30771,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLTRAINERF_5},
     }, 
                                                                                                                                                                                                                  
-        [COOLTRAINERF_6] =
+        [TRAINER_COOLTRAINERF_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30785,7 +30785,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLTRAINERF_6},
     }, 
                                                                                                                                                                                                                  
-        [GUTARIST_1] =
+        [TRAINER_GUTARIST_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30799,7 +30799,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_GUTARIST_1},
     }, 
                                                                                                                                                                                                                      
-        [GUTARIST_2] =
+        [TRAINER_GUTARIST_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30813,7 +30813,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_GUTARIST_2},
     }, 
                                                                                                                                                                                                                      
-        [GUTARIST_3] =
+        [TRAINER_GUTARIST_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30827,7 +30827,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_GUTARIST_3},
     }, 
                                                                                                                                                                                                                      
-        [GUTARIST_4] =
+        [TRAINER_GUTARIST_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30841,7 +30841,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_GUTARIST_4},
     }, 
                                                                                                                                                                                                                      
-        [GUTARIST_5] =
+        [TRAINER_GUTARIST_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30855,7 +30855,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_GUTARIST_5},
     }, 
                                                                                                                                                                                                                      
-        [GUTARIST_6] =
+        [TRAINER_GUTARIST_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30869,7 +30869,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_GUTARIST_6},
     }, 
                                                                                                                                                                                                                      
-        [LADY_1] =
+        [TRAINER_LADY_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30883,7 +30883,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_LADY_1},
     }, 
                                                                                                                                                                                                                          
-        [LADY_2] =
+        [TRAINER_LADY_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30897,7 +30897,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_LADY_2},
     }, 
                                                                                                                                                                                                                          
-        [LADY_3] =
+        [TRAINER_LADY_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30911,7 +30911,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_LADY_3},
     }, 
                                                                                                                                                                                                                          
-        [LADY_4] =
+        [TRAINER_LADY_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30925,7 +30925,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_LADY_4},
     }, 
                                                                                                                                                                                                                          
-        [LADY_5] =
+        [TRAINER_LADY_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30939,7 +30939,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_LADY_5},
     }, 
                                                                                                                                                                                                                          
-        [LADY_6] =
+        [TRAINER_LADY_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30953,7 +30953,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_LADY_6},
     }, 
                                                                                                                                                                                                                          
-        [BLACKBELT_1] =
+        [TRAINER_BLACKBELT_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30967,7 +30967,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_BLACKBELT_1},
     }, 
                                                                                                                                                                                                                              
-        [BLACKBELT_2] =
+        [TRAINER_BLACKBELT_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30981,7 +30981,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_BLACKBELT_2},
     },
                                                                                                                                                                                                                              
-        [BLACKBELT_3] =
+        [TRAINER_BLACKBELT_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -30995,7 +30995,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_BLACKBELT_3},
     },
                                                                                                                                                                                                                              
-        [BLACKBELT_4] =
+        [TRAINER_BLACKBELT_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31009,7 +31009,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_BLACKBELT_4},
     },
                                                                                                                                                                                                                              
-        [BLACKBELT_5] =
+        [TRAINER_BLACKBELT_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31023,7 +31023,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_BLACKBELT_5},
     },
                                                                                                                                                                                                                              
-        [BLACKBELT_6] =
+        [TRAINER_BLACKBELT_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31037,7 +31037,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_BLACKBELT_6},
     },
                                                                                                                                                                                                                              
-        [YOUNGCOUPLE_1] =
+        [TRAINER_YOUNGCOUPLE_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31051,7 +31051,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_YOUNGCOUPLE_1},
     },
                                                                                                                                                                                                                                  
-        [YOUNGCOUPLE_2] =
+        [TRAINER_YOUNGCOUPLE_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31065,7 +31065,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_YOUNGCOUPLE_2},
     },
                                                                                                                                                                                                                                  
-        [YOUNGCOUPLE_3] =
+        [TRAINER_YOUNGCOUPLE_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31079,7 +31079,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_YOUNGCOUPLE_3},
     },
                                                                                                                                                                                                                                  
-        [YOUNGCOUPLE_4] =
+        [TRAINER_YOUNGCOUPLE_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31093,7 +31093,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_YOUNGCOUPLE_4},
     },
                                                                                                                                                                                                                                  
-        [YOUNGCOUPLE_5] =
+        [TRAINER_YOUNGCOUPLE_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31107,7 +31107,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_YOUNGCOUPLE_5},
     },
                                                                                                                                                                                                                                  
-        [YOUNGCOUPLE_6] =
+        [TRAINER_YOUNGCOUPLE_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31121,7 +31121,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_YOUNGCOUPLE_6},
     },
                                                                                                                                                                                                                                  
-        [PICNICER_1] =
+        [TRAINER_PICNICER_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31135,7 +31135,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_PICNICER_1},
     },
                                                                                                                                                                                                                                      
-        [PICNICER_2] =
+        [TRAINER_PICNICER_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31149,7 +31149,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_PICNICER_2},
     },
                                                                                                                                                                                                                                      
-        [PICNICER_3] =
+        [TRAINER_PICNICER_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31163,7 +31163,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_PICNICER_3},
     },
                                                                                                                                                                                                                                      
-        [PICNICER_4] =
+        [TRAINER_PICNICER_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31177,7 +31177,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_PICNICER_4},
     },
                                                                                                                                                                                                                                      
-        [PICNICER_5] =
+        [TRAINER_PICNICER_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31191,7 +31191,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_PICNICER_5},
     },
                                                                                                                                                                                                                                      
-        [PICNICER_6] =
+        [TRAINER_PICNICER_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31205,7 +31205,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_PICNICER_6},
     },
                                                                                                                                                                                                                                      
-        [HEXMANIAK_1] =
+        [TRAINER_HEXMANIAK_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31219,7 +31219,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_HEXMANIAK_1},
     },
                                                                                                                                                                                                                                          
-        [HEXMANIAK_2] =
+        [TRAINER_HEXMANIAK_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31233,7 +31233,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_HEXMANIAK_2},
     },
                                                                                                                                                                                                                                          
-        [HEXMANIAK_3] =
+        [TRAINER_HEXMANIAK_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31247,7 +31247,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_HEXMANIAK_3},
     },
                                                                                                                                                                                                                                          
-        [HEXMANIAK_4] =
+        [TRAINER_HEXMANIAK_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31261,7 +31261,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_HEXMANIAK_4},
     },
                                                                                                                                                                                                                                          
-        [HEXMANIAK_5] =
+        [TRAINER_HEXMANIAK_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31275,7 +31275,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_HEXMANIAK_5},
     },
                                                                                                                                                                                                                                          
-        [HEXMANIAK_6] =
+        [TRAINER_HEXMANIAK_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31289,7 +31289,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_HEXMANIAK_6},
     },
                                                                                                                                                                                                                                          
-        [CAMPER_1] =
+        [TRAINER_CAMPER_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31303,7 +31303,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_CAMPER_1},
     },
                                                                                                                                                                                                                                              
-        [CAMPER_2] =
+        [TRAINER_CAMPER_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31317,7 +31317,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_CAMPER_2},
     },
                                                                                                                                                                                                                                              
-        [CAMPER_3] =
+        [TRAINER_CAMPER_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31331,7 +31331,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_CAMPER_3},
     },
                                                                                                                                                                                                                                              
-        [CAMPER_4] =
+        [TRAINER_CAMPER_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31345,7 +31345,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_CAMPER_4},
     },
                                                                                                                                                                                                                                              
-        [CAMPER_5] =
+        [TRAINER_CAMPER_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31359,7 +31359,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_CAMPER_5},
     },
                                                                                                                                                                                                                                              
-        [CAMPER_6] =
+        [TRAINER_CAMPER_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31373,7 +31373,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_CAMPER_6},
     },
                                                                                                                                                                                                                                              
-        [SCHOOLKIDM_1] =
+        [TRAINER_SCHOOLKIDM_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31387,7 +31387,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_SCHOOLKIDM_1},
     },
                                                                                                                                                                                                                                                  
-        [SCHOOLKIDM_2] =
+        [TRAINER_SCHOOLKIDM_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31401,7 +31401,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_SCHOOLKIDM_2},
     },
                                                                                                                                                                                                                                                  
-        [SCHOOLKIDM_3] =
+        [TRAINER_SCHOOLKIDM_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31415,7 +31415,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_SCHOOLKIDM_3},
     },
                                                                                                                                                                                                                                                  
-        [SCHOOLKIDM_4] =
+        [TRAINER_SCHOOLKIDM_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31429,7 +31429,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_SCHOOLKIDM_4},
     },
                                                                                                                                                                                                                                                  
-        [SCHOOLKIDM_5] =
+        [TRAINER_SCHOOLKIDM_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31443,7 +31443,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_SCHOOLKIDM_5},
     },
                                                                                                                                                                                                                                                  
-        [SCHOOLKIDM_6] =
+        [TRAINER_SCHOOLKIDM_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31457,7 +31457,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_SCHOOLKIDM_6},
     },
                                                                                                                                                                                                                                                  
-        [OLDCOUPLE_1] =
+        [TRAINER_OLDCOUPLE_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31471,7 +31471,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_OLDCOUPLE_1},
     },
                                                                                                                                                                                                                                                      
-        [OLDCOUPLE_2] =
+        [TRAINER_OLDCOUPLE_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31485,7 +31485,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_OLDCOUPLE_2},
     },
                                                                                                                                                                                                                                                      
-        [OLDCOUPLE_3] =
+        [TRAINER_OLDCOUPLE_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31499,7 +31499,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_OLDCOUPLE_3},
     },
                                                                                                                                                                                                                                                      
-        [OLDCOUPLE_4] =
+        [TRAINER_OLDCOUPLE_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31513,7 +31513,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_OLDCOUPLE_4},
     },
                                                                                                                                                                                                                                                      
-        [OLDCOUPLE_5] =
+        [TRAINER_OLDCOUPLE_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31527,7 +31527,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_OLDCOUPLE_5},
     },
                                                                                                                                                                                                                                                      
-        [OLDCOUPLE_6] =
+        [TRAINER_OLDCOUPLE_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31541,7 +31541,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_OLDCOUPLE_6},
     },
                                                                                                                                                                                                                                                      
-        [NINJABOY_1] =
+        [TRAINER_NINJABOY_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31555,7 +31555,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_NINJABOY_1},
     },
                                                                                                                                                                                                                                                          
-        [NINJABOY_2] =
+        [TRAINER_NINJABOY_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31569,7 +31569,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_NINJABOY_2},
     },
                                                                                                                                                                                                                                                          
-        [NINJABOY_3] =
+        [TRAINER_NINJABOY_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31583,7 +31583,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_NINJABOY_3},
     },
                                                                                                                                                                                                                                                          
-        [NINJABOY_4] =
+        [TRAINER_NINJABOY_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31597,7 +31597,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_NINJABOY_4},
     },
                                                                                                                                                                                                                                                          
-        [NINJABOY_5] =
+        [TRAINER_NINJABOY_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31611,7 +31611,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_NINJABOY_5},
     },
                                                                                                                                                                                                                                                          
-        [NINJABOY_6] =
+        [TRAINER_NINJABOY_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31625,7 +31625,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_NINJABOY_6},
     },
                                                                                                                                                                                                                                                          
-        [PSYCHICF_1] =
+        [TRAINER_PSYCHICF_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31639,7 +31639,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_PSYCHICF_1},
     },
                                                                                                                                                                                                                                                          
-        [PSYCHICF_2] =
+        [TRAINER_PSYCHICF_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31653,7 +31653,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_PSYCHICF_2},
     },
                                                                                                                                                                                                                                                              
-        [PSYCHICF_3] =
+        [TRAINER_PSYCHICF_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31667,7 +31667,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_PSYCHICF_3},
     },
                                                                                                                                                                                                                                                              
-        [PSYCHICF_4] =
+        [TRAINER_PSYCHICF_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31681,7 +31681,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_PSYCHICF_4},
     },
                                                                                                                                                                                                                                                              
-        [PSYCHICF_5] =
+        [TRAINER_PSYCHICF_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31695,7 +31695,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_PSYCHICF_5},
     },
                                                                                                                                                                                                                                                              
-        [PSYCHICF_6] =
+        [TRAINER_PSYCHICF_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31709,7 +31709,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_PSYCHICF_6},
     },
                                                                                                                                                                                                                                                              
-        [COOLT1_1] =
+        [TRAINER_COOLT1_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31723,7 +31723,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT1_1},
     },   
                                                                                                                                                                                                                                                                  
-        [COOLT1_2] =
+        [TRAINER_COOLT1_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31737,7 +31737,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT1_2},
     }, 
                                                                                                                                                                                                                                                                  
-        [COOLT1_3] =
+        [TRAINER_COOLT1_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31751,7 +31751,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT1_3},
     }, 
                                                                                                                                                                                                                                                                  
-        [COOLT1_4] =
+        [TRAINER_COOLT1_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31765,7 +31765,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT1_4},
     }, 
                                                                                                                                                                                                                                                                  
-        [COOLT1_5] =
+        [TRAINER_COOLT1_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31779,7 +31779,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT1_5},
     }, 
                                                                                                                                                                                                                                                                  
-        [COOLT1_6] =
+        [TRAINER_COOLT1_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31793,7 +31793,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT1_6},
     }, 
                                                                                                                                                                                                                                                                  
-        [COOLT2_1] =
+        [TRAINER_COOLT2_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31807,7 +31807,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT2_1},
     }, 
                                                                                                                                                                                                                                                                  
-        [COOLT2_2] =
+        [TRAINER_COOLT2_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31821,7 +31821,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT2_2},
     }, 
                                                                                                                                                                                                                                                                      
-        [COOLT2_3] =
+        [TRAINER_COOLT2_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31835,7 +31835,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT2_3},
     }, 
                                                                                                                                                                                                                                                                      
-        [COOLT2_4] =
+        [TRAINER_COOLT2_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31849,7 +31849,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT2_4},
     }, 
                                                                                                                                                                                                                                                                      
-        [COOLT2_5] =
+        [TRAINER_COOLT2_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31863,7 +31863,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT2_5},
     }, 
                                                                                                                                                                                                                                                                      
-        [COOLT2_6] =
+        [TRAINER_COOLT2_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31877,7 +31877,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT2_6},
     }, 
                                                                                                                                                                                                                                                                      
-        [COOLT3_1] =
+        [TRAINER_COOLT3_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31891,7 +31891,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT3_1},
     }, 
                                                                                                                                                                                                                                                                          
-        [COOLT3_2] =
+        [TRAINER_COOLT3_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31905,7 +31905,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT3_2},
     }, 
                                                                                                                                                                                                                                                                          
-        [COOLT3_3] =
+        [TRAINER_COOLT3_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31919,7 +31919,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT3_3},
     }, 
                                                                                                                                                                                                                                                                          
-        [COOLT3_4] =
+        [TRAINER_COOLT3_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31933,7 +31933,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT3_4},
     }, 
                                                                                                                                                                                                                                                                          
-        [COOLT3_5] =
+        [TRAINER_COOLT3_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31947,7 +31947,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT3_5},
     }, 
                                                                                                                                                                                                                                                                          
-        [COOLT3_6] =
+        [TRAINER_COOLT3_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31961,7 +31961,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT3_6},
     }, 
                                                                                                                                                                                                                                                                          
-        [COOLT4_1] =
+        [TRAINER_COOLT4_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31975,7 +31975,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT4_1},
     },     
                                                                                                                                                                                                                                                                              
-        [COOLT4_2] =
+        [TRAINER_COOLT4_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -31989,7 +31989,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT4_2},
     },
                                                                                                                                                                                                                                                                              
-        [COOLT4_3] =
+        [TRAINER_COOLT4_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32003,7 +32003,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT4_3},
     },
                                                                                                                                                                                                                                                                              
-        [COOLT4_4] =
+        [TRAINER_COOLT4_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32017,7 +32017,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT4_4},
     },
                                                                                                                                                                                                                                                                              
-        [COOLT4_5] =
+        [TRAINER_COOLT4_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32031,7 +32031,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT4_5},
     },
                                                                                                                                                                                                                                                                              
-        [COOLT4_6] =
+        [TRAINER_COOLT4_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32045,7 +32045,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT4_6},
     },
                                                                                                                                                                                                                                                                              
-        [COOLT5_1] =
+        [TRAINER_COOLT5_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32059,7 +32059,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT5_1},
     },
                                                                                                                                                                                                                                                                                  
-        [COOLT5_2] =
+        [TRAINER_COOLT5_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32073,7 +32073,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT5_2},
     },
                                                                                                                                                                                                                                                                                  
-        [COOLT5_3] =
+        [TRAINER_COOLT5_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32087,7 +32087,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT5_3},
     },
                                                                                                                                                                                                                                                                                  
-        [COOLT5_4] =
+        [TRAINER_COOLT5_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32101,7 +32101,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT5_4},
     },
                                                                                                                                                                                                                                                                                  
-        [COOLT5_5] =
+        [TRAINER_COOLT5_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32115,7 +32115,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT5_5},
     },
                                                                                                                                                                                                                                                                                  
-        [COOLT5_6] =
+        [TRAINER_COOLT5_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32129,7 +32129,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT5_6},
     },
                                                                                                                                                                                                                                                                                  
-        [COOLT6_1] =
+        [TRAINER_COOLT6_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32143,7 +32143,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT6_1},
     },
                                                                                                                                                                                                                                                                                      
-        [COOLT6_2] =
+        [TRAINER_COOLT6_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32157,7 +32157,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT6_2},
     },
                                                                                                                                                                                                                                                                                      
-        [COOLT6_3] =
+        [TRAINER_COOLT6_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32171,7 +32171,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT6_3},
     },
                                                                                                                                                                                                                                                                                      
-        [COOLT6_4] =
+        [TRAINER_COOLT6_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32185,7 +32185,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT6_4},
     },
                                                                                                                                                                                                                                                                                      
-        [COOLT6_5] =
+        [TRAINER_COOLT6_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32199,7 +32199,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT6_5},
     },
                                                                                                                                                                                                                                                                                      
-        [COOLT6_6] =
+        [TRAINER_COOLT6_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32213,7 +32213,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT6_6},
     },
                                                                                                                                                                                                                                                                                      
-        [COOLT7_1] =
+        [TRAINER_COOLT7_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32227,7 +32227,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT7_1},
     },
                                                                                                                                                                                                                                                                                          
-        [COOLT7_2] =
+        [TRAINER_COOLT7_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32241,7 +32241,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT7_2},
     },
                                                                                                                                                                                                                                                                                          
-        [COOLT7_3] =
+        [TRAINER_COOLT7_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32255,7 +32255,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT7_3},
     },
                                                                                                                                                                                                                                                                                          
-        [COOLT7_4] =
+        [TRAINER_COOLT7_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32269,7 +32269,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT7_4},
     },
                                                                                                                                                                                                                                                                                          
-        [COOLT7_5] =
+        [TRAINER_COOLT7_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32283,7 +32283,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT7_5},
     },
                                                                                                                                                                                                                                                                                          
-        [COOLT7_6] =
+        [TRAINER_COOLT7_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32297,7 +32297,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT7_6},
     },
                                                                                                                                                                                                                                                                                          
-        [COOLT8_1] =
+        [TRAINER_COOLT8_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32311,7 +32311,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT8_1},
     },
                                                                                                                                                                                                                                                                                              
-        [COOLT8_2] =
+        [TRAINER_COOLT8_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32325,7 +32325,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT8_2},
     },
                                                                                                                                                                                                                                                                                              
-        [COOLT8_3] =
+        [TRAINER_COOLT8_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32339,7 +32339,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT8_3},
     },
                                                                                                                                                                                                                                                                                              
-        [COOLT8_4] =
+        [TRAINER_COOLT8_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32353,7 +32353,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT8_4},
     },
                                                                                                                                                                                                                                                                                              
-        [COOLT8_5] =
+        [TRAINER_COOLT8_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32367,7 +32367,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT8_5},
     },
                                                                                                                                                                                                                                                                                              
-        [COOLT8_6] =
+        [TRAINER_COOLT8_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32381,7 +32381,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT8_6},
     },
                                                                                                                                                                                                                                                                                              
-        [COOLT9_1] =
+        [TRAINER_COOLT9_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32395,7 +32395,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT9_1},
     },
                                                                                                                                                                                                                                                                                                  
-        [COOLT9_2] =
+        [TRAINER_COOLT9_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32409,7 +32409,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT9_2},
     },
                                                                                                                                                                                                                                                                                                  
-        [COOLT9_3] =
+        [TRAINER_COOLT9_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32423,7 +32423,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT9_3},
     },
                                                                                                                                                                                                                                                                                                  
-        [COOLT9_4] =
+        [TRAINER_COOLT9_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32437,7 +32437,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT9_4},
     },
                                                                                                                                                                                                                                                                                                  
-        [COOLT9_5] =
+        [TRAINER_COOLT9_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32451,7 +32451,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT9_5},
     },
                                                                                                                                                                                                                                                                                                  
-        [COOLT9_6] =
+        [TRAINER_COOLT9_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32465,7 +32465,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT9_6},
     },
                                                                                                                                                                                                                                                                                                  
-        [COOLT10_1] =
+        [TRAINER_COOLT10_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32479,7 +32479,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT10_1},
     },
                                                                                                                                                                                                                                                                                                      
-        [COOLT10_2] =
+        [TRAINER_COOLT10_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32493,7 +32493,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT10_2},
     },
                                                                                                                                                                                                                                                                                                      
-        [COOLT10_3] =
+        [TRAINER_COOLT10_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32507,7 +32507,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT10_3},
     },
                                                                                                                                                                                                                                                                                                      
-        [COOLT10_4] =
+        [TRAINER_COOLT10_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32521,7 +32521,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT10_4},
     },
                                                                                                                                                                                                                                                                                                      
-        [COOLT10_5] =
+        [TRAINER_COOLT10_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32535,7 +32535,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT10_5},
     },
                                                                                                                                                                                                                                                                                                      
-        [COOLT10_6] =
+        [TRAINER_COOLT10_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32549,7 +32549,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT10_6},
     },
                                                                                                                                                                                                                                                                                                      
-        [COOLT11_1] =
+        [TRAINER_COOLT11_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32563,7 +32563,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT11_1},
     },
                                                                                                                                                                                                                                                                                                          
-        [COOLT11_2] =
+        [TRAINER_COOLT11_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32577,7 +32577,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT11_2},
     },
                                                                                                                                                                                                                                                                                                          
-        [COOLT11_3] =
+        [TRAINER_COOLT11_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32591,7 +32591,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT11_3},
     },
                                                                                                                                                                                                                                                                                                          
-        [COOLT11_4] =
+        [TRAINER_COOLT11_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32605,7 +32605,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT11_4},
     },
                                                                                                                                                                                                                                                                                                          
-        [COOLT11_5] =
+        [TRAINER_COOLT11_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32619,7 +32619,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT11_5},
     },
                                                                                                                                                                                                                                                                                                          
-        [COOLT11_6] =
+        [TRAINER_COOLT11_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32633,7 +32633,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT11_6},
     },
                                                                                                                                                                                                                                                                                                          
-        [COOLT12_1] =
+        [TRAINER_COOLT12_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32647,7 +32647,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT12_1},
     },
                                                                                                                                                                                                                                                                                                              
-        [COOLT12_2] =
+        [TRAINER_COOLT12_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32661,7 +32661,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT12_2},
     },
                                                                                                                                                                                                                                                                                                              
-        [COOLT12_3] =
+        [TRAINER_COOLT12_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32675,7 +32675,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT12_3},
     },
                                                                                                                                                                                                                                                                                                              
-        [COOLT12_4] =
+        [TRAINER_COOLT12_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32689,7 +32689,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT12_4},
     },
                                                                                                                                                                                                                                                                                                              
-        [COOLT12_5] =
+        [TRAINER_COOLT12_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32703,7 +32703,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT12_5},
     },
                                                                                                                                                                                                                                                                                                              
-        [COOLT12_6] =
+        [TRAINER_COOLT12_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32717,7 +32717,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT12_6},
     },
                                                                                                                                                                                                                                                                                                              
-        [COOLT13_1] =
+        [TRAINER_COOLT13_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32731,7 +32731,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT13_1},
     },
                                                                                                                                                                                                                                                                                                                  
-        [COOLT13_2] =
+        [TRAINER_COOLT13_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32745,7 +32745,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT13_2},
     },
                                                                                                                                                                                                                                                                                                                  
-        [COOLT13_3] =
+        [TRAINER_COOLT13_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32759,7 +32759,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT13_3},
     },
                                                                                                                                                                                                                                                                                                                  
-        [COOLT13_4] =
+        [TRAINER_COOLT13_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32773,7 +32773,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT13_4},
     },
                                                                                                                                                                                                                                                                                                                  
-        [COOLT13_5] =
+        [TRAINER_COOLT13_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32787,7 +32787,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT13_5},
     },
                                                                                                                                                                                                                                                                                                                  
-        [COOLT13_6] =
+        [TRAINER_COOLT13_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32801,7 +32801,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT13_6},
     },
                                                                                                                                                                                                                                                                                                                  
-        [COOLT14_1] =
+        [TRAINER_COOLT14_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32815,7 +32815,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT14_1},
     },
                                                                                                                                                                                                                                                                                                                      
-        [COOLT14_2] =
+        [TRAINER_COOLT14_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32829,7 +32829,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT14_2},
     },
                                                                                                                                                                                                                                                                                                                      
-        [COOLT14_3] =
+        [TRAINER_COOLT14_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32843,7 +32843,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT14_3},
     },
                                                                                                                                                                                                                                                                                                                      
-        [COOLT14_4] =
+        [TRAINER_COOLT14_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32857,7 +32857,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT14_4},
     },
                                                                                                                                                                                                                                                                                                                      
-        [COOLT14_5] =
+        [TRAINER_COOLT14_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32871,7 +32871,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT14_5},
     },
                                                                                                                                                                                                                                                                                                                      
-        [COOLT14_6] =
+        [TRAINER_COOLT14_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32885,7 +32885,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT14_6},
     },
                                                                                                                                                                                                                                                                                                                      
-        [COOLT15_1] =
+        [TRAINER_COOLT15_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32899,7 +32899,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT15_1},
     },
                                                                                                                                                                                                                                                                                                                      
-        [COOLT15_2] =
+        [TRAINER_COOLT15_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32913,7 +32913,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT15_2},
     },
                                                                                                                                                                                                                                                                                                                          
-        [COOLT15_3] =
+        [TRAINER_COOLT15_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32927,7 +32927,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT15_3},
     },
                                                                                                                                                                                                                                                                                                                          
-        [COOLT15_4] =
+        [TRAINER_COOLT15_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32941,7 +32941,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT15_4},
     },
                                                                                                                                                                                                                                                                                                                          
-        [COOLT15_5] =
+        [TRAINER_COOLT15_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -32955,7 +32955,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_COOLT15_5},
     },
                                                                                                                                                                                                                                                                                                                          
-        [COOLT15_6] =
+        [TRAINER_COOLT15_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
