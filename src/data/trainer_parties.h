@@ -45380,3 +45380,4563 @@ static const struct TrainerMonItemCustomMoves sParty_MINT_9[] = {
     .moves = MOVE_SPLASH
     }
 };
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMERM_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMERM_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMERM_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMERM_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMERM_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMERM_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER9_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER9_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER9_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER9_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER9_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER9_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER3_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER3_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER3_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER3_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER3_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER3_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMERF_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMERF_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMERF_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMERF_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMERF_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMERF_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER4_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER4_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER4_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER4_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER4_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER4_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RUNNINGTRIM_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RUNNINGTRIM_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RUNNINGTRIM_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RUNNINGTRIM_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RUNNINGTRIM_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RUNNINGTRIM_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PARASOLLADY_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PARASOLLADY_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PARASOLLADY_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PARASOLLADY_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PARASOLLADY_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PARASOLLADY_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_TUBERM_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_TUBERM_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_TUBERM_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_TUBERM_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_TUBERM_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_TUBERM_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ARROMALADY_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ARROMALADY_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ARROMALADY_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ARROMALADY_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ARROMALADY_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ARROMALADY_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMINGTRIM_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMINGTRIM_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMINGTRIM_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMINGTRIM_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMINGTRIM_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMINGTRIM_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMINGTRIF_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMINGTRIF_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMINGTRIF_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMINGTRIF_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMINGTRIF_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SWIMMINGTRIF_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER2_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER2_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER2_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER2_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER2_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER2_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTALMAN3_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTALMAN3_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTALMAN3_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTALMAN3_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTALMAN3_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTALMAN3_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTALMAN4_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTALMAN4_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTALMAN4_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTALMAN4_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTALMAN4_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTALMAN4_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SISBRO_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SISBRO_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SISBRO_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SISBRO_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SISBRO_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SISBRO_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_FISHERMAN_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_FISHERMAN_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_FISHERMAN_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_FISHERMAN_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_FISHERMAN_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_FISHERMAN_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_CYCLINGTRIM_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_CYCLINGTRIM_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_CYCLINGTRIM_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_CYCLINGTRIM_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_CYCLINGTRIM_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_CYCLINGTRIM_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_CYCLINGTRIF_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_CYCLINGTRIF_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_CYCLINGTRIF_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_CYCLINGTRIF_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_CYCLINGTRIF_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_CYCLINGTRIF_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER6_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER6_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER6_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER6_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER6_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER6_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RUNNINGTRIF_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RUNNINGTRIF_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RUNNINGTRIF_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RUNNINGTRIF_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RUNNINGTRIF_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RUNNINGTRIF_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SAILOR_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SAILOR_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SAILOR_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SAILOR_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SAILOR_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SAILOR_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER1_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER1_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER1_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER1_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER1_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER1_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_HIKER_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_HIKER_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_HIKER_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_HIKER_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_HIKER_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_HIKER_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEFANM_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEFANM_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEFANM_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEFANM_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEFANM_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEFANM_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RICHBOY_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RICHBOY_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RICHBOY_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RICHBOY_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RICHBOY_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RICHBOY_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTALMAN2_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTALMAN2_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTALMAN2_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTALMAN2_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTALMAN2_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTALMAN2_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER5_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER5_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER5_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER5_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER5_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER5_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER7_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER7_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER7_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER7_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER7_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER7_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RUNE_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RUNE_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RUNE_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RUNE_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RUNE_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+static const struct TrainerMonItemCustomMoves sParty_RUNE_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_LASS_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_LASS_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_LASS_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_LASS_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_LASS_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_LASS_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BUGCATCHER_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BUGCATCHER_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BUGCATCHER_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BUGCATCHER_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BUGCATCHER_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BUGCATCHER_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEMANIAK_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEMANIAK_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEMANIAK_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEMANIAK_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEMANIAK_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEMANIAK_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_DRAGONTAMER_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_DRAGONTAMER_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_DRAGONTAMER_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_DRAGONTAMER_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_DRAGONTAMER_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_DRAGONTAMER_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLTRAINERM_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLTRAINERM_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLTRAINERM_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLTRAINERM_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLTRAINERM_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLTRAINERM_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BEAUTY_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BEAUTY_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BEAUTY_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BEAUTY_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BEAUTY_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BEAUTY_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BATTLEGIRL_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BATTLEGIRL_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BATTLEGIRL_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BATTLEGIRL_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BATTLEGIRL_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BATTLEGIRL_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SRJR_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SRJR_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SRJR_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SRJR_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SRJR_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SRJR_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BIRDKEEPER_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BIRDKEEPER_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BIRDKEEPER_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BIRDKEEPER_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BIRDKEEPER_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BIRDKEEPER_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER10_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER10_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER10_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER10_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER10_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_RANGER10_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEMONBREEDERM_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEMONBREEDERM_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEMONBREEDERM_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEMONBREEDERM_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEMONBREEDERM_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEMONBREEDERM_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SCHOOLKIDF_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SCHOOLKIDF_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SCHOOLKIDF_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SCHOOLKIDF_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SCHOOLKIDF_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SCHOOLKIDF_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_TWINS_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_TWINS_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_TWINS_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_TWINS_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_TWINS_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_TWINS_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COLECTOR_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COLECTOR_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COLECTOR_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COLECTOR_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COLECTOR_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COLECTOR_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PSYCHICM_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PSYCHICM_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PSYCHICM_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PSYCHICM_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PSYCHICM_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PSYCHICM_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YOUNGSTER_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YOUNGSTER_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YOUNGSTER_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YOUNGSTER_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YOUNGSTER_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YOUNGSTER_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEFANF_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEFANF_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEFANF_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEFANF_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEFANF_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEFANF_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEMONBREEDERF_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEMONBREEDERF_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEMONBREEDERF_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEMONBREEDERF_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEMONBREEDERF_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_POKEMONBREEDERF_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTLMAN_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTLMAN_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTLMAN_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTLMAN_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTLMAN_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GENTLMAN_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BUGMANIAC_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BUGMANIAC_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BUGMANIAC_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BUGMANIAC_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BUGMANIAC_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BUGMANIAC_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLTRAINERF_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLTRAINERF_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLTRAINERF_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLTRAINERF_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLTRAINERF_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLTRAINERF_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GUTARIST_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GUTARIST_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GUTARIST_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GUTARIST_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GUTARIST_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GUTARIST_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_LADY_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_LADY_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_LADY_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_LADY_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_LADY_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_LADY_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BLACKBELT_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BLACKBELT_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BLACKBELT_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BLACKBELT_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BLACKBELT_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BLACKBELT_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YOUNGCOUPLE_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YOUNGCOUPLE_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YOUNGCOUPLE_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YOUNGCOUPLE_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YOUNGCOUPLE_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YOUNGCOUPLE_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PICNICER_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PICNICER_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PICNICER_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PICNICER_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PICNICER_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PICNICER_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_HEXMANIAK_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_HEXMANIAK_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_HEXMANIAK_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_HEXMANIAK_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_HEXMANIAK_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_HEXMANIAK_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_CAMPER_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_CAMPER_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_CAMPER_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_CAMPER_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_CAMPER_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_CAMPER_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SCHOOLKIDM_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SCHOOLKIDM_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SCHOOLKIDM_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SCHOOLKIDM_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SCHOOLKIDM_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_SCHOOLKIDM_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_OLDCOUPLE_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_OLDCOUPLE_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_OLDCOUPLE_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_OLDCOUPLE_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_OLDCOUPLE_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_OLDCOUPLE_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_NINJABOY_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_NINJABOY_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_NINJABOY_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_NINJABOY_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_NINJABOY_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_NINJABOY_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PSYCHICF_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PSYCHICF_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PSYCHICF_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PSYCHICF_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PSYCHICF_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PSYCHICF_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT1_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT1_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT1_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT1_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT1_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT1_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT2_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT2_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT2_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT2_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT2_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT2_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT3_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT3_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT3_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT3_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT3_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT3_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT4_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT4_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT4_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT4_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT4_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT4_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT5_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT5_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT5_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT5_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT5_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT5_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT6_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT6_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT6_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT6_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT6_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT6_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT7_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT7_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT7_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT7_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT7_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT7_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT8_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT8_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT8_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT8_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT8_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT8_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT9_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT9_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT9_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT9_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT9_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT9_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT10_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT10_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT10_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT10_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT10_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT10_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT11_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT11_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT11_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT11_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT11_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT11_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT12_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT12_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT12_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT12_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT12_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT12_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT13_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT13_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT13_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT13_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT13_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT13_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT14_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT14_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT14_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT14_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT14_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT14_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT15_1[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT15_2[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT15_3[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT15_4[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT15_5[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_COOLT15_6[] = {
+    {
+    .lvl = -5,
+    .species = SPECIES_XERNEAS_ACTIVE,
+    .heldItem = ITEM_WHITE_HERB,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_SPLASH
+    }
+};
+
