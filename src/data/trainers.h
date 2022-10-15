@@ -32983,7 +32983,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_ROCKET_1},
     },
                                                                                                                                                                                                                                                                                                                                  
-        [TRAINER_ROCKET_28] =
+        [TRAINER_ROCKET_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
