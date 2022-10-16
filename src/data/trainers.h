@@ -35867,7 +35867,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_PLASMA_83},
     },
                                                                                                                                                                                                                                                                                                                                                      
-        [TRAINER_PLASMA_84 =
+        [TRAINER_PLASMA_84] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
