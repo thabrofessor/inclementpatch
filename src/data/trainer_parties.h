@@ -52065,5 +52065,2095 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_1[] = {
     }
 };
 
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_2[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_3[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_4[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_5[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_6[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_7[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_8[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_9[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_10[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_11[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_12[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_13[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_14[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_15[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_16[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_17[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_18[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_19[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_20[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_21[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_22[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_23[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_24[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_25[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_26[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_27[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_28[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_29[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_30[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_31[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_32[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_33[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_34[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_35[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_36[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_37[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_38[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_39[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_40[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_41[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_42[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_43[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_44[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_45[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_46[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_47[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_48[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_49[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_50[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_51[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_52[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_53[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_54[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_55[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_56[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_57[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_58[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_59[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_60[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_61[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_62[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_63[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_64[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_65[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_66[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_67[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_68[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_69[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_70[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_71[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_72[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_73[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_74[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_75[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_76[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_77[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_78[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_79[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_80[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_81[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_82[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_83[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_84[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_85[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_86[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_87[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_88[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_89[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_90[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_91[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_92[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_93[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_94[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_95[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_96[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_97[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_98[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_99[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_100[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_101[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_102[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_103[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_104[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_105[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_106[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_107[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_108[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_109[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_110[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_111[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_112[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_113[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_114[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_115[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_116[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_117[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_118[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_119[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_120[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_121[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_122[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_123[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_PLASMA_124[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
 
 
