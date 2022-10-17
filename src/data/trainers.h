@@ -39912,6 +39912,20 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_MAGMA_124),
         .party = {.ItemCustomMoves = sParty_MAGMA_124},
     },
+                                                                                                                                                                                                                                                                                                                                                                                         
+        [TRAINER_GALACTIC_1] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_GALACTICM,
+        .trainerName = _("GalacticGrunt"),
+        .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
+        .partySize = ARRAY_COUNT(sParty_GALACTIC_1),
+        .party = {.ItemCustomMoves = sParty_GALACTIC_1},
+    },
 
 };
 

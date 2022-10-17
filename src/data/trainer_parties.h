@@ -58371,6 +58371,23 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_124[] = {
     }
 };
 
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_1[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
 
 
 
