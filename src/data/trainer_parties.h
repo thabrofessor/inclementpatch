@@ -58388,6 +58388,2097 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_1[] = {
     }
 };
 
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_2[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_3[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_4[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_5[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_6[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_7[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_8[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_9[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_10[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_11[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_12[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_13[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_14[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_15[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_16[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_17[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_18[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_19[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_20[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_21[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_22[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_23[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_24[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_25[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_26[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_27[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_28[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_29[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_30[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_31[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_32[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_33[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_34[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_35[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_36[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_37[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_38[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_39[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_40[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_41[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_42[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_43[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_44[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_45[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_46[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_47[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_48[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_49[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_50[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_51[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_52[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_53[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_54[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_55[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_56[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_57[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_58[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_59[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_60[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_61[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_62[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_63[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_64[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_65[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_66[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_67[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_68[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_69[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_70[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_71[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_72[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_73[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_74[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_75[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_76[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_77[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_78[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_79[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_80[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_81[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_82[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_83[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_84[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_85[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_86[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_87[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_88[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_89[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_90[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_91[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_92[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_93[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_94[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_95[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_96[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_97[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_98[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_99[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_100[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_101[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_102[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_103[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_104[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_105[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_106[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_107[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_108[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_109[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_110[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_111[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_112[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_113[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_114[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_115[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_116[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_117[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_118[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_119[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_120[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_121[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_122[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_123[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GALACTIC_124[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_WOBBUFFET,
+	   .heldItem = ITEM_FOCUS_SASH, 
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_UNOWN,
+	    .heldItem = ITEM_ASSAULT_VEST,
+    .spread = SPREAD_31_IV_60_EV,
+    .moves = MOVE_HIDDEN_POWER, MOVE_METRONOME, MOVE_NONE, MOVE_NONE
+    }
+};
+
 
 
 
