@@ -49961,7 +49961,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_2[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -49995,7 +49995,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_4[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50029,7 +50029,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_6[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50063,7 +50063,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_8[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50097,7 +50097,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_10[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50131,7 +50131,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_12[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50165,7 +50165,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_14[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50199,7 +50199,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_16[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50233,7 +50233,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_18[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50267,7 +50267,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_20[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50301,7 +50301,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_22[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50335,7 +50335,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_24[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50369,7 +50369,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_26[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50403,7 +50403,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_28[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50437,7 +50437,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_30[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50471,7 +50471,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_32[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50505,7 +50505,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_34[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50539,7 +50539,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_36[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50573,7 +50573,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_38[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50607,7 +50607,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_40[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50641,7 +50641,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_42[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50675,7 +50675,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_44[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50709,7 +50709,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_46[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50743,7 +50743,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_48[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50777,7 +50777,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_50[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50811,7 +50811,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_52[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50845,7 +50845,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_54[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50879,7 +50879,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_56[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50913,7 +50913,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_58[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50947,7 +50947,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_60[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -50981,7 +50981,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_62[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51015,7 +51015,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_64[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51049,7 +51049,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_66[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51083,7 +51083,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_68[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51117,7 +51117,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_70[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51151,7 +51151,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_72[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51185,7 +51185,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_74[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51219,7 +51219,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_76[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51253,7 +51253,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_78[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51287,7 +51287,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_80[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51321,7 +51321,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_82[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51355,7 +51355,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_84[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51389,7 +51389,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_86[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51423,7 +51423,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_88[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51457,7 +51457,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_90[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51491,7 +51491,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_92[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51525,7 +51525,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_94[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51559,7 +51559,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_96[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51593,7 +51593,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_98[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51627,7 +51627,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_100[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51661,7 +51661,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_102[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51695,7 +51695,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_104[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51729,7 +51729,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_106[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51763,7 +51763,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_108[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51797,7 +51797,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_110[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51831,7 +51831,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_112[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51865,7 +51865,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_114[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51899,7 +51899,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_116[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51933,7 +51933,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_118[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -51967,7 +51967,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_120[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52001,7 +52001,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_122[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52035,7 +52035,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKET_124[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52069,7 +52069,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_2[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52103,7 +52103,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_4[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52137,7 +52137,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_6[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52171,7 +52171,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_8[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52205,7 +52205,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_10[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52239,7 +52239,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_12[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52273,7 +52273,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_14[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52307,7 +52307,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_16[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52341,7 +52341,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_18[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52375,7 +52375,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_20[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52409,7 +52409,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_22[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52443,7 +52443,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_24[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52477,7 +52477,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_26[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52511,7 +52511,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_28[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52545,7 +52545,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_30[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52579,7 +52579,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_32[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52613,7 +52613,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_34[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52647,7 +52647,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_36[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52681,7 +52681,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_38[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52715,7 +52715,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_40[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52749,7 +52749,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_42[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52783,7 +52783,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_44[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52817,7 +52817,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_46[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52851,7 +52851,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_48[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52885,7 +52885,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_50[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52919,7 +52919,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_52[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52953,7 +52953,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_54[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -52987,7 +52987,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_56[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53020,7 +53020,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_58[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53054,7 +53054,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_60[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53088,7 +53088,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_62[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53122,7 +53122,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_64[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53156,7 +53156,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_66[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53190,7 +53190,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_68[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53224,7 +53224,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_70[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53258,7 +53258,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_72[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53292,7 +53292,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_74[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53326,7 +53326,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_76[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53360,7 +53360,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_78[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53394,7 +53394,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_80[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53428,7 +53428,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_82[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53462,7 +53462,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_84[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53496,7 +53496,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_86[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53530,7 +53530,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_88[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53564,7 +53564,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_90[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53598,7 +53598,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_92[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53632,7 +53632,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_94[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53666,7 +53666,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_96[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53700,7 +53700,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_98[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53734,7 +53734,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_100[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53768,7 +53768,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_102[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53802,7 +53802,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_104[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53836,7 +53836,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_106[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53870,7 +53870,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_108[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53904,7 +53904,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_110[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53938,7 +53938,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_112[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -53972,7 +53972,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_114[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54006,7 +54006,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_116[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54040,7 +54040,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_118[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54074,7 +54074,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_120[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54108,7 +54108,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_122[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54142,7 +54142,7 @@ static const struct TrainerMonItemCustomMoves sParty_PLASMA_124[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54176,7 +54176,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_2[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54210,7 +54210,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_4[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54244,7 +54244,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_6[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54278,7 +54278,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_8[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54312,7 +54312,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_10[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54346,7 +54346,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_12[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54380,7 +54380,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_14[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54414,7 +54414,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_16[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54448,7 +54448,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_18[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54482,7 +54482,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_20[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54516,7 +54516,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_22[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54550,7 +54550,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_24[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54584,7 +54584,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_26[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54618,7 +54618,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_28[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54652,7 +54652,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_30[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54686,7 +54686,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_32[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54720,7 +54720,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_34[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54754,7 +54754,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_36[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54788,7 +54788,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_38[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54822,7 +54822,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_40[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54856,7 +54856,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_42[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54890,7 +54890,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_44[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54924,7 +54924,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_46[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54958,7 +54958,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_48[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -54992,7 +54992,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_50[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55026,7 +55026,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_52[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55060,7 +55060,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_54[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55094,7 +55094,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_56[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55128,7 +55128,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_58[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55162,7 +55162,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_60[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55196,7 +55196,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_62[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55230,7 +55230,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_64[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55264,7 +55264,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_66[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55298,7 +55298,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_68[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55332,7 +55332,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_70[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55366,7 +55366,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_72[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55400,7 +55400,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_74[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55434,7 +55434,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_76[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55468,7 +55468,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_78[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55502,7 +55502,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_80[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55536,7 +55536,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_82[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55570,7 +55570,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_84[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55604,7 +55604,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_86[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55638,7 +55638,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_88[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55672,7 +55672,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_90[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55706,7 +55706,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_92[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55740,7 +55740,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_94[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55774,7 +55774,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_96[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55808,7 +55808,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_98[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55842,7 +55842,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_100[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55876,7 +55876,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_102[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55910,7 +55910,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_104[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55944,7 +55944,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_106[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -55978,7 +55978,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_108[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56012,7 +56012,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_110[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56046,7 +56046,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_112[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56080,7 +56080,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_114[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56114,7 +56114,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_116[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56148,7 +56148,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_118[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56182,7 +56182,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_120[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56216,7 +56216,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_122[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56250,7 +56250,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_124[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56284,7 +56284,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_2[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56318,7 +56318,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_4[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56352,7 +56352,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_6[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56386,7 +56386,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_8[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56420,7 +56420,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_10[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56454,7 +56454,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_12[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56488,7 +56488,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_14[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56522,7 +56522,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_16[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56556,7 +56556,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_18[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56590,7 +56590,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_20[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56624,7 +56624,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_22[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56658,7 +56658,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_24[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56692,7 +56692,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_26[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56726,7 +56726,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_28[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56760,7 +56760,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_30[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56794,7 +56794,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_32[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56828,7 +56828,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_34[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56862,7 +56862,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_36[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56896,7 +56896,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_38[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56930,7 +56930,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_40[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56964,7 +56964,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_42[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -56998,7 +56998,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_44[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57032,7 +57032,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_46[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57066,7 +57066,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_48[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57100,7 +57100,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_50[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57134,7 +57134,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_52[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57168,7 +57168,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_54[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57202,7 +57202,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_56[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57236,7 +57236,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_58[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57270,7 +57270,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_60[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57304,7 +57304,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_62[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57338,7 +57338,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_64[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57372,7 +57372,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_66[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57406,7 +57406,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_68[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57440,7 +57440,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_70[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57474,7 +57474,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_72[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57508,7 +57508,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_74[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57542,7 +57542,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_76[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57576,7 +57576,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_78[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57610,7 +57610,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_80[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57644,7 +57644,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_82[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57678,7 +57678,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_84[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57712,7 +57712,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_86[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57746,7 +57746,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_88[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57780,7 +57780,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_90[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57814,7 +57814,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_92[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57848,7 +57848,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_94[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57882,7 +57882,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_96[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57916,7 +57916,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_98[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57950,7 +57950,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_100[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -57984,7 +57984,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_102[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58018,7 +58018,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_104[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58052,7 +58052,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_106[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58086,7 +58086,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_108[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58120,7 +58120,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_110[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58154,7 +58154,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_112[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58188,7 +58188,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_114[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58222,7 +58222,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_116[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58256,7 +58256,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_118[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58290,7 +58290,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_120[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58324,7 +58324,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_122[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58358,7 +58358,7 @@ static const struct TrainerMonItemCustomMoves sParty_MAGMA_124[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58392,7 +58392,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_2[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58426,7 +58426,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_4[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58460,7 +58460,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_6[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58494,7 +58494,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_8[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58528,7 +58528,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_10[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58562,7 +58562,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_12[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58596,7 +58596,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_14[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58630,7 +58630,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_16[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58664,7 +58664,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_18[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58698,7 +58698,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_20[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58732,7 +58732,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_22[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58766,7 +58766,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_24[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58800,7 +58800,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_26[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58834,7 +58834,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_28[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58868,7 +58868,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_30[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58902,7 +58902,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_32[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58936,7 +58936,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_34[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -58970,7 +58970,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_36[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59004,7 +59004,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_38[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59038,7 +59038,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_40[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59072,7 +59072,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_42[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59106,7 +59106,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_44[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59140,7 +59140,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_46[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59174,7 +59174,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_48[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59208,7 +59208,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_50[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59242,7 +59242,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_52[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59276,7 +59276,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_54[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59310,7 +59310,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_56[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59344,7 +59344,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_58[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59378,7 +59378,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_60[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59412,7 +59412,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_62[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59446,7 +59446,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_64[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59480,7 +59480,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_66[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59514,7 +59514,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_68[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59548,7 +59548,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_70[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59582,7 +59582,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_72[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59616,7 +59616,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_74[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59650,7 +59650,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_76[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59684,7 +59684,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_78[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59718,7 +59718,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_80[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59752,7 +59752,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_82[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59786,7 +59786,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_84[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59820,7 +59820,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_86[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59854,7 +59854,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_88[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59888,7 +59888,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_90[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59922,7 +59922,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_92[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59956,7 +59956,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_94[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -59990,7 +59990,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_96[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -60024,7 +60024,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_98[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -60058,7 +60058,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_100[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -60092,7 +60092,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_102[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -60126,7 +60126,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_104[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -60160,7 +60160,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_106[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -60194,7 +60194,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_108[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -60228,7 +60228,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_110[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -60262,7 +60262,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_112[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -60296,7 +60296,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_114[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -60330,7 +60330,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_116[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -60364,7 +60364,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_118[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -60398,7 +60398,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_120[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -60432,7 +60432,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_122[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
@@ -60466,7 +60466,7 @@ static const struct TrainerMonItemCustomMoves sParty_GALACTIC_124[] = {
     {
     .lvl = 5,
     .species = SPECIES_WOBBUFFET,
-	   .heldItem = ITEM_FOCUS_SASH, 
+	   .heldItem = ITEM_LEFTOVERS, 
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND
     },
