@@ -3261,6 +3261,13 @@ void CreateMon(struct Pokemon *mon, u16 species, u8 level, u8 fixedIV, u8 hasFix
     CalculateMonStats(mon);
 }
 
+static const u16 shinyTrainersArray[][1] = 
+{
+	TRAINER_CALVIN_1,
+	TRAINER_CALVIN_1,
+	TRAINER_CALVIN_1
+};
+
 void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, u8 hasFixedPersonality, u32 fixedPersonality, u8 otIdType, u32 fixedOtId)
 {
     u8 speciesName[POKEMON_NAME_LENGTH + 1];
