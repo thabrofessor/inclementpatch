@@ -3263,7 +3263,7 @@ void CreateMon(struct Pokemon *mon, u16 species, u8 level, u8 fixedIV, u8 hasFix
 
 static const u16 shinyTrainersArray[][1] = 
 {
-	TRAINER_CALVIN_1,
+	TRAINER_BRO_1,
 	TRAINER_CALVIN_1,
 	TRAINER_CALVIN_1
 };
