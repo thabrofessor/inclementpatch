@@ -4123,7 +4123,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_BLAZE, ABILITY_SAND_RUSH, ABILITY_FLASH_FIRE},
+            .abilities = {ABILITY_FUR_COAT, ABILITY_SAND_RUSH, ABILITY_FLASH_FIRE},
         #else
             .abilities = {ABILITY_BLAZE, ABILITY_BLAZE, ABILITY_FLASH_FIRE},
         #endif
@@ -4142,7 +4142,7 @@ const struct BaseStats gBaseStats[] =
         #ifdef REBALANCED_VERSION
             .type1 = TYPE_FIRE,
             .type2 = TYPE_GROUND,
-            .abilities = {ABILITY_BLAZE, ABILITY_SAND_RUSH, ABILITY_FLASH_FIRE},
+            .abilities = {ABILITY_FUR_COAT, ABILITY_SAND_RUSH, ABILITY_FLASH_FIRE},
         #else
             .type1 = TYPE_FIRE,
             .type2 = TYPE_FIRE,
