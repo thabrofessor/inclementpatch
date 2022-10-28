@@ -430,7 +430,7 @@ const struct BaseStats gBaseStats[] =
         #ifdef REBALANCED_VERSION
             .baseAttack    = 35,
             .baseSpAttack  = 45,
-            .abilities = {ABILITY_MOODY, ABILITY_TANGLED_FEET, ABILITY_BIG_PECKS},
+            .abilities = {ABILITY_MOODY, ABILITY_NO_GUARD, ABILITY_BIG_PECKS},
         #else
             .baseAttack    = 45,
             .baseSpAttack  = 35,
@@ -460,7 +460,7 @@ const struct BaseStats gBaseStats[] =
         #ifdef REBALANCED_VERSION
             .baseAttack    = 50,
             .baseSpAttack  = 60,
-            .abilities = {ABILITY_MOODY, ABILITY_TANGLED_FEET, ABILITY_BIG_PECKS},
+            .abilities = {ABILITY_MOODY, ABILITY_NO_GUARD, ABILITY_BIG_PECKS},
         #else
             .baseAttack    = 60,
             .baseSpAttack  = 50,
@@ -490,7 +490,7 @@ const struct BaseStats gBaseStats[] =
         #ifdef REBALANCED_VERSION
             .baseAttack    = 70,
             .baseSpAttack  = 95,
-            .abilities = {ABILITY_MOODY, ABILITY_TANGLED_FEET, ABILITY_BIG_PECKS},
+            .abilities = {ABILITY_MOODY, ABILITY_NO_GUARD, ABILITY_BIG_PECKS},
         #else
             .baseAttack    = 80,
             .baseSpAttack  = 70,
