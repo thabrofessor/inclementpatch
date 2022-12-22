@@ -36367,7 +36367,7 @@ static const struct TrainerMonItemCustomMoves sParty_BLUE_4[] = {
      {
     .lvl = -2,
     .species = SPECIES_PIKACHU_HOENN_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_AURORA_BEAM, MOVE_VOLT_SWITCH, MOVE_GRASS_KNOT, MOVE_THUNDERBOLT
     },  
