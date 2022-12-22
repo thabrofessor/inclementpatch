@@ -36415,7 +36415,7 @@ static const struct TrainerMonItemCustomMoves sParty_BLUE_5[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_HOENN_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_AURORA_BEAM, MOVE_VOLT_SWITCH, MOVE_GRASS_KNOT, MOVE_THUNDERBOLT
     },
@@ -36463,7 +36463,7 @@ static const struct TrainerMonItemCustomMoves sParty_BLUE_6[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_HOENN_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_AURORA_BEAM, MOVE_VOLT_SWITCH, MOVE_GRASS_KNOT, MOVE_THUNDERBOLT
     },
@@ -36511,7 +36511,7 @@ static const struct TrainerMonItemCustomMoves sParty_BLUE_7[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_HOENN_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_AURORA_BEAM, MOVE_VOLT_SWITCH, MOVE_GRASS_KNOT, MOVE_THUNDERBOLT
     },
@@ -36560,7 +36560,7 @@ static const struct TrainerMonItemCustomMoves sParty_BLUE_8[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_HOENN_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_AURORA_BEAM, MOVE_VOLT_SWITCH, MOVE_GRASS_KNOT, MOVE_THUNDERBOLT
     },
@@ -36609,7 +36609,7 @@ static const struct TrainerMonItemCustomMoves sParty_BLUE_9[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_HOENN_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_AURORA_BEAM, MOVE_VOLT_SWITCH, MOVE_GRASS_KNOT, MOVE_THUNDERBOLT
     },
@@ -37547,7 +37547,7 @@ static const struct TrainerMonItemCustomMoves sParty_SHADY_3[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_HOENN_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_AURORA_BEAM, MOVE_VOLT_SWITCH, MOVE_GRASS_KNOT, MOVE_THUNDER
     },
@@ -37595,7 +37595,7 @@ static const struct TrainerMonItemCustomMoves sParty_SHADY_4[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_HOENN_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_AURORA_BEAM, MOVE_VOLT_SWITCH, MOVE_GRASS_KNOT, MOVE_THUNDER
     },
@@ -37643,7 +37643,7 @@ static const struct TrainerMonItemCustomMoves sParty_SHADY_5[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_HOENN_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_AURORA_BEAM, MOVE_VOLT_SWITCH, MOVE_GRASS_KNOT, MOVE_THUNDER
     },
@@ -37691,7 +37691,7 @@ static const struct TrainerMonItemCustomMoves sParty_SHADY_6[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_HOENN_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_AURORA_BEAM, MOVE_VOLT_SWITCH, MOVE_GRASS_KNOT, MOVE_THUNDER
     },
@@ -37738,7 +37738,7 @@ static const struct TrainerMonItemCustomMoves sParty_SHADY_7[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_HOENN_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_AURORA_BEAM, MOVE_VOLT_SWITCH, MOVE_GRASS_KNOT, MOVE_THUNDER
     },
@@ -37792,7 +37792,7 @@ static const struct TrainerMonItemCustomMoves sParty_SHADY_8[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_HOENN_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_AURORA_BEAM, MOVE_VOLT_SWITCH, MOVE_GRASS_KNOT, MOVE_THUNDER
     },
@@ -37839,7 +37839,7 @@ static const struct TrainerMonItemCustomMoves sParty_SHADY_9[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_HOENN_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_AURORA_BEAM, MOVE_VOLT_SWITCH, MOVE_GRASS_KNOT, MOVE_THUNDER
     },
@@ -49629,7 +49629,7 @@ static const struct TrainerMonItemCustomMoves sParty_SILVER_3[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_SINNOH_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_IRON_TAIL, MOVE_DYNAMIC_PUNCH, MOVE_WILD_CHARGE
     },
@@ -49676,7 +49676,7 @@ static const struct TrainerMonItemCustomMoves sParty_SILVER_4[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_SINNOH_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_IRON_TAIL, MOVE_DYNAMIC_PUNCH, MOVE_WILD_CHARGE
     },
@@ -49724,7 +49724,7 @@ static const struct TrainerMonItemCustomMoves sParty_SILVER_5[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_SINNOH_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_IRON_TAIL, MOVE_DYNAMIC_PUNCH, MOVE_WILD_CHARGE
     },
@@ -49772,7 +49772,7 @@ static const struct TrainerMonItemCustomMoves sParty_SILVER_6[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_SINNOH_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_IRON_TAIL, MOVE_DYNAMIC_PUNCH, MOVE_WILD_CHARGE
     },
@@ -49819,7 +49819,7 @@ static const struct TrainerMonItemCustomMoves sParty_SILVER_7[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_SINNOH_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_IRON_TAIL, MOVE_DYNAMIC_PUNCH, MOVE_WILD_CHARGE
     },
@@ -49867,7 +49867,7 @@ static const struct TrainerMonItemCustomMoves sParty_SILVER_8[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_SINNOH_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_IRON_TAIL, MOVE_DYNAMIC_PUNCH, MOVE_WILD_CHARGE
     },
@@ -49915,7 +49915,7 @@ static const struct TrainerMonItemCustomMoves sParty_SILVER_9[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_SINNOH_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_IRON_TAIL, MOVE_DYNAMIC_PUNCH, MOVE_WILD_CHARGE
     },
@@ -50905,7 +50905,7 @@ static const struct TrainerMonItemCustomMoves sParty_GREEN_3[] = {
      {
     .lvl = -2,
     .species = SPECIES_PIKACHU_UNOVA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_KNOCK_OFF, MOVE_STRENGTH, MOVE_FAKE_OUT, MOVE_WILD_CHARGE
     },   
@@ -50954,7 +50954,7 @@ static const struct TrainerMonItemCustomMoves sParty_GREEN_4[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_UNOVA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_KNOCK_OFF, MOVE_STRENGTH, MOVE_FAKE_OUT, MOVE_WILD_CHARGE
     },
@@ -51003,7 +51003,7 @@ static const struct TrainerMonItemCustomMoves sParty_GREEN_5[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_UNOVA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_KNOCK_OFF, MOVE_STRENGTH, MOVE_FAKE_OUT, MOVE_WILD_CHARGE
     },
@@ -51053,7 +51053,7 @@ static const struct TrainerMonItemCustomMoves sParty_GREEN_6[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_UNOVA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_KNOCK_OFF, MOVE_STRENGTH, MOVE_FAKE_OUT, MOVE_WILD_CHARGE
     },
@@ -51101,7 +51101,7 @@ static const struct TrainerMonItemCustomMoves sParty_GREEN_7[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_UNOVA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_KNOCK_OFF, MOVE_STRENGTH, MOVE_FAKE_OUT, MOVE_WILD_CHARGE
     },
@@ -51149,7 +51149,7 @@ static const struct TrainerMonItemCustomMoves sParty_GREEN_8[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_UNOVA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_KNOCK_OFF, MOVE_STRENGTH, MOVE_FAKE_OUT, MOVE_WILD_CHARGE
     },
@@ -51197,7 +51197,7 @@ static const struct TrainerMonItemCustomMoves sParty_GREEN_9[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_UNOVA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_KNOCK_OFF, MOVE_STRENGTH, MOVE_FAKE_OUT, MOVE_WILD_CHARGE
     },
@@ -52632,7 +52632,7 @@ static const struct TrainerMonItemCustomMoves sParty_RUBY_3[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_UNOVA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_KNOCK_OFF, MOVE_STRENGTH, MOVE_FAKE_OUT, MOVE_WILD_CHARGE
     },
@@ -52680,7 +52680,7 @@ static const struct TrainerMonItemCustomMoves sParty_RUBY_4[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_UNOVA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_KNOCK_OFF, MOVE_STRENGTH, MOVE_FAKE_OUT, MOVE_WILD_CHARGE
     },
@@ -52728,7 +52728,7 @@ static const struct TrainerMonItemCustomMoves sParty_RUBY_5[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_UNOVA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_KNOCK_OFF, MOVE_STRENGTH, MOVE_FAKE_OUT, MOVE_WILD_CHARGE
     },
@@ -52776,7 +52776,7 @@ static const struct TrainerMonItemCustomMoves sParty_RUBY_6[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_UNOVA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_KNOCK_OFF, MOVE_STRENGTH, MOVE_FAKE_OUT, MOVE_WILD_CHARGE
     },
@@ -52824,7 +52824,7 @@ static const struct TrainerMonItemCustomMoves sParty_RUBY_7[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_UNOVA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_KNOCK_OFF, MOVE_STRENGTH, MOVE_FAKE_OUT, MOVE_WILD_CHARGE
     },
@@ -52872,7 +52872,7 @@ static const struct TrainerMonItemCustomMoves sParty_RUBY_8[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_UNOVA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_KNOCK_OFF, MOVE_STRENGTH, MOVE_FAKE_OUT, MOVE_WILD_CHARGE
     },
@@ -52920,7 +52920,7 @@ static const struct TrainerMonItemCustomMoves sParty_RUBY_9[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_UNOVA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_KNOCK_OFF, MOVE_STRENGTH, MOVE_FAKE_OUT, MOVE_WILD_CHARGE
     },
@@ -59609,7 +59609,7 @@ static const struct TrainerMonItemCustomMoves sParty_HOOPSTAR_3[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_WORLD_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_ROCK_SMASH, MOVE_THUNDERBOLT, MOVE_SIGNAL_BEAM, MOVE_BODY_SLAM
     },
@@ -59657,7 +59657,7 @@ static const struct TrainerMonItemCustomMoves sParty_HOOPSTAR_4[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_WORLD_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_ROCK_SMASH, MOVE_THUNDER, MOVE_SIGNAL_BEAM, MOVE_BODY_SLAM
     },
@@ -59705,7 +59705,7 @@ static const struct TrainerMonItemCustomMoves sParty_HOOPSTAR_5[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_WORLD_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_ROCK_SMASH, MOVE_THUNDER, MOVE_SIGNAL_BEAM, MOVE_BODY_SLAM
     },
@@ -59754,7 +59754,7 @@ static const struct TrainerMonItemCustomMoves sParty_HOOPSTAR_6[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_WORLD_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_ROCK_SMASH, MOVE_THUNDER, MOVE_SIGNAL_BEAM, MOVE_BODY_SLAM
     },
@@ -59787,7 +59787,7 @@ static const struct TrainerMonItemCustomMoves sParty_HOOPSTAR_7[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_WORLD_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_ROCK_SMASH, MOVE_THUNDER, MOVE_SIGNAL_BEAM, MOVE_BODY_SLAM
     },
@@ -59834,7 +59834,7 @@ static const struct TrainerMonItemCustomMoves sParty_HOOPSTAR_8[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_WORLD_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_ROCK_SMASH, MOVE_THUNDER, MOVE_SIGNAL_BEAM, MOVE_BODY_SLAM
     },
@@ -59881,7 +59881,7 @@ static const struct TrainerMonItemCustomMoves sParty_HOOPSTAR_9[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_WORLD_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_ROCK_SMASH, MOVE_THUNDER, MOVE_SIGNAL_BEAM, MOVE_BODY_SLAM
     },
@@ -60038,7 +60038,7 @@ static const struct TrainerMonItemCustomMoves sParty_BOARDER_3[] = {
        {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ALOLA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_VOLT_SWITCH, MOVE_BRICK_BREAK, MOVE_WILD_CHARGE
     }, 
@@ -60086,7 +60086,7 @@ static const struct TrainerMonItemCustomMoves sParty_BOARDER_4[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ALOLA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_VOLT_SWITCH, MOVE_BRICK_BREAK, MOVE_WILD_CHARGE
     },
@@ -60134,7 +60134,7 @@ static const struct TrainerMonItemCustomMoves sParty_BOARDER_5[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ALOLA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_VOLT_SWITCH, MOVE_BRICK_BREAK, MOVE_WILD_CHARGE
     },
@@ -60182,7 +60182,7 @@ static const struct TrainerMonItemCustomMoves sParty_BOARDER_6[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ALOLA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_VOLT_SWITCH, MOVE_BRICK_BREAK, MOVE_WILD_CHARGE
     },
@@ -60223,7 +60223,7 @@ static const struct TrainerMonItemCustomMoves sParty_BOARDER_7[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ALOLA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_VOLT_SWITCH, MOVE_BRICK_BREAK, MOVE_WILD_CHARGE
     },
@@ -60272,7 +60272,7 @@ static const struct TrainerMonItemCustomMoves sParty_BOARDER_8[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ALOLA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_VOLT_SWITCH, MOVE_BRICK_BREAK, MOVE_WILD_CHARGE
     },
@@ -60320,7 +60320,7 @@ static const struct TrainerMonItemCustomMoves sParty_BOARDER_9[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ALOLA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_VOLT_SWITCH, MOVE_BRICK_BREAK, MOVE_WILD_CHARGE
     },
@@ -73985,7 +73985,7 @@ static const struct TrainerMonItemCustomMoves sParty_BILL_3[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_WORLD_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_ROCK_SMASH, MOVE_THUNDERBOLT, MOVE_SIGNAL_BEAM, MOVE_BODY_SLAM
     },
@@ -74031,7 +74031,7 @@ static const struct TrainerMonItemCustomMoves sParty_BILL_4[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_WORLD_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_ROCK_SMASH, MOVE_THUNDERBOLT, MOVE_SIGNAL_BEAM, MOVE_BODY_SLAM
     },
@@ -74078,7 +74078,7 @@ static const struct TrainerMonItemCustomMoves sParty_BILL_5[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_WORLD_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_ROCK_SMASH, MOVE_THUNDERBOLT, MOVE_SIGNAL_BEAM, MOVE_BODY_SLAM
     },
@@ -74126,7 +74126,7 @@ static const struct TrainerMonItemCustomMoves sParty_BILL_6[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_WORLD_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_ROCK_SMASH, MOVE_THUNDERBOLT, MOVE_SIGNAL_BEAM, MOVE_BODY_SLAM
     },
@@ -74174,7 +74174,7 @@ static const struct TrainerMonItemCustomMoves sParty_BILL_7[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_WORLD_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_ROCK_SMASH, MOVE_THUNDERBOLT, MOVE_SIGNAL_BEAM, MOVE_BODY_SLAM
     },
@@ -74221,7 +74221,7 @@ static const struct TrainerMonItemCustomMoves sParty_BILL_8[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_WORLD_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_ROCK_SMASH, MOVE_THUNDERBOLT, MOVE_SIGNAL_BEAM, MOVE_BODY_SLAM
     },
@@ -74268,7 +74268,7 @@ static const struct TrainerMonItemCustomMoves sParty_BILL_9[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_WORLD_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_ROCK_SMASH, MOVE_THUNDERBOLT, MOVE_SIGNAL_BEAM, MOVE_BODY_SLAM
     },
@@ -76990,7 +76990,7 @@ static const struct TrainerMonItemCustomMoves sParty_BURGLAR_3[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_MUD_SLAP, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -77038,7 +77038,7 @@ static const struct TrainerMonItemCustomMoves sParty_BURGLAR_4[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_MUD_SLAP, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -77087,7 +77087,7 @@ static const struct TrainerMonItemCustomMoves sParty_BURGLAR_5[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_MUD_SLAP, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -77137,7 +77137,7 @@ static const struct TrainerMonItemCustomMoves sParty_BURGLAR_6[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_MUD_SLAP, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -77185,7 +77185,7 @@ static const struct TrainerMonItemCustomMoves sParty_BURGLAR_7[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_MUD_SLAP, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -77232,7 +77232,7 @@ static const struct TrainerMonItemCustomMoves sParty_BURGLAR_8[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_MUD_SLAP, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -77279,7 +77279,7 @@ static const struct TrainerMonItemCustomMoves sParty_BURGLAR_9[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_MUD_SLAP, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -77867,7 +77867,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_3M[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_MUD_SLAP, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -77916,7 +77916,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_4M[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_MUD_SLAP, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -77965,7 +77965,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_5M[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_MUD_SLAP, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -78014,7 +78014,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_6M[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_MUD_SLAP, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -78062,7 +78062,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_7M[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_MUD_SLAP, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -78110,7 +78110,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_8M[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_MUD_SLAP, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -78158,7 +78158,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_9M[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_MUD_SLAP, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -78305,7 +78305,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_3T[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_MUD_SLAP, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -78354,7 +78354,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_4T[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_MUD_SLAP, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -78403,7 +78403,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_5T[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_MUD_SLAP, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -78452,7 +78452,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_6T[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_MUD_SLAP, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -78501,7 +78501,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_7T[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_MUD_SLAP, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -78550,7 +78550,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_8T[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_MUD_SLAP, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -78599,7 +78599,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_9T[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_MUD_SLAP, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -78746,7 +78746,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_3B[] = {
     {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_MUD_SLAP, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -78795,7 +78795,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_4B[] = {
     {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_THUNDER, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -78844,7 +78844,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_5B[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_THUNDER, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -78893,7 +78893,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_6B[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_THUNDER, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -78942,7 +78942,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_7B[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_THUNDER, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -78991,7 +78991,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_8B[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_THUNDER, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -79040,7 +79040,7 @@ static const struct TrainerMonItemCustomMoves sParty_ROCKSTAR_9B[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ROCK_STAR,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_IRON_TAIL, MOVE_THUNDER, MOVE_WILD_CHARGE, MOVE_BRICK_BREAK
     },
@@ -80059,7 +80059,7 @@ static const struct TrainerMonItemCustomMoves sParty_CRUSH_3[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ALOLA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_VOLT_SWITCH, MOVE_BRICK_BREAK, MOVE_WILD_CHARGE
     },
@@ -80107,7 +80107,7 @@ static const struct TrainerMonItemCustomMoves sParty_CRUSH_4[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ALOLA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_VOLT_SWITCH, MOVE_BRICK_BREAK, MOVE_WILD_CHARGE
     },
@@ -80155,7 +80155,7 @@ static const struct TrainerMonItemCustomMoves sParty_CRUSH_5[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ALOLA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_VOLT_SWITCH, MOVE_BRICK_BREAK, MOVE_WILD_CHARGE
     },
@@ -80203,7 +80203,7 @@ static const struct TrainerMonItemCustomMoves sParty_CRUSH_6[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ALOLA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_VOLT_SWITCH, MOVE_BRICK_BREAK, MOVE_WILD_CHARGE
     },
@@ -80251,7 +80251,7 @@ static const struct TrainerMonItemCustomMoves sParty_CRUSH_7[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ALOLA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_VOLT_SWITCH, MOVE_BRICK_BREAK, MOVE_WILD_CHARGE
     },
@@ -80299,7 +80299,7 @@ static const struct TrainerMonItemCustomMoves sParty_CRUSH_8[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ALOLA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_VOLT_SWITCH, MOVE_BRICK_BREAK, MOVE_WILD_CHARGE
     },
@@ -80347,7 +80347,7 @@ static const struct TrainerMonItemCustomMoves sParty_CRUSH_9[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_ALOLA_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_VOLT_SWITCH, MOVE_BRICK_BREAK, MOVE_WILD_CHARGE
     },
@@ -80916,7 +80916,7 @@ static const struct TrainerMonItemCustomMoves sParty_COLE_3[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_SINNOH_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_IRON_TAIL, MOVE_DYNAMIC_PUNCH, MOVE_WILD_CHARGE
     },
@@ -80965,7 +80965,7 @@ static const struct TrainerMonItemCustomMoves sParty_COLE_4[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_SINNOH_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_IRON_TAIL, MOVE_DYNAMIC_PUNCH, MOVE_WILD_CHARGE
     },
@@ -81014,7 +81014,7 @@ static const struct TrainerMonItemCustomMoves sParty_COLE_5[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_SINNOH_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_IRON_TAIL, MOVE_DYNAMIC_PUNCH, MOVE_WILD_CHARGE
     },
@@ -81064,7 +81064,7 @@ static const struct TrainerMonItemCustomMoves sParty_COLE_6[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_SINNOH_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_IRON_TAIL, MOVE_DYNAMIC_PUNCH, MOVE_WILD_CHARGE
     },
@@ -81112,7 +81112,7 @@ static const struct TrainerMonItemCustomMoves sParty_COLE_7[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_SINNOH_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_IRON_TAIL, MOVE_DYNAMIC_PUNCH, MOVE_WILD_CHARGE
     },
@@ -81160,7 +81160,7 @@ static const struct TrainerMonItemCustomMoves sParty_COLE_8[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_SINNOH_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_IRON_TAIL, MOVE_DYNAMIC_PUNCH, MOVE_WILD_CHARGE
     },
@@ -81209,7 +81209,7 @@ static const struct TrainerMonItemCustomMoves sParty_COLE_9[] = {
         {
     .lvl = -2,
     .species = SPECIES_PIKACHU_SINNOH_CAP,
-    .heldItem = ITEM_LIGHT_BALL
+    .heldItem = ITEM_LIGHT_BALL,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_PLAY_ROUGH, MOVE_IRON_TAIL, MOVE_DYNAMIC_PUNCH, MOVE_WILD_CHARGE
     },
