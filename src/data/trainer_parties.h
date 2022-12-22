@@ -41312,7 +41312,7 @@ static const struct TrainerMonItemCustomMoves sParty_CYRUS_1[] = {
      {
     .lvl = -4,
     .species = SPECIES_NOIBAT,
-    .heldItem = ITEM_BERRY_JUICE
+    .heldItem = ITEM_BERRY_JUICE,
     .spread = SPREAD_31_IV_80_EV,	    
     .moves = MOVE_SUPERSONIC, MOVE_ABSORB, MOVE_GUST, MOVE_BITE
     },     
