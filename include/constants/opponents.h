@@ -2985,12 +2985,33 @@
 #define TRAINER_ROCKSTAR_8B                         2973
 #define TRAINER_ROCKSTAR_9B                         2974
 
+#define TRAINER_KINDLER_1                         2975
+#define TRAINER_KINDLER_2                         2976
+#define TRAINER_KINDLER_3                         2977
+#define TRAINER_KINDLER_4                         2978
+#define TRAINER_KINDLER_5                         2979
+#define TRAINER_KINDLER_6                         2980
+
+#define TRAINER_RANGER8_1                         2981
+#define TRAINER_RANGER8_2                         2982
+#define TRAINER_RANGER8_3                         2983
+#define TRAINER_RANGER8_4                         2984
+#define TRAINER_RANGER8_5                         2985
+#define TRAINER_RANGER8_6                         2986
+
+#define TRAINER_TUBERF_1                         2987
+#define TRAINER_TUBERF_2                         2988
+#define TRAINER_TUBERF_3                         2989
+#define TRAINER_TUBERF_4                         2990
+#define TRAINER_TUBERF_5                         2991
+#define TRAINER_TUBERF_6                         2992
+
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT                      2976
-#define MAX_TRAINERS_COUNT                  2976
+#define TRAINERS_COUNT                      2994
+#define MAX_TRAINERS_COUNT                  2994
 
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H
