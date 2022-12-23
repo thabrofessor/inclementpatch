@@ -8601,7 +8601,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_FAST,
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_WATER_2,
-        .abilities = {ABILITY_WATER_VEIL, ABILITY_OBLIVIOUS, ABILITY_PRESSURE},
+        .abilities = {ABILITY_WATER_VEIL, ABILITY_DRIZZLE, ABILITY_PRESSURE},
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
     },
@@ -17950,7 +17950,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS, ABILITY_HEALER},
+            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_MISTY_SURGE, ABILITY_HEALER},
         #else
             .abilities = {ABILITY_FLOWER_VEIL, ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS},
         #endif
@@ -17978,7 +17978,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS, ABILITY_HEALER},
+            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_MISTY_SURGE, ABILITY_HEALER},
         #else
             .abilities = {ABILITY_FLOWER_VEIL, ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS},
         #endif
@@ -18006,7 +18006,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS, ABILITY_MISTY_SURGE},
+            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_MISTY_SURGE, ABILITY_MISTY_SURGE},
         #else
             .abilities = {ABILITY_FLOWER_VEIL, ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS},
         #endif
@@ -18953,7 +18953,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_GRASS,
         .eggGroup2 = EGG_GROUP_AMORPHOUS,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_NATURAL_CURE, ABILITY_HARVEST, ABILITY_FRISK},
+            .abilities = {ABILITY_NATURAL_CURE, ABILITY_HARVEST, ABILITY_GRASSY_SURGE},
         #else
             .abilities = {ABILITY_NATURAL_CURE, ABILITY_FRISK, ABILITY_HARVEST},
         #endif
@@ -29323,7 +29323,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS, ABILITY_HEALER},
+            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_MISTY_SURGE, ABILITY_HEALER},
         #else
             .abilities = {ABILITY_FLOWER_VEIL, ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS},
         #endif
@@ -29351,7 +29351,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS, ABILITY_HEALER},
+            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_MISTY_SURGE, ABILITY_HEALER},
         #else
             .abilities = {ABILITY_FLOWER_VEIL, ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS},
         #endif
@@ -29379,7 +29379,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS, ABILITY_HEALER},
+            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_MISTY_SURGE, ABILITY_HEALER},
         #else
             .abilities = {ABILITY_FLOWER_VEIL, ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS},
         #endif
@@ -29407,7 +29407,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS, ABILITY_HEALER},
+            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_MISTY_SURGE, ABILITY_HEALER},
         #else
             .abilities = {ABILITY_FLOWER_VEIL, ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS},
         #endif
@@ -29435,7 +29435,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS, ABILITY_HEALER},
+            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_MISTY_SURGE, ABILITY_HEALER},
         #else
             .abilities = {ABILITY_FLOWER_VEIL, ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS},
         #endif
@@ -29463,7 +29463,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS, ABILITY_HEALER},
+            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_MISTY_SURGE, ABILITY_HEALER},
         #else
             .abilities = {ABILITY_FLOWER_VEIL, ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS},
         #endif
@@ -29491,7 +29491,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS, ABILITY_HEALER},
+            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_MISTY_SURGE, ABILITY_HEALER},
         #else
             .abilities = {ABILITY_FLOWER_VEIL, ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS},
         #endif
@@ -29519,7 +29519,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS, ABILITY_HEALER},
+            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_MISTY_SURGE, ABILITY_HEALER},
         #else
             .abilities = {ABILITY_FLOWER_VEIL, ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS},
         #endif
@@ -29575,7 +29575,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS, ABILITY_MISTY_SURGE},
+            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_MISTY_SURGE, ABILITY_MISTY_SURGE},
         #else
             .abilities = {ABILITY_FLOWER_VEIL, ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS},
         #endif
@@ -29603,7 +29603,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS, ABILITY_MISTY_SURGE},
+            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_MISTY_SURGE, ABILITY_MISTY_SURGE},
         #else
             .abilities = {ABILITY_FLOWER_VEIL, ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS},
         #endif
@@ -29631,7 +29631,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS, ABILITY_MISTY_SURGE},
+            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_MISTY_SURGE, ABILITY_MISTY_SURGE},
         #else
             .abilities = {ABILITY_FLOWER_VEIL, ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS},
         #endif
@@ -29659,7 +29659,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS, ABILITY_MISTY_SURGE},
+            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_MISTY_SURGE, ABILITY_MISTY_SURGE},
         #else
             .abilities = {ABILITY_FLOWER_VEIL, ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS},
         #endif
@@ -29673,7 +29673,7 @@ const struct BaseStats gBaseStats[] =
         .baseAttack    = 80,
         .baseDefense   = 60,
         .baseSpeed     = 102,
-        .baseSpAttack  = 65,
+        .baseSpAttack  = 85,
         .baseSpDefense = 90,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_NORMAL,
@@ -29694,7 +29694,7 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_FURFROU_STAR_TRIM] =
     {
         .baseHP        = 75,
-        .baseAttack    = 80,
+        .baseAttack    = 100,
         .baseDefense   = 60,
         .baseSpeed     = 102,
         .baseSpAttack  = 65,
@@ -29719,7 +29719,7 @@ const struct BaseStats gBaseStats[] =
     {
         .baseHP        = 75,
         .baseAttack    = 80,
-        .baseDefense   = 60,
+        .baseDefense   = 80,
         .baseSpeed     = 102,
         .baseSpAttack  = 65,
         .baseSpDefense = 90,
@@ -29745,7 +29745,7 @@ const struct BaseStats gBaseStats[] =
         .baseAttack    = 80,
         .baseDefense   = 60,
         .baseSpeed     = 102,
-        .baseSpAttack  = 65,
+        .baseSpAttack  = 85,
         .baseSpDefense = 90,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_NORMAL,
@@ -29769,7 +29769,7 @@ const struct BaseStats gBaseStats[] =
         .baseAttack    = 80,
         .baseDefense   = 60,
         .baseSpeed     = 102,
-        .baseSpAttack  = 65,
+        .baseSpAttack  = 85,
         .baseSpDefense = 90,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_NORMAL,
@@ -29793,7 +29793,7 @@ const struct BaseStats gBaseStats[] =
         .baseAttack    = 80,
         .baseDefense   = 60,
         .baseSpeed     = 102,
-        .baseSpAttack  = 65,
+        .baseSpAttack  = 85,
         .baseSpDefense = 90,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_NORMAL,
@@ -29813,7 +29813,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_FURFROU_LA_REINE_TRIM] =
     {
-        .baseHP        = 75,
+        .baseHP        = 95,
         .baseAttack    = 80,
         .baseDefense   = 60,
         .baseSpeed     = 102,
@@ -29842,7 +29842,7 @@ const struct BaseStats gBaseStats[] =
         .baseDefense   = 60,
         .baseSpeed     = 102,
         .baseSpAttack  = 65,
-        .baseSpDefense = 90,
+        .baseSpDefense = 110,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_NORMAL,
         .catchRate = 160,
@@ -29864,7 +29864,7 @@ const struct BaseStats gBaseStats[] =
         .baseHP        = 75,
         .baseAttack    = 80,
         .baseDefense   = 60,
-        .baseSpeed     = 102,
+        .baseSpeed     = 122,
         .baseSpAttack  = 65,
         .baseSpDefense = 90,
         .type1 = TYPE_NORMAL,
