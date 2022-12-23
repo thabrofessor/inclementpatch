@@ -49995,7 +49995,6 @@ static const struct TrainerMonItemCustomMoves sParty_LUSAMINE_1[] = {
     .species = SPECIES_SALANDIT,
     .heldItem = ITEM_BERRY_JUICE,
     .spread = SPREAD_HP_GRASS_TIMID,	    
-    .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_DRAGON_RAGE, MOVE_NASTY_PLOT, MOVE_SMOG, MOVE_EMBER
     },  
 };
@@ -50044,7 +50043,6 @@ static const struct TrainerMonItemCustomMoves sParty_LUSAMINE_2[] = {
     .species = SPECIES_SALANDIT,
     .heldItem = ITEM_BERRY_JUICE,
     .spread = SPREAD_HP_GRASS_TIMID,	    
-    .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_DRAGON_RAGE, MOVE_NASTY_PLOT, MOVE_SMOG, MOVE_FLAME_BURST
     },
 };
