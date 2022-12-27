@@ -4835,3 +4835,17 @@ AshenWoods_Text_ElmerPostBattle:
 	.string "to battling.\p"
 	.string "However, having a strong team makes\n"
 	.string "catching Pokémon much easier.$"
+
+Route102_Text_GENIntro:
+	.string ".... .... ....\n"
+	.string ".... .... ....\p"
+	.string ".... .... ....$"
+
+Route102_Text_GENDefeat:
+	.string ".... .... ....$"
+
+Route102_Text_GENPostBattle:
+	.string ".... .... ....\n"
+	.string ".... .... ....\p"
+	.string ".... .... ....\n"
+	.string ".... .... ....$"

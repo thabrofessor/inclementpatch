@@ -86158,7 +86158,7 @@ static const struct TrainerMonItemCustomMoves sParty_SWIMMERF_4[] = {
     .heldItem = ITEM_WATER_GEM,
     .ability = 2, // HYDRATION
     .spread = SPREAD_31_IV_SPATK_SPEED_TIMID,
-    .moves = MOVE_HYDRO_PUMP, MOVE_HURRICANE, MOVE_ICE_BEAM, MOVE_QUIVER_DANCE
+    .moves = MOVE_HYDRO_PUMP, MOVE_HURRICANE, MOVE_ICE_BEAM, MOVE_HIGH_HORSEPOWER
     },
 };
 
