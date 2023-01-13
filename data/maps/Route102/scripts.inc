@@ -121,6 +121,6 @@ Route102_EventScript_Bro_1:: @ 81EC1B3
 	end	
 	
 Route102_EventScript_Cole_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_Cole_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	trainerbattle_single TRAINER_COLE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
