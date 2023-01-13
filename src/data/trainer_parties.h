@@ -118694,7 +118694,7 @@ static const struct TrainerMonItemCustomMoves sParty_AQUA_13[] = {
     .species = SPECIES_TENTACOOL,
     .heldItem = ITEM_BRIGHT_POWDER,	    
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_BUBBLE, MOVE_ACID, MOVE_CONSTRICT, TOXIC_SPIKES
+    .moves = MOVE_BUBBLE, MOVE_ACID, MOVE_CONSTRICT, MOVE_TOXIC_SPIKES
     },
         {
     .lvl = -4,
