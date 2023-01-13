@@ -118,7 +118,6 @@ Route102_Text_RouteSignPetalburg: @ 81EC373
 Route102_EventScript_Bro_1:: @ 81EC1B3
 	trainerbattle_single TRAINER_BRO_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
-	end	
 	
 Route102_EventScript_Cole_1:: @ 81EC1B3
 	trainerbattle_single TRAINER_COLE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
