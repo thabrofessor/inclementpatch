@@ -187,8 +187,8 @@ Route102_EventScript_DORKLY_1:: @ 81EC1B3
 	trainerbattle_single TRAINER_DORKLY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 		
-Route102_EventScript_AROMALADY_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_AROMALADY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+Route102_EventScript_ARROMALADY_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_ARROMALADY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 		
 Route102_EventScript_SILVER_1:: @ 81EC1B3
