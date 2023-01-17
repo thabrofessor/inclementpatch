@@ -399,6 +399,7 @@ const u32 gObjectEventPic_Diancie[] = INCBIN_U32("graphics/object_events/pics/po
 const u32 gObjectEventPic_Chansey[] = INCBIN_U32("graphics/object_events/pics/pokemon/chansey.4bpp");
 // People
 const u32 gObjectEventPic_Cynthia[] = INCBIN_U32("graphics/object_events/pics/people/cynthia.4bpp");
+const u32 gObjectEventPic_N[] = INCBIN_U32("graphics/object_events/pics/people/n.4bpp");
 // New pals
 const u16 gObjectEventPaletteCelebi[] = INCBIN_U16("graphics/object_events/palettes/celebi.gbapal");
 const u16 gObjectEventPaletteJirachi[] = INCBIN_U16("graphics/object_events/palettes/jirachi.gbapal");
