@@ -406,3 +406,4 @@ const u16 gObjectEventPaletteJirachi[] = INCBIN_U16("graphics/object_events/pale
 const u16 gObjectEventPaletteHeatran[] = INCBIN_U16("graphics/object_events/palettes/heatran.gbapal");
 const u16 gObjectEventPaletteRegigigas[] = INCBIN_U16("graphics/object_events/palettes/regigigas.gbapal");
 const u16 gObjectEventPaletteCynthia[] = INCBIN_U16("graphics/object_events/palettes/cynthia.gbapal");
+const u16 gObjectEventPaletteN[] = INCBIN_U16("graphics/object_events/palettes/n.gbapal");
