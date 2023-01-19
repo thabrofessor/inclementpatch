@@ -869,6 +869,11 @@ Route104_EventScript_Billy:: @ 81ED376
 	trainerbattle_single TRAINER_BILLY, Route104_Text_BillyIntro, Route104_Text_BillyDefeat
 	msgbox Route104_Text_BillyPostBattle, MSGBOX_AUTOCLOSE
 	end
+	
+Route104_EventScript_COOLT7_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT7_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
 
 Route104_EventScript_Haley:: @ 81ED38D
 	trainerbattle_single TRAINER_HALEY_1, Route104_Text_HaleyIntro, Route104_Text_HaleyDefeat, Route104_EventScript_TryRegisterHaleyAfterBattle
