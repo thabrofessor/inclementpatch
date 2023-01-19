@@ -781,3 +781,8 @@ PetalburgCity_Text_ImLookingForTalentedTrainers: @ 81DCC09
 	.string "I'm roaming the land in search of\n"
 	.string "talented Trainers.\p"
 	.string "I'm sorry to have taken your time.$"
+
+PetalburgCity_EventScript_BLUE_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_BLUE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
