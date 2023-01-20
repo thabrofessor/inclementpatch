@@ -54,3 +54,7 @@ PetalburgCity_Mart_Text_TakeSomeAntidotesWithYou: @ 8207EB0
 	.string "Pokémon, it will lose HP until it faints.\l"
 	.string "Take some Antidotes with you.$"
 
+PetalburgCity_Mart_EventScript_ARCHIE_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_ARCHIE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

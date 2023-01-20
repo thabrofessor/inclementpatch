@@ -786,3 +786,48 @@ PetalburgCity_EventScript_BLUE_1:: @ 81EC1B3
 	trainerbattle_single TRAINER_BLUE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+PetalburgCity_EventScript_FUJI_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_FUJI_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgCity_EventScript_GUZMA_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_GUZMA_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgCity_EventScript_LANCE_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_LANCE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgCity_EventScript_WATSON_1A:: @ 81EC1B3
+	trainerbattle_single TRAINER_WATSON_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgCity_EventScript_STEVEN_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_STEVEN_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgCity_EventScript_LORELIE_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_LORELIE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgCity_EventScript_KAREN_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_KAREN_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgCity_EventScript_ROCKSTAR_1M:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROCKSTAR_1M, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgCity_EventScript_PEPPERMINT_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_PEPPERMINT_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
