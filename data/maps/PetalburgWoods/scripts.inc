@@ -539,13 +539,13 @@ PetalburgWoods_EventScript_COURTNEY_1:: @ 81EC1B3
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-PetalburgWoods_EventScript_COURTNEY_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_SRJR_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+PetalburgWoods_EventScript_COURTNEY_1A:: @ 81EC1B3
+	trainerbattle_single TRAINER_COURTNEY_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-PetalburgWoods_EventScript_MATT_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_MATT_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+PetalburgWoods_EventScript_MATT_1A:: @ 81EC1B3
+	trainerbattle_single TRAINER_MATT_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -559,8 +559,8 @@ PetalburgWoods_EventScript_MORTY_1:: @ 81EC1B3
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-PetalburgWoods_EventScript_SIDNEY_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_SIDNEY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+PetalburgWoods_EventScript_SIDNEY_1A:: @ 81EC1B3
+	trainerbattle_single TRAINER_SIDNEY_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
