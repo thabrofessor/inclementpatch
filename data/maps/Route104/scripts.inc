@@ -1195,3 +1195,203 @@ Route104_Text_BrendanPostBattle: @ 81EE120
 	.string "making Pokémon battle.\p"
 	.string "Like Mr. Briney, it's important to\n"
 	.string "become friends with your Pokémon.$"
+
+Route104_EventScript_COOLT9_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT9_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_SAGE_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_SAGE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_RANGER2_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_RANGER2_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_GOLD_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_GOLD_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_MAY_1A:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAY_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_WHITNEY_1A:: @ 81EC1B3
+	trainerbattle_single TRAINER_WHITNEY_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_FISHERMAN_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_FISHERMAN_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_TUBERF_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_TUBERF_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_SWIMMINGTRIM_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_SWIMMINGTRIM_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_SWIMMINGTRIF_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_SWIMMINGTRIF_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_YELLOW_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_YELLOW_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_POKEMONBREEDERM_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_POKEMONBREEDERM_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_SAILOR_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_SAILOR_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_FALKNER_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_FALKNER_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_THORTON_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_THORTON_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_BRAWLY_1A:: @ 81EC1B3
+	trainerbattle_single TRAINER_BRAWLY_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_SURGE_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_SURGE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_JASMINE_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_JASMINE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_COOLTRAINERM_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLTRAINERM_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_THYME_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_THYME_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_COOLT11_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT11_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_COOLT5_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT5_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_RANGER4_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_RANGER4_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_RANGER8_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_RANGER8_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_RED_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_RED_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_DRAY_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_DRAY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_CRUSH_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_CRUSH_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_BABE_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_BABE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_SCOTT_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_SCOTT_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_WALLY_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_WALLY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_POKEMONBREEDERF_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_POKEMONBREEDERF_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_SABRINA_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_SABRINA_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_SPENCER_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_SPENCER_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_GENTALMAN3_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_GENTALMAN3_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_DAHLIA_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_DAHLIA_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_CAITLIN_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_CAITLIN_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_ANABEL_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_ANABEL_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_DARACH_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_DARACH_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_SRJR_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_SRJR_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route104_EventScript_COOLTRAINERF_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLTRAINERF_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
