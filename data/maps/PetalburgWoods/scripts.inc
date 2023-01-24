@@ -484,3 +484,112 @@ PetalburgWoods_Text_TrainerTipsPP: @ 822ED07
 	.string "If a Pokémon runs out of PP, it must be\n"
 	.string "taken to a Pokémon Center.$"
 
+PetalburgWoods_EventScript_COOLT10_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT10_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_COOLT6:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT6_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_ROSEMARY_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROSEMARY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_RANGER5_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_RANGER5_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_RANGER7_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_RANGER7_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_SHADY_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_SHADY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_JANINE_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_JANINE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_KOGA_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_KOGA_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_BUGSY_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_BUGSY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_GREEN_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_GREEN_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_COURTNEY_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_SRJR_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_COURTNEY_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_SRJR_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_MATT_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_MATT_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_ERICA_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_ERICA_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_MORTY_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_MORTY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_SIDNEY_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_SIDNEY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_RUNE_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_RUNE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_POKEFANM_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_POKEFANM_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_POKEMANIAK_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_POKEMANIAK_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_GENTLMAN_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_GENTLMAN_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_BEAUTY_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_BEAUTY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_HIKER_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_HIKER_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
