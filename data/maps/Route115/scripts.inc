@@ -151,3 +151,23 @@ Route115_Text_MeteorFallsSign: @ 81F2BE3
 	.string "Meteor Falls\n"
 	.string "FALLARBOR TOWN THROUGH HERE$"
 
+Route115_EventScript_ROXAN_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROXAN_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route115_EventScript_BRANDON_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_BRANDON_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route115_EventScript_LUCY_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_LUCY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route115_EventScript_DRAKE_1A:: @ 81EC1B3
+	trainerbattle_single TRAINER_DRAKE_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+

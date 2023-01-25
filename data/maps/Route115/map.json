@@ -323,6 +323,58 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route115_EventScript_ItemHeracronite",
       "flag": "FLAG_ITEM_ROUTE_115_HERACRONITE"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BRANDON",
+      "x": 20,
+      "y": 69,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "6",
+      "script": "Route115_EventScript_BRANDON_1",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_DRAKE",
+      "x": 9,
+      "y": 71,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "5",
+      "script": "Route115_EventScript_DRAKE_1",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ROXANNE",
+      "x": 14,
+      "y": 68,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "8",
+      "script": "Route115_EventScript_ROXAN_1",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_LUCY",
+      "x": 20,
+      "y": 67,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "8",
+      "script": "Route115_EventScript_LUCY_1",
+      "flag": "0"
     }
   ],
   "warp_events": [
