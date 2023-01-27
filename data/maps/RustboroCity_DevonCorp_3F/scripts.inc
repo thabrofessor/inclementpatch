@@ -308,3 +308,4 @@ RustboroCity_DevonCorp_3F_Text_RareRocksDisplay: @ 8212EE9
 	.string "It's a collection of rare rocks and\n"
 	.string "stones assembled by the President.$"
 
+RustboroCity_PokemonCenter_1F_EventScript_Nurse
