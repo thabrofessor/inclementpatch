@@ -491,3 +491,108 @@ Route116_Text_TrainerTipsBagHasPockets: @ 81F38D4
 	.string "placed in the appropriate Pockets.\p"
 	.string "No Trainer can afford to be without\n"
 	.string "a Bag of their own.$"
+
+Route116_EventScript_COOLT2_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT2_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_COOLT14_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT14_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_CILANTRO_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_CILANTRO_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_RANGER10_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_RANGER10_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_RANGER6_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_RANGER6, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_BRO_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_BRO_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_BOARDER_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_BOARDER_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_HOOPSTAR_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_HOOPSTAR_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_LINEBACKER_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_LINEBACKER_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_ROCKSTAR_1B:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROCKSTAR_1B, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_SHELLY_1A:: @ 81EC1B3
+	trainerbattle_single TRAINER_SHELLY_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_TABITHA_1A:: @ 81EC1B3
+	trainerbattle_single TRAINER_TABITHA_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_CYNTHIA_1A:: @ 81EC1B3
+	trainerbattle_single TRAINER_CYNTHIA_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_CHUCK_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_CHUCK_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_CLAIR_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_CLAIR_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_PRYCE_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_PRYCE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_GENTALMAN4_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_GENTALMAN4_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_PALMER_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_PALMER_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_BATTLEGIRL_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_BATTLEGIRL_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_CYCLINGTRIM_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_CYCLINGTRIM_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_CYCLINGTRIF_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_CYCLINGTRIF_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
