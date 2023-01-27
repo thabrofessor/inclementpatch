@@ -298,3 +298,8 @@ RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext: @ 8212386
 
 RustboroCity_DevonCorp_2F_Text_ThatsNotAFossil:
 	.string "Come now, that's not a fossil!$"
+
+RustboroCity_DevonCorp_2F_EventScript_SAGE_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_SAGE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

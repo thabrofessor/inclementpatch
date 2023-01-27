@@ -307,5 +307,3 @@ RustboroCity_DevonCorp_3F_Text_RepeatAndTimerHugelyPopular: @ 8212E88
 RustboroCity_DevonCorp_3F_Text_RareRocksDisplay: @ 8212EE9
 	.string "It's a collection of rare rocks and\n"
 	.string "stones assembled by the President.$"
-
-RustboroCity_DevonCorp_3F_EventScript_Nurse
