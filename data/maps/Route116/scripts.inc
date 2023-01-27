@@ -513,7 +513,7 @@ Route116_EventScript_RANGER10_1:: @ 81EC1B3
 	end
 
 Route116_EventScript_RANGER6_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_RANGER6, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	trainerbattle_single TRAINER_RANGER6_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
