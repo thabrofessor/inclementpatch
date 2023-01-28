@@ -338,7 +338,7 @@
     },
     {
       "x": 4,
-      "y": 1,
+      "y": 2,
       "elevation": 0,
       "dest_map": "MAP_RUSTURGTUNNEL2",
       "dest_warp_id": 0
