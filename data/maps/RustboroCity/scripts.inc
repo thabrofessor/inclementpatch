@@ -1402,3 +1402,8 @@ RustboroCity_Text_YouCanHave2On2Battle: @ 81E249D
 	.string "they'll both challenge you.\p"
 	.string "Don't you think it'd be cool if you\n"
 	.string "could beat two Trainers by yourself?$"
+
+RustboroCity_EventScript_JENNY_1A:: @ 81EC1B3
+	trainerbattle_single TRAINER_JENNY_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
