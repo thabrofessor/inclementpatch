@@ -3,7 +3,7 @@
   "name": "RUSTURFTUNNEL2",
   "layout": "LAYOUT_RUSTURFTUNNEL2",
   "music": "MUS_ABANDONED_SHIP",
-  "region_map_section": "MAPSEC_RUSTURFTUNNEL2",
+  "region_map_section": "MAPSEC_RUSTURF_TUNNEL2",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_UNDERGROUND",
