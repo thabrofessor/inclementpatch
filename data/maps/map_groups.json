@@ -450,14 +450,12 @@
     "CaveOfOrigin_DianciesRoom",
     "MeteorFalls_JirachisRoom",
     "AlteringCave_1F",
-    "AlteringCave_B1F",
-    "RUSTURFTUNNEL2"
+    "AlteringCave_B1F"
   ],
   "gMapGroup_Dungeons2": [
     "VerdanturfMeadow",
     "DewfordMeadow",
-    "DewfordManor_1F",
-    "NewMap1"
+    "DewfordManor_1F"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",
