@@ -4630,6 +4630,16 @@
       "secondary_tileset": "gTileset_RusturfTunnel",
       "border_filepath": "data/layouts/AlteringCave_B1F/border.bin",
       "blockdata_filepath": "data/layouts/AlteringCave_B1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUSTURGTUNNEL2",
+      "name": "RUSTURGTUNNEL2_Layout",
+      "width": 139,
+      "height": 23,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/RUSTURGTUNNEL2/border.bin",
+      "blockdata_filepath": "data/layouts/RUSTURGTUNNEL2/map.bin"
     }
   ]
 }
