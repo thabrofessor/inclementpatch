@@ -934,7 +934,7 @@
     {
       "id": "LAYOUT_RUSTBORO_CITY_GYM",
       "name": "RustboroCity_Gym_Layout",
-      "width": 11,
+      "width": 20,
       "height": 20,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_RustboroGym",
@@ -4630,6 +4630,26 @@
       "secondary_tileset": "gTileset_RusturfTunnel",
       "border_filepath": "data/layouts/AlteringCave_B1F/border.bin",
       "blockdata_filepath": "data/layouts/AlteringCave_B1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_MAP1",
+      "name": "NewMap1_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/NewMap1/border.bin",
+      "blockdata_filepath": "data/layouts/NewMap1/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUSTURFTUNNEL2",
+      "name": "RUSTURFTUNNEL2_Layout",
+      "width": 139,
+      "height": 23,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/RUSTURFTUNNEL2/border.bin",
+      "blockdata_filepath": "data/layouts/RUSTURFTUNNEL2/map.bin"
     }
   ]
 }
