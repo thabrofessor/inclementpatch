@@ -221,7 +221,8 @@
 #define MAPSEC_DEWFORD_MEADOW               0xD9
 #define MAPSEC_DEWFORD_MANOR                0xDA
 #define MAPSEC_VERDANTURF_MEADOW            0xDB
-#define MAPSEC_NONE                         0xDC
+#define MAPSEC_RUSTURF_TUNNEL2            0xDC
+#define MAPSEC_NONE                         0xDD
 
 #define METLOC_SPECIAL_EGG                  0xFD
 #define METLOC_IN_GAME_TRADE                0xFE
