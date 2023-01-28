@@ -406,3 +406,7 @@ OldaleTown_Text_CitySign: @ 81E94DA
 	.string "Oldale Town\n"
 	.string "“Where things start off scarce.”$"
 
+OldaleTown_EventScript_BRO_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_BRO_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

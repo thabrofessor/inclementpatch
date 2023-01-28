@@ -66,3 +66,22 @@ RustboroCity_PokemonCenter_1F_Text_HMCutNextDoor: @ 8214E81
 	.string "I used it to teach my Pokémon how to\n"
 	.string "Cut down skinny trees.$"
 
+RustboroCity_PokemonCenter_1F_EventScript_JUAN_1A:: @ 81EC1B3
+	trainerbattle_single TRAINER_JUAN_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_PokemonCenter_1F_EventScript_WALACE_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_WALACE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_PokemonCenter_1F_EventScript_PRESS_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_PRESS_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_PokemonCenter_1F_EventScript_PHOEBE_1A:: @ 81EC1B3
+	trainerbattle_single TRAINER_PHOEBE_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
