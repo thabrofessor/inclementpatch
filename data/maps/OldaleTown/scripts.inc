@@ -409,8 +409,5 @@ OldaleTown_Text_CitySign: @ 81E94DA
 OldaleTown_EventScript_BRO_1:: @ 81EC1B3
 	trainerbattle_single TRAINER_BRO_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
-	fadedefaultbgm
-	fadescreen FADE_TO_BLACK
 	removeobject LOCALID_BRO_1
-	fadescreen FADE_FROM_BLACK
 	end
