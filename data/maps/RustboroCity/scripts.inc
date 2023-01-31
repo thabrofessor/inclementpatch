@@ -1407,3 +1407,78 @@ RustboroCity_EventScript_JENNY_1A:: @ 81EC1B3
 	trainerbattle_single TRAINER_JENNY_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+RustboroCity_EventScript_LAVENDER_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_LAVENDER_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_EventScript_AGATHA_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_AGATHA_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_EventScript_ROCKSTAR_1T:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROCKSTAR_1T, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_EventScript_STARLET_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_STARLET_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_EventScript_WES_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_WES_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_EventScript_NORMAN_1A:: @ 81EC1B3
+	trainerbattle_single TRAINER_NORMAN_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_EventScript_WINONA_1A:: @ 81EC1B3
+	trainerbattle_single TRAINER_WINONA_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_EventScript_BURGLAR_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_BURGLAR_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_EventScript_CYRUS_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_CYRUS_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_EventScript_ELESA_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_ELESA_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_EventScript_TATELIZZ_1A:: @ 81EC1B3
+	trainerbattle_single TRAINER_TATELIZZ_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_EventScript_LUSAMINE_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_LUSAMINE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_EventScript_TUCKER_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_TUCKER_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_EventScript_WILL_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_WILL_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_EventScript_ARGENTA_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_ARGENTA_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

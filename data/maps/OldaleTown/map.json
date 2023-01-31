@@ -84,7 +84,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ANABEL",
-      "x": 14,
+      "x": 24,
       "y": 9,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_PLAYER",
