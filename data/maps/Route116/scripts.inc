@@ -547,8 +547,8 @@ Route116_EventScript_SHELLY_1A:: @ 81EC1B3
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route116_EventScript_TABITHA_1A:: @ 81EC1B3
-	trainerbattle_single TRAINER_TABITHA_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+Route116_EventScript_MAGMA_102:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_102, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 

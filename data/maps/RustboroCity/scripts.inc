@@ -1482,3 +1482,13 @@ RustboroCity_EventScript_ARGENTA_1:: @ 81EC1B3
 	trainerbattle_single TRAINER_ARGENTA_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+RustboroCity_EventScript_GALACTIC_102:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_102, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_EventScript_GALACTIC_103:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_103, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

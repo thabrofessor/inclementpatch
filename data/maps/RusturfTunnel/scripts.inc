@@ -542,3 +542,227 @@ RusturfTunnel_Text_MikePostBattle: @ 822D8F9
 	.string "protect Pokémon, right?\l"
 	.string "There's a feel-good story!$"
 
+RusturfTunnel_EventScript_MAGMA_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_5:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_5, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_6:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_6, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_7:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_7, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_8:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_8, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_9:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_9, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_10:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_10, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_11:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_11, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_12:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_12, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_13:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_13, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_14:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_14, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_15:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_15, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_16:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_16, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_17:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_17, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_18:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_18, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_19:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_19, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_20:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_20, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_21:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_21, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_22:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_22, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_23:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_23, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_24:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_24, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAGMA_25:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_25, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_COOLT1_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT1_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_COOLT15_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT15_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MINT_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_MINT_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_HISTORY_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_HISTORY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_LI_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_LI_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_THIEF_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_THIEF_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_GIOVANNI_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_GIOVANNI_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_LYSANDRE_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_LYSANDRE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_BRUNO_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_BRUNO_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_ARCH_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_ARCH_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_GEM_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_GEM_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_GLACIA_1A:: @ 81EC1B3
+	trainerbattle_single TRAINER_GLACIA_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_GHETSIS_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_GHETSIS_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_ROCKET_102:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROCKET_102, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_ROCKET_103:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROCKET_103, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_PLASMA_102:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_102, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_PLASMA_103:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_103, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_COURTNEY_1A:: @ 81EC1B3
+	trainerbattle_single TRAINER_COURTNEY_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_TABITHA_1A:: @ 81EC1B3
+	trainerbattle_single TRAINER_TABITHA_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RusturfTunnel_EventScript_MAXIE_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAXIE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

@@ -225,7 +225,7 @@ Route102_EventScript_TWINS_1:: @ 81EC1B3
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 			
-Route102_EventScript_ROCKET_1:: @ 81EC1B3
+Route102_EventScript_ROCKET_101:: @ 81EC1B3
 	trainerbattle_single TRAINER_ROCKET_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end

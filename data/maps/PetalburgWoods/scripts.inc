@@ -534,8 +534,8 @@ PetalburgWoods_EventScript_GREEN_1:: @ 81EC1B3
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-PetalburgWoods_EventScript_COURTNEY_1A:: @ 81EC1B3
-	trainerbattle_single TRAINER_COURTNEY_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+PetalburgWoods_EventScript_MAGMA_101:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_101, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -586,5 +586,15 @@ PetalburgWoods_EventScript_BEAUTY_1:: @ 81EC1B3
 
 PetalburgWoods_EventScript_HIKER_1:: @ 81EC1B3
 	trainerbattle_single TRAINER_HIKER_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_AQUA_102:: @ 81EC1B3
+	trainerbattle_single TRAINER_AQUA_102, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_AQUA_103:: @ 81EC1B3
+	trainerbattle_single TRAINER_AQUA_103, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end

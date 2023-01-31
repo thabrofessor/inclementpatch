@@ -831,3 +831,8 @@ PetalburgCity_EventScript_PEPPERMINT_1:: @ 81EC1B3
 	trainerbattle_single TRAINER_PEPPERMINT_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+PetalburgCity_EventScript_AQUA_101:: @ 81EC1B3
+	trainerbattle_single TRAINER_AQUA_101, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

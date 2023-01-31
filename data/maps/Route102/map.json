@@ -438,7 +438,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "8",
-      "script": "Route102_EventScript_ROCKET_1",
+      "script": "Route102_EventScript_ROCKET_101",
       "flag": "0"
     }
   ],
