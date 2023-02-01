@@ -144,3 +144,12 @@ RustboroCity_DevonCorp_1F_Text_ProductDisplay: @ 8211722
 	.string "tools for Pokémon Trainers, including\l"
 	.string "Poké Balls and PokéNav systems.”$"
 
+RustboroCity_DevonCorp_1F_EventScript_THIEF_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_THIEF_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_DevonCorp_1F_EventScript_POKEMANIAK_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_POKEMANIAK_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
