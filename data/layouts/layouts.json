@@ -4565,7 +4565,7 @@
       "id": "LAYOUT_DEWFORD_MEADOW",
       "name": "DewfordMeadow_Layout",
       "width": 40,
-      "height": 20,
+      "height": 50,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Dewford",
       "border_filepath": "data/layouts/DewfordMeadow/border.bin",

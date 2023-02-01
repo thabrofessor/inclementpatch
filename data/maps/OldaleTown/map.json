@@ -101,8 +101,8 @@
       "x": 5,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_RUSTBORO_CITY_POKEMON_CENTER_1F",
-      "dest_warp_id": 2
+      "dest_map": "MAP_DEWFORD_MANOR_1F",
+      "dest_warp_id": 0
     },
     {
       "x": 15,
