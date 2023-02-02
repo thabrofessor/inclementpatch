@@ -16,8 +16,8 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_GOLD_ITEM_BALL",
-      "x": 8,
-      "y": 8,
+      "x": 11,
+      "y": 26,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -30,7 +30,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_MEGA_STONE",
       "x": 1,
-      "y": 9,
+      "y": 27,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_DOWN",
       "movement_range_x": 0,
@@ -44,28 +44,28 @@
   "warp_events": [
     {
       "x": 11,
-      "y": 11,
+      "y": 29,
       "elevation": 0,
       "dest_map": "MAP_DEWFORD_MEADOW",
       "dest_warp_id": 0
     },
     {
       "x": 12,
-      "y": 11,
+      "y": 29,
       "elevation": 0,
       "dest_map": "MAP_DEWFORD_MEADOW",
       "dest_warp_id": 0
     },
     {
       "x": 2,
-      "y": 11,
+      "y": 29,
       "elevation": 0,
       "dest_map": "MAP_DEWFORD_MEADOW",
       "dest_warp_id": 1
     },
     {
       "x": 1,
-      "y": 11,
+      "y": 29,
       "elevation": 0,
       "dest_map": "MAP_DEWFORD_MEADOW",
       "dest_warp_id": 1
@@ -78,7 +78,7 @@
     {
       "type": "hidden_item",
       "x": 22,
-      "y": 10,
+      "y": 28,
       "elevation": 3,
       "item": "ITEM_DREAD_PLATE",
       "flag": "FLAG_HIDDEN_ITEM_DEWFORD_MANOR_DREAD_PLATE"
@@ -86,7 +86,7 @@
     {
       "type": "hidden_item",
       "x": 6,
-      "y": 11,
+      "y": 29,
       "elevation": 3,
       "item": "ITEM_BOTTLE_CAP",
       "flag": "FLAG_HIDDEN_ITEM_DEWFORD_MANOR_BOTTLE_CAP"
