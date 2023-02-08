@@ -65,7 +65,7 @@ GraniteCave_B1F_EventScript_COOLTRAINERM_2:: @ 81EC1B3
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-GraniteCave_B1F_EventScript_GENTALMAN_2:: @ 81EC1B3
+GraniteCave_B1F_EventScript_GENTLMAN_2:: @ 81EC1B3
 	trainerbattle_single TRAINER_GENTALMAN_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end

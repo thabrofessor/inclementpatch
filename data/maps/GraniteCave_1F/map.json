@@ -193,7 +193,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "GraniteCave_1F_EventScript_BROCK_1",
+      "script": "GraniteCave_1F_EventScript_BROCK_2",
       "flag": "0"
     },
     {
@@ -206,7 +206,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
-      "script": "GraniteCave_1F_EventScript_RANGER5_1",
+      "script": "GraniteCave_1F_EventScript_RANGER5_2",
       "flag": "0"
     },
     {
@@ -219,7 +219,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "GraniteCave_1F_EventScript_BASIL_1",
+      "script": "GraniteCave_1F_EventScript_BASIL_2",
       "flag": "0"
     }
   ],
