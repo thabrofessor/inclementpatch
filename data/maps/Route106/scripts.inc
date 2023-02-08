@@ -47,3 +47,47 @@ Route106_Text_TrainerTips: @ 81EE53A
 	.string "Advice on catching Pokémon with a Rod:\n"
 	.string "Press the A Button if you get a bite.$"
 
+Route106_EventScript_PHOEBE_2A:: @ 81EC1B3
+	trainerbattle_single TRAINER_PHOEBE_2A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route106_EventScript_FISHERMAN_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_FISHERMAN_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route106_EventScript_SWIMMINGTRIM_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_SWIMMINGTRIM_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route106_EventScript_SWIMMINGTRIF_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_SWIMMINGTRIF_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route106_EventScript_SWIMMERM_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_SWIMMERM_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route106_EventScript_RUNNINGTRIM_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_RUNNINGTRIM_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route106_EventScript_BABE_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_BABE_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route106_EventScript_RANGER4_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_RANGER4_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route106_EventScript_THYME_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_THYME_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

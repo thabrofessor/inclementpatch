@@ -37,3 +37,72 @@ GraniteCave_1F_Text_ExplainFlash: @ 822DBB7
 	.string "But, to use it, you need the Gym Badge\n"
 	.string "from Dewford's Pokémon Gym.$"
 
+GraniteCave_1F_EventScript_BASIL_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_BASIL_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+GraniteCave_1F_EventScript_RANGER5_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_RANGER5_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+GraniteCave_1F_EventScript_BROCK_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_BROCK_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+GraniteCave_1F_EventScript_COOLT7_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT7_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+GraniteCave_1F_EventScript_ROXAN_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROXAN_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+GraniteCave_1F_EventScript_GEM_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_GEM_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+GraniteCave_1F_EventScript_GLACIA_2A:: @ 81EC1B3
+	trainerbattle_single TRAINER_GLACIA_2A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+GraniteCave_1F_EventScript_PALMER_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_PALMER_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+GraniteCave_1F_EventScript_JASMINE_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_JASMINE_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+GraniteCave_1F_EventScript_RUNE_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_RUNE_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+GraniteCave_1F_EventScript_HIKER_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_HIKER_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+GraniteCave_1F_EventScript_SAILOR_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_SAILOR_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+GraniteCave_1F_EventScript_COLECTOR_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_COLECTOR_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+GraniteCave_1F_EventScript_POKEFANF_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_POKEFANF_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

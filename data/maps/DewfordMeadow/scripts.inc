@@ -313,3 +313,23 @@ DewfordMeadow_EventScript_PLASMA_25:: @ 81EC1B3
 	trainerbattle_single TRAINER_PLASMA_25, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+DewfordMeadow_EventScript_CYRUS_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_CYRUS_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+DewfordMeadow_EventScript_GHETSIS_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_GHETSIS_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+DewfordMeadow_EventScript_GALACTIC_104:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_104, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+DewfordMeadow_EventScript_GALACTIC_105:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_105, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
