@@ -598,3 +598,83 @@ Route109_Text_TrainerTipsSign: @ 81EF1D5
 	.string "always have identical stats.\p"
 	.string "Pokémon raised by Trainers are said\n"
 	.string "to grow stronger than wild Pokémon.$"
+
+Route109_EventScript_LYSANDRE_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_LYSANDRE_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route109_EventScript_CAM_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_CAM_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route109_EventScript_PEPPERMINT_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_PEPPERMINT_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route109_EventScript_MISTY_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_MISTY_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route109_EventScript_RANGER8_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_RANGER8_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route109_EventScript_COOLT3_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT3_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route109_EventScript_COOLT10_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT10_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route109_EventScript_CRUSH_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_CRUSH_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route109_EventScript_COLE_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_COLE_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route109_EventScript_WHITNEY_2A:: @ 81EC1B3
+	trainerbattle_single TRAINER_WHITNEY_2A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route109_EventScript_CLAIR_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_CLAIR_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route109_EventScript_LORELIE_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_LORELIE_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route109_EventScript_SWIMMERF_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_SWIMMERF_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route109_EventScript_TUBERM_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_TUBERM_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route109_EventScript_TUBERF_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_TUBERF_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route109_EventScript_BBEAUTY_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_BEAUTY_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

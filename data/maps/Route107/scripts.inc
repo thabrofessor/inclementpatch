@@ -53,3 +53,28 @@ Route107_EventScript_Camron:: @ 81EE672
 	msgbox Route107_Text_CamronPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route107_EventScript_ROCKSTAR_2M:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROCKSTAR_2M, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route107_EventScript_ROCKSTAR_2T:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROCKSTAR_2T, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route107_EventScript_ROCKSTAR_2B:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROCKSTAR_2B, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route107_EventScript_STARLET_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_STARLET_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route107_EventScript_DRAKE_2A:: @ 81EC1B3
+	trainerbattle_single TRAINER_DRAKE_2A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+

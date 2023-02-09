@@ -761,3 +761,63 @@ DewfordTown_Text_BrawlyInSlateport:
 	.string "to Slateport City and hasn't returned.\p"
 	.string "If you're after a battle, you'll have\n"
 	.string "to go find him.$"
+
+DewfordTown_EventScript_WES_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_WES_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+DewfordTown_EventScript_CYNTHIA_2A:: @ 81EC1B3
+	trainerbattle_single TRAINER_CYNTHIA_2A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+DewfordTown_EventScript_GUZMA_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_GUZMA_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+DewfordTown_EventScript_LANCE_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_LANCE_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+DewfordTown_EventScript_LUCY_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_LUCY_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+DewfordTown_EventScript_KAREN_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_KAREN_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+DewfordTown_EventScript_TUCKER_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_TUCKER_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+DewfordTown_EventScript_BLAIN_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_BLAIN_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+DewfordTown_EventScript_MAY_2A:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAY_2A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+DewfordTown_EventScript_TATELIZZ_2A:: @ 81EC1B3
+	trainerbattle_single TRAINER_TATELIZZ_2A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+DewfordTown_EventScript_GUTARIST_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_GUTARIST_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+DewfordTown_EventScript_GENTALMAN3_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_GENTALMAN3_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

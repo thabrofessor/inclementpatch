@@ -37,3 +37,12 @@ DewfordTown_PokemonCenter_1F_Text_FaintedMonCanUseHM: @ 81FC5AE
 	.string "battle, it can still use a move learned\l"
 	.string "from a Hidden Machine (HM).$"
 
+DewfordTown_PokemonCenter_1F_EventScript_FLANNERY_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_FLANNERY_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+DewfordTown_PokemonCenter_1F_EventScript_WALLY_2A:: @ 81EC1B3
+	trainerbattle_single TRAINER_WALLY_2A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
