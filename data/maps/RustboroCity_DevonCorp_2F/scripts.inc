@@ -318,3 +318,13 @@ RustboroCity_DevonCorp_2F_EventScript_GIOVANNI_2:: @ 81EC1B3
 	trainerbattle_single TRAINER_GIOVANNI_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+RustboroCity_DevonCorp_2F_EventScript_ROCKET_104:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROCKET_104, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_ROCKET_105:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROCKET_105, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

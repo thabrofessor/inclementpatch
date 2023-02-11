@@ -333,3 +333,13 @@ DewfordMeadow_EventScript_GALACTIC_105:: @ 81EC1B3
 	trainerbattle_single TRAINER_GALACTIC_105, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+DewfordMeadow_EventScript_PLASMA_104:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_104, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+DewfordMeadow_EventScript_PLASMA_105:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_105, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

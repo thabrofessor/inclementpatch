@@ -40,3 +40,13 @@ SlateportCity_PokemonCenter_1F_Text_TradedMonWithFriend: @ 820DBBC
 	.string "If a traded Pokémon is holding an\n"
 	.string "item, it makes me twice as happy!$"
 
+
+OldaleTown_EventScript_BURGLAR_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_BURGLAR_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+OldaleTown_EventScript_JOY_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_JOY_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

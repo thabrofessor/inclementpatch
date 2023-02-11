@@ -674,7 +674,17 @@ Route109_EventScript_TUBERF_2:: @ 81EC1B3
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route109_EventScript_BBEAUTY_2:: @ 81EC1B3
+Route109_EventScript_BEAUTY_2:: @ 81EC1B3
 	trainerbattle_single TRAINER_BEAUTY_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route109_EventScript_AQUA_104:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_104, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route109_EventScript_AQUA_105:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_105, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end

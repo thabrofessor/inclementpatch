@@ -1557,3 +1557,83 @@ SlateportCity_Text_GretaDefeated:
 	.string "fun, but I won't lose again!\p"
 	.string "You'd better do some serious training;\n"
 	.string "no halfhearted rematch allowed!$"
+
+SlateportCity_EventScript_BLUE_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_BLUE_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SlateportCity_EventScript_ELESA_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_ELESA_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SlateportCity_EventScript_SURGE_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_SURGE_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SlateportCity_EventScript_WATSON_2A:: @ 81EC1B3
+	trainerbattle_single TRAINER_WATSON_2A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SlateportCity_EventScript_JENNY_2A:: @ 81EC1B3
+	trainerbattle_single TRAINER_JENNY_2A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SlateportCity_EventScript_STEVEN_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_STEVEN_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SlateportCity_EventScript_NORMAN_2A:: @ 81EC1B3
+	trainerbattle_single TRAINER_NORMAN_2A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SlateportCity_EventScript_LUSAMINE_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_LUSAMINE_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SlateportCity_EventScript_DAHLIA_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_DAHLIA_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SlateportCity_EventScript_CAITLIN_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_CAITLIN_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SlateportCity_EventScript_DARACH_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_DARACH_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SlateportCity_EventScript_ROCKET_106:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROCKET_106, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SlateportCity_EventScript_MAGMA_106:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_106, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SlateportCity_EventScript_AQUA_106:: @ 81EC1B3
+	trainerbattle_single TRAINER_AQUA_106, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SlateportCity_EventScript_PLASMA_106:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_106, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SlateportCity_EventScript_GALACTIC_106:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_106, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

@@ -1041,3 +1041,33 @@ Route110_Text_KeepAnEyeOutForRival: @ 81F0C33
 	.string "Well, I had better get going.\n"
 	.string "See you again, {PLAYER}{KUN}!$"
 
+Route110_EventScript_RED_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_RED_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route110_EventScript_ROSEMARY_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROSEMARY_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route110_EventScript_RANGER9_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_RANGER9_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route110_EventScript_COOLT4_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT4_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route110_EventScript_COOLT11_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT11_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route110_EventScript_SCOTT_2:: @ 81EC1B3
+	trainerbattle_single TRAINER_SCOTT_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
