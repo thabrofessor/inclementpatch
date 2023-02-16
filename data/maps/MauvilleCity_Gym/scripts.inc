@@ -508,3 +508,138 @@ MauvilleCity_Gym_Text_WattsonAllowLegends:
 	.string "Think you can handle my Legendary\n"
 	.string "Pokémon?\p"
 	.string "They're shockingly strong!$"
+
+MauvilleCity_Gym_EventScript_COOLT13_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT13_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_COOLT14_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT14_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_DORKLY_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_DORKLY_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_RUBY_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_RUBY_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_SAPPHIRE_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_SAPPHIRE_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_FANS_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_FANS_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_ELESA_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_ELESA_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_SURGE_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_SURGE_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_NORMAN_3A_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_NORMAN_3A_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_BUGMANIAC_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_BUGMANIAC_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_HEXMANIAK_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_HEXMANIAK_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_OLDCOUPLE_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_OLDCOUPLE_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_NINJABOY_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_NINJABOY_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_PSYCHICF_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_PSYCHICF_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_YOUNGCOUPLE_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_YOUNGCOUPLE_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_LADY_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_LADY_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_GUTARIST_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_GUTARIST_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_YOUNGSTER_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_YOUNGSTER_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_PSYCHICM_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_PSYCHICM_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_KINDLER_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_KINDLER_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_COOLTRAINERM_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLTRAINERM_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_RICHBOY_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_RICHBOY_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_SAILOR_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_SAILOR_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_FISHERMAN_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_FISHERMAN_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_SISBRO_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_SISBRO_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_TUBERM_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_TUBERM_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_SWIMMERF_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_SWIMMERF_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

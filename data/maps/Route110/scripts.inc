@@ -1215,3 +1215,8 @@ Route110_EventScript_CYCLINGTRIF_3:: @ 81EC1B3
 	trainerbattle_single TRAINER_CYCLINGTRIF_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+Route110_EventScript_AQUA_109:: @ 81EC1B3
+	trainerbattle_single TRAINER_AQUA_109, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

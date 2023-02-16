@@ -405,3 +405,77 @@ Route118_Text_RouteSign119: @ 81F440E
 	.string "Route 118\n"
 	.string "{UP_ARROW} Route 119$"
 
+Route118_EventScript_ROSEMARY_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROSEMARY_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route118_EventScript_RANGER8_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_RANGER8_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route118_EventScript_DRAKE_3A:: @ 81EC1B3
+	trainerbattle_single TRAINER_DRAKE_3A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route118_EventScript_COOLT1_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT1_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route118_EventScript_COOLT2_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT2_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route118_EventScript_COLE_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_COLE_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route118_EventScript_FALKNER_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_FALKNER_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route118_EventScript_WINONA_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_WINONA_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route118_EventScript_PHOEBE_3A:: @ 81EC1B3
+	trainerbattle_single TRAINER_PHOEBE_3A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route118_EventScript_MISTY_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_MISTY_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route118_EventScript_SWIMMERM_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_SWIMMERM_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route118_EventScript_SWIMMERF_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_SWIMMERF_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route118_EventScript_SWIMMINGTRIM_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_SWIMMINGTRIM_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route118_EventScript_TUBERF_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_TUBERF_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route118_EventScript_SCHOOLKIDM_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_SCHOOLKIDM_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

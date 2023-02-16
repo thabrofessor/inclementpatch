@@ -212,3 +212,7 @@ Route117_Text_DayCareSign: @ 81F3D8E
 	.string "Pokémon Day Care\n"
 	.string "“Let us raise your Pokémon.”$"
 
+Route117_EventScript_BRO_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_BRO_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
