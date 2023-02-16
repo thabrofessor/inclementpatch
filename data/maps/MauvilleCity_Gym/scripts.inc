@@ -549,8 +549,8 @@ MauvilleCity_Gym_EventScript_SURGE_3:: @ 81EC1B3
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-MauvilleCity_Gym_EventScript_NORMAN_3A_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_NORMAN_3A_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+MauvilleCity_Gym_EventScript_NORMAN_3A:: @ 81EC1B3
+	trainerbattle_single TRAINER_NORMAN_3A, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
