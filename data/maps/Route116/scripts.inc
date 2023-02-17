@@ -596,3 +596,38 @@ Route116_EventScript_CYCLINGTRIF_1:: @ 81EC1B3
 	trainerbattle_single TRAINER_CYCLINGTRIF_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+Route116_EventScript_LAVENDER_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_LAVENDER_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_RANGER3_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_RANGER3_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_BRAWLY_3A:: @ 81EC1B3
+	trainerbattle_single TRAINER_BRAWLY_3A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_MORTY_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_MORTY_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_THORTON_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_THORTON_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_PICNICER_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_PICNICER_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route116_EventScript_BLACKBELT_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_BLACKBELT_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
