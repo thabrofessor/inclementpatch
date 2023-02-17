@@ -56032,10 +56032,10 @@ static const struct TrainerMonItemCustomMoves sParty_N_1[] = {
     .lvl = 1,
     .species = SPECIES_ZORUA,
     .heldItem = ITEM_BERRY_JUICE,	    
-    .spread = SPREAD_25_IV_0_EV,
+    .spread = SPREAD_31_IV_HP_SPEED_TIMID,
     .moves = MOVE_PURSUIT, MOVE_KNOCK_OFF, MOVE_REVENGE, MOVE_HEX
     },
-        {
+    {
     .lvl = -1,
     .species = SPECIES_WOOBAT,
     .heldItem = ITEM_BERRY_JUICE,
@@ -56079,9 +56079,9 @@ static const struct TrainerMonItemCustomMoves sParty_N_2[] = {
     .lvl = 1,
     .species = SPECIES_ZORUA,
     .heldItem = ITEM_BERRY_JUICE,	    
-    .spread = SPREAD_25_IV_0_EV,
+    .spread = SPREAD_31_IV_HP_SPEED_TIMID,
     .moves = MOVE_PURSUIT, MOVE_KNOCK_OFF, MOVE_REVENGE, MOVE_HEX
-    }
+    },
          {
     .lvl = -1,
     .species = SPECIES_WOOBAT,
