@@ -126,6 +126,8 @@
 #define BERRY_TREE_ROUTE_123_RAWST    89
 #define BERRY_TREE_OLDALETOWN_ORAN   90
 #define BERRY_TREE_OLDALETOWN_LUM    91
+#define BERRY_TREE_OLD_ORAN   92
+#define BERRY_TREE_OLD_LUM    93
 
 // Remainder are unused
 
