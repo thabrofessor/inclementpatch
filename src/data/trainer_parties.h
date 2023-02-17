@@ -56029,21 +56029,20 @@ static const struct TrainerMonItemCustomMoves sParty_N_1[] = {
     .moves = MOVE_BITE, MOVE_INCINERATE, MOVE_HEADBUTT, MOVE_BELLY_DRUM
     },   
     {
-    .lvl = -1,
-    .species = SPECIES_BOUFFALANT,
-    .heldItem = ITEM_BERRY_JUICE,
-    .ability = 1, // Sap Sipper
-    .spread = SPREAD_31_IV_ATK_SPEED_ADAMANT,
-    .moves = MOVE_PURSUIT, MOVE_RAGE, MOVE_FURY_ATTACK, MOVE_MUD_SLAP
+    .lvl = 1,
+    .species = SPECIES_ZORUA,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_PURSUIT, MOVE_KNOCK_OFF, MOVE_REVENGE, MOVE_HEX
     },
-      {
+        {
     .lvl = -1,
-    .species = SPECIES_DRUDDIGON,
+    .species = SPECIES_WOOBAT,
     .heldItem = ITEM_BERRY_JUICE,
-    .ability = 0, // ROUGH SKIN
-    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
-    .moves = MOVE_DRAGON_TAIL, MOVE_SCRATCH, MOVE_MUD_SLAP, MOVE_POWER_UP_PUNCH
-    },  
+    .ability = 2, // Simple
+    .spread = SPREAD_31_IV_HP_SPEED_TIMID,	    
+    .moves = MOVE_CALM_MIND, MOVE_CONFUSION, MOVE_GUST, MOVE_BATON_PASS
+    }, 
      {
     .lvl = -3,
     .species = SPECIES_VULLABY,
@@ -56076,22 +56075,21 @@ static const struct TrainerMonItemCustomMoves sParty_N_2[] = {
     .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
     .moves = MOVE_BITE, MOVE_INCINERATE, MOVE_HEADBUTT, MOVE_BELLY_DRUM
     },
-        {
+    {
+    .lvl = 1,
+    .species = SPECIES_ZORUA,
+    .heldItem = ITEM_BERRY_JUICE,	    
+    .spread = SPREAD_25_IV_0_EV,
+    .moves = MOVE_PURSUIT, MOVE_KNOCK_OFF, MOVE_REVENGE, MOVE_HEX
+    }
+         {
     .lvl = -1,
-    .species = SPECIES_BOUFFALANT,
+    .species = SPECIES_WOOBAT,
     .heldItem = ITEM_BERRY_JUICE,
-    .ability = 1, // Sap Sipper
-    .spread = SPREAD_31_IV_ATK_SPEED_ADAMANT,
-    .moves = MOVE_PURSUIT, MOVE_RAGE, MOVE_FURY_ATTACK, MOVE_MUD_SLAP
-    },
-          {
-    .lvl = -1,
-    .species = SPECIES_DRUDDIGON,
-    .heldItem = ITEM_BERRY_JUICE,
-    .ability = 0, // ROUGH SKIN
-    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
-    .moves = MOVE_DRAGON_TAIL, MOVE_SCRATCH, MOVE_MUD_SLAP, MOVE_POWER_UP_PUNCH
-    },
+    .ability = 2, // Simple
+    .spread = SPREAD_31_IV_HP_SPEED_TIMID,	    
+    .moves = MOVE_CALM_MIND, MOVE_CONFUSION, MOVE_GUST, MOVE_BATON_PASS
+    }, 
         {
     .lvl = -3,
     .species = SPECIES_VULLABY,

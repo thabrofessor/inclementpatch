@@ -72,7 +72,37 @@ VerdanturfMeadow_Text_PlayerReceivedAudino:
 VerdanturfMeadow_Text_TakeCareOfAudino:
 	.string "Take good care of Audino!$"
 
-VerdanturfMeadow_EventScript_N_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_N_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+VerdanturfMeadow_EventScript_THYME_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_THYME_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+VerdanturfMeadow_EventScript_RANGER2_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_RANGER2_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+VerdanturfMeadow_EventScript_WHITNEY_3A:: @ 81EC1B3
+	trainerbattle_single TRAINER_WHITNEY_3A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+VerdanturfMeadow_EventScript_BABE_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_BABE_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+VerdanturfMeadow_EventScript_ERICA_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_ERICA_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+VerdanturfMeadow_EventScript_BUGSY_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_BUGSY_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+VerdanturfMeadow_EventScript_FUJI_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_FUJI_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
