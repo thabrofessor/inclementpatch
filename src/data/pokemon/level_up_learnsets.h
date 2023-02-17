@@ -1308,6 +1308,8 @@ static const struct LevelUpMove sPoliwrathLevelUpLearnset[] = {
 static const struct LevelUpMove sAbraLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TELEPORT),
 	    LEVEL_UP_MOVE( 2, MOVE_RECOVER),
+	    LEVEL_UP_MOVE(7, MOVE_PSYBEAM),
+	    LEVEL_UP_MOVE(10, MOVE_CALM_MIND),
     LEVEL_UP_END
 };
 
