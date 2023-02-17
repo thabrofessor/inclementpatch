@@ -128,6 +128,10 @@
 #define BERRY_TREE_OLDALETOWN_LUM    91
 #define BERRY_TREE_OLD_ORAN   92
 #define BERRY_TREE_OLD_LUM    93
+#define BERRY_TREE_OLD_ORAN2   94
+#define BERRY_TREE_OLD_LUM2    95
+#define BERRY_TREE_OLD_ORAN3   96
+#define BERRY_TREE_OLD_LUM3    97
 
 // Remainder are unused
 
