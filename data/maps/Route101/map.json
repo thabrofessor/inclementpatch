@@ -141,7 +141,7 @@
       "elevation": 3,
       "var": "VAR_ROUTE101_STATE",
       "var_value": "1",
-      "script": ""
+      "script": "Route101_EventScript_StartBirchRescue"
     },
     {
       "type": "trigger",
