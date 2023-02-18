@@ -8668,8 +8668,10 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
             MulModifier(&modifier, UQ_4_12(2.0));
         if (GET_BASE_SPECIES_ID(gBattleMons[battlerAtk].species) == SPECIES_RAICHU)
             MulModifier(&modifier, UQ_4_12(1.5));
-	if (gBattleMons[battlerAtk].species == SPECIES_PICHU) && (gBattleMons[battlerDef].species == SPECIES_PICHU)
-            MulModifier(&modifier, UQ_4_12(2.0));
+	if (gBattleMons[battlerAtk].species == SPECIES_PICHU)
+            MulModifier(&modifier, UQ_4_12(2.0))
+		    (gBattleMons[battlerDef].species == SPECIES_PICHU)
+		      MulModifier(&modifier, UQ_4_12(2.0));
         break;
     case HOLD_EFFECT_CHOICE_BAND:
         if (IS_MOVE_PHYSICAL(move))
