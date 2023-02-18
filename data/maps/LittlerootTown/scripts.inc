@@ -954,11 +954,11 @@ LittlerootTown_EventScript_GiveRunningShoes:: @ 81E8693
 	giveitem ITEM_POKEBLOCK_CASE
 	giveitem ITEM_ABILITY_CAPSULE, 30
 	giveitem ITEM_ABILITY_PATCH, 30
-	givemon SPECIES_PICHU, 5, ITEM_EVIOLITE	
+	giveitem ITEM_EVIOLITE
+	givemon SPECIES_PICHU, 5, ITEM_LIGHT_BALL
 	setflag FLAG_RECEIVED_OLD_ROD
 	setflag FLAG_RECEIVED_POKEBLOCK_CASE
-
-setvar VAR_0x8004, 1
+	setvar VAR_0x8004, 1
 	setvar VAR_0x8006, 31
 	setvar VAR_0x8005, 0
 	special ChangeChosenMonIVs
