@@ -184,4 +184,3 @@ VerdanturfTown_EventScript_JASMINE_3:: @ 81EC1B3
 	trainerbattle_single TRAINER_JASMINE_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
-

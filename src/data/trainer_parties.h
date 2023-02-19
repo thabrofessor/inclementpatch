@@ -63860,7 +63860,7 @@ static const struct TrainerMonItemCustomMoves sParty_CAM_1[] = {
     .heldItem = ITEM_BERRY_JUICE,
         .ability = 1, // MOODY
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_DRAGON_RAGE, MOVE_SCRATCH, MOVE_EMBER, MOVE_SMOKESCREEN
+    .moves = MOVE_FLAME_CHARGE, MOVE_SCRATCH, MOVE_EMBER, MOVE_SMOKESCREEN
     },
         {
     .lvl = 2,
@@ -63907,7 +63907,7 @@ static const struct TrainerMonItemCustomMoves sParty_CAM_2[] = {
     .heldItem = ITEM_BERRY_JUICE,
         .ability = 1, // MOODY
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_DRAGON_RAGE, MOVE_SCRATCH, MOVE_EMBER, MOVE_SMOKESCREEN
+    .moves = MOVE_FLAME_CHARGE, MOVE_SCRATCH, MOVE_EMBER, MOVE_SMOKESCREEN
     },
         {
     .lvl = 2,
@@ -102253,13 +102253,13 @@ static const struct TrainerMonItemCustomMoves sParty_CAMPER_1[] = {
     .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
     .moves = MOVE_PURSUIT, MOVE_KARATE_CHOP, MOVE_LEER, MOVE_COVET
     },
-        {
-    .lvl = 0,
-    .species = SPECIES_TAUROS,
-    .heldItem = ITEM_BERRY_JUICE,
-    .ability = 0, // Intimidate
-    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
-    .moves = MOVE_TACKLE, MOVE_PAYBACK, MOVE_REVENGE, MOVE_BULLDOZE
+     {
+    .lvl = -3,
+    .species = SPECIES_IMPIDIMP,
+    .heldItem = ITEM_RAZOR_CLAW,
+    .ability = 0, // Prankster
+    .spread = SPREAD_31_IV_80_EV,	    
+    .moves = MOVE_DRAINING_KISS, MOVE_FAKE_OUT, MOVE_LIGHT_SCREEN, MOVE_REFLECT
     },
         {
     .lvl = -1,
@@ -102302,13 +102302,13 @@ static const struct TrainerMonItemCustomMoves sParty_CAMPER_2[] = {
     .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
     .moves = MOVE_PURSUIT, MOVE_KARATE_CHOP, MOVE_LEER, MOVE_COVET
     },
-        {
-    .lvl = 0,
-    .species = SPECIES_TAUROS,
-    .heldItem = ITEM_BERRY_JUICE,
-    .ability = 0, // Intimidate
-    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
-    .moves = MOVE_TACKLE, MOVE_PAYBACK, MOVE_REVENGE, MOVE_BULLDOZE
+     {
+    .lvl = -3,
+    .species = SPECIES_IMPIDIMP,
+    .heldItem = ITEM_RAZOR_CLAW,
+    .ability = 0, // Prankster
+    .spread = SPREAD_31_IV_80_EV,	    
+    .moves = MOVE_DRAINING_KISS, MOVE_FAKE_OUT, MOVE_LIGHT_SCREEN, MOVE_REFLECT
     },
         {
     .lvl = -1,
