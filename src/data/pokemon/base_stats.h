@@ -4597,12 +4597,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_PICHU] =
     {
-        .baseHP        = 100,
+        .baseHP        = 125,
         .baseAttack    = 40,
-        .baseDefense   = 60,
+        .baseDefense   = 80,
         .baseSpeed     = 60,
-        .baseSpAttack  = 35,
-        .baseSpDefense = 55,
+        .baseSpAttack  = 40,
+        .baseSpDefense = 80,
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_ELECTRIC,
         .catchRate = 190,
