@@ -487,7 +487,7 @@
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_STARLY"
+                "species": "SPECIES_BUNEARY"
               },
               {
                 "min_level": 4,
@@ -661,7 +661,7 @@
               {
                 "min_level": 5,
                 "max_level": 7,
-                "species": "SPECIES_PIDOVE"
+                "species": "SPECIES_STARLY"
               },
               {
                 "min_level": 5,
@@ -1924,7 +1924,7 @@
               {
                 "min_level": 8,
                 "max_level": 10,
-                "species": "SPECIES_STARLY"
+                "species": "SPECIES_CHINGLING"
               },
               {
                 "min_level": 8,
@@ -1937,7 +1937,7 @@
                 "species": "SPECIES_RIOLU"
               },
               {
-                "min_level": 8,
+                "min_level": 5,
                 "max_level": 10,
                 "species": "SPECIES_JOLTIK"
               },
@@ -2720,7 +2720,7 @@
               {
                 "min_level": 6,
                 "max_level": 8,
-                "species": "SPECIES_PICHU"
+                "species": "SPECIES_FOONGUS"
               },
               {
                 "min_level": 6,
@@ -3337,7 +3337,7 @@
               {
                 "min_level": 8,
                 "max_level": 10,
-                "species": "SPECIES_CHINGLING"
+                "species": "SPECIES_WOOBAT"
               },
               {
                 "min_level": 8,
@@ -13140,7 +13140,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SCATTERBUG"
+                "species": "SPECIES_GRUBBIN"
               },
               {
                 "min_level": 5,
@@ -13160,12 +13160,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_PIDGEY"
+                "species": "SPECIES_IGGLYBUFF"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_GRUBBIN"
+                "species": "SPECIES_SCATTERBUG"
               },
               {
                 "min_level": 5,
@@ -18217,7 +18217,7 @@
               {
                 "min_level": 9,
                 "max_level": 11,
-                "species": "SPECIES_BUDEW"
+                "species": "SPECIES_TOGEPI"
               },
               {
                 "min_level": 9,
@@ -18534,7 +18534,7 @@
               },
               {
                 "min_level": 5,
-                "max_level": 5,
+                "max_level": 4,
                 "species": "SPECIES_DEERLING_AUTUMN"
               },
               {
@@ -18545,12 +18545,12 @@
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_FOONGUS"
+                "species": "SPECIES_CLEFFA"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SHROOMISH"
+                "species": "SPECIES_MEOWTH_ALOLAN"
               },
               {
                 "min_level": 5,
