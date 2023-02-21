@@ -868,3 +868,112 @@ Route111_Text_TrainerHillSign: @ 81F1D61
 	.string "“Scale the heights, you hot-blooded\n"
 	.string "Trainers!”$"
 
+Route111_EventScript_MAGMA_109:: @ 81EC1B3
+	trainerbattle_single TRAINER_N_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_MINT_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_MINT_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_RANGER4_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_RANGER4_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_RED_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_RED_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_COOLT10_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT10_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_COOLT11_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT11_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_BLUE_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_BLUE_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_BRO_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_BRO_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_HOOPSTAR_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_HOOPSTAR_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_LINEBACKER_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_LINEBACKER_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_BOARDER_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_BOARDER_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_WALLY_3A:: @ 81EC1B3
+	trainerbattle_single TRAINER_WALLY_3A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_SCOTT_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_SCOTT_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_AGATHA_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_AGATHA_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_ARCH_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_ARCH_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_GEM_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_GEM_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_BRANDON_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_BRANDON_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_LUCY_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_LUCY_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_BATTLEGIRL_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_BATTLEGIRL_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_DRAGONTAMER_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_DRAGONTAMER_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_RUNE_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_RUNE_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_GENTLMAN2_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_GENTLMAN2_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
