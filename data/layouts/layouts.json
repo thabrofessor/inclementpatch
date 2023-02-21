@@ -4640,6 +4640,16 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/RUSTURGTUNNEL2/border.bin",
       "blockdata_filepath": "data/layouts/RUSTURGTUNNEL2/map.bin"
+    },
+    {
+      "id": "LAYOUT_SLATEPORTAQUA",
+      "name": "slateportaqua_Layout",
+      "width": 40,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/slateportaqua/border.bin",
+      "blockdata_filepath": "data/layouts/slateportaqua/map.bin"
     }
   ]
 }
