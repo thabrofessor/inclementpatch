@@ -435,7 +435,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULLMauvilleCity_EventScript_JUAN_3A",
+      "script": "MauvilleCity_EventScript_JUAN_3A",
       "flag": "0"
     }
   ],
