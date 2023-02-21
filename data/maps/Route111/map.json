@@ -448,8 +448,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_4",
-      "x": 20,
-      "y": 114,
+      "x": 21,
+      "y": 133,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
       "movement_range_x": 1,
@@ -664,6 +664,13 @@
       "elevation": 0,
       "dest_map": "MAP_TRAINER_HILL_ENTRANCE",
       "dest_warp_id": 0
+    },
+    {
+      "x": 16,
+      "y": 113,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE111_WINSTRATE_FAMILYS_HOUSE",
+      "dest_warp_id": 2
     }
   ],
   "coord_events": [
@@ -1005,7 +1012,7 @@
     {
       "type": "sign",
       "x": 16,
-      "y": 114,
+      "y": 115,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route111_EventScript_WinstrateHouseSign"

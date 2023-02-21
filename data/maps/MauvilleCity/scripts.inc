@@ -714,3 +714,93 @@ MauvilleCity_Text_HaveTM74:
 	.string "TM74 contains Gyro Ball, an attack\n"
 	.string "that does more damage the slower the\l"
 	.string "user is compared to the foe.$"
+
+MauvilleCity_EventScript_JUAN_3A:: @ 81EC1B3
+	trainerbattle_single TRAINER_JUAN_3A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_EventScript_CYNTHIA_3A:: @ 81EC1B3
+	trainerbattle_single TRAINER_CYNTHIA_3A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_EventScript_JOY_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_JOY_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_EventScript_JENNY_3A:: @ 81EC1B3
+	trainerbattle_single TRAINER_JENNY_3A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_EventScript_STARLET_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_STARLET_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_EventScript_CLAIR_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_CLAIR_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_EventScript_BURGLAR_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_BURGLAR_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_EventScript_BIRCH_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_BIRCH_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_EventScript_COURTNEY_3A:: @ 81EC1B3
+	trainerbattle_single TRAINER_COURTNEY_3A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_EventScript_MATT_3A:: @ 81EC1B3
+	trainerbattle_single TRAINER_MATT_3A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_EventScript_ANABEL_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_ANABEL_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_EventScript_DAHLIA_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_DAHLIA_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_EventScript_BLAIN_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_BLAIN_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_EventScript_PRYCE_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_PRYCE_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_EventScript_WILL_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_WILL_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_EventScript_ROCKET_107:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROCKET_107, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_EventScript_ROCKET_108:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROCKET_108, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_EventScript_GALACTIC_109:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_109, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
