@@ -35,15 +35,15 @@
       "x": 3,
       "y": 19,
       "elevation": 0,
-      "dest_map": "MAP_SLATEPORTAQUA",
-      "dest_warp_id": 0
+      "dest_map": "MAP_SLATEPORT_CITY",
+      "dest_warp_id": 12
     },
     {
       "x": 4,
       "y": 19,
       "elevation": 0,
-      "dest_map": "MAP_SLATEPORTAQUA",
-      "dest_warp_id": 0
+      "dest_map": "MAP_SLATEPORT_CITY",
+      "dest_warp_id": 12
     }
   ],
   "coord_events": [
