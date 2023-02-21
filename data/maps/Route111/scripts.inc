@@ -973,7 +973,7 @@ Route111_EventScript_RUNE_3:: @ 81EC1B3
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route111_EventScript_GENTLMAN2_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_GENTLMAN2_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+Route111_EventScript_GENTALMAN2_3:: @ 81EC1B3
+	trainerbattle_single TRAINER_GENTALMAN2_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
