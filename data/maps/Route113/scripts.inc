@@ -168,3 +168,107 @@ Route113_Text_GlassWorkshopSign: @ 81F24F8
 	.string "Glass Workshop\n"
 	.string "“Turning Volcanic Ash into Glass Items”$"
 
+Route113_EventScript_PLASMA_112:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_112, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route113_EventScript_RANGER8_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_RANGER8_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route113_EventScript_ROCKET_112:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROCKER_112, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route113_EventScript_COOLT8_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT8_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route113_EventScript_COOLT9_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT9_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route113_EventScript_BRO_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_BRO_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route113_EventScript_BOARDER_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_BOARDER_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route113_EventScript_HOOPSTAR_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_HOOPSTAR_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route113_EventScript_LINEBACKER_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_LINEBACKER_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route113_EventScript_RED_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_RED_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route113_EventScript_LANCE_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_LANCE_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route113_EventScript_KOGA_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_KOGA_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route113_EventScript_BUGSY_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_BUGSY_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route113_EventScript_CLAIR_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_CLAIR_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route113_EventScript_SPENCER_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_SPENCER_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route113_EventScript_SILVER_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_SILVER_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route113_EventScript_SIDNEY_4A:: @ 81EC1B3
+	trainerbattle_single TRAINER_SIDNEY_4A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route113_EventScript_MORTY_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_MORTY_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route113_EventScript_BUGCATCHER_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_BUGCATCHER_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route113_EventScript_PSYCHICM_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_PSYCHICM_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route113_EventScript_NINJABOY_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_NINJABOY_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

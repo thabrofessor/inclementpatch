@@ -171,3 +171,38 @@ Route115_EventScript_DRAKE_1A:: @ 81EC1B3
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route115_EventScript_ROSEMARY_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROSEMARY_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route115_EventScript_RANGER6_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_RANGER6_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route115_EventScript_COOLT12_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT12_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route115_EventScript_AQUA_112:: @ 81EC1B3
+	trainerbattle_single TRAINER_AQUA_112, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route115_EventScript_CYCLINGTRIM_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_CYCLINGTRIM_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route115_EventScript_SRJR_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_SRJR_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route115_EventScript_GENTLMAN_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_GENTLMAN_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+

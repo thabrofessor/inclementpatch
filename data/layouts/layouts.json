@@ -1244,7 +1244,7 @@
     {
       "id": "LAYOUT_METEOR_FALLS_1F_1R",
       "name": "MeteorFalls_1F_1R_Layout",
-      "width": 30,
+      "width": 60,
       "height": 42,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_MeteorFalls",
@@ -2944,7 +2944,7 @@
     {
       "id": "LAYOUT_FIERY_PATH",
       "name": "FieryPath_Layout",
-      "width": 35,
+      "width": 50,
       "height": 38,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Lavaridge",

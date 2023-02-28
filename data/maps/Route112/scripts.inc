@@ -174,3 +174,112 @@ Route112_Text_RouteSignLavaridge: @ 81F2138
 	.string "Route 112\n"
 	.string "{LEFT_ARROW} Lavaridge Town$"
 
+Route112_EventScript_ARGENTA_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_ARGENTA_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_SAGE_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_SAGE_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_RANGER2_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_RANGER2_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_COOLT3_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT3_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_COOLT4_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT4_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_MAGMA_110:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_110, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_MAGMA_111:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_110, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_GRETA_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_GRETA_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_BRUNO_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_BRUNO_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_SAPPHIRE_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_SAPPHIRE_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_ANABEL_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_ANABEL_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_WHITNEY_4A:: @ 81EC1B3
+	trainerbattle_single TRAINER_WHITNEY_4A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_FUJI_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_FUJI_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_ARROMALADY_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_ARROMALADY_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_GENTALMAN3_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_GENTALMAN3_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_BASIL_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_BASIL_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_RANGER9_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_RANGER9_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_COOLT5_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT5_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_MAGMA_112:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_112, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_DAHLIA_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_DAHLIA_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_ELESA_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_ELESA_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_LASS_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_LASS_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

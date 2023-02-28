@@ -591,3 +591,283 @@ MeteorFalls_1F_1R_Text_RivalAfterBattle:
 	.string "Never mind what's happened!\p"
 	.string "I've got to get the professor back to\n"
 	.string "his lab in Fallarbor!$"
+
+MeteorFalls_1F_1R_EventScript_CYRUS_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_CYRUS_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GHETSIS_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_GHETSIS_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_N_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_N_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_LUSAMINE_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_LUSAMINE_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_THIEF_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_THIEF_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PRESS_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_PRESS_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_26:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_26, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_27:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_27, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_28:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_28, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_29:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_29, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_30:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_30, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_31:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_31, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_32:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_32, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_33:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_33, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_34:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_34, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_35:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_35, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_36:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_36, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_37:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_37, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_38:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_38, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_39:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_39, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_40:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_40, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_41:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_41, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_42:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_42, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_43:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_43, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_44:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_44, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_45:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_45, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_46:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_46, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_47:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_47, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_48:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_48, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_49:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_49, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_PLASMA_50:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_50, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_26:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_26, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_27:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_27, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_28:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_28, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_29:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_29, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_30:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_30, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_31:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_31, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_32:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_32, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_33:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_33, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_34:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_34, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_35:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_35, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_36:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_36, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_37:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_37, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_38:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_38, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_39:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_39, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_40:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_40, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_41:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_41, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_42:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_42, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_43:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_43, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_44:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_44, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_45:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_45, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_46:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_46, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_47:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_47, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_48:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_48, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_49:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_49, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MeteorFalls_1F_1R_EventScript_GALACTIC_50:: @ 81EC1B3
+	trainerbattle_single TRAINER_GALACTIC_50, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

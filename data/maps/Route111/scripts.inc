@@ -1118,7 +1118,7 @@ Route111_EventScript_FALKNER_4:: @ 81EC1B3
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route111_EventScript_N_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_N_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+Route111_EventScript_GENTALMAN4_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_GENTALMAN4_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
