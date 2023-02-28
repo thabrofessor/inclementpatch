@@ -179,7 +179,7 @@ Route113_EventScript_RANGER8_4:: @ 81EC1B3
 	end
 
 Route113_EventScript_ROCKET_112:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKER_112, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	trainerbattle_single TRAINER_ROCKET_112, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
