@@ -199,3 +199,38 @@ AshenWoods_Text_CatchBlob:
 AshenWoods_Text_BlobCaught:
 	.string "Blob was caught!\p"
 	.string "Blob was sent to the nurse's PC.$"
+
+AshenWoods_EventScript_MINT_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_MINT_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+AshenWoods_EventScript_RANGER10_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_RANGER10_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+AshenWoods_EventScript_COOLT15_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT15_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+AshenWoods_EventScript_ERICA_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_ERICA_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+AshenWoods_EventScript_WALLY_4A:: @ 81EC1B3
+	trainerbattle_single TRAINER_WALLY_4A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+AshenWoods_EventScript_BUGCATCHER_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_BUGCATCHER_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+AshenWoods_EventScript_CAMPER_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_CAMPER_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

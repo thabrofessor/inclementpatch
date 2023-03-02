@@ -441,3 +441,37 @@ LavaridgeTown_Text_HerbShopSign: @ 81EB1CB
 	.string "Pokémon Herb Shop\n"
 	.string "“Bitter taste--better cure!”$"
 
+LavaridgeTown_EventScript_BLUE_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_BLUE_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_EventScript_GOLD_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_GOLD_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_EventScript_JOY_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_JOY_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_EventScript_OAK_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_OAK_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_EventScript_BILL_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_BILL_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_EventScript_LI_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_LI_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_EventScript_DAISY_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_DAISY_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

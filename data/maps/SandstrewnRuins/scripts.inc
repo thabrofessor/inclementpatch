@@ -47,3 +47,133 @@ Sandstrewn_Ruins_Text_OddKeystone:
 	.string "“Storage … …sh can.”\p"
 	.string "{PLAYER} put away the Odd Keystone\n"
 	.string "in the Key Items Pocket.$"
+
+Sandstrewn_Ruins_EventScript_SIDNEY_5A:: @ 81EC1B3
+	trainerbattle_single TRAINER_SIDNEY_5A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_GLACIA_5A:: @ 81EC1B3
+	trainerbattle_single TRAINER_GLACIA_5A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_MAXIE_5:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAXIE_5, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_MAGMA_113:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_113, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_MAGMA_114:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_114, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_MAGMA_115:: @ 81EC1B3
+	trainerbattle_single TRAINER_MAGMA_115, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_JUAN_5A:: @ 81EC1B3
+	trainerbattle_single TRAINER_JUAN_5A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_WINONA_5A:: @ 81EC1B3
+	trainerbattle_single TRAINER_WINONA_5A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_GHETSIS_5:: @ 81EC1B3
+	trainerbattle_single TRAINER_GHETSIS_5, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_PLASMA_113:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_113, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_PLASMA_114:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_114, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_PLASMA_115:: @ 81EC1B3
+	trainerbattle_single TRAINER_PLASMA_115, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_TUCKER_5:: @ 81EC1B3
+	trainerbattle_single TRAINER_TUCKER_5, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_WILL_5:: @ 81EC1B3
+	trainerbattle_single TRAINER_WILL_5, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_ARCHIE_5:: @ 81EC1B3
+	trainerbattle_single TRAINER_ARCHIE_5, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_AQUA_113:: @ 81EC1B3
+	trainerbattle_single TRAINER_AQUA_113, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_AQUA_114:: @ 81EC1B3
+	trainerbattle_single TRAINER_AQUA_114, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_AQUA_115:: @ 81EC1B3
+	trainerbattle_single TRAINER_AQUA_115, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_SHELLY_5A:: @ 81EC1B3
+	trainerbattle_single TRAINER_SHELLY_5A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_MATT_5A:: @ 81EC1B3
+	trainerbattle_single TRAINER_MATT_5A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_THIEF_5:: @ 81EC1B3
+	trainerbattle_single TRAINER_THIEF_5, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_LYSANDRE_5:: @ 81EC1B3
+	trainerbattle_single TRAINER_LYSANDRE_5, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_BURGLAR_5:: @ 81EC1B3
+	trainerbattle_single TRAINER_BURGLAR_5, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_LUSAMINE_5:: @ 81EC1B3
+	trainerbattle_single TRAINER_LUSAMINE_5, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_TABITHA_5A:: @ 81EC1B3
+	trainerbattle_single TRAINER_TABITHA_5A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Sandstrewn_Ruins_EventScript_COURTNEY_5A:: @ 81EC1B3
+	trainerbattle_single TRAINER_COURTNEY_5A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

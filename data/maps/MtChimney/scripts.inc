@@ -855,3 +855,63 @@ MtChimney_Text_SawyerRematchDefeat: @ 82305E3
 MtChimney_Text_SawyerPostRematch: @ 8230614
 	.string "Actually, it really is hot here.\n"
 	.string "I'm overdressed for these parts.$"
+
+MtChimney_EventScript_GIOVANNI_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_GIOVANNI_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtChimney_EventScript_ROCKET_110:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROCKET_110, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtChimney_EventScript_ROCKET_111:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROCKET_111, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtChimney_EventScript_ROCKSTAR_4M:: @ 81EC1B3
+	trainerbattle_single TRAINER_N_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtChimney_EventScript_ROCKSTAR_4T:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROCKSTAR_4T, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtChimney_EventScript_ROCKSTAR_4B:: @ 81EC1B3
+	trainerbattle_single TRAINER_ROCKSTAR_4B, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtChimney_EventScript_CAM_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_CAM_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtChimney_EventScript_TUCKER_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_TUCKER_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtChimney_EventScript_BURGLAR_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_BURGLAR_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtChimney_EventScript_GUZMA_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_GUZMA_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtChimney_EventScript_WILL_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_WILL_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtChimney_EventScript_GLACIA_4A:: @ 81EC1B3
+	trainerbattle_single TRAINER_GLACIA_4A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

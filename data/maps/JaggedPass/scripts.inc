@@ -351,3 +351,72 @@ JaggedPass_Text_AutumnPostBattle: @ 8230EE3
 	.string "What is that odd rock protrusion\n"
 	.string "a little up the hill from here?$"
 
+JaggedPass_EventScript_LAVENDER_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_LAVENDER_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+JaggedPass_EventScript_RANGER5_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_RANGER5_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+JaggedPass_EventScript_COOLT13_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLT13_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+JaggedPass_EventScript_SHADY_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_SHADY_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+JaggedPass_EventScript_AGATHA_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_AGATHA_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+JaggedPass_EventScript_DRAY_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_DRAY_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+JaggedPass_EventScript_SABRINA_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_SABRINA_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+JaggedPass_EventScript_BRAWLY_4A:: @ 81EC1B3
+	trainerbattle_single TRAINER_BRAWLY_4A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+JaggedPass_EventScript_CYCLINGTRIF_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_CYCLINGTRIF_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+JaggedPass_EventScript_COOLTRAINERF_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLTRAINERF_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+JaggedPass_EventScript_GUTARIST_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_GUTARIST_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+JaggedPass_EventScript_BLACKBELT_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_BLACKBELT_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+JaggedPass_EventScript_PICNICER_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_PICNICER_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+JaggedPass_EventScript_HEXMANIAK_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_HEXMANIAK_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

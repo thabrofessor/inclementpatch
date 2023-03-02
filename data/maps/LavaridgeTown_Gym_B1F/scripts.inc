@@ -47,3 +47,92 @@ LavaridgeTown_Gym_B1F_EventScript_CheckBuryEli:: @ 81FF903
 LavaridgeTown_Gym_B1F_EventScript_EndCheckBuryTrainers:: @ 81FF910
 	return
 
+LavaridgeTown_Gym_B1F_EventScript_POKEMANIAK_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_POKEMANIAK_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_Gym_B1F_EventScript_DRAGONTAMER_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_DRAGONTAMER_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_Gym_B1F_EventScript_COOLTRAINERM_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_COOLTRAINERM_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_Gym_B1F_EventScript_BEAUTY_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_BEAUTY_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_Gym_B1F_EventScript_BATTLEGIRL_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_BATTLEGIRL_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_Gym_B1F_EventScript_BIRDKEEPER_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_BIRDKEEPER_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_Gym_B1F_EventScript_POKEMONBREEDERM_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_POKEMONBREEDERM_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_Gym_B1F_EventScript_POKEMONBREEDERF_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_POKEMONBREEDERF_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_Gym_B1F_EventScript_SCHOOLKIDF_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_SCHOOLKIDF_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_Gym_B1F_EventScript_TWINS_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_TWINS_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_Gym_B1F_EventScript_COLECTOR_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_COLECTOR_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_Gym_B1F_EventScript_YOUNGSTER_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_YOUNGSTER_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_Gym_B1F_EventScript_POKEFANF_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_POKEFANF_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_Gym_B1F_EventScript_LADY_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_LADY_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_Gym_B1F_EventScript_YOUNGCOUPLE_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_YOUNGCOUPLE_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_Gym_B1F_EventScript_PSYCHICF_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_PSYCHICF_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_Gym_B1F_EventScript_OLDCOUPLE_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_OLDCOUPLE_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+LavaridgeTown_Gym_B1F_EventScript_SCHOOLKIDM_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_SCHOOLKIDM_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

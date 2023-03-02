@@ -1122,3 +1122,18 @@ Route111_EventScript_GENTALMAN4_4:: @ 81EC1B3
 	trainerbattle_single TRAINER_GENTALMAN4_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+Route111_EventScript_PRESS_5:: @ 81EC1B3
+	trainerbattle_single TRAINER_PRESS_5, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_PHOEBE_5A:: @ 81EC1B3
+	trainerbattle_single TRAINER_PHOEBE_5A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route111_EventScript_WALACE_5:: @ 81EC1B3
+	trainerbattle_single TRAINER_WALACE_5, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end

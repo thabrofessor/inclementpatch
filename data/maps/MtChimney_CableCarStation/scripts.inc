@@ -98,3 +98,17 @@ MtChimney_CableCarStation_Text_StepThisWay: @ 822ACF8
 MtChimney_CableCarStation_Text_RideAnotherTime: @ 822AD0E
 	.string "Please ride with us another time.$"
 
+MtChimney_CableCarStation_EventScript_JUAN_4A:: @ 81EC1B3
+	trainerbattle_single TRAINER_JUAN_4A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtChimney_CableCarStation_EventScript_WINONA_4A:: @ 81EC1B3
+	trainerbattle_single TRAINER_WINONA_4A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtChimney_CableCarStation_EventScript_GREEN_4:: @ 81EC1B3
+	trainerbattle_single TRAINER_GREEN_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
