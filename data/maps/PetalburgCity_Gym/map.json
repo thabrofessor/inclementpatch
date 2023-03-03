@@ -121,7 +121,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_2",
       "x": 3,
-      "y": 109,
+      "y": 217,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -134,7 +134,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_WALLY",
       "x": 4,
-      "y": 111,
+      "y": 219,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
@@ -161,21 +161,21 @@
   "warp_events": [
     {
       "x": 4,
-      "y": 111,
+      "y": 219,
       "elevation": 3,
       "dest_map": "MAP_PETALBURG_CITY",
       "dest_warp_id": 2
     },
     {
       "x": 5,
-      "y": 111,
+      "y": 219,
       "elevation": 3,
       "dest_map": "MAP_PETALBURG_CITY",
       "dest_warp_id": 2
     },
     {
       "x": 1,
-      "y": 105,
+      "y": 213,
       "elevation": 3,
       "dest_map": "MAP_PETALBURG_CITY_GYM",
       "dest_warp_id": 3
@@ -196,7 +196,7 @@
     },
     {
       "x": 7,
-      "y": 105,
+      "y": 213,
       "elevation": 3,
       "dest_map": "MAP_PETALBURG_CITY_GYM",
       "dest_warp_id": 6
@@ -433,7 +433,7 @@
     {
       "type": "sign",
       "x": 1,
-      "y": 105,
+      "y": 213,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "PetalburgCity_Gym_EventScript_SpeedRoomDoor"
@@ -441,7 +441,7 @@
     {
       "type": "sign",
       "x": 7,
-      "y": 105,
+      "y": 213,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "PetalburgCity_Gym_EventScript_AccuracyRoomDoor"
@@ -529,7 +529,7 @@
     {
       "type": "sign",
       "x": 1,
-      "y": 110,
+      "y": 218,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "PetalburgCity_Gym_EventScript_LeftGymStatue"
@@ -537,7 +537,7 @@
     {
       "type": "sign",
       "x": 7,
-      "y": 110,
+      "y": 218,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "PetalburgCity_Gym_EventScript_RightGymStatue"
