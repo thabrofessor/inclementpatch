@@ -50,7 +50,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
-      "script": "MirageTower_2F_EventScript_KAREN_5",
+      "script": "MirageTower_2F_EventScript_KAREN_5A",
       "flag": "0"
     }
   ],
