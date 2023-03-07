@@ -20640,7 +20640,7 @@
           "map": "MAP_OLDALE_TOWN_HOUSE2",
           "base_label": "gOldaleTown_House20",
           "land_mons": {
-            "encounter_rate": 20,
+            "encounter_rate": 1,
             "mons": [
               {
                 "min_level": 2,
