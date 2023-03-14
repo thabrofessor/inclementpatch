@@ -6,3 +6,11 @@ Seaspray_Cave_OnTransition::
 	setflag FLAG_LANDMARK_SEASPRAY_CAVE
 	end
 
+Seaspray_Cave_EventScript_SandMound::
+	lockall
+	faceplayer
+	special RockSmashWildEncounter
+	delay 0x60
+	removeobject 9
+	releaseall
+	end
