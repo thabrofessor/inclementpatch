@@ -1108,3 +1108,5 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/slateportaqua/scripts.inc"
 
 	.include "data/maps/B/scripts.inc"
+
+	.include "data/maps/DeepWood/scripts.inc"

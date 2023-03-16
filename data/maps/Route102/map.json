@@ -183,8 +183,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_TWIN",
-      "x": 15,
-      "y": 2,
+      "x": 29,
+      "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -196,8 +196,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_TWIN",
-      "x": 14,
-      "y": 2,
+      "x": 28,
+      "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -209,7 +209,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_RICH_BOY",
-      "x": 35,
+      "x": 36,
       "y": 17,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -235,7 +235,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CAMERAMAN",
-      "x": 17,
+      "x": 20,
       "y": 2,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -300,10 +300,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_REPORTER_M",
-      "x": 21,
+      "x": 16,
       "y": 5,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
@@ -326,7 +326,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
-      "x": 31,
+      "x": 29,
       "y": 19,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -469,6 +469,34 @@
       "y": 1,
       "elevation": 0,
       "dest_map": "MAP_B",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 38,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_DEEP_WOOD",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 39,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_DEEP_WOOD",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 30,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_DEEP_WOOD",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 31,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_DEEP_WOOD",
       "dest_warp_id": 2
     }
   ],

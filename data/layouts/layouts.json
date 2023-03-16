@@ -4660,6 +4660,16 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/B/border.bin",
       "blockdata_filepath": "data/layouts/B/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEEP_WOOD",
+      "name": "DeepWood_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/DeepWood/border.bin",
+      "blockdata_filepath": "data/layouts/DeepWood/map.bin"
     }
   ]
 }
