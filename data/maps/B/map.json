@@ -4,7 +4,7 @@
   "layout": "LAYOUT_B",
   "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
-  "requires_flash": false,
+  "requires_flash": true,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_ROUTE",
   "allow_cycling": true,
@@ -23,6 +23,27 @@
       "elevation": 0,
       "dest_map": "MAP_ROUTE102",
       "dest_warp_id": 0
+    },
+    {
+      "x": 18,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE102",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 1,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE102",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 2,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE102",
+      "dest_warp_id": 2
     }
   ],
   "coord_events": [
