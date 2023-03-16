@@ -1106,3 +1106,5 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/RUSTURGTUNNEL2/scripts.inc"
 
 	.include "data/maps/slateportaqua/scripts.inc"
+
+	.include "data/maps/B/scripts.inc"

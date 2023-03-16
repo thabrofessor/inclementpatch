@@ -457,7 +457,8 @@
   "gMapGroup_Dungeons2": [
     "VerdanturfMeadow",
     "DewfordMeadow",
-    "DewfordManor_1F"
+    "DewfordManor_1F",
+    "B"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

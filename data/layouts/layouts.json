@@ -4650,6 +4650,16 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/slateportaqua/border.bin",
       "blockdata_filepath": "data/layouts/slateportaqua/map.bin"
+    },
+    {
+      "id": "LAYOUT_B",
+      "name": "B_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/B/border.bin",
+      "blockdata_filepath": "data/layouts/B/map.bin"
     }
   ]
 }
