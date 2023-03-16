@@ -4670,6 +4670,26 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/DeepWood/border.bin",
       "blockdata_filepath": "data/layouts/DeepWood/map.bin"
+    },
+    {
+      "id": "LAYOUT_DARKWOOD102",
+      "name": "Darkwood102_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Darkwood102/border.bin",
+      "blockdata_filepath": "data/layouts/Darkwood102/map.bin"
+    },
+    {
+      "id": "LAYOUT_GRIMWOOD102",
+      "name": "Grimwood102_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Grimwood102/border.bin",
+      "blockdata_filepath": "data/layouts/Grimwood102/map.bin"
     }
   ]
 }

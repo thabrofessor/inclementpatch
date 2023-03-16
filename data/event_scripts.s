@@ -1110,3 +1110,7 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/B/scripts.inc"
 
 	.include "data/maps/DeepWood/scripts.inc"
+
+	.include "data/maps/Darkwood102/scripts.inc"
+
+	.include "data/maps/Grimwood102/scripts.inc"

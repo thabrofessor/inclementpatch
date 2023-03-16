@@ -459,7 +459,9 @@
     "DewfordMeadow",
     "DewfordManor_1F",
     "B",
-    "DeepWood"
+    "DeepWood",
+    "Darkwood102",
+    "Grimwood102"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",
