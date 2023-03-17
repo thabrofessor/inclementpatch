@@ -4690,6 +4690,66 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/Grimwood102/border.bin",
       "blockdata_filepath": "data/layouts/Grimwood102/map.bin"
+    },
+    {
+      "id": "LAYOUT_DARKWOODS104",
+      "name": "darkwoods104_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/darkwoods104/border.bin",
+      "blockdata_filepath": "data/layouts/darkwoods104/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEEPWOODS104",
+      "name": "Deepwoods104_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Deepwoods104/border.bin",
+      "blockdata_filepath": "data/layouts/Deepwoods104/map.bin"
+    },
+    {
+      "id": "LAYOUT_PETALBURG_DEEP_WOODS",
+      "name": "PetalburgDeepWoods_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/PetalburgDeepWoods/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgDeepWoods/map.bin"
+    },
+    {
+      "id": "LAYOUT_PETALBURG_DARK_WOODS",
+      "name": "PetalburgDarkWoods_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/PetalburgDarkWoods/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgDarkWoods/map.bin"
+    },
+    {
+      "id": "LAYOUT_PETALBURG_BACKWOODS",
+      "name": "PetalburgBackwoods_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/PetalburgBackwoods/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgBackwoods/map.bin"
+    },
+    {
+      "id": "LAYOUT_PETALBURG_THICKETS",
+      "name": "PetalburgThickets_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/PetalburgThickets/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgThickets/map.bin"
     }
   ]
 }

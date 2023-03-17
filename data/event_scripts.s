@@ -1114,3 +1114,15 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/Darkwood102/scripts.inc"
 
 	.include "data/maps/Grimwood102/scripts.inc"
+
+	.include "data/maps/darkwoods104/scripts.inc"
+
+	.include "data/maps/Deepwoods104/scripts.inc"
+
+	.include "data/maps/PetalburgDeepWoods/scripts.inc"
+
+	.include "data/maps/PetalburgDarkWoods/scripts.inc"
+
+	.include "data/maps/PetalburgBackwoods/scripts.inc"
+
+	.include "data/maps/PetalburgThickets/scripts.inc"

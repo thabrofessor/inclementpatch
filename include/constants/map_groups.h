@@ -423,13 +423,19 @@
 #define MAP_RUSTURGTUNNEL2                           (127 | (24 << 8))
 
 // gMapGroup_Dungeons2
-#define MAP_VERDANTURF_MEADOW (0 | (25 << 8))
-#define MAP_DEWFORD_MEADOW    (1 | (25 << 8))
-#define MAP_DEWFORD_MANOR_1F  (2 | (25 << 8))
-#define MAP_B                 (3 | (25 << 8))
-#define MAP_DEEP_WOOD         (4 | (25 << 8))
-#define MAP_DARKWOOD102       (5 | (25 << 8))
-#define MAP_GRIMWOOD102       (6 | (25 << 8))
+#define MAP_VERDANTURF_MEADOW    (0 | (25 << 8))
+#define MAP_DEWFORD_MEADOW       (1 | (25 << 8))
+#define MAP_DEWFORD_MANOR_1F     (2 | (25 << 8))
+#define MAP_B                    (3 | (25 << 8))
+#define MAP_DEEP_WOOD            (4 | (25 << 8))
+#define MAP_DARKWOOD102          (5 | (25 << 8))
+#define MAP_GRIMWOOD102          (6 | (25 << 8))
+#define MAP_DARKWOODS104         (7 | (25 << 8))
+#define MAP_DEEPWOODS104         (8 | (25 << 8))
+#define MAP_PETALBURG_DEEP_WOODS (9 | (25 << 8))
+#define MAP_PETALBURG_DARK_WOODS (10 | (25 << 8))
+#define MAP_PETALBURG_BACKWOODS  (11 | (25 << 8))
+#define MAP_PETALBURG_THICKETS   (12 | (25 << 8))
 
 // gMapGroup_IndoorDynamic
 #define MAP_SECRET_BASE_RED_CAVE1    (0 | (26 << 8))

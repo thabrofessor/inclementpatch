@@ -461,7 +461,13 @@
     "B",
     "DeepWood",
     "Darkwood102",
-    "Grimwood102"
+    "Grimwood102",
+    "darkwoods104",
+    "Deepwoods104",
+    "PetalburgDeepWoods",
+    "PetalburgDarkWoods",
+    "PetalburgBackwoods",
+    "PetalburgThickets"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",
