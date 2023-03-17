@@ -1126,3 +1126,13 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/PetalburgBackwoods/scripts.inc"
 
 	.include "data/maps/PetalburgThickets/scripts.inc"
+
+	.include "data/maps/Thickets116/scripts.inc"
+
+	.include "data/maps/Backwoods116/scripts.inc"
+
+	.include "data/maps/Darkwoods116/scripts.inc"
+
+	.include "data/maps/Deepwoods116/scripts.inc"
+
+	.include "data/maps/Oldwoods116/scripts.inc"

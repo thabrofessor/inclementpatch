@@ -4750,6 +4750,56 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/PetalburgThickets/border.bin",
       "blockdata_filepath": "data/layouts/PetalburgThickets/map.bin"
+    },
+    {
+      "id": "LAYOUT_THICKETS116",
+      "name": "Thickets116_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Thickets116/border.bin",
+      "blockdata_filepath": "data/layouts/Thickets116/map.bin"
+    },
+    {
+      "id": "LAYOUT_BACKWOODS116",
+      "name": "Backwoods116_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Backwoods116/border.bin",
+      "blockdata_filepath": "data/layouts/Backwoods116/map.bin"
+    },
+    {
+      "id": "LAYOUT_DARKWOODS116",
+      "name": "Darkwoods116_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Darkwoods116/border.bin",
+      "blockdata_filepath": "data/layouts/Darkwoods116/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEEPWOODS116",
+      "name": "Deepwoods116_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Deepwoods116/border.bin",
+      "blockdata_filepath": "data/layouts/Deepwoods116/map.bin"
+    },
+    {
+      "id": "LAYOUT_OLDWOODS116",
+      "name": "Oldwoods116_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Oldwoods116/border.bin",
+      "blockdata_filepath": "data/layouts/Oldwoods116/map.bin"
     }
   ]
 }
