@@ -106,3 +106,12 @@ GraniteCave_1F_EventScript_POKEFANF_2:: @ 81EC1B3
 	trainerbattle_single TRAINER_POKEFANF_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+GraniteCave_1F_EventScript_SandMound::
+	lockall
+	faceplayer
+	special RockSmashWildEncounter
+	delay 0x60
+	removeobject 17
+	releaseall
+	end

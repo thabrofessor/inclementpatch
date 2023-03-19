@@ -3590,6 +3590,31 @@
                 "species": "SPECIES_SLUGMA"
               }
             ]
+          },
+          "rock_smash_mons": {
+            "encounter_rate": 180,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_BALTOY"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_GOLETT"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_ELGYEM"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_ELGYEM"
+              }
+            ]
           }
         },
         {
@@ -3774,6 +3799,31 @@
                 "species": "SPECIES_SNORUNT"
               }
             ]
+          },
+          "rock_smash_mons": {
+            "encounter_rate": 180,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_ROLYCOLY"
+              },
+              {
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_CUFANT"
+              },
+              {
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_MINIOR"
+              },
+              {
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_BELDUM"
+              }
+            ]
           }
         },
         {
@@ -3956,6 +4006,31 @@
                 "min_level": 5,
                 "max_level": 9,
                 "species": "SPECIES_BERGMITE"
+              }
+            ]
+          },
+          "rock_smash_mons": {
+            "encounter_rate": 180,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_MINIOR"
+              },
+              {
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_CUFANT"
+              },
+              {
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_ROLYCOLY"
+              },
+              {
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_BELDUM"
               }
             ]
           }
@@ -4479,27 +4554,27 @@
             ]
           },
           "rock_smash_mons": {
-            "encounter_rate": 20,
+            "encounter_rate": 180,
             "mons": [
               {
                 "min_level": 22,
                 "max_level": 25,
-                "species": "SPECIES_ONIX"
+                "species": "SPECIES_CUFANT"
               },
               {
                 "min_level": 22,
                 "max_level": 25,
-                "species": "SPECIES_DWEBBLE"
+                "species": "SPECIES_ROLYCOLY"
               },
               {
                 "min_level": 22,
                 "max_level": 25,
-                "species": "SPECIES_NOSEPASS"
+                "species": "SPECIES_MINIOR"
               },
               {
                 "min_level": 22,
                 "max_level": 25,
-                "species": "SPECIES_NOSEPASS"
+                "species": "SPECIES_BELDUM"
               }
             ]
           },
@@ -5170,27 +5245,27 @@
             ]
           },
           "rock_smash_mons": {
-            "encounter_rate": 25,
+            "encounter_rate": 180,
             "mons": [
               {
                 "min_level": 22,
                 "max_level": 25,
-                "species": "SPECIES_BINACLE"
+                "species": "SPECIES_DWEBBLE"
               },
               {
                 "min_level": 20,
                 "max_level": 25,
-                "species": "SPECIES_WIMPOD"
+                "species": "SPECIES_HIPPOPOTAS"
               },
               {
                 "min_level": 21,
                 "max_level": 24,
-                "species": "SPECIES_DWEBBLE"
+                "species": "SPECIES_SANDILE"
               },
               {
                 "min_level": 23,
                 "max_level": 25,
-                "species": "SPECIES_NOSEPASS"
+                "species": "SPECIES_SANDYGAST"
               }
             ]
           },
@@ -5465,6 +5540,31 @@
                 "min_level": 5,
                 "max_level": 9,
                 "species": "SPECIES_RHYHORN"
+              }
+            ]
+          },
+          "rock_smash_mons": {
+            "encounter_rate": 180,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_HIPPOPOTAS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_SANDYGAST"
+              },
+              {
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_DWEBBLE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_SANDILE"
               }
             ]
           }
@@ -7827,6 +7927,31 @@
                 "min_level": 5,
                 "max_level": 9,
                 "species": "SPECIES_WHISMUR"
+              }
+            ]
+          },
+          "rock_smash_mons": {
+            "encounter_rate": 180,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_BELDUM"
+              },
+              {
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_ROLYCOLY"
+              },
+              {
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_CUFANT"
+              },
+              {
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_MINIOR"
               }
             ]
           }
@@ -12855,27 +12980,27 @@
             ]
           },
           "rock_smash_mons": {
-            "encounter_rate": 25,
+            "encounter_rate": 180,
             "mons": [
               {
-                "min_level": 13,
-                "max_level": 21,
-                "species": "SPECIES_BINACLE"
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_SANDILE"
               },
               {
-                "min_level": 13,
-                "max_level": 19,
-                "species": "SPECIES_WIMPOD"
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_SANDYGAST"
               },
               {
-                "min_level": 16,
-                "max_level": 20,
+                "min_level": 5,
+                "max_level": 15,
                 "species": "SPECIES_DWEBBLE"
               },
               {
-                "min_level": 16,
-                "max_level": 21,
-                "species": "SPECIES_DWEBBLE"
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_HIPPOPOTAS"
               }
             ]
           },
@@ -15701,27 +15826,27 @@
             ]
           },
           "rock_smash_mons": {
-            "encounter_rate": 20,
+            "encounter_rate": 180,
             "mons": [
               {
                 "min_level": 10,
                 "max_level": 15,
-                "species": "SPECIES_BINACLE"
+                "species": "SPECIES_ELGYEM"
               },
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_DWEBBLE"
+                "species": "SPECIES_BALTOY"
               },
               {
                 "min_level": 15,
                 "max_level": 20,
-                "species": "SPECIES_DWEBBLE"
+                "species": "SPECIES_GOLETT"
               },
               {
                 "min_level": 15,
                 "max_level": 20,
-                "species": "SPECIES_MINIOR"
+                "species": "SPECIES_GOLETT"
               }
             ]
           },
@@ -15971,6 +16096,31 @@
                 "min_level": 5,
                 "max_level": 15,
                 "species": "SPECIES_SPHEAL"
+              }
+            ]
+          },
+          "rock_smash_mons": {
+            "encounter_rate": 180,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 25,
+                "species": "SPECIES_CRYOGONAL"
+              },
+              {
+                "min_level": 5,
+                "max_level": 25,
+                "species": "SPECIES_CARBINK"
+              },
+              {
+                "min_level": 5,
+                "max_level": 25,
+                "species": "SPECIES_MINIOR_METEOR_BLUE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 25,
+                "species": "SPECIES_MINIOR_METEOR_BLUE"
               }
             ]
           }
@@ -17207,6 +17357,31 @@
                 "min_level": 5,
                 "max_level": 5,
                 "species": "SPECIES_FRILLISH"
+              }
+            ]
+          },
+          "rock_smash_mons": {
+            "encounter_rate": 180,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_GOLETT"
+              },
+              {
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_ELGYEM"
+              },
+              {
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_BALTOY"
+              },
+              {
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_BALTOY"
               }
             ]
           }

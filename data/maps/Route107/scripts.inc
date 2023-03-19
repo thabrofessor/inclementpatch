@@ -78,3 +78,11 @@ Route107_EventScript_DRAKE_2A:: @ 81EC1B3
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route107_EventScript_SandMound::
+	lockall
+	faceplayer
+	special RockSmashWildEncounter
+	delay 0x60
+	removeobject 13
+	releaseall
+	end

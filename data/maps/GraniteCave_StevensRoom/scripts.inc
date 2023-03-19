@@ -124,3 +124,11 @@ GraniteCave_StevensRoom_Text_OhBagIsFull: @ 822DFAA
 	.string "Oh, your Bag is full…\n"
 	.string "That's too bad, then.$"
 
+GraniteCave_StevensRoom_EventScript_SandMound::
+	lockall
+	faceplayer
+	special RockSmashWildEncounter
+	delay 0x60
+	removeobject 2
+	releaseall
+	end

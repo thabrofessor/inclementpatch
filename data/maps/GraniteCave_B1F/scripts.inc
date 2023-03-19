@@ -74,3 +74,12 @@ GraniteCave_B1F_EventScript_NINJABOY_2:: @ 81EC1B3
 	trainerbattle_single TRAINER_NINJABOY_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+GraniteCave_B1F_EventScript_SandMound::
+	lockall
+	faceplayer
+	special RockSmashWildEncounter
+	delay 0x60
+	removeobject 16
+	releaseall
+	end

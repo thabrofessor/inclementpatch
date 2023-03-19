@@ -165,3 +165,12 @@ DewfordManor_1F_EventScript_GALACTIC_25:: @ 81EC1B3
 	trainerbattle_single TRAINER_GALACTIC_25, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+DewfordManor_1F_EventScript_SandMound::
+	lockall
+	faceplayer
+	special RockSmashWildEncounter
+	delay 0x60
+	removeobject 35
+	releaseall
+	end

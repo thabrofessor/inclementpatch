@@ -225,3 +225,12 @@ GraniteCave_B2F_EventScript_ROCKET_25:: @ 81EC1B3
 	trainerbattle_single TRAINER_ROCKET_25, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+GraniteCave_B2F_EventScript_SandMound::
+	lockall
+	faceplayer
+	special RockSmashWildEncounter
+	delay 0x60
+	removeobject 56
+	releaseall
+	end
