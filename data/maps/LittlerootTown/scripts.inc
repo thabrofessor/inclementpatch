@@ -955,8 +955,7 @@ LittlerootTown_EventScript_GiveRunningShoes:: @ 81E8693
 	giveitem ITEM_ABILITY_CAPSULE, 30
 	giveitem ITEM_ABILITY_PATCH, 30
 	giveitem ITEM_EVIOLITE
-		giveitem ITEM_HONEY, 10
-        givemon SPECIES_SILVALLY_FIGHTING, 5, ITEM_NONE
+		giveitem ITEM_HONEY, 5
 	givemon SPECIES_PICHU, 5, ITEM_LIGHT_BALL
 	setflag FLAG_RECEIVED_OLD_ROD
 	setflag FLAG_RECEIVED_POKEBLOCK_CASE
