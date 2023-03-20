@@ -91,7 +91,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "BERRY_TREE_OLD2_LUM",
+      "trainer_sight_or_berry_tree_id": "95",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -104,7 +104,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "BERRY_TREE_OLD1_ORAN",
+      "trainer_sight_or_berry_tree_id": "94",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -117,7 +117,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "BERRY_TREE_OLD3_ORAN",
+      "trainer_sight_or_berry_tree_id": "96",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -130,7 +130,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "BERRY_TREE_OLD4_LUM",
+      "trainer_sight_or_berry_tree_id": "97",
       "script": "BerryTreeScript",
       "flag": "0"
     },
