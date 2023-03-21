@@ -1201,7 +1201,7 @@ static const struct LevelUpMove sGrowlitheLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 6, MOVE_EMBER),
     LEVEL_UP_MOVE( 8, MOVE_LEER),
 		LEVEL_UP_MOVE(9, MOVE_MORNING_SUN),
-    LEVEL_UP_MOVE(10, MOVE_ODOR_SLEUTH),
+    LEVEL_UP_MOVE(10, MOVE_NO_RETREAT),
     LEVEL_UP_MOVE(12, MOVE_HELPING_HAND),
     LEVEL_UP_MOVE(17, MOVE_FLAME_WHEEL),
     LEVEL_UP_MOVE(19, MOVE_REVERSAL),
@@ -13625,7 +13625,7 @@ static const struct LevelUpMove sBouffalantLevelUpLearnset[] = {
 
 static const struct LevelUpMove sRuffletLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_PECK),
-	LEVEL_UP_MOVE( 1, MOVE_LEER),
+	LEVEL_UP_MOVE( 1, MOVE_NO_RETREAT),
 	LEVEL_UP_MOVE( 4, MOVE_FURY_ATTACK),
     LEVEL_UP_MOVE( 5, MOVE_HONE_CLAWS),
 	        LEVEL_UP_MOVE(9, MOVE_ROOST),
