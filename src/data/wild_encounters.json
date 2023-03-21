@@ -22074,7 +22074,7 @@
               {
                 "min_level": 2,
                 "max_level": 5,
-                "species": "SPECIES_ELEKID"
+                "species": "SPECIES_VANILLITE"
               },
               {
                 "min_level": 2,
@@ -22084,7 +22084,7 @@
               {
                 "min_level": 2,
                 "max_level": 5,
-                "species": "SPECIES_VANILLITE"
+                "species": "SPECIES_ELEKID"
               },
               {
                 "min_level": 2,
