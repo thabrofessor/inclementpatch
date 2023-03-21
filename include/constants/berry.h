@@ -35,7 +35,7 @@
 // IDs for berry tree objects, indexes into berryTrees in SaveBlock1
 // Named for whatever berry is initially planted there on a new game
 // Those with no initial berry are named "soil"
-#define BERRY_TREE_ROUTE_102_PECHA    1
+#define BERRY_TREE_ROUTE_102_RAWST    1
 #define BERRY_TREE_ROUTE_102_ORAN     2
 #define BERRY_TREE_ROUTE_104_SOIL_1   3
 #define BERRY_TREE_ROUTE_104_ORAN_1   4
@@ -156,16 +156,17 @@
 #define BERRY_TREE_102B4_ORAN    119
 #define BERRY_TREE_102C4_COBA   120
 #define BERRY_TREE_102D4_CORNN    121
-
 #define BERRY_TREE_104A1_YACHE   122
 #define BERRY_TREE_104B1_ORAN    123
 #define BERRY_TREE_104C1_SHUCA   124
 #define BERRY_TREE_104D1_MAGOST    125
-
 #define BERRY_TREE_104A2_CHOPLE   126
 #define BERRY_TREE_104B2_ORAN    127
 #define BERRY_TREE_104C2_KEBIA   128
 #define BERRY_TREE_104D2_RABUTA    129
+
+#define BERRY_TREE_102M1_BABIRI   130
+#define BERRY_TREE_102M2_GREPA    131
 
 // Remainder are unused
 
