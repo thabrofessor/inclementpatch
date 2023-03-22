@@ -4800,16 +4800,6 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/Oldwoods116/border.bin",
       "blockdata_filepath": "data/layouts/Oldwoods116/map.bin"
-    },
-    {
-      "id": "LAYOUT_OLDALEHALL",
-      "name": "OLDALEHALL_Layout",
-      "width": 40,
-      "height": 5,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_GenericBuilding",
-      "border_filepath": "data/layouts/OLDALEHALL/border.bin",
-      "blockdata_filepath": "data/layouts/OLDALEHALL/map.bin"
     }
   ]
 }
