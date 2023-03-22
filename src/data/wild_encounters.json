@@ -28571,6 +28571,420 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_HPROOM",
+          "base_label": "gHProom0",
+          "land_mons": {
+            "encounter_rate": 80,
+            "mons": [
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SKWOVET"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SKWOVET"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SKWOVET"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SKWOVET"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SKWOVET"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SKWOVET"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SKWOVET"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SKWOVET"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SKWOVET"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SKWOVET"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SKWOVET"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SKWOVET"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_ATTACKROOM",
+          "base_label": "gAttackroom0",
+          "land_mons": {
+            "encounter_rate": 80,
+            "mons": [
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_GROOKEY"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_GROOKEY"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_GROOKEY"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_GROOKEY"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_GROOKEY"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_GROOKEY"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_GROOKEY"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_GROOKEY"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_GROOKEY"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_GROOKEY"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_GROOKEY"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_GROOKEY"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_DEFENSEROOM",
+          "base_label": "gDefenseroom0",
+          "land_mons": {
+            "encounter_rate": 80,
+            "mons": [
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_CLOBBOPUS"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_CLOBBOPUS"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_CLOBBOPUS"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_CLOBBOPUS"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_CLOBBOPUS"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_CLOBBOPUS"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_CLOBBOPUS"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_CLOBBOPUS"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_CLOBBOPUS"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_CLOBBOPUS"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_CLOBBOPUS"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_CLOBBOPUS"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_SP_ATKROOM",
+          "base_label": "gSpAtkroom0",
+          "land_mons": {
+            "encounter_rate": 80,
+            "mons": [
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_BLIPBUG"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_BLIPBUG"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_BLIPBUG"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_BLIPBUG"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_BLIPBUG"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_BLIPBUG"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_BLIPBUG"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_BLIPBUG"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_BLIPBUG"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_BLIPBUG"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_BLIPBUG"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_BLIPBUG"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_SP_DEFROOM",
+          "base_label": "gSpDefroom0",
+          "land_mons": {
+            "encounter_rate": 80,
+            "mons": [
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SOBBLE"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SOBBLE"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SOBBLE"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SOBBLE"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SOBBLE"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SOBBLE"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SOBBLE"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SOBBLE"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SOBBLE"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SOBBLE"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SOBBLE"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SOBBLE"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_SPEEDROOM",
+          "base_label": "gSpeedroom0",
+          "land_mons": {
+            "encounter_rate": 80,
+            "mons": [
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SCORBUNNY"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SCORBUNNY"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SCORBUNNY"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SCORBUNNY"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SCORBUNNY"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SCORBUNNY"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SCORBUNNY"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SCORBUNNY"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SCORBUNNY"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SCORBUNNY"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SCORBUNNY"
+              },
+              {
+                "min_level": 1,
+                "max_level": 1,
+                "species": "SPECIES_SCORBUNNY"
+              }
+            ]
+          }
         }
       ]
     },
