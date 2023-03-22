@@ -23,6 +23,48 @@
       "elevation": 0,
       "dest_map": "MAP_OLDALE_TOWN_HOUSE2",
       "dest_warp_id": 2
+    },
+    {
+      "x": 17,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_HPROOM",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 21,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_ATTACKROOM",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_DEFENSEROOM",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 29,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_SP_ATKROOM",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 33,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_SP_DEFROOM",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 37,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_SPEEDROOM",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [

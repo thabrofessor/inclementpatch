@@ -4810,6 +4810,66 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/Oldalehall/border.bin",
       "blockdata_filepath": "data/layouts/Oldalehall/map.bin"
+    },
+    {
+      "id": "LAYOUT_HPROOM",
+      "name": "HProom_Layout",
+      "width": 5,
+      "height": 5,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/HProom/border.bin",
+      "blockdata_filepath": "data/layouts/HProom/map.bin"
+    },
+    {
+      "id": "LAYOUT_ATTACKROOM",
+      "name": "Attackroom_Layout",
+      "width": 5,
+      "height": 5,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/Attackroom/border.bin",
+      "blockdata_filepath": "data/layouts/Attackroom/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEFENSEROOM",
+      "name": "Defenseroom_Layout",
+      "width": 5,
+      "height": 5,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/Defenseroom/border.bin",
+      "blockdata_filepath": "data/layouts/Defenseroom/map.bin"
+    },
+    {
+      "id": "LAYOUT_SP_ATKROOM",
+      "name": "SpAtkroom_Layout",
+      "width": 5,
+      "height": 5,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/SpAtkroom/border.bin",
+      "blockdata_filepath": "data/layouts/SpAtkroom/map.bin"
+    },
+    {
+      "id": "LAYOUT_SP_DEFROOM",
+      "name": "SpDefroom_Layout",
+      "width": 5,
+      "height": 5,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/SpDefroom/border.bin",
+      "blockdata_filepath": "data/layouts/SpDefroom/map.bin"
+    },
+    {
+      "id": "LAYOUT_SPEEDROOM",
+      "name": "Speedroom_Layout",
+      "width": 5,
+      "height": 5,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/Speedroom/border.bin",
+      "blockdata_filepath": "data/layouts/Speedroom/map.bin"
     }
   ]
 }

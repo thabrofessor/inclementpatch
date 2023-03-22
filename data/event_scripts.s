@@ -1138,3 +1138,15 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/Oldwoods116/scripts.inc"
 
 	.include "data/maps/Oldalehall/scripts.inc"
+
+	.include "data/maps/HProom/scripts.inc"
+
+	.include "data/maps/Attackroom/scripts.inc"
+
+	.include "data/maps/Defenseroom/scripts.inc"
+
+	.include "data/maps/SpAtkroom/scripts.inc"
+
+	.include "data/maps/SpDefroom/scripts.inc"
+
+	.include "data/maps/Speedroom/scripts.inc"

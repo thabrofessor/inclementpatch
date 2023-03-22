@@ -109,7 +109,13 @@
     "OldaleTown_PokemonCenter_1F",
     "OldaleTown_PokemonCenter_2F",
     "OldaleTown_Mart",
-    "Oldalehall"
+    "Oldalehall",
+    "HProom",
+    "Attackroom",
+    "Defenseroom",
+    "SpAtkroom",
+    "SpDefroom",
+    "Speedroom"
   ],
   "gMapGroup_IndoorDewford": [
     "DewfordTown_House1",
