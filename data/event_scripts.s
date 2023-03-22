@@ -1136,3 +1136,5 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/Deepwoods116/scripts.inc"
 
 	.include "data/maps/Oldwoods116/scripts.inc"
+
+	.include "data/maps/Oldalehall/scripts.inc"
