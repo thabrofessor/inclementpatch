@@ -188,12 +188,12 @@ struct BaseStats
  /* 0x07 */ u8 type2;
  /* 0x08 */ u8 catchRate;
  /* 0x09 */ u16 expYield;
- /* 0x0A */ u16 evYield_HP:2;
- /* 0x0A */ u16 evYield_Attack:2;
- /* 0x0A */ u16 evYield_Defense:2;
- /* 0x0A */ u16 evYield_Speed:2;
- /* 0x0B */ u16 evYield_SpAttack:2;
- /* 0x0B */ u16 evYield_SpDefense:2;
+ /* 0x0A */ u16 evYield_HP:5;
+ /* 0x0A */ u16 evYield_Attack:5;
+ /* 0x0A */ u16 evYield_Defense:5;
+ /* 0x0A */ u16 evYield_Speed:5;
+ /* 0x0B */ u16 evYield_SpAttack:5;
+ /* 0x0B */ u16 evYield_SpDefense:5;
  /* 0x0C */ u16 item1;
  /* 0x0E */ u16 item2;
  /* 0x10 */ u8 genderRatio;
