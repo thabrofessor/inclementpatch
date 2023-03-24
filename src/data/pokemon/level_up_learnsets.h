@@ -6694,7 +6694,7 @@ static const struct LevelUpMove sMiloticLevelUpLearnset[] = {
 static const struct LevelUpMove sCarvanhaLevelUpLearnset[] = {
            LEVEL_UP_MOVE(1, MOVE_ICE_FANG),
 	LEVEL_UP_MOVE(1, MOVE_POISON_FANG),
-	    LEVEL_UP_MOVE(1, MOVE_PSYCHIC_FANG),
+	    LEVEL_UP_MOVE(1, MOVE_PSYCHIC_FANGS),
 	LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_BITE),
     LEVEL_UP_MOVE( 1, MOVE_RAGE),
