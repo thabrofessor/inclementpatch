@@ -4188,6 +4188,8 @@ static const struct LevelUpMove sAipomLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
     LEVEL_UP_MOVE( 4, MOVE_SAND_ATTACK),
     LEVEL_UP_MOVE( 8, MOVE_ASTONISH),
+	    LEVEL_UP_MOVE(7, MOVE_COMET_PUNCH),
+	    LEVEL_UP_MOVE(8, MOVE_FURY_SWIPES),
 	    LEVEL_UP_MOVE(9, MOVE_NO_RETREAT),
     LEVEL_UP_MOVE(10, MOVE_BATON_PASS),
     LEVEL_UP_MOVE(15, MOVE_TICKLE),
@@ -15905,6 +15907,10 @@ static const struct LevelUpMove sPrimarinaLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sPikipekLevelUpLearnset[] = {
+		LEVEL_UP_MOVE( 0, MOVE_TRIPLE_AXEL),
+			LEVEL_UP_MOVE( 0, MOVE_ROCK_BLAST),
+			LEVEL_UP_MOVE( 0, MOVE_BULLET_SEED),
+			LEVEL_UP_MOVE( 0, MOVE_SPIKE_CANNON),
 	LEVEL_UP_MOVE( 1, MOVE_PECK),
 	LEVEL_UP_MOVE( 3, MOVE_GROWL),
 	LEVEL_UP_MOVE( 7, MOVE_ECHOED_VOICE),
