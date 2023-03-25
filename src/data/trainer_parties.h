@@ -64294,7 +64294,7 @@ static const struct TrainerMonItemCustomMoves sParty_DORKLY_1[] = {
     .heldItem = ITEM_BERRY_JUICE,
     .ability = 1, // Technician
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_AERIAL_ACE, MOVE_BUG_BITE, MOVE_QUICK_ATTACK, MOVE_NIGHT_SLASH
+    .moves = MOVE_PROTECT, MOVE_BUG_BITE, MOVE_QUICK_ATTACK, MOVE_TAILWIND
     }, 
            {
     .lvl = -3,
