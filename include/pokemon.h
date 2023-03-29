@@ -53,12 +53,12 @@ struct PokemonSubstruct3
  /* 0x03 */ u16 nature:5;
  /* 0x03 */ u16 otGender:1;
 
- /* 0x04 */ u32 hpIV:5;
- /* 0x04 */ u32 attackIV:5;
- /* 0x05 */ u32 defenseIV:5;
- /* 0x05 */ u32 speedIV:5;
- /* 0x05 */ u32 spAttackIV:5;
- /* 0x06 */ u32 spDefenseIV:5;
+ /* 0x04 */ u32 hpIV:15;
+ /* 0x04 */ u32 attackIV:15;
+ /* 0x05 */ u32 defenseIV:15;
+ /* 0x05 */ u32 speedIV:15;
+ /* 0x05 */ u32 spAttackIV:15;
+ /* 0x06 */ u32 spDefenseIV:15;
  /* 0x07 */ u32 isEgg:1;
  /* 0x07 */ u32 UnusedBit:1; 
 
