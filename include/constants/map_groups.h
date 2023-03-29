@@ -84,6 +84,7 @@
 #define MAP_SP_ATKROOM                    (9 | (2 << 8))
 #define MAP_SP_DEFROOM                    (10 | (2 << 8))
 #define MAP_SPEEDROOM                     (11 | (2 << 8))
+#define MAP_HP100                         (12 | (2 << 8))
 
 // gMapGroup_IndoorDewford
 #define MAP_DEWFORD_TOWN_HOUSE1            (0 | (3 << 8))

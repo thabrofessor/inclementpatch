@@ -1150,3 +1150,5 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/SpDefroom/scripts.inc"
 
 	.include "data/maps/Speedroom/scripts.inc"
+
+	.include "data/maps/HP100/scripts.inc"

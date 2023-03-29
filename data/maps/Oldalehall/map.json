@@ -65,6 +65,20 @@
       "elevation": 0,
       "dest_map": "MAP_SPEEDROOM",
       "dest_warp_id": 0
+    },
+    {
+      "x": 17,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_HP100",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 18,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_HP100",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [
