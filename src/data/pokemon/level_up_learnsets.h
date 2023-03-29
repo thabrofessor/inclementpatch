@@ -12466,6 +12466,9 @@ static const struct LevelUpMove sZoroarkLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sMinccinoLevelUpLearnset[] = {
+		LEVEL_UP_MOVE( 0, MOVE_BULLET_SEED),
+	LEVEL_UP_MOVE( 0, MOVE_ROCK_BLAST),
+    LEVEL_UP_MOVE( 0, MOVE_TAIL_SLAP),
 	LEVEL_UP_MOVE( 1, MOVE_POUND),
 	LEVEL_UP_MOVE( 3, MOVE_BABY_DOLL_EYES),
 	LEVEL_UP_MOVE( 7, MOVE_HELPING_HAND),
