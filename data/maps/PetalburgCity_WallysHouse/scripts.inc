@@ -135,8 +135,8 @@ PetalburgCity_WallysHouse_Text_WallyLeftWithoutTelling: @ 82047A7
 	.string "I'm sure that he'll come back safe\n"
 	.string "and sound one day!$"
 
-PetalburgCity_WallysHouse_EventScript_FLANNERY_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_FLANNERY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+PetalburgCity_WallysHouse_EventScript_FLANNERY_1A:: @ 81EC1B3
+	trainerbattle_single TRAINER_FLANNERY_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 

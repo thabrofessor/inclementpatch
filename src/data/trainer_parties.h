@@ -38340,12 +38340,12 @@ static const struct TrainerMonItemCustomMoves sParty_OAK_1[] = {
     .moves = MOVE_BRICK_BREAK, MOVE_FACADE, MOVE_BULLET_PUNCH, MOVE_KNOCK_OFF
     },
         {
-    .lvl = 0,
-    .species = SPECIES_KANGASKHAN,
-    .heldItem = ITEM_ORAN_BERRY,
-    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
-    .moves = MOVE_FAKE_OUT, MOVE_POWER_UP_PUNCH, MOVE_SEISMIC_TOSS, MOVE_MUD_SLAP
-    }
+    .lvl = -1,
+    .species = SPECIES_GROWLITHE,
+    .heldItem = ITEM_BERRY_JUICE,
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_FLAME_BURST, MOVE_TAKE_DOWN, MOVE_REVERSAL, MOVE_AGILITY
+    },
 };
 
 static const struct TrainerMonItemCustomMoves sParty_OAK_2[] = {
@@ -39595,7 +39595,7 @@ static const struct TrainerMonItemCustomMoves sParty_LANCE_1[] = {
     .heldItem = ITEM_BERRY_JUICE,
         .ability = 1, // MOODY
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_DRAGON_RAGE, MOVE_SCRATCH, MOVE_EMBER, MOVE_SMOKESCREEN
+    .moves = MOVE_FLAME_CHARGE, MOVE_SCRATCH, MOVE_EMBER, MOVE_SMOKESCREEN
     },
        {
     .lvl = -1,
@@ -49563,11 +49563,11 @@ static const struct TrainerMonItemCustomMoves sParty_SILVER_1[] = {
     .moves = MOVE_QUICK_ATTACK, MOVE_ABSORB, MOVE_GROWTH, MOVE_FURY_CUTTER
     },  
         {
-    .lvl = 0,
-    .species = SPECIES_KANGASKHAN,
+    .lvl = -1,
+    .species = SPECIES_GROWLITHE,
     .heldItem = ITEM_BERRY_JUICE,
-    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
-    .moves = MOVE_FAKE_OUT, MOVE_MIMIC, MOVE_ENDEAVOR, MOVE_COMET_PUNCH
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_FLAME_BURST, MOVE_TAKE_DOWN, MOVE_REVERSAL, MOVE_AGILITY
     },
 };
 
@@ -60349,10 +60349,10 @@ static const struct TrainerMonItemCustomMoves sParty_JASMINE_1[] = {
     {
     .lvl = 3,
     .species = SPECIES_SKARMORY,
-    .heldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_BERRY_JUICE,
     .ability = 1, // Sturdy
     .spread = SPREAD_31_IV_HP_DEF_IMPISH,
-    .moves = MOVE_PECK, MOVE_TOXIC, MOVE_SPIKES, MOVE_ROOST
+    .moves = MOVE_PECK, MOVE_STEALTH_ROCK, MOVE_SPIKES, MOVE_IRON_DEFENSE
     },
      {
     .lvl = -1,
@@ -61706,7 +61706,7 @@ static const struct TrainerMonItemCustomMoves sParty_BLAIN_1[] = {
     .heldItem = ITEM_BERRY_JUICE,
         .ability = 1, // MOODY
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_DRAGON_RAGE, MOVE_SCRATCH, MOVE_EMBER, MOVE_SMOKESCREEN
+    .moves = MOVE_FLAME_CHARGE, MOVE_SCRATCH, MOVE_EMBER, MOVE_SMOKESCREEN
     },
 };
 
@@ -65166,20 +65166,21 @@ static const struct TrainerMonItemCustomMoves sParty_THORTON_1[] = {
     .spread = SPREAD_31_IV_80_EV,    
     .moves = MOVE_QUICK_ATTACK, MOVE_CURSE, MOVE_WISH, MOVE_SUBSTITUTE
     },
-     {
-    .lvl = -2,
-    .species = SPECIES_ARCTOVISH,
+        {
+    .lvl = -3,
+    .species = SPECIES_SANDSHREW_ALOLAN,
     .heldItem = ITEM_BERRY_JUICE,
-    .ability = 2, // SLUSH RUSH
-    .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_POWDER_SNOW, MOVE_WATER_GUN, MOVE_HAIL, MOVE_SWAGGER
+        .ability = 1, // SLUSH RUSH
+    .spread = SPREAD_31_IV_80_EV,	    
+    .moves = MOVE_ICE_SHARD, MOVE_ICE_BALL, MOVE_METAL_CLAW, MOVE_SWORDS_DANCE
     },
         {
-    .lvl = 1,
-    .species = SPECIES_LAPRAS,
+    .lvl = -3,
+    .species = SPECIES_CUBCHOO,
     .heldItem = ITEM_BERRY_JUICE,
-    .spread = SPREAD_31_IV_HP_SPATK_MODEST,
-    .moves = MOVE_SING, MOVE_WATER_GUN, MOVE_ICE_SHARD, MOVE_CONFUSE_RAY
+    .ability = 1, // SLUSH RUSH
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_SHEER_COLD, MOVE_POWER_UP_PUNCH, MOVE_ICY_WIND, MOVE_FURY_SWIPES
     },
 };
 
@@ -73448,12 +73449,13 @@ static const struct TrainerMonItemCustomMoves sParty_JENNY_9A[] = {
 };
 
 static const struct TrainerMonItemCustomMoves sParty_JOY_1[] = {
-    {
-    .lvl = 0,
-    .species = SPECIES_DIANCIE,
-    .heldItem = ITEM_LIGHT_CLAY,
-    .spread = SPREAD_31_IV_HP_SPATK_QUIET,
-    .moves = MOVE_STEALTH_ROCK, MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_SMACK_DOWN
+        {
+    .lvl = -2,
+    .species = SPECIES_CLEFFA,
+    .heldItem = ITEM_ORAN_BERRY,
+    .ability = 1, // Magic Guard
+    .spread = SPREAD_31_IV_HP_DEF_BOLD,
+    .moves = MOVE_COPYCAT, MOVE_POUND, MOVE_SING, MOVE_SWEET_KISS
     },
         {
     .lvl = -2,
@@ -74754,11 +74756,11 @@ static const struct TrainerMonItemCustomMoves sParty_BIRCH_1[] = {
     .moves = MOVE_POWER_UP_PUNCH, MOVE_ZING_ZAP, MOVE_MUD_SLAP, MOVE_PARABOLIC_CHARGE
     },
         {
-    .lvl = 0,
-    .species = SPECIES_KANGASKHAN,
+    .lvl = -1,
+    .species = SPECIES_GROWLITHE,
     .heldItem = ITEM_BERRY_JUICE,
-    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
-    .moves = MOVE_FAKE_OUT, MOVE_MUD_SLAP, MOVE_POWER_UP_PUNCH, MOVE_CIRCLE_THROW
+    .spread = SPREAD_31_IV_80_EV,
+    .moves = MOVE_FLAME_BURST, MOVE_TAKE_DOWN, MOVE_REVERSAL, MOVE_AGILITY
     },
         {
     .lvl = 2,
