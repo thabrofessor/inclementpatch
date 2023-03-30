@@ -79,6 +79,76 @@
       "elevation": 0,
       "dest_map": "MAP_HP100",
       "dest_warp_id": 0
+    },
+    {
+      "x": 21,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_ATK100",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 22,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_ATK100",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 25,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_DEF100",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 26,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_DEF100",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 29,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_SP_ATK100",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 30,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_SP_ATK100",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 33,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_SP_DEF100",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 34,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_SP_DEF100",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 37,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_SPEED100",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 38,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_SPEED100",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [

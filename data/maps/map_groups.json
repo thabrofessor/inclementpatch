@@ -116,7 +116,12 @@
     "SpAtkroom",
     "SpDefroom",
     "Speedroom",
-    "HP100"
+    "HP100",
+    "ATK100",
+    "Def100",
+    "SpAtk100",
+    "SpDef100",
+    "Speed100"
   ],
   "gMapGroup_IndoorDewford": [
     "DewfordTown_House1",

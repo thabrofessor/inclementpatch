@@ -4880,6 +4880,56 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/HP100/border.bin",
       "blockdata_filepath": "data/layouts/HP100/map.bin"
+    },
+    {
+      "id": "LAYOUT_ATK100",
+      "name": "ATK100_Layout",
+      "width": 5,
+      "height": 5,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/ATK100/border.bin",
+      "blockdata_filepath": "data/layouts/ATK100/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEF100",
+      "name": "Def100_Layout",
+      "width": 5,
+      "height": 5,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/Def100/border.bin",
+      "blockdata_filepath": "data/layouts/Def100/map.bin"
+    },
+    {
+      "id": "LAYOUT_SP_ATK100",
+      "name": "SpAtk100_Layout",
+      "width": 5,
+      "height": 5,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/SpAtk100/border.bin",
+      "blockdata_filepath": "data/layouts/SpAtk100/map.bin"
+    },
+    {
+      "id": "LAYOUT_SP_DEF100",
+      "name": "SpDef100_Layout",
+      "width": 5,
+      "height": 5,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/SpDef100/border.bin",
+      "blockdata_filepath": "data/layouts/SpDef100/map.bin"
+    },
+    {
+      "id": "LAYOUT_SPEED100",
+      "name": "Speed100_Layout",
+      "width": 5,
+      "height": 5,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/Speed100/border.bin",
+      "blockdata_filepath": "data/layouts/Speed100/map.bin"
     }
   ]
 }
