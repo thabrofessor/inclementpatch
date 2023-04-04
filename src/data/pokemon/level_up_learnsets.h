@@ -248,6 +248,7 @@ static const struct LevelUpMove sKakunaLevelUpLearnset[] = {
 
 static const struct LevelUpMove sBeedrillLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_TWINEEDLE),
+LEVEL_UP_MOVE(0, MOVE_LEECH_LIFE),
     LEVEL_UP_MOVE( 1, MOVE_TOXIC_SPIKES),
 	LEVEL_UP_MOVE(9, MOVE_MORNING_SUN),	
     LEVEL_UP_MOVE(10, MOVE_POISON_JAB),
@@ -256,7 +257,6 @@ static const struct LevelUpMove sBeedrillLevelUpLearnset[] = {
     LEVEL_UP_MOVE(20, MOVE_FOCUS_ENERGY),
     LEVEL_UP_MOVE(23, MOVE_PIN_MISSILE),
     LEVEL_UP_MOVE(26, MOVE_ASSURANCE),
-    LEVEL_UP_MOVE(29, MOVE_LEECH_LIFE),
     LEVEL_UP_MOVE(32, MOVE_DRILL_PECK),
     LEVEL_UP_MOVE(35, MOVE_GUNK_SHOT),
     LEVEL_UP_MOVE(38, MOVE_AGILITY),
@@ -3841,6 +3841,8 @@ static const struct LevelUpMove sTogepiLevelUpLearnset[] = {
 
 static const struct LevelUpMove sTogeticLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_DRAINING_KISS),
+LEVEL_UP_MOVE(0, MOVE_ANCIENT_POWER),
+LEVEL_UP_MOVE(33, MOVE_AIR_SLASH),
     LEVEL_UP_MOVE( 1, MOVE_MAGICAL_LEAF),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_CHARM),
@@ -3852,7 +3854,6 @@ static const struct LevelUpMove sTogeticLevelUpLearnset[] = {
     LEVEL_UP_MOVE(21, MOVE_FOLLOW_ME),
     LEVEL_UP_MOVE(25, MOVE_BESTOW),
     LEVEL_UP_MOVE(29, MOVE_WISH),
-    LEVEL_UP_MOVE(33, MOVE_ANCIENT_POWER),
     LEVEL_UP_MOVE(37, MOVE_SAFEGUARD),
     LEVEL_UP_MOVE(41, MOVE_BATON_PASS),
     LEVEL_UP_MOVE(45, MOVE_DOUBLE_EDGE),
