@@ -352,8 +352,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
-      "x": 27,
-      "y": 4,
+      "x": 24,
+      "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -430,8 +430,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CYNTHIA",
-      "x": 43,
-      "y": 13,
+      "x": 42,
+      "y": 15,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -457,7 +457,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
       "x": 38,
-      "y": 13,
+      "y": 14,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -528,7 +528,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "8",
+      "trainer_sight_or_berry_tree_id": "2",
       "script": "Route116_EventScript_PRYCE_1",
       "flag": "0"
     },
@@ -541,7 +541,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "9",
+      "trainer_sight_or_berry_tree_id": "4",
       "script": "Route116_EventScript_MAGMA_102",
       "flag": "0"
     },
@@ -625,10 +625,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
-      "x": 28,
-      "y": 4,
+      "x": 30,
+      "y": 7,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
@@ -918,14 +918,14 @@
     },
     {
       "x": 46,
-      "y": 15,
+      "y": 17,
       "elevation": 0,
       "dest_map": "MAP_DARKWOODS116",
       "dest_warp_id": 2
     },
     {
       "x": 47,
-      "y": 15,
+      "y": 17,
       "elevation": 0,
       "dest_map": "MAP_DARKWOODS116",
       "dest_warp_id": 2
