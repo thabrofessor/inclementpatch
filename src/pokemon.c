@@ -4073,7 +4073,7 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
         if (CheckBagHasItem(ITEM_SHINY_CHARM, 1))
         {
             u32 shinyValue;
-            u32 rolls = 3333;
+            u32 rolls = 7777;
             do
             {
                 personality = Random32();
