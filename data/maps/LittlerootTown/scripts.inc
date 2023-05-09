@@ -953,6 +953,7 @@ LittlerootTown_EventScript_GiveRunningShoes:: @ 81E8693
 	giveitem ITEM_OLD_ROD
 	giveitem ITEM_POKEBLOCK_CASE
 	giveitem ITEM_EVIOLITE
+	giveitem ITEM_SHINY_CHARM
 	giveitem ITEM_POKE_BALL, 99
 	givemon SPECIES_PICHU, 5, ITEM_LIGHT_BALL
 	setflag FLAG_RECEIVED_OLD_ROD
