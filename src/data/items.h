@@ -8043,8 +8043,7 @@ const struct Item gItems[] =
     {
         .name = _("Shiny Charm"),
         .itemId = ITEM_SHINY_CHARM,
-        .price = 0,
-        .importance = 1,
+        .price = 20000,
         .description = sShinyCharmDesc,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
