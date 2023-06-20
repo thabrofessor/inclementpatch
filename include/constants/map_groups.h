@@ -454,6 +454,7 @@
 #define MAP_DARKWOODS116         (15 | (25 << 8))
 #define MAP_DEEPWOODS116         (16 | (25 << 8))
 #define MAP_OLDWOODS116          (17 | (25 << 8))
+#define MAP_MOUNTAINS_EDGE111    (18 | (25 << 8))
 
 // gMapGroup_IndoorDynamic
 #define MAP_SECRET_BASE_RED_CAVE1    (0 | (26 << 8))

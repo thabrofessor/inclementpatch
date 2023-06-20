@@ -4930,6 +4930,16 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/Speed100/border.bin",
       "blockdata_filepath": "data/layouts/Speed100/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOUNTAINS_EDGE111",
+      "name": "MountainsEdge111_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/MountainsEdge111/border.bin",
+      "blockdata_filepath": "data/layouts/MountainsEdge111/map.bin"
     }
   ]
 }

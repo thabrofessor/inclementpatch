@@ -1162,3 +1162,5 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/SpDef100/scripts.inc"
 
 	.include "data/maps/Speed100/scripts.inc"
+
+	.include "data/maps/MountainsEdge111/scripts.inc"
