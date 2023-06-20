@@ -4940,6 +4940,16 @@
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/MountainsEdge111/border.bin",
       "blockdata_filepath": "data/layouts/MountainsEdge111/map.bin"
+    },
+    {
+      "id": "LAYOUT_DUMMY111NOTOWER",
+      "name": "dummy111notower_Layout",
+      "width": 40,
+      "height": 140,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/dummy111notower/border.bin",
+      "blockdata_filepath": "data/layouts/dummy111notower/map.bin"
     }
   ]
 }
