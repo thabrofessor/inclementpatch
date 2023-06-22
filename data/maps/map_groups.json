@@ -487,7 +487,9 @@
     "Deepwoods116",
     "Oldwoods116",
     "MountainsEdge111",
-    "dummy111notower"
+    "dummy111notower",
+    "SafariEdge121",
+    "SafariLimits121"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

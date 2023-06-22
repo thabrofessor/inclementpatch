@@ -4950,6 +4950,26 @@
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/dummy111notower/border.bin",
       "blockdata_filepath": "data/layouts/dummy111notower/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFARI_EDGE121",
+      "name": "SafariEdge121_Layout",
+      "width": 40,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lilycove",
+      "border_filepath": "data/layouts/SafariEdge121/border.bin",
+      "blockdata_filepath": "data/layouts/SafariEdge121/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFARI_LIMITS121",
+      "name": "SafariLimits121_Layout",
+      "width": 40,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lilycove",
+      "border_filepath": "data/layouts/SafariLimits121/border.bin",
+      "blockdata_filepath": "data/layouts/SafariLimits121/map.bin"
     }
   ]
 }
