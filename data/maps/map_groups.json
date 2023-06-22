@@ -492,7 +492,10 @@
     "SafariLimits121",
     "TheLowHills120",
     "TheHills120",
-    "TheHighlands120"
+    "TheHighlands120",
+    "LowLands120",
+    "WetLands120",
+    "SwampLands120"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

@@ -1176,3 +1176,9 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/TheHills120/scripts.inc"
 
 	.include "data/maps/TheHighlands120/scripts.inc"
+
+	.include "data/maps/LowLands120/scripts.inc"
+
+	.include "data/maps/WetLands120/scripts.inc"
+
+	.include "data/maps/SwampLands120/scripts.inc"
