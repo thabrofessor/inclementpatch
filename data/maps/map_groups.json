@@ -489,7 +489,10 @@
     "MountainsEdge111",
     "dummy111notower",
     "SafariEdge121",
-    "SafariLimits121"
+    "SafariLimits121",
+    "TheLowHills120",
+    "TheHills120",
+    "TheHighlands120"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

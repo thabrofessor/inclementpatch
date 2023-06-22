@@ -4970,6 +4970,36 @@
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/SafariLimits121/border.bin",
       "blockdata_filepath": "data/layouts/SafariLimits121/map.bin"
+    },
+    {
+      "id": "LAYOUT_THE_LOW_HILLS120",
+      "name": "TheLowHills120_Layout",
+      "width": 20,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fortree",
+      "border_filepath": "data/layouts/TheLowHills120/border.bin",
+      "blockdata_filepath": "data/layouts/TheLowHills120/map.bin"
+    },
+    {
+      "id": "LAYOUT_THE_HILLS120",
+      "name": "TheHills120_Layout",
+      "width": 20,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fortree",
+      "border_filepath": "data/layouts/TheHills120/border.bin",
+      "blockdata_filepath": "data/layouts/TheHills120/map.bin"
+    },
+    {
+      "id": "LAYOUT_THE_HIGHLANDS120",
+      "name": "TheHighlands120_Layout",
+      "width": 20,
+      "height": 80,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fortree",
+      "border_filepath": "data/layouts/TheHighlands120/border.bin",
+      "blockdata_filepath": "data/layouts/TheHighlands120/map.bin"
     }
   ]
 }

@@ -1170,3 +1170,9 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/SafariEdge121/scripts.inc"
 
 	.include "data/maps/SafariLimits121/scripts.inc"
+
+	.include "data/maps/TheLowHills120/scripts.inc"
+
+	.include "data/maps/TheHills120/scripts.inc"
+
+	.include "data/maps/TheHighlands120/scripts.inc"

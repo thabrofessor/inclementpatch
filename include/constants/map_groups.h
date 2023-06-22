@@ -458,6 +458,9 @@
 #define MAP_DUMMY111NOTOWER      (19 | (25 << 8))
 #define MAP_SAFARI_EDGE121       (20 | (25 << 8))
 #define MAP_SAFARI_LIMITS121     (21 | (25 << 8))
+#define MAP_THE_LOW_HILLS120     (22 | (25 << 8))
+#define MAP_THE_HILLS120         (23 | (25 << 8))
+#define MAP_THE_HIGHLANDS120     (24 | (25 << 8))
 
 // gMapGroup_IndoorDynamic
 #define MAP_SECRET_BASE_RED_CAVE1    (0 | (26 << 8))
