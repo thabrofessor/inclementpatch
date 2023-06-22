@@ -612,6 +612,90 @@
       "elevation": 1,
       "dest_map": "MAP_SCORCHED_SLAB",
       "dest_warp_id": 0
+    },
+    {
+      "x": 15,
+      "y": 90,
+      "elevation": 0,
+      "dest_map": "MAP_THE_LOW_HILLS120",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 16,
+      "y": 90,
+      "elevation": 0,
+      "dest_map": "MAP_THE_LOW_HILLS120",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 17,
+      "y": 82,
+      "elevation": 0,
+      "dest_map": "MAP_THE_LOW_HILLS120",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 18,
+      "y": 82,
+      "elevation": 0,
+      "dest_map": "MAP_THE_LOW_HILLS120",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 2,
+      "y": 76,
+      "elevation": 0,
+      "dest_map": "MAP_THE_HILLS120",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 3,
+      "y": 76,
+      "elevation": 0,
+      "dest_map": "MAP_THE_HILLS120",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 0,
+      "y": 89,
+      "elevation": 0,
+      "dest_map": "MAP_THE_HILLS120",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 1,
+      "y": 89,
+      "elevation": 0,
+      "dest_map": "MAP_THE_HILLS120",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 17,
+      "y": 76,
+      "elevation": 0,
+      "dest_map": "MAP_THE_HIGHLANDS120",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 18,
+      "y": 76,
+      "elevation": 0,
+      "dest_map": "MAP_THE_HIGHLANDS120",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 6,
+      "y": 47,
+      "elevation": 0,
+      "dest_map": "MAP_THE_HIGHLANDS120",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 7,
+      "y": 47,
+      "elevation": 0,
+      "dest_map": "MAP_THE_HIGHLANDS120",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [
