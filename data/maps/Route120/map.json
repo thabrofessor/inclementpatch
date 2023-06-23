@@ -615,87 +615,171 @@
     },
     {
       "x": 15,
-      "y": 90,
+      "y": 89,
       "elevation": 0,
       "dest_map": "MAP_THE_LOW_HILLS120",
       "dest_warp_id": 0
     },
     {
       "x": 16,
-      "y": 90,
+      "y": 89,
       "elevation": 0,
       "dest_map": "MAP_THE_LOW_HILLS120",
       "dest_warp_id": 0
     },
     {
       "x": 17,
-      "y": 82,
+      "y": 81,
       "elevation": 0,
       "dest_map": "MAP_THE_LOW_HILLS120",
       "dest_warp_id": 2
     },
     {
       "x": 18,
-      "y": 82,
+      "y": 81,
       "elevation": 0,
       "dest_map": "MAP_THE_LOW_HILLS120",
       "dest_warp_id": 2
     },
     {
       "x": 2,
-      "y": 76,
+      "y": 75,
       "elevation": 0,
       "dest_map": "MAP_THE_HILLS120",
       "dest_warp_id": 0
     },
     {
       "x": 3,
-      "y": 76,
+      "y": 75,
       "elevation": 0,
       "dest_map": "MAP_THE_HILLS120",
       "dest_warp_id": 0
     },
     {
       "x": 0,
-      "y": 89,
+      "y": 88,
       "elevation": 0,
       "dest_map": "MAP_THE_HILLS120",
       "dest_warp_id": 2
     },
     {
       "x": 1,
-      "y": 89,
+      "y": 88,
       "elevation": 0,
       "dest_map": "MAP_THE_HILLS120",
       "dest_warp_id": 2
     },
     {
       "x": 17,
-      "y": 76,
+      "y": 75,
       "elevation": 0,
       "dest_map": "MAP_THE_HIGHLANDS120",
       "dest_warp_id": 2
     },
     {
       "x": 18,
-      "y": 76,
+      "y": 75,
       "elevation": 0,
       "dest_map": "MAP_THE_HIGHLANDS120",
       "dest_warp_id": 2
     },
     {
       "x": 6,
-      "y": 47,
+      "y": 46,
       "elevation": 0,
       "dest_map": "MAP_THE_HIGHLANDS120",
       "dest_warp_id": 0
     },
     {
       "x": 7,
-      "y": 47,
+      "y": 46,
       "elevation": 0,
       "dest_map": "MAP_THE_HIGHLANDS120",
       "dest_warp_id": 0
+    },
+    {
+      "x": 38,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_LOW_LANDS120",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 39,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_LOW_LANDS120",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 38,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_LOW_LANDS120",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 39,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_LOW_LANDS120",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 3,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_WET_LANDS120",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_WET_LANDS120",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 2,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_WET_LANDS120",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 3,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_WET_LANDS120",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 28,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_SWAMP_LANDS120",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 29,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_SWAMP_LANDS120",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 27,
+      "y": 41,
+      "elevation": 0,
+      "dest_map": "MAP_SWAMP_LANDS120",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 28,
+      "y": 41,
+      "elevation": 0,
+      "dest_map": "MAP_SWAMP_LANDS120",
+      "dest_warp_id": 2
     }
   ],
   "coord_events": [
