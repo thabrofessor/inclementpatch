@@ -495,7 +495,10 @@
     "TheHighlands120",
     "LowLands120",
     "WetLands120",
-    "SwampLands120"
+    "SwampLands120",
+    "LowLands119",
+    "WetLands119",
+    "SwampLands119"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

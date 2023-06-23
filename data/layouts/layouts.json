@@ -5030,6 +5030,36 @@
       "secondary_tileset": "gTileset_Fortree",
       "border_filepath": "data/layouts/SwampLands120/border.bin",
       "blockdata_filepath": "data/layouts/SwampLands120/map.bin"
+    },
+    {
+      "id": "LAYOUT_LOW_LANDS119",
+      "name": "LowLands119_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fortree",
+      "border_filepath": "data/layouts/LowLands119/border.bin",
+      "blockdata_filepath": "data/layouts/LowLands119/map.bin"
+    },
+    {
+      "id": "LAYOUT_WET_LANDS119",
+      "name": "WetLands119_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fortree",
+      "border_filepath": "data/layouts/WetLands119/border.bin",
+      "blockdata_filepath": "data/layouts/WetLands119/map.bin"
+    },
+    {
+      "id": "LAYOUT_SWAMP_LANDS119",
+      "name": "SwampLands119_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fortree",
+      "border_filepath": "data/layouts/SwampLands119/border.bin",
+      "blockdata_filepath": "data/layouts/SwampLands119/map.bin"
     }
   ]
 }

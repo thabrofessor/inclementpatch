@@ -464,6 +464,9 @@
 #define MAP_LOW_LANDS120         (25 | (25 << 8))
 #define MAP_WET_LANDS120         (26 | (25 << 8))
 #define MAP_SWAMP_LANDS120       (27 | (25 << 8))
+#define MAP_LOW_LANDS119         (28 | (25 << 8))
+#define MAP_WET_LANDS119         (29 | (25 << 8))
+#define MAP_SWAMP_LANDS119       (30 | (25 << 8))
 
 // gMapGroup_IndoorDynamic
 #define MAP_SECRET_BASE_RED_CAVE1    (0 | (26 << 8))
