@@ -5090,6 +5090,46 @@
       "secondary_tileset": "gTileset_Fortree",
       "border_filepath": "data/layouts/UpLands119/border.bin",
       "blockdata_filepath": "data/layouts/UpLands119/map.bin"
+    },
+    {
+      "id": "LAYOUT_HILLS113",
+      "name": "Hills113_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fallarbor",
+      "border_filepath": "data/layouts/Hills113/border.bin",
+      "blockdata_filepath": "data/layouts/Hills113/map.bin"
+    },
+    {
+      "id": "LAYOUT_SMOLDERING_HILLS113",
+      "name": "SmolderingHills113_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fallarbor",
+      "border_filepath": "data/layouts/SmolderingHills113/border.bin",
+      "blockdata_filepath": "data/layouts/SmolderingHills113/map.bin"
+    },
+    {
+      "id": "LAYOUT_ASH_HILLS113",
+      "name": "AshHills113_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fallarbor",
+      "border_filepath": "data/layouts/AshHills113/border.bin",
+      "blockdata_filepath": "data/layouts/AshHills113/map.bin"
+    },
+    {
+      "id": "LAYOUT_HIGHLANDS113",
+      "name": "Highlands113_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fallarbor",
+      "border_filepath": "data/layouts/Highlands113/border.bin",
+      "blockdata_filepath": "data/layouts/Highlands113/map.bin"
     }
   ]
 }

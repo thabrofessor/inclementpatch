@@ -1,7 +1,7 @@
 {
-  "id": "MAP_HILLS119",
-  "name": "Hills119",
-  "layout": "LAYOUT_HILLS119",
+  "id": "MAP_HIGHLANDS113",
+  "name": "Highlands113",
+  "layout": "LAYOUT_HIGHLANDS113",
   "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
@@ -18,32 +18,32 @@
   ],
   "warp_events": [
     {
-      "x": 0,
-      "y": 12,
+      "x": 15,
+      "y": 18,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE119",
-      "dest_warp_id": 16
+      "dest_map": "MAP_ROUTE113",
+      "dest_warp_id": 15
     },
     {
-      "x": 1,
-      "y": 12,
+      "x": 16,
+      "y": 18,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE119",
-      "dest_warp_id": 16
+      "dest_map": "MAP_ROUTE113",
+      "dest_warp_id": 15
     },
     {
-      "x": 38,
-      "y": 19,
+      "x": 3,
+      "y": 18,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE119",
-      "dest_warp_id": 18
+      "dest_map": "MAP_ROUTE113",
+      "dest_warp_id": 17
     },
     {
-      "x": 39,
-      "y": 19,
+      "x": 4,
+      "y": 18,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE119",
-      "dest_warp_id": 18
+      "dest_map": "MAP_ROUTE113",
+      "dest_warp_id": 17
     }
   ],
   "coord_events": [

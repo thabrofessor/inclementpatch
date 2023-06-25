@@ -533,6 +533,118 @@
       "elevation": 0,
       "dest_map": "MAP_TERRA_CAVE_ENTRANCE",
       "dest_warp_id": 0
+    },
+    {
+      "x": 69,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_SMOLDERING_HILLS113",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 70,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_SMOLDERING_HILLS113",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 61,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_SMOLDERING_HILLS113",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 62,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_SMOLDERING_HILLS113",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 51,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_ASH_HILLS113",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 52,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_ASH_HILLS113",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 47,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_ASH_HILLS113",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 48,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_ASH_HILLS113",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 40,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_HILLS113",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 41,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_HILLS113",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 29,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_HILLS113",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 30,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_HILLS113",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 52,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_HIGHLANDS113",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 53,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_HIGHLANDS113",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 36,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_HIGHLANDS113",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 37,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_HIGHLANDS113",
+      "dest_warp_id": 2
     }
   ],
   "coord_events": [

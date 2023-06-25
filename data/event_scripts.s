@@ -1194,3 +1194,11 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/Hills119/scripts.inc"
 
 	.include "data/maps/UpLands119/scripts.inc"
+
+	.include "data/maps/Hills113/scripts.inc"
+
+	.include "data/maps/SmolderingHills113/scripts.inc"
+
+	.include "data/maps/AshHills113/scripts.inc"
+
+	.include "data/maps/Highlands113/scripts.inc"
