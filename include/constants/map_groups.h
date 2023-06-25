@@ -474,6 +474,12 @@
 #define MAP_SMOLDERING_HILLS113  (35 | (25 << 8))
 #define MAP_ASH_HILLS113         (36 | (25 << 8))
 #define MAP_HIGHLANDS113         (37 | (25 << 8))
+#define MAP_EDGE_DUNES111        (38 | (25 << 8))
+#define MAP_LOW_DUNES111         (39 | (25 << 8))
+#define MAP_DUNES111             (40 | (25 << 8))
+#define MAP_INNER_DUNES111       (41 | (25 << 8))
+#define MAP_HIGH_DUNES111        (42 | (25 << 8))
+#define MAP_ASH_DUNES111         (43 | (25 << 8))
 
 // gMapGroup_IndoorDynamic
 #define MAP_SECRET_BASE_RED_CAVE1    (0 | (26 << 8))

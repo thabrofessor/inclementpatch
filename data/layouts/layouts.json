@@ -5130,6 +5130,66 @@
       "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/Highlands113/border.bin",
       "blockdata_filepath": "data/layouts/Highlands113/map.bin"
+    },
+    {
+      "id": "LAYOUT_EDGE_DUNES111",
+      "name": "EdgeDunes111_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/EdgeDunes111/border.bin",
+      "blockdata_filepath": "data/layouts/EdgeDunes111/map.bin"
+    },
+    {
+      "id": "LAYOUT_LOW_DUNES111",
+      "name": "LowDunes111_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/LowDunes111/border.bin",
+      "blockdata_filepath": "data/layouts/LowDunes111/map.bin"
+    },
+    {
+      "id": "LAYOUT_DUNES111",
+      "name": "Dunes111_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/Dunes111/border.bin",
+      "blockdata_filepath": "data/layouts/Dunes111/map.bin"
+    },
+    {
+      "id": "LAYOUT_INNER_DUNES111",
+      "name": "InnerDunes111_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/InnerDunes111/border.bin",
+      "blockdata_filepath": "data/layouts/InnerDunes111/map.bin"
+    },
+    {
+      "id": "LAYOUT_HIGH_DUNES111",
+      "name": "HighDunes111_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/HighDunes111/border.bin",
+      "blockdata_filepath": "data/layouts/HighDunes111/map.bin"
+    },
+    {
+      "id": "LAYOUT_ASH_DUNES111",
+      "name": "AshDunes111_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/AshDunes111/border.bin",
+      "blockdata_filepath": "data/layouts/AshDunes111/map.bin"
     }
   ]
 }

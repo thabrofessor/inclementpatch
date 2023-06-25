@@ -1,11 +1,11 @@
 {
-  "id": "MAP_WATER_FALL_CAVE119",
-  "name": "WaterFallCave119",
-  "layout": "LAYOUT_WATER_FALL_CAVE119",
+  "id": "MAP_HIGH_DUNES111",
+  "name": "HighDunes111",
+  "layout": "LAYOUT_HIGH_DUNES111",
   "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
-  "weather": "WEATHER_RAIN",
+  "weather": "WEATHER_SANDSTORM",
   "map_type": "MAP_TYPE_ROUTE",
   "allow_cycling": true,
   "allow_escaping": true,
@@ -17,20 +17,7 @@
 
   ],
   "warp_events": [
-    {
-      "x": 4,
-      "y": 16,
-      "elevation": 0,
-      "dest_map": "MAP_ROUTE119",
-      "dest_warp_id": 14
-    },
-    {
-      "x": 26,
-      "y": 16,
-      "elevation": 0,
-      "dest_map": "MAP_ROUTE119",
-      "dest_warp_id": 15
-    }
+
   ],
   "coord_events": [
 

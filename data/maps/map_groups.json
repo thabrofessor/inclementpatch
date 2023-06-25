@@ -505,7 +505,13 @@
     "Hills113",
     "SmolderingHills113",
     "AshHills113",
-    "Highlands113"
+    "Highlands113",
+    "EdgeDunes111",
+    "LowDunes111",
+    "Dunes111",
+    "InnerDunes111",
+    "HighDunes111",
+    "AshDunes111"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",
