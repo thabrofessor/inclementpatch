@@ -5070,6 +5070,26 @@
       "secondary_tileset": "gTileset_RusturfTunnel",
       "border_filepath": "data/layouts/WaterFallCave119/border.bin",
       "blockdata_filepath": "data/layouts/WaterFallCave119/map.bin"
+    },
+    {
+      "id": "LAYOUT_HILLS119",
+      "name": "Hills119_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fortree",
+      "border_filepath": "data/layouts/Hills119/border.bin",
+      "blockdata_filepath": "data/layouts/Hills119/map.bin"
+    },
+    {
+      "id": "LAYOUT_UP_LANDS119",
+      "name": "UpLands119_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fortree",
+      "border_filepath": "data/layouts/UpLands119/border.bin",
+      "blockdata_filepath": "data/layouts/UpLands119/map.bin"
     }
   ]
 }

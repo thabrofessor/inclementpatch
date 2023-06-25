@@ -1190,3 +1190,7 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/SwampLands119/scripts.inc"
 
 	.include "data/maps/WaterFallCave119/scripts.inc"
+
+	.include "data/maps/Hills119/scripts.inc"
+
+	.include "data/maps/UpLands119/scripts.inc"
