@@ -1214,3 +1214,5 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/HighDunes111/scripts.inc"
 
 	.include "data/maps/AshDunes111/scripts.inc"
+
+	.include "data/maps/Foothills112/scripts.inc"

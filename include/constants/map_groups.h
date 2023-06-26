@@ -480,6 +480,7 @@
 #define MAP_INNER_DUNES111       (41 | (25 << 8))
 #define MAP_HIGH_DUNES111        (42 | (25 << 8))
 #define MAP_ASH_DUNES111         (43 | (25 << 8))
+#define MAP_FOOTHILLS112         (44 | (25 << 8))
 
 // gMapGroup_IndoorDynamic
 #define MAP_SECRET_BASE_RED_CAVE1    (0 | (26 << 8))
