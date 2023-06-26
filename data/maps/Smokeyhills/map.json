@@ -1,7 +1,7 @@
 {
-  "id": "MAP_FOOTHILLS112",
-  "name": "Foothills112",
-  "layout": "LAYOUT_FOOTHILLS112",
+  "id": "MAP_SMOKEYHILLS",
+  "name": "Smokeyhills",
+  "layout": "LAYOUT_SMOKEYHILLS",
   "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,

@@ -512,7 +512,9 @@
     "InnerDunes111",
     "HighDunes111",
     "AshDunes111",
-    "Foothills112"
+    "Foothills112",
+    "Smokeyhills",
+    "SandHills112"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",
