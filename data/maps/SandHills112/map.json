@@ -17,7 +17,34 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 18,
+      "y": 0,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE112",
+      "dest_warp_id": 15
+    },
+    {
+      "x": 19,
+      "y": 0,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE112",
+      "dest_warp_id": 15
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE112",
+      "dest_warp_id": 17
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE112",
+      "dest_warp_id": 17
+    }
   ],
   "coord_events": [
 
