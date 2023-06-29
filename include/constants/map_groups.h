@@ -483,6 +483,7 @@
 #define MAP_FOOTHILLS112         (44 | (25 << 8))
 #define MAP_SMOKEYHILLS          (45 | (25 << 8))
 #define MAP_SAND_HILLS112        (46 | (25 << 8))
+#define MAP_HOTSPRING_CAVE112    (47 | (25 << 8))
 
 // gMapGroup_IndoorDynamic
 #define MAP_SECRET_BASE_RED_CAVE1    (0 | (26 << 8))

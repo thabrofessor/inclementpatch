@@ -1220,3 +1220,5 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/Smokeyhills/scripts.inc"
 
 	.include "data/maps/SandHills112/scripts.inc"
+
+	.include "data/maps/HotspringCave112/scripts.inc"
