@@ -17,7 +17,34 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 38,
+      "y": 33,
+      "elevation": 0,
+      "dest_map": "MAP_SAFARI_OUTSKIRTS",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 39,
+      "y": 33,
+      "elevation": 0,
+      "dest_map": "MAP_SAFARI_OUTSKIRTS",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 38,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_SAFRI_WILDS",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 39,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_SAFRI_WILDS",
+      "dest_warp_id": 0
+    }
   ],
   "coord_events": [
 
