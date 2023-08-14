@@ -484,6 +484,14 @@
 #define MAP_SMOKEYHILLS          (45 | (25 << 8))
 #define MAP_SAND_HILLS112        (46 | (25 << 8))
 #define MAP_HOTSPRING_CAVE112    (47 | (25 << 8))
+#define MAP_SAFARI_OUTSKIRTS     (48 | (25 << 8))
+#define MAP_SAFARI_BUSHLANDS     (49 | (25 << 8))
+#define MAP_SAFRI_WILDS          (50 | (25 << 8))
+#define MAP_SAFARI_OUTBACK       (51 | (25 << 8))
+#define MAP_SAFARI_BACKCOUNTRY   (52 | (25 << 8))
+#define MAP_SAFARI_REMOTES       (53 | (25 << 8))
+#define MAP_SAFARI_WILDERNESS    (54 | (25 << 8))
+#define MAP_SAFARI_TRAILS        (55 | (25 << 8))
 
 // gMapGroup_IndoorDynamic
 #define MAP_SECRET_BASE_RED_CAVE1    (0 | (26 << 8))

@@ -1222,3 +1222,19 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/SandHills112/scripts.inc"
 
 	.include "data/maps/HotspringCave112/scripts.inc"
+
+	.include "data/maps/SafariOutskirts/scripts.inc"
+
+	.include "data/maps/SafariBushlands/scripts.inc"
+
+	.include "data/maps/SafriWilds/scripts.inc"
+
+	.include "data/maps/SafariOutback/scripts.inc"
+
+	.include "data/maps/SafariBackcountry/scripts.inc"
+
+	.include "data/maps/SafariRemotes/scripts.inc"
+
+	.include "data/maps/SafariWilderness/scripts.inc"
+
+	.include "data/maps/SafariTrails/scripts.inc"

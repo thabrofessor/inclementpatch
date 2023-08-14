@@ -515,7 +515,15 @@
     "Foothills112",
     "Smokeyhills",
     "SandHills112",
-    "HotspringCave112"
+    "HotspringCave112",
+    "SafariOutskirts",
+    "SafariBushlands",
+    "SafriWilds",
+    "SafariOutback",
+    "SafariBackcountry",
+    "SafariRemotes",
+    "SafariWilderness",
+    "SafariTrails"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",
