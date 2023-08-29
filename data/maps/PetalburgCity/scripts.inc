@@ -817,7 +817,7 @@ PetalburgCity_EventScript_LORELIE_1:: @ 81EC1B3
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-PetalburgCity_EventScript_KAREN_1:: @ 81EC1B3
+PetalburgCity_EventScript_KAREN_1A:: @ 81EC1B3
 	trainerbattle_single TRAINER_KAREN_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
