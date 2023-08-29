@@ -23130,6 +23130,7 @@ const struct BaseStats gBaseStats[] =
         .catchRate = 190,
         .expYield = 37,
         .evYield_SpAttack  = 1,
+        .item1 = ITEM_ICE_STONE,
         .item2 = ITEM_SNOWBALL,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
