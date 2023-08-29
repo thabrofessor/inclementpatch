@@ -3035,7 +3035,7 @@ static const struct TrainerMonItemCustomMoves sParty_Jose[] = { // Route 116
     }	
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Karen1[] = { // Route 116
+static const struct TrainerMonItemCustomMoves sParty_Karen_1[] = { // Route 116
     {
     .lvl = -1,
     .species = SPECIES_FOMANTIS,
@@ -80401,13 +80401,12 @@ static const struct TrainerMonItemCustomMoves sParty_FANS_1[] = {
     .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
     .moves = MOVE_ENDURE, MOVE_POUND, MOVE_DEFENSE_CURL, MOVE_BABY_DOLL_EYES
     },
-        {
+     {
     .lvl = -3,
-    .species = SPECIES_ARCTOZOLT,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .ability = 2, // SLUSH RUSH
+    .species = SPECIES_ELEKID,
+    .heldItem = ITEM_BERRY_JUICE,	    
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_POWDER_SNOW, MOVE_THUNDER_SHOCK, MOVE_THUNDER_WAVE, MOVE_SWAGGER
+    .moves = MOVE_LOW_KICK, MOVE_THUNDER_PUNCH, MOVE_BARRIER, MOVE_KARATE_CHOP
     },
 };
 
