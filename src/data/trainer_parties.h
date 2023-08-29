@@ -3035,7 +3035,7 @@ static const struct TrainerMonItemCustomMoves sParty_Jose[] = { // Route 116
     }	
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Karen_1[] = { // Route 116
+static const struct TrainerMonItemCustomMoves sParty_Karen1[] = { // Route 116
     {
     .lvl = -1,
     .species = SPECIES_FOMANTIS,
