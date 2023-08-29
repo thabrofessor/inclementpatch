@@ -492,6 +492,7 @@
 #define MAP_SAFARI_REMOTES       (53 | (25 << 8))
 #define MAP_SAFARI_WILDERNESS    (54 | (25 << 8))
 #define MAP_SAFARI_TRAILS        (55 | (25 << 8))
+#define MAP_BACKWOODS103         (56 | (25 << 8))
 
 // gMapGroup_IndoorDynamic
 #define MAP_SECRET_BASE_RED_CAVE1    (0 | (26 << 8))

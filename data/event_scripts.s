@@ -1238,3 +1238,5 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/SafariWilderness/scripts.inc"
 
 	.include "data/maps/SafariTrails/scripts.inc"
+
+	.include "data/maps/Backwoods103/scripts.inc"

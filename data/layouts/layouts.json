@@ -5310,6 +5310,16 @@
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/SafariTrails/border.bin",
       "blockdata_filepath": "data/layouts/SafariTrails/map.bin"
+    },
+    {
+      "id": "LAYOUT_BACKWOODS103",
+      "name": "Backwoods103_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Backwoods103/border.bin",
+      "blockdata_filepath": "data/layouts/Backwoods103/map.bin"
     }
   ]
 }
