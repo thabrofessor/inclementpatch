@@ -9126,9 +9126,9 @@ u8 GetLevelCap(void)
     u8 levelCapSetting = gSaveBlock2Ptr->levelCaps;
     u16 currentBadge = getHighestBadge();
 
-    static const u8 levelCapsStandard[] = {101, 101, 101, 101, 101, 101, 101, 101, 101, 101};
-    static const u8 levelCapsMore[] =     {10, 15, 25, 35,  50,  65,  80,  92,  95, 101};
-    static const u8 levelCapsStrict[] =   {10, 15, 25, 35,  45,  55,  60,  70,  80, 101};
+    static const u8 levelCapsStandard[] = {10, 16, 25, 36,  50,  65,  80,  92,  101, 101};
+    static const u8 levelCapsMore[] =     {10, 15, 25, 35,  55,  65,  80,  85,  90,  101};
+    static const u8 levelCapsStrict[] =   {10, 15, 25, 35,  45,  55,  65,  75,  90,  101};
 
     switch (levelCapSetting)
     {
