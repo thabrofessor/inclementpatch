@@ -1240,3 +1240,41 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/SafariTrails/scripts.inc"
 
 	.include "data/maps/Backwoods103/scripts.inc"
+
+	.include "data/maps/Backwoods104/scripts.inc"
+
+	.include "data/maps/OceansEdge104/scripts.inc"
+
+	.include "data/maps/DewfordGarden1/scripts.inc"
+
+	.include "data/maps/DewfordGarden2/scripts.inc"
+
+	.include "data/maps/DewfordGarden3/scripts.inc"
+
+	.include "data/maps/DewfordGarden4/scripts.inc"
+
+	.include "data/maps/DewfordGarden5/scripts.inc"
+
+	.include "data/maps/DewfordGarden6/scripts.inc"
+
+	.include "data/maps/DewfordGarden7/scripts.inc"
+
+	.include "data/maps/DewfordGarden8/scripts.inc"
+
+	.include "data/maps/DewfordGarden9/scripts.inc"
+
+	.include "data/maps/DewfordGarden10/scripts.inc"
+
+	.include "data/maps/DewfordGarden11/scripts.inc"
+
+	.include "data/maps/DewfordGarden12/scripts.inc"
+
+	.include "data/maps/PetalburgMistwood/scripts.inc"
+
+	.include "data/maps/PetalburgWebwood/scripts.inc"
+
+	.include "data/maps/PetalburgVinewood/scripts.inc"
+
+	.include "data/maps/PetalburgMosswood/scripts.inc"
+
+	.include "data/maps/PetalburgTallwoods/scripts.inc"

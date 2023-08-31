@@ -5320,6 +5320,196 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/Backwoods103/border.bin",
       "blockdata_filepath": "data/layouts/Backwoods103/map.bin"
+    },
+    {
+      "id": "LAYOUT_BACKWOODS104",
+      "name": "Backwoods104_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Backwoods104/border.bin",
+      "blockdata_filepath": "data/layouts/Backwoods104/map.bin"
+    },
+    {
+      "id": "LAYOUT_OCEANS_EDGE104",
+      "name": "OceansEdge104_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/OceansEdge104/border.bin",
+      "blockdata_filepath": "data/layouts/OceansEdge104/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_GARDEN1",
+      "name": "DewfordGarden1_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/DewfordGarden1/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordGarden1/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_GARDEN2",
+      "name": "DewfordGarden2_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/DewfordGarden2/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordGarden2/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_GARDEN3",
+      "name": "DewfordGarden3_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/DewfordGarden3/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordGarden3/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_GARDEN4",
+      "name": "DewfordGarden4_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/DewfordGarden4/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordGarden4/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_GARDEN5",
+      "name": "DewfordGarden5_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/DewfordGarden5/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordGarden5/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_GARDEN6",
+      "name": "DewfordGarden6_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/DewfordGarden6/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordGarden6/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_GARDEN7",
+      "name": "DewfordGarden7_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/DewfordGarden7/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordGarden7/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_GARDEN8",
+      "name": "DewfordGarden8_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/DewfordGarden8/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordGarden8/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_GARDEN9",
+      "name": "DewfordGarden9_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/DewfordGarden9/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordGarden9/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_GARDEN10",
+      "name": "DewfordGarden10_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/DewfordGarden10/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordGarden10/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_GARDEN11",
+      "name": "DewfordGarden11_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/DewfordGarden11/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordGarden11/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_GARDEN12",
+      "name": "DewfordGarden12_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/DewfordGarden12/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordGarden12/map.bin"
+    },
+    {
+      "id": "LAYOUT_PETALBURG_MISTWOOD",
+      "name": "PetalburgMistwood_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/PetalburgMistwood/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgMistwood/map.bin"
+    },
+    {
+      "id": "LAYOUT_PETALBURG_WEBWOOD",
+      "name": "PetalburgWebwood_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/PetalburgWebwood/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgWebwood/map.bin"
+    },
+    {
+      "id": "LAYOUT_PETALBURG_VINEWOOD",
+      "name": "PetalburgVinewood_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/PetalburgVinewood/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgVinewood/map.bin"
+    },
+    {
+      "id": "LAYOUT_PETALBURG_MOSSWOOD",
+      "name": "PetalburgMosswood_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/PetalburgMosswood/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgMosswood/map.bin"
+    },
+    {
+      "id": "LAYOUT_PETALBURG_TALLWOODS",
+      "name": "PetalburgTallwoods_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/PetalburgTallwoods/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgTallwoods/map.bin"
     }
   ]
 }
