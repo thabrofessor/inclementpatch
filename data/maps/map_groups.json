@@ -543,7 +543,15 @@
     "PetalburgWebwood",
     "PetalburgVinewood",
     "PetalburgMosswood",
-    "PetalburgTallwoods"
+    "PetalburgTallwoods",
+    "PetalburgSaplings",
+    "PetalburgShadewood",
+    "DewfordHights",
+    "DewfordDunes",
+    "DewfordBacksand",
+    "DewfordHighsands",
+    "MannorGrave",
+    "MannorGravestones"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

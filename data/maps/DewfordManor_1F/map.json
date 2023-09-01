@@ -133,14 +133,14 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_2",
-      "x": 9,
-      "y": 8,
+      "x": 1,
+      "y": 2,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "4",
+      "trainer_sight_or_berry_tree_id": "8",
       "script": "DewfordManor_1F_EventScript_GALACTIC_13",
       "flag": "0"
     },
@@ -172,14 +172,14 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_2",
-      "x": 12,
-      "y": 6,
+      "x": 20,
+      "y": 3,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "3",
+      "trainer_sight_or_berry_tree_id": "9",
       "script": "DewfordManor_1F_EventScript_GALACTIC_24",
       "flag": "0"
     },
@@ -292,7 +292,7 @@
       "x": 16,
       "y": 5,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
@@ -498,6 +498,20 @@
       "elevation": 0,
       "dest_map": "MAP_DEWFORD_MEADOW",
       "dest_warp_id": 1
+    },
+    {
+      "x": 6,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_MANNOR_GRAVESTONES",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 18,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_MANNOR_GRAVE",
+      "dest_warp_id": 2
     }
   ],
   "coord_events": [

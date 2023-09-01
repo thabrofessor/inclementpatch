@@ -5510,6 +5510,86 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/PetalburgTallwoods/border.bin",
       "blockdata_filepath": "data/layouts/PetalburgTallwoods/map.bin"
+    },
+    {
+      "id": "LAYOUT_PETALBURG_SAPLINGS",
+      "name": "PetalburgSaplings_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/PetalburgSaplings/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgSaplings/map.bin"
+    },
+    {
+      "id": "LAYOUT_PETALBURG_SHADEWOOD",
+      "name": "PetalburgShadewood_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/PetalburgShadewood/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgShadewood/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_HIGHTS",
+      "name": "DewfordHights_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/DewfordHights/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordHights/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_DUNES",
+      "name": "DewfordDunes_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/DewfordDunes/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordDunes/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_BACKSAND",
+      "name": "DewfordBacksand_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/DewfordBacksand/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordBacksand/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_HIGHSANDS",
+      "name": "DewfordHighsands_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/DewfordHighsands/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordHighsands/map.bin"
+    },
+    {
+      "id": "LAYOUT_MANNOR_GRAVE",
+      "name": "MannorGrave_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/MannorGrave/border.bin",
+      "blockdata_filepath": "data/layouts/MannorGrave/map.bin"
+    },
+    {
+      "id": "LAYOUT_MANNOR_GRAVESTONES",
+      "name": "MannorGravestones_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/MannorGravestones/border.bin",
+      "blockdata_filepath": "data/layouts/MannorGravestones/map.bin"
     }
   ]
 }

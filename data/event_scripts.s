@@ -1278,3 +1278,19 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/PetalburgMosswood/scripts.inc"
 
 	.include "data/maps/PetalburgTallwoods/scripts.inc"
+
+	.include "data/maps/PetalburgSaplings/scripts.inc"
+
+	.include "data/maps/PetalburgShadewood/scripts.inc"
+
+	.include "data/maps/DewfordHights/scripts.inc"
+
+	.include "data/maps/DewfordDunes/scripts.inc"
+
+	.include "data/maps/DewfordBacksand/scripts.inc"
+
+	.include "data/maps/DewfordHighsands/scripts.inc"
+
+	.include "data/maps/MannorGrave/scripts.inc"
+
+	.include "data/maps/MannorGravestones/scripts.inc"

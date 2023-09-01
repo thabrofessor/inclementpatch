@@ -512,6 +512,14 @@
 #define MAP_PETALBURG_VINEWOOD   (73 | (25 << 8))
 #define MAP_PETALBURG_MOSSWOOD   (74 | (25 << 8))
 #define MAP_PETALBURG_TALLWOODS  (75 | (25 << 8))
+#define MAP_PETALBURG_SAPLINGS   (76 | (25 << 8))
+#define MAP_PETALBURG_SHADEWOOD  (77 | (25 << 8))
+#define MAP_DEWFORD_HIGHTS       (78 | (25 << 8))
+#define MAP_DEWFORD_DUNES        (79 | (25 << 8))
+#define MAP_DEWFORD_BACKSAND     (80 | (25 << 8))
+#define MAP_DEWFORD_HIGHSANDS    (81 | (25 << 8))
+#define MAP_MANNOR_GRAVE         (82 | (25 << 8))
+#define MAP_MANNOR_GRAVESTONES   (83 | (25 << 8))
 
 // gMapGroup_IndoorDynamic
 #define MAP_SECRET_BASE_RED_CAVE1    (0 | (26 << 8))
