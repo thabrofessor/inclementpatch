@@ -133,8 +133,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_2",
-      "x": 1,
-      "y": 2,
+      "x": 11,
+      "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -172,8 +172,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_2",
-      "x": 20,
-      "y": 3,
+      "x": 11,
+      "y": 5,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -501,14 +501,28 @@
     },
     {
       "x": 6,
-      "y": 1,
+      "y": 2,
       "elevation": 0,
       "dest_map": "MAP_MANNOR_GRAVESTONES",
       "dest_warp_id": 2
     },
     {
       "x": 18,
-      "y": 1,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_MANNOR_GRAVE",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_MANNOR_GRAVESTONES",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 19,
+      "y": 2,
       "elevation": 0,
       "dest_map": "MAP_MANNOR_GRAVE",
       "dest_warp_id": 2
