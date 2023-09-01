@@ -17,7 +17,34 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 16,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_PETALBURG_WOODS_2",
+      "dest_warp_id": 20
+    },
+    {
+      "x": 17,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_PETALBURG_WOODS_2",
+      "dest_warp_id": 20
+    },
+    {
+      "x": 16,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_PETALBURG_WOODS_2",
+      "dest_warp_id": 22
+    },
+    {
+      "x": 17,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_PETALBURG_WOODS_2",
+      "dest_warp_id": 22
+    }
   ],
   "coord_events": [
 
