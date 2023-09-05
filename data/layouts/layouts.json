@@ -5590,6 +5590,46 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/MannorGravestones/border.bin",
       "blockdata_filepath": "data/layouts/MannorGravestones/map.bin"
+    },
+    {
+      "id": "LAYOUT_EASTWOOD103",
+      "name": "Eastwood103_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Eastwood103/border.bin",
+      "blockdata_filepath": "data/layouts/Eastwood103/map.bin"
+    },
+    {
+      "id": "LAYOUT_WETWOOD103",
+      "name": "Wetwood103_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Wetwood103/border.bin",
+      "blockdata_filepath": "data/layouts/Wetwood103/map.bin"
+    },
+    {
+      "id": "LAYOUT_MIDWOODS103",
+      "name": "Midwoods103_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Midwoods103/border.bin",
+      "blockdata_filepath": "data/layouts/Midwoods103/map.bin"
+    },
+    {
+      "id": "LAYOUT_RAIN_WOOD103",
+      "name": "RainWood103_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/RainWood103/border.bin",
+      "blockdata_filepath": "data/layouts/RainWood103/map.bin"
     }
   ]
 }

@@ -520,6 +520,10 @@
 #define MAP_DEWFORD_HIGHSANDS    (81 | (25 << 8))
 #define MAP_MANNOR_GRAVE         (82 | (25 << 8))
 #define MAP_MANNOR_GRAVESTONES   (83 | (25 << 8))
+#define MAP_EASTWOOD103          (84 | (25 << 8))
+#define MAP_WETWOOD103           (85 | (25 << 8))
+#define MAP_MIDWOODS103          (86 | (25 << 8))
+#define MAP_RAIN_WOOD103         (87 | (25 << 8))
 
 // gMapGroup_IndoorDynamic
 #define MAP_SECRET_BASE_RED_CAVE1    (0 | (26 << 8))

@@ -551,7 +551,11 @@
     "DewfordBacksand",
     "DewfordHighsands",
     "MannorGrave",
-    "MannorGravestones"
+    "MannorGravestones",
+    "Eastwood103",
+    "Wetwood103",
+    "Midwoods103",
+    "RainWood103"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

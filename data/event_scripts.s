@@ -1294,3 +1294,11 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/MannorGrave/scripts.inc"
 
 	.include "data/maps/MannorGravestones/scripts.inc"
+
+	.include "data/maps/Eastwood103/scripts.inc"
+
+	.include "data/maps/Wetwood103/scripts.inc"
+
+	.include "data/maps/Midwoods103/scripts.inc"
+
+	.include "data/maps/RainWood103/scripts.inc"

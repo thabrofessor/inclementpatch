@@ -183,8 +183,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GOLD_ITEM_BALL",
-      "x": 56,
-      "y": 5,
+      "x": 67,
+      "y": 9,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -209,8 +209,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
-      "x": 50,
-      "y": 6,
+      "x": 49,
+      "y": 9,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -235,14 +235,14 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_5",
-      "x": 67,
+      "x": 57,
       "y": 5,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "6",
+      "trainer_sight_or_berry_tree_id": "4",
       "script": "Route103_EventScript_Marcos",
       "flag": "0"
     },
@@ -274,7 +274,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 64,
+      "x": 57,
       "y": 7,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
@@ -301,7 +301,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
       "x": 58,
-      "y": 14,
+      "y": 15,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
@@ -327,7 +327,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_LASS",
       "x": 68,
-      "y": 14,
+      "y": 15,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
@@ -365,14 +365,14 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SPENSER",
-      "x": 62,
-      "y": 7,
+      "x": 61,
+      "y": 5,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "3",
+      "trainer_sight_or_berry_tree_id": "4",
       "script": "Route103_EventScript_LI_3",
       "flag": "0"
     },
@@ -391,14 +391,14 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
-      "x": 75,
-      "y": 6,
+      "x": 74,
+      "y": 7,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "3",
+      "trainer_sight_or_berry_tree_id": "2",
       "script": "Route103_EventScript_BRUNO_3",
       "flag": "0"
     },
@@ -417,8 +417,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
-      "x": 73,
-      "y": 6,
+      "x": 68,
+      "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -443,8 +443,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_3",
-      "x": 55,
-      "y": 7,
+      "x": 60,
+      "y": 9,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
@@ -469,14 +469,14 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
-      "x": 52,
-      "y": 6,
+      "x": 79,
+      "y": 5,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "5",
+      "trainer_sight_or_berry_tree_id": "3",
       "script": "Route103_EventScript_BASIL_3",
       "flag": "0"
     },
@@ -567,6 +567,90 @@
       "y": 5,
       "elevation": 0,
       "dest_map": "MAP_BACKWOODS103",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 50,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_WETWOOD103",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 51,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_WETWOOD103",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 55,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_WETWOOD103",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 56,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_WETWOOD103",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 62,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_EASTWOOD103",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 63,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_EASTWOOD103",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 66,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_EASTWOOD103",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 67,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_EASTWOOD103",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 72,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_MIDWOODS103",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 73,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_MIDWOODS103",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 77,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_MIDWOODS103",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 78,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_MIDWOODS103",
       "dest_warp_id": 2
     }
   ],
