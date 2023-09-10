@@ -40285,6 +40285,31 @@
                 "species": "SPECIES_TENTACOOL"
               }
             ]
+          },
+          "rock_smash_mons": {
+            "encounter_rate": 20,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_FARFETCHD_GALARIAN"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_SNOVER"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_FARFETCHD_GALARIAN"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_KOFFING"
+              }
+            ]
           }
         },
         {
@@ -40469,6 +40494,31 @@
                 "species": "SPECIES_LUVDISC"
               }
             ]
+          },
+          "rock_smash_mons": {
+            "encounter_rate": 20,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_TANGELA"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_FERROSEED"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_YANMA"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_FERROSEED"
+              }
+            ]
           }
         },
         {
@@ -40651,6 +40701,31 @@
                 "min_level": 5,
                 "max_level": 9,
                 "species": "SPECIES_GRIMER_ALOLAN"
+              }
+            ]
+          },
+          "rock_smash_mons": {
+            "encounter_rate": 20,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_FARFETCHD"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_PARAS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_FARFETCHD"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_KOMALA"
               }
             ]
           }
@@ -42925,6 +43000,31 @@
                 "species": "SPECIES_TOGEDEMARU"
               }
             ]
+          },
+          "rock_smash_mons": {
+            "encounter_rate": 20,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_NUZLEAF"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_WORMADAM_SANDY_CLOAK"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_WORMADAM_TRASH_CLOAK"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_STEENEE"
+              }
+            ]
           }
         },
         {
@@ -43027,6 +43127,31 @@
                 "min_level": 1,
                 "max_level": 9,
                 "species": "SPECIES_GULPIN"
+              }
+            ]
+          },
+          "rock_smash_mons": {
+            "encounter_rate": 20,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_WORMADAM"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_CACNEA"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_FOMANTIS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_SHUPPET"
               }
             ]
           }
@@ -43629,6 +43754,31 @@
                 "species": "SPECIES_CLAMPERL"
               }
             ]
+          },
+          "rock_smash_mons": {
+            "encounter_rate": 20,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_SHUPPET"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_CACNEA"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_WORMADAM"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_FOMANTIS"
+              }
+            ]
           }
         },
         {
@@ -43811,6 +43961,31 @@
                 "min_level": 5,
                 "max_level": 9,
                 "species": "SPECIES_MAREANIE"
+              }
+            ]
+          },
+          "rock_smash_mons": {
+            "encounter_rate": 20,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_FOMANTIS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_SHUPPET"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_WORMADAM"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_CACNEA"
               }
             ]
           }
