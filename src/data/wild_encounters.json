@@ -22241,42 +22241,42 @@
               {
                 "min_level": 5,
                 "max_level": 14,
-                "species": "SPECIES_POLIWAG"
+                "species": "SPECIES_AIPOM"
               },
               {
                 "min_level": 5,
                 "max_level": 14,
-                "species": "SPECIES_POLIWAG"
+                "species": "SPECIES_AIPOM"
               },
               {
                 "min_level": 5,
                 "max_level": 12,
-                "species": "SPECIES_POLIWAG"
+                "species": "SPECIES_AIPOM"
               },
               {
                 "min_level": 5,
                 "max_level": 20,
-                "species": "SPECIES_POLIWAG"
+                "species": "SPECIES_ABRA"
               },
               {
                 "min_level": 5,
                 "max_level": 25,
-                "species": "SPECIES_POLIWAG"
+                "species": "SPECIES_ABRA"
               },
               {
                 "min_level": 5,
                 "max_level": 27,
-                "species": "SPECIES_POLIWAG"
+                "species": "SPECIES_ABRA"
               },
               {
                 "min_level": 5,
                 "max_level": 26,
-                "species": "SPECIES_POLIWAG"
+                "species": "SPECIES_ABRA"
               },
               {
                 "min_level": 5,
                 "max_level": 30,
-                "species": "SPECIES_POLIWAG"
+                "species": "SPECIES_ABRA"
               }
             ]
           },
