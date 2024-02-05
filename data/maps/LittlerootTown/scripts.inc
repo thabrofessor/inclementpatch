@@ -950,7 +950,7 @@ LittlerootTown_EventScript_SetReceivedRunningShoes:: @ 81E8686
 
 LittlerootTown_EventScript_GiveRunningShoes:: @ 81E8693
 	msgbox LittlerootTown_Text_WearTheseRunningShoes, MSGBOX_DEFAULT
-	giveitem ITEM_OLD_ROD
+	giveitem ITEM_SUPER_ROD
 	giveitem ITEM_POKEBLOCK_CASE
 	giveitem ITEM_EVIOLITE
 	giveitem ITEM_POKE_BALL, 99
