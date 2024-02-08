@@ -164,8 +164,8 @@
       "dest_warp_id": 8
     },
     {
-      "x": 41,
-      "y": 6,
+      "x": 45,
+      "y": 7,
       "elevation": 0,
       "dest_map": "MAP_PETALBURG_WOODS_3",
       "dest_warp_id": 2
@@ -176,6 +176,13 @@
       "elevation": 0,
       "dest_map": "MAP_PETALBURG_WOODS_3",
       "dest_warp_id": 3
+    },
+    {
+      "x": 40,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE104_MR_BRINEYS_HOUSE",
+      "dest_warp_id": 2
     }
   ],
   "coord_events": [
