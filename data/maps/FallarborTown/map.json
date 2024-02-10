@@ -344,7 +344,7 @@
       "elevation": 0,
       "var": "VAR_FALLARBOR_TOWN_STATE",
       "var_value": "0",
-      "script": ""
+      "script": "FallarborTown_EventScript_RivalTrigger1"
     },
     {
       "type": "trigger",
