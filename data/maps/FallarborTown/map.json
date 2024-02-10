@@ -105,8 +105,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WATTSON",
-      "x": -2,
-      "y": 6,
+      "x": 9,
+      "y": 8,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -118,8 +118,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_NORMAN",
-      "x": -3,
-      "y": 6,
+      "x": 7,
+      "y": 8,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -334,13 +334,6 @@
       "elevation": 0,
       "dest_map": "MAP_FALLARBOR_TOWN_MOVE_RELEARNERS_HOUSE",
       "dest_warp_id": 0
-    },
-    {
-      "x": 14,
-      "y": 10,
-      "elevation": 0,
-      "dest_map": "MAP_FALLARBOR_TOWN",
-      "dest_warp_id": 0
     }
   ],
   "coord_events": [
@@ -351,7 +344,7 @@
       "elevation": 0,
       "var": "VAR_FALLARBOR_TOWN_STATE",
       "var_value": "0",
-      "script": "FallarborTown_EventScript_RivalTrigger1"
+      "script": ""
     },
     {
       "type": "trigger",

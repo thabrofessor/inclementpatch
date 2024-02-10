@@ -710,7 +710,7 @@
       "elevation": 0,
       "var": "VAR_CHANSEY_NURSE_STATE",
       "var_value": "1",
-      "script": ""
+      "script": "Route112_EventScript_ChanseyBlob"
     },
     {
       "type": "trigger",
