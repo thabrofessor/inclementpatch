@@ -39,6 +39,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "AbandonedShip_Rooms2_B1F_EventScript_ItemLevelBall",
       "flag": "FLAG_ITEM_ABANDONED_SHIP_ROOMS_2_B1F_LEVEL_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+      "x": 11,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_RockSmash",
+      "flag": "FLAG_TEMP_9"
     }
   ],
   "warp_events": [
