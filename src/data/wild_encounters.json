@@ -36148,62 +36148,62 @@
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_STANTLER"
+                "species": "SPECIES_ELDEGOSS"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_TRANQUILL"
+                "species": "SPECIES_LINOONE_GALARIAN"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_DODRIO"
+                "species": "SPECIES_ORBEETLE"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_BOUFFALANT"
+                "species": "SPECIES_HAKAMO_O"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_WOBBUFFET"
+                "species": "SPECIES_BELLOSSOM"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_SAWSBUCK"
+                "species": "SPECIES_DRAKLOAK"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_SAWSBUCK_AUTUMN"
+                "species": "SPECIES_DUBWOOL"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_SAWSBUCK_SUMMER"
+                "species": "SPECIES_DARTRIX"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_SAWSBUCK_WINTER"
+                "species": "SPECIES_SKUNTANK"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_TRUMBEAK"
+                "species": "SPECIES_FURRET"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_PIDGEOTTO"
+                "species": "SPECIES_LINOONE"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_STARAVIA"
+                "species": "SPECIES_THIEVUL"
               }
             ]
           },
@@ -36460,62 +36460,62 @@
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_SEVIPER"
+                "species": "SPECIES_ORBEETLE"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_DRAMPA"
+                "species": "SPECIES_HAKAMO_O"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_PARASECT"
+                "species": "SPECIES_BELLOSSOM"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_CLEFAIRY"
+                "species": "SPECIES_DRAKLOAK"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_WOBBUFFET"
+                "species": "SPECIES_DUBWOOL"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_LUNATONE"
+                "species": "SPECIES_DARTRIX"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_SOLROCK"
+                "species": "SPECIES_SKUNTANK"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_KADABRA"
+                "species": "SPECIES_FURRET"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_SALAZZLE"
+                "species": "SPECIES_LINOONE"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_GOTHORITA"
+                "species": "SPECIES_THIEVUL"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_WYNAUT"
+                "species": "SPECIES_ELDEGOSS"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_ZANGOOSE"
+                "species": "SPECIES_LINOONE_GALARIAN"
               }
             ]
           },
@@ -36668,62 +36668,62 @@
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_GOTHORITA"
+                "species": "SPECIES_HAKAMO_O"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_WYNAUT"
+                "species": "SPECIES_BELLOSSOM"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_ZANGOOSE"
+                "species": "SPECIES_DRAKLOAK"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_SEVIPER"
+                "species": "SPECIES_DUBWOOL"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_DRAMPA"
+                "species": "SPECIES_DARTRIX"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_PARASECT"
+                "species": "SPECIES_SKUNTANK"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_CLEFAIRY"
+                "species": "SPECIES_FURRET"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_WOBBUFFET"
+                "species": "SPECIES_LINOONE"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_LUNATONE"
+                "species": "SPECIES_THIEVUL"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_SOLROCK"
+                "species": "SPECIES_ELDEGOSS"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_KADABRA"
+                "species": "SPECIES_LINOONE_GALARIAN"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_SALAZZLE"
+                "species": "SPECIES_ORBEETLE"
               }
             ]
           },
@@ -36980,62 +36980,62 @@
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_DODRIO"
+                "species": "SPECIES_LINOONE_GALARIAN"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_BOUFFALANT"
+                "species": "SPECIES_ORBEETLE"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_WOBBUFFET"
+                "species": "SPECIES_HAKAMO_O"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_SAWSBUCK"
+                "species": "SPECIES_BELLOSSOM"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_SAWSBUCK_AUTUMN"
+                "species": "SPECIES_DRAKLOAK"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_SAWSBUCK_SUMMER"
+                "species": "SPECIES_DUBWOOL"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_SAWSBUCK_WINTER"
+                "species": "SPECIES_DARTRIX"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_TRUMBEAK"
+                "species": "SPECIES_SKUNTANK"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_PIDGEOTTO"
+                "species": "SPECIES_FURRET"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_STARAVIA"
+                "species": "SPECIES_LINOONE"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_STANTLER"
+                "species": "SPECIES_THIEVUL"
               },
               {
                 "min_level": 5,
                 "max_level": 65,
-                "species": "SPECIES_TRANQUILL"
+                "species": "SPECIES_ELDEGOSS"
               }
             ]
           },
