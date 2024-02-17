@@ -1889,10 +1889,11 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
     u8 level;
     u8 friendship;
     u8 difficultySetting = gSaveBlock2Ptr->gameDifficulty;
-if(trainerNum + 2 < TRAINERS_COUNT && gTrainers[trainerNum].trainerName == gTrainers[trainerNum + 2].trainerName)
-{
-         trainerNum += Random() % 3; 
-}
+
+    if(trainerNum + 2 < TRAINERS_COUNT && !strcmp(gTrainers[trainerNum].trainerName, gTrainers[trainerNum + 2].trainerName))
+    {
+        trainerNum += Random() % 3; 
+    }
 	
     if (trainerNum == TRAINER_SECRET_BASE)
         return 0;
