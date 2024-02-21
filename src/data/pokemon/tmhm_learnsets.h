@@ -37640,7 +37640,7 @@ const u32 gTMHMLearnsets[][4] =
                                         | TMHM2(TM100_CURSE)
                                         | TMHM2(HM05_FLASH)),
 
- static const u16 sAnnihilapeTeachableLearnset[] = {
+    [SPECIES_ANNIHILAPE]=TMHM_LEARNSET (TMHM1(TM04_CALM_MIND)
                                         | TMHM1(TM06_TOXIC)
 };                                       
-};
+
