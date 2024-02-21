@@ -37641,6 +37641,6 @@ const u32 gTMHMLearnsets[][4] =
                                         | TMHM2(HM05_FLASH)),
 
     [SPECIES_ANNIHILAPE]=TMHM_LEARNSET (TMHM1(TM04_CALM_MIND)
-                                        | TMHM1(TM06_TOXIC)
+                                        | TMHM1(TM06_TOXIC))
 };                                       
 
