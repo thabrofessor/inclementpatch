@@ -313,6 +313,7 @@ const u16 gSpeciesToHoennPokedexNum[NUM_SPECIES] = // Assigns all species to the
     SPECIES_TO_HOENN(RAYQUAZA),
     SPECIES_TO_HOENN(JIRACHI),
     SPECIES_TO_HOENN(DEOXYS),
+        SPECIES_TO_HOENN(ANNIHILAPE),
 };
 
 const u16 gSpeciesToNationalPokedexNum[NUM_SPECIES] = // Assigns all species to the National Dex Index (Summary No. for National Dex)
@@ -1215,6 +1216,7 @@ const u16 gSpeciesToNationalPokedexNum[NUM_SPECIES] = // Assigns all species to 
     SPECIES_TO_NATIONAL(GLASTRIER),
     SPECIES_TO_NATIONAL(SPECTRIER),
     SPECIES_TO_NATIONAL(CALYREX),
+      SPECIES_TO_NATIONAL(ANNIHILAPE),
 
     // Megas
     [SPECIES_VENUSAUR_MEGA - 1] = NATIONAL_DEX_VENUSAUR,
@@ -1810,6 +1812,7 @@ const u16 gHoennToNationalOrder[HOENN_DEX_COUNT] = // Assigns Hoenn Dex Pokémon
     HOENN_TO_NATIONAL(RAYQUAZA),
     HOENN_TO_NATIONAL(JIRACHI),
     HOENN_TO_NATIONAL(DEOXYS),
+        HOENN_TO_NATIONAL(ANNIHILAPE),
 };
 
 const struct SpindaSpot gSpindaSpotGraphics[] =
@@ -2889,6 +2892,7 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_ZYGARDE_50_POWER_CONSTRUCT - 1]   = ANIM_TIP_MOVE_FORWARD,
     [SPECIES_ZYGARDE_COMPLETE - 1]             = ANIM_GROW_VIBRATE,
     [SPECIES_HOOPA_UNBOUND - 1]                = ANIM_GROW_IN_STAGES,
+    [SPECIES_ANNIHILAPE - 1]                = ANIM_GROW_IN_STAGES,
 };
 
 static const u8 sMonAnimationDelayTable[NUM_SPECIES - 1] =

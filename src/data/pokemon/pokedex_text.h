@@ -5355,3 +5355,8 @@ const u8 gCalyrexPokedexText[] = _(
     "providing healing and blessings. It\n"
     "reigned over the Galar region in times\n"
     "of yore.");
+    const u8 gAnnihilapePokedexText[] = _(
+    "Calyrex is a merciful Pokémon, capable of\n"
+    "providing healing and blessings. It\n"
+    "reigned over the Galar region in times\n"
+    "of yore.");

@@ -37639,4 +37639,8 @@ const u32 gTMHMLearnsets[][4] =
                                         | TMHM2(TM92_TRICK_ROOM)
                                         | TMHM2(TM100_CURSE)
                                         | TMHM2(HM05_FLASH)),
+
+ static const u16 sAnnihilapeTeachableLearnset[] = {
+                                        | TMHM1(TM06_TOXIC)
+};                                       
 };

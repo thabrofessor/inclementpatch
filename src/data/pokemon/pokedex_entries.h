@@ -10787,4 +10787,15 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
+        [NATIONAL_DEX_ANNIHILAPE] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gAnnihilapePokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
 };
