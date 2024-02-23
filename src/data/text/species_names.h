@@ -986,7 +986,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_RAPIDASH_GALARIAN] = _("Galar Rapidash"),
     [SPECIES_SLOWPOKE_GALARIAN] = _("Galar Slowpoke"),
     [SPECIES_SLOWBRO_GALARIAN] = _("Galar Slowbro"),
-    [SPECIES_FARFETCHD_GALARIAN] = _("Galar Farfetch'd"),
+    [SPECIES_FARFETCHD_GALARIAN] = _("GalarFarfetchd"),
     [SPECIES_WEEZING_GALARIAN] = _("Galar Weezing"),
     [SPECIES_MR_MIME_GALARIAN] = _("Galar Mr. Mime"),
     [SPECIES_ARTICUNO_GALARIAN] = _("Galar Articuno"),
@@ -997,7 +997,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_ZIGZAGOON_GALARIAN] = _("Galar Zigzagoon"),
     [SPECIES_LINOONE_GALARIAN] = _("Galar Linoone"),
     [SPECIES_DARUMAKA_GALARIAN] = _("Galar Darumaka"),
-    [SPECIES_DARMANITAN_GALARIAN] = _("Galar Darmanitan"),
+    [SPECIES_DARMANITAN_GALARIAN] = _("GalarDarmantan"),
     [SPECIES_YAMASK_GALARIAN] = _("Galar Yamask"),
     [SPECIES_STUNFISK_GALARIAN] = _("Galar Stunfisk"),
 
@@ -1110,7 +1110,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_SAWSBUCK_WINTER] = _("Sawsbuck Winter"),
     // Therian Forms
     [SPECIES_TORNADUS_THERIAN] = _("TornadusTherian"),
-    [SPECIES_THUNDURUS_THERIAN] = _("ThundurusTherian"),
+    [SPECIES_THUNDURUS_THERIAN] = _("ThundurTherian"),
     [SPECIES_LANDORUS_THERIAN] = _("LandorusTherian"),
     // Kyurem
     [SPECIES_KYUREM_BLACK] = _("Kyurem Black"),
@@ -1253,7 +1253,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     // Sinistea
     [SPECIES_SINISTEA_ANTIQUE] = _("SinisteaAntiqu"),
     // Polteageist
-    [SPECIES_POLTEAGEIST_ANTIQUE] = _("PolteageisAntiqu"),
+    [SPECIES_POLTEAGEIST_ANTIQUE] = _("PoltegisAntiqu"),
     // Alcremie
     [SPECIES_ALCREMIE_RUBY_CREAM] = _("AlcremieRuby"),
     [SPECIES_ALCREMIE_MATCHA_CREAM] = _("AlcremieMatcha"),
