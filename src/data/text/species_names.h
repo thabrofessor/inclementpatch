@@ -665,11 +665,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_TALONFLAME] = _("Talonflame"),
     [SPECIES_SCATTERBUG] = _("Scatterbug"),
     [SPECIES_SPEWPA] = _("Spewpa"),
-<<<<<<< HEAD
     [SPECIES_VIVILLON] = _("Vivillon"),
-=======
-    [SPECIES_VIVILLON] = _("VivillonIcySnow"),
->>>>>>> parent of 3b6492b9f (Update species_names.h)
     [SPECIES_LITLEO] = _("Litleo"),
     [SPECIES_PYROAR] = _("Pyroar"),
     [SPECIES_FLABEBE] = _("Flabébé Red"),
@@ -713,13 +709,8 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_KLEFKI] = _("Klefki"),
     [SPECIES_PHANTUMP] = _("Phantump"),
     [SPECIES_TREVENANT] = _("Trevenant"),
-<<<<<<< HEAD
     [SPECIES_PUMPKABOO] = _("Pumpkaboo"),
     [SPECIES_GOURGEIST] = _("Gourgeist"),
-=======
-    [SPECIES_PUMPKABOO] = _("PumpkaboAverage"),
-    [SPECIES_GOURGEIST] = _("GorgeistAverage"),
->>>>>>> parent of 3b6492b9f (Update species_names.h)
     [SPECIES_BERGMITE] = _("Bergmite"),
     [SPECIES_AVALUGG] = _("Avalugg"),
     [SPECIES_NOIBAT] = _("Noibat"),
@@ -857,11 +848,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_ARROKUDA] = _("Arrokuda"),
     [SPECIES_BARRASKEWDA] = _("Barraskewd"),
     [SPECIES_TOXEL] = _("Toxel"),
-<<<<<<< HEAD
     [SPECIES_TOXTRICITY] = _("Toxtricity"),
-=======
-    [SPECIES_TOXTRICITY] = _("ToxtricityAmped"),
->>>>>>> parent of 3b6492b9f (Update species_names.h)
     [SPECIES_SIZZLIPEDE] = _("Sizzlipede"),
     [SPECIES_CENTISKORCH] = _("Centiskorc"),
     [SPECIES_CLOBBOPUS] = _("Clobbopus"),
@@ -914,7 +901,6 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_ANNIHILAPE] = _("Annihilape"),
 
     // Megas
-<<<<<<< HEAD
     [SPECIES_VENUSAUR_MEGA] = _("Venusaur"),
     [SPECIES_CHARIZARD_MEGA_X] = _("Charizard"),
     [SPECIES_CHARIZARD_MEGA_Y] = _("Charizard"),
@@ -969,69 +955,12 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_LAPRAS_MEGA] = _("Lapras"),
     [SPECIES_FLYGON_MEGA] = _("Flygon"),
     [SPECIES_KINGDRA_MEGA] = _("Kingdra"),
-=======
-    [SPECIES_VENUSAUR_MEGA] = _("Mega Venusaur"),
-    [SPECIES_CHARIZARD_MEGA_X] = _("Mega CharizardX"),
-    [SPECIES_CHARIZARD_MEGA_Y] = _("Mega CharizardY"),
-    [SPECIES_BLASTOISE_MEGA] = _("Mega Blastoise"),
-    [SPECIES_BEEDRILL_MEGA] = _("Mega Beedrill"),
-    [SPECIES_PIDGEOT_MEGA] = _("Mega Pidgeot"),
-    [SPECIES_ALAKAZAM_MEGA] = _("Mega Alakazam"),
-    [SPECIES_SLOWBRO_MEGA] = _("Mega Slowbro"),
-    [SPECIES_GENGAR_MEGA] = _("Mega Gengar"),
-    [SPECIES_KANGASKHAN_MEGA] = _("Mega Kangaskhan"),
-    [SPECIES_PINSIR_MEGA] = _("Mega Pinsir"),
-    [SPECIES_GYARADOS_MEGA] = _("Mega Gyarados"),
-    [SPECIES_AERODACTYL_MEGA] = _("Mega Aerodactyl"),
-    [SPECIES_MEWTWO_MEGA_X] = _("Mega Mewtwo X"),
-    [SPECIES_MEWTWO_MEGA_Y] = _("Mega Mewtwo Y"),
-    [SPECIES_AMPHAROS_MEGA] = _("Mega Ampharos"),
-    [SPECIES_STEELIX_MEGA] = _("Mega Steelix"),
-    [SPECIES_SCIZOR_MEGA] = _("Mega Scizor"),
-    [SPECIES_HERACROSS_MEGA] = _("Mega Heracross"),
-    [SPECIES_HOUNDOOM_MEGA] = _("Mega Houndoom"),
-    [SPECIES_TYRANITAR_MEGA] = _("Mega Tyranitar"),
-    [SPECIES_SCEPTILE_MEGA] = _("Mega Sceptile"),
-    [SPECIES_BLAZIKEN_MEGA] = _("Mega Blaziken"),
-    [SPECIES_SWAMPERT_MEGA] = _("Mega Swampert"),
-    [SPECIES_GARDEVOIR_MEGA] = _("Mega Gardevoir"),
-    [SPECIES_SABLEYE_MEGA] = _("Mega Sableye"),
-    [SPECIES_MAWILE_MEGA] = _("Mega Mawile"),
-    [SPECIES_AGGRON_MEGA] = _("Mega Aggron"),
-    [SPECIES_MEDICHAM_MEGA] = _("Mega Medicham"),
-    [SPECIES_MANECTRIC_MEGA] = _("Mega Manectric"),
-    [SPECIES_SHARPEDO_MEGA] = _("Mega Sharpedo"),
-    [SPECIES_CAMERUPT_MEGA] = _("Mega Camerupt"),
-    [SPECIES_ALTARIA_MEGA] = _("Mega Altaria"),
-    [SPECIES_BANETTE_MEGA] = _("Mega Banette"),
-    [SPECIES_ABSOL_MEGA] = _("Mega Absol"),
-    [SPECIES_GLALIE_MEGA] = _("Mega Glalie"),
-    [SPECIES_SALAMENCE_MEGA] = _("Mega Salamence"),
-    [SPECIES_METAGROSS_MEGA] = _("Mega Metagross"),
-    [SPECIES_LATIAS_MEGA] = _("Mega Latias"),
-    [SPECIES_LATIOS_MEGA] = _("Mega Latios"),
-    [SPECIES_LOPUNNY_MEGA] = _("Mega Lopunny"),
-    [SPECIES_GARCHOMP_MEGA] = _("Mega Garchomp"),
-    [SPECIES_LUCARIO_MEGA] = _("Mega Lucario"),
-    [SPECIES_ABOMASNOW_MEGA] = _("Mega Abomasnow"),
-    [SPECIES_GALLADE_MEGA] = _("Mega Gallade"),
-    [SPECIES_AUDINO_MEGA] = _("Mega Audino"),
-    [SPECIES_DIANCIE_MEGA] = _("Mega Diancie"),
-    [SPECIES_MILOTIC_MEGA] = _("Mega Milotic"),
-    [SPECIES_BUTTERFREE_MEGA] = _("Mega Butterfree"),
-    [SPECIES_MACHAMP_MEGA] = _("Mega Machamp"),
-    [SPECIES_KINGLER_MEGA] = _("Mega Kingler"),
-    [SPECIES_LAPRAS_MEGA] = _("Mega Lapras"),
-    [SPECIES_FLYGON_MEGA] = _("Mega Flygon"),
-    [SPECIES_KINGDRA_MEGA] = _("Mega Kingdra"),
->>>>>>> parent of 3b6492b9f (Update species_names.h)
     // Special Mega + Primals
     [SPECIES_RAYQUAZA_MEGA] = _("Mega Rayquaza"),
     [SPECIES_KYOGRE_PRIMAL] = _("Kyogre Primal"),
     [SPECIES_GROUDON_PRIMAL] = _("Groudon Primal"),
 
     // Alolan Forms
-<<<<<<< HEAD
     [SPECIES_RATTATA_ALOLAN] = _("Rattata"),
     [SPECIES_RATICATE_ALOLAN] = _("Raticate"),
     [SPECIES_RAICHU_ALOLAN] = _("Raichu"),
@@ -1090,66 +1019,6 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_PIKACHU_WORLD_CAP] = _("Pikachu"),
     // Pichu
     [SPECIES_PICHU_SPIKY_EARED] = _("Pichu"),
-=======
-    [SPECIES_RATTATA_ALOLAN] = _("Alolan Rattata"),
-    [SPECIES_RATICATE_ALOLAN] = _("Alolan Raticate"),
-    [SPECIES_RAICHU_ALOLAN] = _("Alolan Raichu"),
-    [SPECIES_SANDSHREW_ALOLAN] = _("AlolanSandshrew"),
-    [SPECIES_SANDSLASH_ALOLAN] = _("AlolanSandslash"),
-    [SPECIES_VULPIX_ALOLAN] = _("Alolan Vulpix"),
-    [SPECIES_NINETALES_ALOLAN] = _("AlolanNinetales"),
-    [SPECIES_DIGLETT_ALOLAN] = _("Alolan Diglett"),
-    [SPECIES_DUGTRIO_ALOLAN] = _("Alolan Dugtrio"),
-    [SPECIES_MEOWTH_ALOLAN] = _("Alolan Meowth"),
-    [SPECIES_PERSIAN_ALOLAN] = _("Alolan Persian"),
-    [SPECIES_GEODUDE_ALOLAN] = _("Alolan Geodude"),
-    [SPECIES_GRAVELER_ALOLAN] = _("Alolan Graveler"),
-    [SPECIES_GOLEM_ALOLAN] = _("Alolan Golem"),
-    [SPECIES_GRIMER_ALOLAN] = _("Alolan Grimer"),
-    [SPECIES_MUK_ALOLAN] = _("Alolan Muk"),
-    [SPECIES_EXEGGUTOR_ALOLAN] = _("AlolanExeggutor"),
-    [SPECIES_MAROWAK_ALOLAN] = _("Alolan Marowak"),
-
-    // Galarian Forms
-    [SPECIES_MEOWTH_GALARIAN] = _("Galar Meowth"),
-    [SPECIES_PONYTA_GALARIAN] = _("Galar Ponyta"),
-    [SPECIES_RAPIDASH_GALARIAN] = _("Galar Rapidash"),
-    [SPECIES_SLOWPOKE_GALARIAN] = _("Galar Slowpoke"),
-    [SPECIES_SLOWBRO_GALARIAN] = _("Galar Slowbro"),
-    [SPECIES_FARFETCHD_GALARIAN] = _("GalarFarfetchd"),
-    [SPECIES_WEEZING_GALARIAN] = _("Galar Weezing"),
-    [SPECIES_MR_MIME_GALARIAN] = _("Galar Mr. Mime"),
-    [SPECIES_ARTICUNO_GALARIAN] = _("Galar Articuno"),
-    [SPECIES_ZAPDOS_GALARIAN] = _("Galar Zapdos"),
-    [SPECIES_MOLTRES_GALARIAN] = _("Galar Moltres"),
-    [SPECIES_SLOWKING_GALARIAN] = _("Galar Slowking"),
-    [SPECIES_CORSOLA_GALARIAN] = _("Galar Corsola"),
-    [SPECIES_ZIGZAGOON_GALARIAN] = _("Galar Zigzagoon"),
-    [SPECIES_LINOONE_GALARIAN] = _("Galar Linoone"),
-    [SPECIES_DARUMAKA_GALARIAN] = _("Galar Darumaka"),
-    [SPECIES_DARMANITAN_GALARIAN] = _("GalarDarmantan"),
-    [SPECIES_YAMASK_GALARIAN] = _("Galar Yamask"),
-    [SPECIES_STUNFISK_GALARIAN] = _("Galar Stunfisk"),
-
-    // Cosplay Pikachu
-    [SPECIES_PIKACHU_COSPLAY] = _("Cosplay Pikachu"),
-    [SPECIES_PIKACHU_ROCK_STAR] = _("RockStarPikachu"),
-    [SPECIES_PIKACHU_BELLE] = _("Belle Pikachu"),
-    [SPECIES_PIKACHU_POP_STAR] = _("PopStarPikachu"),
-    [SPECIES_PIKACHU_PH_D] = _("PhD Pikachu"),
-    [SPECIES_PIKACHU_LIBRE] = _("Libre Pikachu"),
-    // Cap Pikachu
-    [SPECIES_PIKACHU_ORIGINAL_CAP] = _("OriginalPikachu"),
-    [SPECIES_PIKACHU_HOENN_CAP] = _("Hoenn Pikachu"),
-    [SPECIES_PIKACHU_SINNOH_CAP] = _("Sinnoh Pikachu"),
-    [SPECIES_PIKACHU_UNOVA_CAP] = _("Unova Pikachu"),
-    [SPECIES_PIKACHU_KALOS_CAP] = _("Kalos Pikachu"),
-    [SPECIES_PIKACHU_ALOLA_CAP] = _("Alola Pikachu"),
-    [SPECIES_PIKACHU_PARTNER_CAP] = _("Partner Pikachu"),
-    [SPECIES_PIKACHU_WORLD_CAP] = _("World Pikachu"),
-    // Pichu
-    [SPECIES_PICHU_SPIKY_EARED] = _("SpikyEar Pichu"),
->>>>>>> parent of 3b6492b9f (Update species_names.h)
     // Unown
     [SPECIES_UNOWN_B] = _("Unown B"),
     [SPECIES_UNOWN_C] = _("Unown C"),
@@ -1193,19 +1062,11 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_WORMADAM_SANDY_CLOAK] = _("Wormadam Sand"),
     [SPECIES_WORMADAM_TRASH_CLOAK] = _("Wormadam Trash"),
     // Cherrim
-<<<<<<< HEAD
     [SPECIES_CHERRIM_SUNSHINE] = _("Cherrim"),
     // Shellos
     [SPECIES_SHELLOS_EAST_SEA] = _("Shellos"),
     // Gastrodon
     [SPECIES_GASTRODON_EAST_SEA] = _("Gastrodon"),
-=======
-    [SPECIES_CHERRIM_SUNSHINE] = _("CherrimSunshine"),
-    // Shellos
-    [SPECIES_SHELLOS_EAST_SEA] = _("Shellos EastSea"),
-    // Gastrodon
-    [SPECIES_GASTRODON_EAST_SEA] = _("Gastrodon East"),
->>>>>>> parent of 3b6492b9f (Update species_names.h)
     // Rotom
     [SPECIES_ROTOM_HEAT] = _("Rotom Heat"),
     [SPECIES_ROTOM_FAN] = _("Rotom Fan"),
@@ -1237,13 +1098,8 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     // Basculin
     [SPECIES_BASCULIN_BLUE_STRIPED] = _("Basculin Blue"),
     // Darmanitan
-<<<<<<< HEAD
     [SPECIES_DARMANITAN_ZEN_MODE] = _("Darmanitan"),
     [SPECIES_DARMANITAN_ZEN_MODE_GALARIAN] = _("Darmanitan"),
-=======
-    [SPECIES_DARMANITAN_ZEN_MODE] = _("Darmanitan Zen"),
-    [SPECIES_DARMANITAN_ZEN_MODE_GALARIAN] = _("G DarmanitanZen"),
->>>>>>> parent of 3b6492b9f (Update species_names.h)
     // Deerling
     [SPECIES_DEERLING_SUMMER] = _("Deerling Summer"),
     [SPECIES_DEERLING_AUTUMN] = _("Deerling Autumn"),
@@ -1253,33 +1109,22 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_SAWSBUCK_AUTUMN] = _("Sawsbuck Autumn"),
     [SPECIES_SAWSBUCK_WINTER] = _("Sawsbuck Winter"),
     // Therian Forms
-<<<<<<< HEAD
     [SPECIES_TORNADUS_THERIAN] = _("Tornadus"),
     [SPECIES_THUNDURUS_THERIAN] = _("Thundurus"),
     [SPECIES_LANDORUS_THERIAN] = _("Landorus"),
-=======
-    [SPECIES_TORNADUS_THERIAN] = _("TornadusTherian"),
-    [SPECIES_THUNDURUS_THERIAN] = _("ThundurTherian"),
-    [SPECIES_LANDORUS_THERIAN] = _("LandorusTherian"),
->>>>>>> parent of 3b6492b9f (Update species_names.h)
     // Kyurem
     [SPECIES_KYUREM_BLACK] = _("Kyurem Black"),
     [SPECIES_KYUREM_WHITE] = _("Kyurem White"),
     // Keldeo
     [SPECIES_KELDEO_RESOLUTE] = _("Keldeo Resolute"),
     // Meloetta
-<<<<<<< HEAD
     [SPECIES_MELOETTA_PIROUETTE] = _("Meloetta"),
-=======
-    [SPECIES_MELOETTA_PIROUETTE] = _("Meloetta Dance"),
->>>>>>> parent of 3b6492b9f (Update species_names.h)
     // Genesect
     [SPECIES_GENESECT_DOUSE_DRIVE] = _("Genesect Douse"),
     [SPECIES_GENESECT_SHOCK_DRIVE] = _("Genesect Shock"),
     [SPECIES_GENESECT_BURN_DRIVE] = _("Genesect Burn"),
     [SPECIES_GENESECT_CHILL_DRIVE] = _("Genesect Chill"),
     // Greninja
-<<<<<<< HEAD
     [SPECIES_GRENINJA_BATTLE_BOND] = _("Greninja"),
     [SPECIES_GRENINJA_ASH] = _("Greninja"),
     // Vivillon
@@ -1302,30 +1147,6 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_VIVILLON_JUNGLE] = _("Vivillon"),
     [SPECIES_VIVILLON_FANCY] = _("Vivillon"),
     [SPECIES_VIVILLON_POKE_BALL] = _("Vivillon"),
-=======
-    [SPECIES_GRENINJA_BATTLE_BOND] = _("Greninja Bond"),
-    [SPECIES_GRENINJA_ASH] = _("Ash Greninja"),
-    // Vivillon
-    [SPECIES_VIVILLON_POLAR] = _("VivillonPolar"),
-    [SPECIES_VIVILLON_TUNDRA] = _("VivillonTundra"),
-    [SPECIES_VIVILLON_CONTINENTAL] = _("VivillonLand"),
-    [SPECIES_VIVILLON_GARDEN] = _("VivillonGarden"),
-    [SPECIES_VIVILLON_ELEGANT] = _("VivilonElegant"),
-    [SPECIES_VIVILLON_MEADOW] = _("VivillonMeadow"),
-    [SPECIES_VIVILLON_MODERN] = _("VivillonModern"),
-    [SPECIES_VIVILLON_MARINE] = _("VivillonMarine"),
-    [SPECIES_VIVILLON_ARCHIPELAGO] = _("VivillonIsland"),
-    [SPECIES_VIVILLON_HIGH_PLAINS] = _("VivillonPlains"),
-    [SPECIES_VIVILLON_SANDSTORM] = _("VivillonSand"),
-    [SPECIES_VIVILLON_RIVER] = _("VivillonRiver"),
-    [SPECIES_VIVILLON_MONSOON] = _("VivilonMonsoon"),
-    [SPECIES_VIVILLON_SAVANNA] = _("VivilonSavanna"),
-    [SPECIES_VIVILLON_SUN] = _("VivillonSun"),
-    [SPECIES_VIVILLON_OCEAN] = _("VivillonOcean"),
-    [SPECIES_VIVILLON_JUNGLE] = _("VivillonJungle"),
-    [SPECIES_VIVILLON_FANCY] = _("VivillonFancy"),
-    [SPECIES_VIVILLON_POKE_BALL] = _("VivillonBall"),
->>>>>>> parent of 3b6492b9f (Update species_names.h)
     // Flabébé
     [SPECIES_FLABEBE_YELLOW_FLOWER] = _("Flabébé Yellow"),
     [SPECIES_FLABEBE_ORANGE_FLOWER] = _("Flabébé Orange"),
@@ -1343,7 +1164,6 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_FLORGES_BLUE_FLOWER] = _("Florges Blue"),
     [SPECIES_FLORGES_WHITE_FLOWER] = _("Florges White"),
     // Furfrou
-<<<<<<< HEAD
     [SPECIES_FURFROU_HEART_TRIM] = _("Furfrou"),
     [SPECIES_FURFROU_STAR_TRIM] = _("Furfrou"),
     [SPECIES_FURFROU_DIAMOND_TRIM] = _("Furfrou"),
@@ -1353,23 +1173,11 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_FURFROU_LA_REINE_TRIM] = _("Furfrou"),
     [SPECIES_FURFROU_KABUKI_TRIM] = _("Furfrou"),
     [SPECIES_FURFROU_PHARAOH_TRIM] = _("Furfrou"),
-=======
-    [SPECIES_FURFROU_HEART_TRIM] = _("FurfrouHeart"),
-    [SPECIES_FURFROU_STAR_TRIM] = _("FurfrouStar"),
-    [SPECIES_FURFROU_DIAMOND_TRIM] = _("FurfrouDiamond"),
-    [SPECIES_FURFROU_DEBUTANTE_TRIM] = _("FurfroDebutant"),
-    [SPECIES_FURFROU_MATRON_TRIM] = _("FurfrouMatron"),
-    [SPECIES_FURFROU_DANDY_TRIM] = _("FurfrouDandy"),
-    [SPECIES_FURFROU_LA_REINE_TRIM] = _("FurfrouLaReine"),
-    [SPECIES_FURFROU_KABUKI_TRIM] = _("FurfrouKabuki"),
-    [SPECIES_FURFROU_PHARAOH_TRIM] = _("FurfrouPharaoh"),
->>>>>>> parent of 3b6492b9f (Update species_names.h)
     // Meowstic
     [SPECIES_MEOWSTIC_FEMALE] = _("Meowstic F"),
     // Aegislash
     [SPECIES_AEGISLASH_BLADE] = _("Aegislash"),
     // Pumpkaboo
-<<<<<<< HEAD
     [SPECIES_PUMPKABOO_SMALL] = _("Pumpkaboo"),
     [SPECIES_PUMPKABOO_LARGE] = _("Pumpkaboo"),
     [SPECIES_PUMPKABOO_SUPER] = _("Pumpkaboo"),
@@ -1377,45 +1185,22 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_GOURGEIST_SMALL] = _("Gourgeist"),
     [SPECIES_GOURGEIST_LARGE] = _("Gourgeist"),
     [SPECIES_GOURGEIST_SUPER] = _("Gourgeist"),
-=======
-    [SPECIES_PUMPKABOO_SMALL] = _("PumpkabooSmall"),
-    [SPECIES_PUMPKABOO_LARGE] = _("PumpkabooLarge"),
-    [SPECIES_PUMPKABOO_SUPER] = _("PumpkabooSuper"),
-    // Gourgeist
-    [SPECIES_GOURGEIST_SMALL] = _("GourgeistSmall"),
-    [SPECIES_GOURGEIST_LARGE] = _("GourgeistLarge"),
-    [SPECIES_GOURGEIST_SUPER] = _("GourgeistSuper"),
->>>>>>> parent of 3b6492b9f (Update species_names.h)
     // Xerneas
     [SPECIES_XERNEAS_ACTIVE] = _("Xerneas Active"),
     // Zygarde
-<<<<<<< HEAD
     [SPECIES_ZYGARDE_10] = _("Zygarde"),
     [SPECIES_ZYGARDE_10_POWER_CONSTRUCT] = _("Zygarde"),
     [SPECIES_ZYGARDE_50_POWER_CONSTRUCT] = _("Zygarde"),
     [SPECIES_ZYGARDE_COMPLETE] = _("Zygarde"),
-=======
-    [SPECIES_ZYGARDE_10] = _("Zygarde 10"),
-    [SPECIES_ZYGARDE_10_POWER_CONSTRUCT] = _("Zygarde 10 C"),
-    [SPECIES_ZYGARDE_50_POWER_CONSTRUCT] = _("Zygarde C"),
-    [SPECIES_ZYGARDE_COMPLETE] = _("ZygardeComplet"),
->>>>>>> parent of 3b6492b9f (Update species_names.h)
     // Hoopa
     [SPECIES_HOOPA_UNBOUND] = _("Hoopa Unbound"),
     // Oricorio
-<<<<<<< HEAD
     [SPECIES_ORICORIO_POM_POM] = _("Oricorio"),
     [SPECIES_ORICORIO_PAU] = _("Oricorio"),
     [SPECIES_ORICORIO_SENSU] = _("Oricorio"),
-=======
-    [SPECIES_ORICORIO_POM_POM] = _("OricorioPomPom"),
-    [SPECIES_ORICORIO_PAU] = _("OricorioPau"),
-    [SPECIES_ORICORIO_SENSU] = _("OricorioSensu"),
->>>>>>> parent of 3b6492b9f (Update species_names.h)
     // Rockruff
     [SPECIES_ROCKRUFF_OWN_TEMPO] = _("Rockruff Tempo"),
     // Lycanroc
-<<<<<<< HEAD
     [SPECIES_LYCANROC_MIDNIGHT] = _("Lycanroc"),
     [SPECIES_LYCANROC_DUSK] = _("Lycanroc"),
     // Wishiwashi
@@ -1438,30 +1223,6 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_SILVALLY_DRAGON] = _("Silvally"),
     [SPECIES_SILVALLY_DARK] = _("Silvally"),
     [SPECIES_SILVALLY_FAIRY] = _("Silvally"),
-=======
-    [SPECIES_LYCANROC_MIDNIGHT] = _("Lycanroc Night"),
-    [SPECIES_LYCANROC_DUSK] = _("Lycanroc Dusk"),
-    // Wishiwashi
-    [SPECIES_WISHIWASHI_SCHOOL] = _("Wishiwashi"),
-    // Silvally
-    [SPECIES_SILVALLY_FIGHTING] = _("SilvallyFight"),
-    [SPECIES_SILVALLY_FLYING] = _("SilvallyFlying"),
-    [SPECIES_SILVALLY_POISON] = _("SilvallyPoison"),
-    [SPECIES_SILVALLY_GROUND] = _("SilvallyGround"),
-    [SPECIES_SILVALLY_ROCK] = _("SilvallyRock"),
-    [SPECIES_SILVALLY_BUG] = _("SilvallyBug"),
-    [SPECIES_SILVALLY_GHOST] = _("SilvallyGhost"),
-    [SPECIES_SILVALLY_STEEL] = _("SilvallySteel"),
-    [SPECIES_SILVALLY_FIRE] = _("SilvallyFire"),
-    [SPECIES_SILVALLY_WATER] = _("SilvallyWater"),
-    [SPECIES_SILVALLY_GRASS] = _("SilvallyGrass"),
-    [SPECIES_SILVALLY_ELECTRIC] = _("SilvalyEletric"),
-    [SPECIES_SILVALLY_PSYCHIC] = _("SilvalyPsychic"),
-    [SPECIES_SILVALLY_ICE] = _("SilvallyIce"),
-    [SPECIES_SILVALLY_DRAGON] = _("SilvallyDragon"),
-    [SPECIES_SILVALLY_DARK] = _("SilvallyDark"),
-    [SPECIES_SILVALLY_FAIRY] = _("SilvallyFairy"),
->>>>>>> parent of 3b6492b9f (Update species_names.h)
     // Minior
     [SPECIES_MINIOR_METEOR_ORANGE] = _("Minior Orange"),
     [SPECIES_MINIOR_METEOR_YELLOW] = _("Minior Yellow"),
@@ -1483,21 +1244,16 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_NECROZMA_DAWN_WINGS] = _("Necrozma Dawn"),
     [SPECIES_NECROZMA_ULTRA] = _("Necrozma Ultra"),
     // Magearna
-<<<<<<< HEAD
     [SPECIES_MAGEARNA_ORIGINAL_COLOR] = _("Magearna"),
-=======
-    [SPECIES_MAGEARNA_ORIGINAL_COLOR] = _("Magearna Orig"),
->>>>>>> parent of 3b6492b9f (Update species_names.h)
     // Cramorant
     [SPECIES_CRAMORANT_GULPING] = _("Cramorant"),
     [SPECIES_CRAMORANT_GORGING] = _("Cramorant"),
     // Toxtricity
-    [SPECIES_TOXTRICITY_LOW_KEY] = _("Toxtricity Low"),
+    [SPECIES_TOXTRICITY_LOW_KEY] = _("Toxtricity"),
     // Sinistea
-<<<<<<< HEAD
-    [SPECIES_SINISTEA_ANTIQUE] = _("Sinistea"),
+    [SPECIES_SINISTEA_ANTIQUE] = _("SinisteaA"),
     // Polteageist
-    [SPECIES_POLTEAGEIST_ANTIQUE] = _("Polteageis"),
+    [SPECIES_POLTEAGEIST_ANTIQUE] = _("PolteagsA"),
     // Alcremie
     [SPECIES_ALCREMIE_RUBY_CREAM] = _("Alcremie"),
     [SPECIES_ALCREMIE_MATCHA_CREAM] = _("Alcremie"),
@@ -1507,20 +1263,6 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_ALCREMIE_RUBY_SWIRL] = _("Alcremie"),
     [SPECIES_ALCREMIE_CARAMEL_SWIRL] = _("Alcremie"),
     [SPECIES_ALCREMIE_RAINBOW_SWIRL] = _("Alcremie"),
-=======
-    [SPECIES_SINISTEA_ANTIQUE] = _("SinisteaAntiqu"),
-    // Polteageist
-    [SPECIES_POLTEAGEIST_ANTIQUE] = _("PoltegisAntiqu"),
-    // Alcremie
-    [SPECIES_ALCREMIE_RUBY_CREAM] = _("AlcremieRuby"),
-    [SPECIES_ALCREMIE_MATCHA_CREAM] = _("AlcremieMatcha"),
-    [SPECIES_ALCREMIE_MINT_CREAM] = _("AlcremieMint"),
-    [SPECIES_ALCREMIE_LEMON_CREAM] = _("AlcremieLemon"),
-    [SPECIES_ALCREMIE_SALTED_CREAM] = _("AlcremieSalted"),
-    [SPECIES_ALCREMIE_RUBY_SWIRL] = _("AlcremieSwirl"),
-    [SPECIES_ALCREMIE_CARAMEL_SWIRL] = _("AlcremiCaramel"),
-    [SPECIES_ALCREMIE_RAINBOW_SWIRL] = _("AlcremiRainbow"),
->>>>>>> parent of 3b6492b9f (Update species_names.h)
     // Eiscue
     [SPECIES_EISCUE_NOICE_FACE] = _("Eiscue Noice"),
     // Indeedee
@@ -1528,7 +1270,6 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     // Morpeko
     [SPECIES_MORPEKO_HANGRY] = _("Morpeko"),
     // Zacian
-<<<<<<< HEAD
     [SPECIES_ZACIAN_CROWNED_SWORD] = _("Zacian"),
     // Zamazenta
     [SPECIES_ZAMAZENTA_CROWNED_SHIELD] = _("Zamazenta"),
@@ -1536,23 +1277,9 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_ETERNATUS_ETERNAMAX] = _("Eternatus"),
     // Urshifu
     [SPECIES_URSHIFU_RAPID_STRIKE_STYLE] = _("Urshifu"),
-=======
-    [SPECIES_ZACIAN_CROWNED_SWORD] = _("ZacianCrown"),
-    // Zamazenta
-    [SPECIES_ZAMAZENTA_CROWNED_SHIELD] = _("ZamazentaCrown"),
-    // Eternatus
-    [SPECIES_ETERNATUS_ETERNAMAX] = _("Eternamax"),
-    // Urshifu
-    [SPECIES_URSHIFU_RAPID_STRIKE_STYLE] = _("Rapid Urshifu"),
->>>>>>> parent of 3b6492b9f (Update species_names.h)
     // Zarude
     [SPECIES_ZARUDE_DADA] = _("Zarude Dada"),
     // Calyrex
-<<<<<<< HEAD
     [SPECIES_CALYREX_ICE_RIDER] = _("Calyrex"),
     [SPECIES_CALYREX_SHADOW_RIDER] = _("Calyrex"),
-=======
-    [SPECIES_CALYREX_ICE_RIDER] = _("Calyrex Ice"),
-    [SPECIES_CALYREX_SHADOW_RIDER] = _("Calyrex Shadow"),
->>>>>>> parent of 3b6492b9f (Update species_names.h)
 };
