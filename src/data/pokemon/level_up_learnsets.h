@@ -21742,7 +21742,7 @@ static const struct LevelUpMove sPalafinHeroLevelUpLearnset[] = {
     LEVEL_UP_MOVE(44, MOVE_MIST),
     LEVEL_UP_MOVE(50, MOVE_HYDRO_PUMP),
     LEVEL_UP_MOVE(55, MOVE_FOCUS_PUNCH),
-    LEVEL_UP_MOVE(61, MOVE_WAVE_CRASH),
+    //LEVEL_UP_MOVE(61, MOVE_WAVE_CRASH),
     LEVEL_UP_END
 };
 
@@ -23212,7 +23212,7 @@ static const struct LevelUpMove sLilligantHisuianLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_MEGA_DRAIN),
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),
     LEVEL_UP_MOVE( 1, MOVE_HELPING_HAND),
-    LEVEL_UP_MOVE( 5, MOVE_AXE_KICK),
+    //LEVEL_UP_MOVE( 5, MOVE_AXE_KICK),
     LEVEL_UP_END
 };
 
@@ -23404,7 +23404,7 @@ static const struct LevelUpMove sBasculegionMaleLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sBasculinWhiteStripeLevelUpLearnset[] = {
+static const struct LevelUpMove sBasculinWhiteStripedLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
 	LEVEL_UP_MOVE( 1, MOVE_TACKLE),
 	LEVEL_UP_MOVE( 1, MOVE_WATER_GUN),
