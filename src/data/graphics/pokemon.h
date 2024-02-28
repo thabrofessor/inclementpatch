@@ -6545,7 +6545,6 @@ const u8 gMonFootprint_Hoopa[] = INCBIN_U8("graphics/pokemon/hoopa/footprint.1bp
 const u8 gMonFootprint_Volcanion[] = INCBIN_U8("graphics/pokemon/volcanion/footprint.1bpp");
 
 
-// Continued Pokémon data
 const u32 gMonFrontPic_Wyrdeer[] = INCBIN_U32("graphics/pokemon/wyrdeer/front.4bpp.lz");
 const u32 gMonPalette_Wyrdeer[] = INCBIN_U32("graphics/pokemon/wyrdeer/normal.gbapal.lz");
 const u32 gMonBackPic_Wyrdeer[] = INCBIN_U32("graphics/pokemon/wyrdeer/back.4bpp.lz");
@@ -7470,53 +7469,53 @@ const u32 gMonBackPic_FEZANDIPITI[] = INCBIN_U32("graphics/pokemon/fezandipiti/b
 const u32 gMonShinyPalette_FEZANDIPITI[] = INCBIN_U32("graphics/pokemon/fezandipiti/shiny.gbapal.lz");
 const u8 gMonIcon_FEZANDIPITI[] = INCBIN_U8("graphics/pokemon/fezandipiti/icon.4bpp.lz");
 
-const u32 gMonFrontPic_OGERPON_TEAL[] = INCBIN_U32("graphics/pokemon/ogerdon_teal/front.4bpp.lz");
-const u32 gMonPalette_OGERPON_TEAL[] = INCBIN_U32("graphics/pokemon/ogerdon_teal/normal.gbapal.lz");
-const u32 gMonBackPic_OGERPON_TEAL[] = INCBIN_U32("graphics/pokemon/ogerdon_teal/back.4bpp.lz");
-const u32 gMonShinyPalette_OGERPON_TEAL[] = INCBIN_U32("graphics/pokemon/ogerdon_teal/shiny.gbapal.lz");
-const u8 gMonIcon_OGERPON_TEAL[] = INCBIN_U8("graphics/pokemon/ogerdon_teal/icon.4bpp.lz");
+const u32 gMonFrontPic_OGERPON_TEAL[] = INCBIN_U32("graphics/pokemon/ogerpon_teal/front.4bpp.lz");
+const u32 gMonPalette_OGERPON_TEAL[] = INCBIN_U32("graphics/pokemon/ogerpon_teal/normal.gbapal.lz");
+const u32 gMonBackPic_OGERPON_TEAL[] = INCBIN_U32("graphics/pokemon/ogerpon_teal/back.4bpp.lz");
+const u32 gMonShinyPalette_OGERPON_TEAL[] = INCBIN_U32("graphics/pokemon/ogerpon_teal/shiny.gbapal.lz");
+const u8 gMonIcon_OGERPON_TEAL[] = INCBIN_U8("graphics/pokemon/ogerpon_teal/icon.4bpp.lz");
 
-const u32 gMonFrontPic_OGERPON_WELLSPRING[] = INCBIN_U32("graphics/pokemon/ogerdon_wellspring/front.4bpp.lz");
-const u32 gMonPalette_OGERPON_WELLSPRING[] = INCBIN_U32("graphics/pokemon/ogerdon_wellspring/normal.gbapal.lz");
-const u32 gMonBackPic_OGERPON_WELLSPRING[] = INCBIN_U32("graphics/pokemon/ogerdon_wellspring/back.4bpp.lz");
-const u32 gMonShinyPalette_OGERPON_WELLSPRING[] = INCBIN_U32("graphics/pokemon/ogerdon_wellspring/shiny.gbapal.lz");
-const u8 gMonIcon_OGERPON_WELLSPRING[] = INCBIN_U8("graphics/pokemon/ogerdon_wellspring/icon.4bpp.lz");
+const u32 gMonFrontPic_OGERPON_WELLSPRING[] = INCBIN_U32("graphics/pokemon/ogerpon_wellspring/front.4bpp.lz");
+const u32 gMonPalette_OGERPON_WELLSPRING[] = INCBIN_U32("graphics/pokemon/ogerpon_wellspring/normal.gbapal.lz");
+const u32 gMonBackPic_OGERPON_WELLSPRING[] = INCBIN_U32("graphics/pokemon/ogerpon_wellspring/back.4bpp.lz");
+const u32 gMonShinyPalette_OGERPON_WELLSPRING[] = INCBIN_U32("graphics/pokemon/ogerpon_wellspring/shiny.gbapal.lz");
+const u8 gMonIcon_OGERPON_WELLSPRING[] = INCBIN_U8("graphics/pokemon/ogerpon_wellspring/icon.4bpp.lz");
 
-const u32 gMonFrontPic_OGERPON_HEARTHFLAME[] = INCBIN_U32("graphics/pokemon/ogerdon_hearthflame/front.4bpp.lz");
-const u32 gMonPalette_OGERPON_HEARTHFLAME[] = INCBIN_U32("graphics/pokemon/ogerdon_hearthflame/normal.gbapal.lz");
-const u32 gMonBackPic_OGERPON_HEARTHFLAME[] = INCBIN_U32("graphics/pokemon/ogerdon_hearthflame/back.4bpp.lz");
-const u32 gMonShinyPalette_OGERPON_HEARTHFLAME[] = INCBIN_U32("graphics/pokemon/ogerdon_hearthflame/shiny.gbapal.lz");
-const u8 gMonIcon_OGERPON_HEARTHFLAME[] = INCBIN_U8("graphics/pokemon/ogerdon_hearthflame/icon.4bpp.lz");
+const u32 gMonFrontPic_OGERPON_HEARTHFLAME[] = INCBIN_U32("graphics/pokemon/ogerpon_hearthflame/front.4bpp.lz");
+const u32 gMonPalette_OGERPON_HEARTHFLAME[] = INCBIN_U32("graphics/pokemon/ogerpon_hearthflame/normal.gbapal.lz");
+const u32 gMonBackPic_OGERPON_HEARTHFLAME[] = INCBIN_U32("graphics/pokemon/ogerpon_hearthflame/back.4bpp.lz");
+const u32 gMonShinyPalette_OGERPON_HEARTHFLAME[] = INCBIN_U32("graphics/pokemon/ogerpon_hearthflame/shiny.gbapal.lz");
+const u8 gMonIcon_OGERPON_HEARTHFLAME[] = INCBIN_U8("graphics/pokemon/ogerpon_hearthflame/icon.4bpp.lz");
 
-const u32 gMonFrontPic_OGERPON_CORNERSTONE[] = INCBIN_U32("graphics/pokemon/ogerdon_cornerstone/front.4bpp.lz");
-const u32 gMonPalette_OGERPON_CORNERSTONE[] = INCBIN_U32("graphics/pokemon/ogerdon_cornerstone/normal.gbapal.lz");
-const u32 gMonBackPic_OGERPON_CORNERSTONE[] = INCBIN_U32("graphics/pokemon/ogerdon_cornerstone/back.4bpp.lz");
-const u32 gMonShinyPalette_OGERPON_CORNERSTONE[] = INCBIN_U32("graphics/pokemon/ogerdon_cornerstone/shiny.gbapal.lz");
-const u8 gMonIcon_OGERPON_CORNERSTONE[] = INCBIN_U8("graphics/pokemon/ogerdon_cornerstone/icon.4bpp.lz");
+const u32 gMonFrontPic_OGERPON_CORNERSTONE[] = INCBIN_U32("graphics/pokemon/ogerpon_cornerstone/front.4bpp.lz");
+const u32 gMonPalette_OGERPON_CORNERSTONE[] = INCBIN_U32("graphics/pokemon/ogerpon_cornerstone/normal.gbapal.lz");
+const u32 gMonBackPic_OGERPON_CORNERSTONE[] = INCBIN_U32("graphics/pokemon/ogerpon_cornerstone/back.4bpp.lz");
+const u32 gMonShinyPalette_OGERPON_CORNERSTONE[] = INCBIN_U32("graphics/pokemon/ogerpon_cornerstone/shiny.gbapal.lz");
+const u8 gMonIcon_OGERPON_CORNERSTONE[] = INCBIN_U8("graphics/pokemon/ogerpon_cornerstone/icon.4bpp.lz");
 
-const u32 gMonFrontPic_OGERPON_TEAL_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerdon_teal_mask_tera/front.4bpp.lz");
-const u32 gMonPalette_OGERPON_TEAL_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerdon_teal_mask_tera/normal.gbapal.lz");
-const u32 gMonBackPic_OGERPON_TEAL_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerdon_teal_mask_tera/back.4bpp.lz");
-const u32 gMonShinyPalette_OGERPON_TEAL_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerdon_teal_mask_tera/shiny.gbapal.lz");
-const u8 gMonIcon_OGERPON_TEAL_MASK_TERA[] = INCBIN_U8("graphics/pokemon/ogerdon_teal_mask_tera/icon.4bpp.lz");
+const u32 gMonFrontPic_OGERPON_TEAL_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerpon_teal_mask_tera/front.4bpp.lz");
+const u32 gMonPalette_OGERPON_TEAL_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerpon_teal_mask_tera/normal.gbapal.lz");
+const u32 gMonBackPic_OGERPON_TEAL_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerpon_teal_mask_tera/back.4bpp.lz");
+const u32 gMonShinyPalette_OGERPON_TEAL_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerpon_teal_mask_tera/shiny.gbapal.lz");
+const u8 gMonIcon_OGERPON_TEAL_MASK_TERA[] = INCBIN_U8("graphics/pokemon/ogerpon_teal_mask_tera/icon.4bpp.lz");
 
-const u32 gMonFrontPic_OGERPON_WELLSPRING_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerdon_wellspring_mask_tera/front.4bpp.lz");
-const u32 gMonPalette_OGERPON_WELLSPRING_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerdon_wellspring_mask_tera/normal.gbapal.lz");
-const u32 gMonBackPic_OGERPON_WELLSPRING_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerdon_wellspring_mask_tera/back.4bpp.lz");
-const u32 gMonShinyPalette_OGERPON_WELLSPRING_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerdon_wellspring_mask_tera/shiny.gbapal.lz");
-const u8 gMonIcon_OGERPON_WELLSPRING_MASK_TERA[] = INCBIN_U8("graphics/pokemon/ogerdon_wellspring_mask_tera/icon.4bpp.lz");
+const u32 gMonFrontPic_OGERPON_WELLSPRING_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerpon_wellspring_mask_tera/front.4bpp.lz");
+const u32 gMonPalette_OGERPON_WELLSPRING_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerpon_wellspring_mask_tera/normal.gbapal.lz");
+const u32 gMonBackPic_OGERPON_WELLSPRING_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerpon_wellspring_mask_tera/back.4bpp.lz");
+const u32 gMonShinyPalette_OGERPON_WELLSPRING_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerpon_wellspring_mask_tera/shiny.gbapal.lz");
+const u8 gMonIcon_OGERPON_WELLSPRING_MASK_TERA[] = INCBIN_U8("graphics/pokemon/ogerpon_wellspring_mask_tera/icon.4bpp.lz");
 
-const u32 gMonFrontPic_OGERPON_HEARTHFLAME_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerdon_hearthflame_mask_tera/front.4bpp.lz");
-const u32 gMonPalette_OGERPON_HEARTHFLAME_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerdon_hearthflame_mask_tera/normal.gbapal.lz");
-const u32 gMonBackPic_OGERPON_HEARTHFLAME_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerdon_hearthflame_mask_tera/back.4bpp.lz");
-const u32 gMonShinyPalette_OGERPON_HEARTHFLAME_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerdon_hearthflame_mask_tera/shiny.gbapal.lz");
-const u8 gMonIcon_OGERPON_HEARTHFLAME_MASK_TERA[] = INCBIN_U8("graphics/pokemon/ogerdon_hearthflame_mask_tera/icon.4bpp.lz");
+const u32 gMonFrontPic_OGERPON_HEARTHFLAME_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerpon_hearthflame_mask_tera/front.4bpp.lz");
+const u32 gMonPalette_OGERPON_HEARTHFLAME_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerpon_hearthflame_mask_tera/normal.gbapal.lz");
+const u32 gMonBackPic_OGERPON_HEARTHFLAME_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerpon_hearthflame_mask_tera/back.4bpp.lz");
+const u32 gMonShinyPalette_OGERPON_HEARTHFLAME_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerpon_hearthflame_mask_tera/shiny.gbapal.lz");
+const u8 gMonIcon_OGERPON_HEARTHFLAME_MASK_TERA[] = INCBIN_U8("graphics/pokemon/ogerpon_hearthflame_mask_tera/icon.4bpp.lz");
 
-const u32 gMonFrontPic_OGERPON_CORNERSTONE_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerdon_cornerstone_mask_tera/front.4bpp.lz");
-const u32 gMonPalette_OGERPON_CORNERSTONE_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerdon_cornerstone_mask_tera/normal.gbapal.lz");
-const u32 gMonBackPic_OGERPON_CORNERSTONE_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerdon_cornerstone_mask_tera/back.4bpp.lz");
-const u32 gMonShinyPalette_OGERPON_CORNERSTONE_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerdon_cornerstone_mask_tera/shiny.gbapal.lz");
-const u8 gMonIcon_OGERPON_CORNERSTONE_MASK_TERA[] = INCBIN_U8("graphics/pokemon/ogerdon_cornerstone_mask_tera/icon.4bpp.lz");
+const u32 gMonFrontPic_OGERPON_CORNERSTONE_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerpon_cornerstone_mask_tera/front.4bpp.lz");
+const u32 gMonPalette_OGERPON_CORNERSTONE_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerpon_cornerstone_mask_tera/normal.gbapal.lz");
+const u32 gMonBackPic_OGERPON_CORNERSTONE_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerpon_cornerstone_mask_tera/back.4bpp.lz");
+const u32 gMonShinyPalette_OGERPON_CORNERSTONE_MASK_TERA[] = INCBIN_U32("graphics/pokemon/ogerpon_cornerstone_mask_tera/shiny.gbapal.lz");
+const u8 gMonIcon_OGERPON_CORNERSTONE_MASK_TERA[] = INCBIN_U8("graphics/pokemon/ogerpon_cornerstone_mask_tera/icon.4bpp.lz");
 
 const u32 gMonFrontPic_URSALUNA_BLOODMOON[] = INCBIN_U32("graphics/pokemon/ursaluna_bloodmoon/front.4bpp.lz");
 const u32 gMonPalette_URSALUNA_BLOODMOON[] = INCBIN_U32("graphics/pokemon/ursaluna_bloodmoon/normal.gbapal.lz");
