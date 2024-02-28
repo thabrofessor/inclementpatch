@@ -6870,11 +6870,11 @@ const u32 gMonBackPic_DOLLIV[] = INCBIN_U32("graphics/pokemon/dolliv/back.4bpp.l
 const u32 gMonShinyPalette_DOLLIV[] = INCBIN_U32("graphics/pokemon/dolliv/shiny.gbapal.lz");
 const u8 gMonIcon_DOLLIV[] = INCBIN_U8("graphics/pokemon/dolliv/icon.4bpp");
 
-const u32 gMonFrontPic_ARBOLIVA[] = INCBIN_U32("graphics/pokemon/arbolliva/front.4bpp.lz");
-const u32 gMonPalette_ARBOLIVA[] = INCBIN_U32("graphics/pokemon/arbolliva/normal.gbapal.lz");
-const u32 gMonBackPic_ARBOLIVA[] = INCBIN_U32("graphics/pokemon/arbolliva/back.4bpp.lz");
-const u32 gMonShinyPalette_ARBOLIVA[] = INCBIN_U32("graphics/pokemon/arbolliva/shiny.gbapal.lz");
-const u8 gMonIcon_ARBOLIVA[] = INCBIN_U8("graphics/pokemon/arbolliva/icon.4bpp");
+const u32 gMonFrontPic_ARBOLIVA[] = INCBIN_U32("graphics/pokemon/arboliva/front.4bpp.lz");
+const u32 gMonPalette_ARBOLIVA[] = INCBIN_U32("graphics/pokemon/arboliva/normal.gbapal.lz");
+const u32 gMonBackPic_ARBOLIVA[] = INCBIN_U32("graphics/pokemon/arboliva/back.4bpp.lz");
+const u32 gMonShinyPalette_ARBOLIVA[] = INCBIN_U32("graphics/pokemon/arboliva/shiny.gbapal.lz");
+const u8 gMonIcon_ARBOLIVA[] = INCBIN_U8("graphics/pokemon/arboliva/icon.4bpp");
 
 const u32 gMonFrontPic_SQUAWKABILLY_GREEN[] = INCBIN_U32("graphics/pokemon/squawkabilly_green/front.4bpp.lz");
 const u32 gMonPalette_SQUAWKABILLY_GREEN[] = INCBIN_U32("graphics/pokemon/squawkabilly_green/normal.gbapal.lz");
