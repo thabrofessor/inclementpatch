@@ -7571,11 +7571,11 @@ const u32 gMonBackPic_SCATTERBUG_MEADOW[] = INCBIN_U32("graphics/pokemon/scatter
 const u32 gMonShinyPalette_SCATTERBUG_MEADOW[] = INCBIN_U32("graphics/pokemon/scatterbug_meadow/shiny.gbapal.lz");
 const u8 gMonIcon_SCATTERBUG_MEADOW[] = INCBIN_U8("graphics/pokemon/scatterbug_meadow/icon.4bpp.lz");
 
-const u32 gMonFrontPic_SCATTERBUG_MODERN[] = INCBIN_U32("graphics/pokemon/scatterbug_modern/front.4bpp.lz");
-const u32 gMonPalette_SCATTERBUG_MODERN[] = INCBIN_U32("graphics/pokemon/scatterbug_modern/normal.gbapal.lz");
-const u32 gMonBackPic_SCATTERBUG_MODERN[] = INCBIN_U32("graphics/pokemon/scatterbug_modern/back.4bpp.lz");
-const u32 gMonShinyPalette_SCATTERBUG_MODERN[] = INCBIN_U32("graphics/pokemon/scatterbug_modern/shiny.gbapal.lz");
-const u8 gMonIcon_SCATTERBUG_MODERN[] = INCBIN_U8("graphics/pokemon/scatterbug_modern/icon.4bpp.lz");
+const u32 gMonFrontPic_ScatterbugModern[] = INCBIN_U32("graphics/pokemon/scatterbug_modern/front.4bpp.lz");
+const u32 gMonPalette_ScatterbugModern[] = INCBIN_U32("graphics/pokemon/scatterbug_modern/normal.gbapal.lz");
+const u32 gMonBackPic_ScatterbugModern[] = INCBIN_U32("graphics/pokemon/scatterbug_modern/back.4bpp.lz");
+const u32 gMonShinyPalette_ScatterbugModern[] = INCBIN_U32("graphics/pokemon/scatterbug_modern/shiny.gbapal.lz");
+const u8 gMonIcon_ScatterbugModern[] = INCBIN_U8("graphics/pokemon/scatterbug_modern/icon.4bpp.lz");
 
 const u32 gMonFrontPic_SCATTERBUG_MARINE[] = INCBIN_U32("graphics/pokemon/scatterbug_marine/front.4bpp.lz");
 const u32 gMonPalette_SCATTERBUG_MARINE[] = INCBIN_U32("graphics/pokemon/scatterbug_marine/normal.gbapal.lz");
