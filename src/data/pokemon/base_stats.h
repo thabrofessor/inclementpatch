@@ -36259,7 +36259,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_PALKIA_ORIGIN_FORME] =
+    [SPECIES_PALKIA_ORIGIN] =
     {
         .baseHP        = 110,
         .baseAttack    = 115,
@@ -36290,7 +36290,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_DIALGA_ORIGIN_FORME] =
+    [SPECIES_DIALGA_ORIGIN] =
     {
         .baseHP        = 110,
         .baseAttack    = 115,
@@ -36687,7 +36687,6 @@ const struct BaseStats gBaseStats[] =
     .abilities = {ABILITY_STRONG_JAW, ABILITY_ICE_BODY, ABILITY_STURDY},
     .bodyColor = BODY_COLOR_BLUE,
     .noFlip = FALSE,
-    .flags = FLAG_HISUIAN_FORM,
     },
 
 [SPECIES_DECIDUEYE_HISUIAN] =
@@ -36740,7 +36739,7 @@ const struct BaseStats gBaseStats[] =
     },
 
     
-    [SPECIES_URSALUNA_MOONBLOOD] =
+    [SPECIES_URSALUNA_BLOODMOON] =
     {
         .baseHP        = 110,
         .baseAttack    = 115,
