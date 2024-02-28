@@ -38019,7 +38019,7 @@ const u32 gTMHMLearnsets[][4] =
                                         | TMHM1(TM25_THUNDER),
                                           TMHM2(TM90_SUBSTITUTE)
                                         | TMHM2(TM94_SUCKER_PUNCH)),
-    [SPECIES_TATSUGIRI_STREACHY]   = TMHM_LEARNSET (TMHM1(TM24_THUNDERBOLT)
+    [SPECIES_TATSUGIRI_STRETCHY]   = TMHM_LEARNSET (TMHM1(TM24_THUNDERBOLT)
                                         | TMHM1(TM25_THUNDER),
                                           TMHM2(TM90_SUBSTITUTE)
                                         | TMHM2(TM94_SUCKER_PUNCH)),        
@@ -38032,10 +38032,6 @@ const u32 gTMHMLearnsets[][4] =
                                           TMHM2(TM90_SUBSTITUTE)
                                         | TMHM2(TM94_SUCKER_PUNCH)),
     [SPECIES_FARIGIRAF]   = TMHM_LEARNSET (TMHM1(TM24_THUNDERBOLT)
-                                        | TMHM1(TM25_THUNDER),
-                                          TMHM2(TM90_SUBSTITUTE)
-                                        | TMHM2(TM94_SUCKER_PUNCH)),
-    [SPECIES_DUDUNSPARCE]   = TMHM_LEARNSET (TMHM1(TM24_THUNDERBOLT)
                                         | TMHM1(TM25_THUNDER),
                                           TMHM2(TM90_SUBSTITUTE)
                                         | TMHM2(TM94_SUCKER_PUNCH)),
@@ -38240,7 +38236,9 @@ const u32 gTMHMLearnsets[][4] =
                                           TMHM2(TM90_SUBSTITUTE)
                                         | TMHM2(TM94_SUCKER_PUNCH)),
     [SPECIES_DIALGA_ORIGIN]   = TMHM_LEARNSET (TMHM1(TM24_THUNDERBOLT)
-                                     | TMHM2(TM94_SUCKER_PUNCH)),
+                                        | TMHM1(TM25_THUNDER),
+                                          TMHM2(TM90_SUBSTITUTE)
+                                        | TMHM2(TM94_SUCKER_PUNCH)),
     [SPECIES_URSALUNA_BLOODMOON]   = TMHM_LEARNSET (TMHM1(TM24_THUNDERBOLT)
                                         | TMHM1(TM25_THUNDER),
                                           TMHM2(TM90_SUBSTITUTE)
