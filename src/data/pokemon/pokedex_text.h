@@ -5355,8 +5355,1469 @@ const u8 gCalyrexPokedexText[] = _(
     "providing healing and blessings. It\n"
     "reigned over the Galar region in times\n"
     "of yore.");
-    const u8 gAnnihilapePokedexText[] = _(
-    "Calyrex is a merciful Pokémon, capable of\n"
-    "providing healing and blessings. It\n"
-    "reigned over the Galar region in times\n"
-    "of yore.");
+const u8 gAnnihilapePokedexText[] = _(
+    "Annihilape is a fearsome Pokémon known\n"
+    "for its immense strength. Legends speak\n"
+    "of its ability to crush mountains with\n"
+    "a single blow.");
+    const u8 gWyrdeerPokedexText[] = _(
+    "Wyrdeer is a majestic Pokémon known for\n"
+    "its graceful movements. Legends speak of\n"
+    "its ability to bring peace to the\n"
+    "forest with its soothing presence.");
+
+const u8 gKleavorPokedexText[] = _(
+    "Kleavor is a fierce Pokémon known for its\n"
+    "razor-sharp claws. Legends speak of its\n"
+    "ability to slice through trees with\n"
+    "ease.");
+
+const u8 gUrsalunaPokedexText[] = _(
+    "Ursaluna is a mysterious Pokémon known\n"
+    "for its connection to the moon. Legends\n"
+    "speak of its ability to control the\n"
+    "tides.");
+
+const u8 gBasculegionFemalePokedexText[] = _(
+    "Basculegion is a fearsome Pokémon known\n"
+    "for its powerful jaws. Legends speak of\n"
+    "its ability to crush rocks with ease.");
+
+const u8 gBasculegionMalePokedexText[] = _(
+    "Basculegion is a fearsome Pokémon known\n"
+    "for its powerful jaws. Legends speak of\n"
+    "its ability to crush rocks with ease.");
+
+const u8 gSneaslerPokedexText[] = _(
+    "Sneasler is a cunning Pokémon known for\n"
+    "its stealthy movements. Legends speak of\n"
+    "its ability to outmaneuver even the\n"
+    "cleverest of opponents.");
+
+const u8 gOverqwilPokedexText[] = _(
+    "Overqwil is a mysterious Pokémon known\n"
+    "for its connection to the spirit world.\n"
+    "Legends speak of its ability to summon\n"
+    "ghostly apparitions.");
+
+const u8 gEnamorusTherianPokedexText[] = _(
+    "Enamorus is a majestic Pokémon known\n"
+    "for its regal appearance. Legends speak\n"
+    "of its ability to command respect from\n"
+    "all who see it.");
+
+const u8 gEnamorusPokedexText[] = _(
+    "Enamorus is a majestic Pokémon known\n"
+    "for its regal appearance. Legends speak\n"
+    "of its ability to command respect from\n"
+    "all who see it.");
+
+const u8 gGrowlitheHisuianPokedexText[] = _(
+    "Growlithe is a loyal Pokémon known for\n"
+    "its unwavering devotion to its trainer.\n"
+    "Legends speak of its ability to protect\n"
+    "its allies with its life.");
+
+const u8 gArcanineHisuianPokedexText[] = _(
+    "Arcanine is a majestic Pokémon known for\n"
+    "its bravery and strength. Legends speak\n"
+    "of its ability to protect the weak from\n"
+    "those who would do them harm.");
+
+const u8 gVoltorbHisuianPokedexText[] = _(
+    "Voltorb is a curious Pokémon known for\n"
+    "its love of puzzles. Legends speak of\n"
+    "its ability to solve even the most\n"
+    "difficult riddles.");
+
+const u8 gElectrodeHisuianPokedexText[] = _(
+    "Electrode is an energetic Pokémon known\n"
+    "for its playful antics. Legends speak of\n"
+    "its ability to generate electricity with\n"
+    "a single clap.");
+
+const u8 gTyphlosionHisuianPokedexText[] = _(
+    "Typhlosion is a powerful Pokémon known\n"
+    "for its fiery temper. Legends speak of\n"
+    "its ability to cause volcanic eruptions\n"
+    "with a single roar.");
+
+const u8 gQwilfishHisuianPokedexText[] = _(
+    "Qwilfish is a fearsome Pokémon known for\n"
+    "its poisonous spikes. Legends speak of\n"
+    "its ability to paralyze its prey with a\n"
+    "single sting.");
+
+const u8 gSneaselHisuianPokedexText[] = _(
+    "Sneasel is a cunning Pokémon known for\n"
+    "its stealthy movements. Legends speak of\n"
+    "its ability to outmaneuver even the\n"
+    "cleverest of opponents.");
+
+const u8 gSamurottHisuianPokedexText[] = _(
+    "Samurott is a fearsome Pokémon known for\n"
+    "its powerful scalchops. Legends speak of\n"
+    "its ability to slice through boulders\n"
+    "with ease.");
+
+const u8 gLilligantHisuianPokedexText[] = _(
+    "Lilligant is a graceful Pokémon known\n"
+    "for its elegant dances. Legends speak\n"
+    "of its ability to bring joy to those\n"
+    "around it.");
+
+const u8 gZoruaHisuianPokedexText[] = _(
+    "Zorua is a mischievous Pokémon known for\n"
+    "its cunning tricks. Legends speak of its\n"
+    "ability to mimic the appearances of\n"
+    "other Pokémon.");
+
+const u8 gZoroarkHisuianPokedexText[] = _(
+    "Zoroark is a mysterious Pokémon known\n"
+    "for its illusions. Legends speak of its\n"
+    "ability to create lifelike illusions to\n"
+    "confound its enemies.");
+
+const u8 gBraviaryHisuianPokedexText[] = _(
+    "Braviary is a majestic Pokémon known\n"
+    "for its bravery and strength. Legends\n"
+    "speak of its ability to protect the\n"
+    "weak from those who would do them harm.");
+
+const u8 gSliggooHisuianPokedexText[] = _(
+    "Sliggoo is a curious Pokémon known for\n"
+    "its playful nature. Legends speak of its\n"
+    "ability to bring joy to those around\n"
+    "it.");
+
+const u8 gGoodraHisuianPokedexText[] = _(
+    "Goodra is a gentle Pokémon known for\n"
+    "its kind heart. Legends speak of its\n"
+    "ability to heal wounded Pokémon with\n"
+    "its soothing touch.");
+
+const u8 gAvaluggHisuianPokedexText[] = _(
+    "Avalugg is a fearsome Pokémon known for\n"
+    "its powerful ice attacks. Legends speak\n"
+    "of its ability to freeze opponents with\n"
+    "a single breath.");
+
+const u8 gDecidueyeHisuianPokedexText[] = _(
+    "Decidueye is a majestic Pokémon known\n"
+    "for its regal appearance. Legends speak\n"
+    "of its ability to command respect from\n"
+    "all who see it.");
+
+const u8 gDialgaOriginPokedexText[] = _(
+    "Dialga is a legendary Pokémon known for\n"
+    "its control over time. Legends speak of\n"
+    "its ability to warp reality itself.");
+
+const u8 gPalkiaOriginPokedexText[] = _(
+    "Palkia is a legendary Pokémon known for\n"
+    "its control over space. Legends speak of\n"
+    "its ability to bend space to its will.");
+
+const u8 gBasculinWhiteStripedPokedexText[] = _(
+    "Basculin is a fierce Pokémon known for\n"
+    "its aggressive nature. Legends speak of\n"
+    "its ability to swim upstream against\n"
+    "the strongest currents.");
+
+const u8 gSprigatitoPokedexText[] = _(
+    "Sprigatito is a playful Pokémon known\n"
+    "for its mischievous pranks. Legends\n"
+    "speak of its ability to play tricks on\n"
+    "unsuspecting travelers.");
+
+const u8 gFloragatoPokedexText[] = _(
+    "Floragato is a majestic Pokémon known\n"
+    "for its elegant appearance. Legends\n"
+    "speak of its ability to bring beauty\n"
+    "to even the most desolate landscapes.");
+
+const u8 gMeowscaradaPokedexText[] = _(
+    "Meowscarada is a mischievous Pokémon\n"
+    "known for its cunning tricks. Legends\n"
+    "speak of its ability to outsmart even\n"
+    "the cleverest of opponents.");
+
+const u8 gFuecocoPokedexText[] = _(
+    "Fuecoco is a fiery Pokémon known for\n"
+    "its explosive temper. Legends speak of\n"
+    "its ability to cause wildfires with\n"
+    "a single ember.");
+
+const u8 gCrocabularyPokedexText[] = _(
+    "Crocabulary is a fearsome Pokémon known\n"
+    "for its powerful jaws. Legends speak of\n"
+    "its ability to crush boulders with\n"
+    "ease.");
+
+const u8 gSkeledirgePokedexText[] = _(
+    "Skeledirge is a spooky Pokémon known\n"
+    "for its eerie presence. Legends speak\n"
+    "of its ability to summon ghostly\n"
+    "apparitions.");
+
+const u8 gQuaxlyPokedexText[] = _(
+    "Quaxly is a curious Pokémon known for\n"
+    "its love of adventure. Legends speak of\n"
+    "its ability to explore even the most\n"
+    "treacherous of terrain.");
+
+const u8 gQuaxwellPokedexText[] = _(
+    "Quaxwell is a curious Pokémon known for\n"
+    "its inquisitive nature. Legends speak of\n"
+    "its ability to solve even the most\n"
+    "difficult puzzles.");
+
+const u8 gQuaquavalPokedexText[] = _(
+    "Quaquaval is a mysterious Pokémon known\n"
+    "for its enigmatic nature. Legends speak\n"
+    "of its ability to predict the future.");
+
+const u8 gLechonkPokedexText[] = _(
+    "Lechonk is a playful Pokémon known for\n"
+    "its love of mud baths. Legends speak\n"
+    "of its ability to create mudslides with\n"
+    "a single stomp.");
+
+const u8 gOinkologneMalePokedexText[] = _(
+    "Oinkologne is a smelly Pokémon known\n"
+    "for its foul odor. Legends speak of its\n"
+    "ability to repel even the bravest of\n"
+    "trainers.");
+
+const u8 gOinkologneFemalePokedexText[] = _(
+    "Oinkologne is a smelly Pokémon known\n"
+    "for its foul odor. Legends speak of its\n"
+    "ability to repel even the bravest of\n"
+    "trainers.");
+
+const u8 gTarountulaPokedexText[] = _(
+    "Tarountula is a fearsome Pokémon known\n"
+    "for its powerful fangs. Legends speak\n"
+    "of its ability to paralyze its prey\n"
+    "with a single bite.");
+
+const u8 gSpidopsPokedexText[] = _(
+    "Spidops is a mysterious Pokémon known\n"
+    "for its connection to the shadows.\n"
+    "Legends speak of its ability to hide\n"
+    "in the darkness.");
+
+const u8 gNymblePokedexText[] = _(
+    "Nymble is a playful Pokémon known for\n"
+    "its love of pranks. Legends speak of\n"
+    "its ability to hide in plain sight and\n"
+    "surprise its foes.");
+
+const u8 gLokixPokedexText[] = _(
+    "Lokix is a mischievous Pokémon known\n"
+    "for its cunning tricks. Legends speak\n"
+    "of its ability to outsmart even the\n"
+    "cleverest of opponents.");
+
+const u8 gPawmiPokedexText[] = _(
+    "Pawmi is a curious Pokémon known for\n"
+    "its love of exploration. Legends speak\n"
+    "of its ability to find hidden treasures\n"
+    "in the most unexpected places.");
+
+const u8 gPawmoPokedexText[] = _(
+    "Pawmo is a curious Pokémon known for\n"
+    "its love of discovery. Legends speak\n"
+    "of its ability to uncover ancient ruins\n"
+    "and lost artifacts.");
+
+const u8 gPawmotPokedexText[] = _(
+    "Pawmot is a curious Pokémon known for\n"
+    "its love of adventure. Legends speak of\n"
+    "its ability to navigate through the most\n"
+    "treacherous of terrain.");
+
+const u8 gTandemausPokedexText[] = _(
+    "Tandemaus is a mischievous Pokémon\n"
+    "known for its playful antics. Legends\n"
+    "speak of its ability to double its\n"
+    "strength when battling alongside a\n"
+    "companion.");
+
+const u8 gMausholdThreePokedexText[] = _(
+    "Maushold is a curious Pokémon known for\n"
+    "its love of cheese. Legends speak of\n"
+    "its ability to sniff out the tastiest\n"
+    "morsels from miles away.");
+
+const u8 gMausholdFourPokedexText[] = _(
+    "Maushold is a curious Pokémon known for\n"
+    "its love of cheese. Legends speak of\n"
+    "its ability to sniff out the tastiest\n"
+    "morsels from miles away.");
+
+const u8 gFidoughPokedexText[] = _(
+    "Fidough is a playful Pokémon known for\n"
+    "its love of baking. Legends speak of\n"
+    "its ability to create delicious treats\n"
+    "that can satisfy any appetite.");
+
+const u8 gDachsbunPokedexText[] = _(
+    "Dachsbun is a curious Pokémon known for\n"
+    "its love of digging. Legends speak of\n"
+    "its ability to burrow through the earth\n"
+    "with ease.");
+
+const u8 gSmolivPokedexText[] = _(
+    "Smoliv is a playful Pokémon known for\n"
+    "its energetic nature. Legends speak of\n"
+    "its ability to bounce around with\n"
+    "boundless enthusiasm.");
+
+const u8 gDollivPokedexText[] = _(
+    "Dolliv is a curious Pokémon known for\n"
+    "its love of fashion. Legends speak of\n"
+    "its ability to design stylish outfits\n"
+    "that are the envy of all who see them.");
+
+const u8 gArbolivaPokedexText[] = _(
+    "Arboliva is a majestic Pokémon known for\n"
+    "its connection to nature. Legends speak\n"
+    "of its ability to communicate with\n"
+    "the spirits of the forest.");
+
+const u8 gSquawkabillyGreenPokedexText[] = _(
+    "Squawkabilly is a musical Pokémon known\n"
+    "for its soulful melodies. Legends speak\n"
+    "of its ability to lift the spirits of\n"
+    "those who hear its songs.");
+
+const u8 gSquawkabillyBluePokedexText[] = _(
+    "Squawkabilly is a musical Pokémon known\n"
+    "for its soulful melodies. Legends speak\n"
+    "of its ability to lift the spirits of\n"
+    "those who hear its songs.");
+
+const u8 gSquawkabillyYellowPokedexText[] = _(
+    "Squawkabilly is a musical Pokémon known\n"
+    "for its soulful melodies. Legends speak\n"
+    "of its ability to lift the spirits of\n"
+    "those who hear its songs.");
+
+const u8 gSquawkabillyWhitePokedexText[] = _(
+    "Squawkabilly is a musical Pokémon known\n"
+    "for its soulful melodies. Legends speak\n"
+    "of its ability to lift the spirits of\n"
+    "those who hear its songs.");
+
+const u8 gNacliPokedexText[] = _(
+    "Nacli is a curious Pokémon known for its\n"
+    "love of salt. Legends speak of its\n"
+    "ability to predict the weather by\n"
+    "tasting the air.");
+
+const u8 gNaclstackPokedexText[] = _(
+    "Naclstack is a mysterious Pokémon known\n"
+    "for its ability to manipulate salt.\n"
+    "Legends speak of its ability to create\n"
+    "elaborate sculptures from salt crystals.");
+
+const u8 gGarganaclPokedexText[] = _(
+    "Garganacl is a fearsome Pokémon known\n"
+    "for its control over salt. Legends speak\n"
+    "of its ability to desalinate entire\n"
+    "ocean currents with a single roar.");
+
+const u8 gCharcadetPokedexText[] = _(
+    "Charcadet is a fiery Pokémon known for\n"
+    "its volcanic temper. Legends speak of\n"
+    "its ability to create eruptions that can\n"
+    "be seen from miles away.");
+
+const u8 gArmarougePokedexText[] = _(
+    "Armarouge is a fearsome Pokémon known\n"
+    "for its sharp claws. Legends speak of\n"
+    "its ability to slice through boulders\n"
+    "with ease.");
+
+const u8 gCeruledgePokedexText[] = _(
+    "Ceruledge is a fierce Pokémon known for\n"
+    "its brave heart. Legends speak of its\n"
+    "ability to protect its allies from any\n"
+    "threat.");
+
+const u8 gTadbulbPokedexText[] = _(
+    "Tadbulb is a playful Pokémon known for\n"
+    "its love of splashing in puddles.\n"
+    "Legends speak of its ability to cause\n"
+    "torrential rainstorms with a single\n"
+    "splash.");
+
+const u8 gBelliboltPokedexText[] = _(
+    "Bellibolt is a curious Pokémon known\n"
+    "for its love of tinkering with\n"
+    "machinery. Legends speak of its ability\n"
+    "to repair even the most broken of\n"
+    "machines.");
+
+const u8 gWattrelPokedexText[] = _(
+    "Wattrel is an energetic Pokémon known\n"
+    "for its love of electricity. Legends\n"
+    "speak of its ability to generate\n"
+    "lightning with a single spark.");
+
+const u8 gKilowattrelPokedexText[] = _(
+    "Kilowattrel is an electrifying Pokémon\n"
+    "known for its powerful shocks. Legends\n"
+    "speak of its ability to power entire\n"
+    "cities with its electric energy.");
+
+const u8 gMaschiffPokedexText[] = _(
+    "Maschiff is a fierce Pokémon known for\n"
+    "its loyalty and strength. Legends speak\n"
+    "of its ability to protect its trainer\n"
+    "from any danger.");
+
+const u8 gMabosstiffPokedexText[] = _(
+    "Mabosstiff is a powerful Pokémon known\n"
+    "for its strong leadership. Legends\n"
+    "speak of its ability to command entire\n"
+    "armies with a single roar.");
+
+const u8 gShroodlePokedexText[] = _(
+    "Shroodle is a spooky Pokémon known for\n"
+    "its eerie presence. Legends speak of\n"
+    "its ability to haunt abandoned houses\n"
+    "and dark forests.");
+
+const u8 gGrafaiaiPokedexText[] = _(
+    "Grafaiai is a majestic Pokémon known\n"
+    "for its elegant appearance. Legends\n"
+    "speak of its ability to bring joy to\n"
+    "those who see it.");
+
+const u8 gBramblinPokedexText[] = _(
+    "Bramblin is a fearsome Pokémon known for\n"
+    "its sharp thorns. Legends speak of its\n"
+    "ability to create impenetrable barriers\n"
+    "of thorny vines.");
+
+const u8 gBrambleghastPokedexText[] = _(
+    "Brambleghast is a spooky Pokémon known\n"
+    "for its eerie presence. Legends speak\n"
+    "of its ability to summon ghostly\n"
+    "apparitions to do its bidding.");
+
+const u8 gToedscoolPokedexText[] = _(
+    "Toedscool is a curious Pokémon known\n"
+    "for its love of exploring caves. Legends\n"
+    "speak of its ability to navigate through\n"
+    "the darkest tunnels with ease.");
+
+const u8 gToedscrueLPokedexText[] = _(
+    "ToedscrueL is a curious Pokémon known\n"
+    "for its love of adventure. Legends speak\n"
+    "of its ability to uncover hidden\n"
+    "treasures in the depths of the earth.");
+
+const u8 gKlawfPokedexText[] = _(
+    "Klawf is a fierce Pokémon known for\n"
+    "its sharp claws. Legends speak of its\n"
+    "ability to slice through rocks with\n"
+    "ease.");
+
+const u8 gCapsakidPokedexText[] = _(
+    "Capsakid is a mischievous Pokémon known\n"
+    "for its love of pranks. Legends speak\n"
+    "of its ability to create illusions that\n"
+    "confound its enemies.");
+
+const u8 gScovillainPokedexText[] = _(
+    "Scovillain is a fearsome Pokémon known\n"
+    "for its fiery temper. Legends speak of\n"
+    "its ability to create infernos that can\n"
+    "be seen from miles away.");
+
+const u8 gRellorPokedexText[] = _(
+    "Rellor is a mysterious Pokémon known\n"
+    "for its enigmatic nature. Legends speak\n"
+    "of its ability to predict the future.");
+
+const u8 gRabscaPokedexText[] = _(
+    "Rabsca is a curious Pokémon known for\n"
+    "its love of exploration. Legends speak\n"
+    "of its ability to navigate through the\n"
+    "most treacherous of terrain.");
+
+const u8 gFlittlePokedexText[] = _(
+    "Flittle is a mischievous Pokémon known\n"
+    "for its playful pranks. Legends speak\n"
+    "of its ability to outsmart even the\n"
+    "cleverest of opponents.");
+
+const u8 gEspathraPokedexText[] = _(
+    "Espathra is a fearsome Pokémon known\n"
+    "for its powerful wings. Legends speak\n"
+    "of its ability to create gusts of wind\n"
+    "that can knock down buildings.");
+
+const u8 gTinkatinkPokedexText[] = _(
+    "Tinkatink is a curious Pokémon known\n"
+    "for its love of tinkering with\n"
+    "machinery. Legends speak of its ability\n"
+    "to fix any broken device.");
+
+const u8 gTinkatuffPokedexText[] = _(
+    "Tinkatuff is a curious Pokémon known\n"
+    "for its love of exploration. Legends\n"
+    "speak of its ability to uncover hidden\n"
+    "treasures in the most unlikely places.");
+
+const u8 gTinkatonPokedexText[] = _(
+    "Tinkaton is a mysterious Pokémon known\n"
+    "for its connection to the stars. Legends\n"
+    "speak of its ability to navigate by\n"
+    "reading the constellations.");
+
+const u8 gWiglettPokedexText[] = _(
+    "Wiglett is a mischievous Pokémon known\n"
+    "for its love of pranks. Legends speak\n"
+    "of its ability to create illusions to\n"
+    "confuse its enemies.");
+
+const u8 gWugtrioPokedexText[] = _(
+    "Wugtrio is a mischievous Pokémon known\n"
+    "for its love of pranks. Legends speak\n"
+    "of its ability to outsmart even the\n"
+    "cleverest of opponents.");
+
+const u8 gBombirdierPokedexText[] = _(
+    "Bombirdier is a fiery Pokémon known for\n"
+    "its explosive temper. Legends speak of\n"
+    "its ability to create fireballs that can\n"
+    "be seen from miles away.");
+
+const u8 gFinizenPokedexText[] = _(
+    "Finizen is a mysterious Pokémon known\n"
+    "for its connection to the sea. Legends\n"
+    "speak of its ability to control the\n"
+    "waves with a single gesture.");
+
+const u8 gPalfinZeroPokedexText[] = _(
+    "Palfin Zero is a fearsome Pokémon known\n"
+    "for its control over the tides. Legends\n"
+    "speak of its ability to create massive\n"
+    "tsunamis with a single roar.");
+
+const u8 gPalfinHeroPokedexText[] = _(
+    "Palfin Hero is a fearsome Pokémon known\n"
+    "for its control over the seas. Legends\n"
+    "speak of its ability to summon powerful\n"
+    "storms that can sink entire fleets.");
+
+const u8 gVaroomPokedexText[] = _(
+    "Varoom is a curious Pokémon known for\n"
+    "its love of speed. Legends speak of its\n"
+    "ability to break the sound barrier with\n"
+    "a single stride.");
+
+const u8 gRevavroomPokedexText[] = _(
+    "Revavroom is a fierce Pokémon known for\n"
+    "its powerful engines. Legends speak of\n"
+    "its ability to accelerate from 0 to 60\n"
+    "mph in the blink of an eye.");
+
+const u8 gCyclizarPokedexText[] = _(
+    "Cyclizar is a fierce Pokémon known for\n"
+    "its powerful gusts. Legends speak of\n"
+    "its ability to create tornadoes that can\n"
+    "level entire towns.");
+
+const u8 gOrthwormPokedexText[] = _(
+    "Orthworm is a mysterious Pokémon known\n"
+    "for its ability to tunnel through the\n"
+    "earth. Legends speak of its ability to\n"
+    "create vast networks of tunnels.");
+
+const u8 gGlimmetPokedexText[] = _(
+    "Glimmet is a curious Pokémon known for\n"
+    "its love of shiny objects. Legends speak\n"
+    "of its ability to find hidden treasures\n"
+    "in the most unlikely places.");
+
+const u8 gGlimmoraPokedexText[] = _(
+    "Glimmora is a mysterious Pokémon known\n"
+    "for its ability to manipulate light.\n"
+    "Legends speak of its ability to create\n"
+    "dazzling displays that can blind its\n"
+    "enemies.");
+
+const u8 gGreavardPokedexText[] = _(
+    "Greavard is a fearsome Pokémon known for\n"
+    "its powerful attacks. Legends speak of\n"
+    "its ability to crush boulders with a\n"
+    "single blow.");
+
+const u8 gHoundstonePokedexText[] = _(
+    "Houndstone is a fierce Pokémon known for\n"
+    "its loyalty and courage. Legends speak\n"
+    "of its ability to protect its trainer\n"
+    "from any danger.");
+
+const u8 gFlamigoPokedexText[] = _(
+    "Flamigo is a fiery Pokémon known for its\n"
+    "blazing speed. Legends speak of its\n"
+    "ability to run faster than the wind.");
+
+const u8 gCetoddlePokedexText[] = _(
+    "Cetoddle is a curious Pokémon known for\n"
+    "its love of swimming. Legends speak of\n"
+    "its ability to navigate the oceans with\n"
+    "ease.");
+
+const u8 gCetitanPokedexText[] = _(
+    "Cetitan is a fearsome Pokémon known for\n"
+    "its powerful jaws. Legends speak of its\n"
+    "ability to crush the hulls of ships\n"
+    "with a single bite.");
+
+const u8 gVeluzaPokedexText[] = _(
+    "Veluza is a majestic Pokémon known for\n"
+    "its graceful movements. Legends speak of\n"
+    "its ability to dance on the surface of\n"
+    "the water.");
+
+const u8 gDondozoPokedexText[] = _(
+    "Dondozo is a mysterious Pokémon known\n"
+    "for its connection to the moon. Legends\n"
+    "speak of its ability to control the\n"
+    "tides with a single gesture.");
+
+const u8 gTatsugiriCurlyPokedexText[] = _(
+    "Tatsugiri Curly is a fearsome Pokémon\n"
+    "known for its razor-sharp horns.\n"
+    "Legends speak of its ability to slice\n"
+    "through steel with ease.");
+
+const u8 gTatsugiriDroopyPokedexText[] = _(
+    "Tatsugiri Droopy is a fearsome Pokémon\n"
+    "known for its powerful jaws. Legends\n"
+    "speak of its ability to crush boulders\n"
+    "with ease.");
+
+const u8 gTatsugiriStretchyPokedexText[] = _(
+    "Tatsugiri Stretchy is a fearsome Pokémon\n"
+    "known for its flexible body. Legends\n"
+    "speak of its ability to stretch its\n"
+    "limbs to incredible lengths.");
+
+const u8 gClodsirePokedexText[] = _(
+    "Clodsire is a curious Pokémon known for\n"
+    "its love of gardening. Legends speak of\n"
+    "its ability to make flowers bloom in\n"
+    "even the harshest of environments.");
+
+const u8 gFarigirafPokedexText[] = _(
+    "Farigiraf is a majestic Pokémon known\n"
+    "for its elegant appearance. Legends\n"
+    "speak of its ability to gallop across\n"
+    "the savannah with unmatched speed.");
+
+const u8 gDudunsparceTwoPokedexText[] = _(
+    "Dudunsparce Two is a curious Pokémon\n"
+    "known for its love of underground\n"
+    "exploration. Legends speak of its\n"
+    "ability to navigate through the darkest\n"
+    "caves with ease.");
+
+const u8 gDudunsparceThreePokedexText[] = _(
+    "Dudunsparce Three is a curious Pokémon\n"
+    "known for its love of digging. Legends\n"
+    "speak of its ability to create vast\n"
+    "networks of tunnels beneath the earth.");
+
+const u8 gKingambitPokedexText[] = _(
+    "Kingambit is a fierce Pokémon known for\n"
+    "its powerful horns. Legends speak of\n"
+    "its ability to charge through mountains\n"
+    "with ease.");
+
+const u8 gGreatTuskPokedexText[] = _(
+    "Great Tusk is a fearsome Pokémon known\n"
+    "for its massive tusks. Legends speak of\n"
+    "its ability to crush boulders with a\n"
+    "single blow.");
+
+const u8 gScreamTailPokedexText[] = _(
+    "Scream Tail is a fearsome Pokémon known\n"
+    "for its piercing cry. Legends speak of\n"
+    "its ability to paralyze its enemies\n"
+    "with fear.");
+
+const u8 gBruteBonnetPokedexText[] = _(
+    "Brute Bonnet is a fierce Pokémon known\n"
+    "for its powerful headbutt. Legends\n"
+    "speak of its ability to break through\n"
+    "solid rock with ease.");
+
+const u8 gFlutterManePokedexText[] = _(
+    "Flutter Mane is a majestic Pokémon\n"
+    "known for its graceful movements.\n"
+    "Legends speak of its ability to charm\n"
+    "even the fiercest of opponents.");
+
+const u8 gSlitherWingPokedexText[] = _(
+    "Slither Wing is a mysterious Pokémon\n"
+    "known for its connection to the shadows.\n"
+    "Legends speak of its ability to disappear\n"
+    "into the darkness at will.");
+
+const u8 gSandyShocksPokedexText[] = _(
+    "Sandy Shocks is a fierce Pokémon known\n"
+    "for its control over sand. Legends speak\n"
+    "of its ability to create sandstorms that\n"
+    "can swallow entire towns.");
+
+const u8 gIronTreadsPokedexText[] = _(
+    "Iron Treads is a fearsome Pokémon known\n"
+    "for its powerful legs. Legends speak of\n"
+    "its ability to stomp through solid rock\n"
+    "with ease.");
+
+const u8 gIronBundlePokedexText[] = _(
+    "Iron Bundle is a fierce Pokémon known\n"
+    "for its powerful arms. Legends speak of\n"
+    "its ability to crush boulders with a\n"
+    "single blow.");
+
+const u8 gIronHandsPokedexText[] = _(
+    "Iron Hands is a fearsome Pokémon known\n"
+    "for its powerful grip. Legends speak of\n"
+    "its ability to crush steel with its bare\n"
+    "hands.");
+
+const u8 gIronJugulisPokedexText[] = _(
+    "Iron Jugulis is a fearsome Pokémon\n"
+    "known for its powerful claws. Legends\n"
+    "speak of its ability to slice through\n"
+    "steel with ease.");
+
+const u8 gIronMothPokedexText[] = _(
+    "Iron Moth is a mysterious Pokémon known\n"
+    "for its connection to the night sky.\n"
+    "Legends speak of its ability to fly\n"
+    "faster than the speed of sound.");
+
+const u8 gIronThornsPokedexText[] = _(
+    "Iron Thorns is a fierce Pokémon known\n"
+    "for its sharp spikes. Legends speak of\n"
+    "its ability to impale its enemies on\n"
+    "its thorny vines.");
+
+const u8 gFrigibaxPokedexText[] = _(
+    "Frigibax is a fierce Pokémon known for\n"
+    "its control over ice. Legends speak of\n"
+    "its ability to freeze anything solid in\n"
+    "a matter of seconds.");
+
+const u8 gArctibaxPokedexText[] = _(
+    "Arctibax is a fierce Pokémon known for\n"
+    "its icy breath. Legends speak of its\n"
+    "ability to create blizzards that can\n"
+    "engulf entire mountains.");
+
+const u8 gBaxcaliburPokedexText[] = _(
+    "Baxcalibur is a fearsome Pokémon known\n"
+    "for its powerful horns. Legends speak of\n"
+    "its ability to charge through glaciers\n"
+    "with ease.");
+
+const u8 gGimmighoulChestPokedexText[] = _(
+    "Gimmighoul Chest is a spooky Pokémon\n"
+    "known for its eerie presence. Legends\n"
+    "speak of its ability to steal the\n"
+    "souls of those who gaze upon it.");
+
+const u8 gGimmighoulRoamingPokedexText[] = _(
+    "Gimmighoul Roaming is a spooky Pokémon\n"
+    "known for its eerie presence. Legends\n"
+    "speak of its ability to haunt\n"
+    "abandoned houses and dark forests.");
+
+const u8 gGholdengoPokedexText[] = _(
+    "Gholdengo is a mysterious Pokémon known\n"
+    "for its connection to the afterlife.\n"
+    "Legends speak of its ability to\n"
+    "communicate with the spirits of the\n"
+    "departed.");
+
+const u8 gWoChienPokedexText[] = _(
+    "Wo Chien is a fierce Pokémon known for\n"
+    "its loyalty and bravery. Legends speak\n"
+    "of its ability to protect its trainer\n"
+    "from any danger.");
+
+const u8 gChienPaoPokedexText[] = _(
+    "Chien Pao is a fierce Pokémon known for\n"
+    "its powerful attacks. Legends speak of\n"
+    "its ability to crush boulders with a\n"
+    "single blow.");
+
+const u8 gTingLuPokedexText[] = _(
+    "Ting Lu is a curious Pokémon known for\n"
+    "its love of the night sky. Legends\n"
+    "speak of its ability to navigate by\n"
+    "reading the stars.");
+
+const u8 gChiYuPokedexText[] = _(
+    "Chi Yu is a mysterious Pokémon known\n"
+    "for its connection to the moon. Legends\n"
+    "speak of its ability to control the\n"
+    "tides with a single gesture.");
+
+const u8 gRoaringMoonPokedexText[] = _(
+    "Roaring Moon is a fearsome Pokémon\n"
+    "known for its powerful howl. Legends\n"
+    "speak of its ability to summon the\n"
+    "spirits of the night to do its bidding.");
+
+const u8 gIronValiantPokedexText[] = _(
+    "Iron Valiant is a fierce Pokémon known\n"
+    "for its bravery and strength. Legends\n"
+    "speak of its ability to protect its\n"
+    "allies from any danger.");
+
+const u8 gKoraidonPokedexText[] = _(
+    "Koraidon is a fearsome Pokémon known\n"
+    "for its powerful attacks. Legends speak\n"
+    "of its ability to crush its enemies\n"
+    "with a single blow.");
+
+const u8 gMiraidonPokedexText[] = _(
+    "Miraidon is a mysterious Pokémon known\n"
+    "for its connection to the sea. Legends\n"
+    "speak of its ability to create massive\n"
+    "tidal waves that can engulf entire\n"
+    "islands.");
+
+const u8 gTaurosPaldeanCombatBreedPokedexText[] = _(
+    "Tauros Paldean Combat Breed is a fierce\n"
+    "Pokémon known for its powerful attacks.\n"
+    "Legends speak of its ability to charge\n"
+    "through mountains with ease.");
+
+const u8 gTaurosPaldeanBlazeBreedPokedexText[] = _(
+    "Tauros Paldean Blaze Breed is a fiery\n"
+    "Pokémon known for its blazing speed.\n"
+    "Legends speak of its ability to outrun\n"
+    "even the fastest of opponents.");
+
+const u8 gTaurosPaldeanAquaBreedPokedexText[] = _(
+    "Tauros Paldean Aqua Breed is a fierce\n"
+    "Pokémon known for its control over\n"
+    "water. Legends speak of its ability to\n"
+    "create tidal waves with a single stomp.");
+
+const u8 gWooperPaldeanPokedexText[] = _(
+    "Wooper Paldean is a curious Pokémon\n"
+    "known for its love of swimming. Legends\n"
+    "speak of its ability to navigate through\n"
+    "the darkest depths of the ocean.");
+
+const u8 gWalkingWakePokedexText[] = _(
+    "Walking Wake is a mysterious Pokémon\n"
+    "known for its connection to the sea.\n"
+    "Legends speak of its ability to control\n"
+    "the waves with a single gesture.");
+
+const u8 gIronLeavesPokedexText[] = _(
+    "Iron Leaves is a fierce Pokémon known\n"
+    "for its sharp blades. Legends speak of\n"
+    "its ability to slice through steel with\n"
+    "a single swipe.");
+
+const u8 gDipplinPokedexText[] = _(
+    "Dipplin is a curious Pokémon known for\n"
+    "its love of swimming. Legends speak of\n"
+    "its ability to navigate through the\n"
+    "ocean currents with ease.");
+
+const u8 gPoltchageistCounterfeitPokedexText[] = _(
+    "Poltchageist Counterfeit is a spooky\n"
+    "Pokémon known for its eerie presence.\n"
+    "Legends speak of its ability to mimic\n"
+    "the appearance of other Pokémon.");
+
+const u8 gPoltchageistArtisanPokedexText[] = _(
+    "Poltchageist Artisan is a spooky Pokémon\n"
+    "known for its eerie presence. Legends\n"
+    "speak of its ability to create\n"
+    "elaborate tea sets out of thin air.");
+
+const u8 gSinistchaUnremarkablePokedexText[] = _(
+    "Sinistcha Unremarkable is a spooky\n"
+    "Pokémon known for its eerie presence.\n"
+    "Legends speak of its ability to blend\n"
+    "in with its surroundings.");
+
+const u8 gSinistchaMasterpiecePokedexText[] = _(
+    "Sinistcha Masterpiece is a spooky\n"
+    "Pokémon known for its eerie presence.\n"
+    "Legends speak of its ability to create\n"
+    "beautiful works of art out of shadows.");
+
+const u8 gOkidogiPokedexText[] = _(
+    "Okidogi is a mischievous Pokémon known\n"
+    "for its playful pranks. Legends speak\n"
+    "of its ability to create illusions that\n"
+    "confound its enemies.");
+
+const u8 gMunkidoriPokedexText[] = _(
+    "Munkidori is a curious Pokémon known\n"
+    "for its love of exploring. Legends speak\n"
+    "of its ability to navigate through the\n"
+    "most treacherous of terrain.");
+
+const u8 gFezandipitiPokedexText[] = _(
+    "Fezandipiti is a curious Pokémon known\n"
+    "for its love of the night sky. Legends\n"
+    "speak of its ability to predict the\n"
+    "weather by reading the stars.");
+
+const u8 gOgerponTealPokedexText[] = _(
+    "Ogerpon Teal is a mischievous Pokémon\n"
+    "known for its playful pranks. Legends\n"
+    "speak of its ability to create\n"
+    "illusions that confound its enemies.");
+
+const u8 gOgerponWellspringPokedexText[] = _(
+    "Ogerpon Wellspring is a curious Pokémon\n"
+    "known for its love of exploration.\n"
+    "Legends speak of its ability to find\n"
+    "hidden treasures in the most unlikely\n"
+    "places.");
+
+const u8 gOgerponHearthflamePokedexText[] = _(
+    "Ogerpon Hearthflame is a fierce Pokémon\n"
+    "known for its control over fire. Legends\n"
+    "speak of its ability to create massive\n"
+    "infernos that can be seen from miles\n"
+    "away.");
+
+const u8 gOgerponCornerstonePokedexText[] = _(
+    "Ogerpon Cornerstone is a fearsome\n"
+    "Pokémon known for its powerful\n"
+    "attacks. Legends speak of its ability\n"
+    "to crush boulders with a single blow.");
+
+const u8 gOgerponTealMaskTeraPokedexText[] = _(
+    "Ogerpon Teal Mask Tera is a mischievous\n"
+    "Pokémon known for its playful pranks.\n"
+    "Legends speak of its ability to create\n"
+    "illusions that confound its enemies.");
+
+const u8 gOgerponWellspringMaskTeraPokedexText[] = _(
+    "Ogerpon Wellspring Mask Tera is a\n"
+    "curious Pokémon known for its love of\n"
+    "exploration. Legends speak of its\n"
+    "ability to find hidden treasures in\n"
+    "the most unlikely places.");
+
+const u8 gOgerponHearthflameMaskTeraPokedexText[] = _(
+    "Ogerpon Hearthflame Mask Tera is a\n"
+    "fierce Pokémon known for its control\n"
+    "over fire. Legends speak of its ability\n"
+    "to create massive infernos that can\n"
+    "be seen from miles away.");
+
+const u8 gOgerponCornerstoneMaskTeraPokedexText[] = _(
+    "Ogerpon Cornerstone Mask Tera is a\n"
+    "fearsome Pokémon known for its\n"
+    "powerful attacks. Legends speak of\n"
+    "its ability to crush boulders with a\n"
+    "single blow.");
+
+const u8 gUrsalunaBloodmoonPokedexText[] = _(
+    "Ursaluna Bloodmoon is a fearsome\n"
+    "Pokémon known for its control over\n"
+    "darkness. Legends speak of its ability\n"
+    "to summon shadows to do its bidding.");
+
+const u8 gMothimSandyCloakPokedexText[] = _(
+    "Mothim Sandy Cloak is a curious\n"
+    "Pokémon known for its love of the\n"
+    "desert. Legends speak of its ability\n"
+    "to blend in with its surroundings.");
+
+const u8 gMothimTrashCloakPokedexText[] = _(
+    "Mothim Trash Cloak is a curious\n"
+    "Pokémon known for its love of garbage.\n"
+    "Legends speak of its ability to\n"
+    "navigate through even the largest\n"
+    "landfills with ease.");
+
+const u8 gScatterbugPolarPokedexText[] = _(
+    "Scatterbug Polar is a curious Pokémon\n"
+    "known for its love of the cold. Legends\n"
+    "speak of its ability to create intricate\n"
+    "patterns in the snow.");
+
+const u8 gScatterbugTundraPokedexText[] = _(
+    "Scatterbug Tundra is a curious Pokémon\n"
+    "known for its love of the icy tundra.\n"
+    "Legends speak of its ability to survive\n"
+    "even the harshest of blizzards.");
+
+const u8 gScatterbugContinentalPokedexText[] = _(
+    "Scatterbug Continental is a curious\n"
+    "Pokémon known for its love of\n"
+    "exploring new territories. Legends\n"
+    "speak of its ability to adapt to any\n"
+    "environment.");
+
+const u8 gScatterbugGardenPokedexText[] = _(
+    "Scatterbug Garden is a curious Pokémon\n"
+    "known for its love of flowers. Legends\n"
+    "speak of its ability to create\n"
+    "beautiful gardens wherever it goes.");
+
+const u8 gScatterbugElegantPokedexText[] = _(
+    "Scatterbug Elegant is a curious Pokémon\n"
+    "known for its graceful movements.\n"
+    "Legends speak of its ability to dance\n"
+    "on the breeze.");
+
+const u8 gScatterbugMeadowPokedexText[] = _(
+    "Scatterbug Meadow is a curious Pokémon\n"
+    "known for its love of open fields.\n"
+    "Legends speak of its ability to frolic\n"
+    "among the flowers.");
+
+const u8 gScatterbugModernPokedexText[] = _(
+    "Scatterbug Modern is a curious Pokémon\n"
+    "known for its love of technology.\n"
+    "Legends speak of its ability to adapt\n"
+    "to the modern world.");
+
+const u8 gScatterbugMarinePokedexText[] = _(
+    "Scatterbug Marine is a curious Pokémon\n"
+    "known for its love of the sea. Legends\n"
+    "speak of its ability to swim through\n"
+    "the ocean currents with ease.");
+
+const u8 gScatterbugArchipelagoPokedexText[] = _(
+    "Scatterbug Archipelago is a curious\n"
+    "Pokémon known for its love of islands.\n"
+    "Legends speak of its ability to find\n"
+    "hidden treasures among the waves.");
+
+const u8 gScatterbugHighPlainsPokedexText[] = _(
+    "Scatterbug High Plains is a curious\n"
+    "Pokémon known for its love of the\n"
+    "wide-open plains. Legends speak of its\n"
+    "ability to run for miles without tiring.");
+
+const u8 gScatterbugSandstormPokedexText[] = _(
+    "Scatterbug Sandstorm is a curious\n"
+    "Pokémon known for its ability to\n"
+    "survive in even the harshest of\n"
+    "deserts. Legends speak of its ability\n"
+    "to find shelter from sandstorms.");
+
+const u8 gScatterbugRiverPokedexText[] = _(
+    "Scatterbug River is a curious Pokémon\n"
+    "known for its love of the water. Legends\n"
+    "speak of its ability to swim against the\n"
+    "strongest of currents.");
+
+const u8 gScatterbugMonsoonPokedexText[] = _(
+    "Scatterbug Monsoon is a curious Pokémon\n"
+    "known for its love of the rain. Legends\n"
+    "speak of its ability to dance in the\n"
+    "downpour without getting wet.");
+
+const u8 gScatterbugSavannaPokedexText[] = _(
+    "Scatterbug Savanna is a curious Pokémon\n"
+    "known for its love of the grasslands.\n"
+    "Legends speak of its ability to run with\n"
+    "the herds of wild Pokémon.");
+
+const u8 gScatterbugSunPokedexText[] = _(
+    "Scatterbug Sun is a curious Pokémon\n"
+    "known for its love of the sun. Legends\n"
+    "speak of its ability to bask in the\n"
+    "warmth for hours on end.");
+
+const u8 gScatterbugOceanPokedexText[] = _(
+    "Scatterbug Ocean is a curious Pokémon\n"
+    "known for its love of the sea. Legends\n"
+    "speak of its ability to dive to the\n"
+    "ocean depths without fear.");
+
+const u8 gScatterbugJunglePokedexText[] = _(
+    "Scatterbug Jungle is a curious Pokémon\n"
+    "known for its love of the dense jungle.\n"
+    "Legends speak of its ability to swing\n"
+    "through the trees with ease.");
+
+const u8 gScatterbugFancyPokedexText[] = _(
+    "Scatterbug Fancy is a curious Pokémon\n"
+    "known for its elegant appearance.\n"
+    "Legends speak of its ability to\n"
+    "create beautiful patterns in the air.");
+
+const u8 gScatterbugPokeBallPokedexText[] = _(
+    "Scatterbug Poké Ball is a curious\n"
+    "Pokémon known for its love of\n"
+    "Poké Balls. Legends speak of its\n"
+    "ability to hide in plain sight.");
+
+const u8 gSpewpaPolarPokedexText[] = _(
+    "Spewpa Polar is a curious Pokémon\n"
+    "known for its love of the cold. Legends\n"
+    "speak of its ability to create intricate\n"
+    "patterns in the snow.");
+
+const u8 gSpewpaTundraPokedexText[] = _(
+    "Spewpa Tundra is a curious Pokémon\n"
+    "known for its love of the icy tundra.\n"
+    "Legends speak of its ability to survive\n"
+    "even the harshest of blizzards.");
+
+const u8 gSpewpaContinentalPokedexText[] = _(
+    "Spewpa Continental is a curious Pokémon\n"
+    "known for its love of exploring new\n"
+    "territories. Legends speak of its\n"
+    "ability to adapt to any environment.");
+
+const u8 gSpewpaGardenPokedexText[] = _(
+    "Spewpa Garden is a curious Pokémon\n"
+    "known for its love of flowers. Legends\n"
+    "speak of its ability to create\n"
+    "beautiful gardens wherever it goes.");
+
+const u8 gSpewpaElegantPokedexText[] = _(
+    "Spewpa Elegant is a curious Pokémon\n"
+    "known for its graceful movements.\n"
+    "Legends speak of its ability to dance\n"
+    "on the breeze.");
+
+const u8 gSpewpaMeadowPokedexText[] = _(
+    "Spewpa Meadow is a curious Pokémon\n"
+    "known for its love of open fields.\n"
+    "Legends speak of its ability to frolic\n"
+    "among the flowers.");
+
+const u8 gSpewpaModernPokedexText[] = _(
+    "Spewpa Modern is a curious Pokémon\n"
+    "known for its love of technology.\n"
+    "Legends speak of its ability to adapt\n"
+    "to the modern world.");
+
+const u8 gSpewpaMarinePokedexText[] = _(
+    "Spewpa Marine is a curious Pokémon\n"
+    "known for its love of the sea. Legends\n"
+    "speak of its ability to swim through\n"
+    "the ocean currents with ease.");
+
+const u8 gSpewpaArchipelagoPokedexText[] = _(
+    "Spewpa Archipelago is a curious Pokémon\n"
+    "known for its love of islands. Legends\n"
+    "speak of its ability to find hidden\n"
+    "treasures among the waves.");
+
+const u8 gSpewpaHighPlainsPokedexText[] = _(
+    "Spewpa High Plains is a curious Pokémon\n"
+    "known for its love of the wide-open\n"
+    "plains. Legends speak of its ability\n"
+    "to run for miles without tiring.");
+
+const u8 gSpewpaSandstormPokedexText[] = _(
+    "Spewpa Sandstorm is a curious Pokémon\n"
+    "known for its ability to survive in even\n"
+    "the harshest of deserts. Legends speak\n"
+    "of its ability to find shelter from\n"
+    "sandstorms.");
+
+const u8 gSpewpaRiverPokedexText[] = _(
+    "Spewpa River is a curious Pokémon known\n"
+    "for its love of the water. Legends speak\n"
+    "of its ability to swim against the\n"
+    "strongest of currents.");
+
+const u8 gSpewpaMonsoonPokedexText[] = _(
+    "Spewpa Monsoon is a curious Pokémon\n"
+    "known for its love of the rain. Legends\n"
+    "speak of its ability to dance in the\n"
+    "downpour without getting wet.");
+
+const u8 gSpewpaSavannaPokedexText[] = _(
+    "Spewpa Savanna is a curious Pokémon\n"
+    "known for its love of the grasslands.\n"
+    "Legends speak of its ability to run with\n"
+    "the herds of wild Pokémon.");
+
+const u8 gSpewpaSunPokedexText[] = _(
+    "Spewpa Sun is a curious Pokémon known\n"
+    "for its love of the sun. Legends speak\n"
+    "of its ability to bask in the warmth\n"
+    "for hours on end.");
+
+const u8 gSpewpaOceanPokedexText[] = _(
+    "Spewpa Ocean is a curious Pokémon known\n"
+    "for its love of the sea. Legends speak\n"
+    "of its ability to dive to the ocean\n"
+    "depths without fear.");
+
+const u8 gSpewpaJunglePokedexText[] = _(
+    "Spewpa Jungle is a curious Pokémon\n"
+    "known for its love of the dense jungle.\n"
+    "Legends speak of its ability to swing\n"
+    "through the trees with ease.");
+
+const u8 gSpewpaFancyPokedexText[] = _(
+    "Spewpa Fancy is a curious Pokémon known\n"
+    "for its elegant appearance. Legends\n"
+    "speak of its ability to create\n"
+    "beautiful patterns in the air.");
+
+const u8 gSpewpaPokeBallPokedexText[] = _(
+    "Spewpa Poké Ball is a curious Pokémon\n"
+    "known for its love of Poké Balls.\n"
+    "Legends speak of its ability to hide\n"
+    "in plain sight.");
+
+const u8 gPikachuPartnerPokedexText[] = _(
+    "Pikachu Partner is a friendly Pokémon\n"
+    "known for its loyalty to its trainer.\n"
+    "Legends speak of its ability to\n"
+    "sense its trainer's emotions.");
+
+const u8 gEeveePartnerPokedexText[] = _(
+    "Eevee Partner is a friendly Pokémon\n"
+    "known for its adaptability. Legends\n"
+    "speak of its ability to evolve into\n"
+    "many different forms.");
+
+const u8 gLugiaShadowPokedexText[] = _(
+    "Lugia Shadow is a mysterious Pokémon\n"
+    "known for its connection to the\n"
+    "mystical shadow realm. Legends speak\n"
+    "of its ability to control darkness.");
+
+const u8 gVenusaurGigantamaxPokedexText[] = _(
+    "Venusaur Gigantamax is a fearsome\n"
+    "Pokémon known for its control over\n"
+    "plant life. Legends speak of its\n"
+    "ability to create entire forests in\n"
+    "an instant.");
+
+const u8 gBlastoiseGigantamaxPokedexText[] = _(
+    "Blastoise Gigantamax is a fierce\n"
+    "Pokémon known for its powerful\n"
+    "attacks. Legends speak of its ability\n"
+    "to create massive tidal waves with\n"
+    "a single cannon blast.");
+
+const u8 gCharizardGigantamaxPokedexText[] = _(
+    "Charizard Gigantamax is a fearsome\n"
+    "Pokémon known for its control over\n"
+    "fire. Legends speak of its ability to\n"
+    "burn entire cities to the ground.");
+
+const u8 gButterfreeGigantamaxPokedexText[] = _(
+    "Butterfree Gigantamax is a curious\n"
+    "Pokémon known for its love of flowers.\n"
+    "Legends speak of its ability to create\n"
+    "elaborate gardens in the sky.");
+
+const u8 gPikachuGigantamaxPokedexText[] = _(
+    "Pikachu Gigantamax is a friendly\n"
+    "Pokémon known for its loyalty to its\n"
+    "trainer. Legends speak of its ability\n"
+    "to sense its trainer's emotions.");
+
+const u8 gMeowthGigantamaxPokedexText[] = _(
+    "Meowth Gigantamax is a mischievous\n"
+    "Pokémon known for its love of treasure.\n"
+    "Legends speak of its ability to find\n"
+    "hidden riches wherever it goes.");
+
+const u8 gMachampGigantamaxPokedexText[] = _(
+    "Machamp Gigantamax is a fearsome\n"
+    "Pokémon known for its powerful\n"
+    "attacks. Legends speak of its ability\n"
+    "to punch through mountains with ease.");
+
+const u8 gGengarGigantamaxPokedexText[] = _(
+    "Gengar Gigantamax is a spooky Pokémon\n"
+    "known for its eerie presence. Legends\n"
+    "speak of its ability to haunt the\n"
+    "dreams of its enemies.");
+
+const u8 gKinglerGigantamaxPokedexText[] = _(
+    "Kingler Gigantamax is a fierce Pokémon\n"
+    "known for its powerful pincers. Legends\n"
+    "speak of its ability to crush even the\n"
+    "sturdiest of opponents.");
+
+const u8 gLaprasGigantamaxPokedexText[] = _(
+    "Lapras Gigantamax is a majestic Pokémon\n"
+    "known for its graceful movements. Legends\n"
+    "speak of its ability to ferry travelers\n"
+    "across the sea to distant lands.");
+
+const u8 gEeveeGigantamaxPokedexText[] = _(
+    "Eevee Gigantamax is a friendly Pokémon\n"
+    "known for its adaptability. Legends\n"
+    "speak of its ability to evolve into\n"
+    "many different forms.");
+
+const u8 gSnorlaxGigantamaxPokedexText[] = _(
+    "Snorlax Gigantamax is a sleepy Pokémon\n"
+    "known for its love of food. Legends\n"
+    "speak of its ability to eat entire\n"
+    "buffets in a single sitting.");
+
+const u8 gGarbodorGigantamaxPokedexText[] = _(
+    "Garbodor Gigantamax is a fearsome\n"
+    "Pokémon known for its control over\n"
+    "poison. Legends speak of its ability\n"
+    "to create toxic smog that can\n"
+    "engulf entire cities.");
+
+const u8 gMelmetalGigantamaxPokedexText[] = _(
+    "Melmetal Gigantamax is a fierce\n"
+    "Pokémon known for its powerful\n"
+    "attacks. Legends speak of its ability\n"
+    "to crush its enemies with a single\n"
+    "blow.");
+
+const u8 gRillaboomGigantamaxPokedexText[] = _(
+    "Rillaboom Gigantamax is a fearsome\n"
+    "Pokémon known for its control over\n"
+    "nature. Legends speak of its ability\n"
+    "to create massive forests in an\n"
+    "instant.");
+
+const u8 gCinderaceGigantamaxPokedexText[] = _(
+    "Cinderace Gigantamax is a fierce\n"
+    "Pokémon known for its blazing speed.\n"
+    "Legends speak of its ability to outrun\n"
+    "even the fastest of opponents.");
+
+const u8 gInteleonGigantamaxPokedexText[] = _(
+    "Inteleon Gigantamax is a mysterious\n"
+    "Pokémon known for its connection to\n"
+    "the shadows. Legends speak of its\n"
+    "ability to disappear without a trace.");
+
+const u8 gCorviknightGigantamaxPokedexText[] = _(
+    "Corviknight Gigantamax is a fearsome\n"
+    "Pokémon known for its control over\n"
+    "the skies. Legends speak of its ability\n"
+    "to create powerful gusts of wind.");
+
+const u8 gOrbeetleGigantamaxPokedexText[] = _(
+    "Orbeetle Gigantamax is a curious\n"
+    "Pokémon known for its love of the\n"
+    "stars. Legends speak of its ability\n"
+    "to create black holes with a single\n"
+    "thought.");
+
+const u8 gDrednawGigantamaxPokedexText[] = _(
+    "Drednaw Gigantamax is a fierce Pokémon\n"
+    "known for its powerful jaws. Legends\n"
+    "speak of its ability to bite through\n"
+    "steel with ease.");
+
+const u8 gCoalossalGigantamaxPokedexText[] = _(
+    "Coalossal Gigantamax is a fearsome\n"
+    "Pokémon known for its control over\n"
+    "fire. Legends speak of its ability\n"
+    "to create massive infernos that can\n"
+    "be seen from miles away.");
+
+const u8 gFlappleGigantamaxPokedexText[] = _(
+    "Flapple Gigantamax is a fierce Pokémon\n"
+    "known for its powerful attacks. Legends\n"
+    "speak of its ability to create massive\n"
+    "tornadoes with a single flap of its\n"
+    "wings.");
+
+const u8 gAppletunGigantamaxPokedexText[] = _(
+    "Appletun Gigantamax is a fearsome\n"
+    "Pokémon known for its control over\n"
+    "nature. Legends speak of its ability\n"
+    "to summon lush orchards in an\n"
+    "instant.");
+
+const u8 gSandacondaGigantamaxPokedexText[] = _(
+    "Sandaconda Gigantamax is a fearsome\n"
+    "Pokémon known for its powerful\n"
+    "attacks. Legends speak of its ability\n"
+    "to create massive sandstorms that can\n"
+    "engulf entire deserts.");
+
+const u8 gToxtricityGigantamaxPokedexText[] = _(
+    "Toxtricity Gigantamax is a fierce\n"
+    "Pokémon known for its control over\n"
+    "electricity. Legends speak of its\n"
+    "ability to create massive lightning\n"
+    "storms with a single roar.");
+
+const u8 gCentiskorchGigantamaxPokedexText[] = _(
+    "Centiskorch Gigantamax is a fearsome\n"
+    "Pokémon known for its control over\n"
+    "fire. Legends speak of its ability\n"
+    "to create massive infernos that can\n"
+    "be seen from miles away.");
+
+const u8 gHattereneGigantamaxPokedexText[] = _(
+    "Hatterene Gigantamax is a mysterious\n"
+    "Pokémon known for its connection to\n"
+    "the spirit world. Legends speak of\n"
+    "its ability to commune with the dead.");
+
+const u8 gGrimmsnarlGigantamaxPokedexText[] = _(
+    "Grimmsnarl Gigantamax is a fearsome\n"
+    "Pokémon known for its control over\n"
+    "darkness. Legends speak of its ability\n"
+    "to summon shadows to do its bidding.");
+
+const u8 gAlcremieGigantamaxPokedexText[] = _(
+    "Alcremie Gigantamax is a sweet Pokémon\n"
+    "known for its love of baking. Legends\n"
+    "speak of its ability to create elaborate\n"
+    "cakes that are as delicious as they\n"
+    "are beautiful.");
+
+const u8 gCopperajahGigantamaxPokedexText[] = _(
+    "Copperajah Gigantamax is a fearsome\n"
+    "Pokémon known for its control over\n"
+    "metal. Legends speak of its ability\n"
+    "to crush its enemies with a single\n"
+    "blow.");
+
+const u8 gDuraludonGigantamaxPokedexText[] = _(
+    "Duraludon Gigantamax is a fierce\n"
+    "Pokémon known for its powerful attacks.\n"
+    "Legends speak of its ability to cut\n"
+    "through steel with ease.");
+
+const u8 gUrshifuSingleStrikeStyleGigantamaxPokedexText[] = _(
+    "Urshifu Single Strike Style Gigantamax\n"
+    "is a fierce Pokémon known for its\n"
+    "control over water. Legends speak\n"
+    "of its ability to create massive waves\n"
+    "that can wash away anything in their\n"
+    "path.");
+
+const u8 gUrshifuRapidStrikeStyleGigantamaxPokedexText[] = _(
+    "Urshifu Rapid Strike Style Gigantamax\n"
+    "is a fierce Pokémon known for its\n"
+    "control over water. Legends speak\n"
+    "of its ability to create massive waves\n"
+    "that can wash away anything in their\n"
+    "path.");
+
