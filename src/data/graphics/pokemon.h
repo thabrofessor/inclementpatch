@@ -8121,11 +8121,11 @@ const u32 gMonShinyPalette_AppletunGigantamax[] = INCBIN_U32("graphics/pokemon/a
 const u8 gMonIcon_AppletunGigantamax[] = INCBIN_U8("graphics/pokemon/appletun_gigantamax/icon.4bpp.lz");
 
 // SANDACONDA_GIGANTAMAX
-const u32 gMonFrontPic_SandaccondaGigantamax[] = INCBIN_U32("graphics/pokemon/sandacconda_gigantamax/front.4bpp.lz");
-const u32 gMonPalette_SandaccondaGigantamax[] = INCBIN_U32("graphics/pokemon/sandacconda_gigantamax/normal.gbapal.lz");
-const u32 gMonBackPic_SandaccondaGigantamax[] = INCBIN_U32("graphics/pokemon/sandacconda_gigantamax/back.4bpp.lz");
-const u32 gMonShinyPalette_SandaccondaGigantamax[] = INCBIN_U32("graphics/pokemon/sandacconda_gigantamax/shiny.gbapal.lz");
-const u8 gMonIcon_SandaccondaGigantamax[] = INCBIN_U8("graphics/pokemon/sandacconda_gigantamax/icon.4bpp.lz");
+const u32 gMonFrontPic_SandacondaGigantamax[] = INCBIN_U32("graphics/pokemon/sandaconda_gigantamax/front.4bpp.lz");
+const u32 gMonPalette_SandacondaGigantamax[] = INCBIN_U32("graphics/pokemon/sandaconda_gigantamax/normal.gbapal.lz");
+const u32 gMonBackPic_SandacondaGigantamax[] = INCBIN_U32("graphics/pokemon/sandaconda_gigantamax/back.4bpp.lz");
+const u32 gMonShinyPalette_SandacondaGigantamax[] = INCBIN_U32("graphics/pokemon/sandaconda_gigantamax/shiny.gbapal.lz");
+const u8 gMonIcon_SandacondaGigantamax[] = INCBIN_U8("graphics/pokemon/sandaconda_gigantamax/icon.4bpp.lz");
 
 // TOXTRICITY_GIGANTAMAX
 const u32 gMonFrontPic_ToxtricityGigantamax[] = INCBIN_U32("graphics/pokemon/toxtricity_gigantamax/front.4bpp.lz");
