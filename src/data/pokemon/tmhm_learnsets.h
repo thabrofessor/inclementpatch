@@ -38023,10 +38023,6 @@ const u32 gTMHMLearnsets[][4] =
                                         | TMHM1(TM25_THUNDER),
                                           TMHM2(TM90_SUBSTITUTE)
                                         | TMHM2(TM94_SUCKER_PUNCH)),        
-    [SPECIES_ANNIHILAPE]   = TMHM_LEARNSET (TMHM1(TM24_THUNDERBOLT)
-                                        | TMHM1(TM25_THUNDER),
-                                          TMHM2(TM90_SUBSTITUTE)
-                                        | TMHM2(TM94_SUCKER_PUNCH)),
     [SPECIES_CLODSIRE]   = TMHM_LEARNSET (TMHM1(TM24_THUNDERBOLT)
                                         | TMHM1(TM25_THUNDER),
                                           TMHM2(TM90_SUBSTITUTE)
