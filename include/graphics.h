@@ -1289,7 +1289,7 @@ extern const u32 gMonFrontPic_Kilowattrel[];
 extern const u32 gMonFrontPic_Maschiff[];
 extern const u32 gMonFrontPic_Mabosstiff[];
 extern const u32 gMonFrontPic_Shroodle[];
-extern const u32 gMonFrontPic_Grafiai[];
+extern const u32 gMonFrontPic_Grafaiai[];
 extern const u32 gMonFrontPic_Bramblin[];
 extern const u32 gMonFrontPic_Brambleghast[];
 extern const u32 gMonFrontPic_Toedscool[];
