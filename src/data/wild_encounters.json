@@ -22325,62 +22325,62 @@
               {
                 "min_level": 2,
                 "max_level": 5,
-                "species": "SPECIES_WURMPLE"
+                "species": "SPECIES_WYRDEER"
               },
               {
                 "min_level": 2,
                 "max_level": 5,
-                "species": "SPECIES_ZIGZAGOON_GALARIAN"
+                "species": "SPECIES_KLEAVOR"
               },
               {
                 "min_level": 2,
                 "max_level": 5,
-                "species": "SPECIES_STARLY"
+                "species": "SPECIES_URSALUNA"
               },
               {
                 "min_level": 2,
                 "max_level": 5,
-                "species": "SPECIES_MUDBRAY"
+                "species": "SPECIES_BASCULEGION_FEMALE"
               },
               {
                 "min_level": 2,
                 "max_level": 5,
-                "species": "SPECIES_MAREEP"
+                "species": "SPECIES_BASCULEGION_MALE"
               },
               {
                 "min_level": 2,
                 "max_level": 4,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_SNEASLER"
               },
               {
                 "min_level": 2,
                 "max_level": 5,
-                "species": "SPECIES_FLETCHLING"
+                "species": "SPECIES_OVERQWIL"
               },
               {
                 "min_level": 2,
                 "max_level": 7,
-                "species": "SPECIES_DEERLING_WINTER"
+                "species": "SPECIES_ENAMORUS"
               },
               {
                 "min_level": 2,
                 "max_level": 5,
-                "species": "SPECIES_NIDORAN_M"
+                "species": "SPECIES_ENAMORUS_THERIAN"
               },
               {
                 "min_level": 2,
                 "max_level": 5,
-                "species": "SPECIES_WYNAUT"
+                "species": "SPECIES_GROWLITHE_HISUIAN"
               },
               {
                 "min_level": 2,
                 "max_level": 5,
-                "species": "SPECIES_TRAPINCH"
+                "species": "SPECIES_ARCANINE_HISUIAN"
               },
               {
                 "min_level": 2,
                 "max_level": 5,
-                "species": "SPECIES_BAGON"
+                "species": "SPECIES_VOLTORB_HISUIAN"
               }
             ]
           },
