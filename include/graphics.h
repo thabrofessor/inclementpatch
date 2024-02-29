@@ -1231,7 +1231,7 @@ extern const u32 gMonFrontPic_ArcanineHisuian[];
 extern const u32 gMonFrontPic_VoltorbHisuian[];
 extern const u32 gMonFrontPic_ElectrodeHisuian[];
 extern const u32 gMonFrontPic_TyphlosionHisuian[];
-extern const u32 gMonFrontPic_QwifishHisuian[];
+extern const u32 gMonFrontPic_QwilfishHisuian[];
 extern const u32 gMonFrontPic_SneaselHisuian[];
 extern const u32 gMonFrontPic_SamurottHisuian[];
 extern const u32 gMonFrontPic_LilligantHisuian[];
