@@ -5548,7 +5548,7 @@ const u8 gFuecocoPokedexText[] = _(
     "its ability to cause wildfires with\n"
     "a single ember.");
 
-const u8 gCrocabularyPokedexText[] = _(
+const u8 gCrocalorPokedexText[] = _(
     "Crocabulary is a fearsome Pokémon known\n"
     "for its powerful jaws. Legends speak of\n"
     "its ability to crush boulders with\n"
@@ -5903,13 +5903,13 @@ const u8 gFinizenPokedexText[] = _(
     "speak of its ability to control the\n"
     "waves with a single gesture.");
 
-const u8 gPalfinZeroPokedexText[] = _(
+const u8 gPalafinZeroPokedexText[] = _(
     "Palfin Zero is a fearsome Pokémon known\n"
     "for its control over the tides. Legends\n"
     "speak of its ability to create massive\n"
     "tsunamis with a single roar.");
 
-const u8 gPalfinHeroPokedexText[] = _(
+const u8 gPalafinHeroPokedexText[] = _(
     "Palfin Hero is a fearsome Pokémon known\n"
     "for its control over the seas. Legends\n"
     "speak of its ability to summon powerful\n"
