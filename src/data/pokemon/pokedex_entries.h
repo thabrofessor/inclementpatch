@@ -10800,7 +10800,7 @@ const struct PokedexEntry gPokedexEntries[] =
     },
     [NATIONAL_DEX_WYRDEER] =
 {
-    .categoryName = _("Mystical Stag"),
+    .categoryName = _("Stag"),
     .height = 5,
     .weight = 90,
     .description = gWyrdeerPokedexText,
@@ -11364,7 +11364,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
 [NATIONAL_DEX_TANDEMAUS] =
 {
-    .categoryName = _("Cooperative Mouse"),
+    .categoryName = _("Mouse"),
     .height = 5,
     .weight = 10,
     .description = gTandemausPokedexText,
@@ -11376,7 +11376,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
 [NATIONAL_DEX_MAUSHOLD_THREE] =
 {
-    .categoryName = _("Community Mouse"),
+    .categoryName = _("Mouse"),
     .height = 9,
     .weight = 50,
     .description = gMausholdThreePokedexText,
@@ -11388,7 +11388,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
 [NATIONAL_DEX_MAUSHOLD_FOUR] =
 {
-    .categoryName = _("Sociable Mouse"),
+    .categoryName = _("Mouse"),
     .height = 12,
     .weight = 100,
     .description = gMausholdFourPokedexText,
@@ -12120,7 +12120,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
 [NATIONAL_DEX_FARIGIRAF] =
 {
-    .categoryName = _("Desert Mirage"),
+    .categoryName = _("Mirage"),
     .height = 12,
     .weight = 450,
     .description = gFarigirafPokedexText,
