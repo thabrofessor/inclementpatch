@@ -22469,7 +22469,7 @@ static const struct LevelUpMove sGholdengoLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sWo_ChienLevelUpLearnset[] = {
+static const struct LevelUpMove sWoChienLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),
     LEVEL_UP_MOVE( 1, MOVE_SPITE),
     LEVEL_UP_MOVE( 1, MOVE_MEAN_LOOK),
@@ -22492,7 +22492,7 @@ static const struct LevelUpMove sWo_ChienLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sChien_PaoLevelUpLearnset[] = {
+static const struct LevelUpMove sChienPaoLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SPITE),
     LEVEL_UP_MOVE( 1, MOVE_POWDER_SNOW),
     LEVEL_UP_MOVE( 1, MOVE_MEAN_LOOK),
@@ -22515,7 +22515,7 @@ static const struct LevelUpMove sChien_PaoLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sTing_LuLevelUpLearnset[] = {
+static const struct LevelUpMove sTingLuLevelUpLearnset[] = {
    LEVEL_UP_MOVE( 1, MOVE_MEAN_LOOK),
     LEVEL_UP_MOVE( 1, MOVE_SAND_TOMB),
     LEVEL_UP_MOVE( 1, MOVE_SPITE),
@@ -22537,7 +22537,7 @@ static const struct LevelUpMove sTing_LuLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sChi_YuLevelUpLearnset[] = {
+static const struct LevelUpMove sChiYuLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_EMBER),
     LEVEL_UP_MOVE( 1, MOVE_SPITE),
     LEVEL_UP_MOVE( 1, MOVE_MEAN_LOOK),
@@ -22559,7 +22559,7 @@ static const struct LevelUpMove sChi_YuLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sRoaring_MoonLevelUpLearnset[] = {
+static const struct LevelUpMove sRoaringMoonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_DRAGON_BREATH),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_BITE),
@@ -22580,7 +22580,7 @@ static const struct LevelUpMove sRoaring_MoonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sIron_ValiantLevelUpLearnset[] = {
+static const struct LevelUpMove sIronValiantLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_DISABLE),
     LEVEL_UP_MOVE( 1, MOVE_DOUBLE_TEAM),
     LEVEL_UP_MOVE( 1, MOVE_SHADOW_SNEAK),
@@ -22642,7 +22642,7 @@ static const struct LevelUpMove sMiraidonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sWalking_WakeLevelUpLearnset[] = {
+static const struct LevelUpMove sWalkingWakeLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_ROAR),
     LEVEL_UP_MOVE( 1, MOVE_TWISTER),
@@ -22661,7 +22661,7 @@ static const struct LevelUpMove sWalking_WakeLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sIron_LeavesLevelUpLearnset[] = {
+static const struct LevelUpMove sIronLeavesLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_HELPING_HAND),
@@ -22995,28 +22995,28 @@ static const struct LevelUpMove sDialgaOriginLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sUrsaluna_MoonbloodLevelUpLearnset[] = {
+static const struct LevelUpMove sUrsalunaBloodmoonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 5, MOVE_GROWL),
     LEVEL_UP_MOVE(10, MOVE_EMBER),
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sTauros_Paldean_Combat_BreedLevelUpLearnset[] = {
+static const struct LevelUpMove sTaurosPaldeanCombatBreedLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 5, MOVE_GROWL),
     LEVEL_UP_MOVE(10, MOVE_EMBER),
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sTauros_Paldean_Blaze_BreedLevelUpLearnset[] = {
+static const struct LevelUpMove sTaurosPaldeanBlazeBreedLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 5, MOVE_GROWL),
     LEVEL_UP_MOVE(10, MOVE_EMBER),
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sTauros_Paldean_Aqua_BreedLevelUpLearnset[] = {
+static const struct LevelUpMove sTaurosPaldeanAquaBreedLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 5, MOVE_GROWL),
     LEVEL_UP_MOVE(10, MOVE_EMBER),
