@@ -5814,7 +5814,7 @@ const u8 gToedscoolPokedexText[] = _(
     "speak of its ability to navigate through\n"
     "the darkest tunnels with ease.");
 
-const u8 gToedscrueLPokedexText[] = _(
+const u8 gToedscruelPokedexText[] = _(
     "ToedscrueL is a curious Pokémon known\n"
     "for its love of adventure. Legends speak\n"
     "of its ability to uncover hidden\n"
