@@ -36392,7 +36392,6 @@ const struct BaseStats gBaseStats[] =
     .catchRate = 45,
     .expYield = 88,
     .evYield_Attack    = 1,
-    .itemRare = ITEM_POISON_BARB,
     .genderRatio = PERCENT_FEMALE(50),
     .eggCycles = 20,
     .friendship = 70,
@@ -36417,7 +36416,6 @@ const struct BaseStats gBaseStats[] =
     .catchRate = 60,
     .expYield = 86,
     .evYield_Speed     = 1,
-    .itemRare = ITEM_QUICK_CLAW,
     .genderRatio = PERCENT_FEMALE(50),
     .eggCycles = 20,
     .friendship = 35,
@@ -36467,7 +36465,6 @@ const struct BaseStats gBaseStats[] =
     .expYield = 168,
     .evYield_Attack  = 2,
     #ifdef ITEM_EXPANSION
-        .itemRare = ITEM_ABSORB_BULB,
     #endif
     .genderRatio = MON_FEMALE,
     .eggCycles = 20,
@@ -36565,9 +36562,6 @@ const struct BaseStats gBaseStats[] =
     .catchRate = 45,
     .expYield = 158,
     .evYield_SpDefense = 2,
-    #ifdef ITEM_EXPANSION
-        .itemRare = ITEM_SHED_SHELL,
-    #endif
     .genderRatio = PERCENT_FEMALE(50),
     .eggCycles = 40,
     .friendship = 35,
