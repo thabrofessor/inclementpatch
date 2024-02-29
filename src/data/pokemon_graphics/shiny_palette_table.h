@@ -1517,8 +1517,8 @@ SPECIES_SHINY_PAL(ALCREMIE_GIGANTAMAX, gMonShinyPalette_AlcremieGigantamax),
 SPECIES_SHINY_PAL(COPPERAJAH_GIGANTAMAX, gMonShinyPalette_CopperajahGigantamax),
 SPECIES_SHINY_PAL(DURALUDON_GIGANTAMAX, gMonShinyPalette_DuraludonGigantamax),
 SPECIES_SHINY_PAL(ETERNATUS_ETERNAMAX, gMonShinyPalette_EternatusEternamax),
-SPECIES_SHINY_PAL(URSHIFU_SINGLE_STRIKE_GIGANTAMAX, gMonShinyPalette_UrshifuSingleStrikeGigantamax),
-SPECIES_SHINY_PAL(URSHIFU_RAPID_STRIKE_GIGANTAMAX, gMonShinyPalette_UrshifuRapidStrikeGigantamax),
+SPECIES_SHINY_PAL(URSHIFU_SINGLE_STRIKE_STYLE_GIGANTAMAX, gMonShinyPalette_UrshifuSingleStrikeStyleGigantamax),
+SPECIES_SHINY_PAL(URSHIFU_RAPID_STRIKE_STYLE_GIGANTAMAX, gMonShinyPalette_UrshifuRapidStrikeStyleGigantamax),
 
     SPECIES_SHINY_PAL(EGG, gMonPalette_Egg),
 };
