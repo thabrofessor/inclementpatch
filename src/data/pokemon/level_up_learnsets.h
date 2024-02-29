@@ -23431,7 +23431,7 @@ static const struct LevelUpMove sBasculinWhiteStripedLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sMothimSandCloakLevelUpLearnset[] = {
+static const struct LevelUpMove sMothimSandyCloakLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_QUIVER_DANCE),
     LEVEL_UP_MOVE( 1, MOVE_QUIVER_DANCE),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
@@ -23973,7 +23973,7 @@ static const struct LevelUpMove sOrbeetleGigantamaxLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sDreadnawGigantamaxLevelUpLearnset[] = {
+static const struct LevelUpMove sDrednawGigantamaxLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_PROTECT),
     LEVEL_UP_MOVE( 1, MOVE_PROTECT),
     LEVEL_UP_MOVE( 1, MOVE_HARDEN),
