@@ -38223,10 +38223,6 @@ const u32 gTMHMLearnsets[][4] =
                                         | TMHM1(TM25_THUNDER),
                                           TMHM2(TM90_SUBSTITUTE)
                                         | TMHM2(TM94_SUCKER_PUNCH)),
-    [SPECIES_GIRATINA_ORIGIN]   = TMHM_LEARNSET (TMHM1(TM24_THUNDERBOLT)
-                                        | TMHM1(TM25_THUNDER),
-                                          TMHM2(TM90_SUBSTITUTE)
-                                        | TMHM2(TM94_SUCKER_PUNCH)),
     [SPECIES_PALKIA_ORIGIN]   = TMHM_LEARNSET (TMHM1(TM24_THUNDERBOLT)
                                         | TMHM1(TM25_THUNDER),
                                           TMHM2(TM90_SUBSTITUTE)
