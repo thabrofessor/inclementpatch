@@ -7325,12 +7325,12 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x87,
         .y_offset = 7,
     },
-[SPECIES_URSHIFU_SINGLE_STRIKE_GIGANTAMAX] = 
+[SPECIES_URSHIFU_SINGLE_STRIKE_STYLE_GIGANTAMAX] = 
     {
         .size = 0x87,
         .y_offset = 7,
     },
-[SPECIES_URSHIFU_RAPID_STRIKE_GIGANTAMAX] = 
+[SPECIES_URSHIFU_RAPID_STRIKE_STYLE_GIGANTAMAX] = 
     {
         .size = 0x87,
         .y_offset = 7,
