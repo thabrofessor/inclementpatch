@@ -35076,7 +35076,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_SLOW,
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
-        .abilities = { AABILITY_SURGE_SURFER, ABILITY_STEELWORKER, ABILITY_REGENERATOR },
+        .abilities = { ABILITY_SURGE_SURFER, ABILITY_STEELWORKER, ABILITY_REGENERATOR },
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
     },
