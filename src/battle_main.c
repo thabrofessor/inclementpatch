@@ -657,7 +657,7 @@ static void CB2_InitBattleInternal(void)
             u8 points    = 30;
             u8 currHp    = GetMonData(&gEnemyParty[i], MON_DATA_HP);
             u8 currAtk   = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
-           u8 currDef   = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
+            u8 currDef   = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
             u8 currSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
             u8 currSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
             u8 currSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
@@ -668,15 +668,14 @@ static void CB2_InitBattleInternal(void)
             u8 newSpAtk  = currSpAtk + points;
             u8 newSpDef  = currSpDef + points;
 
-           SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
+            SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
             SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
-           SetMonData(&gEnemyParty[i], MON_DATA_DEF, &newDef);
+            SetMonData(&gEnemyParty[i], MON_DATA_DEF, &newDef);
             SetMonData(&gEnemyParty[i], MON_DATA_SPEED, &newSpeed);
-           SetMonData(&gEnemyParty[i], MON_DATA_SPATK, &newSpAtk);
+            SetMonData(&gEnemyParty[i], MON_DATA_SPATK, &newSpAtk);
             SetMonData(&gEnemyParty[i], MON_DATA_SPDEF, &newSpDef);
-       }
+        }
 
-     gBattleCommunication[MULTIUSE_STATE] = 0;
 #define BUFFER_PARTY_VS_SCREEN_STATUS(party, flags, i)              \
     for ((i) = 0; (i) < PARTY_SIZE; (i)++)                          \
     {                                                               \
