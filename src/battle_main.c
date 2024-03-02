@@ -657,7 +657,7 @@ static void CB2_InitBattleInternal(void)
          TryFormChange(i, B_SIDE_OPPONENT, FORM_CHANGE_BEGIN_BATTLE);
 
        // Apply enemy buff
-       if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_ORAN_BERRY)
+       if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
         {
             u8 points    = 30;
             u8 currHp    = GetMonData(&gEnemyParty[i], MON_DATA_HP);
