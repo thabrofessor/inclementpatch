@@ -8803,6 +8803,16 @@ static u32 CalcDefenseStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, 
         }
     }
 
+    // boss levels
+    // totem 
+    case HOLD_EFFECT_ORANGE_MAIL:
+        if ((gBattleMons[battlerDef].species),
+        (gBattleMons[battlerAtk].species),
+        (gBattleMons[battlerHP].species),
+        (gBattleMons[battler].species))
+            MulModifier(&modifier, UQ_4_12(1.5));
+        break;
+
     // target's hold effects
     switch (GetBattlerHoldEffect(battlerDef, TRUE))
     {

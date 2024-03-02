@@ -651,7 +651,37 @@ static void CB2_InitBattleInternal(void)
 
     gBattleCommunication[MULTIUSE_STATE] = 0;
 }
+        static void CB2_InitBattleInternal(void)
+         // Apply party-wide start-of-battle form changes for both sides.
+         TryFormChange(i, B_SIDE_PLAYER, FORM_CHANGE_BEGIN_BATTLE);
+         TryFormChange(i, B_SIDE_OPPONENT, FORM_CHANGE_BEGIN_BATTLE);
 
+       // Apply enemy buff
+       if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
+        {
+            u8 points    = 30;
+            u8 currHp    = GetMonData(&gEnemyParty[i], MON_DATA_HP);
+            u8 currAtk   = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
+           u8 currDef   = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
+            u8 currSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
+            u8 currSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
+            u8 currSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
+            u8 newHp     = currHp + points;
+            u8 newAtk    = currAtk + points;
+            u8 newDef    = currDef + points;
+            u8 newSpeed  = currSpeed + points;
+            u8 newSpAtk  = currSpAtk + points;
+            u8 newSpDef  = currSpDef + points;
+
+           SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
+            SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
+           SetMonData(&gEnemyParty[i], MON_DATA_DEF, &newDef);
+            SetMonData(&gEnemyParty[i], MON_DATA_SPEED, &newSpeed);
+           SetMonData(&gEnemyParty[i], MON_DATA_SPATK, &newSpAtk);
+            SetMonData(&gEnemyParty[i], MON_DATA_SPDEF, &newSpDef);
+       }
+ 
+     gBattleCommunication[MULTIUSE_STATE] = 0;
 #define BUFFER_PARTY_VS_SCREEN_STATUS(party, flags, i)              \
     for ((i) = 0; (i) < PARTY_SIZE; (i)++)                          \
     {                                                               \
