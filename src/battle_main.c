@@ -651,11 +651,6 @@ static void CB2_InitBattleInternal(void)
 
     gBattleCommunication[MULTIUSE_STATE] = 0;
 }
-
-         // Apply party-wide start-of-battle form changes for both sides.
-         TryFormChange(i, B_SIDE_PLAYER, FORM_CHANGE_BEGIN_BATTLE);
-         TryFormChange(i, B_SIDE_OPPONENT, FORM_CHANGE_BEGIN_BATTLE);
-
        // Apply enemy buff
        if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
         {
