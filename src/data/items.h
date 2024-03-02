@@ -1729,14 +1729,15 @@ const struct Item gItems[] =
 // Mail
     [ITEM_ORANGE_MAIL] =
     {
-        .name = _("Orange Mail"),
+        .name = _("Totem"), //ORANGE MAIL
         .itemId = ITEM_ORANGE_MAIL,
         .price = 50,
-        .description = sOrangeMailDesc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_MAIL,
-        .fieldUseFunc = ItemUseOutOfBattle_Mail,
-        .secondaryId = ITEM_TO_MAIL(ITEM_ORANGE_MAIL),
+        .holdEffect = HOLD_EFFECT_EVIOLITE,
+        .holdEffectParam = 50,
+        .description = sEvioliteDesc,
+        .pocket = POCKET_BATTLE,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
     [ITEM_HARBOR_MAIL] =
