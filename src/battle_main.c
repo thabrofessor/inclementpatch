@@ -653,7 +653,7 @@ static void CB2_InitBattleInternal(void)
   // Apply enemy buff
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
          {
-             u8 points    = .5;
+             u8 points    = .05;
              u8 currHp    = GetMonData(&gEnemyParty[i], MON_DATA_HP);
              u8 currAtk   = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
              u8 currDef   = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
