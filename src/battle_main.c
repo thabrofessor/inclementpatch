@@ -653,19 +653,19 @@ static void CB2_InitBattleInternal(void)
   // Apply enemy buff
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_ORAN_BERRY)
          {
-             u8 currHp    = GetMonData(&gEnemyParty[i], MON_DATA_HP);
-             u8 currAtk   = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
-             u8 currDef   = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
-             u8 currSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
-             u8 currSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
-             u8 currSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
-             u8 points    = 30;
-             u8 newHp     = currHp + points;
-             u8 newAtk    = currAtk + points;
-             u8 newDef    = currDef + points;
-             u8 newSpeed  = currSpeed + points;
-             u8 newSpAtk  = currSpAtk + points;
-             u8 newSpDef  = currSpDef + points;
+             u16 currHp    = GetMonData(&gEnemyParty[i], MON_DATA_HP);
+             u16 currAtk   = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
+             u16 currDef   = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
+             u16 currSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
+             u16 currSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
+             u16 currSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
+             u16 points    = 30;
+             u16 newHp     = currHp + points;
+             u16 newAtk    = currAtk + points;
+             u16 newDef    = currDef + points;
+             u16 newSpeed  = currSpeed + points;
+             u16 newSpAtk  = currSpAtk + points;
+             u16 newSpDef  = currSpDef + points;
         
              SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
              SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
