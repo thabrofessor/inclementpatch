@@ -144,7 +144,7 @@ EWRAM_DATA u8 gBattleTextBuff2[TEXT_BUFF_ARRAY_COUNT] = {0};
 EWRAM_DATA u8 gBattleTextBuff3[TEXT_BUFF_ARRAY_COUNT] = {0};
 EWRAM_DATA u32 gBattleTypeFlags = 0;
 EWRAM_DATA u8 gBattleTerrain = 0;
-EWRAM_DATA u32 gUnusedFirstBattleVar1 = 0; // Never read
+EWRAM_DATA u8 gUnusedFirstBattleVar1 = 0; // Never read
 EWRAM_DATA struct UnknownPokemonStruct4 gMultiPartnerParty[MULTI_PARTY_SIZE] = {0};
 EWRAM_DATA static struct UnknownPokemonStruct4* sMultiPartnerPartyBuffer = NULL;
 EWRAM_DATA u8 *gUnknown_0202305C = NULL;
@@ -653,14 +653,14 @@ static void CB2_InitBattleInternal(void)
  //  Apply enemy buff
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
          {
-             u32 currHp    = GetMonData(&gEnemyParty[i], MON_DATA_HP);
+             u8 currHp    = GetMonData(&gEnemyParty[i], MON_DATA_HP);
    //          u8 currAtk   = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
    //          u8 currDef   = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
    //          u8 currSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
    //          u8 currSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
    //          u8 currSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
-             u32 points    = 30;
-             u32 newHp     = currHp + points;
+             u8 points    = 30;
+             u16 newHp     = currHp + points;
    //          u16 newAtk    = currAtk + points;
    //          u16 newDef    = currDef + points;
    //          u16 newSpeed  = currSpeed + points;
