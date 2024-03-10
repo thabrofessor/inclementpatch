@@ -3855,7 +3855,7 @@ void BattleTurnPassed(void)
 
 u8 IsRunningFromBattleImpossible(void)
 {
-    u32 holdEffect, i;
+    u8 holdEffect, i;
 
     if (gBattleMons[gActiveBattler].item == ITEM_ENIGMA_BERRY)
         holdEffect = gEnigmaBerries[gActiveBattler].holdEffect;
