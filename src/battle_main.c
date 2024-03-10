@@ -650,7 +650,7 @@ static void CB2_InitBattleInternal(void)
     {
         AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
       
-   Apply enemy buff
+ //  Apply enemy buff
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WOOD_BERRY)
          {
              u8 currHp    = GetMonData(&gEnemyParty[i], MON_DATA_HP);
