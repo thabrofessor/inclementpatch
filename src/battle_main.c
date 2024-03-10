@@ -647,10 +647,11 @@ static void CB2_InitBattleInternal(void)
     gSaveBlock2Ptr->frontier.disableRecordBattle = FALSE;
 
     for (i = 0; i < PARTY_SIZE; i++)
-    {
+ //   {
         AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
       
  //  Apply enemy buff
+        {
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
          {
              u8 currHp    = GetMonData(&gEnemyParty[i], MON_DATA_HP);
@@ -3855,7 +3856,7 @@ void BattleTurnPassed(void)
 
 u8 IsRunningFromBattleImpossible(void)
 {
-    u8 holdEffect, i;
+    u32 holdEffect, i;
 
     if (gBattleMons[gActiveBattler].item == ITEM_ENIGMA_BERRY)
         holdEffect = gEnigmaBerries[gActiveBattler].holdEffect;
