@@ -693,7 +693,7 @@ static void CB2_InitBattleInternal(void)
 
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_ORAN_BERRY)
         {
-            u32 points    = 30;
+            u32 points    = 15;
  //            u32 currHp    = GetMonData(&gEnemyParty[i], MON_DATA_HP);
  //            u32 currAtk   = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
  //            u32 currDef   = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
