@@ -668,7 +668,7 @@ void applyenemybuff()
              SetMonData(&gEnemyParty[i], MON_DATA_SPATK, &newSpAtk);
              SetMonData(&gEnemyParty[i], MON_DATA_SPDEF, &newSpDef);   
 }
-
+int main()
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
         {
             applyenemybuff()
