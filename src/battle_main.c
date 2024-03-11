@@ -803,6 +803,20 @@ static void CB2_InitBattleInternal(void)
 
          }
     }
+
+            for (i = 0; i < PARTY_SIZE; i++)
+   {
+        AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
+      
+        if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_SHADOW_MAIL)
+        {
+            u32 points    = 100;
+
+                    u32 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;     
+             SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
+
+         }
+    }
         
  //   for (i = 0; i < PARTY_SIZE; i++)
 //   {
