@@ -655,7 +655,6 @@ static void CB2_InitBattleInternal(void)
 
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
         {
-            applyenemybuff();
             u32 points    = 30;
  //            u32 currHp    = GetMonData(&gEnemyParty[i], MON_DATA_HP);
  //            u32 currAtk   = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
@@ -682,14 +681,6 @@ static void CB2_InitBattleInternal(void)
              SetMonData(&gEnemyParty[i], MON_DATA_SPEED, &newSpeed);
              SetMonData(&gEnemyParty[i], MON_DATA_SPATK, &newSpAtk);
              SetMonData(&gEnemyParty[i], MON_DATA_SPDEF, &newSpDef);
-         }
-    }
-
-   {
-        if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_ORAN_BERRY)
-        {
-            applyenemybuff();
-            u32 points    = 15;
          }
     }
 
