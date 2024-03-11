@@ -804,40 +804,40 @@ static void CB2_InitBattleInternal(void)
          }
     }
         
-    for (i = 0; i < PARTY_SIZE; i++)
-   {
-        AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
+ //   for (i = 0; i < PARTY_SIZE; i++)
+//   {
+   //     AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
       
-        if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_SHADOW_MAIL)
-        {
-            u32 points    = 50;
-                    u32 newAtk = GetMonData(&gEnemyParty[i], MON_DATA_ATK) + points;
-                    u32 newDef = GetMonData(&gEnemyParty[i], MON_DATA_DEF) + points;
-                    u32 newSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED) + points;
-                    u32 newSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK) + points;
-                    u32 newSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF) + points;
+   //     if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_SHADOW_MAIL)
+   //     {
+     //       u32 points    = 50;
+      //              u32 newAtk = GetMonData(&gEnemyParty[i], MON_DATA_ATK) + points;
+      //              u32 newDef = GetMonData(&gEnemyParty[i], MON_DATA_DEF) + points;
+     //               u32 newSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED) + points;
+     //               u32 newSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK) + points;
+    //                u32 newSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF) + points;
 
-             SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
-             SetMonData(&gEnemyParty[i], MON_DATA_DEF, &newDef);
-             SetMonData(&gEnemyParty[i], MON_DATA_SPEED, &newSpeed);
-             SetMonData(&gEnemyParty[i], MON_DATA_SPATK, &newSpAtk);
-             SetMonData(&gEnemyParty[i], MON_DATA_SPDEF, &newSpDef);
-         }
-    }
+    //         SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
+    //         SetMonData(&gEnemyParty[i], MON_DATA_DEF, &newDef);
+    //         SetMonData(&gEnemyParty[i], MON_DATA_SPEED, &newSpeed);
+   //          SetMonData(&gEnemyParty[i], MON_DATA_SPATK, &newSpAtk);
+  //           SetMonData(&gEnemyParty[i], MON_DATA_SPDEF, &newSpDef);
+ //        }
+//    }
 
-        for (i = 0; i < PARTY_SIZE; i++)
-   {
-        AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
+ //       for (i = 0; i < PARTY_SIZE; i++)
+//   {
+   //     AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
       
-        if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_SHADOW_MAIL)
-        {
-            u32 points    = 125;
+   //     if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_SHADOW_MAIL)
+    //    {
+   //         u32 points    = 125;
 
-                    u32 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;     
-             SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
+   //                 u32 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;     
+  //           SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
 
-         }
-    }
+  //       }
+ //   }
         
 //    for (i = 0; i < PARTY_SIZE; i++)
 //   {
