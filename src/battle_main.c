@@ -671,7 +671,7 @@ void applyenemybuff()
 int main()
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
         {
-            applyenemybuff()
+            applyenemybuff();
             u32 points    = 30;
  //            u32 currHp    = GetMonData(&gEnemyParty[i], MON_DATA_HP);
  //            u32 currAtk   = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
@@ -704,7 +704,7 @@ int main()
    {
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_ORAN_BERRY)
         {
-            applyenemybuff()
+            applyenemybuff();
             u32 points    = 15;
          }
     }
