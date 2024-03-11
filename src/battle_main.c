@@ -655,18 +655,24 @@ static void CB2_InitBattleInternal(void)
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
         {
             u32 points    = 30;
-             u32 currHp    = GetMonData(&gEnemyParty[i], MON_DATA_HP);
-             u32 currAtk   = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
-             u32 currDef   = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
-             u32 currSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
-             u32 currSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
-             u32 currSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
-             u32 newHp     = currHp + points;
-             u32 newAtk    = currAtk + points;
-             u32 newDef    = currDef + points;
-             u32 newSpeed  = currSpeed + points;
-             u32 newSpAtk  = currSpAtk + points;
-             u32 newSpDef  = currSpDef + points;
+ //            u32 currHp    = GetMonData(&gEnemyParty[i], MON_DATA_HP);
+ //            u32 currAtk   = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
+ //            u32 currDef   = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
+ //            u32 currSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
+ //            u32 currSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
+ //            u32 currSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
+                    u32 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;
+                    u32 newAtk = GetMonData(&gEnemyParty[i], MON_DATA_ATK) + points;
+                    u32 newDef = GetMonData(&gEnemyParty[i], MON_DATA_DEF) + points;
+                    u32 newSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED) + points;
+                    u32 newSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK) + points;
+                    u32 newSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF) + points;
+ //            u32 newHp     = currHp + points;
+ //            u32 newAtk    = currAtk + points;
+ //            u32 newDef    = currDef + points;
+ //            u32 newSpeed  = currSpeed + points;
+ //            u32 newSpAtk  = currSpAtk + points;
+ //            u32 newSpDef  = currSpDef + points;
         
              SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
              SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
