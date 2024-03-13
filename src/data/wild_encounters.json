@@ -94,62 +94,62 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_GLIMMET"
+                "species": "SPECIES_PIKACHU_PARTNER"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_NACLI"
+                "species": "SPECIES_PIKACHU_PARTNER"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_NACLSTACK"
+                "species": "SPECIES_PIKACHU_PARTNER"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_GARGANACL"
+                "species": "SPECIES_PIKACHU_PARTNER"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_CHARCADET"
+                "species": "SPECIES_PIKACHU_PARTNER"
               },
               {
                 "min_level": 2,
                 "max_level": 4,
-                "species": "SPECIES_ARMAROUGE"
+                "species": "SPECIES_PIKACHU_PARTNER"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_CERULEDGE"
+                "species": "SPECIES_PIKACHU_PARTNER"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_TADBULB"
+                "species": "SPECIES_PIKACHU_PARTNER"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_BELLIBOLT"
+                "species": "SPECIES_PIKACHU_PARTNER"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_WATTREL"
+                "species": "SPECIES_PIKACHU_PARTNER"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_KILOWATTREL"
+                "species": "SPECIES_PIKACHU_PARTNER"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_MASCHIFF"
+                "species": "SPECIES_PIKACHU_PARTNER"
               }
             ]
           },
