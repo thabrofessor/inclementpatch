@@ -2681,16 +2681,16 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_THIEF] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_6
-            .power = 60,
+            .power = 80,
             .pp = 25,
         #else
             .power = 40,
             .pp = 10,
         #endif
-        .effect = EFFECT_THIEF,
+        .effect = EFFECT_ALL_STATS_UP_HIT,
         .type = TYPE_DARK,
         .accuracy = 100,
-        .secondaryEffectChance = 100,
+        .secondaryEffectChance = 30,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
@@ -4372,7 +4372,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_TRICK] =
     {
-        .effect = EFFECT_TRICK,
+        .effect = EFFECT_SPECTRAL_THIEF,
         .power = 0,
         .type = TYPE_PSYCHIC,
         .accuracy = 100,
@@ -4535,15 +4535,15 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_KNOCK_OFF] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_6
-            .power = 65,
+            .power = 80,
         #else
             .power = 20,
         #endif
-        .effect = EFFECT_KNOCK_OFF,
+        .effect = EFFECT_FLINCH_HIT,
         .type = TYPE_DARK,
         .accuracy = 100,
         .pp = 20,
-        .secondaryEffectChance = 100,
+        .secondaryEffectChance = 40,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
@@ -5502,7 +5502,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_COVET] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_6
-            .power = 60,
+            .power = 80,
             .pp = 25,
             .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
         #elif B_UPDATED_MOVE_DATA == GEN_5
@@ -5518,10 +5518,10 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
             .pp = 40,
             .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
         #endif
-        .effect = EFFECT_THIEF,
+        .effect = EFFECT_ALL_STATS_UP_HIT,
         .type = TYPE_NORMAL,
         .accuracy = 100,
-        .secondaryEffectChance = 100,
+        .secondaryEffectChance = 30,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .split = SPLIT_PHYSICAL,
@@ -6667,7 +6667,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_SWITCHEROO] =
     {
-        .effect = EFFECT_TRICK,
+        .effect = EFFECT_SPECTRAL_THIEF,
         .power = 0,
         .type = TYPE_DARK,
         .accuracy = 100,
