@@ -13665,4 +13665,136 @@ const struct PokedexEntry gPokedexEntries[] =
     .trainerScale = 256,
     .trainerOffset = 0,
 },
+[NATIONAL_DEX_ORIGIN_MEW] =
+{
+    .categoryName = _("Origin"),
+    .height = 30,
+    .weight = 40,
+    .description = gPokedexText_ORIGIN_MEW,
+    .pokemonScale = 256,
+    .pokemonOffset = 0,
+    .trainerScale = 256,
+    .trainerOffset = 0,
+},
+
+[NATIONAL_DEX_ARMOR_MEWTWO] =
+{
+    .categoryName = _("Genetic"),
+    .height = 30,
+    .weight = 1220,
+    .description = gPokedexText_ARMOR_MEWTWO,
+    .pokemonScale = 256,
+    .pokemonOffset = 0,
+    .trainerScale = 256,
+    .trainerOffset = 0,
+},
+
+[NATIONAL_DEX_TERAPAGOS] =
+{
+    .categoryName = _("Mountain"),
+    .height = 20,
+    .weight = 1400,
+    .description = gPokedexText_TERAPAGOS,
+    .pokemonScale = 256,
+    .pokemonOffset = 0,
+    .trainerScale = 256,
+    .trainerOffset = 0,
+},
+
+[NATIONAL_DEX_TERAPAGOS_TERASTAL] =
+{
+    .categoryName = _("Sky Land"),
+    .height = 25,
+    .weight = 2000,
+    .description = gPokedexText_TERAPAGOS_TERASTAL,
+    .pokemonScale = 256,
+    .pokemonOffset = 0,
+    .trainerScale = 256,
+    .trainerOffset = 0,
+},
+
+[NATIONAL_DEX_RAGING_BOLT] =
+{
+    .categoryName = _("Thunder"),
+    .height = 18,
+    .weight = 840,
+    .description = gPokedexText_RAGING_BOLT,
+    .pokemonScale = 256,
+    .pokemonOffset = 0,
+    .trainerScale = 256,
+    .trainerOffset = 0,
+},
+
+[NATIONAL_DEX_GOUGING_FIRE] =
+{
+    .categoryName = _("Inferno"),
+    .height = 25,
+    .weight = 1950,
+    .description = gPokedexText_GOUGING_FIRE,
+    .pokemonScale = 256,
+    .pokemonOffset = 0,
+    .trainerScale = 256,
+    .trainerOffset = 0,
+},
+
+[NATIONAL_DEX_IRON_CROWN] =
+{
+    .categoryName = _("Metallic"),
+    .height = 22,
+    .weight = 1800,
+    .description = gPokedexText_IRON_CROWN,
+    .pokemonScale = 256,
+    .pokemonOffset = 0,
+    .trainerScale = 256,
+    .trainerOffset = 0,
+},
+
+[NATIONAL_DEX_IRON_BOULDER] =
+{
+    .categoryName = _("Rock"),
+    .height = 25,
+    .weight = 2100,
+    .description = gPokedexText_IRON_BOULDER,
+    .pokemonScale = 256,
+    .pokemonOffset = 0,
+    .trainerScale = 256,
+    .trainerOffset = 0,
+},
+
+[NATIONAL_DEX_HYDRAPPLE] =
+{
+    .categoryName = _("Sea Fruit"),
+    .height = 15,
+    .weight = 600,
+    .description = gPokedexText_HYDRAPPLE,
+    .pokemonScale = 256,
+    .pokemonOffset = 0,
+    .trainerScale = 256,
+    .trainerOffset = 0,
+},
+
+[NATIONAL_DEX_ARCHALUDON] =
+{
+    .categoryName = _("Sky"),
+    .height = 35,
+    .weight = 3400,
+    .description = gPokedexText_ARCHALUDON,
+    .pokemonScale = 256,
+    .pokemonOffset = 0,
+    .trainerScale = 256,
+    .trainerOffset = 0,
+},
+
+[NATIONAL_DEX_PECHARUNT] =
+{
+    .categoryName = _("Harvest"),
+    .height = 10,
+    .weight = 150,
+    .description = gPokedexText_PECHARUNT,
+    .pokemonScale = 256,
+    .pokemonOffset = 0,
+    .trainerScale = 256,
+    .trainerOffset = 0,
+},
+
 };

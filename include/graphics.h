@@ -1460,6 +1460,17 @@ extern const u32 gMonFrontPic_CopperajahGigantamax[];
 extern const u32 gMonFrontPic_DuraludonGigantamax[];
 extern const u32 gMonFrontPic_UrshifuSingleStrikeStyleGigantamax[];
 extern const u32 gMonFrontPic_UrshifuRapidStrikeStyleGigantamax[];
+extern const u32 gMonFrontPic_OriginMew[];
+extern const u32 gMonFrontPic_ArmorMewtwo[];
+extern const u32 gMonFrontPic_Terapagos[];
+extern const u32 gMonFrontPic_TerapagosTerastal[];
+extern const u32 gMonFrontPic_RagingBolt[];
+extern const u32 gMonFrontPic_GougingFire[];
+extern const u32 gMonFrontPic_IronCrown[];
+extern const u32 gMonFrontPic_IronBoulder[];
+extern const u32 gMonFrontPic_Hydrapple[];
+extern const u32 gMonFrontPic_Archaludon[];
+extern const u32 gMonFrontPic_Pecharunt[];
 extern const u32 gMonFrontPic_Egg[];
 
 extern const u32 gMonBackPic_CircledQuestionMark[];
@@ -2857,6 +2868,19 @@ extern const u32 gMonBackPic_CopperajahGigantamax[];
 extern const u32 gMonBackPic_DuraludonGigantamax[];
 extern const u32 gMonBackPic_UrshifuSingleStrikeStyleGigantamax[];
 extern const u32 gMonBackPic_UrshifuRapidStrikeStyleGigantamax[];
+
+extern const u32 gMonBackPic_OriginMew[];
+extern const u32 gMonBackPic_ArmorMewtwo[];
+extern const u32 gMonBackPic_Terapagos[];
+extern const u32 gMonBackPic_TerapagosTerastal[];
+extern const u32 gMonBackPic_RagingBolt[];
+extern const u32 gMonBackPic_GougingFire[];
+extern const u32 gMonBackPic_IronCrown[];
+extern const u32 gMonBackPic_IronBoulder[];
+extern const u32 gMonBackPic_Hydrapple[];
+extern const u32 gMonBackPic_Archaludon[];
+extern const u32 gMonBackPic_Pecharunt[];
+
 
 
 extern const u32 gMonPalette_CircledQuestionMark[];
@@ -4279,6 +4303,17 @@ extern const u32 gMonPalette_CopperajahGigantamax[];
 extern const u32 gMonPalette_DuraludonGigantamax[];
 extern const u32 gMonPalette_UrshifuSingleStrikeStyleGigantamax[];
 extern const u32 gMonPalette_UrshifuRapidStrikeStyleGigantamax[];
+extern const u32 gMonPalette_OriginMew[];
+extern const u32 gMonPalette_ArmorMewtwo[];
+extern const u32 gMonPalette_Terapagos[];
+extern const u32 gMonPalette_TerapagosTerastal[];
+extern const u32 gMonPalette_RagingBolt[];
+extern const u32 gMonPalette_GougingFire[];
+extern const u32 gMonPalette_IronCrown[];
+extern const u32 gMonPalette_IronBoulder[];
+extern const u32 gMonPalette_Hydrapple[];
+extern const u32 gMonPalette_Archaludon[];
+extern const u32 gMonPalette_Pecharunt[];
 extern const u32 gMonPalette_Egg[];
 
 extern const u32 gMonShinyPalette_CircledQuestionMark[];
@@ -5691,6 +5726,17 @@ extern const u32 gMonShinyPalette_CopperajahGigantamax[];
 extern const u32 gMonShinyPalette_DuraludonGigantamax[];
 extern const u32 gMonShinyPalette_UrshifuSingleStrikeStyleGigantamax[];
 extern const u32 gMonShinyPalette_UrshifuRapidStrikeStyleGigantamax[];
+extern const u32 gMonShinyPalette_OriginMew[];
+extern const u32 gMonShinyPalette_ArmorMewtwo[];
+extern const u32 gMonShinyPalette_Terapagos[];
+extern const u32 gMonShinyPalette_TerapagosTerastal[];
+extern const u32 gMonShinyPalette_RagingBolt[];
+extern const u32 gMonShinyPalette_GougingFire[];
+extern const u32 gMonShinyPalette_IronCrown[];
+extern const u32 gMonShinyPalette_IronBoulder[];
+extern const u32 gMonShinyPalette_Hydrapple[];
+extern const u32 gMonShinyPalette_Archaludon[];
+extern const u32 gMonShinyPalette_Pecharunt[];
 
 
 extern const u8 gMonIcon_QuestionMark[];
@@ -7091,6 +7137,18 @@ extern const u8 gMonIcon_CopperajahGigantamax[];
 extern const u8 gMonIcon_DuraludonGigantamax[];
 extern const u8 gMonIcon_UrshifuSingleStrikeStyleGigantamax[];
 extern const u8 gMonIcon_UrshifuRapidStrikeStyleGigantamax[];
+extern const u32 gMonIcon_OriginMew[];
+extern const u32 gMonIcon_ArmorMewtwo[];
+extern const u32 gMonIcon_Terapagos[];
+extern const u32 gMonIcon_TerapagosTerastal[];
+extern const u32 gMonIcon_RagingBolt[];
+extern const u32 gMonIcon_GougingFire[];
+extern const u32 gMonIcon_IronCrown[];
+extern const u32 gMonIcon_IronBoulder[];
+extern const u32 gMonIcon_Hydrapple[];
+extern const u32 gMonIcon_Archaludon[];
+extern const u32 gMonIcon_Pecharunt[];
+
 //extern const u8 gMonIcon_CalyrexIceRider[];
 //extern const u8 gMonIcon_CalyrexShadowRider[];
 extern const u8 gMonIcon_Egg[];

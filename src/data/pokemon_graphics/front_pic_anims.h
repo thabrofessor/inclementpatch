@@ -11790,6 +11790,73 @@ static const union AnimCmd sAnim_URSHIFU_RAPID_STRIKE_STYLE_GIGANTAMAX_1[] =
     ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_OriginMew_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_ArmorMewtwo_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Terapagos_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_TerapagosTerastal_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_RagingBolt_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_GougingFire_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_IronCrown_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_IronBoulder_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Hydrapple_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Archaludon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Pecharunt_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+
 static const union AnimCmd *const sAnims_NONE[] ={
     sAnim_GeneralFrame0,
     sAnim_NONE_1,
@@ -18410,6 +18477,72 @@ static const union AnimCmd *const sAnims_URSHIFU_RAPID_STRIKE_STYLE_GIGANTAMAX[]
     sAnim_URSHIFU_RAPID_STRIKE_STYLE_GIGANTAMAX_1,
 };
 
+static const union AnimCmd *const sAnims_ORIGIN_MEW[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_ORIGIN_MEW_1,
+};
+
+static const union AnimCmd *const sAnims_ARMOR_MEWTWO[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_ARMOR_MEWTWO_1,
+};
+
+static const union AnimCmd *const sAnims_TERAPAGOS[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_TERAPAGOS_1,
+};
+
+static const union AnimCmd *const sAnims_TERAPAGOS_TERASTAL[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_TERAPAGOS_TERASTAL_1,
+};
+
+static const union AnimCmd *const sAnims_RAGING_BOLT[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_RAGING_BOLT_1,
+};
+
+static const union AnimCmd *const sAnims_GOUGING_FIRE[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_GOUGING_FIRE_1,
+};
+
+static const union AnimCmd *const sAnims_IRON_CROWN[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_IRON_CROWN_1,
+};
+
+static const union AnimCmd *const sAnims_IRON_BOULDER[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_IRON_BOULDER_1,
+};
+
+static const union AnimCmd *const sAnims_HYDRAPPLE[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_HYDRAPPLE_1,
+};
+
+static const union AnimCmd *const sAnims_ARCHALUDON[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_ARCHALUDON_1,
+};
+
+static const union AnimCmd *const sAnims_PECHARUNT[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_PECHARUNT_1,
+};
+
 
 
 #define ANIM_CMD(name)             [SPECIES_##name] = sAnims_##name
@@ -19871,6 +20004,17 @@ ANIM_CMD_FULL(COPPERAJAH_GIGANTAMAX, sAnims_COPPERAJAH_GIGANTAMAX),
 ANIM_CMD_FULL(DURALUDON_GIGANTAMAX, sAnims_DURALUDON_GIGANTAMAX),
 ANIM_CMD_FULL(URSHIFU_SINGLE_STRIKE_STYLE_GIGANTAMAX, sAnims_URSHIFU_SINGLE_STRIKE_STYLE_GIGANTAMAX),
 ANIM_CMD_FULL(URSHIFU_RAPID_STRIKE_STYLE_GIGANTAMAX, sAnims_URSHIFU_RAPID_STRIKE_STYLE_GIGANTAMAX),
+ANIM_CMD_FULL(ORIGIN_MEW, sAnims_ORIGIN_MEW),
+ANIM_CMD_FULL(ARMOR_MEWTWO, sAnims_ARMOR_MEWTWO),
+ANIM_CMD_FULL(TERAPAGOS, sAnims_TERAPAGOS),
+ANIM_CMD_FULL(TERAPAGOS_TERASTAL, sAnims_TERAPAGOS_TERASTAL),
+ANIM_CMD_FULL(RAGING_BOLT, sAnims_RAGING_BOLT),
+ANIM_CMD_FULL(GOUGING_FIRE, sAnims_GOUGING_FIRE),
+ANIM_CMD_FULL(IRON_CROWN, sAnims_IRON_CROWN),
+ANIM_CMD_FULL(IRON_BOULDER, sAnims_IRON_BOULDER),
+ANIM_CMD_FULL(HYDRAPPLE, sAnims_HYDRAPPLE),
+ANIM_CMD_FULL(ARCHALUDON, sAnims_ARCHALUDON),
+ANIM_CMD_FULL(PECHARUNT, sAnims_PECHARUNT),
 ANIM_CMD(EGG),
 };
 

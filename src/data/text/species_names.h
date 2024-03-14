@@ -1138,6 +1138,17 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
 [SPECIES_DURALUDON_GIGANTAMAX] = _("Duraludon"),
 [SPECIES_URSHIFU_SINGLE_STRIKE_STYLE_GIGANTAMAX] = _("Urshifu S"),
 [SPECIES_URSHIFU_RAPID_STRIKE_STYLE_GIGANTAMAX] = _("Urshifu R"),
+[SPECIES_ORIGIN_MEW] = _("Origin Mew"),
+[SPECIES_ARMOR_MEWTWO] = _("ArmrMewtwo"),
+[SPECIES_TERAPAGOS] = _("Terapagos"),
+[SPECIES_TERAPAGOS_TERASTAL] = _("Terapagos"),
+[SPECIES_RAGING_BOLT] = _("RagingBolt"),
+[SPECIES_GOUGING_FIRE] = _("GouginFire"),
+[SPECIES_IRON_CROWN] = _("Iron Crown"),
+[SPECIES_IRON_BOULDER] = _("IronBouldr"),
+[SPECIES_HYDRAPPLE] = _("Hydrapple"),
+[SPECIES_ARCHALUDON] = _("Archaludon"),
+[SPECIES_PECHARUNT] = _("Pecharunt"),
 
 
     // Megas

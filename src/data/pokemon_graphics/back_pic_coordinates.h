@@ -7335,4 +7335,60 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x87,
         .y_offset = 7,
     },
+    [SPECIES_ORIGIN_MEW] = 
+    {
+        .size = 0x87,
+        .y_offset = 7,
+    },
+[SPECIES_ARMOR_MEWTWO] = 
+    {
+        .size = 0x87,
+        .y_offset = 7,
+    },
+[SPECIES_TERAPAGOS] = 
+    {
+        .size = 0x87,
+        .y_offset = 7,
+    },
+[SPECIES_TERAPAGOS_TERASTAL] = 
+    {
+        .size = 0x87,
+        .y_offset = 7,
+    },
+[SPECIES_RAGING_BOLT] = 
+    {
+        .size = 0x87,
+        .y_offset = 7,
+    },
+[SPECIES_GOUGING_FIRE] = 
+    {
+        .size = 0x87,
+        .y_offset = 7,
+    },
+[SPECIES_IRON_CROWN] = 
+    {
+        .size = 0x87,
+        .y_offset = 7,
+    },
+[SPECIES_IRON_BOULDER] = 
+    {
+        .size = 0x87,
+        .y_offset = 7,
+    },
+[SPECIES_HYDRAPPLE] = 
+    {
+        .size = 0x87,
+        .y_offset = 7,
+    },
+[SPECIES_ARCHALUDON] = 
+    {
+        .size = 0x87,
+        .y_offset = 7,
+    },
+[SPECIES_PECHARUNT] = 
+    {
+        .size = 0x87,
+        .y_offset = 7,
+    },
+
 };

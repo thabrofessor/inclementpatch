@@ -7097,6 +7097,50 @@ const struct MonCoords gMonFrontPicCoords[] =
     .size = 0x88,
     .y_offset = 0,
 },
+[SPECIES_ORIGIN_MEW] = {
+    .size = 0x88,
+    .y_offset = 0,
+},
+[SPECIES_ARMOR_MEWTWO] = {
+    .size = 0x88,
+    .y_offset = 0,
+},
+[SPECIES_TERAPAGOS] = {
+    .size = 0x88,
+    .y_offset = 0,
+},
+[SPECIES_TERAPAGOS_TERASTAL] = {
+    .size = 0x88,
+    .y_offset = 0,
+},
+[SPECIES_RAGING_BOLT] = {
+    .size = 0x88,
+    .y_offset = 0,
+},
+[SPECIES_GOUGING_FIRE] = {
+    .size = 0x88,
+    .y_offset = 0,
+},
+[SPECIES_IRON_CROWN] = {
+    .size = 0x88,
+    .y_offset = 0,
+},
+[SPECIES_IRON_BOULDER] = {
+    .size = 0x88,
+    .y_offset = 0,
+},
+[SPECIES_HYDRAPPLE] = {
+    .size = 0x88,
+    .y_offset = 0,
+},
+[SPECIES_ARCHALUDON] = {
+    .size = 0x88,
+    .y_offset = 0,
+},
+[SPECIES_PECHARUNT] = {
+    .size = 0x88,
+    .y_offset = 0,
+},
     // Egg
     [SPECIES_EGG] =
     {

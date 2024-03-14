@@ -6821,3 +6821,70 @@ const u8 gUrshifuRapidStrikeStyleGigantamaxPokedexText[] = _(
     "that can wash away anything in their\n"
     "path.");
 
+const u8 gPokedexText_ORIGIN_MEW[] = _(
+    "Origin Mew is a mythical Pokémon\n"
+    "believed to possess the DNA of\n"
+    "all Pokémon species. It is said\n"
+    "to have shaped the world."); 
+
+const u8 gPokedexText_ARMOR_MEWTWO[] = _(
+    "Armor Mewtwo is a powerful Pokémon\n"
+    "created through genetic engineering.\n"
+    "Its armored body enhances its\n"
+    "already formidable psychic powers.");
+
+const u8 gPokedexText_TERAPAGOS[] = _(
+    "Terapagos is a legendary Pokémon\n"
+    "said to have shaped the mountains\n"
+    "and valleys with its earth-shattering\n"
+    "roars.");
+
+const u8 gPokedexText_TERAPAGOS_TERASTAL[] = _(
+    "Terapagos Terastal is a dual-type\n"
+    "legendary Pokémon known for its\n"
+    "ability to manipulate both land and\n"
+    "sky. It is said to bring balance.");
+
+const u8 gPokedexText_RAGING_BOLT[] = _(
+    "Raging Bolt is a fearsome Pokémon\n"
+    "with the power to command\n"
+    "thunderstorms. It is often seen as\n"
+    "a harbinger of storms.");
+
+const u8 gPokedexText_GOUGING_FIRE[] = _(
+    "Gouging Fire is a legendary Pokémon\n"
+    "known for its fiery temperament.\n"
+    "Legends speak of its ability to\n"
+    "consume entire forests.");
+
+const u8 gPokedexText_IRON_CROWN[] = _(
+    "Iron Crown is a mysterious Pokémon\n"
+    "said to have been forged in the heart\n"
+    "of a dying star. Its metallic body\n"
+    "radiates intense heat.");
+
+const u8 gPokedexText_IRON_BOULDER[] = _(
+    "Iron Boulder is a rock-type Pokémon\n"
+    "known for its incredible strength.\n"
+    "Legends say it can crush mountains\n"
+    "with a single blow.");
+
+const u8 gPokedexText_HYDRAPPLE[] = _(
+    "Hydrapple is a water-type Pokémon\n"
+    "that is said to have emerged from\n"
+    "the depths of the ocean. It is known\n"
+    "for its soothing presence.");
+
+const u8 gPokedexText_ARCHALUDON[] = _(
+    "Archaludon is a dragon-type Pokémon\n"
+    "known for its majestic wings. Legends\n"
+    "speak of its ability to soar through\n"
+    "the skies with grace.");
+
+const u8 gPokedexText_PECHARUNT[] = _(
+    "Pecharunt is a fairy-type Pokémon\n"
+    "associated with bountiful harvests.\n"
+    "It is said to bring good luck and\n"
+    "prosperity to those it encounters.");
+
+

@@ -1518,7 +1518,17 @@ SPECIES_SHINY_PAL(COPPERAJAH_GIGANTAMAX, gMonShinyPalette_CopperajahGigantamax),
 SPECIES_SHINY_PAL(DURALUDON_GIGANTAMAX, gMonShinyPalette_DuraludonGigantamax),
 SPECIES_SHINY_PAL(URSHIFU_SINGLE_STRIKE_STYLE_GIGANTAMAX, gMonShinyPalette_UrshifuSingleStrikeStyleGigantamax),
 SPECIES_SHINY_PAL(URSHIFU_RAPID_STRIKE_STYLE_GIGANTAMAX, gMonShinyPalette_UrshifuRapidStrikeStyleGigantamax),
-
+SPECIES_SHINY_PAL(ORIGIN_MEW, gMonShinyPalette_OriginMew),
+SPECIES_SHINY_PAL(ARMOR_MEWTWO, gMonShinyPalette_ArmorMewtwo),
+SPECIES_SHINY_PAL(TERAPAGOS, gMonShinyPalette_Terapagos),
+SPECIES_SHINY_PAL(TERAPAGOS_TERASTAL, gMonShinyPalette_TerapagosTerastal),
+SPECIES_SHINY_PAL(RAGING_BOLT, gMonShinyPalette_RagingBolt),
+SPECIES_SHINY_PAL(GOUGING_FIRE, gMonShinyPalette_GougingFire),
+SPECIES_SHINY_PAL(IRON_CROWN, gMonShinyPalette_IronCrown),
+SPECIES_SHINY_PAL(IRON_BOULDER, gMonShinyPalette_IronBoulder),
+SPECIES_SHINY_PAL(HYDRAPPLE, gMonShinyPalette_Hydrapple),
+SPECIES_SHINY_PAL(ARCHALUDON, gMonShinyPalette_Archaludon),
+SPECIES_SHINY_PAL(PECHARUNT, gMonShinyPalette_Pecharunt),
     SPECIES_SHINY_PAL(EGG, gMonPalette_Egg),
 };
 
