@@ -7110,7 +7110,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     .y_offset = 0,
 },
 [SPECIES_TERAPAGOS_TERASTAL] = {
-    .size = 0x88,
+    .size = 0x99,
     .y_offset = 0,
 },
 [SPECIES_RAGING_BOLT] = {
@@ -7130,7 +7130,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     .y_offset = 0,
 },
 [SPECIES_HYDRAPPLE] = {
-    .size = 0x88,
+    .size = 0x99,
     .y_offset = 0,
 },
 [SPECIES_ARCHALUDON] = {
