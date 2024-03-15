@@ -94,57 +94,57 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_PIKACHU_PARTNER"
+                "species": "SPECIES_ORIGIN_MEW"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_LUGIA_SHADOW"
+                "species": "SPECIES_ARMOR_MEWTWO"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_LUGIA_SHADOW"
+                "species": "SPECIES_TERAPAGOS"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_LUGIA_SHADOW"
+                "species": "SPECIES_TERAPAGOS_TERASTAL"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_LUGIA_SHADOW"
+                "species": "SPECIES_RAGING_BOLT"
               },
               {
                 "min_level": 2,
                 "max_level": 4,
-                "species": "SPECIES_LUGIA_SHADOW"
+                "species": "SPECIES_GOUGING_FIRE"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_LUGIA_SHADOW"
+                "species": "SPECIES_IRON_CROWN"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_LUGIA_SHADOW"
+                "species": "SPECIES_IRON_BOULDER"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_LUGIA_SHADOW"
+                "species": "SPECIES_HYDRAPPLE"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_LUGIA_SHADOW"
+                "species": "SPECIES_ARCHALUDON"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_LUGIA_SHADOW"
+                "species": "SPECIES_PECHARUNT"
               },
               {
                 "min_level": 2,
