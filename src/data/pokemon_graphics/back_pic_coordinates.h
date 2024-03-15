@@ -7163,7 +7163,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_EEVEE_PARTNER] = 
     {
         .size = 0x95,
-        .y_offset = -10,
+        .y_offset = 20,
     },
 [SPECIES_LUGIA_SHADOW] = 
     {
