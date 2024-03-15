@@ -6958,12 +6958,12 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_MOTHIM_SANDY_CLOAK] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 6,
     },
 [SPECIES_MOTHIM_TRASH_CLOAK] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 6,
     },
 [SPECIES_SCATTERBUG_POLAR] = 
     {
@@ -7163,7 +7163,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_EEVEE_PARTNER] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 5,
     },
 [SPECIES_LUGIA_SHADOW] = 
     {
