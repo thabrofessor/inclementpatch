@@ -99,32 +99,32 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_ARMOR_MEWTWO"
+                "species": "SPECIES_PUMPKABOO_LARGE"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_TERAPAGOS"
+                "species": "SPECIES_PUMPKABOO_SMALL"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_TERAPAGOS_TERASTAL"
+                "species": "SPECIES_PUMPKABOO_SUPER"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_RAGING_BOLT"
+                "species": "SPECIES_MOTHIM_SANDY_CLOAK"
               },
               {
                 "min_level": 2,
                 "max_level": 4,
-                "species": "SPECIES_GOUGING_FIRE"
+                "species": "SPECIES_MOTHIM_TRASH_CLOAK"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_IRON_CROWN"
+                "species": "SPECIES_EEVEE_PARTNER"
               },
               {
                 "min_level": 3,
