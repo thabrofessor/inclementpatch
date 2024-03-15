@@ -11790,67 +11790,67 @@ static const union AnimCmd sAnim_URSHIFU_RAPID_STRIKE_STYLE_GIGANTAMAX_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_OriginMew_1[] =
+static const union AnimCmd sAnim_ORIGIN_MEW_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_ArmorMewtwo_1[] =
+static const union AnimCmd sAnim_ARMOR_MEWTWO_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Terapagos_1[] =
+static const union AnimCmd sAnim_TERAPAGOS_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_TerapagosTerastal_1[] =
+static const union AnimCmd sAnim_TERAPAGOS_TERASTAL_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_RagingBolt_1[] =
+static const union AnimCmd sAnim_RAGING_BOLT_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_GougingFire_1[] =
+static const union AnimCmd sAnim_GOUGING_FIRE_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_IronCrown_1[] =
+static const union AnimCmd sAnim_IRON_CROWN_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_IronBoulder_1[] =
+static const union AnimCmd sAnim_IRON_BOULDER_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Hydrapple_1[] =
+static const union AnimCmd sAnim_HYDRAPPLE_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Archaludon_1[] =
+static const union AnimCmd sAnim_ARCHALUDON_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Pecharunt_1[] =
+static const union AnimCmd sAnim_PECHARUNT_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
