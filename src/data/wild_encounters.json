@@ -512,42 +512,42 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_PIKACHU_PARTNER"
-              },
-              {
-                "min_level": 2,
-                "max_level": 3,
-                "species": "SPECIES_EEVEE_PARTNER"
-              },
-              {
-                "min_level": 2,
-                "max_level": 3,
                 "species": "SPECIES_LUGIA_SHADOW"
               },
               {
-                "min_level": 3,
-                "max_level": 4,
-                "species": "SPECIES_INTELEON_GIGANTAMAX"
-              },
-              {
                 "min_level": 2,
-                "max_level": 4,
-                "species": "SPECIES_ORBEETLE_GIGANTAMAX"
-              },
-              {
-                "min_level": 3,
-                "max_level": 4,
-                "species": "SPECIES_DREDNAW_GIGANTAMAX"
+                "max_level": 3,
+                "species": "SPECIES_FLAPPLE_GIGANTAMAX"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_COALOSSAL_GIGANTAMAX"
+                "species": "SPECIES_APPLETUN_GIGANTAMAX"
+              },
+              {
+                "min_level": 3,
+                "max_level": 4,
+                "species": "SPECIES_GRIMMSNARL_GIGANTAMAX"
+              },
+              {
+                "min_level": 2,
+                "max_level": 4,
+                "species": "SPECIES_TERAPAGOS"
+              },
+              {
+                "min_level": 3,
+                "max_level": 4,
+                "species": "SPECIES_TERAPAGOS_TERASTAL"
+              },
+              {
+                "min_level": 2,
+                "max_level": 3,
+                "species": ""
               },
               {
                 "min_level": 3,
                 "max_level": 5,
-                "species": "SPECIES_FLAPPLE"
+                "species": ""
               },
               {
                 "min_level": 2,
