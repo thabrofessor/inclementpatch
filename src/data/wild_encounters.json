@@ -94,62 +94,62 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_SCATTERBUG_POLAR"
+                "species": "SPECIES_POLTCHAGEIST_ARTISAN"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_SCATTERBUG_POLAR"
+                "species": "SPECIES_POLTCHAGEIST_COUNTERFEIT"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_SPEWPA_POLAR"
+                "species": "SPECIES_SINISTCHA_MASTERPIECE"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_SCATTERBUG_POLAR"
+                "species": "SPECIES_SINISTCHA_UNREMARKABLE"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_SPEWPA_POLAR"
+                "species": "SPECIES_OKIDOGI"
               },
               {
                 "min_level": 2,
                 "max_level": 4,
-                "species": "SPECIES_SCATTERBUG_POLAR"
+                "species": "SPECIES_MUNKIDORI"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_SPEWPA_POLAR"
+                "species": "SPECIES_FEZANDIPITI"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_SCATTERBUG_POLAR"
+                "species": "SPECIES_OGERPON_TEAL"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_SPEWPA_POLAR"
+                "species": "SPECIES_OGERPON_WELLSPRING"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_SCATTERBUG_POLAR"
+                "species": "SPECIES_OGERPON_HEARTHFLAME"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_SPEWPA_POLAR"
+                "species": "SPECIES_OGERPON_CORNERSTONE"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_SCATTERBUG_RIVER"
+                "species": "SPECIES_OGERPON_TEAL_MASK_TERA"
               }
             ]
           },
