@@ -6888,17 +6888,17 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_SINISTCHA_UNREMARKABLE] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SINISTCHA_MASTERPIECE] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_OKIDOGI] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_MUNKIDORI] = 
     {
@@ -6913,42 +6913,42 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_OGERPON_TEAL] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_OGERPON_WELLSPRING] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_OGERPON_HEARTHFLAME] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_OGERPON_CORNERSTONE] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_OGERPON_TEAL_MASK_TERA] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_OGERPON_WELLSPRING_MASK_TERA] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_OGERPON_HEARTHFLAME_MASK_TERA] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_OGERPON_CORNERSTONE_MASK_TERA] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_URSALUNA_BLOODMOON] = 
     {

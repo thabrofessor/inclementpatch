@@ -94,62 +94,62 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_POLTCHAGEIST_ARTISAN"
+                "species": "SPECIES_URSALUNA_BLOODMOON"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_POLTCHAGEIST_COUNTERFEIT"
+                "species": "SPECIES_VENUSAUR_GIGANTAMAX"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_SINISTCHA_MASTERPIECE"
+                "species": "SPECIES_BLASTOISE_GIGANTAMAX"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_SINISTCHA_UNREMARKABLE"
+                "species": "SPECIES_CHARIZARD_GIGANTAMAX"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_OKIDOGI"
+                "species": "SPECIES_BUTTERFREE_GIGANTAMAX"
               },
               {
                 "min_level": 2,
                 "max_level": 4,
-                "species": "SPECIES_MUNKIDORI"
+                "species": "SPECIES_PIKACHU_GIGANTAMAX"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_FEZANDIPITI"
+                "species": "SPECIES_MEOWTH_GIGANTAMAX"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_OGERPON_TEAL"
+                "species": "SPECIES_MACHAMP_GIGANTAMAX"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_OGERPON_WELLSPRING"
+                "species": "SPECIES_GENGAR_GIGANTAMAX"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_OGERPON_HEARTHFLAME"
+                "species": "SPECIES_KINGLER_GIGANTAMAX"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_OGERPON_CORNERSTONE"
+                "species": "SPECIES_LAPRAS_GIGANTAMAX"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_OGERPON_TEAL_MASK_TERA"
+                "species": "SPECIES_EEVEE_GIGANTAMAX"
               }
             ]
           },
