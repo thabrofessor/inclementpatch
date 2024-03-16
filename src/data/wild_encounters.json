@@ -94,62 +94,62 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_ENAMORUS"
-              },
-              {
-                "min_level": 2,
-                "max_level": 3,
-                "species": "SPECIES_LILLIGANT_HISUIAN"
-              },
-              {
-                "min_level": 2,
-                "max_level": 3,
-                "species": "SPECIES_ZOROARK_HISUIAN"
-              },
-              {
-                "min_level": 3,
-                "max_level": 4,
-                "species": "SPECIES_BRAVIARY_HISUIAN"
-              },
-              {
-                "min_level": 3,
-                "max_level": 4,
-                "species": "SPECIES_SLIGGOO_HISUIAN"
-              },
-              {
-                "min_level": 2,
-                "max_level": 4,
-                "species": "SPECIES_GOODRA_HISUIAN"
-              },
-              {
-                "min_level": 3,
-                "max_level": 4,
-                "species": "SPECIES_AVALUGG_HISUIAN"
-              },
-              {
-                "min_level": 3,
-                "max_level": 4,
-                "species": "SPECIES_DECIDUEYE_HISUIAN"
-              },
-              {
-                "min_level": 2,
-                "max_level": 3,
                 "species": "SPECIES_DIALGA_ORIGIN"
-              },
-              {
-                "min_level": 2,
-                "max_level": 2,
-                "species": "SPECIES_PALKIA_ORIGIN"
-              },
-              {
-                "min_level": 2,
-                "max_level": 3,
-                "species": "SPECIES_BASCULIN_WHITE_STRIPED"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
                 "species": "SPECIES_SPRIGATITO"
+              },
+              {
+                "min_level": 2,
+                "max_level": 3,
+                "species": "SPECIES_QUAXWELL"
+              },
+              {
+                "min_level": 3,
+                "max_level": 4,
+                "species": "SPECIES_TAROUNTULA"
+              },
+              {
+                "min_level": 3,
+                "max_level": 4,
+                "species": "SPECIES_SPIDOPS"
+              },
+              {
+                "min_level": 2,
+                "max_level": 4,
+                "species": "SPECIES_NYMBLE"
+              },
+              {
+                "min_level": 3,
+                "max_level": 4,
+                "species": "SPECIES_LOKIX"
+              },
+              {
+                "min_level": 3,
+                "max_level": 4,
+                "species": "SPECIES_PAWMI"
+              },
+              {
+                "min_level": 2,
+                "max_level": 3,
+                "species": "SPECIES_PAWMO"
+              },
+              {
+                "min_level": 2,
+                "max_level": 2,
+                "species": "SPECIES_PAWMOT"
+              },
+              {
+                "min_level": 2,
+                "max_level": 3,
+                "species": "SPECIES_TANDEMAUS"
+              },
+              {
+                "min_level": 2,
+                "max_level": 3,
+                "species": "SPECIES_MAUSHOLD_THREE"
               }
             ]
           },
@@ -512,62 +512,62 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_FLORAGATO"
+                "species": "SPECIES_MAUSHOLD_FOUR"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_MEOWSCARADA"
+                "species": "SPECIES_FIDOUGH"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_FUECOCO"
+                "species": "SPECIES_DACHSBUN"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_CROCALOR"
+                "species": "SPECIES_SMOLIV"
               },
               {
                 "min_level": 2,
                 "max_level": 4,
-                "species": "SPECIES_SKELEDIRGE"
+                "species": "SPECIES_DOLLIV"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_QUAXLY"
+                "species": "SPECIES_ARBOLIVA"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_QUAXWELL"
+                "species": "SPECIES_SQUAWKABILLY_BLUE"
               },
               {
                 "min_level": 3,
                 "max_level": 5,
-                "species": "SPECIES_QUAQUAVAL"
+                "species": "SPECIES_SQUAWKABILLY_GREEN"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_LECHONK"
+                "species": "SPECIES_SQUAWKABILLY_WHITE"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_OINKOLOGNE_FEMALE"
+                "species": "SPECIES_SQUAWKABILLY_YELLOW"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_OINKOLOGNE_MALE"
+                "species": "SPECIES_NACLI"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_TAROUNTULA"
+                "species": "SPECIES_NACLSTACK"
               }
             ]
           },

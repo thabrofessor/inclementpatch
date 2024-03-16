@@ -6258,7 +6258,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_AVALUGG_HISUIAN] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_DECIDUEYE_HISUIAN] = 
     {
@@ -6278,7 +6278,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_BASCULIN_WHITE_STRIPED] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_SPRIGATITO] = 
     {
@@ -6303,7 +6303,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_CROCALOR] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 12,
     },
 [SPECIES_SKELEDIRGE] = 
     {
@@ -6313,7 +6313,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_QUAXLY] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 12,
     },
 [SPECIES_QUAXWELL] = 
     {
@@ -6328,12 +6328,12 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_LECHONK] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_OINKOLOGNE_MALE] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 10,
     },
 [SPECIES_OINKOLOGNE_FEMALE] = 
     {
