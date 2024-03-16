@@ -94,37 +94,37 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_URSALUNA_BLOODMOON"
+                "species": "SPECIES_RAGING_BOLT"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_EEVEE_GIGANTAMAX"
+                "species": "SPECIES_GOUGING_FIRE"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_MEOWTH_GIGANTAMAX"
+                "species": "SPECIES_IRON_CROWN"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_SNORLAX_GIGANTAMAX"
+                "species": "SPECIES_IRON_BOULDER"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_GARBODOR_GIGANTAMAX"
+                "species": "SPECIES_HYDRAPPLE"
               },
               {
                 "min_level": 2,
                 "max_level": 4,
-                "species": "SPECIES_MELMETAL_GIGANTAMAX"
+                "species": "SPECIES_ARCHALUDON"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_RILLABOOM_GIGANTAMAX"
+                "species": "SPECIES_PECHARUNT"
               },
               {
                 "min_level": 3,
@@ -512,62 +512,62 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_TOXTRICITY_GIGANTAMAX"
+                "species": "SPECIES_PIKACHU_PARTNER"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_CENTISKORCH_GIGANTAMAX"
+                "species": "SPECIES_EEVEE_PARTNER"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_HATTERENE_GIGANTAMAX"
+                "species": "SPECIES_LUGIA_SHADOW"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_GRIMMSNARL_GIGANTAMAX"
+                "species": "SPECIES_INTELEON_GIGANTAMAX"
               },
               {
                 "min_level": 2,
                 "max_level": 4,
-                "species": "SPECIES_ALCREMIE_GIGANTAMAX"
+                "species": "SPECIES_ORBEETLE_GIGANTAMAX"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_COPPERAJAH_GIGANTAMAX"
+                "species": "SPECIES_DREDNAW_GIGANTAMAX"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_DURALUDON_GIGANTAMAX"
+                "species": "SPECIES_COALOSSAL_GIGANTAMAX"
               },
               {
                 "min_level": 3,
                 "max_level": 5,
-                "species": "SPECIES_URSHIFU_RAPID_STRIKE_STYLE_GIGANTAMAX"
+                "species": "SPECIES_FLAPPLE"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_URSHIFU_SINGLE_STRIKE_STYLE_GIGANTAMAX"
+                "species": ""
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_SANDACONDA_GIGANTAMAX"
+                "species": ""
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_SANDACONDA_GIGANTAMAX"
+                "species": ""
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_SANDACONDA_GIGANTAMAX"
+                "species": ""
               }
             ]
           },
