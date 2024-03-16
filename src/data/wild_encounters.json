@@ -94,62 +94,62 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_ORIGIN_MEW"
+                "species": "SPECIES_SCATTERBUG_POLAR"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_PUMPKABOO_LARGE"
+                "species": "SPECIES_SCATTERBUG_TUNDRA"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_PUMPKABOO_SMALL"
+                "species": "SPECIES_SCATTERBUG_CONTINENTAL"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_PUMPKABOO_SUPER"
+                "species": "SPECIES_SCATTERBUG_GARDEN"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_MOTHIM_SANDY_CLOAK"
+                "species": "SPECIES_SCATTERBUG_ELEGANT"
               },
               {
                 "min_level": 2,
                 "max_level": 4,
-                "species": "SPECIES_MOTHIM_TRASH_CLOAK"
+                "species": "SPECIES_SCATTERBUG_MEADOW"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_EEVEE_PARTNER"
+                "species": "SPECIES_SCATTERBUG_MODERN"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_IRON_BOULDER"
+                "species": "SPECIES_SCATTERBUG_MARINE"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_HYDRAPPLE"
+                "species": "SPECIES_SCATTERBUG_ARCHIPELAGO"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_ARCHALUDON"
+                "species": "SPECIES_SCATTERBUG_HIGH_PLAINS"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_PECHARUNT"
+                "species": "SPECIES_SCATTERBUG_SANDSTORM"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_LUGIA_SHADOW"
+                "species": "SPECIES_SCATTERBUG_RIVER"
               }
             ]
           },

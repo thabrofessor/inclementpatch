@@ -1429,13 +1429,13 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     // Aegislash
     [SPECIES_AEGISLASH_BLADE] = _("Aegislash"),
     // Pumpkaboo
-    [SPECIES_PUMPKABOO_SMALL] = _("Pumpkaboo"),
-    [SPECIES_PUMPKABOO_LARGE] = _("Pumpkaboo"),
-    [SPECIES_PUMPKABOO_SUPER] = _("Pumpkaboo"),
+    [SPECIES_PUMPKABOO_SMALL] = _("PumpkaboSM"),
+    [SPECIES_PUMPKABOO_LARGE] = _("PumpkabooL"),
+    [SPECIES_PUMPKABOO_SUPER] = _("PumpkabooS"),
     // Gourgeist
-    [SPECIES_GOURGEIST_SMALL] = _("Gourgeist"),
-    [SPECIES_GOURGEIST_LARGE] = _("Gourgeist"),
-    [SPECIES_GOURGEIST_SUPER] = _("Gourgeist"),
+    [SPECIES_GOURGEIST_SMALL] = _("GorgeistSM"),
+    [SPECIES_GOURGEIST_LARGE] = _("GourgeistL"),
+    [SPECIES_GOURGEIST_SUPER] = _("GourgeistS"),
     // Xerneas
     [SPECIES_XERNEAS_ACTIVE] = _("Xerneas"),
     // Zygarde
