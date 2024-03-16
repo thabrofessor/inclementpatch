@@ -94,42 +94,7 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_GROWLITHE_HISUIAN"
-              },
-              {
-                "min_level": 2,
-                "max_level": 3,
-                "species": "SPECIES_ARCANINE_HISUIAN"
-              },
-              {
-                "min_level": 2,
-                "max_level": 3,
-                "species": "SPECIES_VOLTORB_HISUIAN"
-              },
-              {
-                "min_level": 3,
-                "max_level": 4,
-                "species": "SPECIES_ELECTRODE_HISUIAN"
-              },
-              {
-                "min_level": 3,
-                "max_level": 4,
-                "species": "SPECIES_TYPHLOSION_HISUIAN"
-              },
-              {
-                "min_level": 2,
-                "max_level": 4,
-                "species": "SPECIES_QWILFISH_HISUIAN"
-              },
-              {
-                "min_level": 3,
-                "max_level": 4,
-                "species": "SPECIES_SNEASEL_HISUIAN"
-              },
-              {
-                "min_level": 3,
-                "max_level": 4,
-                "species": "SPECIES_SAMUROTT_HISUIAN"
+                "species": "SPECIES_ENAMORUS"
               },
               {
                 "min_level": 2,
@@ -138,18 +103,53 @@
               },
               {
                 "min_level": 2,
-                "max_level": 2,
-                "species": "SPECIES_ZORUA_HISUIAN"
-              },
-              {
-                "min_level": 2,
                 "max_level": 3,
                 "species": "SPECIES_ZOROARK_HISUIAN"
               },
               {
+                "min_level": 3,
+                "max_level": 4,
+                "species": "SPECIES_BRAVIARY_HISUIAN"
+              },
+              {
+                "min_level": 3,
+                "max_level": 4,
+                "species": "SPECIES_SLIGGOO_HISUIAN"
+              },
+              {
+                "min_level": 2,
+                "max_level": 4,
+                "species": "SPECIES_GOODRA_HISUIAN"
+              },
+              {
+                "min_level": 3,
+                "max_level": 4,
+                "species": "SPECIES_AVALUGG_HISUIAN"
+              },
+              {
+                "min_level": 3,
+                "max_level": 4,
+                "species": "SPECIES_DECIDUEYE_HISUIAN"
+              },
+              {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_BRAVIARY_HISUIAN"
+                "species": "SPECIES_DIALGA_ORIGIN"
+              },
+              {
+                "min_level": 2,
+                "max_level": 2,
+                "species": "SPECIES_PALKIA_ORIGIN"
+              },
+              {
+                "min_level": 2,
+                "max_level": 3,
+                "species": "SPECIES_BASCULIN_WHITE_STRIPED"
+              },
+              {
+                "min_level": 2,
+                "max_level": 3,
+                "species": "SPECIES_SPRIGATITO"
               }
             ]
           },
@@ -512,62 +512,62 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_ANNIHILAPE"
+                "species": "SPECIES_FLORAGATO"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_WYRDEER"
+                "species": "SPECIES_MEOWSCARADA"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_KLEAVOR"
+                "species": "SPECIES_FUECOCO"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_URSALUNA"
+                "species": "SPECIES_CROCALOR"
               },
               {
                 "min_level": 2,
                 "max_level": 4,
-                "species": "SPECIES_BASCULEGION_FEMALE"
+                "species": "SPECIES_SKELEDIRGE"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_BASCULEGION_MALE"
+                "species": "SPECIES_QUAXLY"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_SNEASLER"
+                "species": "SPECIES_QUAXWELL"
               },
               {
                 "min_level": 3,
                 "max_level": 5,
-                "species": "SPECIES_OVERQWIL"
+                "species": "SPECIES_QUAQUAVAL"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_ENAMORUS"
+                "species": "SPECIES_LECHONK"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_ENAMORUS_THERIAN"
+                "species": "SPECIES_OINKOLOGNE_FEMALE"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": ""
+                "species": "SPECIES_OINKOLOGNE_MALE"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": ""
+                "species": "SPECIES_TAROUNTULA"
               }
             ]
           },

@@ -6153,17 +6153,17 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_URSALUNA] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_BASCULEGION_FEMALE] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 10,
     },
 [SPECIES_BASCULEGION_MALE] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 10,
     },
 [SPECIES_SNEASLER] = 
     {
@@ -6188,7 +6188,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_GROWLITHE_HISUIAN] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 12,
     },
 [SPECIES_ARCANINE_HISUIAN] = 
     {
@@ -6198,7 +6198,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_VOLTORB_HISUIAN] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 12,
     },
 [SPECIES_ELECTRODE_HISUIAN] = 
     {
@@ -6223,7 +6223,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_SAMUROTT_HISUIAN] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 12,
     },
 [SPECIES_LILLIGANT_HISUIAN] = 
     {
