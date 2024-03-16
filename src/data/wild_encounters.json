@@ -94,62 +94,62 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_RAGING_BOLT"
+                "species": "SPECIES_GROWLITHE_HISUIAN"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_GOUGING_FIRE"
+                "species": "SPECIES_ARCANINE_HISUIAN"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_IRON_CROWN"
+                "species": "SPECIES_VOLTORB_HISUIAN"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_IRON_BOULDER"
+                "species": "SPECIES_ELECTRODE_HISUIAN"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_HYDRAPPLE"
+                "species": "SPECIES_TYPHLOSION_HISUIAN"
               },
               {
                 "min_level": 2,
                 "max_level": 4,
-                "species": "SPECIES_ARCHALUDON"
+                "species": "SPECIES_QWILFISH_HISUIAN"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_PECHARUNT"
+                "species": "SPECIES_SNEASEL_HISUIAN"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_CINDERACE_GIGANTAMAX"
+                "species": "SPECIES_SAMUROTT_HISUIAN"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_INTELEON_GIGANTAMAX"
+                "species": "SPECIES_LILLIGANT_HISUIAN"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_CORVIKNIGHT_GIGANTAMAX"
+                "species": "SPECIES_ZORUA_HISUIAN"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_ORBEETLE_GIGANTAMAX"
+                "species": "SPECIES_ZOROARK_HISUIAN"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_DREDNAW_GIGANTAMAX"
+                "species": "SPECIES_BRAVIARY_HISUIAN"
               }
             ]
           },
@@ -512,52 +512,52 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_LUGIA_SHADOW"
+                "species": "SPECIES_ANNIHILAPE"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_FLAPPLE_GIGANTAMAX"
+                "species": "SPECIES_WYRDEER"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_APPLETUN_GIGANTAMAX"
+                "species": "SPECIES_KLEAVOR"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_GRIMMSNARL_GIGANTAMAX"
+                "species": "SPECIES_URSALUNA"
               },
               {
                 "min_level": 2,
                 "max_level": 4,
-                "species": "SPECIES_TERAPAGOS"
+                "species": "SPECIES_BASCULEGION_FEMALE"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_TERAPAGOS_TERASTAL"
+                "species": "SPECIES_BASCULEGION_MALE"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": ""
+                "species": "SPECIES_SNEASLER"
               },
               {
                 "min_level": 3,
                 "max_level": 5,
-                "species": ""
+                "species": "SPECIES_OVERQWIL"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": ""
+                "species": "SPECIES_ENAMORUS"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": ""
+                "species": "SPECIES_ENAMORUS_THERIAN"
               },
               {
                 "min_level": 2,
