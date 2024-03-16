@@ -6973,192 +6973,192 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_SCATTERBUG_TUNDRA] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SCATTERBUG_CONTINENTAL] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SCATTERBUG_GARDEN] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SCATTERBUG_ELEGANT] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SCATTERBUG_MEADOW] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SCATTERBUG_MODERN] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SCATTERBUG_MARINE] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SCATTERBUG_ARCHIPELAGO] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SCATTERBUG_HIGH_PLAINS] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SCATTERBUG_SANDSTORM] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SCATTERBUG_RIVER] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SCATTERBUG_MONSOON] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SCATTERBUG_SAVANNA] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SCATTERBUG_SUN] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SCATTERBUG_OCEAN] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SCATTERBUG_JUNGLE] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SCATTERBUG_FANCY] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SCATTERBUG_POKE_BALL] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SPEWPA_POLAR] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SPEWPA_TUNDRA] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SPEWPA_CONTINENTAL] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SPEWPA_GARDEN] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SPEWPA_ELEGANT] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SPEWPA_MEADOW] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SPEWPA_MODERN] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SPEWPA_MARINE] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SPEWPA_ARCHIPELAGO] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SPEWPA_HIGH_PLAINS] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SPEWPA_SANDSTORM] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SPEWPA_RIVER] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SPEWPA_MONSOON] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SPEWPA_SAVANNA] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SPEWPA_SUN] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SPEWPA_OCEAN] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SPEWPA_JUNGLE] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SPEWPA_FANCY] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_SPEWPA_POKE_BALL] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_PIKACHU_PARTNER] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_EEVEE_PARTNER] = 
     {
