@@ -6968,7 +6968,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_SCATTERBUG_POLAR] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 10,
     },
 [SPECIES_SCATTERBUG_TUNDRA] = 
     {
