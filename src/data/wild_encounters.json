@@ -99,57 +99,57 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_VENUSAUR_GIGANTAMAX"
+                "species": "SPECIES_EEVEE_GIGANTAMAX"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_BLASTOISE_GIGANTAMAX"
-              },
-              {
-                "min_level": 3,
-                "max_level": 4,
-                "species": "SPECIES_CHARIZARD_GIGANTAMAX"
-              },
-              {
-                "min_level": 3,
-                "max_level": 4,
-                "species": "SPECIES_BUTTERFREE_GIGANTAMAX"
-              },
-              {
-                "min_level": 2,
-                "max_level": 4,
-                "species": "SPECIES_PIKACHU_GIGANTAMAX"
-              },
-              {
-                "min_level": 3,
-                "max_level": 4,
                 "species": "SPECIES_MEOWTH_GIGANTAMAX"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_MACHAMP_GIGANTAMAX"
+                "species": "SPECIES_SNORLAX_GIGANTAMAX"
+              },
+              {
+                "min_level": 3,
+                "max_level": 4,
+                "species": "SPECIES_GARBODOR_GIGANTAMAX"
+              },
+              {
+                "min_level": 2,
+                "max_level": 4,
+                "species": "SPECIES_MELMETAL_GIGANTAMAX"
+              },
+              {
+                "min_level": 3,
+                "max_level": 4,
+                "species": "SPECIES_RILLABOOM_GIGANTAMAX"
+              },
+              {
+                "min_level": 3,
+                "max_level": 4,
+                "species": "SPECIES_CINDERACE_GIGANTAMAX"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_GENGAR_GIGANTAMAX"
+                "species": "SPECIES_INTELEON_GIGANTAMAX"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_KINGLER_GIGANTAMAX"
+                "species": "SPECIES_CORVIKNIGHT_GIGANTAMAX"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_LAPRAS_GIGANTAMAX"
+                "species": "SPECIES_ORBEETLE_GIGANTAMAX"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_EEVEE_GIGANTAMAX"
+                "species": "SPECIES_DREDNAW_GIGANTAMAX"
               }
             ]
           },
