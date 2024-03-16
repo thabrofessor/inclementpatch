@@ -7173,7 +7173,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_VENUSAUR_GIGANTAMAX] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 12,
     },
 [SPECIES_BLASTOISE_GIGANTAMAX] = 
     {
@@ -7238,7 +7238,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_MELMETAL_GIGANTAMAX] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_RILLABOOM_GIGANTAMAX] = 
     {
@@ -7268,12 +7268,12 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_DREDNAW_GIGANTAMAX] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_COALOSSAL_GIGANTAMAX] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 12,
     },
 [SPECIES_FLAPPLE_GIGANTAMAX] = 
     {
@@ -7308,12 +7308,12 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_GRIMMSNARL_GIGANTAMAX] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 12,
     },
 [SPECIES_ALCREMIE_GIGANTAMAX] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 12,
     },
 [SPECIES_COPPERAJAH_GIGANTAMAX] = 
     {
