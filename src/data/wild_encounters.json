@@ -512,62 +512,62 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_MABOSSTIFF"
+                "species": "SPECIES_TOXTRICITY_GIGANTAMAX"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_SHROODLE"
+                "species": "SPECIES_CENTISKORCH_GIGANTAMAX"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_GRAFAIAI"
+                "species": "SPECIES_HATTERENE_GIGANTAMAX"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_BRAMBLIN"
+                "species": "SPECIES_GRIMMSNARL_GIGANTAMAX"
               },
               {
                 "min_level": 2,
                 "max_level": 4,
-                "species": "SPECIES_BRAMBLEGHAST"
+                "species": "SPECIES_ALCREMIE_GIGANTAMAX"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_TOEDSCOOL"
+                "species": "SPECIES_COPPERAJAH_GIGANTAMAX"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_TOEDSCRUEL"
+                "species": "SPECIES_DURALUDON_GIGANTAMAX"
               },
               {
                 "min_level": 3,
                 "max_level": 5,
-                "species": "SPECIES_KLAWF"
+                "species": "SPECIES_URSHIFU_RAPID_STRIKE_STYLE_GIGANTAMAX"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_CAPSAKID"
+                "species": "SPECIES_URSHIFU_SINGLE_STRIKE_STYLE_GIGANTAMAX"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_SCOVILLAIN"
+                "species": "SPECIES_SANDACONDA_GIGANTAMAX"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_RELLOR"
+                "species": "SPECIES_SANDACONDA_GIGANTAMAX"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_RABSCA"
+                "species": "SPECIES_SANDACONDA_GIGANTAMAX"
               }
             ]
           },
