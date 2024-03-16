@@ -8139,7 +8139,7 @@ const u32 gMonFrontPic_CentiskorchGigantamax[] = INCBIN_U32("graphics/pokemon/ce
 const u32 gMonPalette_CentiskorchGigantamax[] = INCBIN_U32("graphics/pokemon/centiskorch_gigantamax/normal.gbapal.lz");
 const u32 gMonBackPic_CentiskorchGigantamax[] = INCBIN_U32("graphics/pokemon/centiskorch_gigantamax/back.4bpp.lz");
 const u32 gMonShinyPalette_CentiskorchGigantamax[] = INCBIN_U32("graphics/pokemon/centiskorch_gigantamax/shiny.gbapal.lz");
-const u8 gMonIcon_CentiskorchGigantamax[] = INCBIN_U8("graphics/pokemon/centiskorch_gigantamax/icon.4bpp.lz");
+const u8 gMonIcon_CentiskorchGigantamax[] = INCBIN_U8("graphics/pokemon/centiskorch_gigantamax/icon.4bpp");
 
 // HATTERENE_GIGANTAMAX
 const u32 gMonFrontPic_HattereneGigantamax[] = INCBIN_U32("graphics/pokemon/hatterene_gigantamax/front.4bpp.lz");
