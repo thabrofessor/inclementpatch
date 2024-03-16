@@ -99,7 +99,7 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_SCATTERBUG_TUNDRA"
+                "species": "SPECIES_SCATTERBUG_POLAR"
               },
               {
                 "min_level": 2,
@@ -109,42 +109,42 @@
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_SCATTERBUG_GARDEN"
+                "species": "SPECIES_SCATTERBUG_POLAR"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_SCATTERBUG_ELEGANT"
+                "species": "SPECIES_SPEWPA_POLAR"
               },
               {
                 "min_level": 2,
                 "max_level": 4,
-                "species": "SPECIES_SCATTERBUG_MEADOW"
+                "species": "SPECIES_SCATTERBUG_POLAR"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_SCATTERBUG_MODERN"
+                "species": "SPECIES_SPEWPA_POLAR"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_SCATTERBUG_MARINE"
+                "species": "SPECIES_SCATTERBUG_POLAR"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_SCATTERBUG_ARCHIPELAGO"
+                "species": "SPECIES_SPEWPA_POLAR"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_SCATTERBUG_HIGH_PLAINS"
+                "species": "SPECIES_SCATTERBUG_POLAR"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_SCATTERBUG_SANDSTORM"
+                "species": "SPECIES_SPEWPA_POLAR"
               },
               {
                 "min_level": 2,
