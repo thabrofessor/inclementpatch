@@ -6378,7 +6378,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_TANDEMAUS] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_MAUSHOLD_THREE] = 
     {
@@ -6468,17 +6468,17 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_TADBULB] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 10,
     },
 [SPECIES_BELLIBOLT] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 10,
     },
 [SPECIES_WATTREL] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 15,
     },
 [SPECIES_KILOWATTREL] = 
     {
@@ -6488,27 +6488,27 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_MASCHIFF] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 10,
     },
 [SPECIES_MABOSSTIFF] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_SHROODLE] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_GRAFAIAI] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_BRAMBLIN] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_BRAMBLEGHAST] = 
     {
@@ -6518,22 +6518,22 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_TOEDSCOOL] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 10,
     },
 [SPECIES_TOEDSCRUEL] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 10,
     },
 [SPECIES_KLAWF] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_CAPSAKID] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_SCOVILLAIN] = 
     {
