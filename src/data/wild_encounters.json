@@ -94,62 +94,62 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_BOMBIRDIER"
+                "species": "SPECIES_CLODSIRE"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_GLIMMORA"
+                "species": "SPECIES_GREAT_TUSK"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_HOUNDSTONE"
+                "species": "SPECIES_SLITHER_WING"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_FLAMIGO"
+                "species": "SPECIES_IRON_BUNDLE"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_CETODDLE"
+                "species": "SPECIES_IRON_HANDS"
               },
               {
                 "min_level": 2,
                 "max_level": 4,
-                "species": "SPECIES_CETITAN"
+                "species": "SPECIES_IRON_JUGULIS"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_VELUZA"
+                "species": "SPECIES_IRON_MOTH"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_DONDOZO"
+                "species": "SPECIES_IRON_THORNS"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_TATSUGIRI_CURLY"
+                "species": "SPECIES_FRIGIBAX"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_TATSUGIRI_DROOPY"
+                "species": "SPECIES_ARCTIBAX"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_TATSUGIRI_STRETCHY"
+                "species": "SPECIES_BAXCALIBUR"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_CLODSIRE"
+                "species": "SPECIES_GIMMIGHOUL_CHEST"
               }
             ]
           },
@@ -512,62 +512,62 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_FARIGIRAF"
+                "species": "SPECIES_GIMMIGHOUL_ROAMING"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_DUDUNSPARCE_TWO"
+                "species": "SPECIES_GHOLDENGO"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_DUDUNSPARCE_THREE"
+                "species": "SPECIES_WO_CHIEN"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_KINGAMBIT"
+                "species": "SPECIES_CHIEN_PAO"
               },
               {
                 "min_level": 2,
                 "max_level": 4,
-                "species": "SPECIES_GREAT_TUSK"
+                "species": "SPECIES_TING_LU"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_SCREAM_TAIL"
+                "species": "SPECIES_CHI_YU"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_BRUTE_BONNET"
+                "species": "SPECIES_ROARING_MOON"
               },
               {
                 "min_level": 3,
                 "max_level": 5,
-                "species": "SPECIES_FLUTTER_MANE"
+                "species": "SPECIES_IRON_VALIANT"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_SLITHER_WING"
+                "species": "SPECIES_KORAIDON"
+              },
+              {
+                "min_level": 1,
+                "max_level": 3,
+                "species": "SPECIES_MIRAIDON"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_SANDY_SHOCKS"
-              },
-              {
-                "min_level": 2,
-                "max_level": 3,
-                "species": "SPECIES_IRON_TREADS"
+                "species": "SPECIES_TAUROS_PALDEAN_AQUA_BREED"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_IRON_BUNDLE"
+                "species": "SPECIES_TAUROS_PALDEAN_COMBAT_BREED"
               }
             ]
           },

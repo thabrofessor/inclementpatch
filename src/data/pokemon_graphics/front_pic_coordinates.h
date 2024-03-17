@@ -6598,7 +6598,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     .y_offset = 0,
 },
 [SPECIES_GREAT_TUSK] = {
-    .size = 0x88,
+    .size = 0x99,
     .y_offset = 0,
 },
 [SPECIES_SCREAM_TAIL] = {
