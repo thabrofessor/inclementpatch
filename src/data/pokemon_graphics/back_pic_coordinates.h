@@ -6688,7 +6688,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_CLODSIRE] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_FARIGIRAF] = 
     {
@@ -6748,12 +6748,12 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_IRON_BUNDLE] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 10,
     },
 [SPECIES_IRON_HANDS] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 12,
     },
 [SPECIES_IRON_JUGULIS] = 
     {

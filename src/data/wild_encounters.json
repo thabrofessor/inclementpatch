@@ -94,7 +94,7 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_CLODSIRE"
+                "species": "SPECIES_TAUROS_PALDEAN_BLAZE_BREED"
               },
               {
                 "min_level": 2,
@@ -104,17 +104,17 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_SLITHER_WING"
+                "species": "SPECIES_WOOPER_PALDEAN"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_IRON_BUNDLE"
+                "species": "SPECIES_WALKING_WAKE"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_IRON_HANDS"
+                "species": "SPECIES_IRON_LEAVES"
               },
               {
                 "min_level": 2,
@@ -124,12 +124,12 @@
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_IRON_MOTH"
+                "species": "SPECIES_DIPPLIN"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_IRON_THORNS"
+                "species": "SPECIES_GIMMIGHOUL_CHEST"
               },
               {
                 "min_level": 2,
