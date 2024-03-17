@@ -94,62 +94,62 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_KILOWATTREL"
+                "species": "SPECIES_BOMBIRDIER"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_SCOVILLAIN"
+                "species": "SPECIES_GLIMMORA"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_RELLOR"
+                "species": "SPECIES_HOUNDSTONE"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_RABSCA"
+                "species": "SPECIES_FLAMIGO"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_FLITTLE"
+                "species": "SPECIES_CETODDLE"
               },
               {
                 "min_level": 2,
                 "max_level": 4,
-                "species": "SPECIES_ESPATHRA"
+                "species": "SPECIES_CETITAN"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_TINKATINK"
+                "species": "SPECIES_VELUZA"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_TINKATON"
+                "species": "SPECIES_DONDOZO"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_TINKATUFF"
+                "species": "SPECIES_TATSUGIRI_CURLY"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_WIGLETT"
+                "species": "SPECIES_TATSUGIRI_DROOPY"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_WUGTRIO"
+                "species": "SPECIES_TATSUGIRI_STRETCHY"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_BOMBIRDIER"
+                "species": "SPECIES_CLODSIRE"
               }
             ]
           },
@@ -512,62 +512,62 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_FINIZEN"
+                "species": "SPECIES_FARIGIRAF"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_PALAFIN_ZERO"
+                "species": "SPECIES_DUDUNSPARCE_TWO"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_PALAFIN_HERO"
+                "species": "SPECIES_DUDUNSPARCE_THREE"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_VAROOM"
+                "species": "SPECIES_KINGAMBIT"
               },
               {
                 "min_level": 2,
                 "max_level": 4,
-                "species": "SPECIES_REVAVROOM"
+                "species": "SPECIES_GREAT_TUSK"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_CYCLIZAR"
+                "species": "SPECIES_SCREAM_TAIL"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_ORTHWORM"
+                "species": "SPECIES_BRUTE_BONNET"
               },
               {
                 "min_level": 3,
                 "max_level": 5,
-                "species": "SPECIES_GLIMMET"
+                "species": "SPECIES_FLUTTER_MANE"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_GLIMMORA"
+                "species": "SPECIES_SLITHER_WING"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_GREAVARD"
+                "species": "SPECIES_SANDY_SHOCKS"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_HOUNDSTONE"
+                "species": "SPECIES_IRON_TREADS"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_FLAMIGO"
+                "species": "SPECIES_IRON_BUNDLE"
               }
             ]
           },

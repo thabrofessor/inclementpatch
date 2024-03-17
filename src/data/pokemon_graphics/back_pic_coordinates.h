@@ -6538,12 +6538,12 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_SCOVILLAIN] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 10,
     },
 [SPECIES_RELLOR] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 10,
     },
 [SPECIES_RABSCA] = 
     {
@@ -6553,7 +6553,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_FLITTLE] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 10,
     },
 [SPECIES_ESPATHRA] = 
     {
@@ -6563,7 +6563,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_TINKATINK] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_TINKATUFF] = 
     {
@@ -6573,17 +6573,17 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_TINKATON] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_WIGLETT] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_WUGTRIO] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 12,
     },
 [SPECIES_BOMBIRDIER] = 
     {
@@ -6593,12 +6593,12 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_FINIZEN] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_PALAFIN_ZERO] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_PALAFIN_HERO] = 
     {
@@ -6608,17 +6608,17 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_VAROOM] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_REVAVROOM] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_CYCLIZAR] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 12,
     },
 [SPECIES_ORTHWORM] = 
     {
@@ -6628,7 +6628,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_GLIMMET] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_GLIMMORA] = 
     {
