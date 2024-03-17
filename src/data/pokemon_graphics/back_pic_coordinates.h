@@ -6343,17 +6343,17 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_TAROUNTULA] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 12,
     },
 [SPECIES_SPIDOPS] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_NYMBLE] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_LOKIX] = 
     {
@@ -6383,27 +6383,27 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_MAUSHOLD_THREE] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_MAUSHOLD_FOUR] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_FIDOUGH] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_DACHSBUN] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 12,
     },
 [SPECIES_SMOLIV] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_DOLLIV] = 
     {
@@ -6438,7 +6438,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_NACLI] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 12,
     },
 [SPECIES_NACLSTACK] = 
     {
