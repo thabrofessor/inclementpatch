@@ -6647,7 +6647,7 @@ const struct MonCoords gMonFrontPicCoords[] =
 },
 [SPECIES_FRIGIBAX] = {
     .size = 0x88,
-    .y_offset = 0,
+    .y_offset = 15,
 },
 [SPECIES_ARCTIBAX] = {
     .size = 0x88,

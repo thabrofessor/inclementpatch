@@ -6778,7 +6778,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_ARCTIBAX] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 12,
     },
 [SPECIES_BAXCALIBUR] = 
     {
@@ -6843,7 +6843,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_TAUROS_PALDEAN_COMBAT_BREED] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 12,
     },
 [SPECIES_TAUROS_PALDEAN_BLAZE_BREED] = 
     {
@@ -6853,7 +6853,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_TAUROS_PALDEAN_AQUA_BREED] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 12,
     },
 [SPECIES_WOOPER_PALDEAN] = 
     {
