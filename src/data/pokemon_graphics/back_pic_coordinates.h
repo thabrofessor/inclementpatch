@@ -6773,7 +6773,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_FRIGIBAX] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 12,
     },
 [SPECIES_ARCTIBAX] = 
     {
@@ -6803,7 +6803,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_WO_CHIEN] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 12,
     },
 [SPECIES_CHIEN_PAO] = 
     {
@@ -6848,7 +6848,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_TAUROS_PALDEAN_BLAZE_BREED] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 12,
     },
 [SPECIES_TAUROS_PALDEAN_AQUA_BREED] = 
     {
@@ -6858,7 +6858,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_WOOPER_PALDEAN] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 17,
     },
 [SPECIES_WALKING_WAKE] = 
     {
@@ -6868,7 +6868,7 @@ const struct MonCoords gMonBackPicCoords[] =
 [SPECIES_IRON_LEAVES] = 
     {
         .size = 0x87,
-        .y_offset = 7,
+        .y_offset = 12,
     },
 [SPECIES_DIPPLIN] = 
     {
