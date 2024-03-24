@@ -2984,6 +2984,10 @@ static const u8 sEERIE_SPELLDescription[] = _(
     "Attacks with psychic power.\n"
     "Foe's last move has 3 PP cut.");
 
+static const u8 sTOTEM_BASHDescription[] = _(
+    "Thump em.\n"
+    "Use tha big stick.");
+
 static const u8 sNotDoneYetDescription[] = _(
     "Not done yet.");
 

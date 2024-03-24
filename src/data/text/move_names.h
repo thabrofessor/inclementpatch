@@ -1517,4 +1517,6 @@ const u8 gMoveNamesLong[MOVES_COUNT][LONG_MOVE_NAME_LENGTH + 1] =
     [MOVE_GLACIAL_LANCE] = _("Glacial Lance"),
     [MOVE_ASTRAL_BARRAGE] = _("Astral Barrage"),
     [MOVE_EERIE_SPELL] = _("Eerie Spell"),
+        [MOVE_TOTEM_BASH] = _("Totem Bash"),
 };
+
