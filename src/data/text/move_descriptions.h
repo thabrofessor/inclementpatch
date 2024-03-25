@@ -2988,6 +2988,54 @@ static const u8 sTOTEM_BASHDescription[] = _(
     "Thump em.\n"
     "Use tha big stick.");
 
+static const u8 sALPHA_STRIKEDescription[] = _(
+    "Thump em.\n"
+    "Use tha big stick.");
+
+static const u8 sSHADOW_MAKERDescription[] = _(
+    "Thump em.\n"
+    "Use tha big stick.");
+
+    static const u8 sTOTEM_QUAKEDescription[] = _(
+    "Thump em.\n"
+    "Use tha big stick.");
+
+    static const u8 sALPHA_RAGEDescription[] = _(
+    "Thump em.\n"
+    "Use tha big stick.");
+
+    static const u8 sGMAX_ENERGYDescription[] = _(
+    "Thump em.\n"
+    "Use tha big stick.");
+
+    static const u8 sGRAVES_SHADOWDescription[] = _(
+    "Thump em.\n"
+    "Use tha big stick.");
+
+    static const u8 sPRIMAL_POWERDescription[] = _(
+    "Thump em.\n"
+    "Use tha big stick.");
+
+    static const u8 sDOOMED_TOTEMDescription[] = _(
+    "Thump em.\n"
+    "Use tha big stick.");
+
+    static const u8 sALPHA_DOMINANCEDescription[] = _(
+    "Thump em.\n"
+    "Use tha big stick.");
+
+    static const u8 sGMAX_BURSTDescription[] = _(
+    "Thump em.\n"
+    "Use tha big stick.");
+
+        static const u8 sSHADOW_REAPERDescription[] = _(
+    "Thump em.\n"
+    "Use tha big stick.");
+
+        static const u8 sPRIMORDIAL_POWERDescription[] = _(
+    "Thump em.\n"
+    "Use tha big stick.");
+
 static const u8 sNotDoneYetDescription[] = _(
     "Not done yet.");
 
