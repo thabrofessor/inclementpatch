@@ -1276,7 +1276,7 @@
       "elevation": 3,
       "var": "VAR_ROUTE104_STATE",
       "var_value": "1",
-      "script": ""
+      "script": "Route104_EventScript_SRJR_1"
     }
   ],
   "bg_events": [
