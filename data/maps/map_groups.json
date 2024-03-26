@@ -556,7 +556,8 @@
     "Wetwood103",
     "Midwoods103",
     "RainWood103",
-    "ThePit"
+    "ThePit",
+    "SeasideTunnel"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

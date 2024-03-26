@@ -1410,3 +1410,12 @@ Route104_EventScript_PLASMA_101:: @ 81EC1B3
 	trainerbattle_single TRAINER_PLASMA_101, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+Route104_Cave_EventScript_SandMound::
+	lockall
+	faceplayer
+	special RockSmashWildEncounter
+	delay 0x60
+	removeobject 20
+	releaseall
+	end

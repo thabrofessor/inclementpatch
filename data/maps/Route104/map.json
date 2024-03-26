@@ -386,7 +386,7 @@
       "x": 26,
       "y": 71,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 5,
       "movement_range_y": 6,
       "trainer_type": "TRAINER_TYPE_NORMAL",
@@ -474,10 +474,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_3",
-      "x": 27,
-      "y": 69,
+      "x": 29,
+      "y": 64,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
@@ -500,8 +500,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GAMEBOY_KID",
-      "x": 31,
-      "y": 67,
+      "x": 27,
+      "y": 63,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -903,8 +903,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_5",
-      "x": 25,
-      "y": 65,
+      "x": 19,
+      "y": 68,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -1069,6 +1069,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_CutTree",
       "flag": "FLAG_TEMP_12"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
+      "x": 29,
+      "y": 72,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route104_Cave_EventScript_SandMound",
+      "flag": "FLAG_TEMP_13"
     }
   ],
   "warp_events": [
@@ -1239,6 +1252,20 @@
       "elevation": 0,
       "dest_map": "MAP_OCEANS_EDGE104",
       "dest_warp_id": 0
+    },
+    {
+      "x": 28,
+      "y": 68,
+      "elevation": 0,
+      "dest_map": "MAP_SEASIDE_TUNNEL",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 30,
+      "y": 70,
+      "elevation": 0,
+      "dest_map": "MAP_SEASIDE_TUNNEL",
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [
@@ -1249,7 +1276,7 @@
       "elevation": 3,
       "var": "VAR_ROUTE104_STATE",
       "var_value": "1",
-      "script": "Route104_EventScript_SRJR_1"
+      "script": ""
     }
   ],
   "bg_events": [
@@ -1259,12 +1286,12 @@
       "y": 50,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "Route104_EventScript_SRJR_1"
+      "script": "Route104_EventScript_Girl1"
     },
     {
       "type": "sign",
-      "x": 27,
-      "y": 66,
+      "x": 25,
+      "y": 64,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route104_EventScript_RouteSignPetalburg"

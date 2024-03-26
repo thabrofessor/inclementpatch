@@ -5640,6 +5640,16 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ThePit/border.bin",
       "blockdata_filepath": "data/layouts/ThePit/map.bin"
+    },
+    {
+      "id": "LAYOUT_SEASIDE_TUNNEL",
+      "name": "SeasideTunnel_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/SeasideTunnel/border.bin",
+      "blockdata_filepath": "data/layouts/SeasideTunnel/map.bin"
     }
   ]
 }
