@@ -652,6 +652,13 @@
       "elevation": 0,
       "dest_map": "MAP_MIDWOODS103",
       "dest_warp_id": 2
+    },
+    {
+      "x": 16,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_THE_PIT",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [
