@@ -5650,6 +5650,26 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SeasideTunnel/border.bin",
       "blockdata_filepath": "data/layouts/SeasideTunnel/map.bin"
+    },
+    {
+      "id": "LAYOUT_WOODLAND_TUNNEL",
+      "name": "WoodlandTunnel_Layout",
+      "width": 30,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/WoodlandTunnel/border.bin",
+      "blockdata_filepath": "data/layouts/WoodlandTunnel/map.bin"
+    },
+    {
+      "id": "LAYOUT_BRINYS_TUNNEL",
+      "name": "BrinysTunnel_Layout",
+      "width": 40,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/BrinysTunnel/border.bin",
+      "blockdata_filepath": "data/layouts/BrinysTunnel/map.bin"
     }
   ]
 }

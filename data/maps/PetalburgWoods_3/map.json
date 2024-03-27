@@ -181,8 +181,8 @@
       "x": 40,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE104_MR_BRINEYS_HOUSE",
-      "dest_warp_id": 2
+      "dest_map": "MAP_WOODLAND_TUNNEL",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [

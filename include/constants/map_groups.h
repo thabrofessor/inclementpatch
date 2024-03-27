@@ -526,6 +526,8 @@
 #define MAP_RAIN_WOOD103         (87 | (25 << 8))
 #define MAP_THE_PIT              (88 | (25 << 8))
 #define MAP_SEASIDE_TUNNEL       (89 | (25 << 8))
+#define MAP_WOODLAND_TUNNEL      (90 | (25 << 8))
+#define MAP_BRINYS_TUNNEL        (91 | (25 << 8))
 
 // gMapGroup_IndoorDynamic
 #define MAP_SECRET_BASE_RED_CAVE1    (0 | (26 << 8))

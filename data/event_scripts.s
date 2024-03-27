@@ -1306,3 +1306,7 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/ThePit/scripts.inc"
 
 	.include "data/maps/SeasideTunnel/scripts.inc"
+
+	.include "data/maps/WoodlandTunnel/scripts.inc"
+
+	.include "data/maps/BrinysTunnel/scripts.inc"
