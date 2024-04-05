@@ -206,3 +206,11 @@ Route115_EventScript_GENTLMAN_4:: @ 81EC1B3
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+115_Cave_EventScript_SandMound::
+	lockall
+	faceplayer
+	special RockSmashWildEncounter
+	delay 0x60
+	removeobject 20
+	releaseall
+	end
