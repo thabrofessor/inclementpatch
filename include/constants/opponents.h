@@ -6526,6 +6526,15 @@
 #define TRAINER_DRAGONTAMER_6              6232
 #define TRAINER_DRAGONTAMER_6_V2           6233
 #define TRAINER_DRAGONTAMER_6_V3           6234
+#define TRAINER_DRAGONTAMER_7              6226
+#define TRAINER_DRAGONTAMER_7_V2           6227
+#define TRAINER_DRAGONTAMER_7_V3           6228
+#define TRAINER_DRAGONTAMER_8              6229
+#define TRAINER_DRAGONTAMER_8_V2           6230
+#define TRAINER_DRAGONTAMER_8_V3           6231
+#define TRAINER_DRAGONTAMER_9              6232
+#define TRAINER_DRAGONTAMER_9_V2           6233
+#define TRAINER_DRAGONTAMER_9_V3           6234
 #define TRAINER_COOLTRAINERM_1             6235
 #define TRAINER_COOLTRAINERM_1_V2          6236
 #define TRAINER_COOLTRAINERM_1_V3          6237
