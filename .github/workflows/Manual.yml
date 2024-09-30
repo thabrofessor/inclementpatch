@@ -13,10 +13,10 @@ jobs:
       COMPARE: 0
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Checkout agbcc
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           path: agbcc
           repository: pret/agbcc
@@ -37,13 +37,13 @@ jobs:
         run: make -j${nproc} all
 
       - name: Upload gba
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: pokeemerald_built
           path: pokeemerald.gba
           
       - name: Upload map
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: pokeemerald_map
           path: pokeemerald.map
