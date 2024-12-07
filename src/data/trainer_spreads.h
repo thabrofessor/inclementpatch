@@ -60,8 +60,8 @@ const struct TrainerMonSpread gSets[] = {
 	
 	[SPREAD_31_IV_80_EV] =
 	{
-		.EVs = {180, 180, 180, 180, 180, 180},
-		.IVs = {131, 131, 131, 131, 131, 131},
+		.EVs = {80, 80, 80, 80, 80, 80},
+		.IVs = {31, 31, 31, 31, 31, 31},
 		.nature = NATURE_HARDY
 	},
 	// Generic spreads
