@@ -2687,10 +2687,10 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
             .power = 40,
             .pp = 10,
         #endif
-        .effect = EFFECT_ALL_STATS_UP_HIT,
+        .effect = EFFECT_ABSORB,
         .type = TYPE_DARK,
         .accuracy = 100,
-        .secondaryEffectChance = 30,
+        .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
@@ -4373,7 +4373,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_TRICK] =
     {
         .effect = EFFECT_SPECTRAL_THIEF,
-        .power = 0,
+        .power = 20,
         .type = TYPE_PSYCHIC,
         .accuracy = 100,
         .pp = 10,
@@ -5518,10 +5518,10 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
             .pp = 40,
             .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
         #endif
-        .effect = EFFECT_ALL_STATS_UP_HIT,
+        .effect = EFFECT_ABSORB,
         .type = TYPE_NORMAL,
         .accuracy = 100,
-        .secondaryEffectChance = 30,
+        .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .split = SPLIT_PHYSICAL,
