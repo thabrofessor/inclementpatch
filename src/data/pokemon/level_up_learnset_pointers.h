@@ -1161,7 +1161,7 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_FLORGES_BLUE_FLOWER] = sFlorgesLevelUpLearnset,
     [SPECIES_FLORGES_WHITE_FLOWER] = sFlorgesLevelUpLearnset,
     //Furfrou
-    [SPECIES_FURFROU_HEART_TRIM] = sFurfrouLevelUpLearnset,
+    [SPECIES_FURFROU_HEART_TRIM] = sFurfrouHeartLevelUpLearnset,
     [SPECIES_FURFROU_STAR_TRIM] = sFurfrouLevelUpLearnset,
     [SPECIES_FURFROU_DIAMOND_TRIM] = sFurfrouLevelUpLearnset,
     [SPECIES_FURFROU_DEBUTANTE_TRIM] = sFurfrouLevelUpLearnset,
