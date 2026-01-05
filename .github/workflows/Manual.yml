@@ -11,6 +11,7 @@ jobs:
       GAME_LANGUAGE: ENGLISH
       MODERN: 0
       COMPARE: 0
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -23,31 +24,24 @@ jobs:
 
       - name: Install dependencies
         run: |
-      sudo apt update
-      sudo apt install -y \
-      gcc-arm-none-eabi \
-      binutils-arm-none-eabi \
-      libpng-dev \
-      zlib1g-dev
+          sudo apt update
+          sudo apt install -y \
+            gcc-arm-none-eabi \
+            binutils-arm-none-eabi \
+            libpng-dev \
+            zlib1g-dev
 
-
-      - name: Install agbcc
+      - name: Build and install agbcc
+        working-directory: agbcc
         run: |
           ./build.sh
           ./install.sh ../
-        working-directory: agbcc
 
-      - name: Agbcc
-        run: make -j${nproc} all
+      - name: Build ROM
+        run: make -j$(nproc) all
 
       - name: Upload gba
         uses: actions/upload-artifact@v4
         with:
           name: pokeemerald_built
           path: pokeemerald.gba
-          
-      - name: Upload map
-        uses: actions/upload-artifact@v4
-        with:
-          name: pokeemerald_map
-          path: pokeemerald.map
