@@ -33,7 +33,7 @@
 #define DAYCARE_MON_COUNT 2
 #define POKEBLOCKS_COUNT 40
 #define OBJECT_EVENTS_COUNT 32
-#define BERRY_TREES_COUNT 128
+#define BERRY_TREES_COUNT 256
 #define MAIL_COUNT 1 // was 16
 #define SECRET_BASES_COUNT 4 // was 20. This frees up 2512 bytes of save space, which can go to bag space
 #define TV_SHOWS_COUNT 25
