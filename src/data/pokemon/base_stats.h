@@ -34580,7 +34580,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_SLOW,
         .eggGroup1 = EGG_GROUP_WATER_2,
         .eggGroup2 = EGG_GROUP_WATER_2,
-        .abilities = { ABILITY_UNAWARE, ABILITY_OBLIVIOUS, ABILITY_WATER_VEIL },
+        .abilities = { ABILITY_UNAWARE, ABILITY_OBLIVIOUS, ABILITY_DRIZZLE },
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
     },
