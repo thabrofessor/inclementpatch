@@ -655,7 +655,7 @@ static void CB2_InitBattleInternal(void)
 
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
         {
-            u16 points    = 15;
+            u32 points    = 15;
  //            u32 currHp    = GetMonData(&gEnemyParty[i], MON_DATA_HP);
  //            u32 currAtk   = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
  //            u32 currDef   = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
@@ -663,11 +663,11 @@ static void CB2_InitBattleInternal(void)
  //            u32 currSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
  //            u32 currSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
                  //   u32 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;
-                    u16 newAtk = GetMonData(&gEnemyParty[i], MON_DATA_ATK) + points;
-                    u16 newDef = GetMonData(&gEnemyParty[i], MON_DATA_DEF) + points;
-                    u16 newSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED) + points;
-                    u16 newSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK) + points;
-                    u16 newSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF) + points;
+                    u32 newAtk = GetMonData(&gEnemyParty[i], MON_DATA_ATK) + points;
+                    u32 newDef = GetMonData(&gEnemyParty[i], MON_DATA_DEF) + points;
+                    u32 newSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED) + points;
+                    u32 newSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK) + points;
+                    u32 newSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF) + points;
  //            u32 newHp     = currHp + points;
  //            u32 newAtk    = currAtk + points;
  //            u32 newDef    = currDef + points;
@@ -690,9 +690,9 @@ static void CB2_InitBattleInternal(void)
       
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
         {
-            u16 points    = 25;
+            u32 points    = 25;
 
-                    u16 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;     
+                    u32 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;     
              SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
 
          }
@@ -705,12 +705,12 @@ static void CB2_InitBattleInternal(void)
       
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_SHADOW_MAIL)
         {
-            u16 points    = 25;
-                    u16 newAtk = GetMonData(&gEnemyParty[i], MON_DATA_ATK) + points;
-                    u16 newDef = GetMonData(&gEnemyParty[i], MON_DATA_DEF) + points;
-                    u16 newSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED) + points;
-                    u16 newSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK) + points;
-                    u16 newSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF) + points;
+            u32 points    = 25;
+                    u32 newAtk = GetMonData(&gEnemyParty[i], MON_DATA_ATK) + points;
+                    u32 newDef = GetMonData(&gEnemyParty[i], MON_DATA_DEF) + points;
+                    u32 newSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED) + points;
+                    u32 newSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK) + points;
+                    u32 newSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF) + points;
 
              SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
              SetMonData(&gEnemyParty[i], MON_DATA_DEF, &newDef);
@@ -726,9 +726,9 @@ static void CB2_InitBattleInternal(void)
       
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_SHADOW_MAIL)
         {
-            u16 points    = 100;
+            u32 points    = 100;
 
-                    u16 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;     
+                    u32 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;     
              SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
 
          }
@@ -740,12 +740,12 @@ static void CB2_InitBattleInternal(void)
       
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_MECH_MAIL)
         {
-            u16 points    = 25;
-                    u16 newAtk = GetMonData(&gEnemyParty[i], MON_DATA_ATK) + points;
-                    u16 newDef = GetMonData(&gEnemyParty[i], MON_DATA_DEF) + points;
-                    u16 newSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED) + points;
-                    u16 newSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK) + points;
-                    u16 newSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF) + points;
+            u32 points    = 25;
+                    u32 newAtk = GetMonData(&gEnemyParty[i], MON_DATA_ATK) + points;
+                    u32 newDef = GetMonData(&gEnemyParty[i], MON_DATA_DEF) + points;
+                    u32 newSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED) + points;
+                    u32 newSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK) + points;
+                    u32 newSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF) + points;
 
              SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
              SetMonData(&gEnemyParty[i], MON_DATA_DEF, &newDef);
@@ -761,9 +761,9 @@ static void CB2_InitBattleInternal(void)
       
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_MECH_MAIL)
         {
-            u16 points    = 50;
+            u32 points    = 50;
 
-                    u16 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;     
+                    u32 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;     
              SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
 
          }
@@ -775,12 +775,12 @@ static void CB2_InitBattleInternal(void)
       
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WAVE_MAIL)
         {
-            u16 points    = 50;
-                    u16 newAtk = GetMonData(&gEnemyParty[i], MON_DATA_ATK) + points;
-                    u16 newDef = GetMonData(&gEnemyParty[i], MON_DATA_DEF) + points;
-                    u16 newSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED) + points;
-                    u16 newSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK) + points;
-                    u16 newSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF) + points;
+            u32 points    = 50;
+                    u32 newAtk = GetMonData(&gEnemyParty[i], MON_DATA_ATK) + points;
+                    u32 newDef = GetMonData(&gEnemyParty[i], MON_DATA_DEF) + points;
+                    u32 newSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED) + points;
+                    u32 newSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK) + points;
+                    u32 newSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF) + points;
 
              SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
              SetMonData(&gEnemyParty[i], MON_DATA_DEF, &newDef);
@@ -796,9 +796,9 @@ static void CB2_InitBattleInternal(void)
       
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WAVE_MAIL)
         {
-            u16 points    = 150;
+            u32 points    = 150;
 
-                    u16 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;     
+                    u32 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;     
              SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
 
          }
@@ -810,9 +810,9 @@ static void CB2_InitBattleInternal(void)
       
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_GLITTER_MAIL)
         {
-            u16 points    = 100;
+            u32 points    = 100;
 
-                    u16 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;     
+                    u32 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;     
              SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
 
          }
