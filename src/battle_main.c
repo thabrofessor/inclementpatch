@@ -2958,16 +2958,15 @@ void BeginBattleIntro(void)
     gBattleStruct->introState = 0;
     gBattleMainFunc = DoBattleIntro;
 
-    // ================= MAIL ITEM STAT BOOST INIT =================
-    // At this point, battlers are guaranteed to be initialized.
-    // We apply HP boosts ONCE and mark them as applied.
-    for (battlerId = 0; battlerId < MAX_BATTLERS_COUNT; battlerId++)
+    // ================= MAIL HP BOOST INIT =================
+    for (battlerId = 0; battlerId < gBattlersCount; battlerId++)
     {
         gMailHpBoostApplied[battlerId] = FALSE;
-        ApplyMailStatBoost(battlerId);
+        ApplyMailHpBoost(battlerId);
     }
-    // =============================================================
+    // =====================================================
 }
+
 
 
 
@@ -3015,7 +3014,6 @@ static void BattleStartClearSetData(void)
         gBattleStruct->lastTakenMoveFrom[i][2] = 0;
         gBattleStruct->lastTakenMoveFrom[i][3] = 0;
         gBattleStruct->AI_monToSwitchIntoId[i] = PARTY_SIZE;
-        ApplyMailStatBoost(i);
     }
 
     gLastUsedMove = 0;
@@ -3747,7 +3745,7 @@ static void TryDoEventsBeforeFirstTurn(void)
     gBattleStruct->faintedActionsState = 0;
     gBattleStruct->turnCountersTracker = 0;
     gMoveResultFlags = 0;
-    ApplyMailStatBoost(gActiveBattler);
+ 
 
 
     gRandomTurnNumber = Random();
@@ -5475,48 +5473,51 @@ void SetTotemBoost(void)
 }
 
 // ==================================================
-// Applies stat boosts from custom mail items
-// HP boost applied once per battle
-// Other stats reapply on every switch-in
+// Applies HP boost ONCE per battle
+// ==================================================
+static void ApplyMailHpBoost(u8 battlerId)
+{
+    struct BattlePokemon *mon;
+    u16 oldMaxHp;
+    u16 oldHp;
+
+    if (gMailHpBoostApplied[battlerId])
+        return;
+
+    mon = &gBattleMons[battlerId];
+
+    if (mon->item != ITEM_MECH_MAIL)
+        return;
+
+    oldMaxHp = mon->maxHP;
+    oldHp    = mon->hp;
+
+    mon->maxHP += 50;
+
+    if (oldMaxHp != 0)
+        mon->hp = (oldHp * mon->maxHP) / oldMaxHp;
+
+    if (mon->hp == 0 && oldHp > 0)
+        mon->hp = 1;
+
+    gMailHpBoostApplied[battlerId] = TRUE;
+}
+
+// ==================================================
+// Applies OTHER STAT boosts on switch-in
 // ==================================================
 static void ApplyMailStatBoost(u8 battlerId)
 {
     struct BattlePokemon *mon;
-    u16 item;
-    u16 oldMaxHp;
-    u16 oldHp;
-
-    // --- CONFIG ---
-    const u16 hpBoost   = 50;
-    const u16 statBoost = 25;
 
     mon = &gBattleMons[battlerId];
-    item = mon->item;
 
-    // Replace with your actual item(s)
-    if (item != ITEM_MECH_MAIL)
+    if (mon->item != ITEM_MECH_MAIL)
         return;
 
-    // ---------- HP (ONCE PER BATTLE) ----------
-    if (!gMailHpBoostApplied[battlerId])
-    {
-        oldMaxHp = mon->maxHP;
-        oldHp    = mon->hp;
-
-        mon->maxHP += hpBoost;
-
-        // Preserve HP ratio
-        mon->hp = (oldHp * mon->maxHP) / oldMaxHp;
-        if (mon->hp == 0 && oldHp > 0)
-            mon->hp = 1;
-
-        gMailHpBoostApplied[battlerId] = TRUE;
-    }
-
-    // ---------- OTHER STATS (EVERY SWITCH-IN) ----------
-    mon->attack     += statBoost;
-    mon->defense    += statBoost;
-    mon->speed      += statBoost;
-    mon->spAttack   += statBoost;
-    mon->spDefense  += statBoost;
+    mon->attack   += 25;
+    mon->defense  += 25;
+    mon->speed    += 25;
+    mon->spAttack += 25;
+    mon->spDefense+= 25;
 }
