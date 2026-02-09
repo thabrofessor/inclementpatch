@@ -3222,13 +3222,22 @@ void BeginBattleIntroDummy(void)
 
 void BeginBattleIntro(void)
 {
+    u32 battlerId;
+
     BattleStartClearSetData();
     gBattleCommunication[1] = 0;
     gBattleStruct->introState = 0;
     gBattleMainFunc = DoBattleIntro;
-    gMailHpBoostApplied[i] = FALSE;
-    ApplyMailStatBoost(i);
+
+    // ---------------- NEW CODE START ----------------
+    for (battlerId = 0; battlerId < gBattlersCount; battlerId++)
+    {
+        gMailHpBoostApplied[battlerId] = FALSE;
+        ApplyMailStatBoost(battlerId);
+    }
+    // ---------------- NEW CODE END ----------------
 }
+
 
 static void BattleMainCB1(void)
 {
