@@ -124,6 +124,8 @@ static void HandleEndTurn_BattleLost(void);
 static void HandleEndTurn_RanFromBattle(void);
 static void HandleEndTurn_MonFled(void);
 static void HandleEndTurn_FinishBattle(void);
+// === CUSTOM MAIL STAT BOOST ===
+static void ApplyMailStatBoost(u8 battlerId);
 
 // EWRAM vars
 EWRAM_DATA u16 gBattle_BG0_X = 0;
@@ -3269,6 +3271,7 @@ static void BattleStartClearSetData(void)
         gBattleStruct->lastTakenMoveFrom[i][2] = 0;
         gBattleStruct->lastTakenMoveFrom[i][3] = 0;
         gBattleStruct->AI_monToSwitchIntoId[i] = PARTY_SIZE;
+        ApplyMailStatBoost(i);
     }
 
     gLastUsedMove = 0;
@@ -4000,6 +4003,8 @@ static void TryDoEventsBeforeFirstTurn(void)
     gBattleStruct->faintedActionsState = 0;
     gBattleStruct->turnCountersTracker = 0;
     gMoveResultFlags = 0;
+    ApplyMailStatBoost(gActiveBattler);
+
 
     gRandomTurnNumber = Random();
 
@@ -5725,5 +5730,47 @@ void SetTotemBoost(void)
     }
 }
 
+// ==================================================
+// Applies stat boosts from custom mail items
+// - Reapplies on every switch-in
+// - HP boost persists with damage preserved
+// ==================================================
+static void ApplyMailStatBoost(u8 battlerId)
+{
+    struct BattlePokemon *mon = &gBattleMons[battlerId];
+    u16 item = mon->item;
+
+    // Replace with your actual mail item IDs
+    if (item != ITEM_MECH_MAIL)
+        return;
+
+    // --- CONFIGURABLE BOOST VALUES ---
+    const u16 hpBoost     = 50;
+    const u16 statBoost   = 25;
+
+    // ---------- HP HANDLING ----------
+    if (!(gSpecialStatuses[battlerId].flag & 0x1))
+    {
+        u16 oldMaxHp = mon->maxHP;
+        u16 oldHp    = mon->hp;
+
+        mon->maxHP += hpBoost;
+
+        // Preserve HP ratio
+        mon->hp = (oldHp * mon->maxHP) / oldMaxHp;
+        if (mon->hp == 0 && oldHp > 0)
+            mon->hp = 1;
+
+        // Mark HP boost as applied
+        gSpecialStatuses[battlerId].flag |= 0x1;
+    }
+
+    // ---------- NON-HP STATS ----------
+    mon->attack  += statBoost;
+    mon->defense += statBoost;
+    mon->speed   += statBoost;
+    mon->spAttack+= statBoost;
+    mon->spDefense+= statBoost;
+}
 
 
