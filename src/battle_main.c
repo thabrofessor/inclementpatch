@@ -649,12 +649,14 @@ static void CB2_InitBattleInternal(void)
     gMain.inBattle = TRUE;
     gSaveBlock2Ptr->frontier.disableRecordBattle = FALSE;
 
-    for (i = 0; i < PARTY_SIZE; i++)
-   {
-        AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
-        
-    gBattleCommunication[MULTIUSE_STATE] = 0;
+for (i = 0; i < PARTY_SIZE; i++)
+{
+    AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
 }
+
+gBattleCommunication[MULTIUSE_STATE] = 0;
+}
+
 
 #define BUFFER_PARTY_VS_SCREEN_STATUS(party, flags, i)              \
     for ((i) = 0; (i) < PARTY_SIZE; (i)++)                          \
@@ -2956,14 +2958,17 @@ void BeginBattleIntro(void)
     gBattleStruct->introState = 0;
     gBattleMainFunc = DoBattleIntro;
 
-    // ---------------- NEW CODE START ----------------
-    for (battlerId = 0; battlerId < gBattlersCount; battlerId++)
+    // ================= MAIL ITEM STAT BOOST INIT =================
+    // At this point, battlers are guaranteed to be initialized.
+    // We apply HP boosts ONCE and mark them as applied.
+    for (battlerId = 0; battlerId < MAX_BATTLERS_COUNT; battlerId++)
     {
         gMailHpBoostApplied[battlerId] = FALSE;
         ApplyMailStatBoost(battlerId);
     }
-    // ---------------- NEW CODE END ----------------
+    // =============================================================
 }
+
 
 
 static void BattleMainCB1(void)
