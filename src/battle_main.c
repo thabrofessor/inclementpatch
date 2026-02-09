@@ -125,67 +125,6 @@ static void HandleEndTurn_RanFromBattle(void);
 static void HandleEndTurn_MonFled(void);
 static void HandleEndTurn_FinishBattle(void);
 
-// =============================
-// NEW CODE - Mail stat handling
-// =============================
-
-static void ApplyHeldMailHpBonus(u8 battlerId)
-{
-    if (gMailHpBoostApplied[battlerId])
-        return;
-
-    switch (gBattleMons[battlerId].item)
-    {
-    case ITEM_WOOD_MAIL:
-        gBattleMons[battlerId].maxHP += 25;
-        gBattleMons[battlerId].hp    += 25;
-        break;
-
-    case ITEM_MECH_MAIL:
-        gBattleMons[battlerId].maxHP += 50;
-        gBattleMons[battlerId].hp    += 50;
-        break;
-
-    case ITEM_SHADOW_MAIL:
-        gBattleMons[battlerId].maxHP += 100;
-        gBattleMons[battlerId].hp    += 100;
-        break;
-    }
-
-    gMailHpBoostApplied[battlerId] = TRUE;
-}
-
-static void ApplyHeldMailStatBonus(u8 battlerId)
-{
-    switch (gBattleMons[battlerId].item)
-    {
-    case ITEM_WOOD_MAIL:
-        gBattleMons[battlerId].attack    += 15;
-        gBattleMons[battlerId].defense   += 15;
-        gBattleMons[battlerId].speed     += 15;
-        gBattleMons[battlerId].spAttack  += 15;
-        gBattleMons[battlerId].spDefense += 15;
-        break;
-
-    case ITEM_MECH_MAIL:
-        gBattleMons[battlerId].attack    += 25;
-        gBattleMons[battlerId].defense   += 25;
-        gBattleMons[battlerId].speed     += 25;
-        gBattleMons[battlerId].spAttack  += 25;
-        gBattleMons[battlerId].spDefense += 25;
-        break;
-
-    case ITEM_SHADOW_MAIL:
-        gBattleMons[battlerId].attack    += 25;
-        gBattleMons[battlerId].defense   += 25;
-        gBattleMons[battlerId].speed     += 25;
-        gBattleMons[battlerId].spAttack  += 25;
-        gBattleMons[battlerId].spDefense += 25;
-        break;
-    }
-}
-
-
 // EWRAM vars
 EWRAM_DATA u16 gBattle_BG0_X = 0;
 EWRAM_DATA u16 gBattle_BG0_Y = 0;
@@ -298,8 +237,6 @@ EWRAM_DATA struct FieldTimer gFieldTimers = {0};
 EWRAM_DATA u8 gBattlerAbility = 0;
 EWRAM_DATA u16 gPartnerSpriteId = 0;
 EWRAM_DATA struct TotemBoost gTotemBoosts[MAX_BATTLERS_COUNT] = {0};
-// NEW CODE - Track one-time Mail HP boosts per battler
-EWRAM_DATA bool8 gMailHpBoostApplied[MAX_BATTLERS_COUNT] = {0};
 EWRAM_DATA bool8 gHasFetchedBall = FALSE;
 EWRAM_DATA u8 gLastUsedBall = 0;
 EWRAM_DATA u16 gLastThrownBall = 0;
@@ -712,6 +649,280 @@ static void CB2_InitBattleInternal(void)
     for (i = 0; i < PARTY_SIZE; i++)
    {
         AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
+      
+ //  Apply enemy buff
+  //  {
+
+        if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
+        {
+            u32 points    = 15;
+ //            u32 currHp    = GetMonData(&gEnemyParty[i], MON_DATA_HP);
+ //            u32 currAtk   = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
+ //            u32 currDef   = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
+ //            u32 currSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
+ //            u32 currSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
+ //            u32 currSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
+                 //   u32 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;
+                    u32 newAtk = GetMonData(&gEnemyParty[i], MON_DATA_ATK) + points;
+                    u32 newDef = GetMonData(&gEnemyParty[i], MON_DATA_DEF) + points;
+                    u32 newSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED) + points;
+                    u32 newSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK) + points;
+                    u32 newSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF) + points;
+ //            u32 newHp     = currHp + points;
+ //            u32 newAtk    = currAtk + points;
+ //            u32 newDef    = currDef + points;
+ //            u32 newSpeed  = currSpeed + points;
+ //            u32 newSpAtk  = currSpAtk + points;
+ //            u32 newSpDef  = currSpDef + points;
+        
+        //     SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
+             SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
+             SetMonData(&gEnemyParty[i], MON_DATA_DEF, &newDef);
+             SetMonData(&gEnemyParty[i], MON_DATA_SPEED, &newSpeed);
+             SetMonData(&gEnemyParty[i], MON_DATA_SPATK, &newSpAtk);
+             SetMonData(&gEnemyParty[i], MON_DATA_SPDEF, &newSpDef);
+         }
+    }
+
+        for (i = 0; i < PARTY_SIZE; i++)
+   {
+        AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
+      
+        if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
+        {
+            u32 points    = 25;
+
+                    u32 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;     
+             SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
+
+         }
+    }
+
+    
+    for (i = 0; i < PARTY_SIZE; i++)
+   {
+        AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
+      
+        if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_SHADOW_MAIL)
+        {
+            u32 points    = 25;
+                    u32 newAtk = GetMonData(&gEnemyParty[i], MON_DATA_ATK) + points;
+                    u32 newDef = GetMonData(&gEnemyParty[i], MON_DATA_DEF) + points;
+                    u32 newSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED) + points;
+                    u32 newSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK) + points;
+                    u32 newSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF) + points;
+
+             SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
+             SetMonData(&gEnemyParty[i], MON_DATA_DEF, &newDef);
+             SetMonData(&gEnemyParty[i], MON_DATA_SPEED, &newSpeed);
+             SetMonData(&gEnemyParty[i], MON_DATA_SPATK, &newSpAtk);
+             SetMonData(&gEnemyParty[i], MON_DATA_SPDEF, &newSpDef);
+         }
+    }
+
+        for (i = 0; i < PARTY_SIZE; i++)
+   {
+        AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
+      
+        if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_SHADOW_MAIL)
+        {
+            u32 points    = 100;
+
+                    u32 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;     
+             SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
+
+         }
+    }
+        
+    for (i = 0; i < PARTY_SIZE; i++)
+   {
+        AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
+      
+        if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_MECH_MAIL)
+        {
+            u32 points    = 25;
+                    u32 newAtk = GetMonData(&gEnemyParty[i], MON_DATA_ATK) + points;
+                    u32 newDef = GetMonData(&gEnemyParty[i], MON_DATA_DEF) + points;
+                    u32 newSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED) + points;
+                    u32 newSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK) + points;
+                    u32 newSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF) + points;
+
+             SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
+             SetMonData(&gEnemyParty[i], MON_DATA_DEF, &newDef);
+             SetMonData(&gEnemyParty[i], MON_DATA_SPEED, &newSpeed);
+             SetMonData(&gEnemyParty[i], MON_DATA_SPATK, &newSpAtk);
+             SetMonData(&gEnemyParty[i], MON_DATA_SPDEF, &newSpDef);
+         }
+    }
+
+        for (i = 0; i < PARTY_SIZE; i++)
+   {
+        AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
+      
+        if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_MECH_MAIL)
+        {
+            u32 points    = 50;
+
+                    u32 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;     
+             SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
+
+         }
+    }
+        
+    for (i = 0; i < PARTY_SIZE; i++)
+   {
+        AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
+      
+        if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WAVE_MAIL)
+        {
+            u32 points    = 50;
+                    u32 newAtk = GetMonData(&gEnemyParty[i], MON_DATA_ATK) + points;
+                    u32 newDef = GetMonData(&gEnemyParty[i], MON_DATA_DEF) + points;
+                    u32 newSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED) + points;
+                    u32 newSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK) + points;
+                    u32 newSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF) + points;
+
+             SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
+             SetMonData(&gEnemyParty[i], MON_DATA_DEF, &newDef);
+             SetMonData(&gEnemyParty[i], MON_DATA_SPEED, &newSpeed);
+             SetMonData(&gEnemyParty[i], MON_DATA_SPATK, &newSpAtk);
+             SetMonData(&gEnemyParty[i], MON_DATA_SPDEF, &newSpDef);
+         }
+    }
+
+        for (i = 0; i < PARTY_SIZE; i++)
+   {
+        AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
+      
+        if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WAVE_MAIL)
+        {
+            u32 points    = 150;
+
+                    u32 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;     
+             SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
+
+         }
+    }
+
+            for (i = 0; i < PARTY_SIZE; i++)
+   {
+        AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
+      
+        if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_GLITTER_MAIL)
+        {
+            u32 points    = 100;
+
+                    u32 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;     
+             SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
+
+         }
+    }
+        
+ //   for (i = 0; i < PARTY_SIZE; i++)
+//   {
+   //     AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
+      
+   //     if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_SHADOW_MAIL)
+   //     {
+     //       u32 points    = 50;
+      //              u32 newAtk = GetMonData(&gEnemyParty[i], MON_DATA_ATK) + points;
+      //              u32 newDef = GetMonData(&gEnemyParty[i], MON_DATA_DEF) + points;
+     //               u32 newSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED) + points;
+     //               u32 newSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK) + points;
+    //                u32 newSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF) + points;
+
+    //         SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
+    //         SetMonData(&gEnemyParty[i], MON_DATA_DEF, &newDef);
+    //         SetMonData(&gEnemyParty[i], MON_DATA_SPEED, &newSpeed);
+   //          SetMonData(&gEnemyParty[i], MON_DATA_SPATK, &newSpAtk);
+  //           SetMonData(&gEnemyParty[i], MON_DATA_SPDEF, &newSpDef);
+ //        }
+//    }
+
+ //       for (i = 0; i < PARTY_SIZE; i++)
+//   {
+   //     AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
+      
+   //     if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_SHADOW_MAIL)
+    //    {
+   //         u32 points    = 125;
+
+   //                 u32 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;     
+  //           SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
+
+  //       }
+ //   }
+        
+//    for (i = 0; i < PARTY_SIZE; i++)
+//   {
+    //    AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
+      
+    //    if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_BEAD_MAIL)
+    //    {
+    //        u32 points    = 60;
+    //                u32 newAtk = GetMonData(&gEnemyParty[i], MON_DATA_ATK) + points;
+    //                u32 newDef = GetMonData(&gEnemyParty[i], MON_DATA_DEF) + points;
+    //                u32 newSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED) + points;
+    //                u32 newSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK) + points;
+    //                u32 newSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF) + points;
+
+    //         SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
+    //         SetMonData(&gEnemyParty[i], MON_DATA_DEF, &newDef);
+    //         SetMonData(&gEnemyParty[i], MON_DATA_SPEED, &newSpeed);
+   //          SetMonData(&gEnemyParty[i], MON_DATA_SPATK, &newSpAtk);
+  //           SetMonData(&gEnemyParty[i], MON_DATA_SPDEF, &newSpDef);
+ //        }
+//    }
+
+  //      for (i = 0; i < PARTY_SIZE; i++)
+//   {
+   //     AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
+      
+   //     if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_BEAD_MAIL)
+   //     {
+   //         u32 points    = 150;
+
+    //                u32 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;     
+   //          SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
+
+  //       }
+ //   }
+        
+ //   for (i = 0; i < PARTY_SIZE; i++)
+//   {
+    //    AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
+      
+    //    if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_DREAM_MAIL)
+    //    {
+     //       u32 points    = 70;
+     //               u32 newAtk = GetMonData(&gEnemyParty[i], MON_DATA_ATK) + points;
+     //               u32 newDef = GetMonData(&gEnemyParty[i], MON_DATA_DEF) + points;
+     //               u32 newSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED) + points;
+    //                u32 newSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK) + points;
+    //                u32 newSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF) + points;
+
+   //          SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
+   //          SetMonData(&gEnemyParty[i], MON_DATA_DEF, &newDef);
+   //          SetMonData(&gEnemyParty[i], MON_DATA_SPEED, &newSpeed);
+   //          SetMonData(&gEnemyParty[i], MON_DATA_SPATK, &newSpAtk);
+   //          SetMonData(&gEnemyParty[i], MON_DATA_SPDEF, &newSpDef);
+  //       }
+ //   }
+
+  //      for (i = 0; i < PARTY_SIZE; i++)
+ //  {
+ //       AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
+      
+ //       if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_DREAM_MAIL)
+ //       {
+ //           u32 points    = 200;
+
+ //                   u32 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;     
+ //            SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
+//
+ //        }
+//    }
+
     gBattleCommunication[MULTIUSE_STATE] = 0;
 }
 
@@ -3133,19 +3344,6 @@ static void BattleStartClearSetData(void)
     }
 
     gSwapDamageCategory = FALSE; // Photon Geyser, Shell Side Arm, Light That Burns the Sky
-
-        // =============================
-    // NEW CODE - Apply Mail bonuses
-    // =============================
-    for (u8 i = 0; i < gBattlersCount; i++)
-    {
-        if (gAbsentBattlerFlags & (1 << i))
-            continue;
-
-        ApplyHeldMailHpBonus(i);    // one-time HP increase
-        ApplyHeldMailStatBonus(i);  // initial stat increase
-    }
-
 }
 
 void SwitchInClearSetData(void)
@@ -3261,10 +3459,6 @@ void SwitchInClearSetData(void)
     ClearBattlerMoveHistory(gActiveBattler);
     ClearBattlerAbilityHistory(gActiveBattler);
     ClearBattlerItemEffectHistory(gActiveBattler);
-
-        // NEW CODE - Reapply Mail stat bonuses on switch-in
-    ApplyHeldMailStatBonus(gActiveBattler);
-
 }
 
 void FaintClearSetData(void)
