@@ -124,8 +124,6 @@ static void HandleEndTurn_BattleLost(void);
 static void HandleEndTurn_RanFromBattle(void);
 static void HandleEndTurn_MonFled(void);
 static void HandleEndTurn_FinishBattle(void);
-// === CUSTOM MAIL STAT BOOST ===
-static void ApplyMailStatBoost(u8 battlerId);
 
 // EWRAM vars
 EWRAM_DATA u16 gBattle_BG0_X = 0;
@@ -209,7 +207,6 @@ EWRAM_DATA u8 gBattleCommunication[BATTLE_COMMUNICATION_ENTRIES_COUNT] = {0};
 EWRAM_DATA u8 gBattleOutcome = 0;
 EWRAM_DATA struct ProtectStruct gProtectStructs[MAX_BATTLERS_COUNT] = {0};
 EWRAM_DATA struct SpecialStatus gSpecialStatuses[MAX_BATTLERS_COUNT] = {0};
-EWRAM_DATA bool8 gMailHpBoostApplied[MAX_BATTLERS_COUNT] = {0};
 EWRAM_DATA u16 gBattleWeather = 0;
 EWRAM_DATA struct WishFutureKnock gWishFutureKnock = {0};
 EWRAM_DATA u16 gIntroSlideFlags = 0;
@@ -649,7 +646,7 @@ static void CB2_InitBattleInternal(void)
     gMain.inBattle = TRUE;
     gSaveBlock2Ptr->frontier.disableRecordBattle = FALSE;
 
-for (i = 0; i < PARTY_SIZE; i++)
+ for (i = 0; i < PARTY_SIZE; i++)
 {
     AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
 }
@@ -2951,24 +2948,11 @@ void BeginBattleIntroDummy(void)
 
 void BeginBattleIntro(void)
 {
-    u32 battlerId;
-
     BattleStartClearSetData();
     gBattleCommunication[1] = 0;
     gBattleStruct->introState = 0;
     gBattleMainFunc = DoBattleIntro;
-
-    // ================= MAIL HP BOOST INIT =================
-    for (battlerId = 0; battlerId < gBattlersCount; battlerId++)
-    {
-        gMailHpBoostApplied[battlerId] = FALSE;
-        ApplyMailHpBoost(battlerId);
-    }
-    // =====================================================
 }
-
-
-
 
 static void BattleMainCB1(void)
 {
@@ -3745,8 +3729,6 @@ static void TryDoEventsBeforeFirstTurn(void)
     gBattleStruct->faintedActionsState = 0;
     gBattleStruct->turnCountersTracker = 0;
     gMoveResultFlags = 0;
- 
-
 
     gRandomTurnNumber = Random();
 
@@ -5472,52 +5454,5 @@ void SetTotemBoost(void)
     }
 }
 
-// ==================================================
-// Applies HP boost ONCE per battle
-// ==================================================
-static void ApplyMailHpBoost(u8 battlerId)
-{
-    struct BattlePokemon *mon;
-    u16 oldMaxHp;
-    u16 oldHp;
 
-    if (gMailHpBoostApplied[battlerId])
-        return;
 
-    mon = &gBattleMons[battlerId];
-
-    if (mon->item != ITEM_MECH_MAIL)
-        return;
-
-    oldMaxHp = mon->maxHP;
-    oldHp    = mon->hp;
-
-    mon->maxHP += 50;
-
-    if (oldMaxHp != 0)
-        mon->hp = (oldHp * mon->maxHP) / oldMaxHp;
-
-    if (mon->hp == 0 && oldHp > 0)
-        mon->hp = 1;
-
-    gMailHpBoostApplied[battlerId] = TRUE;
-}
-
-// ==================================================
-// Applies OTHER STAT boosts on switch-in
-// ==================================================
-static void ApplyMailStatBoost(u8 battlerId)
-{
-    struct BattlePokemon *mon;
-
-    mon = &gBattleMons[battlerId];
-
-    if (mon->item != ITEM_MECH_MAIL)
-        return;
-
-    mon->attack   += 25;
-    mon->defense  += 25;
-    mon->speed    += 25;
-    mon->spAttack += 25;
-    mon->spDefense+= 25;
-}
