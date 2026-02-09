@@ -209,6 +209,7 @@ EWRAM_DATA u8 gBattleCommunication[BATTLE_COMMUNICATION_ENTRIES_COUNT] = {0};
 EWRAM_DATA u8 gBattleOutcome = 0;
 EWRAM_DATA struct ProtectStruct gProtectStructs[MAX_BATTLERS_COUNT] = {0};
 EWRAM_DATA struct SpecialStatus gSpecialStatuses[MAX_BATTLERS_COUNT] = {0};
+EWRAM_DATA bool8 gMailHpBoostApplied[MAX_BATTLERS_COUNT] = {0};
 EWRAM_DATA u16 gBattleWeather = 0;
 EWRAM_DATA struct WishFutureKnock gWishFutureKnock = {0};
 EWRAM_DATA u16 gIntroSlideFlags = 0;
@@ -3225,6 +3226,8 @@ void BeginBattleIntro(void)
     gBattleCommunication[1] = 0;
     gBattleStruct->introState = 0;
     gBattleMainFunc = DoBattleIntro;
+    gMailHpBoostApplied[i] = FALSE;
+    ApplyMailStatBoost(i);
 }
 
 static void BattleMainCB1(void)
@@ -5732,27 +5735,32 @@ void SetTotemBoost(void)
 
 // ==================================================
 // Applies stat boosts from custom mail items
-// - Reapplies on every switch-in
-// - HP boost persists with damage preserved
+// HP boost applied once per battle
+// Other stats reapply on every switch-in
 // ==================================================
 static void ApplyMailStatBoost(u8 battlerId)
 {
-    struct BattlePokemon *mon = &gBattleMons[battlerId];
-    u16 item = mon->item;
+    struct BattlePokemon *mon;
+    u16 item;
+    u16 oldMaxHp;
+    u16 oldHp;
 
-    // Replace with your actual mail item IDs
+    // --- CONFIG ---
+    const u16 hpBoost   = 50;
+    const u16 statBoost = 25;
+
+    mon = &gBattleMons[battlerId];
+    item = mon->item;
+
+    // Replace with your actual item(s)
     if (item != ITEM_MECH_MAIL)
         return;
 
-    // --- CONFIGURABLE BOOST VALUES ---
-    const u16 hpBoost     = 50;
-    const u16 statBoost   = 25;
-
-    // ---------- HP HANDLING ----------
-    if (!(gSpecialStatuses[battlerId].flag & 0x1))
+    // ---------- HP (ONCE PER BATTLE) ----------
+    if (!gMailHpBoostApplied[battlerId])
     {
-        u16 oldMaxHp = mon->maxHP;
-        u16 oldHp    = mon->hp;
+        oldMaxHp = mon->maxHP;
+        oldHp    = mon->hp;
 
         mon->maxHP += hpBoost;
 
@@ -5761,16 +5769,13 @@ static void ApplyMailStatBoost(u8 battlerId)
         if (mon->hp == 0 && oldHp > 0)
             mon->hp = 1;
 
-        // Mark HP boost as applied
-        gSpecialStatuses[battlerId].flag |= 0x1;
+        gMailHpBoostApplied[battlerId] = TRUE;
     }
 
-    // ---------- NON-HP STATS ----------
-    mon->attack  += statBoost;
-    mon->defense += statBoost;
-    mon->speed   += statBoost;
-    mon->spAttack+= statBoost;
-    mon->spDefense+= statBoost;
+    // ---------- OTHER STATS (EVERY SWITCH-IN) ----------
+    mon->attack     += statBoost;
+    mon->defense    += statBoost;
+    mon->speed      += statBoost;
+    mon->spAttack   += statBoost;
+    mon->spDefense  += statBoost;
 }
-
-
