@@ -62,12 +62,9 @@ static const struct LevelUpMove sVenusaurLevelUpLearnset[] = {
 
 static const struct LevelUpMove sCharmanderLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_GROWL),
-    	LEVEL_UP_MOVE( 1, MOVE_SUNNY_DAY),
+    LEVEL_UP_MOVE( 1, MOVE_SUNNY_DAY),
 	LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
-    	LEVEL_UP_MOVE( 1, MOVE_KNOCK_OFF),
-    	LEVEL_UP_MOVE( 1, MOVE_THIEF),
-    	LEVEL_UP_MOVE( 1, MOVE_PIKA_PAPOW),
-    	LEVEL_UP_MOVE( 1, MOVE_TRICK),
+    LEVEL_UP_MOVE( 1, MOVE_FLAME_WHEEL),
 	LEVEL_UP_MOVE( 4, MOVE_EMBER),
 	LEVEL_UP_MOVE( 8, MOVE_SMOKESCREEN),
 	LEVEL_UP_MOVE(9, MOVE_MORNING_SUN),
@@ -452,6 +449,7 @@ static const struct LevelUpMove sArbokLevelUpLearnset[] = {
 
 static const struct LevelUpMove sPikachuLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_ELECTRO_BALL),
+    LEVEL_UP_MOVE( 1, MOVE_PIKA_PAPOW),
 	LEVEL_UP_MOVE( 1, MOVE_CHARM),
 	LEVEL_UP_MOVE( 1, MOVE_GROWL),
 	LEVEL_UP_MOVE( 1, MOVE_NASTY_PLOT),
@@ -3789,6 +3787,7 @@ static const struct LevelUpMove sLanturnLevelUpLearnset[] = {
 
 static const struct LevelUpMove sPichuLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
+    LEVEL_UP_MOVE( 1, MOVE_PIKA_PAPOW),
 	LEVEL_UP_MOVE( 1, MOVE_THUNDER_SHOCK),
 	LEVEL_UP_MOVE( 3, MOVE_MUD_SLAP),
 	LEVEL_UP_MOVE( 4, MOVE_PLAY_NICE),

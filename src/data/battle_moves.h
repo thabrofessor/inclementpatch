@@ -2753,7 +2753,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_FLAME_WHEEL] =
     {
-        .effect = EFFECT_BURN_HIT,
+        .effect = EFFECT_HIT_ESCAPE,
         .power = 60,
         .type = TYPE_FIRE,
         .accuracy = 100,
@@ -10641,16 +10641,15 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         #else
             .flags = FLAG_PROTECT_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         #endif
-        .effect = EFFECT_ALL_STATS_UP_HIT,
+        .effect = EFFECT_FLINCH_HIT,
         .power = 80,
         .type = TYPE_ELECTRIC,
-        .accuracy = 95,
-        .pp = 20,
+        .accuracy = 100,
+        .pp = 10,
         .secondaryEffectChance = 50,
         .target = MOVE_TARGET_BOTH,
         .priority = 0,
         .split = SPLIT_SPECIAL,
-        .argument = EFFECT_FLINCH_HIT
     },
 
     [MOVE_BOUNCY_BUBBLE] =
