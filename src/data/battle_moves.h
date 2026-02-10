@@ -10641,21 +10641,12 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         #else
             .flags = FLAG_PROTECT_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         #endif
-<<<<<<< HEAD
         .effect = EFFECT_FLINCH_HIT,
         .power = 60,
         .type = TYPE_ELECTRIC,
         .accuracy = 100,
         .pp = 10,
         .secondaryEffectChance = 40,
-=======
-        .effect = EFFECT_ALL_STATS_UP_HIT,
-        .power = 80,
-        .type = TYPE_ELECTRIC,
-        .accuracy = 95,
-        .pp = 20,
-        .secondaryEffectChance = 50,
->>>>>>> parent of 73fb3d999 (pika pow)
         .target = MOVE_TARGET_BOTH,
         .priority = 2,
         .split = SPLIT_SPECIAL,
