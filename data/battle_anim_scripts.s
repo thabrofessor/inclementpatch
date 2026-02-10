@@ -778,7 +778,6 @@ gBattleAnims_Moves::
 	.4byte Move_GLACIAL_LANCE
 	.4byte Move_ASTRAL_BARRAGE
 	.4byte Move_EERIE_SPELL
-	// Tier and buff moves
 	.4byte MOVE_TOTEM_BASH
 	.4byte MOVE_ALPHA_STRIKE
 	.4byte MOVE_SHADOW_MAKER
@@ -13155,7 +13154,7 @@ Move_SPLISHY_SPLASH::
 Move_FLOATY_FALL::
 	end @to do:
 
-MOVE_ALPHA_STRIKE::
+MOVE_ALPHA_STRIKE:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
@@ -13176,7 +13175,7 @@ MOVE_ALPHA_STRIKE::
 	waitforvisualfinish
 	end
 
-MOVE_SHADOW_MAKER::
+MOVE_SHADOW_MAKER:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
@@ -13197,10 +13196,7 @@ MOVE_SHADOW_MAKER::
 	waitforvisualfinish
 	end
 
-MOVE_TOTEM_QUAKE::
-	end @to do:
-
-MOVE_ALPHA_RAGE::
+MOVE_TOTEM_QUAKE:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
@@ -13221,7 +13217,7 @@ MOVE_ALPHA_RAGE::
 	waitforvisualfinish
 	end
 
-MOVE_GMAX_ENERGY::
+MOVE_ALPHA_RAGE:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
@@ -13242,7 +13238,7 @@ MOVE_GMAX_ENERGY::
 	waitforvisualfinish
 	end
 
-MOVE_GRAVES_SHADOW::
+MOVE_GMAX_ENERGY:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
@@ -13263,7 +13259,7 @@ MOVE_GRAVES_SHADOW::
 	waitforvisualfinish
 	end
 
-MOVE_PRIMAL_POWER::
+MOVE_GRAVES_SHADOW:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
@@ -13284,7 +13280,7 @@ MOVE_PRIMAL_POWER::
 	waitforvisualfinish
 	end
 
-MOVE_DOOMED_TOTEM::
+MOVE_PRIMAL_POWER:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
@@ -13305,7 +13301,7 @@ MOVE_DOOMED_TOTEM::
 	waitforvisualfinish
 	end
 
-MOVE_ALPHA_DOMINANCE::
+MOVE_DOOMED_TOTEM:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
@@ -13326,7 +13322,7 @@ MOVE_ALPHA_DOMINANCE::
 	waitforvisualfinish
 	end
 
-MOVE_GMAX_BURST::
+MOVE_ALPHA_DOMINANCE:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
@@ -13347,7 +13343,7 @@ MOVE_GMAX_BURST::
 	waitforvisualfinish
 	end
 
-MOVE_SHADOW_REAPER::
+MOVE_GMAX_BURST:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
@@ -13368,7 +13364,28 @@ MOVE_SHADOW_REAPER::
 	waitforvisualfinish
 	end
 
-MOVE_PRIMORDIAL_POWER::
+MOVE_SHADOW_REAPER:
+	loadspritegfx ANIM_TAG_BLACK_BALL_2
+	loadspritegfx ANIM_TAG_SPARK_2
+	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
+	createsprite gZapCannonBallSpriteTemplate, ANIM_TARGET, 3, 10, 0, 0, 0, 30, 0
+	createsprite gZapCannonSparkSpriteTemplate, ANIM_TARGET, 4, 10, 0, 16, 30, 0, 40, 0
+	createsprite gZapCannonSparkSpriteTemplate, ANIM_TARGET, 4, 10, 0, 16, 30, 64, 40, 1
+	createsprite gZapCannonSparkSpriteTemplate, ANIM_TARGET, 4, 10, 0, 16, 30, 128, 40, 0
+	createsprite gZapCannonSparkSpriteTemplate, ANIM_TARGET, 4, 10, 0, 16, 30, 192, 40, 2
+	createsprite gZapCannonSparkSpriteTemplate, ANIM_TARGET, 4, 10, 0, 8, 30, 32, 40, 0
+	createsprite gZapCannonSparkSpriteTemplate, ANIM_TARGET, 4, 10, 0, 8, 30, 96, 40, 1
+	createsprite gZapCannonSparkSpriteTemplate, ANIM_TARGET, 4, 10, 0, 8, 30, 160, 40, 0
+	createsprite gZapCannonSparkSpriteTemplate, ANIM_TARGET, 4, 10, 0, 8, 30, 224, 40, 2
+	waitforvisualfinish
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_TARGET, 4, 0, 5, 1
+	delay 15
+	waitplaysewithpan SE_M_THUNDERBOLT2, SOUND_PAN_TARGET, 19
+	call ElectricityEffect
+	waitforvisualfinish
+	end
+
+MOVE_PRIMORDIAL_POWER:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
