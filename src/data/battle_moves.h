@@ -10641,15 +10641,16 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         #else
             .flags = FLAG_PROTECT_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         #endif
-        .effect = EFFECT_RETURN,
-        .power = 1,
+        .effect = EFFECT_ALL_STATS_UP_HIT,
+        .power = 80,
         .type = TYPE_ELECTRIC,
-        .accuracy = 0,
+        .accuracy = 95,
         .pp = 20,
-        .secondaryEffectChance = 0,
-        .target = MOVE_TARGET_SELECTED,
+        .secondaryEffectChance = 50,
+        .target = MOVE_TARGET_BOTH,
         .priority = 0,
         .split = SPLIT_SPECIAL,
+        .argument = EFFECT_FLINCH_HIT
     },
 
     [MOVE_BOUNCY_BUBBLE] =
