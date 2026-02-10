@@ -13154,7 +13154,7 @@ Move_SPLISHY_SPLASH::
 Move_FLOATY_FALL::
 	end @to do:
 
-MOVE_ALPHA_STRIKE:
+Move_ALPHA_STRIKE:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
@@ -13175,7 +13175,7 @@ MOVE_ALPHA_STRIKE:
 	waitforvisualfinish
 	end
 
-MOVE_SHADOW_MAKER:
+Move_SHADOW_MAKER:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
@@ -13196,7 +13196,7 @@ MOVE_SHADOW_MAKER:
 	waitforvisualfinish
 	end
 
-MOVE_TOTEM_QUAKE:
+Move_TOTEM_QUAKE:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
@@ -13217,7 +13217,7 @@ MOVE_TOTEM_QUAKE:
 	waitforvisualfinish
 	end
 
-MOVE_ALPHA_RAGE:
+Move_ALPHA_RAGE:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
@@ -13238,7 +13238,7 @@ MOVE_ALPHA_RAGE:
 	waitforvisualfinish
 	end
 
-MOVE_GMAX_ENERGY:
+Move_GMAX_ENERGY:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
@@ -13259,7 +13259,7 @@ MOVE_GMAX_ENERGY:
 	waitforvisualfinish
 	end
 
-MOVE_GRAVES_SHADOW:
+Move_GRAVES_SHADOW:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
@@ -13280,7 +13280,7 @@ MOVE_GRAVES_SHADOW:
 	waitforvisualfinish
 	end
 
-MOVE_PRIMAL_POWER:
+Move_PRIMAL_POWER:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
@@ -13301,7 +13301,7 @@ MOVE_PRIMAL_POWER:
 	waitforvisualfinish
 	end
 
-MOVE_DOOMED_TOTEM:
+Move_DOOMED_TOTEM:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
@@ -13322,7 +13322,7 @@ MOVE_DOOMED_TOTEM:
 	waitforvisualfinish
 	end
 
-MOVE_ALPHA_DOMINANCE:
+Move_ALPHA_DOMINANCE:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
@@ -13343,7 +13343,7 @@ MOVE_ALPHA_DOMINANCE:
 	waitforvisualfinish
 	end
 
-MOVE_GMAX_BURST:
+Move_GMAX_BURST:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
@@ -13364,7 +13364,7 @@ MOVE_GMAX_BURST:
 	waitforvisualfinish
 	end
 
-MOVE_SHADOW_REAPER:
+Move_SHADOW_REAPER:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
@@ -13385,7 +13385,7 @@ MOVE_SHADOW_REAPER:
 	waitforvisualfinish
 	end
 
-MOVE_PRIMORDIAL_POWER:
+Move_PRIMORDIAL_POWER:
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
 	loadspritegfx ANIM_TAG_SPARK_2
 	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
