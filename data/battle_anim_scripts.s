@@ -778,6 +778,20 @@ gBattleAnims_Moves::
 	.4byte Move_GLACIAL_LANCE
 	.4byte Move_ASTRAL_BARRAGE
 	.4byte Move_EERIE_SPELL
+	// Tier and buff moves
+	.4byte MOVE_TOTEM_BASH
+	.4byte MOVE_ALPHA_STRIKE
+	.4byte MOVE_SHADOW_MAKER
+	.4byte MOVE_TOTEM_QUAKE
+	.4byte MOVE_ALPHA_RAGE
+	.4byte MOVE_GMAX_ENERGY
+	.4byte MOVE_GRAVES_SHADOW
+	.4byte MOVE_PRIMAL_POWER
+	.4byte MOVE_DOOMED_TOTEM
+	.4byte MOVE_ALPHA_DOMINANCE
+	.4byte MOVE_GMAX_BURST
+	.4byte MOVE_SHADOW_REAPER
+	.4byte MOVE_PRIMORDIAL_POWER
 	.4byte Move_COUNT @ cannot be reached, because last move is Eerie Spell
 
 	.align 2
@@ -13139,6 +13153,42 @@ Move_SPLISHY_SPLASH::
 	end @to do:
 
 Move_FLOATY_FALL::
+	end @to do:
+
+MOVE_ALPHA_STRIKE::
+	end @to do:
+
+MOVE_SHADOW_MAKER::
+	end @to do:
+
+MOVE_TOTEM_QUAKE::
+	end @to do:
+
+MOVE_ALPHA_RAGE::
+	end @to do:
+
+MOVE_GMAX_ENERGY::
+	end @to do:
+
+MOVE_GRAVES_SHADOW::
+	end @to do:
+
+MOVE_PRIMAL_POWER::
+	end @to do:
+
+MOVE_DOOMED_TOTEM::
+	end @to do:
+
+MOVE_ALPHA_DOMINANCE::
+	end @to do:
+
+MOVE_GMAX_BURST::
+	end @to do:
+
+MOVE_SHADOW_REAPER::
+	end @to do:
+
+MOVE_PRIMORDIAL_POWER::
 	end @to do:
 
 Move_PIKA_PAPOW::
