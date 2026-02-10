@@ -10650,7 +10650,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .target = MOVE_TARGET_BOTH,
         .priority = 2,
         .split = SPLIT_SPECIAL,
-        .animation = BG_MAX_LIGHTNING
+        .animation = BG_MAX_LIGHTNING,
     },
 
     [MOVE_BOUNCY_BUBBLE] =
