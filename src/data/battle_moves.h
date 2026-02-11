@@ -11763,7 +11763,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_SPECIAL,
     },
 
-        [MOVE_TOTEM_BASH] =
+    [MOVE_TOTEM_BASH] =
     {
         .effect = EFFECT_ALL_STATS_UP_HIT,
         .power = 40,
@@ -11777,7 +11777,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_PHYSICAL,
     },
 
-            [MOVE_ALPHA_STRIKE] =
+    [MOVE_ALPHA_STRIKE] =
     {
         .effect = EFFECT_ALL_STATS_UP_HIT,
         .power = 50,
@@ -11791,7 +11791,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_PHYSICAL,
     },
 
-            [MOVE_SHADOW_MAKER] =
+    [MOVE_SHADOW_MAKER] =
     {
         .effect = EFFECT_ALL_STATS_UP_HIT,
         .power = 40,
@@ -11805,7 +11805,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_SPECIAL,
     },
 
-            [MOVE_TOTEM_QUAKE] =
+    [MOVE_TOTEM_QUAKE] =
     {
         .effect = EFFECT_ALL_STATS_UP_HIT,
         .power = 60,
@@ -11819,7 +11819,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_PHYSICAL,
     },
 
-            [MOVE_ALPHA_RAGE] =
+    [MOVE_ALPHA_RAGE] =
     {
         .effect = EFFECT_ALL_STATS_UP_HIT,
         .power = 70,
@@ -11833,7 +11833,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_PHYSICAL,
     },
 
-            [MOVE_GMAX_ENERGY] =
+    [MOVE_GMAX_ENERGY] =
     {
         .effect = EFFECT_ALL_STATS_UP_HIT,
         .power = 80,
@@ -11847,7 +11847,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_SPECIAL,
     },
 
-            [MOVE_GRAVES_SHADOW] =
+    [MOVE_GRAVES_SHADOW] =
     {
         .effect = EFFECT_ALL_STATS_UP_HIT,
         .power = 60,
@@ -11861,7 +11861,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_SPECIAL,
     },
 
-            [MOVE_PRIMAL_POWER] =
+[MOVE_PRIMAL_POWER] =
     {
         .effect = EFFECT_ALL_STATS_UP_HIT,
         .power = 90,
@@ -11875,7 +11875,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_PHYSICAL,
     },
 
-            [MOVE_DOOMED_TOTEM] =
+    [MOVE_DOOMED_TOTEM] =
     {
         .effect = EFFECT_ALL_STATS_UP_HIT,
         .power = 90,
@@ -11889,7 +11889,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_PHYSICAL,
     },
 
-            [MOVE_ALPHA_DOMINANCE] =
+    [MOVE_ALPHA_DOMINANCE] =
     {
         .effect = EFFECT_ALL_STATS_UP_HIT,
         .power = 100,
@@ -11903,7 +11903,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_PHYSICAL,
     },
 
-            [MOVE_GMAX_BURST] =
+    [MOVE_GMAX_BURST] =
     {
         .effect = EFFECT_ALL_STATS_UP_HIT,
         .power = 110,
@@ -11917,7 +11917,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_SPECIAL,
     },
 
-            [MOVE_SHADOW_REAPER] =
+    [MOVE_SHADOW_REAPER] =
     {
         .effect = EFFECT_ALL_STATS_UP_HIT,
         .power = 80,
@@ -11931,7 +11931,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_SPECIAL,
     },
 
-            [MOVE_PRIMORDIAL_POWER] =
+    [MOVE_PRIMORDIAL_POWER] =
     {
         .effect = EFFECT_ALL_STATS_UP_HIT,
         .power = 120,
