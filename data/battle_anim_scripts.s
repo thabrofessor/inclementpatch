@@ -14262,7 +14262,23 @@ Move_EERIE_SPELL::
 	end @to do:
 
 Move_TOTEM_BASH::
-	end @to do:
+	loadspritegfx ANIM_TAG_FOCUS_ENERGY
+	loadspritegfx ANIM_TAG_WHIP_HIT @green color
+	loadspritegfx ANIM_TAG_SWEAT_BEAD @blue color
+	loadspritegfx ANIM_TAG_PAW_PRINT @yellow color
+	monbg ANIM_ATTACKER
+	setblends 0x80c
+	playsewithpan SE_M_DRAGON_RAGE, SOUND_PAN_ATTACKER
+	launchtask AnimTask_BlendColorCycle 0x2 0x6 ANIM_PAL_ATK 0x0 0x6 0x0 0xb 0x1f
+	call RainbowEndureEffect
+	call RainbowEndureEffect
+	call RainbowEndureEffect
+	call RainbowEndureEffect
+	call RainbowEndureEffect
+	waitforvisualfinish
+	blendoff
+	clearmonbg ANIM_ATTACKER
+	end
 
 @@@@@@@@@@@@@@@@@@@@@@@ GEN 1-3 @@@@@@@@@@@@@@@@@@@@@@@
 Move_NONE:
