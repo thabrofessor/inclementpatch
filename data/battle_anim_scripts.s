@@ -778,6 +778,7 @@ gBattleAnims_Moves::
 	.4byte Move_GLACIAL_LANCE
 	.4byte Move_ASTRAL_BARRAGE
 	.4byte Move_EERIE_SPELL
+	.4byte Move_TOTEM_BASH
 	.4byte Move_COUNT @ cannot be reached, because last move is Eerie Spell
 
 	.align 2
@@ -13140,7 +13141,6 @@ Move_SPLISHY_SPLASH::
 
 Move_FLOATY_FALL::
 	end @to do:
-	
 
 Move_PIKA_PAPOW::
 	loadspritegfx ANIM_TAG_BLACK_BALL_2
@@ -14259,6 +14259,9 @@ Move_ASTRAL_BARRAGE::
 	end @to do:
 
 Move_EERIE_SPELL::
+	end @to do:
+
+Move_TOTEM_BASH::
 	end @to do:
 
 @@@@@@@@@@@@@@@@@@@@@@@ GEN 1-3 @@@@@@@@@@@@@@@@@@@@@@@
