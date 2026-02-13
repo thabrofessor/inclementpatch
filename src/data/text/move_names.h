@@ -756,6 +756,19 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_GLACIAL_LANCE] = _("GlacialLance"),
     [MOVE_ASTRAL_BARRAGE] = _("AstrlBarrage"),
     [MOVE_EERIE_SPELL] = _("Eerie Spell"),
+    [MOVE_TOTEM_BASH] = _("Totem Bash"),
+    [MOVE_ALPHA_STRIKE] = _("Alpha Strike"),
+    [MOVE_SHADOW_MAKER] = _("Shadow Maker"),
+    [MOVE_TOTEM_QUAKE] = _("Totem Quake"),
+    [MOVE_ALPHA_RAGE] = _("Alpha Rage"),
+    [MOVE_GMAX_ENERGY] = _("Gmax Energy"),
+    [MOVE_GRAVES_SHADOW] = _("GravesShadow"),
+    [MOVE_PRIMAL_POWER] = _("Primal Power"),
+    [MOVE_DOOMED_TOTEM] = _("Doomed Totem"),
+    [MOVE_ALPHA_DOMINANCE] = _("AlphaDomnanc"),
+    [MOVE_GMAX_BURST] = _("Gmax Burst"),
+    [MOVE_SHADOW_REAPER] = _("ShadowReaper"),
+    [MOVE_PRIMORDIAL_POWER] = _("Primordial"),
 };
 
 // Second table with longer move names for places where they fit.
