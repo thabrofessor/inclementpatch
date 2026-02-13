@@ -13153,6 +13153,7 @@ Move_SPLISHY_SPLASH::
 
 Move_FLOATY_FALL::
 	end @to do:
+	
 Move_TOTEM_BASH:
 	loadspritegfx ANIM_TAG_BRANCH
 	loadspritegfx ANIM_TAG_IMPACT
