@@ -1888,16 +1888,16 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_SELF_DESTRUCT] =
     {
-        .effect = EFFECT_EXPLOSION,
-        .power = 200,
-        .type = TYPE_NORMAL,
-        .accuracy = 100,
+        .effect = EFFECT_ALL_STATS_UP_HIT,
+        .power = 110,
+        .type = TYPE_POISON,
+        .accuracy = 80,
         .pp = 5,
-        .secondaryEffectChance = 0,
-        .target = MOVE_TARGET_FOES_AND_ALLY,
+        .secondaryEffectChance = 75,
+        .target = MOVE_TARGET_SELECTED,
         .priority = 0,
-        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
-        .split = SPLIT_PHYSICAL,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST,
+        .split = SPLIT_SPECIAL,
     },
 
     [MOVE_EGG_BOMB] =
@@ -11914,7 +11914,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST,
-        .split = SPLIT_SPECIAL,
+        .split = SPLIT_SPECIAL, 
     },
 
     [MOVE_SHADOW_REAPER] =
