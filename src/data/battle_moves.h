@@ -10637,20 +10637,19 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_PIKA_PAPOW] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_8
-            .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+            .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         #else
-            .flags = FLAG_PROTECT_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+            .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         #endif
-        .effect = EFFECT_FLINCH_HIT,
-        .power = 60,
-        .type = TYPE_ELECTRIC,
-        .accuracy = 100,
-        .pp = 10,
-        .secondaryEffectChance = 40,
-        .target = MOVE_TARGET_BOTH,
-        .priority = 2,
-        .split = SPLIT_SPECIAL,
-        .argument = EFFECT_FLINCH_HIT
+        .effect = EFFECT_RETURN,
+        .power = 1,
+        .type = TYPE_NORMAL,
+        .accuracy = 0,
+        .pp = 20,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .split = SPLIT_PHYSICAL,
     },
 
     [MOVE_BOUNCY_BUBBLE] =
