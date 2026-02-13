@@ -2984,58 +2984,6 @@ static const u8 sEERIE_SPELLDescription[] = _(
     "Attacks with psychic power.\n"
     "Foe's last move has 3 PP cut.");
 
-static const u8 sTOTEM_BASHDescription[] = _(
-    "Thump em.\n"
-    "Use tha big stick.");
-
-static const u8 sALPHA_STRIKEDescription[] = _(
-    "Thump em.\n"
-    "Use tha big stick.");
-
-static const u8 sSHADOW_MAKERDescription[] = _(
-    "Thump em.\n"
-    "Use tha big stick.");
-
-static const u8 sTOTEM_QUAKEDescription[] = _(
-    "Thump em.\n"
-    "Use tha big stick.");
-
-static const u8 sALPHA_RAGEDescription[] = _(
-    "Thump em.\n"
-    "Use tha big stick.");
-
-static const u8 sGMAX_ENERGYDescription[] = _(
-    "Thump em.\n"
-    "Use tha big stick.");
-
-static const u8 sGRAVES_SHADOWDescription[] = _(
-    "Thump em.\n"
-    "Use tha big stick.");
-
-static const u8 sPRIMAL_POWERDescription[] = _(
-    "Thump em.\n"
-    "Use tha big stick.");
-
-static const u8 sDOOMED_TOTEMDescription[] = _(
-    "Thump em.\n"
-    "Use tha big stick.");
-
-static const u8 sALPHA_DOMINANCEDescription[] = _(
-    "Thump em.\n"
-    "Use tha big stick.");
-
-static const u8 sGMAX_BURSTDescription[] = _(
-    "Thump em.\n"
-    "Use tha big stick.");
-
-static const u8 sSHADOW_REAPERDescription[] = _(
-    "Thump em.\n"
-    "Use tha big stick.");
-
-static const u8 sPRIMORDIAL_POWERDescription[] = _(
-    "Thump em.\n"
-    "Use tha big stick.");
-
 static const u8 sNotDoneYetDescription[] = _(
     "Not done yet.");
 
@@ -3796,19 +3744,6 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_FIERY_WRATH - 1] = sFIERY_WRATHDescription,
     [MOVE_THUNDEROUS_KICK - 1] = sTHUNDEROUS_KICKDescription,
     [MOVE_GLACIAL_LANCE - 1] = sGLACIAL_LANCEDescription,
-    [MOVE_ASTRAL_BARRAGE - 1] = sASTRAL_BARRAGEDescription,
+    [MOVE_ASTRAL_BARRAGE - 1] = sASTRAL_BARRAGEDescription, 
     [MOVE_EERIE_SPELL - 1] = sEERIE_SPELLDescription,
-    [MOVE_TOTEM_BASH - 1] = sTOTEM_BASHDescription,
-    [MOVE_ALPHA_STRIKE - 1] = sALPHA_STRIKEDescription,
-    [MOVE_SHADOW_MAKER - 1] = sSHADOW_MAKERDescription,
-    [MOVE_TOTEM_QUAKE - 1] = sTOTEM_QUAKEDescription,
-    [MOVE_ALPHA_RAGE - 1] = sALPHA_RAGEDescription,
-    [MOVE_GMAX_ENERGY - 1] = sGMAX_ENERGYDescription,
-    [MOVE_GRAVES_SHADOW - 1] = sGRAVES_SHADOWDescription,
-    [MOVE_PRIMAL_POWER - 1] = sPRIMAL_POWERDescription,
-    [MOVE_DOOMED_TOTEM - 1] = sDOOMED_TOTEMDescription,
-    [MOVE_ALPHA_DOMINANCE - 1] = sALPHA_DOMINANCEDescription,
-    [MOVE_GMAX_BURST - 1] = sGMAX_BURSTDescription,
-    [MOVE_SHADOW_REAPER - 1] = sSHADOW_REAPERDescription,
-    [MOVE_PRIMORDIAL_POWER - 1] = sPRIMORDIAL_POWERDescription,
 };
