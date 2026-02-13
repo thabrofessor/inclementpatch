@@ -779,6 +779,18 @@ gBattleAnims_Moves::
 	.4byte Move_ASTRAL_BARRAGE
 	.4byte Move_EERIE_SPELL
 	.4byte Move_TOTEM_BASH
+	.4byte Move_ALPHA_STRIKE
+	.4byte Move_SHADOW_MAKER
+	.4byte Move_TOTEM_QUAKE
+	.4byte Move_ALPHA_RAGE
+	.4byte Move_GMAX_ENERGY
+	.4byte Move_GRAVES_SHADOW
+	.4byte Move_PRIMAL_POWER
+	.4byte Move_DOOMED_TOTEM
+	.4byte Move_ALPHA_DOMINANCE
+	.4byte Move_GMAX_BURST
+	.4byte Move_SHADOW_REAPER
+	.4byte Move_PRIMORDIAL_POWER
 	.4byte Move_COUNT @ cannot be reached, because last move is Eerie Spell
 
 	.align 2
@@ -14278,8 +14290,96 @@ Move_TOTEM_BASH::
 	waitforvisualfinish
 	blendoff
 	clearmonbg ANIM_ATTACKER
+	loadspritegfx ANIM_TAG_IMPACT
+	monbg ANIM_TARGET
+	setalpha 12, 8
+	playsewithpan SE_M_SWAGGER, SOUND_PAN_ATTACKER
+	createvisualtask AnimTask_TranslateMonEllipticalRespectSide, 2, ANIM_ATTACKER, 18, 6, 2, 4
+	waitforvisualfinish
+	createsprite gSlideMonToOffsetSpriteTemplate, ANIM_ATTACKER, 2, 0, 20, 0, 0, 4
+	delay 3
+	createsprite gComplexPaletteBlendSpriteTemplate, ANIM_ATTACKER, 2, 31, 3, 1, 0, 10, 0, 0
+	createsprite gBasicHitSplatSpriteTemplate, ANIM_ATTACKER, 4, -10, 0, 1, 0
+	playsewithpan SE_M_MEGA_KICK2, SOUND_PAN_TARGET
+	delay 1
+	createsprite gSlideMonToOffsetSpriteTemplate, ANIM_ATTACKER, 2, 1, -16, 0, 0, 4
+	waitforvisualfinish
+	createvisualtask AnimTask_ShakeMonInPlace, 2, ANIM_TARGET, 4, 0, 12, 1
+	waitforvisualfinish
+	delay 2
+	createsprite gSlideMonToOriginalPosSpriteTemplate, ANIM_ATTACKER, 2, 0, 0, 5
+	delay 3
+	createsprite gSlideMonToOriginalPosSpriteTemplate, ANIM_ATTACKER, 2, 1, 0, 7
+	waitforvisualfinish
+	clearmonbg ANIM_TARGET
+	blendoff
 	end
 
+Move_ALPHA_STRIKE::
+	loadspritegfx ANIM_TAG_SMALL_EMBER
+	loadspritegfx ANIM_TAG_FIRE_PLUME
+	playsewithpan SE_M_DRAGON_RAGE, SOUND_PAN_ATTACKER
+	createvisualtask AnimTask_ShakeMon, 5, ANIM_ATTACKER, 0, 2, 40, 1
+	waitforvisualfinish
+	createsprite gSlideMonToOffsetSpriteTemplate, ANIM_TARGET, 2, 0, 15, 0, 0, 4
+	waitforvisualfinish
+	createsprite gDragonRageFireSpitSpriteTemplate, ANIM_TARGET, 2, 30, 15, 0, 10, 10
+	waitforvisualfinish
+	loopsewithpan SE_M_FLAME_WHEEL2, SOUND_PAN_TARGET, 11, 3
+	createvisualtask AnimTask_ShakeMon, 5, ANIM_TARGET, 0, 3, 25, 1
+	createsprite gDragonRageFirePlumeSpriteTemplate, ANIM_TARGET, 66, 1, 5, 0
+	delay 1
+	createsprite gDragonRageFirePlumeSpriteTemplate, ANIM_TARGET, 66, 1, -10, -15
+	delay 1
+	createsprite gDragonRageFirePlumeSpriteTemplate, ANIM_TARGET, 2, 1, 0, 25
+	delay 1
+	createsprite gDragonRageFirePlumeSpriteTemplate, ANIM_TARGET, 66, 1, 15, 5
+	delay 1
+	createsprite gDragonRageFirePlumeSpriteTemplate, ANIM_TARGET, 66, 1, -25, 0
+	delay 1
+	createsprite gDragonRageFirePlumeSpriteTemplate, ANIM_TARGET, 2, 1, 30, 30
+	delay 1
+	createsprite gDragonRageFirePlumeSpriteTemplate, ANIM_TARGET, 2, 1, -27, 25
+	delay 1
+	createsprite gDragonRageFirePlumeSpriteTemplate, ANIM_TARGET, 66, 1, 0, 8
+	waitforvisualfinish
+	createsprite gSlideMonToOriginalPosSpriteTemplate, ANIM_TARGET, 66, 0, 0, 4
+	waitforvisualfinish
+	end
+
+Move_SHADOW_MAKER::
+	end @to do:
+
+Move_TOTEM_QUAKE::
+	end @to do:
+
+Move_ALPHA_RAGE::
+	end @to do:
+
+Move_GMAX_ENERGY::
+	end @to do:
+
+Move_GRAVES_SHADOW::
+	end @to do:
+
+Move_PRIMAL_POWER::
+	end @to do:
+
+Move_DOOMED_TOTEM::
+	end @to do:
+
+Move_ALPHA_DOMINANCE::
+	end @to do:
+
+Move_GMAX_BURST::
+	end @to do:
+
+Move_SHADOW_REAPER::
+	end @to do:
+
+Move_PRIMORDIAL_POWER::
+	end @to do:
+	
 @@@@@@@@@@@@@@@@@@@@@@@ GEN 1-3 @@@@@@@@@@@@@@@@@@@@@@@
 Move_NONE:
 Move_MIRROR_MOVE:
