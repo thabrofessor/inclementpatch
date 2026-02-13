@@ -1517,5 +1517,18 @@ const u8 gMoveNamesLong[MOVES_COUNT][LONG_MOVE_NAME_LENGTH + 1] =
     [MOVE_GLACIAL_LANCE] = _("Glacial Lance"),
     [MOVE_ASTRAL_BARRAGE] = _("Astral Barrage"),
     [MOVE_EERIE_SPELL] = _("Eerie Spell"),
+    [MOVE_TOTEM_BASH] = _("Totem Bash"),
+    [MOVE_ALPHA_STRIKE] = _("Alpha Strike"),
+    [MOVE_SHADOW_MAKER] = _("Shadow Maker"),
+    [MOVE_TOTEM_QUAKE] = _("Totem Quake"),
+    [MOVE_ALPHA_RAGE] = _("Alpha Rage"),
+    [MOVE_GMAX_ENERGY] = _("Gmax Energy"),
+    [MOVE_GRAVES_SHADOW] = _("Graves Shadow"),
+    [MOVE_PRIMAL_POWER] = _("Primal Power"),
+    [MOVE_DOOMED_TOTEM] = _("Doomed Totem"),
+    [MOVE_ALPHA_DOMINANCE] = _("Alpha Dominance"),
+    [MOVE_GMAX_BURST] = _("Gmax Burst"),
+    [MOVE_SHADOW_REAPER] = _("Shadow Reaper"),
+    [MOVE_PRIMORDIAL_POWER] = _("Primordial Power"),
 };
 
