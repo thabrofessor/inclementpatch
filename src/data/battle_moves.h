@@ -645,11 +645,11 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_POISON_STING] =
     {
         .effect = EFFECT_POISON_HIT,
-        .power = 15,
+        .power = 40,
         .type = TYPE_POISON,
         .accuracy = 100,
         .pp = 35,
-        .secondaryEffectChance = 30,
+        .secondaryEffectChance = 100,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
@@ -678,13 +678,13 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_PIN_MISSILE] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_6
-            .power = 25,
+            .power = 50,
             .accuracy = 95,
         #else
             .power = 14,
             .accuracy = 85,
         #endif
-        .effect = EFFECT_MULTI_HIT,
+        .effect = EFFECT_TOXIC_SPIKES,
         .type = TYPE_BUG,
         .pp = 20,
         .secondaryEffectChance = 0,
@@ -9972,7 +9972,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_LEAFAGE] =
     {
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_SPIKES,
         .power = 40,
         .type = TYPE_GRASS,
         .accuracy = 100,
