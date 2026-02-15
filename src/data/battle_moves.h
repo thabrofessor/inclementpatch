@@ -1415,7 +1415,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_ROCK_THROW] =
     {
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_STEALTH_ROCK,
         .power = 50,
         .type = TYPE_ROCK,
         .accuracy = 90,
