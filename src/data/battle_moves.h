@@ -10643,7 +10643,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         #endif
         .effect = EFFECT_RETURN,
         .power = 1,
-        .type = TYPE_NORMAL,
+        .type = TYPE_ELECTRIC,
         .accuracy = 0,
         .pp = 20,
         .secondaryEffectChance = 0,
@@ -10745,7 +10745,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
             .flags = FLAG_PROTECT_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         #endif
         .effect = EFFECT_BADDY_BAD,
-        .type = TYPE_DARK,
+        .type = TYPE_GHOST,
         .pp = 15,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
