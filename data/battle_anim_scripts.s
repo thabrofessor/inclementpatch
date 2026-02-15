@@ -10786,20 +10786,6 @@ Move_LEAFAGE::
 	launchtemplate gLeafageImpactTemplate 0x2 0x4 0x0 0x0 0x1 0x2
 	waitforvisualfinish
 	clearmonbg ANIM_DEF_PARTNER
-		loadspritegfx ANIM_TAG_SPIKES
-	monbg ANIM_DEF_PARTNER
-	playsewithpan SE_M_JUMP_KICK, SOUND_PAN_ATTACKER
-	waitplaysewithpan SE_M_HORN_ATTACK, SOUND_PAN_TARGET, 28
-	createsprite gSpikesSpriteTemplate, ANIM_TARGET, 2, 20, 0, 0, 24, 30
-	delay 10
-	playsewithpan SE_M_JUMP_KICK, SOUND_PAN_ATTACKER
-	waitplaysewithpan SE_M_HORN_ATTACK, SOUND_PAN_TARGET, 28
-	createsprite gSpikesSpriteTemplate, ANIM_TARGET, 2, 20, 0, -24, 24, 30
-	delay 10
-	waitplaysewithpan SE_M_HORN_ATTACK, SOUND_PAN_TARGET, 28
-	createsprite gSpikesSpriteTemplate, ANIM_TARGET, 2, 20, 0, 24, 24, 30
-	waitforvisualfinish
-	clearmonbg ANIM_DEF_PARTNER
 	end
 
 Move_SPOTLIGHT::
@@ -15785,23 +15771,6 @@ Move_PIN_MISSILE:
 	waitforvisualfinish
 	clearmonbg ANIM_TARGET
 	blendoff
-	loadspritegfx ANIM_TAG_TOXIC_SPIKES
-	loadspritegfx ANIM_TAG_POISON_BUBBLE
-	monbg ANIM_DEF_PARTNER
-	playsewithpan SE_M_JUMP_KICK, SOUND_PAN_ATTACKER
-	waitplaysewithpan SE_M_HORN_ATTACK, SOUND_PAN_TARGET, 28
-	createsprite gToxicSpikesSpriteTemplate, ANIM_TARGET, 2, 20, 0, 0, 24, 30
-	delay 10
-	playsewithpan SE_M_JUMP_KICK, SOUND_PAN_ATTACKER
-	waitplaysewithpan SE_M_HORN_ATTACK, SOUND_PAN_TARGET, 28
-	createsprite gToxicSpikesSpriteTemplate, ANIM_TARGET, 2, 20, 0, -24, 24, 30
-	delay 10
-	waitplaysewithpan SE_M_HORN_ATTACK, SOUND_PAN_TARGET, 28
-	createsprite gToxicSpikesSpriteTemplate, ANIM_TARGET, 2, 20, 0, 24, 24, 30
-	delay 40
-	call PoisonBubblesEffect
-	waitforvisualfinish
-	clearmonbg ANIM_DEF_PARTNER
 	end
 
 Move_ICICLE_SPEAR:
@@ -17191,20 +17160,6 @@ Move_ROCK_THROW:
 	createsprite gFallingRockSpriteTemplate, ANIM_TARGET, 2, 23, 2, 10, 0
 	playsewithpan SE_M_ROCK_THROW, SOUND_PAN_TARGET
 	waitforvisualfinish
-	loadspritegfx ANIM_TAG_STEALTH_ROCK
-	monbg ANIM_DEF_PARTNER
-	playsewithpan SE_M_JUMP_KICK, SOUND_PAN_ATTACKER
-	waitplaysewithpan SE_M_HORN_ATTACK, SOUND_PAN_TARGET, 28
-	createsprite gStealthRockSpriteTemplate, ANIM_TARGET, 2, 20, 0, 0, 24, 30
-	delay 10
-	playsewithpan SE_M_JUMP_KICK, SOUND_PAN_ATTACKER
-	waitplaysewithpan SE_M_HORN_ATTACK, SOUND_PAN_TARGET, 28
-	createsprite gStealthRockSpriteTemplate, ANIM_TARGET, 2, 20, 0, -24, 24, 30
-	delay 10
-	waitplaysewithpan SE_M_HORN_ATTACK, SOUND_PAN_TARGET, 28
-	createsprite gStealthRockSpriteTemplate, ANIM_TARGET, 2, 20, 0, 24, 24, 30
-	waitforvisualfinish
-	clearmonbg ANIM_DEF_PARTNER
 	end
 
 Move_ROCK_SLIDE:
