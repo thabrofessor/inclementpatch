@@ -1415,7 +1415,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_ROCK_THROW] =
     {
-        .effect = EFFECT_STEALTH_ROCK,
+        .effect = EFFECT_HIT,
         .power = 50,
         .type = TYPE_ROCK,
         .accuracy = 90,
@@ -1425,6 +1425,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         .split = SPLIT_PHYSICAL,
+        .argument = EFFECT_STEALTH_ROCK,
     },
 
     [MOVE_EARTHQUAKE] =
