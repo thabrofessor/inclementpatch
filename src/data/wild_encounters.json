@@ -32425,7 +32425,7 @@
               {
                 "min_level": 1,
                 "max_level": 1,
-                "species": "SPECIES_EISCUE"
+                "species": "SPECIES_EISCUE_NOICE_FACE"
               },
               {
                 "min_level": 1,
@@ -32435,7 +32435,7 @@
               {
                 "min_level": 1,
                 "max_level": 1,
-                "species": "SPECIES_EISCUE"
+                "species": "SPECIES_EISCUE_NOICE_FACE"
               },
               {
                 "min_level": 1,
@@ -32445,7 +32445,7 @@
               {
                 "min_level": 1,
                 "max_level": 1,
-                "species": "SPECIES_EISCUE"
+                "species": "SPECIES_EISCUE_NOICE_FACE"
               },
               {
                 "min_level": 1,
@@ -32455,7 +32455,7 @@
               {
                 "min_level": 1,
                 "max_level": 1,
-                "species": "SPECIES_EISCUE"
+                "species": "SPECIES_EISCUE_NOICE_FACE"
               },
               {
                 "min_level": 1,
@@ -32465,7 +32465,7 @@
               {
                 "min_level": 1,
                 "max_level": 1,
-                "species": "SPECIES_EISCUE"
+                "species": "SPECIES_EISCUE_NOICE_FACE"
               },
               {
                 "min_level": 1,
@@ -32475,7 +32475,7 @@
               {
                 "min_level": 1,
                 "max_level": 1,
-                "species": "SPECIES_EISCUE"
+                "species": "SPECIES_EISCUE_NOICE_FACE"
               }
             ]
           }
@@ -32977,7 +32977,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SINISTEA"
+                "species": "SPECIES_SINISTEA_ANTIQUE"
               },
               {
                 "min_level": 5,
@@ -32987,7 +32987,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SINISTEA"
+                "species": "SPECIES_SINISTEA_ANTIQUE"
               },
               {
                 "min_level": 5,
@@ -32997,7 +32997,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SINISTEA"
+                "species": "SPECIES_SINISTEA_ANTIQUE"
               },
               {
                 "min_level": 5,
@@ -33007,7 +33007,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SINISTEA"
+                "species": "SPECIES_SINISTEA_ANTIQUE"
               },
               {
                 "min_level": 5,
@@ -33017,7 +33017,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SINISTEA"
+                "species": "SPECIES_SINISTEA_ANTIQUE"
               },
               {
                 "min_level": 5,
@@ -33027,7 +33027,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SINISTEA"
+                "species": "SPECIES_SINISTEA_ANTIQUE"
               }
             ]
           }
@@ -44958,6 +44958,31 @@
               }
             ]
           },
+          "rock_smash_mons": {
+            "encounter_rate": 40,
+            "mons": [
+              {
+                "min_level": 1,
+                "max_level": 14,
+                "species": "SPECIES_SPEWPA_HIGH_PLAINS"
+              },
+              {
+                "min_level": 1,
+                "max_level": 13,
+                "species": "SPECIES_PHANTUMP"
+              },
+              {
+                "min_level": 1,
+                "max_level": 11,
+                "species": "SPECIES_FLABEBE"
+              },
+              {
+                "min_level": 1,
+                "max_level": 14,
+                "species": "SPECIES_WORMADAM"
+              }
+            ]
+          },
           "honey_mons": {
             "encounter_rate": 20,
             "mons": [
@@ -44990,31 +45015,6 @@
                 "min_level": 5,
                 "max_level": 15,
                 "species": "SPECIES_TOTODILE"
-              }
-            ]
-          },
-          "rock_smash_mons": {
-            "encounter_rate": 40,
-            "mons": [
-              {
-                "min_level": 1,
-                "max_level": 14,
-                "species": "SPECIES_SPEWPA_HIGH_PLAINS"
-              },
-              {
-                "min_level": 1,
-                "max_level": 13,
-                "species": "SPECIES_PHANTUMP"
-              },
-              {
-                "min_level": 1,
-                "max_level": 11,
-                "species": "SPECIES_FLABEBE"
-              },
-              {
-                "min_level": 1,
-                "max_level": 14,
-                "species": "SPECIES_WORMADAM"
               }
             ]
           }
