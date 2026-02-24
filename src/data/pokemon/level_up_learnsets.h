@@ -15033,7 +15033,7 @@ static const struct LevelUpMove sSpewpaLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sVivillonLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_GUST),
+    LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH),
 	LEVEL_UP_MOVE( 1, MOVE_BUG_BITE),
     LEVEL_UP_MOVE(1, MOVE_STICKY_WEB),
 	LEVEL_UP_MOVE( 1, MOVE_POWDER),
@@ -15054,7 +15054,7 @@ static const struct LevelUpMove sVivillonLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sVivillonPOLARLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_GUST),
+    LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH),
 	LEVEL_UP_MOVE( 1, MOVE_BUG_BITE),
 	LEVEL_UP_MOVE( 1, MOVE_POWDER),
     LEVEL_UP_MOVE(1, MOVE_STICKY_WEB),
@@ -15076,7 +15076,7 @@ static const struct LevelUpMove sVivillonPOLARLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sVivillonTUNDRALevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_GUST),
+    LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH),
 	LEVEL_UP_MOVE( 1, MOVE_BUG_BITE),
 	LEVEL_UP_MOVE( 1, MOVE_POWDER),
 	LEVEL_UP_MOVE( 1, MOVE_SLEEP_POWDER),
@@ -15098,7 +15098,7 @@ static const struct LevelUpMove sVivillonTUNDRALevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sVivillonCONTINENTALLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_GUST),
+    LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH),
 	LEVEL_UP_MOVE( 1, MOVE_BUG_BITE),
 	LEVEL_UP_MOVE( 1, MOVE_POWDER),
 	LEVEL_UP_MOVE( 1, MOVE_SLEEP_POWDER),
@@ -15119,7 +15119,7 @@ static const struct LevelUpMove sVivillonCONTINENTALLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sVivillonGARDENLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_GUST),
+    LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH),
 	LEVEL_UP_MOVE( 1, MOVE_BUG_BITE),
 	LEVEL_UP_MOVE( 1, MOVE_POWDER),
 	LEVEL_UP_MOVE( 1, MOVE_SLEEP_POWDER),
@@ -15140,7 +15140,7 @@ static const struct LevelUpMove sVivillonGARDENLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sVivillonELEGANTLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_GUST),
+    LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH),
 	LEVEL_UP_MOVE( 1, MOVE_BUG_BITE),
 	LEVEL_UP_MOVE( 1, MOVE_POWDER),
 	LEVEL_UP_MOVE( 1, MOVE_SLEEP_POWDER),
@@ -15161,7 +15161,7 @@ static const struct LevelUpMove sVivillonELEGANTLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sVivillonMEADOWLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_GUST),
+    LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH),
 	LEVEL_UP_MOVE( 1, MOVE_BUG_BITE),
 	LEVEL_UP_MOVE( 1, MOVE_POWDER),
 	LEVEL_UP_MOVE( 1, MOVE_SLEEP_POWDER),
@@ -15182,7 +15182,7 @@ static const struct LevelUpMove sVivillonMEADOWLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sVivillonMODERNLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_GUST),
+    LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH),
 	LEVEL_UP_MOVE( 1, MOVE_BUG_BITE),
 	LEVEL_UP_MOVE( 1, MOVE_POWDER),
 	LEVEL_UP_MOVE( 1, MOVE_SLEEP_POWDER),
@@ -15203,7 +15203,7 @@ static const struct LevelUpMove sVivillonMODERNLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sVivillonMARINELevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_GUST),
+    LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH),
 	LEVEL_UP_MOVE( 1, MOVE_BUG_BITE),
 	LEVEL_UP_MOVE( 1, MOVE_POWDER),
 	LEVEL_UP_MOVE( 1, MOVE_SLEEP_POWDER),
@@ -15224,7 +15224,7 @@ static const struct LevelUpMove sVivillonMARINELevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sVivillonARCHIPELAGOLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_GUST),
+    LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH),
 	LEVEL_UP_MOVE( 1, MOVE_BUG_BITE),
 	LEVEL_UP_MOVE( 1, MOVE_POWDER),
 	LEVEL_UP_MOVE( 1, MOVE_SLEEP_POWDER),
@@ -15245,7 +15245,7 @@ static const struct LevelUpMove sVivillonARCHIPELAGOLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sVivillonHIGHPLAINSLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_GUST),
+    LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH),
 	LEVEL_UP_MOVE( 1, MOVE_BUG_BITE),
 	LEVEL_UP_MOVE( 1, MOVE_POWDER),
 	LEVEL_UP_MOVE( 1, MOVE_SLEEP_POWDER),
@@ -15266,7 +15266,7 @@ static const struct LevelUpMove sVivillonHIGHPLAINSLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sVivillonRIVERLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_GUST),
+    LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH),
 	LEVEL_UP_MOVE( 1, MOVE_BUG_BITE),
 	LEVEL_UP_MOVE( 1, MOVE_POWDER),
 	LEVEL_UP_MOVE( 1, MOVE_SLEEP_POWDER),
@@ -15287,7 +15287,7 @@ static const struct LevelUpMove sVivillonRIVERLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sVivillonMONSOONLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_GUST),
+    LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH),
 	LEVEL_UP_MOVE( 1, MOVE_BUG_BITE),
     LEVEL_UP_MOVE(1, MOVE_STICKY_WEB),
 	LEVEL_UP_MOVE( 1, MOVE_POWDER),
@@ -15308,7 +15308,7 @@ static const struct LevelUpMove sVivillonMONSOONLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sVivillonSAVANNALevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_GUST),
+    LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH),
 	LEVEL_UP_MOVE( 1, MOVE_BUG_BITE),
 	LEVEL_UP_MOVE( 1, MOVE_POWDER),
     LEVEL_UP_MOVE(1, MOVE_STICKY_WEB),
@@ -15329,7 +15329,7 @@ static const struct LevelUpMove sVivillonSAVANNALevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sVivillonSUNLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_GUST),
+    LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH),
 	LEVEL_UP_MOVE( 1, MOVE_BUG_BITE),
 	LEVEL_UP_MOVE( 1, MOVE_POWDER),
 	LEVEL_UP_MOVE( 1, MOVE_SLEEP_POWDER),
@@ -15350,7 +15350,7 @@ static const struct LevelUpMove sVivillonSUNLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sVivillonSANDSTORMLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_GUST),
+    LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH),
 	LEVEL_UP_MOVE( 1, MOVE_BUG_BITE),
 	LEVEL_UP_MOVE( 1, MOVE_POWDER),
     LEVEL_UP_MOVE(1, MOVE_STICKY_WEB),
@@ -15371,7 +15371,7 @@ static const struct LevelUpMove sVivillonSANDSTORMLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sVivillonOCEANLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_GUST),
+    LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH),
 	LEVEL_UP_MOVE( 1, MOVE_BUG_BITE),
 	LEVEL_UP_MOVE( 1, MOVE_POWDER),
     LEVEL_UP_MOVE(1, MOVE_STICKY_WEB),
@@ -15392,7 +15392,7 @@ static const struct LevelUpMove sVivillonOCEANLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sVivillonJUNGLELevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_GUST),
+    LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH),
 	LEVEL_UP_MOVE( 1, MOVE_BUG_BITE),
 	LEVEL_UP_MOVE( 1, MOVE_POWDER),
     LEVEL_UP_MOVE(1, MOVE_STICKY_WEB),
@@ -15413,7 +15413,7 @@ static const struct LevelUpMove sVivillonJUNGLELevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sVivillonFANCYLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_GUST),
+    LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH),
 	LEVEL_UP_MOVE( 1, MOVE_BUG_BITE),
 	LEVEL_UP_MOVE( 1, MOVE_POWDER),
     LEVEL_UP_MOVE(1, MOVE_STICKY_WEB),
@@ -15434,7 +15434,7 @@ static const struct LevelUpMove sVivillonFANCYLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sVivillonPOKEBALLLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_GUST),
+    LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH),
 	LEVEL_UP_MOVE( 1, MOVE_BUG_BITE),
 	LEVEL_UP_MOVE( 1, MOVE_POWDER),
     LEVEL_UP_MOVE(1, MOVE_STICKY_WEB),
