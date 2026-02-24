@@ -7945,7 +7945,7 @@ static u16 CalcMoveBasePower(u16 move, u8 battlerAtk, u8 battlerDef)
         basePower = sFlailHpScaleToPowerTable[i + 1];
         break;
     case EFFECT_RETURN:
-        basePower = 12 * (gBattleMons[battlerAtk].friendship) / 25;
+        basePower = 13 * (gBattleMons[battlerAtk].friendship) / 25;
         break;
     case EFFECT_FRUSTRATION:
         basePower = 10 * (255 - gBattleMons[battlerAtk].friendship) / 25;
