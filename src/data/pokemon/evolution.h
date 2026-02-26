@@ -540,7 +540,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
                                        {EVO_ITEM, ITEM_CHERI_BERRY, SPECIES_ALCREMIE_RUBY_CREAM},
                                        {EVO_ITEM, ITEM_CHESTO_BERRY, SPECIES_ALCREMIE_MATCHA_CREAM},
                                        {EVO_ITEM, ITEM_PECHA_BERRY, SPECIES_ALCREMIE_MINT_CREAM},
-                                       {EVO_ITEM, ITEM_ORAN_BERRY SPECIES_ALCREMIE_LEMON_CREAM},
+                                       {EVO_ITEM, ITEM_ORAN_BERRY, SPECIES_ALCREMIE_LEMON_CREAM},
                                        {EVO_ITEM, ITEM_POMEG_BERRY, SPECIES_ALCREMIE_SALTED_CREAM},
                                        {EVO_ITEM, ITEM_KELPSY_BERRY, SPECIES_ALCREMIE_RUBY_SWIRL},
                                        {EVO_ITEM, ITEM_QUALOT_BERRY, SPECIES_ALCREMIE_CARAMEL_SWIRL},
