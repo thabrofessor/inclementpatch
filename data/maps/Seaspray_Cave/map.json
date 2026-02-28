@@ -130,6 +130,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Seaspray_Cave_EventScript_SandMound",
       "flag": "FLAG_TEMP_17"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_STEVEN",
+      "x": 13,
+      "y": 15,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "4",
+      "script": "Seaspray_Cave_EventScript_STEVEN_1",
+      "flag": "0"
     }
   ],
   "warp_events": [

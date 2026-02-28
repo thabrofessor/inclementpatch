@@ -807,11 +807,6 @@ PetalburgCity_EventScript_WATSON_1A:: @ 81EC1B3
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-PetalburgCity_EventScript_STEVEN_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_STEVEN_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 PetalburgCity_EventScript_LORELIE_1:: @ 81EC1B3
 	trainerbattle_single TRAINER_LORELIE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
@@ -834,5 +829,10 @@ PetalburgCity_EventScript_PEPPERMINT_1:: @ 81EC1B3
 
 PetalburgCity_EventScript_AQUA_101:: @ 81EC1B3
 	trainerbattle_single TRAINER_AQUA_101, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgCity_EventScript_JOY_1:: @ 81EC1B3
+	trainerbattle_single TRAINER_JOY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end

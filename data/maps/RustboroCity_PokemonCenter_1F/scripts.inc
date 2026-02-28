@@ -81,7 +81,3 @@ RustboroCity_PokemonCenter_1F_EventScript_PRESS_1:: @ 81EC1B3
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-RustboroCity_PokemonCenter_1F_EventScript_PHOEBE_1A:: @ 81EC1B3
-	trainerbattle_single TRAINER_PHOEBE_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
-	end

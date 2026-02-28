@@ -618,7 +618,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_LECHONK]                = {{EVO_LEVEL_MALE, 18, SPECIES_OINKOLOGNE_MALE},
                                        {EVO_LEVEL_FEMALE, 18, SPECIES_OINKOLOGNE_FEMALE}},                                                                                 
      [SPECIES_TAROUNTULA]   = {{EVO_LEVEL, 10, SPECIES_SPIDOPS}},
-     [SPECIES_NYMBLE]   = {{EVO_LEVEL, 24, SPECIES_LOKIX}},
+     [SPECIES_NYMBLE]   = {{EVO_LEVEL, 10, SPECIES_LOKIX}},
      [SPECIES_PAWMI]   = {{EVO_LEVEL, 18, SPECIES_PAWMO}},
      [SPECIES_PAWMO]   = {{EVO_LEVEL, 26, SPECIES_PAWMOT}},
      [SPECIES_TANDEMAUS]   = {{EVO_LEVEL, 25, SPECIES_MAUSHOLD_THREE}},
