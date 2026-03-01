@@ -1,8 +1,12 @@
 Route102_EventScript_ItemPotion:: @ 8290CD8
 	finditem ITEM_POTION
 	end
-OldaleCity_EventScript_ItemFLAME_ORB:: @ 8290CD8
+PETALBURG_CITY_EventScript_ItemFLAME_ORB:: @ 8290CD8
 	finditem ITEM_FLAME_ORB
+	end
+
+PETALBURG_CITY_EventScript_ItemTOXIC_ORB:: @ 8290CD8
+	finditem ITEM_TOXIC_ORB
 	end
 
 Route103_EventScript_ItemTM40AerialAce:: @ 8290CE5
