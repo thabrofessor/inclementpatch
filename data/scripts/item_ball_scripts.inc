@@ -1,8 +1,8 @@
 Route102_EventScript_ItemPotion:: @ 8290CD8
 	finditem ITEM_POTION
 	end
-OldaleCity_EventScript_ItemPotion:: @ 8290CD8
-	finditem ITEM_POTION
+OldaleCity_EventScript_ItemFLAME_ORB:: @ 8290CD8
+	finditem ITEM_FLAME_ORB
 	end
 
 Route103_EventScript_ItemTM40AerialAce:: @ 8290CE5

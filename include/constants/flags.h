@@ -694,7 +694,7 @@
 #define FLAG_HIDDEN_ITEM_UNDERWATER_126_IRON_PLATE           (FLAG_HIDDEN_ITEMS_START + 0x9D)
 #define FLAG_HIDDEN_ITEM_DEWFORD_MANOR_DREAD_PLATE           (FLAG_HIDDEN_ITEMS_START + 0x9E) // 0x292
 #define FLAG_UNUSED_0x293  0x293 // Unused Flag
-#define FLAG_ITEM_OldaleCity_POTION  0x294 // NEW 2/28 Flag
+#define FLAG_ITEM_OldaleCity_FLAME_ORB  0x294 // NEW 2/28 Flag
 #define FLAG_UNUSED_0x295  0x295 // Unused Flag
 #define FLAG_UNUSED_0x296  0x296 // Unused Flag
 #define FLAG_UNUSED_0x297  0x297 // Unused Flag
