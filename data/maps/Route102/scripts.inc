@@ -65,19 +65,10 @@ Route102_EventScript_Calvin_2:: @ 81EC1B3
 	msgbox Route102_Text_RickPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route102_EventScript_Rick:: @ 81EC1B3
-	trainerbattle_single TRAINER_RICK, Route102_Text_RickIntro, Route102_Text_RickDefeated
-	msgbox Route102_Text_RickPostBattle, MSGBOX_AUTOCLOSE
-	end
 
 Route102_EventScript_Tiana:: @ 81EC1CA
 	trainerbattle_single TRAINER_TIANA, Route102_Text_TianaIntro, Route102_Text_TianaDefeated
 	msgbox Route102_Text_TianaPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-Route102_EventScript_Allen:: @ 81EC1E1
-	trainerbattle_single TRAINER_ALLEN, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
-	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route102_Text_WatchMeCatchPokemon: @ 81EC1F8
@@ -135,23 +126,9 @@ Route102_EventScript_N_1:: @ 81EC1B3
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 		
-Route102_EventScript_Bugcatcher_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_BUGCATCHER_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
-	end
 		
 Route102_EventScript_Youngster_1:: @ 81EC1B3
 	trainerbattle_single TRAINER_YOUNGSTER_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
-	end
-		
-Route102_EventScript_CAMPER_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_CAMPER_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
-	end
-		
-Route102_EventScript_SCHOOLKIDM_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_SCHOOLKIDM_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 		
@@ -184,22 +161,7 @@ Route102_EventScript_LASS_1:: @ 81EC1B3
 	trainerbattle_single TRAINER_LASS_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
-		
-Route102_EventScript_SCHOOLKIDF_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_SCHOOLKIDF_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
-	end
-		
-Route102_EventScript_COOLT4_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_COOLT4_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
-	end
-		
-Route102_EventScript_RANGER3_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_RANGER3_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
-	end
-		
+			
 Route102_EventScript_DORKLY_1:: @ 81EC1B3
 	trainerbattle_single TRAINER_DORKLY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
@@ -207,11 +169,6 @@ Route102_EventScript_DORKLY_1:: @ 81EC1B3
 		
 Route102_EventScript_ARROMALADY_1:: @ 81EC1B3
 	trainerbattle_single TRAINER_ARROMALADY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
-	end
-		
-Route102_EventScript_RICHBOY_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_RICHBOY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
 	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 		
