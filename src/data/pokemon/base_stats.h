@@ -3651,6 +3651,7 @@ const struct BaseStats gBaseStats[] =
         .catchRate = 45,
         .expYield = 79,
         .evYield_SpAttack  = 1,
+        .item1 = ITEM_UPGRADE,
         .genderRatio = MON_GENDERLESS,
         .eggCycles = 20,
         .friendship = 70,
