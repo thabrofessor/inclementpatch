@@ -670,19 +670,19 @@ for (i = 0; i < gBattlersCount; i++)
             multiplier = 15;  // 1.5x
             break;
 
-        case ITEM_SHADOW_MAIL:
+        case ITEM_MECH_MAIL:
             multiplier = 18;  // 1.8x
             break;
 
-        case ITEM_MECH_MAIL:
+        case ITEM_GLITTER_MAIL:
             multiplier = 20;  // 2.0x
             break;
 
-        case ITEM_WAVE_MAIL:
+        case ITEM_SHADOW_MAIL:
             multiplier = 25;  // 2.5x
             break;
 
-        case ITEM_GLITTER_MAIL:
+        case ITEM_WAVE_MAIL: 
             multiplier = 30;  // 3.0x
             break;
 
