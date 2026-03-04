@@ -36,7 +36,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_BACKWOODS103_1",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -49,7 +49,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_BACKWOODS103_2",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -62,7 +62,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_BACKWOODS103_3",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -75,7 +75,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_BACKWOODS103_4",
       "script": "BerryTreeScript",
       "flag": "0"
     }
@@ -110,10 +110,6 @@
       "dest_warp_id": 3
     }
   ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "coord_events": [],
+  "bg_events": []
 }
