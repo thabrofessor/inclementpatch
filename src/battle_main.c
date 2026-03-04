@@ -655,20 +655,20 @@ static void CB2_InitBattleInternal(void)
 
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
         {
-            u32 multiplier = 15;
-            u32 divisor    = 10;
-            u32 currHp     = GetMonData(&gEnemyParty[i], MON_DATA_HP);
-            u32 currAtk    = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
-            u32 currDef    = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
-            u32 currSpeed  = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
-            u32 currSpAtk  = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
-            u32 currSpDef  = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
-            u32 newHp      = (currHp * multiplier) / divisor;
-            u32 newAtk     = (currAtk * multiplier) / divisor;
-            u32 newDef     = (currDef * multiplier) / divisor;
-            u32 newSpeed   = (currSpeed * multiplier) / divisor;
-            u32 newSpAtk   = (currSpAtk * multiplier) / divisor;
-            u32 newSpDef   = (currSpDef * multiplier) / divisor;
+            u16 multiplier = 15;
+            u16 divisor    = 10;
+            u16 currHp     = GetMonData(&gEnemyParty[i], MON_DATA_HP);
+            u16 currAtk    = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
+            u16 currDef    = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
+            u16 currSpeed  = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
+            u16 currSpAtk  = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
+            u16 currSpDef  = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
+            u16 newHp      = (currHp * multiplier) / divisor;
+            u16 newAtk     = (currAtk * multiplier) / divisor;
+            u16 newDef     = (currDef * multiplier) / divisor;
+            u16 newSpeed   = (currSpeed * multiplier) / divisor;
+            u16 newSpAtk   = (currSpAtk * multiplier) / divisor;
+            u16 newSpDef   = (currSpDef * multiplier) / divisor;
         
             SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
             SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
@@ -685,20 +685,20 @@ static void CB2_InitBattleInternal(void)
       
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_SHADOW_MAIL)
         {
-            u32 multiplier = 15;
-            u32 divisor    = 10;
-            u32 currHp     = GetMonData(&gEnemyParty[i], MON_DATA_HP);
-            u32 currAtk    = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
-            u32 currDef    = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
-            u32 currSpeed  = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
-            u32 currSpAtk  = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
-            u32 currSpDef  = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
-            u32 newHp      = (currHp * multiplier) / divisor;
-            u32 newAtk     = (currAtk * multiplier) / divisor;
-            u32 newDef     = (currDef * multiplier) / divisor;
-            u32 newSpeed   = (currSpeed * multiplier) / divisor;
-            u32 newSpAtk   = (currSpAtk * multiplier) / divisor;
-            u32 newSpDef   = (currSpDef * multiplier) / divisor;
+            u16 multiplier = 15;
+            u16 divisor    = 10;
+            u16 currHp     = GetMonData(&gEnemyParty[i], MON_DATA_HP);
+            u16 currAtk    = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
+            u16 currDef    = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
+            u16 currSpeed  = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
+            u16 currSpAtk  = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
+            u16 currSpDef  = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
+            u16 newHp      = (currHp * multiplier) / divisor;
+            u16 newAtk     = (currAtk * multiplier) / divisor;
+            u16 newDef     = (currDef * multiplier) / divisor;
+            u16 newSpeed   = (currSpeed * multiplier) / divisor;
+            u16 newSpAtk   = (currSpAtk * multiplier) / divisor;
+            u16 newSpDef   = (currSpDef * multiplier) / divisor;
         
             SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
             SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
@@ -715,20 +715,20 @@ static void CB2_InitBattleInternal(void)
       
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_MECH_MAIL)
         {
-            u32 multiplier = 15;
-            u32 divisor    = 10;
-            u32 currHp     = GetMonData(&gEnemyParty[i], MON_DATA_HP);
-            u32 currAtk    = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
-            u32 currDef    = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
-            u32 currSpeed  = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
-            u32 currSpAtk  = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
-            u32 currSpDef  = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
-            u32 newHp      = (currHp * multiplier) / divisor;
-            u32 newAtk     = (currAtk * multiplier) / divisor;
-            u32 newDef     = (currDef * multiplier) / divisor;
-            u32 newSpeed   = (currSpeed * multiplier) / divisor;
-            u32 newSpAtk   = (currSpAtk * multiplier) / divisor;
-            u32 newSpDef   = (currSpDef * multiplier) / divisor;
+            u16 multiplier = 15;
+            u16 divisor    = 10;
+            u16 currHp     = GetMonData(&gEnemyParty[i], MON_DATA_HP);
+            u16 currAtk    = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
+            u16 currDef    = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
+            u16 currSpeed  = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
+            u16 currSpAtk  = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
+            u16 currSpDef  = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
+            u16 newHp      = (currHp * multiplier) / divisor;
+            u16 newAtk     = (currAtk * multiplier) / divisor;
+            u16 newDef     = (currDef * multiplier) / divisor;
+            u16 newSpeed   = (currSpeed * multiplier) / divisor;
+            u16 newSpAtk   = (currSpAtk * multiplier) / divisor;
+            u16 newSpDef   = (currSpDef * multiplier) / divisor;
         
             SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
             SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
@@ -745,20 +745,20 @@ static void CB2_InitBattleInternal(void)
       
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WAVE_MAIL)
         {
-            u32 multiplier = 15;
-            u32 divisor    = 10;
-            u32 currHp     = GetMonData(&gEnemyParty[i], MON_DATA_HP);
-            u32 currAtk    = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
-            u32 currDef    = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
-            u32 currSpeed  = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
-            u32 currSpAtk  = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
-            u32 currSpDef  = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
-            u32 newHp      = (currHp * multiplier) / divisor;
-            u32 newAtk     = (currAtk * multiplier) / divisor;
-            u32 newDef     = (currDef * multiplier) / divisor;
-            u32 newSpeed   = (currSpeed * multiplier) / divisor;
-            u32 newSpAtk   = (currSpAtk * multiplier) / divisor;
-            u32 newSpDef   = (currSpDef * multiplier) / divisor;
+            u16 multiplier = 15;
+            u16 divisor    = 10;
+            u16 currHp     = GetMonData(&gEnemyParty[i], MON_DATA_HP);
+            u16 currAtk    = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
+            u16 currDef    = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
+            u16 currSpeed  = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
+            u16 currSpAtk  = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
+            u16 currSpDef  = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
+            u16 newHp      = (currHp * multiplier) / divisor;
+            u16 newAtk     = (currAtk * multiplier) / divisor;
+            u16 newDef     = (currDef * multiplier) / divisor;
+            u16 newSpeed   = (currSpeed * multiplier) / divisor;
+            u16 newSpAtk   = (currSpAtk * multiplier) / divisor;
+            u16 newSpDef   = (currSpDef * multiplier) / divisor;
         
             SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
             SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
@@ -775,20 +775,20 @@ static void CB2_InitBattleInternal(void)
       
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_GLITTER_MAIL)
         {
-            u32 multiplier = 15;
-            u32 divisor    = 10;
-            u32 currHp     = GetMonData(&gEnemyParty[i], MON_DATA_HP);
-            u32 currAtk    = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
-            u32 currDef    = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
-            u32 currSpeed  = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
-            u32 currSpAtk  = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
-            u32 currSpDef  = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
-            u32 newHp      = (currHp * multiplier) / divisor;
-            u32 newAtk     = (currAtk * multiplier) / divisor;
-            u32 newDef     = (currDef * multiplier) / divisor;
-            u32 newSpeed   = (currSpeed * multiplier) / divisor;
-            u32 newSpAtk   = (currSpAtk * multiplier) / divisor;
-            u32 newSpDef   = (currSpDef * multiplier) / divisor;
+            u16 multiplier = 15;
+            u16 divisor    = 10;
+            u16 currHp     = GetMonData(&gEnemyParty[i], MON_DATA_HP);
+            u16 currAtk    = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
+            u16 currDef    = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
+            u16 currSpeed  = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
+            u16 currSpAtk  = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
+            u16 currSpDef  = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
+            u16 newHp      = (currHp * multiplier) / divisor;
+            u16 newAtk     = (currAtk * multiplier) / divisor;
+            u16 newDef     = (currDef * multiplier) / divisor;
+            u16 newSpeed   = (currSpeed * multiplier) / divisor;
+            u16 newSpAtk   = (currSpAtk * multiplier) / divisor;
+            u16 newSpDef   = (currSpDef * multiplier) / divisor;
         
             SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
             SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
