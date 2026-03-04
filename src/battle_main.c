@@ -654,29 +654,43 @@ static void CB2_InitBattleInternal(void)
   //  {
 
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
-        {
-            u16 multiplier = 15;
-            u16 divisor    = 10;
-            u16 currHp     = GetMonData(&gEnemyParty[i], MON_DATA_HP);
-            u16 currAtk    = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
-            u16 currDef    = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
-            u16 currSpeed  = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
-            u16 currSpAtk  = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
-            u16 currSpDef  = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
-            u16 newHp      = (currHp * multiplier) / divisor;
-            u16 newAtk     = (currAtk * multiplier) / divisor;
-            u16 newDef     = (currDef * multiplier) / divisor;
-            u16 newSpeed   = (currSpeed * multiplier) / divisor;
-            u16 newSpAtk   = (currSpAtk * multiplier) / divisor;
-            u16 newSpDef   = (currSpDef * multiplier) / divisor;
-        
-            SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
-            SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
-            SetMonData(&gEnemyParty[i], MON_DATA_DEF, &newDef);
+{
+            u32 multiplier = 15;
+            u32 divisor    = 10;
+
+            // Grab current (already level-scaled + nature/IV/EV) values
+            u32 currHp    = GetMonData(&gEnemyParty[i], MON_DATA_HP);
+            u32 currAtk   = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
+            u32 currDef   = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
+            u32 currSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
+            u32 currSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
+            u32 currSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
+
+            // Calculate boosted values (same as before)
+            u32 newAtk   = (currAtk   * multiplier) / divisor;
+            u32 newDef   = (currDef   * multiplier) / divisor;
+            u32 newSpeed = (currSpeed * multiplier) / divisor;
+            u32 newSpAtk = (currSpAtk * multiplier) / divisor;
+            u32 newSpDef = (currSpDef * multiplier) / divisor;
+
+            // For HP: boost the CURRENT HP, but cap it reasonably and set as both current AND max
+            // (many routines read max HP from species/level formula, but we override current)
+            u32 newHp = (currHp * multiplier) / divisor;
+            // Optional safety cap if you see overflow crashes (adjust 9999 as needed)
+            if (newHp > 9999) newHp = 9999;
+
+            // Write back boosted stats
+            SetMonData(&gEnemyParty[i], MON_DATA_HP,    &newHp);
+            SetMonData(&gEnemyParty[i], MON_DATA_ATK,   &newAtk);
+            SetMonData(&gEnemyParty[i], MON_DATA_DEF,   &newDef);
             SetMonData(&gEnemyParty[i], MON_DATA_SPEED, &newSpeed);
             SetMonData(&gEnemyParty[i], MON_DATA_SPATK, &newSpAtk);
             SetMonData(&gEnemyParty[i], MON_DATA_SPDEF, &newSpDef);
-         }
+
+            // Critical: Force max HP to match the boosted current HP
+            // (prevents routines that do "if current > max" checks or use max for calcs)
+            SetMonData(&gEnemyParty[i], MON_DATA_MAX_HP, &newHp);
+        }
     }
     
     for (i = 0; i < PARTY_SIZE; i++)
@@ -684,29 +698,43 @@ static void CB2_InitBattleInternal(void)
         AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
       
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_SHADOW_MAIL)
-        {
-            u16 multiplier = 15;
-            u16 divisor    = 10;
-            u16 currHp     = GetMonData(&gEnemyParty[i], MON_DATA_HP);
-            u16 currAtk    = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
-            u16 currDef    = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
-            u16 currSpeed  = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
-            u16 currSpAtk  = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
-            u16 currSpDef  = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
-            u16 newHp      = (currHp * multiplier) / divisor;
-            u16 newAtk     = (currAtk * multiplier) / divisor;
-            u16 newDef     = (currDef * multiplier) / divisor;
-            u16 newSpeed   = (currSpeed * multiplier) / divisor;
-            u16 newSpAtk   = (currSpAtk * multiplier) / divisor;
-            u16 newSpDef   = (currSpDef * multiplier) / divisor;
-        
-            SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
-            SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
-            SetMonData(&gEnemyParty[i], MON_DATA_DEF, &newDef);
+{
+            u32 multiplier = 15;
+            u32 divisor    = 10;
+
+            // Grab current (already level-scaled + nature/IV/EV) values
+            u32 currHp    = GetMonData(&gEnemyParty[i], MON_DATA_HP);
+            u32 currAtk   = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
+            u32 currDef   = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
+            u32 currSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
+            u32 currSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
+            u32 currSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
+
+            // Calculate boosted values (same as before)
+            u32 newAtk   = (currAtk   * multiplier) / divisor;
+            u32 newDef   = (currDef   * multiplier) / divisor;
+            u32 newSpeed = (currSpeed * multiplier) / divisor;
+            u32 newSpAtk = (currSpAtk * multiplier) / divisor;
+            u32 newSpDef = (currSpDef * multiplier) / divisor;
+
+            // For HP: boost the CURRENT HP, but cap it reasonably and set as both current AND max
+            // (many routines read max HP from species/level formula, but we override current)
+            u32 newHp = (currHp * multiplier) / divisor;
+            // Optional safety cap if you see overflow crashes (adjust 9999 as needed)
+            if (newHp > 9999) newHp = 9999;
+
+            // Write back boosted stats
+            SetMonData(&gEnemyParty[i], MON_DATA_HP,    &newHp);
+            SetMonData(&gEnemyParty[i], MON_DATA_ATK,   &newAtk);
+            SetMonData(&gEnemyParty[i], MON_DATA_DEF,   &newDef);
             SetMonData(&gEnemyParty[i], MON_DATA_SPEED, &newSpeed);
             SetMonData(&gEnemyParty[i], MON_DATA_SPATK, &newSpAtk);
             SetMonData(&gEnemyParty[i], MON_DATA_SPDEF, &newSpDef);
-         }
+
+            // Critical: Force max HP to match the boosted current HP
+            // (prevents routines that do "if current > max" checks or use max for calcs)
+            SetMonData(&gEnemyParty[i], MON_DATA_MAX_HP, &newHp);
+        }
     }
         
     for (i = 0; i < PARTY_SIZE; i++)
@@ -714,29 +742,43 @@ static void CB2_InitBattleInternal(void)
         AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
       
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_MECH_MAIL)
-        {
-            u16 multiplier = 15;
-            u16 divisor    = 10;
-            u16 currHp     = GetMonData(&gEnemyParty[i], MON_DATA_HP);
-            u16 currAtk    = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
-            u16 currDef    = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
-            u16 currSpeed  = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
-            u16 currSpAtk  = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
-            u16 currSpDef  = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
-            u16 newHp      = (currHp * multiplier) / divisor;
-            u16 newAtk     = (currAtk * multiplier) / divisor;
-            u16 newDef     = (currDef * multiplier) / divisor;
-            u16 newSpeed   = (currSpeed * multiplier) / divisor;
-            u16 newSpAtk   = (currSpAtk * multiplier) / divisor;
-            u16 newSpDef   = (currSpDef * multiplier) / divisor;
-        
-            SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
-            SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
-            SetMonData(&gEnemyParty[i], MON_DATA_DEF, &newDef);
+{
+            u32 multiplier = 15;
+            u32 divisor    = 10;
+
+            // Grab current (already level-scaled + nature/IV/EV) values
+            u32 currHp    = GetMonData(&gEnemyParty[i], MON_DATA_HP);
+            u32 currAtk   = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
+            u32 currDef   = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
+            u32 currSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
+            u32 currSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
+            u32 currSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
+
+            // Calculate boosted values (same as before)
+            u32 newAtk   = (currAtk   * multiplier) / divisor;
+            u32 newDef   = (currDef   * multiplier) / divisor;
+            u32 newSpeed = (currSpeed * multiplier) / divisor;
+            u32 newSpAtk = (currSpAtk * multiplier) / divisor;
+            u32 newSpDef = (currSpDef * multiplier) / divisor;
+
+            // For HP: boost the CURRENT HP, but cap it reasonably and set as both current AND max
+            // (many routines read max HP from species/level formula, but we override current)
+            u32 newHp = (currHp * multiplier) / divisor;
+            // Optional safety cap if you see overflow crashes (adjust 9999 as needed)
+            if (newHp > 9999) newHp = 9999;
+
+            // Write back boosted stats
+            SetMonData(&gEnemyParty[i], MON_DATA_HP,    &newHp);
+            SetMonData(&gEnemyParty[i], MON_DATA_ATK,   &newAtk);
+            SetMonData(&gEnemyParty[i], MON_DATA_DEF,   &newDef);
             SetMonData(&gEnemyParty[i], MON_DATA_SPEED, &newSpeed);
             SetMonData(&gEnemyParty[i], MON_DATA_SPATK, &newSpAtk);
             SetMonData(&gEnemyParty[i], MON_DATA_SPDEF, &newSpDef);
-         }
+
+            // Critical: Force max HP to match the boosted current HP
+            // (prevents routines that do "if current > max" checks or use max for calcs)
+            SetMonData(&gEnemyParty[i], MON_DATA_MAX_HP, &newHp);
+        }
     }
         
     for (i = 0; i < PARTY_SIZE; i++)
@@ -744,29 +786,43 @@ static void CB2_InitBattleInternal(void)
         AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
       
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WAVE_MAIL)
-        {
-            u16 multiplier = 15;
-            u16 divisor    = 10;
-            u16 currHp     = GetMonData(&gEnemyParty[i], MON_DATA_HP);
-            u16 currAtk    = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
-            u16 currDef    = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
-            u16 currSpeed  = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
-            u16 currSpAtk  = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
-            u16 currSpDef  = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
-            u16 newHp      = (currHp * multiplier) / divisor;
-            u16 newAtk     = (currAtk * multiplier) / divisor;
-            u16 newDef     = (currDef * multiplier) / divisor;
-            u16 newSpeed   = (currSpeed * multiplier) / divisor;
-            u16 newSpAtk   = (currSpAtk * multiplier) / divisor;
-            u16 newSpDef   = (currSpDef * multiplier) / divisor;
-        
-            SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
-            SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
-            SetMonData(&gEnemyParty[i], MON_DATA_DEF, &newDef);
+{
+            u32 multiplier = 15;
+            u32 divisor    = 10;
+
+            // Grab current (already level-scaled + nature/IV/EV) values
+            u32 currHp    = GetMonData(&gEnemyParty[i], MON_DATA_HP);
+            u32 currAtk   = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
+            u32 currDef   = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
+            u32 currSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
+            u32 currSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
+            u32 currSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
+
+            // Calculate boosted values (same as before)
+            u32 newAtk   = (currAtk   * multiplier) / divisor;
+            u32 newDef   = (currDef   * multiplier) / divisor;
+            u32 newSpeed = (currSpeed * multiplier) / divisor;
+            u32 newSpAtk = (currSpAtk * multiplier) / divisor;
+            u32 newSpDef = (currSpDef * multiplier) / divisor;
+
+            // For HP: boost the CURRENT HP, but cap it reasonably and set as both current AND max
+            // (many routines read max HP from species/level formula, but we override current)
+            u32 newHp = (currHp * multiplier) / divisor;
+            // Optional safety cap if you see overflow crashes (adjust 9999 as needed)
+            if (newHp > 9999) newHp = 9999;
+
+            // Write back boosted stats
+            SetMonData(&gEnemyParty[i], MON_DATA_HP,    &newHp);
+            SetMonData(&gEnemyParty[i], MON_DATA_ATK,   &newAtk);
+            SetMonData(&gEnemyParty[i], MON_DATA_DEF,   &newDef);
             SetMonData(&gEnemyParty[i], MON_DATA_SPEED, &newSpeed);
             SetMonData(&gEnemyParty[i], MON_DATA_SPATK, &newSpAtk);
             SetMonData(&gEnemyParty[i], MON_DATA_SPDEF, &newSpDef);
-         }
+
+            // Critical: Force max HP to match the boosted current HP
+            // (prevents routines that do "if current > max" checks or use max for calcs)
+            SetMonData(&gEnemyParty[i], MON_DATA_MAX_HP, &newHp);
+        }
     }
 
             for (i = 0; i < PARTY_SIZE; i++)
@@ -774,29 +830,43 @@ static void CB2_InitBattleInternal(void)
         AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
       
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_GLITTER_MAIL)
-        {
-            u16 multiplier = 15;
-            u16 divisor    = 10;
-            u16 currHp     = GetMonData(&gEnemyParty[i], MON_DATA_HP);
-            u16 currAtk    = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
-            u16 currDef    = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
-            u16 currSpeed  = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
-            u16 currSpAtk  = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
-            u16 currSpDef  = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
-            u16 newHp      = (currHp * multiplier) / divisor;
-            u16 newAtk     = (currAtk * multiplier) / divisor;
-            u16 newDef     = (currDef * multiplier) / divisor;
-            u16 newSpeed   = (currSpeed * multiplier) / divisor;
-            u16 newSpAtk   = (currSpAtk * multiplier) / divisor;
-            u16 newSpDef   = (currSpDef * multiplier) / divisor;
-        
-            SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
-            SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
-            SetMonData(&gEnemyParty[i], MON_DATA_DEF, &newDef);
+{
+            u32 multiplier = 15;
+            u32 divisor    = 10;
+
+            // Grab current (already level-scaled + nature/IV/EV) values
+            u32 currHp    = GetMonData(&gEnemyParty[i], MON_DATA_HP);
+            u32 currAtk   = GetMonData(&gEnemyParty[i], MON_DATA_ATK);
+            u32 currDef   = GetMonData(&gEnemyParty[i], MON_DATA_DEF);
+            u32 currSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED);
+            u32 currSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK);
+            u32 currSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF);
+
+            // Calculate boosted values (same as before)
+            u32 newAtk   = (currAtk   * multiplier) / divisor;
+            u32 newDef   = (currDef   * multiplier) / divisor;
+            u32 newSpeed = (currSpeed * multiplier) / divisor;
+            u32 newSpAtk = (currSpAtk * multiplier) / divisor;
+            u32 newSpDef = (currSpDef * multiplier) / divisor;
+
+            // For HP: boost the CURRENT HP, but cap it reasonably and set as both current AND max
+            // (many routines read max HP from species/level formula, but we override current)
+            u32 newHp = (currHp * multiplier) / divisor;
+            // Optional safety cap if you see overflow crashes (adjust 9999 as needed)
+            if (newHp > 9999) newHp = 9999;
+
+            // Write back boosted stats
+            SetMonData(&gEnemyParty[i], MON_DATA_HP,    &newHp);
+            SetMonData(&gEnemyParty[i], MON_DATA_ATK,   &newAtk);
+            SetMonData(&gEnemyParty[i], MON_DATA_DEF,   &newDef);
             SetMonData(&gEnemyParty[i], MON_DATA_SPEED, &newSpeed);
             SetMonData(&gEnemyParty[i], MON_DATA_SPATK, &newSpAtk);
             SetMonData(&gEnemyParty[i], MON_DATA_SPDEF, &newSpDef);
-         }
+
+            // Critical: Force max HP to match the boosted current HP
+            // (prevents routines that do "if current > max" checks or use max for calcs)
+            SetMonData(&gEnemyParty[i], MON_DATA_MAX_HP, &newHp);
+        }
     }
 
     gBattleCommunication[MULTIUSE_STATE] = 0;
