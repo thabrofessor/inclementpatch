@@ -646,8 +646,6 @@ static void CB2_InitBattleInternal(void)
     gMain.inBattle = TRUE;
     gSaveBlock2Ptr->frontier.disableRecordBattle = FALSE;
 
-    u32 i;
-
     for (i = 0; i < PARTY_SIZE; i++)
         AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
 
