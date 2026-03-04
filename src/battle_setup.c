@@ -1350,47 +1350,6 @@ void BattleSetup_StartTrainerBattle(void)
         SetHillTrainerFlag();
     }
 
-    // ────────────────────────────────────────────────
-    // ADD TOTEM / WOOD MAIL STAT BOOST HERE
-    // This runs after party is loaded but before battle starts
-    for (u32 j = 0; j < PARTY_SIZE; j++)
-    {
-        u16 species = GetMonData(&gEnemyParty[j], MON_DATA_SPECIES);
-        if (species == SPECIES_NONE || species > NUM_SPECIES)
-            continue;
-
-        if (GetMonData(&gEnemyParty[j], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
-        {
-            u32 multiplier = 15;
-            u32 divisor    = 10;
-
-            u32 currHp    = GetMonData(&gEnemyParty[j], MON_DATA_HP);
-            u32 currAtk   = GetMonData(&gEnemyParty[j], MON_DATA_ATK);
-            u32 currDef   = GetMonData(&gEnemyParty[j], MON_DATA_DEF);
-            u32 currSpeed = GetMonData(&gEnemyParty[j], MON_DATA_SPEED);
-            u32 currSpAtk = GetMonData(&gEnemyParty[j], MON_DATA_SPATK);
-            u32 currSpDef = GetMonData(&gEnemyParty[j], MON_DATA_SPDEF);
-
-            u32 newHp     = (currHp    * multiplier) / divisor;
-            u32 newAtk    = (currAtk   * multiplier) / divisor;
-            u32 newDef    = (currDef   * multiplier) / divisor;
-            u32 newSpeed  = (currSpeed * multiplier) / divisor;
-            u32 newSpAtk  = (currSpAtk * multiplier) / divisor;
-            u32 newSpDef  = (currSpDef * multiplier) / divisor;
-
-            if (newHp > 9999) newHp = 9999;
-
-            SetMonData(&gEnemyParty[j], MON_DATA_HP,    &newHp);
-            SetMonData(&gEnemyParty[j], MON_DATA_ATK,   &newAtk);
-            SetMonData(&gEnemyParty[j], MON_DATA_DEF,   &newDef);
-            SetMonData(&gEnemyParty[j], MON_DATA_SPEED, &newSpeed);
-            SetMonData(&gEnemyParty[j], MON_DATA_SPATK, &newSpAtk);
-            SetMonData(&gEnemyParty[j], MON_DATA_SPDEF, &newSpDef);
-
-            SetMonData(&gEnemyParty[j], MON_DATA_MAX_HP, &newHp);
-        }
-    }
-    // ────────────────────────────────────────────────
     sNoOfPossibleTrainerRetScripts = gNoOfApproachingTrainers;
     gNoOfApproachingTrainers = 0;
     sShouldCheckTrainerBScript = FALSE;
