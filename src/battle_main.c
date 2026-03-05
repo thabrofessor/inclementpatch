@@ -660,7 +660,7 @@ for (i = 0; i < PARTY_SIZE; i++)
  */
 for (i = 0; i < gBattlersCount; i++)
 {
-    u16 item = gBattleMons[i].item;
+    u32 item = gBattleMons[i].item;
     u32 multiplier = 10;  // default = 1.0x
     u32 divisor    = 10;
 

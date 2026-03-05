@@ -5422,7 +5422,7 @@ void GenerateRandomStarters (void)
 	
     for (i = 0; i < 3; i++) // Generate 3 random Pokémon for the Random starters option (last box, 3 spot before the last spot (where the level 0 Rattata is)
     {
-        CreateMon(&mon, getRandomSpecies(), 1, USE_RANDOM_IVS, 0, 0, OT_ID_PLAYER_ID, 0);
+        CreateMon(&mon, getRandomSpecies(), 0, USE_RANDOM_IVS, 0, 0, OT_ID_PLAYER_ID, 0);
         SendMonToPCAt(&mon, TOTAL_BOXES_COUNT-1, (IN_BOX_COUNT-1-3) + i);
     }	
 }
