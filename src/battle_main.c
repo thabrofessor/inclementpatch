@@ -665,7 +665,6 @@ for (i = 0; i < PARTY_SIZE; i++)
                  //   u32 newHp = GetMonData(&gEnemyParty[i], MON_DATA_HP) + points;
                     u32 newAtk = GetMonData(&gEnemyParty[i], MON_DATA_ATK) + points;
                     u32 newDef = GetMonData(&gEnemyParty[i], MON_DATA_DEF) + points;
-                    u32 newSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED) + points;
                     u32 newSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK) + points;
                     u32 newSpDef = GetMonData(&gEnemyParty[i], MON_DATA_SPDEF) + points;
  //            u32 newHp     = currHp + points;
@@ -678,7 +677,6 @@ for (i = 0; i < PARTY_SIZE; i++)
         //     SetMonData(&gEnemyParty[i], MON_DATA_HP, &newHp);
              SetMonData(&gEnemyParty[i], MON_DATA_ATK, &newAtk);
              SetMonData(&gEnemyParty[i], MON_DATA_DEF, &newDef);
-             SetMonData(&gEnemyParty[i], MON_DATA_SPEED, &newSpeed);
              SetMonData(&gEnemyParty[i], MON_DATA_SPATK, &newSpAtk);
              SetMonData(&gEnemyParty[i], MON_DATA_SPDEF, &newSpDef);
          }
@@ -698,6 +696,19 @@ for (i = 0; i < PARTY_SIZE; i++)
          }
     }
 
+            for (i = 0; i < PARTY_SIZE; i++)
+   {
+        AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
+      
+        if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
+        {
+            u32 points    = 5;
+
+                    u32 newSpeed = GetMonData(&gEnemyParty[i], MON_DATA_SPEED) + points;     
+             SetMonData(&gEnemyParty[i], MON_DATA_SPEED, &newSpeed);
+
+         }
+    }
     
     for (i = 0; i < PARTY_SIZE; i++)
    {
