@@ -666,23 +666,23 @@ for (i = 0; i < gBattlersCount; i++)
     switch (item)
     {
         case ITEM_WOOD_MAIL:
-            multiplier = 15;  // 1.5x
+            multiplier = 12;  // 1.5x
             break;
 
         case ITEM_MECH_MAIL:
-            multiplier = 18;  // 1.8x
+            multiplier = 15;  // 1.8x
             break;
 
         case ITEM_GLITTER_MAIL:
-            multiplier = 20;  // 2.0x
+            multiplier = 18;  // 2.0x
             break;
 
         case ITEM_SHADOW_MAIL:
-            multiplier = 25;  // 2.5x
+            multiplier = 20;  // 2.5x
             break;
 
         case ITEM_WAVE_MAIL:
-            multiplier = 30;  // 3.0x
+            multiplier = 22;  // 3.0x
             break;
 
         default:
