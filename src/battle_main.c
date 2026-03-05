@@ -736,7 +736,6 @@ for (i = 0; i < gBattlersCount; i++)
     }
 }
 
-gBattleCommunication[MULTIUSE_STATE] = 0;
 }
 
 #define BUFFER_PARTY_VS_SCREEN_STATUS(party, flags, i)              \
