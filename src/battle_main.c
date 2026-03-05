@@ -737,7 +737,7 @@ for (i = 0; i < PARTY_SIZE; i++)
       
         if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM) == ITEM_MECH_MAIL)
         {
-            u32 points    = 25;
+            u32 points    = 20;
                     u32 newAtk = GetMonData(&gEnemyParty[i], MON_DATA_ATK) + points;
                     u32 newDef = GetMonData(&gEnemyParty[i], MON_DATA_DEF) + points;
                     u32 newSpAtk = GetMonData(&gEnemyParty[i], MON_DATA_SPATK) + points;
