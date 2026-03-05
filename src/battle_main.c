@@ -654,68 +654,6 @@ for (i = 0; i < PARTY_SIZE; i++)
     AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
 }
 
-/*
- * Apply held-item stat multipliers safely in-battle
- * (Use gBattleMons — NOT gEnemyParty)
- */
-for (i = 0; i < gBattlersCount; i++)
-{
-    u32 item = gBattleMons[i].item;
-    u32 multiplier = 10;  // default = 1.0x
-    u32 divisor    = 10;
-
-    switch (item)
-    {
-        case ITEM_WOOD_MAIL:
-            multiplier = 30;  // 1.5x
-            break;
-
-        case ITEM_MECH_MAIL:
-            multiplier = 18;  // 1.8x
-            break;
-
-        case ITEM_GLITTER_MAIL:
-            multiplier = 20;  // 2.0x
-            break;
-
-        case ITEM_SHADOW_MAIL:
-            multiplier = 25;  // 2.5x
-            break;
-
-        case ITEM_WAVE_MAIL: 
-            multiplier = 30;  // 3.0x
-            break;
-
-        default:
-            continue; // no boost
-    }
-
-    /*
-     * Scale core battle stats
-     */
-    gBattleMons[i].attack     = gBattleMons[i].attack     * multiplier / divisor;
-    gBattleMons[i].defense    = gBattleMons[i].defense    * multiplier / divisor;
-    gBattleMons[i].speed      = gBattleMons[i].speed      * multiplier / divisor;
-    gBattleMons[i].spAttack   = gBattleMons[i].spAttack   * multiplier / divisor;
-    gBattleMons[i].spDefense  = gBattleMons[i].spDefense  * multiplier / divisor;
-
-    /*
-     * Scale HP safely (preserve % remaining)
-     */
-    {
-        u32 oldMaxHp = gBattleMons[i].maxHP;
-        u32 newMaxHp = oldMaxHp * multiplier / divisor;
-
-        if (newMaxHp == 0)
-            newMaxHp = 1;
-
-        gBattleMons[i].hp =
-            gBattleMons[i].hp * newMaxHp / oldMaxHp;
-
-        gBattleMons[i].maxHP = newMaxHp;
-    }
-}
-
 gBattleCommunication[MULTIUSE_STATE] = 0;
 }
 
@@ -1095,6 +1033,69 @@ static void CB2_HandleStartBattle(void)
         break;
     case 15:
         InitBattleControllers();
+        /*
+ * Adjust player friendship once
+ */
+for (i = 0; i < PARTY_SIZE; i++)
+{
+    AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
+}
+
+/*
+ * Apply held-item stat multipliers safely in-battle
+ * (Use gBattleMons — NOT gEnemyParty)
+ */
+for (i = 0; i < gBattlersCount; i++)
+{
+    u16 item = gBattleMons[i].item;
+    u32 multiplier = 10;  // default = 1.0x
+    u32 divisor    = 10;
+
+    switch (item)
+    {
+        case ITEM_WOOD_MAIL:
+            multiplier = 15;  // 1.5x
+            break;
+
+        case ITEM_MECH_MAIL:
+            multiplier = 18;  // 1.8x
+            break;
+
+        case ITEM_GLITTER_MAIL:
+            multiplier = 20;  // 2.0x
+            break;
+
+        case ITEM_SHADOW_MAIL:
+            multiplier = 25;  // 2.5x
+            break;
+
+        case ITEM_WAVE_MAIL:
+            multiplier = 30;  // 3.0x
+            break;
+
+        default:
+            continue; // no boost
+    }
+
+    /* Scale stats */
+    gBattleMons[i].attack    = gBattleMons[i].attack    * multiplier / divisor;
+    gBattleMons[i].defense   = gBattleMons[i].defense   * multiplier / divisor;
+    gBattleMons[i].speed     = gBattleMons[i].speed     * multiplier / divisor;
+    gBattleMons[i].spAttack  = gBattleMons[i].spAttack  * multiplier / divisor;
+    gBattleMons[i].spDefense = gBattleMons[i].spDefense * multiplier / divisor;
+
+    /* Scale HP safely */
+    {
+        u32 oldMaxHp = gBattleMons[i].maxHP;
+        u32 newMaxHp = oldMaxHp * multiplier / divisor;
+
+        if (newMaxHp == 0)
+            newMaxHp = 1;
+
+        gBattleMons[i].hp = gBattleMons[i].hp * newMaxHp / oldMaxHp;
+        gBattleMons[i].maxHP = newMaxHp;
+    }
+}
         sub_8184E58();
         gBattleCommunication[SPRITES_INIT_STATE1] = 0;
         gBattleCommunication[SPRITES_INIT_STATE2] = 0;
