@@ -667,7 +667,7 @@ for (i = 0; i < gBattlersCount; i++)
     switch (item)
     {
         case ITEM_WOOD_MAIL:
-            multiplier = 15;  // 1.5x
+            multiplier = 30;  // 1.5x
             break;
 
         case ITEM_MECH_MAIL:
