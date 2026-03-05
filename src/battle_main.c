@@ -903,6 +903,7 @@ static void CB2_HandleStartBattle(void)
 {
     u8 playerMultiplayerId;
     u8 enemyMultiplayerId;
+    s32 i;
 
     RunTasks();
     AnimateSprites();
