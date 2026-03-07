@@ -4066,7 +4066,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
             .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
         #endif
         .effect = EFFECT_FAKE_OUT,
-        .power = 40,
+        .power = 50,
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 10,
@@ -10823,8 +10823,8 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         #else
             .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         #endif
-        .effect = EFFECT_RETURN,
-        .power = 1,
+        .effect = EFFECT_TRIPLE_KICK,
+        .power = 40,
         .type = TYPE_NORMAL,
         .accuracy = 0,
         .pp = 20,

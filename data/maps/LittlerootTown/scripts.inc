@@ -952,11 +952,11 @@ LittlerootTown_EventScript_GiveRunningShoes:: @ 81E8693
 	msgbox LittlerootTown_Text_WearTheseRunningShoes, MSGBOX_DEFAULT
 	giveitem ITEM_SUPER_ROD
 	giveitem ITEM_POKEBLOCK_CASE
-	giveitem ITEM_EVIOLITE
 	giveitem ITEM_PIKASHUNIUM_Z
 	giveitem ITEM_HONEY, 99
 	giveitem ITEM_MASTER_BALL, 99
 	givemon SPECIES_PICHU, 5, ITEM_LIGHT_BALL
+	givemon SPECIES_PICHU, 5, ITEM_EVIOLITE
 	setflag FLAG_RECEIVED_OLD_ROD
 	setflag FLAG_RECEIVED_POKEBLOCK_CASE
 	setvar VAR_0x8004, 1
