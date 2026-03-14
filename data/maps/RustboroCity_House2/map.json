@@ -77,7 +77,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "FLAG_ITEM_RUSTBORO_CITY_ItemEVIOLITE",
-      "flag": "LAG_ITEM_RUSTBORO_CITY_EVIOLITE"
+      "flag": "FLAG_ITEM_RUSTBORO_CITY_EVIOLITE"
     }
   ],
   "warp_events": [
