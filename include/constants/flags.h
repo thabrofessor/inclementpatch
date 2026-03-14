@@ -696,8 +696,8 @@
 #define FLAG_UNUSED_0x293  0x293 // Unused Flag
 #define FLAG_ITEM_PETALBURG_CITY_FLAME_ORB  0x294 // NEW 2/28 Flag
 #define FLAG_ITEM_PETALBURG_CITY_TOXIC_ORB  0x295 // Unused Flag
-#define FLAG_UNUSED_0x296  0x296 // Unused Flag
-#define FLAG_UNUSED_0x297  0x297 // Unused Flag
+#define FLAG_ITEM_RUSTBORO_CITY_EVIOLITE  0x296 // Unused Flag
+#define FLAG_ITEM_RUSTBORO_CITY_PIKAZ 0x297 // Unused Flag
 #define FLAG_UNUSED_0x298  0x298 // Unused Flag
 #define FLAG_UNUSED_0x299  0x299 // Unused Flag
 #define FLAG_UNUSED_0x29A  0x29A // Unused Flag
