@@ -952,7 +952,6 @@ LittlerootTown_EventScript_GiveRunningShoes:: @ 81E8693
 	msgbox LittlerootTown_Text_WearTheseRunningShoes, MSGBOX_DEFAULT
 	giveitem ITEM_SUPER_ROD
 	giveitem ITEM_POKEBLOCK_CASE
-	giveitem ITEM_PIKASHUNIUM_Z
 	giveitem ITEM_HONEY, 99
 	giveitem ITEM_MASTER_BALL, 99
 	givemon SPECIES_PICHU, 5, ITEM_LIGHT_BALL
