@@ -6347,7 +6347,8 @@ static void Cmd_switchineffects(void)
         BattleScriptPushCursor();
         gBattlescriptCurrInstr = BattleScript_SwitchInAbilityMsgRet;
     }
-    else if (gBattleMons[gActiveBattler].item == ITEM_WOOD_MAIL)
+    else if (GetBattlerSide(gActiveBattler) == B_SIDE_OPPONENT
+        && gBattleMons[gActiveBattler].item == ITEM_WOOD_MAIL)
     {
         gBattlerAttacker = gActiveBattler;
         BattleScriptPushCursor();
