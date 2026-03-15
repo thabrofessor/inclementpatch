@@ -3925,7 +3925,7 @@ static void TryDoEventsBeforeFirstTurn(void)
     {
         gBattlerAttacker = gBattlerByTurnOrder[gBattleStruct->switchInItemsCounter++];
         if (GetBattlerSide(gBattlerAttacker) == B_SIDE_OPPONENT
-            && gBattleMons[gBattlerAttacker].item == ITEM_WOOD_MAIL)
+            && GetMonData(&gEnemyParty[gBattlerPartyIndexes[gBattlerAttacker]], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
         {
             BattleScriptExecute(BattleScript_TotemMonSendOut);
             return;
@@ -5733,5 +5733,4 @@ void SetTotemBoost(void)
         }
     }
 }
-
 

@@ -6348,7 +6348,7 @@ static void Cmd_switchineffects(void)
         gBattlescriptCurrInstr = BattleScript_SwitchInAbilityMsgRet;
     }
     else if (GetBattlerSide(gActiveBattler) == B_SIDE_OPPONENT
-        && gBattleMons[gActiveBattler].item == ITEM_WOOD_MAIL)
+        && GetMonData(&gEnemyParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
     {
         gBattlerAttacker = gActiveBattler;
         BattleScriptPushCursor();
