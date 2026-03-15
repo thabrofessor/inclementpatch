@@ -9002,6 +9002,12 @@ BattleScript_TotemFlaredToLife::
 	waitmessage B_WAIT_TIME_LONG
 	goto BattleScript_ApplyTotemVarBoost
 
+BattleScript_TotemMonSendOut::
+	playanimation BS_ATTACKER, B_ANIM_TOTEM_FLARE, NULL
+	printstring STRINGID_AURAFLAREDTOLIFE
+	waitmessage B_WAIT_TIME_LONG
+	return
+	
 BattleScript_TotemVar::
 	gettotemboost BattleScript_ApplyTotemVarBoost
 BattleScript_TotemVarEnd:
