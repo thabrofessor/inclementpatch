@@ -6347,12 +6347,13 @@ static void Cmd_switchineffects(void)
         BattleScriptPushCursor();
         gBattlescriptCurrInstr = BattleScript_SwitchInAbilityMsgRet;
     }
-        else if (GetBattlerSide(gActiveBattler) == B_SIDE_OPPONENT
-             && GetMonData(&gEnemyParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
+    else if (GetBattlerSide(gActiveBattler) == B_SIDE_OPPONENT
+        && GetMonData(&gEnemyParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
     {
         gBattlerAttacker = gActiveBattler;
+        gBattlerTarget = gActiveBattler;
         BattleScriptPushCursor();
-        gBattlescriptCurrInstr = BattleScript_TotemMonSendOut;
+        gBattlescriptCurrInstr = BattleScript_TotemMonSendOutRet;
     }
     else if (!(gSideStatuses[GetBattlerSide(gActiveBattler)] & SIDE_STATUS_SPIKES_DAMAGED)
         && (gSideStatuses[GetBattlerSide(gActiveBattler)] & SIDE_STATUS_SPIKES)

@@ -3920,13 +3920,14 @@ static void TryDoEventsBeforeFirstTurn(void)
         return;
     }
 
-       // Announce opponent Totem mons (Wood Mail) when they are sent out.
+    // Announce opponent Totem mons (Wood Mail) when they are sent out.
     while (gBattleStruct->switchInItemsCounter < gBattlersCount)
     {
         gBattlerAttacker = gBattlerByTurnOrder[gBattleStruct->switchInItemsCounter++];
         if (GetBattlerSide(gBattlerAttacker) == B_SIDE_OPPONENT
-                 && GetMonData(&gEnemyParty[gBattlerPartyIndexes[gBattlerAttacker]], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
+            && GetMonData(&gEnemyParty[gBattlerPartyIndexes[gBattlerAttacker]], MON_DATA_HELD_ITEM) == ITEM_WOOD_MAIL)
         {
+            gBattlerTarget = gBattlerAttacker;
             BattleScriptExecute(BattleScript_TotemMonSendOut);
             return;
         }
