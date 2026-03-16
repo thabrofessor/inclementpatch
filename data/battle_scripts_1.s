@@ -9009,13 +9009,13 @@ BattleScript_TotemMonSendOut::
 	end3
 
 BattleScript_AlphaMonSendOut::
-	playanimation BS_ATTACKER, B_ANIM_STATS_CHANGE, NULL
+	playanimation BS_ATTACKER, B_ANIM_FORM_CHANGE, NULL
 	printstring STRINGID_ALPHAPOKEMONPRESENT
 	waitmessage B_WAIT_TIME_LONG
 	end3
 
 BattleScript_ShadowMonSendOut::
-	playanimation BS_ATTACKER, B_ANIM_HELD_ITEM_EFFECT, NULL
+	playanimation BS_ATTACKER, B_ANIM_FUTURE_SIGHT_HIT, NULL
 	printstring STRINGID_SHADOWPOKEMONPRESENT
 	waitmessage B_WAIT_TIME_LONG
 	end3
@@ -9039,13 +9039,13 @@ BattleScript_TotemMonSendOutRet::
 	return
 
 BattleScript_AlphaMonSendOutRet::
-	playanimation BS_ATTACKER, B_ANIM_STATS_CHANGE, NULL
+	playanimation BS_ATTACKER, B_ANIM_FORM_CHANGE, NULL
 	printstring STRINGID_ALPHAPOKEMONPRESENT
 	waitmessage B_WAIT_TIME_LONG
 	return
 
 BattleScript_ShadowMonSendOutRet::
-	playanimation BS_ATTACKER, B_ANIM_HELD_ITEM_EFFECT, NULL
+	playanimation BS_ATTACKER, B_ANIM_FUTURE_SIGHT_HIT, NULL
 	printstring STRINGID_SHADOWPOKEMONPRESENT
 	waitmessage B_WAIT_TIME_LONG
 	return
