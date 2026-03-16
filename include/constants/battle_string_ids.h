@@ -611,8 +611,13 @@
 #define STRINGID_NEUTRALIZINGGASOVER                  608
 #define STRINGID_PLAYERLOSTAGAINSTENEMYTRAINER        609
 #define STRINGID_PLAYERPAIDPRIZEMONEY                 610
+#define STRINGID_TOTEMPOKEMONPRESENT                  611
+#define STRINGID_ALPHAPOKEMONPRESENT                  612
+#define STRINGID_SHADOWPOKEMONPRESENT                 613
+#define STRINGID_PRIMALPOKEMONPRESENT                 614
+#define STRINGID_GMAXPOKEMONPRESENT                   615
 
-#define BATTLESTRINGS_COUNT                           611
+#define BATTLESTRINGS_COUNT                           616
 
 // The below IDs are all indexes into battle message tables,
 // used to determine which of a set of messages to print.
