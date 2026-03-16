@@ -6370,13 +6370,15 @@ static void Cmd_switchineffects(void)
         BattleScriptPushCursor();
         gBattlescriptCurrInstr = BattleScript_SwitchInAbilityMsgRet;
     }
-    else if (GetBattlerSide(gActiveBattler) == B_SIDE_OPPONENT
+        else if (GetBattlerSide(gActiveBattler) == B_SIDE_OPPONENT
+        && !gSpecialStatuses[gActiveBattler].switchInItemDone
         && GetSpecialMailSendOutScript(heldItem, TRUE) != NULL)
     {
         const u8 *script = GetSpecialMailSendOutScript(heldItem, TRUE);
 
         gBattlerAttacker = gActiveBattler;
         gBattlerTarget = gActiveBattler;
+        gSpecialStatuses[gActiveBattler].switchInItemDone = TRUE;
         BattleScriptPushCursor();
         gBattlescriptCurrInstr = script;
     }
