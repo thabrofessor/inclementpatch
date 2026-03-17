@@ -6326,6 +6326,7 @@ static void SetDmgHazardsBattlescript(u8 battlerId, u8 multistringId)
     else
         gBattlescriptCurrInstr = BattleScript_DmgHazardsOnFaintedBattler;
 }
+
 static const u8 *GetSpecialMailSendOutScript(u16 item, bool8 returns)
 {
     switch (item)
@@ -6344,6 +6345,7 @@ static const u8 *GetSpecialMailSendOutScript(u16 item, bool8 returns)
         return NULL;
     }
 }
+
 static void Cmd_switchineffects(void)
 {
     s32 i;
@@ -6370,7 +6372,7 @@ static void Cmd_switchineffects(void)
         BattleScriptPushCursor();
         gBattlescriptCurrInstr = BattleScript_SwitchInAbilityMsgRet;
     }
-        else if (GetBattlerSide(gActiveBattler) == B_SIDE_OPPONENT
+    else if (GetBattlerSide(gActiveBattler) == B_SIDE_OPPONENT
         && !gSpecialStatuses[gActiveBattler].switchInItemDone
         && GetSpecialMailSendOutScript(heldItem, TRUE) != NULL)
     {
