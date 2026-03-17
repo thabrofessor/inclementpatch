@@ -161,7 +161,7 @@ LittlerootTown_EventScript_GoInsideWithMom:: @ 81E7F17
 	delay 10
 	applymovement LOCALID_MOM, LittlerootTown_Movement_MomApproachPlayerAtTruck
 	waitmovement 0
-	givemon SPECIES_RATTATA, 5, ITEM_NONE
+	givemon SPECIES_RATTATA, 0, ITEM_NONE
 	msgbox LittlerootTown_Text_OurNewHomeLetsGoInside, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_MOM, LittlerootTown_Movement_MomApproachDoor
@@ -955,7 +955,6 @@ LittlerootTown_EventScript_GiveRunningShoes:: @ 81E8693
 	giveitem ITEM_HONEY, 99
 	giveitem ITEM_MASTER_BALL, 99
 	givemon SPECIES_PICHU, 5, ITEM_LIGHT_BALL
-	givemon SPECIES_EEVEE_PARTNER, 5, ITEM_EVIOLITE
 	setflag FLAG_RECEIVED_OLD_ROD
 	setflag FLAG_RECEIVED_POKEBLOCK_CASE
 	setvar VAR_0x8004, 1
