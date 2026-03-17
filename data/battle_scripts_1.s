@@ -9002,69 +9002,65 @@ BattleScript_TotemFlaredToLife::
 	waitmessage B_WAIT_TIME_LONG
 	goto BattleScript_ApplyTotemVarBoost
 
-// special mail animations start
-
 BattleScript_TotemMonSendOut::
 	playanimation BS_ATTACKER, B_ANIM_TOTEM_FLARE, NULL
-	printstring STRINGID_AURAFLAREDTOLIFE
+	printstring STRINGID_TOTEMPOKEMONPRESENT
 	waitmessage B_WAIT_TIME_LONG
 	end3
 
 BattleScript_AlphaMonSendOut::
-	playanimation BS_ATTACKER, B_ANIM_STATS_CHANGE, NULL
-	printstring STRINGID_AURAFLAREDTOLIFE
+	playanimation BS_ATTACKER, B_ANIM_FORM_CHANGE, NULL
+	printstring STRINGID_ALPHAPOKEMONPRESENT
 	waitmessage B_WAIT_TIME_LONG
 	end3
 
 BattleScript_ShadowMonSendOut::
-	playanimation BS_ATTACKER, B_ANIM_HELD_ITEM_EFFECT, NULL
-	printstring STRINGID_AURAFLAREDTOLIFE
+	playanimation BS_ATTACKER, B_ANIM_FUTURE_SIGHT_HIT, NULL
+	printstring STRINGID_SHADOWPOKEMONPRESENT
 	waitmessage B_WAIT_TIME_LONG
 	end3
 
 BattleScript_PrimalMonSendOut::
 	playanimation BS_ATTACKER, B_ANIM_PRIMAL_REVERSION, NULL
-	printstring STRINGID_AURAFLAREDTOLIFE
+	printstring STRINGID_PRIMALPOKEMONPRESENT
 	waitmessage B_WAIT_TIME_LONG
 	end3
 
 BattleScript_GmaxMonSendOut::
 	playanimation BS_ATTACKER, B_ANIM_MEGA_EVOLUTION, NULL
-	printstring STRINGID_AURAFLAREDTOLIFE
+	printstring STRINGID_GMAXPOKEMONPRESENT
 	waitmessage B_WAIT_TIME_LONG
 	end3
 
 BattleScript_TotemMonSendOutRet::
 	playanimation BS_ATTACKER, B_ANIM_TOTEM_FLARE, NULL
-	printstring STRINGID_AURAFLAREDTOLIFE
+	printstring STRINGID_TOTEMPOKEMONPRESENT
 	waitmessage B_WAIT_TIME_LONG
 	return
 
 BattleScript_AlphaMonSendOutRet::
-	playanimation BS_ATTACKER, B_ANIM_STATS_CHANGE, NULL
-	printstring STRINGID_AURAFLAREDTOLIFE
+	playanimation BS_ATTACKER, B_ANIM_FORM_CHANGE, NULL
+	printstring STRINGID_ALPHAPOKEMONPRESENT
 	waitmessage B_WAIT_TIME_LONG
 	return
 
 BattleScript_ShadowMonSendOutRet::
-	playanimation BS_ATTACKER, B_ANIM_HELD_ITEM_EFFECT, NULL
-	printstring STRINGID_AURAFLAREDTOLIFE
+	playanimation BS_ATTACKER, B_ANIM_FUTURE_SIGHT_HIT, NULL
+	printstring STRINGID_SHADOWPOKEMONPRESENT
 	waitmessage B_WAIT_TIME_LONG
 	return
 
 BattleScript_PrimalMonSendOutRet::
 	playanimation BS_ATTACKER, B_ANIM_PRIMAL_REVERSION, NULL
-	printstring STRINGID_AURAFLAREDTOLIFE
+	printstring STRINGID_PRIMALPOKEMONPRESENT
 	waitmessage B_WAIT_TIME_LONG
 	return
 
 BattleScript_GmaxMonSendOutRet::
 	playanimation BS_ATTACKER, B_ANIM_MEGA_EVOLUTION, NULL
-	printstring STRINGID_AURAFLAREDTOLIFE
+	printstring STRINGID_GMAXPOKEMONPRESENT
 	waitmessage B_WAIT_TIME_LONG
 	return
-
-// special mail effects end
 
 BattleScript_TotemVar::
 	gettotemboost BattleScript_ApplyTotemVarBoost

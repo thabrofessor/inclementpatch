@@ -5737,10 +5737,8 @@ static void Cmd_switchindataupdate(void)
     }
 
     SwitchInClearSetData();
-    // special mail effect start
     gSpecialStatuses[gActiveBattler].switchInAbilityDone = FALSE;
     gSpecialStatuses[gActiveBattler].switchInItemDone = FALSE;
-    // special mail effect end
 
     if (gBattleTypeFlags & BATTLE_TYPE_PALACE
         && gBattleMons[gActiveBattler].maxHP / 2 >= gBattleMons[gActiveBattler].hp
@@ -6328,8 +6326,6 @@ static void SetDmgHazardsBattlescript(u8 battlerId, u8 multistringId)
     else
         gBattlescriptCurrInstr = BattleScript_DmgHazardsOnFaintedBattler;
 }
-
-// special mail item effect start
 static const u8 *GetSpecialMailSendOutScript(u16 item, bool8 returns)
 {
     switch (item)
@@ -6348,14 +6344,10 @@ static const u8 *GetSpecialMailSendOutScript(u16 item, bool8 returns)
         return NULL;
     }
 }
-// special mail item effect start
-
 static void Cmd_switchineffects(void)
 {
     s32 i;
-    // for special mail item effect
     u16 heldItem = ITEM_NONE;
-    // for special mail item effect
 
     gActiveBattler = GetBattlerForBattleScript(gBattlescriptCurrInstr[1]);
     UpdateSentPokesToOpponentValue(gActiveBattler);
@@ -6366,10 +6358,8 @@ static void Cmd_switchineffects(void)
     if (!IsBattlerAIControlled(gActiveBattler))
         gBattleStruct->appearedInBattle |= gBitTable[gBattlerPartyIndexes[gActiveBattler]];
 
-    // special mail item start    
     if (GetBattlerSide(gActiveBattler) == B_SIDE_OPPONENT)
         heldItem = GetMonData(&gEnemyParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_HELD_ITEM);
-    // special mail item end
 
     // Neutralizing Gas announces itself before hazards
     if (gBattleMons[gActiveBattler].ability == ABILITY_NEUTRALIZING_GAS && gSpecialStatuses[gActiveBattler].announceNeutralizingGas == 0)
@@ -6380,8 +6370,6 @@ static void Cmd_switchineffects(void)
         BattleScriptPushCursor();
         gBattlescriptCurrInstr = BattleScript_SwitchInAbilityMsgRet;
     }
-
-    // special mail item start
         else if (GetBattlerSide(gActiveBattler) == B_SIDE_OPPONENT
         && !gSpecialStatuses[gActiveBattler].switchInItemDone
         && GetSpecialMailSendOutScript(heldItem, TRUE) != NULL)
@@ -6394,8 +6382,6 @@ static void Cmd_switchineffects(void)
         BattleScriptPushCursor();
         gBattlescriptCurrInstr = script;
     }
-    // special mail item end
-
     else if (!(gSideStatuses[GetBattlerSide(gActiveBattler)] & SIDE_STATUS_SPIKES_DAMAGED)
         && (gSideStatuses[GetBattlerSide(gActiveBattler)] & SIDE_STATUS_SPIKES)
         && GetBattlerAbility(gActiveBattler) != ABILITY_MAGIC_GUARD
