@@ -105,6 +105,7 @@ static void SpriteCB_BounceEffect(struct Sprite *sprite);
 static void BattleStartClearSetData(void);
 static void DoBattleIntro(void);
 static void TryDoEventsBeforeFirstTurn(void);
+static const u8 *GetSpecialMailSendOutScript(u16 item, bool8 returns);
 static void HandleTurnActionSelectionState(void);
 static void RunTurnActionsFunctions(void);
 static void SetActionsAndBattlersTurnOrder(void);
@@ -124,6 +125,8 @@ static void HandleEndTurn_BattleLost(void);
 static void HandleEndTurn_RanFromBattle(void);
 static void HandleEndTurn_MonFled(void);
 static void HandleEndTurn_FinishBattle(void);
+
+#define PLAYER_TRAINER_BATTLE_ITEM_LIMIT 4
 
 // EWRAM vars
 EWRAM_DATA u16 gBattle_BG0_X = 0;
@@ -239,6 +242,7 @@ EWRAM_DATA u16 gPartnerSpriteId = 0;
 EWRAM_DATA struct TotemBoost gTotemBoosts[MAX_BATTLERS_COUNT] = {0};
 EWRAM_DATA bool8 gHasFetchedBall = FALSE;
 EWRAM_DATA u8 gLastUsedBall = 0;
+EWRAM_DATA static u8 sPlayerTrainerBattleItemUses = 0;
 EWRAM_DATA u16 gLastThrownBall = 0;
 EWRAM_DATA u8 gMaxPartyLevel = 1;
 EWRAM_DATA bool8 gSwapDamageCategory = FALSE; // Photon Geyser, Shell Side Arm, Light That Burns the Sky
@@ -559,6 +563,8 @@ void CB2_InitBattle(void)
 static void CB2_InitBattleInternal(void)
 {
     s32 i;
+
+    sPlayerTrainerBattleItemUses = 0;
 
     SetHBlankCallback(NULL);
     SetVBlankCallback(NULL);
@@ -3877,6 +3883,25 @@ static void DoBattleIntro(void)
     }
 }
 
+static const u8 *GetSpecialMailSendOutScript(u16 item, bool8 returns)
+{
+    switch (item)
+    {
+    case ITEM_WOOD_MAIL:
+        return returns ? BattleScript_TotemMonSendOutRet : BattleScript_TotemMonSendOut;
+    case ITEM_MECH_MAIL:
+        return returns ? BattleScript_AlphaMonSendOutRet : BattleScript_AlphaMonSendOut;
+    case ITEM_SHADOW_MAIL:
+        return returns ? BattleScript_ShadowMonSendOutRet : BattleScript_ShadowMonSendOut;
+    case ITEM_WAVE_MAIL:
+        return returns ? BattleScript_PrimalMonSendOutRet : BattleScript_PrimalMonSendOut;
+    case ITEM_GLITTER_MAIL:
+        return returns ? BattleScript_GmaxMonSendOutRet : BattleScript_GmaxMonSendOut;
+    default:
+        return NULL;
+    }
+}
+
 static void TryDoEventsBeforeFirstTurn(void)
 {
     s32 i, j;
@@ -3919,6 +3944,28 @@ static void TryDoEventsBeforeFirstTurn(void)
         gBattleStruct->terrainDone = TRUE;
         return;
     }
+
+    // Announce opponent special-mail mons when they are sent out.
+    while (gBattleStruct->switchInItemsCounter < gBattlersCount)
+    {
+        gBattlerAttacker = gBattlerByTurnOrder[gBattleStruct->switchInItemsCounter++];
+        if (GetBattlerSide(gBattlerAttacker) == B_SIDE_OPPONENT)
+        {
+            const u8 *script;
+            u16 heldItem = GetMonData(&gEnemyParty[gBattlerPartyIndexes[gBattlerAttacker]], MON_DATA_HELD_ITEM);
+
+            script = GetSpecialMailSendOutScript(heldItem, FALSE);
+            if (script != NULL)
+            {
+                gBattlerTarget = gBattlerAttacker;
+                BattleScriptExecute(script);
+                return;
+            }
+        }
+    }
+    gBattleStruct->switchInItemsCounter = 0;
+
+
 
     // Totem boosts
     for (i = 0; i < gBattlersCount; i++)
@@ -4299,7 +4346,9 @@ static void HandleTurnActionSelectionState(void)
                                             | BATTLE_TYPE_FRONTIER_NO_PYRAMID
                                             | BATTLE_TYPE_EREADER_TRAINER
                                             | BATTLE_TYPE_RECORDED_LINK)
-                        || (gSaveBlock2Ptr->gameDifficulty == DIFFICULTY_CHALLENGE && (gBattleTypeFlags & BATTLE_TYPE_TRAINER)))
+                        || (gBattleTypeFlags & BATTLE_TYPE_TRAINER
+                            && GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER
+                            && sPlayerTrainerBattleItemUses >= PLAYER_TRAINER_BATTLE_ITEM_LIMIT))
                     {
                         RecordedBattle_ClearBattlerAction(gActiveBattler, 1);
                         gSelectionBattleScripts[gActiveBattler] = BattleScript_ActionSelectionItemsCantBeUsed;
@@ -4490,6 +4539,11 @@ static void HandleTurnActionSelectionState(void)
                     else
                     {
                         gLastUsedItem = (gBattleResources->bufferB[gActiveBattler][1] | (gBattleResources->bufferB[gActiveBattler][2] << 8));
+                        if (gBattleTypeFlags & BATTLE_TYPE_TRAINER
+                            && GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER)
+                        {
+                            sPlayerTrainerBattleItemUses++;
+                        }
                         if (ItemId_GetPocket(gLastUsedItem) == POCKET_POKE_BALLS)
                             gBattleStruct->throwingPokeBall = TRUE;
                         gBattleCommunication[gActiveBattler]++;
