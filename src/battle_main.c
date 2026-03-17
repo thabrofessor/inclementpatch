@@ -3965,8 +3965,6 @@ static void TryDoEventsBeforeFirstTurn(void)
     }
     gBattleStruct->switchInItemsCounter = 0;
 
-
-
     // Totem boosts
     for (i = 0; i < gBattlersCount; i++)
     {

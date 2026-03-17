@@ -358,6 +358,7 @@ extern const u8 BattleScript_EmergencyExitWildNoPopUp[];
 extern const u8 BattleScript_CheekPouchActivates[];
 extern const u8 BattleScript_TotemVar[];
 extern const u8 BattleScript_TotemFlaredToLife[];
+// special mail effects start
 extern const u8 BattleScript_TotemMonSendOut[];
 extern const u8 BattleScript_AlphaMonSendOut[];
 extern const u8 BattleScript_ShadowMonSendOut[];
@@ -368,6 +369,7 @@ extern const u8 BattleScript_AlphaMonSendOutRet[];
 extern const u8 BattleScript_ShadowMonSendOutRet[];
 extern const u8 BattleScript_PrimalMonSendOutRet[];
 extern const u8 BattleScript_GmaxMonSendOutRet[];
+// special mail effects end
 extern const u8 BattleScript_AnnounceAirLockCloudNine[];
 extern const u8 BattleScript_BattlerAbilityStatRaiseOnSwitchIn[];
 extern const u8 BattleScript_CottonDownActivates[];
