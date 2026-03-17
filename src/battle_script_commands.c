@@ -5738,8 +5738,8 @@ static void Cmd_switchindataupdate(void)
 
     SwitchInClearSetData();
     // special mail effect start
-    gSpecialStatuses[gActiveBattler].switchInAbilityDone = FALSE;
-    gSpecialStatuses[gActiveBattler].switchInItemDone = FALSE;
+    //gSpecialStatuses[gActiveBattler].switchInAbilityDone = FALSE;
+    //gSpecialStatuses[gActiveBattler].switchInItemDone = FALSE;
     // special mail effect end
 
     if (gBattleTypeFlags & BATTLE_TYPE_PALACE
@@ -6330,31 +6330,31 @@ static void SetDmgHazardsBattlescript(u8 battlerId, u8 multistringId)
 }
 
 // special mail item effect start
-static const u8 *GetSpecialMailSendOutScript(u16 item, bool8 returns)
-{
-    switch (item)
-    {
-    case ITEM_WOOD_MAIL:
-        return returns ? BattleScript_TotemMonSendOutRet : BattleScript_TotemMonSendOut;
-    case ITEM_MECH_MAIL:
-        return returns ? BattleScript_AlphaMonSendOutRet : BattleScript_AlphaMonSendOut;
-    case ITEM_SHADOW_MAIL:
-        return returns ? BattleScript_ShadowMonSendOutRet : BattleScript_ShadowMonSendOut;
-    case ITEM_WAVE_MAIL:
-        return returns ? BattleScript_PrimalMonSendOutRet : BattleScript_PrimalMonSendOut;
-    case ITEM_GLITTER_MAIL:
-        return returns ? BattleScript_GmaxMonSendOutRet : BattleScript_GmaxMonSendOut;
-    default:
-        return NULL;
-    }
-}
+//static const u8 *GetSpecialMailSendOutScript(u16 item, bool8 returns)
+//{
+//    switch (item)
+//    {
+//    case ITEM_WOOD_MAIL:
+//        return returns ? BattleScript_TotemMonSendOutRet : BattleScript_TotemMonSendOut;
+//    case ITEM_MECH_MAIL:
+//        return returns ? BattleScript_AlphaMonSendOutRet : BattleScript_AlphaMonSendOut;
+//    case ITEM_SHADOW_MAIL:
+//        return returns ? BattleScript_ShadowMonSendOutRet : BattleScript_ShadowMonSendOut;
+//    case ITEM_WAVE_MAIL:
+//        return returns ? BattleScript_PrimalMonSendOutRet : BattleScript_PrimalMonSendOut;
+//    case ITEM_GLITTER_MAIL:
+//        return returns ? BattleScript_GmaxMonSendOutRet : BattleScript_GmaxMonSendOut;
+//    default:
+//        return NULL;
+//    }
+//}
 // special mail item effect start
 
 static void Cmd_switchineffects(void)
 {
     s32 i;
     // for special mail item effect
-    u16 heldItem = ITEM_NONE;
+//    u16 heldItem = ITEM_NONE;
     // for special mail item effect
 
     gActiveBattler = GetBattlerForBattleScript(gBattlescriptCurrInstr[1]);
@@ -6367,8 +6367,8 @@ static void Cmd_switchineffects(void)
         gBattleStruct->appearedInBattle |= gBitTable[gBattlerPartyIndexes[gActiveBattler]];
 
     // special mail item start    
-    if (GetBattlerSide(gActiveBattler) == B_SIDE_OPPONENT)
-        heldItem = GetMonData(&gEnemyParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_HELD_ITEM);
+//    if (GetBattlerSide(gActiveBattler) == B_SIDE_OPPONENT)
+//        heldItem = GetMonData(&gEnemyParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_HELD_ITEM);
     // special mail item end
 
     // Neutralizing Gas announces itself before hazards
@@ -6382,18 +6382,18 @@ static void Cmd_switchineffects(void)
     }
 
     // special mail item start
-        else if (GetBattlerSide(gActiveBattler) == B_SIDE_OPPONENT
-        && !gSpecialStatuses[gActiveBattler].switchInItemDone
-        && GetSpecialMailSendOutScript(heldItem, TRUE) != NULL)
-    {
-        const u8 *script = GetSpecialMailSendOutScript(heldItem, TRUE);
-
-        gBattlerAttacker = gActiveBattler;
-        gBattlerTarget = gActiveBattler;
-        gSpecialStatuses[gActiveBattler].switchInItemDone = TRUE;
-        BattleScriptPushCursor();
-        gBattlescriptCurrInstr = script;
-    }
+//        else if (GetBattlerSide(gActiveBattler) == B_SIDE_OPPONENT
+//        && !gSpecialStatuses[gActiveBattler].switchInItemDone
+//        && GetSpecialMailSendOutScript(heldItem, TRUE) != NULL)
+//    {
+//        const u8 *script = GetSpecialMailSendOutScript(heldItem, TRUE);
+//
+//        gBattlerAttacker = gActiveBattler;
+//        gBattlerTarget = gActiveBattler;
+//        gSpecialStatuses[gActiveBattler].switchInItemDone = TRUE;
+//        BattleScriptPushCursor();
+//        gBattlescriptCurrInstr = script;
+//    }
     // special mail item end
 
     else if (!(gSideStatuses[GetBattlerSide(gActiveBattler)] & SIDE_STATUS_SPIKES_DAMAGED)
