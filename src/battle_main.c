@@ -105,6 +105,7 @@ static void SpriteCB_BounceEffect(struct Sprite *sprite);
 static void BattleStartClearSetData(void);
 static void DoBattleIntro(void);
 static void TryDoEventsBeforeFirstTurn(void);
+static const u8 *GetSpecialMailSendOutScript(u16 item, bool8 returns);
 static void HandleTurnActionSelectionState(void);
 static void RunTurnActionsFunctions(void);
 static void SetActionsAndBattlersTurnOrder(void);
@@ -3877,6 +3878,25 @@ static void DoBattleIntro(void)
     }
 }
 
+static const u8 *GetSpecialMailSendOutScript(u16 item, bool8 returns)
+{
+    switch (item)
+    {
+    case ITEM_WOOD_MAIL:
+        return returns ? BattleScript_TotemMonSendOutRet : BattleScript_TotemMonSendOut;
+    case ITEM_MECH_MAIL:
+        return returns ? BattleScript_AlphaMonSendOutRet : BattleScript_AlphaMonSendOut;
+    case ITEM_SHADOW_MAIL:
+        return returns ? BattleScript_ShadowMonSendOutRet : BattleScript_ShadowMonSendOut;
+    case ITEM_WAVE_MAIL:
+        return returns ? BattleScript_PrimalMonSendOutRet : BattleScript_PrimalMonSendOut;
+    case ITEM_GLITTER_MAIL:
+        return returns ? BattleScript_GmaxMonSendOutRet : BattleScript_GmaxMonSendOut;
+    default:
+        return NULL;
+    }
+}
+
 static void TryDoEventsBeforeFirstTurn(void)
 {
     s32 i, j;
@@ -3919,6 +3939,26 @@ static void TryDoEventsBeforeFirstTurn(void)
         gBattleStruct->terrainDone = TRUE;
         return;
     }
+
+    // Announce opponent special-mail mons when they are sent out.
+    while (gBattleStruct->switchInItemsCounter < gBattlersCount)
+    {
+        gBattlerAttacker = gBattlerByTurnOrder[gBattleStruct->switchInItemsCounter++];
+        if (GetBattlerSide(gBattlerAttacker) == B_SIDE_OPPONENT)
+        {
+            const u8 *script;
+            u16 heldItem = GetMonData(&gEnemyParty[gBattlerPartyIndexes[gBattlerAttacker]], MON_DATA_HELD_ITEM);
+
+            script = GetSpecialMailSendOutScript(heldItem, FALSE);
+            if (script != NULL)
+            {
+                gBattlerTarget = gBattlerAttacker;
+                BattleScriptExecute(script);
+                return;
+            }
+        }
+    }
+    gBattleStruct->switchInItemsCounter = 0;
 
     // Totem boosts
     for (i = 0; i < gBattlersCount; i++)
@@ -5720,6 +5760,4 @@ void SetTotemBoost(void)
         }
     }
 }
-
-
 

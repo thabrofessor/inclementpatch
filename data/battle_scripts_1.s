@@ -9002,6 +9002,66 @@ BattleScript_TotemFlaredToLife::
 	waitmessage B_WAIT_TIME_LONG
 	goto BattleScript_ApplyTotemVarBoost
 
+BattleScript_TotemMonSendOut::
+	playanimation BS_ATTACKER, B_ANIM_TOTEM_FLARE, NULL
+	printstring STRINGID_AURAFLAREDTOLIFE
+	waitmessage B_WAIT_TIME_LONG
+	end3
+
+BattleScript_AlphaMonSendOut::
+	playanimation BS_ATTACKER, B_ANIM_STATS_CHANGE, NULL
+	printstring STRINGID_AURAFLAREDTOLIFE
+	waitmessage B_WAIT_TIME_LONG
+	end3
+
+BattleScript_ShadowMonSendOut::
+	playanimation BS_ATTACKER, B_ANIM_HELD_ITEM_EFFECT, NULL
+	printstring STRINGID_AURAFLAREDTOLIFE
+	waitmessage B_WAIT_TIME_LONG
+	end3
+
+BattleScript_PrimalMonSendOut::
+	playanimation BS_ATTACKER, B_ANIM_PRIMAL_REVERSION, NULL
+	printstring STRINGID_AURAFLAREDTOLIFE
+	waitmessage B_WAIT_TIME_LONG
+	end3
+
+BattleScript_GmaxMonSendOut::
+	playanimation BS_ATTACKER, B_ANIM_MEGA_EVOLUTION, NULL
+	printstring STRINGID_AURAFLAREDTOLIFE
+	waitmessage B_WAIT_TIME_LONG
+	end3
+
+BattleScript_TotemMonSendOutRet::
+	playanimation BS_ATTACKER, B_ANIM_TOTEM_FLARE, NULL
+	printstring STRINGID_AURAFLAREDTOLIFE
+	waitmessage B_WAIT_TIME_LONG
+	return
+
+BattleScript_AlphaMonSendOutRet::
+	playanimation BS_ATTACKER, B_ANIM_STATS_CHANGE, NULL
+	printstring STRINGID_AURAFLAREDTOLIFE
+	waitmessage B_WAIT_TIME_LONG
+	return
+
+BattleScript_ShadowMonSendOutRet::
+	playanimation BS_ATTACKER, B_ANIM_HELD_ITEM_EFFECT, NULL
+	printstring STRINGID_AURAFLAREDTOLIFE
+	waitmessage B_WAIT_TIME_LONG
+	return
+
+BattleScript_PrimalMonSendOutRet::
+	playanimation BS_ATTACKER, B_ANIM_PRIMAL_REVERSION, NULL
+	printstring STRINGID_AURAFLAREDTOLIFE
+	waitmessage B_WAIT_TIME_LONG
+	return
+
+BattleScript_GmaxMonSendOutRet::
+	playanimation BS_ATTACKER, B_ANIM_MEGA_EVOLUTION, NULL
+	printstring STRINGID_AURAFLAREDTOLIFE
+	waitmessage B_WAIT_TIME_LONG
+	return
+
 BattleScript_TotemVar::
 	gettotemboost BattleScript_ApplyTotemVarBoost
 BattleScript_TotemVarEnd:
