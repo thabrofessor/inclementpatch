@@ -611,7 +611,6 @@
 #define STRINGID_NEUTRALIZINGGASOVER                  608
 #define STRINGID_PLAYERLOSTAGAINSTENEMYTRAINER        609
 #define STRINGID_PLAYERPAIDPRIZEMONEY                 610
-
 #define BATTLESTRINGS_COUNT                           611
 
 // The below IDs are all indexes into battle message tables,
