@@ -5720,6 +5720,3 @@ void SetTotemBoost(void)
         }
     }
 }
-
-
-

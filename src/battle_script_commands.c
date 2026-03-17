@@ -5737,6 +5737,8 @@ static void Cmd_switchindataupdate(void)
     }
 
     SwitchInClearSetData();
+    gSpecialStatuses[gActiveBattler].switchInAbilityDone = FALSE;
+    gSpecialStatuses[gActiveBattler].switchInItemDone = FALSE;
 
     if (gBattleTypeFlags & BATTLE_TYPE_PALACE
         && gBattleMons[gActiveBattler].maxHP / 2 >= gBattleMons[gActiveBattler].hp
@@ -6325,9 +6327,29 @@ static void SetDmgHazardsBattlescript(u8 battlerId, u8 multistringId)
         gBattlescriptCurrInstr = BattleScript_DmgHazardsOnFaintedBattler;
 }
 
+static const u8 *GetSpecialMailSendOutScript(u16 item, bool8 returns)
+{
+    switch (item)
+    {
+    case ITEM_WOOD_MAIL:
+        return returns ? BattleScript_TotemMonSendOutRet : BattleScript_TotemMonSendOut;
+    case ITEM_MECH_MAIL:
+        return returns ? BattleScript_AlphaMonSendOutRet : BattleScript_AlphaMonSendOut;
+    case ITEM_SHADOW_MAIL:
+        return returns ? BattleScript_ShadowMonSendOutRet : BattleScript_ShadowMonSendOut;
+    case ITEM_WAVE_MAIL:
+        return returns ? BattleScript_PrimalMonSendOutRet : BattleScript_PrimalMonSendOut;
+    case ITEM_GLITTER_MAIL:
+        return returns ? BattleScript_GmaxMonSendOutRet : BattleScript_GmaxMonSendOut;
+    default:
+        return NULL;
+    }
+}
+
 static void Cmd_switchineffects(void)
 {
     s32 i;
+    u16 heldItem = ITEM_NONE;
 
     gActiveBattler = GetBattlerForBattleScript(gBattlescriptCurrInstr[1]);
     UpdateSentPokesToOpponentValue(gActiveBattler);
@@ -6338,6 +6360,9 @@ static void Cmd_switchineffects(void)
     if (!IsBattlerAIControlled(gActiveBattler))
         gBattleStruct->appearedInBattle |= gBitTable[gBattlerPartyIndexes[gActiveBattler]];
 
+    if (GetBattlerSide(gActiveBattler) == B_SIDE_OPPONENT)
+        heldItem = GetMonData(&gEnemyParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_HELD_ITEM);
+
     // Neutralizing Gas announces itself before hazards
     if (gBattleMons[gActiveBattler].ability == ABILITY_NEUTRALIZING_GAS && gSpecialStatuses[gActiveBattler].announceNeutralizingGas == 0)
     {
@@ -6346,6 +6371,18 @@ static void Cmd_switchineffects(void)
         gBattlerAbility = gActiveBattler;
         BattleScriptPushCursor();
         gBattlescriptCurrInstr = BattleScript_SwitchInAbilityMsgRet;
+    }
+    else if (GetBattlerSide(gActiveBattler) == B_SIDE_OPPONENT
+        && !gSpecialStatuses[gActiveBattler].switchInItemDone
+        && GetSpecialMailSendOutScript(heldItem, TRUE) != NULL)
+    {
+        const u8 *script = GetSpecialMailSendOutScript(heldItem, TRUE);
+
+        gBattlerAttacker = gActiveBattler;
+        gBattlerTarget = gActiveBattler;
+        gSpecialStatuses[gActiveBattler].switchInItemDone = TRUE;
+        BattleScriptPushCursor();
+        gBattlescriptCurrInstr = script;
     }
     else if (!(gSideStatuses[GetBattlerSide(gActiveBattler)] & SIDE_STATUS_SPIKES_DAMAGED)
         && (gSideStatuses[GetBattlerSide(gActiveBattler)] & SIDE_STATUS_SPIKES)
