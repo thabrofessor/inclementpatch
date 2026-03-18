@@ -126,6 +126,7 @@ static void HandleEndTurn_MonFled(void);
 static void HandleEndTurn_FinishBattle(void);
 static void AddMonStat(struct Pokemon *mon, s32 statId, u16 amount);
 static void ApplyMailHeldItemBoosts(struct Pokemon *mon);
+static void ApplyMailHeldItemBoostsToEnemyParty(void);
 
 // EWRAM vars
 EWRAM_DATA u16 gBattle_BG0_X = 0;
@@ -643,16 +644,14 @@ static void CB2_InitBattleInternal(void)
         if (gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS && !BATTLE_TWO_VS_ONE_OPPONENT)
             CreateNPCTrainerParty(&gEnemyParty[3], gTrainerBattleOpponent_B, FALSE);
         SetWildMonHeldItem();
+        ApplyMailHeldItemBoostsToEnemyParty();
     }
 
     gMain.inBattle = TRUE;
     gSaveBlock2Ptr->frontier.disableRecordBattle = FALSE;
 
     for (i = 0; i < PARTY_SIZE; i++)
-    {
         AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
-        ApplyMailHeldItemBoosts(&gEnemyParty[i]);
-    }
 
     gBattleCommunication[MULTIUSE_STATE] = 0;
 }
@@ -705,6 +704,24 @@ static void ApplyMailHeldItemBoosts(struct Pokemon *mon)
         break;
     default:
         break;
+    }
+}
+
+static void ApplyMailHeldItemBoostsToEnemyParty(void)
+{
+    s32 i;
+
+    // These boosts are for NPC opponent trainers only.
+    if (!(gBattleTypeFlags & BATTLE_TYPE_TRAINER))
+        return;
+    if (gBattleTypeFlags & (BATTLE_TYPE_FIRST_BATTLE | BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED))
+        return;
+
+    for (i = 0; i < PARTY_SIZE; i++)
+    {
+        if (GetMonData(&gEnemyParty[i], MON_DATA_SPECIES2) == SPECIES_NONE)
+            continue;
+        ApplyMailHeldItemBoosts(&gEnemyParty[i]);
     }
 }
 
@@ -5507,4 +5524,3 @@ void SetTotemBoost(void)
         }
     }
 }
-
