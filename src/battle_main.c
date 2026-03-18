@@ -631,6 +631,7 @@ static void CB2_InitBattleInternal(void)
     gReservedSpritePaletteCount = 4;
     SetVBlankCallback(VBlankCB_Battle);
     SetUpBattleVarsAndBirchZigzagoon();
+    gBattleStruct->playerItemUses = 0;
 
     if (gBattleTypeFlags & BATTLE_TYPE_MULTI && gBattleTypeFlags & BATTLE_TYPE_BATTLE_TOWER)
         SetMainCallback2(CB2_HandleStartMultiPartnerBattle);
@@ -4307,7 +4308,7 @@ static void HandleTurnActionSelectionState(void)
                                             | BATTLE_TYPE_RECORDED_LINK)
                                                 || (gBattleTypeFlags & BATTLE_TYPE_TRAINER
                             && GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER
-                            && sPlayerTrainerBattleItemUses >= PLAYER_TRAINER_BATTLE_ITEM_LIMIT))
+                            && gBattleStruct->playerItemUses >= PLAYER_TRAINER_BATTLE_ITEM_LIMIT))
                     {
                         RecordedBattle_ClearBattlerAction(gActiveBattler, 1);
                         gSelectionBattleScripts[gActiveBattler] = BattleScript_ActionSelectionItemsCantBeUsed;
@@ -4498,10 +4499,10 @@ static void HandleTurnActionSelectionState(void)
                     else
                     {
                         gLastUsedItem = (gBattleResources->bufferB[gActiveBattler][1] | (gBattleResources->bufferB[gActiveBattler][2] << 8));
-                                                if (gBattleTypeFlags & BATTLE_TYPE_TRAINER
+                         if (gBattleTypeFlags & BATTLE_TYPE_TRAINER
                             && GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER)
                         {
-                            sPlayerTrainerBattleItemUses++;
+                            gBattleStruct->playerItemUses++;
                         }
                         if (ItemId_GetPocket(gLastUsedItem) == POCKET_POKE_BALLS)
                             gBattleStruct->throwingPokeBall = TRUE;
