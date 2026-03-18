@@ -644,6 +644,7 @@ static void CB2_InitBattleInternal(void)
         if (gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS && !BATTLE_TWO_VS_ONE_OPPONENT)
             CreateNPCTrainerParty(&gEnemyParty[3], gTrainerBattleOpponent_B, FALSE);
         SetWildMonHeldItem();
+        ApplyMailHeldItemBoostsToEnemyParty();
     }
 
     gMain.inBattle = TRUE;
@@ -651,8 +652,6 @@ static void CB2_InitBattleInternal(void)
 
     for (i = 0; i < PARTY_SIZE; i++)
         AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
-
-    ApplyMailHeldItemBoostsToEnemyParty();
 
     gBattleCommunication[MULTIUSE_STATE] = 0;
 }
@@ -712,6 +711,7 @@ static void ApplyMailHeldItemBoostsToEnemyParty(void)
 {
     s32 i;
 
+    // These boosts are for NPC opponent trainers only.
     if (!(gBattleTypeFlags & BATTLE_TYPE_TRAINER))
         return;
     if (gBattleTypeFlags & (BATTLE_TYPE_FIRST_BATTLE | BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED))
