@@ -681,11 +681,6 @@ static const u8 sText_DestinyKnotActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX
 static const u8 sText_CloakedInAFreezingLight[] = _("{B_ATK_NAME_WITH_PREFIX} became cloaked\nin a freezing light!");
 static const u8 sText_StatWasNotLowered[] = _("{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1}\nwas not lowered!");
 static const u8 sText_AuraFlaredToLife[] = _("{B_DEF_NAME_WITH_PREFIX}'s aura flared to life!");
-static const u8 sText_TotemPokemonPresent[] = _("A Totem Pokémon is present!");
-static const u8 sText_AlphaPokemonPresent[] = _("An Alpha Pokémon is present!");
-static const u8 sText_ShadowPokemonPresent[] = _("A Shadow Pokémon is present!");
-static const u8 sText_PrimalPokemonPresent[] = _("A Primal Pokémon is present!");
-static const u8 sText_GmaxPokemonPresent[] = _("A Gigantamax Pokémon is present!");
 static const u8 sText_AirLockActivates[] = _("The effects of weather\ndisappeared.");
 static const u8 sText_PressureActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} is exerting its\npressure!");
 static const u8 sText_DarkAuraActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} is radiating\na dark aura!");
@@ -1344,11 +1339,6 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_CANTESCAPEBECAUSEOFCURRENTMOVE - 12] = sText_CantEscapeBecauseOfCurrentMove,
     [STRINGID_PLAYERLOSTAGAINSTENEMYTRAINER - 12] = sText_PlayerLostAgainstEnemyTrainer,
     [STRINGID_PLAYERPAIDPRIZEMONEY - 12] = sText_PlayerPaidPrizeMoney,
-    [STRINGID_TOTEMPOKEMONPRESENT - 12] = sText_TotemPokemonPresent,
-    [STRINGID_ALPHAPOKEMONPRESENT - 12] = sText_AlphaPokemonPresent,
-    [STRINGID_SHADOWPOKEMONPRESENT - 12] = sText_ShadowPokemonPresent,
-    [STRINGID_PRIMALPOKEMONPRESENT - 12] = sText_PrimalPokemonPresent,
-    [STRINGID_GMAXPOKEMONPRESENT - 12] = sText_GmaxPokemonPresent,
 };
 
 const u16 gMentalHerbCureStringIds[] = 
