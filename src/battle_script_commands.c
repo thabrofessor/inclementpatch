@@ -6328,6 +6328,7 @@ static void SetDmgHazardsBattlescript(u8 battlerId, u8 multistringId)
 static void Cmd_switchineffects(void)
 {
     s32 i;
+    bool8 specialMailMessage = FALSE;
 
     gActiveBattler = GetBattlerForBattleScript(gBattlescriptCurrInstr[1]);
     UpdateSentPokesToOpponentValue(gActiveBattler);
@@ -6435,6 +6436,32 @@ static void Cmd_switchineffects(void)
             || AbilityBattleEffects(ABILITYEFFECT_FORECAST, 0, 0, 0, 0))
             return;
 
+        switch (gBattleMons[gActiveBattler].item)
+        {
+        case ITEM_WOOD_MAIL:
+            gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_SPECIAL_MAIL_TOTEM;
+            specialMailMessage = TRUE;
+            break;
+        case ITEM_MECH_MAIL:
+            gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_SPECIAL_MAIL_ALPHA;
+            specialMailMessage = TRUE;
+            break;
+        case ITEM_SHADOW_MAIL:
+            gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_SPECIAL_MAIL_SHADOW;
+            specialMailMessage = TRUE;
+            break;
+        case ITEM_WAVE_MAIL:
+            gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_SPECIAL_MAIL_PRIMAL;
+            specialMailMessage = TRUE;
+            break;
+        case ITEM_GLITTER_MAIL:
+            gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_SPECIAL_MAIL_DYNAMAX;
+            specialMailMessage = TRUE;
+            break;
+        default:
+            break;
+        }
+
         gSideStatuses[GetBattlerSide(gActiveBattler)] &= ~(SIDE_STATUS_SPIKES_DAMAGED | SIDE_STATUS_TOXIC_SPIKES_DAMAGED | SIDE_STATUS_STEALTH_ROCK_DAMAGED | SIDE_STATUS_STICKY_WEB_DAMAGED);
 
         for (i = 0; i < gBattlersCount; i++)
@@ -6459,7 +6486,17 @@ static void Cmd_switchineffects(void)
                 gBattlerFainted++;
             }
         }
-        gBattlescriptCurrInstr += 2;
+        if (specialMailMessage)
+        {
+            gBattlerAttacker = gActiveBattler;
+            gBattlescriptCurrInstr += 2;
+            BattleScriptPushCursor();
+            gBattlescriptCurrInstr = BattleScript_SpecialMailSwitchIn;
+        }
+        else
+        {
+            gBattlescriptCurrInstr += 2;
+        }
     }
 }
 
