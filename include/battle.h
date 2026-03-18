@@ -619,7 +619,6 @@ struct BattleStruct
     u8 ballSpriteIds[2];    // item gfx, window gfx
     u8 stickyWebUser;
     u8 appearedInBattle; // Bitfield to track which Pokemon appeared in battle. Used for Burmy's form change
-     u8 playerItemUses;
 };
 
 #define GET_MOVE_TYPE(move, typeArg)                        \
