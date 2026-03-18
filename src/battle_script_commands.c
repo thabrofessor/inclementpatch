@@ -5737,8 +5737,6 @@ static void Cmd_switchindataupdate(void)
     }
 
     SwitchInClearSetData();
-    gSpecialStatuses[gActiveBattler].switchInAbilityDone = FALSE;
-    gSpecialStatuses[gActiveBattler].switchInItemDone = FALSE;
 
     if (gBattleTypeFlags & BATTLE_TYPE_PALACE
         && gBattleMons[gActiveBattler].maxHP / 2 >= gBattleMons[gActiveBattler].hp
