@@ -6428,6 +6428,43 @@ static void Cmd_switchineffects(void)
 
         gDisableStructs[gActiveBattler].truantSwitchInHack = 0;
 
+        if (!gSpecialStatuses[gActiveBattler].flag40)
+        {
+            switch (gBattleMons[gActiveBattler].item)
+            {
+            case ITEM_WOOD_MAIL:
+                gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_SPECIAL_MAIL_TOTEM;
+                break;
+            case ITEM_MECH_MAIL:
+                gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_SPECIAL_MAIL_ALPHA;
+                break;
+            case ITEM_SHADOW_MAIL:
+                gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_SPECIAL_MAIL_SHADOW;
+                break;
+            case ITEM_WAVE_MAIL:
+                gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_SPECIAL_MAIL_PRIMAL;
+                break;
+            case ITEM_GLITTER_MAIL:
+                gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_SPECIAL_MAIL_DYNAMAX;
+                break;
+            default:
+                break;
+            }
+
+            if (gBattleMons[gActiveBattler].item == ITEM_WOOD_MAIL
+             || gBattleMons[gActiveBattler].item == ITEM_MECH_MAIL
+             || gBattleMons[gActiveBattler].item == ITEM_SHADOW_MAIL
+             || gBattleMons[gActiveBattler].item == ITEM_WAVE_MAIL
+             || gBattleMons[gActiveBattler].item == ITEM_GLITTER_MAIL)
+            {
+                gSpecialStatuses[gActiveBattler].flag40 = TRUE;
+                gBattlerAttacker = gActiveBattler;
+                BattleScriptPushCursor();
+                gBattlescriptCurrInstr = BattleScript_SpecialMailSwitchIn;
+                return;
+            }
+        }
+
         if (AbilityBattleEffects(ABILITYEFFECT_ON_SWITCHIN, gActiveBattler, 0, 0, 0)
             || ItemBattleEffects(ITEMEFFECT_ON_SWITCH_IN, gActiveBattler, FALSE)
             || AbilityBattleEffects(ABILITYEFFECT_INTIMIDATE2, 0, 0, 0, 0)
