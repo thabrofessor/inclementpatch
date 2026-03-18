@@ -738,11 +738,6 @@ static const u8 sText_PkmnAboutToBeAttackedByItsItem[] = _("{B_DEF_NAME_WITH_PRE
 static const u8 sText_CantEscapeBecauseOfCurrentMove[] = _("{B_DEF_NAME_WITH_PREFIX} can no longer escape\nbecause of {B_CURRENT_MOVE}!");
 static const u8 sText_NeutralizingGasEnters[] = _("Neutralizing Gas filled the area!");
 static const u8 sText_NeutralizingGasOver[] = _("The effects of Neutralizing\nGas wore off!");
-static const u8 sText_PkmnIsTotem[] = _("{B_ATK_NAME_WITH_PREFIX} is a\nTotem Pokémon!");
-static const u8 sText_PkmnIsAlpha[] = _("{B_ATK_NAME_WITH_PREFIX} is an\nAlpha Pokémon!");
-static const u8 sText_PkmnIsShadow[] = _("{B_ATK_NAME_WITH_PREFIX} is a\nShadow Pokémon!");
-static const u8 sText_PkmnIsPrimal[] = _("{B_ATK_NAME_WITH_PREFIX} is a\nPrimal Pokémon!");
-static const u8 sText_PkmnIsDynamax[] = _("{B_ATK_NAME_WITH_PREFIX} is a\nDynamax Pokémon!");
 
 const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
 {
@@ -802,11 +797,6 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_ATTACKERLOSTFIRETYPE - 12] = sText_AttackerLostFireType,
     [STRINGID_ATTACKERCUREDTARGETSTATUS - 12] = sText_AttackerCuredTargetStatus,
     [STRINGID_ILLUSIONWOREOFF - 12] = sText_IllusionWoreOff,
-    [STRINGID_PKMNISTOTEM - 12] = sText_PkmnIsTotem,
-    [STRINGID_PKMNISALPHA - 12] = sText_PkmnIsAlpha,
-    [STRINGID_PKMNISSHADOW - 12] = sText_PkmnIsShadow,
-    [STRINGID_PKMNISPRIMAL - 12] = sText_PkmnIsPrimal,
-    [STRINGID_PKMNISDYNAMAX - 12] = sText_PkmnIsDynamax,
     [STRINGID_BUGBITE - 12] = sText_BugBite,
     [STRINGID_INCINERATEBURN - 12] = sText_IncinerateBurn,
     [STRINGID_AIRBALLOONPOP - 12] = sText_AirBalloonPop,
@@ -1412,15 +1402,6 @@ const u16 gSwitchInAbilityStringIds[] =
     [B_MSG_SWITCHIN_CURIOUS_MEDICINE] = STRINGID_CURIOUSMEDICINEENTERS,
     [B_MSG_SWITCHIN_PASTEL_VEIL] = STRINGID_PASTELVEILENTERS,
     [B_MSG_SWITCHIN_NEUTRALIZING_GAS] = STRINGID_NEUTRALIZINGGASENTERS,
-};
-
-const u16 gSpecialMailSwitchInStringIds[] =
-{
-    [B_MSG_SPECIAL_MAIL_TOTEM] = STRINGID_PKMNISTOTEM,
-    [B_MSG_SPECIAL_MAIL_ALPHA] = STRINGID_PKMNISALPHA,
-    [B_MSG_SPECIAL_MAIL_SHADOW] = STRINGID_PKMNISSHADOW,
-    [B_MSG_SPECIAL_MAIL_PRIMAL] = STRINGID_PKMNISPRIMAL,
-    [B_MSG_SPECIAL_MAIL_DYNAMAX] = STRINGID_PKMNISDYNAMAX,
 };
 
 const u16 gMissStringIds[] =

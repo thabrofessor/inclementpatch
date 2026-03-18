@@ -8349,11 +8349,6 @@ BattleScript_SwitchInAbilityMsgRet::
 	waitmessage B_WAIT_TIME_LONG
 	return
 
-BattleScript_SpecialMailSwitchIn::
-	printfromtable gSpecialMailSwitchInStringIds
-	waitmessage B_WAIT_TIME_LONG
-	return
-
 BattleScript_ActivateAsOne::
 	call BattleScript_AbilityPopUp
 	printfromtable gSwitchInAbilityStringIds

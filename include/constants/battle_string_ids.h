@@ -611,13 +611,8 @@
 #define STRINGID_NEUTRALIZINGGASOVER                  608
 #define STRINGID_PLAYERLOSTAGAINSTENEMYTRAINER        609
 #define STRINGID_PLAYERPAIDPRIZEMONEY                 610
-#define STRINGID_PKMNISTOTEM                          611
-#define STRINGID_PKMNISALPHA                          612
-#define STRINGID_PKMNISSHADOW                         613
-#define STRINGID_PKMNISPRIMAL                         614
-#define STRINGID_PKMNISDYNAMAX                        615
 
-#define BATTLESTRINGS_COUNT                           616
+#define BATTLESTRINGS_COUNT                           611
 
 // The below IDs are all indexes into battle message tables,
 // used to determine which of a set of messages to print.
@@ -854,13 +849,6 @@
 #define B_MSG_SWITCHIN_CURIOUS_MEDICINE 14
 #define B_MSG_SWITCHIN_PASTEL_VEIL      15
 #define B_MSG_SWITCHIN_NEUTRALIZING_GAS 16
-
-// gSpecialMailSwitchInStringIds
-#define B_MSG_SPECIAL_MAIL_TOTEM    0
-#define B_MSG_SPECIAL_MAIL_ALPHA    1
-#define B_MSG_SPECIAL_MAIL_SHADOW   2
-#define B_MSG_SPECIAL_MAIL_PRIMAL   3
-#define B_MSG_SPECIAL_MAIL_DYNAMAX  4
 
 // gMentalHerbCureStringIds
 #define B_MSG_MENTALHERBCURE_INFATUATION       0
