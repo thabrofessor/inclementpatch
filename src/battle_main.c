@@ -125,7 +125,9 @@ static void HandleEndTurn_RanFromBattle(void);
 static void HandleEndTurn_MonFled(void);
 static void HandleEndTurn_FinishBattle(void);
 static void AddMonStat(struct Pokemon *mon, s32 statId, u16 amount);
+static void AddMonHp(struct Pokemon *mon, u16 amount);
 static void ApplyMailHeldItemBoosts(struct Pokemon *mon);
+static void ApplyMailHeldItemBoostsToEnemyParty(void);
 
 // EWRAM vars
 EWRAM_DATA u16 gBattle_BG0_X = 0;
@@ -643,16 +645,14 @@ static void CB2_InitBattleInternal(void)
         if (gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS && !BATTLE_TWO_VS_ONE_OPPONENT)
             CreateNPCTrainerParty(&gEnemyParty[3], gTrainerBattleOpponent_B, FALSE);
         SetWildMonHeldItem();
+        ApplyMailHeldItemBoostsToEnemyParty();
     }
 
     gMain.inBattle = TRUE;
     gSaveBlock2Ptr->frontier.disableRecordBattle = FALSE;
 
     for (i = 0; i < PARTY_SIZE; i++)
-    {
         AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
-        ApplyMailHeldItemBoosts(&gEnemyParty[i]);
-    }
 
     gBattleCommunication[MULTIUSE_STATE] = 0;
 }
@@ -664,6 +664,12 @@ static void AddMonStat(struct Pokemon *mon, s32 statId, u16 amount)
     SetMonData(mon, statId, &stat);
 }
 
+static void AddMonHp(struct Pokemon *mon, u16 amount)
+{
+    AddMonStat(mon, MON_DATA_MAX_HP, amount);
+    AddMonStat(mon, MON_DATA_HP, amount);
+}
+
 static void ApplyMailHeldItemBoosts(struct Pokemon *mon)
 {
     u16 heldItem = GetMonData(mon, MON_DATA_HELD_ITEM);
@@ -671,14 +677,14 @@ static void ApplyMailHeldItemBoosts(struct Pokemon *mon)
     switch (heldItem)
     {
     case ITEM_WOOD_MAIL:
-        AddMonStat(mon, MON_DATA_HP, 25);
+        AddMonHp(mon, 25);
         AddMonStat(mon, MON_DATA_ATK, 10);
         AddMonStat(mon, MON_DATA_DEF, 10);
         AddMonStat(mon, MON_DATA_SPATK, 10);
         AddMonStat(mon, MON_DATA_SPDEF, 10);
         break;
     case ITEM_SHADOW_MAIL:
-        AddMonStat(mon, MON_DATA_HP, 100);
+        AddMonHp(mon, 100);
         AddMonStat(mon, MON_DATA_ATK, 25);
         AddMonStat(mon, MON_DATA_DEF, 25);
         AddMonStat(mon, MON_DATA_SPEED, 25);
@@ -686,14 +692,14 @@ static void ApplyMailHeldItemBoosts(struct Pokemon *mon)
         AddMonStat(mon, MON_DATA_SPDEF, 25);
         break;
     case ITEM_MECH_MAIL:
-        AddMonStat(mon, MON_DATA_HP, 50);
+        AddMonHp(mon, 50);
         AddMonStat(mon, MON_DATA_ATK, 20);
         AddMonStat(mon, MON_DATA_DEF, 20);
         AddMonStat(mon, MON_DATA_SPATK, 20);
         AddMonStat(mon, MON_DATA_SPDEF, 20);
         break;
     case ITEM_WAVE_MAIL:
-        AddMonStat(mon, MON_DATA_HP, 150);
+        AddMonHp(mon, 150);
         AddMonStat(mon, MON_DATA_ATK, 50);
         AddMonStat(mon, MON_DATA_DEF, 50);
         AddMonStat(mon, MON_DATA_SPEED, 50);
@@ -701,10 +707,28 @@ static void ApplyMailHeldItemBoosts(struct Pokemon *mon)
         AddMonStat(mon, MON_DATA_SPDEF, 50);
         break;
     case ITEM_GLITTER_MAIL:
-        AddMonStat(mon, MON_DATA_HP, 100);
+        AddMonHp(mon, 100);
         break;
     default:
         break;
+    }
+}
+
+static void ApplyMailHeldItemBoostsToEnemyParty(void)
+{
+    s32 i;
+
+    // These boosts are for NPC opponent trainers only.
+    if (!(gBattleTypeFlags & BATTLE_TYPE_TRAINER))
+        return;
+    if (gBattleTypeFlags & (BATTLE_TYPE_FIRST_BATTLE | BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED))
+        return;
+
+    for (i = 0; i < PARTY_SIZE; i++)
+    {
+        if (GetMonData(&gEnemyParty[i], MON_DATA_SPECIES2) == SPECIES_NONE)
+            continue;
+        ApplyMailHeldItemBoosts(&gEnemyParty[i]);
     }
 }
 
@@ -5507,4 +5531,3 @@ void SetTotemBoost(void)
         }
     }
 }
-
