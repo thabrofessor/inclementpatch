@@ -6591,7 +6591,7 @@
               {
                 "min_level": 5,
                 "max_level": 15,
-                "species": "SPECIES_STONJOURNER"
+                "species": "SPECIES_HATENNA"
               }
             ]
           },
@@ -25573,7 +25573,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CAPSAKID"
+                "species": "SPECIES_NICKIT"
               },
               {
                 "min_level": 5,
@@ -28834,7 +28834,7 @@
               {
                 "min_level": 1,
                 "max_level": 10,
-                "species": "SPECIES_CAPSAKID"
+                "species": "SPECIES_NICKIT"
               },
               {
                 "min_level": 1,
@@ -32765,62 +32765,62 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HATENNA"
+                "species": "SPECIES_STONJOURNER"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HATENNA"
+                "species": "SPECIES_STONJOURNER"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HATENNA"
+                "species": "SPECIES_STONJOURNER"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HATENNA"
+                "species": "SPECIES_STONJOURNER"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HATENNA"
+                "species": "SPECIES_STONJOURNER"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HATENNA"
+                "species": "SPECIES_STONJOURNER"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HATENNA"
+                "species": "SPECIES_STONJOURNER"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HATENNA"
+                "species": "SPECIES_STONJOURNER"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HATENNA"
+                "species": "SPECIES_STONJOURNER"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HATENNA"
+                "species": "SPECIES_STONJOURNER"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HATENNA"
+                "species": "SPECIES_STONJOURNER"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HATENNA"
+                "species": "SPECIES_STONJOURNER"
               }
             ]
           }
@@ -33041,62 +33041,62 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_NICKIT"
+                "species": "SPECIES_CAPSAKID"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_NICKIT"
+                "species": "SPECIES_CAPSAKID"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_NICKIT"
+                "species": "SPECIES_CAPSAKID"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_NICKIT"
+                "species": "SPECIES_CAPSAKID"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_NICKIT"
+                "species": "SPECIES_CAPSAKID"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_NICKIT"
+                "species": "SPECIES_CAPSAKID"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_NICKIT"
+                "species": "SPECIES_CAPSAKID"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_NICKIT"
+                "species": "SPECIES_CAPSAKID"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_NICKIT"
+                "species": "SPECIES_CAPSAKID"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_NICKIT"
+                "species": "SPECIES_CAPSAKID"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_NICKIT"
+                "species": "SPECIES_CAPSAKID"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_NICKIT"
+                "species": "SPECIES_CAPSAKID"
               }
             ]
           }
@@ -41839,7 +41839,7 @@
               {
                 "min_level": 1,
                 "max_level": 14,
-                "species": "SPECIES_CAPSAKID"
+                "species": "SPECIES_NICKIT"
               }
             ]
           },
@@ -45128,7 +45128,7 @@
               {
                 "min_level": 1,
                 "max_level": 15,
-                "species": "SPECIES_CAPSAKID"
+                "species": "SPECIES_NICKIT"
               },
               {
                 "min_level": 1,
