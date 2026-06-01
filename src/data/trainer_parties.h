@@ -111838,7 +111838,7 @@ static const struct TrainerMonItemCustomMoves sParty_BLUE_1[] = {
     .heldItem = ITEM_WOOD_MAIL,
     .ability = 0, // Overgrow
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_TOTEM_BASH, MOVE_ABSORB, MOVE_GROWTH, MOVE_FURY_CUTTER
+    .moves = MOVE_TOTEM_BASH, MOVE_ABSORB, MOVE_GROWTH, MOVE_CUT
     },
     {
     .lvl = 3,
@@ -111846,14 +111846,14 @@ static const struct TrainerMonItemCustomMoves sParty_BLUE_1[] = {
     .heldItem = ITEM_WOOD_MAIL,
     .ability = 2, // Speed Boost
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_TOTEM_BASH, MOVE_EMBER, MOVE_SWORDS_DANCE, MOVE_BOUNCE
+    .moves = MOVE_TOTEM_BASH, MOVE_EMBER, MOVE_PECK, MOVE_SCRATCH
     },
     {
     .lvl = 3,
     .species = SPECIES_MUDKIP,
     .heldItem = ITEM_WOOD_MAIL,
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_TOTEM_BASH, MOVE_WHIRLPOOL, MOVE_ROLLOUT, MOVE_AQUA_RING
+    .moves = MOVE_TOTEM_BASH, MOVE_WHIRLPOOL, MOVE_ROLLOUT, MOVE_MUD_SLAP
     },
     {
     .lvl = 4,
@@ -111868,7 +111868,7 @@ static const struct TrainerMonItemCustomMoves sParty_BLUE_1[] = {
     .heldItem = ITEM_WOOD_MAIL,
     .ability = 0, // Intimidate
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_TOTEM_BASH, MOVE_EMBER, MOVE_TAKE_DOWN, MOVE_AGILITY
+    .moves = MOVE_TOTEM_BASH, MOVE_EMBER, MOVE_TACKLE, MOVE_AGILITY
     },
     {
     .lvl = 5,
@@ -111876,7 +111876,7 @@ static const struct TrainerMonItemCustomMoves sParty_BLUE_1[] = {
     .heldItem = ITEM_MECH_MAIL,
     .ability = 0, // Fur Coat
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_ALPHA_STRIKE, MOVE_CURSE, MOVE_MILK_DRINK, MOVE_QUICK_ATTACK
+    .moves = MOVE_ALPHA_STRIKE, MOVE_CURSE, MOVE_TACKLE, MOVE_GROWL
     },
 };
 static const struct TrainerMonItemCustomMoves sParty_BLUE_1_V2[] = {
@@ -111885,14 +111885,14 @@ static const struct TrainerMonItemCustomMoves sParty_BLUE_1_V2[] = {
     .species = SPECIES_ABRA,
     .heldItem = ITEM_WOOD_MAIL,
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_TOTEM_BASH, MOVE_CONFUSION, MOVE_CALM_MIND, MOVE_THUNDER_WAVE
+    .moves = MOVE_TOTEM_BASH, MOVE_CONFUSION, MOVE_TELEPORT, MOVE_THUNDER_WAVE
     },
     {
     .lvl = 3,
     .species = SPECIES_PIDGEY,
     .heldItem = ITEM_WOOD_MAIL,
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_TOTEM_BASH, MOVE_GUST, MOVE_QUICK_ATTACK, MOVE_FEATHER_DANCE
+    .moves = MOVE_TOTEM_BASH, MOVE_GUST, MOVE_TACKLE, MOVE_FEATHER_DANCE
     },
     {
     .lvl = 3,
@@ -111913,7 +111913,7 @@ static const struct TrainerMonItemCustomMoves sParty_BLUE_1_V2[] = {
     .species = SPECIES_RHYHORN,
     .heldItem = ITEM_WOOD_MAIL,
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_TOTEM_BASH, MOVE_ROCK_THROW, MOVE_TAKE_DOWN, MOVE_SCARY_FACE
+    .moves = MOVE_TOTEM_BASH, MOVE_ROCK_THROW, MOVE_TACKLE, MOVE_SCARY_FACE
     },
     {
     .lvl = 5,
@@ -111921,7 +111921,7 @@ static const struct TrainerMonItemCustomMoves sParty_BLUE_1_V2[] = {
     .heldItem = ITEM_MECH_MAIL,
     .ability = 1, // Adaptability
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_ALPHA_STRIKE, MOVE_MILK_DRINK, MOVE_SWORDS_DANCE, MOVE_LAST_RESORT
+    .moves = MOVE_ALPHA_STRIKE, MOVE_MIMIC, MOVE_TACKLE, MOVE_GROWL
     },
 };
 static const struct TrainerMonItemCustomMoves sParty_BLUE_1_V3[] = {
@@ -111930,21 +111930,21 @@ static const struct TrainerMonItemCustomMoves sParty_BLUE_1_V3[] = {
     .species = SPECIES_GASTLY,
     .heldItem = ITEM_WOOD_MAIL,
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_TOTEM_BASH, MOVE_LICK, MOVE_HYPNOSIS, MOVE_SHADOW_BALL
+    .moves = MOVE_TOTEM_BASH, MOVE_LICK, MOVE_HYPNOSIS, MOVE_ACID_SPRAY
     },
     {
     .lvl = 3,
     .species = SPECIES_MACHOP,
     .heldItem = ITEM_WOOD_MAIL,
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_TOTEM_BASH, MOVE_LOW_KICK, MOVE_KARATE_CHOP, MOVE_SEISMIC_TOSS
+    .moves = MOVE_TOTEM_BASH, MOVE_LOW_KICK, MOVE_LEER, MOVE_SEISMIC_TOSS
     },
     {
     .lvl = 3,
     .species = SPECIES_KANGASKHAN,
     .heldItem = ITEM_WOOD_MAIL,
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_TOTEM_BASH, MOVE_COMET_PUNCH, MOVE_BITE, MOVE_TAIL_WHIP
+    .moves = MOVE_TOTEM_BASH, MOVE_TACKLE, MOVE_GROWL, MOVE_TAIL_WHIP
     },
     {
     .lvl = 4,
@@ -111958,7 +111958,7 @@ static const struct TrainerMonItemCustomMoves sParty_BLUE_1_V3[] = {
     .species = SPECIES_TAUROS,
     .heldItem = ITEM_WOOD_MAIL,
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_TOTEM_BASH, MOVE_HORN_ATTACK, MOVE_PURSUIT, MOVE_SCARY_FACE
+    .moves = MOVE_TOTEM_BASH, MOVE_TACKLE, MOVE_RAGE, MOVE_SCARY_FACE
     },
     {
     .lvl = 5,
@@ -111966,7 +111966,7 @@ static const struct TrainerMonItemCustomMoves sParty_BLUE_1_V3[] = {
     .heldItem = ITEM_MECH_MAIL,
     .ability = 2, // Technician
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_ALPHA_STRIKE, MOVE_MILK_DRINK, MOVE_TAIL_SLAP, MOVE_SWORDS_DANCE
+    .moves = MOVE_ALPHA_STRIKE, MOVE_RAGE, MOVE_TACKLE, MOVE_GROWL
     },
 };
 
