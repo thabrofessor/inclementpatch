@@ -121586,7 +121586,7 @@ static const struct TrainerMonItemCustomMoves sParty_LANCE_1[] = {
     .species = SPECIES_CHARMANDER,
     .heldItem = ITEM_WOOD_MAIL,
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_TOTEM_BASH, MOVE_EMBER, MOVE_SMOKESCREEN, MOVE_DRAGON_RAGE
+    .moves = MOVE_TOTEM_BASH, MOVE_EMBER, MOVE_SMOKESCREEN, MOVE_SCRATCH
     },
     {
     .lvl = 3,
@@ -121607,7 +121607,7 @@ static const struct TrainerMonItemCustomMoves sParty_LANCE_1[] = {
     .species = SPECIES_DRATINI,
     .heldItem = ITEM_MECH_MAIL,
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_ALPHA_STRIKE, MOVE_DRAGON_RAGE, MOVE_TWISTER, MOVE_THUNDER_WAVE
+    .moves = MOVE_ALPHA_STRIKE, MOVE_EMBER, MOVE_TWISTER, MOVE_THUNDER_WAVE
     },
 };
 static const struct TrainerMonItemCustomMoves sParty_LANCE_1_V2[] = {
@@ -121651,7 +121651,7 @@ static const struct TrainerMonItemCustomMoves sParty_LANCE_1_V2[] = {
     .species = SPECIES_DRATINI,
     .heldItem = ITEM_MECH_MAIL,
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_ALPHA_STRIKE, MOVE_DRAGON_RAGE, MOVE_TWISTER, MOVE_THUNDER_WAVE
+    .moves = MOVE_ALPHA_STRIKE, MOVE_WRAP, MOVE_TWISTER, MOVE_THUNDER_WAVE
     },
 };
 static const struct TrainerMonItemCustomMoves sParty_LANCE_1_V3[] = {
@@ -121695,7 +121695,7 @@ static const struct TrainerMonItemCustomMoves sParty_LANCE_1_V3[] = {
     .species = SPECIES_DRATINI,
     .heldItem = ITEM_MECH_MAIL,
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_ALPHA_STRIKE, MOVE_DRAGON_RAGE, MOVE_TWISTER, MOVE_THUNDER_WAVE
+    .moves = MOVE_ALPHA_STRIKE, MOVE_WRAP, MOVE_TWISTER, MOVE_THUNDER_WAVE
     },
 };
 
@@ -185317,7 +185317,7 @@ static const struct TrainerMonItemCustomMoves sParty_BLAIN_1_V3[] = {
     .heldItem = ITEM_BERRY_JUICE,
     .ability = 0, // Shell Armor
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_SMOG, MOVE_INCINERATE, MOVE_PROTECT, MOVE_DRAGON_PULSE
+    .moves = MOVE_SMOG, MOVE_INCINERATE, MOVE_PROTECT, MOVE_TACKLE
     },
 };
 
