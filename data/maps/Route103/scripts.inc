@@ -201,8 +201,8 @@ Route103_EventScript_MayGiveEonTicket::
 
 Route103_EventScript_RivalExit:: @ 81EC50A
 	closemessage
-	@ TEMP DIAGNOSTIC: bypass facing dispatch and movement branches.
-	goto Route103_EventScript_RivalEnd
+	@ TEMP DIAGNOSTIC: bypass facing dispatch and force the north-facing branch.
+	goto Route103_EventScript_RivalExitFacingNorth
 	end
 	switch VAR_FACING
 	case DIR_SOUTH, Route103_EventScript_RivalExitFacingSouth
