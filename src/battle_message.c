@@ -83,6 +83,11 @@ static const u8 sText_TargetFainted[] = _("{B_DEF_NAME_WITH_PREFIX}\nfainted!\p"
 static const u8 sText_PlayerGotMoney[] = _("{B_PLAYER_NAME} got ¥{B_BUFF1}\nfor winning!\p");
 static const u8 sText_PlayerLostAgainstEnemyTrainer[] = _("{B_PLAYER_NAME} is out of\nusable Pokémon!\p{B_PLAYER_NAME} lost against\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!{PAUSE_UNTIL_PRESS}");
 static const u8 sText_PlayerPaidPrizeMoney[] = _("{B_PLAYER_NAME} paid ¥{B_BUFF1} as the prize\nmoney…\p… … … …\p{B_PLAYER_NAME} whited out!{PAUSE_UNTIL_PRESS}");
+static const u8 sText_TrainerBoostTotem[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} radiates\nwith Totem power!");
+static const u8 sText_TrainerBoostAlpha[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} radiates\nwith Alpha power!");
+static const u8 sText_TrainerBoostShadow[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} radiates\nwith Shadow power!");
+static const u8 sText_TrainerBoostGmax[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} radiates\nwith Gigantamax power!");
+static const u8 sText_TrainerBoostPrimal[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} radiates\nwith Primal power!");
 static const u8 sText_PlayerWhiteout[] = _("{B_PLAYER_NAME} is out of\nusable Pokémon!\p");
 static const u8 sText_PlayerWhiteout2[] = _("{B_PLAYER_NAME} panicked and lost ¥{B_BUFF1}…\p… … … …\p{B_PLAYER_NAME} whited out!{PAUSE_UNTIL_PRESS}");
 static const u8 sText_PreventsEscape[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} prevents\nescape with {B_SCR_ACTIVE_ABILITY}!\p");
@@ -1339,6 +1344,20 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_CANTESCAPEBECAUSEOFCURRENTMOVE - 12] = sText_CantEscapeBecauseOfCurrentMove,
     [STRINGID_PLAYERLOSTAGAINSTENEMYTRAINER - 12] = sText_PlayerLostAgainstEnemyTrainer,
     [STRINGID_PLAYERPAIDPRIZEMONEY - 12] = sText_PlayerPaidPrizeMoney,
+    [STRINGID_TRAINERBOOSTTOTEM - 12] = sText_TrainerBoostTotem,
+    [STRINGID_TRAINERBOOSTALPHA - 12] = sText_TrainerBoostAlpha,
+    [STRINGID_TRAINERBOOSTSHADOW - 12] = sText_TrainerBoostShadow,
+    [STRINGID_TRAINERBOOSTGMAX - 12] = sText_TrainerBoostGmax,
+    [STRINGID_TRAINERBOOSTPRIMAL - 12] = sText_TrainerBoostPrimal,
+};
+
+const u16 gTrainerMonBoostStringIds[] =
+{
+    [B_MSG_TRAINERBOOST_TOTEM] = STRINGID_TRAINERBOOSTTOTEM,
+    [B_MSG_TRAINERBOOST_ALPHA] = STRINGID_TRAINERBOOSTALPHA,
+    [B_MSG_TRAINERBOOST_SHADOW] = STRINGID_TRAINERBOOSTSHADOW,
+    [B_MSG_TRAINERBOOST_GMAX] = STRINGID_TRAINERBOOSTGMAX,
+    [B_MSG_TRAINERBOOST_PRIMAL] = STRINGID_TRAINERBOOSTPRIMAL,
 };
 
 const u16 gMentalHerbCureStringIds[] = 

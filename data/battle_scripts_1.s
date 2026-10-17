@@ -8349,6 +8349,13 @@ BattleScript_SwitchInAbilityMsgRet::
 	waitmessage B_WAIT_TIME_LONG
 	return
 
+BattleScript_TrainerMonBoost::
+	printfromtable gTrainerMonBoostStringIds
+	waitmessage B_WAIT_TIME_LONG
+	playanimation BS_SCRIPTING, B_ANIM_TRAINER_BOOST, sB_ANIM_ARG1
+	waitanimation
+	return
+
 BattleScript_ActivateAsOne::
 	call BattleScript_AbilityPopUp
 	printfromtable gSwitchInAbilityStringIds

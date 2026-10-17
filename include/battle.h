@@ -619,6 +619,8 @@ struct BattleStruct
     u8 ballSpriteIds[2];    // item gfx, window gfx
     u8 stickyWebUser;
     u8 appearedInBattle; // Bitfield to track which Pokemon appeared in battle. Used for Burmy's form change
+    u8 trainerMonBoostType[PARTY_SIZE]; // Trainer boost tier for each opponent party member
+    u8 trainerMonBoostAnnounced; // Bitfield: boosted opponent party members already announced
 };
 
 #define GET_MOVE_TYPE(move, typeArg)                        \

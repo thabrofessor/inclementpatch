@@ -6328,12 +6328,33 @@ static void SetDmgHazardsBattlescript(u8 battlerId, u8 multistringId)
 static void Cmd_switchineffects(void)
 {
     s32 i;
+    u8 partyId;
+    u8 boostType;
 
     gActiveBattler = GetBattlerForBattleScript(gBattlescriptCurrInstr[1]);
     UpdateSentPokesToOpponentValue(gActiveBattler);
 
     gHitMarker &= ~(HITMARKER_FAINTED(gActiveBattler));
     gSpecialStatuses[gActiveBattler].flag40 = 0;
+
+    partyId = gBattlerPartyIndexes[gActiveBattler];
+    if (GetBattlerSide(gActiveBattler) == B_SIDE_OPPONENT && partyId < PARTY_SIZE)
+    {
+        boostType = gBattleStruct->trainerMonBoostType[partyId];
+        if (boostType >= TRAINER_MON_BOOST_10_PERCENT
+         && boostType <= TRAINER_MON_BOOST_50_PERCENT
+         && !(gBattleStruct->trainerMonBoostAnnounced & gBitTable[partyId]))
+        {
+            gBattleStruct->trainerMonBoostAnnounced |= gBitTable[partyId];
+            gBattleCommunication[MULTISTRING_CHOOSER] = boostType - TRAINER_MON_BOOST_10_PERCENT;
+            gBattleScripting.battler = gActiveBattler;
+            gBattleScripting.animArg1 = boostType;
+            gBattleScripting.animArg2 = 0;
+            BattleScriptPushCursor();
+            gBattlescriptCurrInstr = BattleScript_TrainerMonBoost;
+            return;
+        }
+    }
 
     if (!IsBattlerAIControlled(gActiveBattler))
         gBattleStruct->appearedInBattle |= gBitTable[gBattlerPartyIndexes[gActiveBattler]];

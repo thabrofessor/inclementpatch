@@ -841,6 +841,7 @@ gBattleAnims_General::
 	.4byte General_StrongWinds              @ B_ANIM_STRONG_WINDS
 	.4byte General_PrimalReversion          @ B_ANIM_PRIMAL_REVERSION
 	.4byte General_ItemHealsHP              @ B_ANIM_ITEM_HEAL
+	.4byte General_TrainerBoost             @ B_ANIM_TRAINER_BOOST
 
 	.align 2
 gBattleAnims_Special::
@@ -25887,6 +25888,39 @@ General_ItemHealsHP::
 	waitforvisualfinish
 	delay 1
 	call HealingEffect
+	waitforvisualfinish
+	end
+
+General_TrainerBoost::
+	jumpargeq 0, 1, General_TrainerBoost_Totem
+	jumpargeq 0, 2, General_TrainerBoost_Alpha
+	jumpargeq 0, 3, General_TrainerBoost_Shadow
+	jumpargeq 0, 4, General_TrainerBoost_Gmax
+	jumpargeq 0, 5, General_TrainerBoost_Primal
+	end
+
+General_TrainerBoost_Totem:
+	createvisualtask AnimTask_BlendColorCycle, 2, ANIM_PAL_ATK, 2, 2, 0, 12, RGB(31, 20, 0)
+	waitforvisualfinish
+	end
+
+General_TrainerBoost_Alpha:
+	createvisualtask AnimTask_BlendColorCycle, 2, ANIM_PAL_ATK, 2, 2, 0, 12, RGB(0, 15, 31)
+	waitforvisualfinish
+	end
+
+General_TrainerBoost_Shadow:
+	createvisualtask AnimTask_BlendColorCycle, 2, ANIM_PAL_ATK, 2, 2, 0, 12, RGB(18, 0, 24)
+	waitforvisualfinish
+	end
+
+General_TrainerBoost_Gmax:
+	createvisualtask AnimTask_BlendColorCycle, 2, ANIM_PAL_ATK, 2, 2, 0, 12, RGB(31, 0, 20)
+	waitforvisualfinish
+	end
+
+General_TrainerBoost_Primal:
+	createvisualtask AnimTask_BlendColorCycle, 2, ANIM_PAL_ATK, 2, 2, 0, 12, RGB(31, 8, 0)
 	waitforvisualfinish
 	end
 

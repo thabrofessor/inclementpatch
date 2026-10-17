@@ -611,8 +611,13 @@
 #define STRINGID_NEUTRALIZINGGASOVER                  608
 #define STRINGID_PLAYERLOSTAGAINSTENEMYTRAINER        609
 #define STRINGID_PLAYERPAIDPRIZEMONEY                 610
+#define STRINGID_TRAINERBOOSTTOTEM                    611
+#define STRINGID_TRAINERBOOSTALPHA                    612
+#define STRINGID_TRAINERBOOSTSHADOW                   613
+#define STRINGID_TRAINERBOOSTGMAX                     614
+#define STRINGID_TRAINERBOOSTPRIMAL                   615
 
-#define BATTLESTRINGS_COUNT                           611
+#define BATTLESTRINGS_COUNT                           616
 
 // The below IDs are all indexes into battle message tables,
 // used to determine which of a set of messages to print.
@@ -849,6 +854,13 @@
 #define B_MSG_SWITCHIN_CURIOUS_MEDICINE 14
 #define B_MSG_SWITCHIN_PASTEL_VEIL      15
 #define B_MSG_SWITCHIN_NEUTRALIZING_GAS 16
+
+// gTrainerMonBoostStringIds
+#define B_MSG_TRAINERBOOST_TOTEM  0
+#define B_MSG_TRAINERBOOST_ALPHA  1
+#define B_MSG_TRAINERBOOST_SHADOW 2
+#define B_MSG_TRAINERBOOST_GMAX   3
+#define B_MSG_TRAINERBOOST_PRIMAL 4
 
 // gMentalHerbCureStringIds
 #define B_MSG_MENTALHERBCURE_INFATUATION       0

@@ -1895,6 +1895,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
     u8 level;
     u8 friendship;
     u8 difficultySetting = gSaveBlock2Ptr->gameDifficulty;
+    u8 partyOffset = (u8)(party - gEnemyParty);
 
     if(trainerNum + 2 < TRAINERS_COUNT && !strcmp(gTrainers[trainerNum].trainerName, gTrainers[trainerNum + 2].trainerName))
     {
@@ -1909,7 +1910,11 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
                                                                         | BATTLE_TYPE_TRAINER_HILL)))
     {
         if (firstTrainer == TRUE)
+        {
             ZeroEnemyPartyMons();
+            memset(gBattleStruct->trainerMonBoostType, TRAINER_MON_BOOST_NONE, sizeof(gBattleStruct->trainerMonBoostType));
+            gBattleStruct->trainerMonBoostAnnounced = 0;
+        }
 
         if (gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS)
         {
@@ -1925,6 +1930,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 
         for (i = 0; i < monsCount; i++)
         {
+            gBattleStruct->trainerMonBoostType[partyOffset + i] = TRAINER_MON_BOOST_NONE;
 
             if (gTrainers[trainerNum].doubleBattle == TRUE)
                 personalityValue = 0x80;
@@ -2027,6 +2033,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 
                 CalculateMonStats(&party[i]); // called twice; fix in future
 		ApplyTrainerMonBoostToStats(&party[i], partyData[i].boost);
+		gBattleStruct->trainerMonBoostType[partyOffset + i] = partyData[i].boost;
 	
 		for (j = 0; j < MAX_MON_MOVES; j++)
 		{
