@@ -3344,7 +3344,8 @@ static const struct TrainerMonItemCustomMoves sParty_MayRoute103Treecko[] = { //
      {
     .lvl = -5,
     .species = SPECIES_AZURILL,
-    .heldItem = ITEM_BERRY_JUICE,	    
+    .heldItem = ITEM_BERRY_JUICE,
+    .boost = TRAINER_MON_BOOST_40_PERCENT, // Gmax boost (40%) 	    
     .moves = MOVE_POUND
     },
     {
@@ -3383,7 +3384,8 @@ static const struct TrainerMonItemCustomMoves sParty_MayRoute103Treecko_V2[] = {
      {
     .lvl = -5,
     .species = SPECIES_AZURILL,
-    .heldItem = ITEM_BERRY_JUICE,	    
+    .heldItem = ITEM_BERRY_JUICE,	  
+    .boost = TRAINER_MON_BOOST_40_PERCENT, // Gmax boost (40%)   
     .moves = MOVE_POUND
     },
     {
@@ -3422,7 +3424,8 @@ static const struct TrainerMonItemCustomMoves sParty_MayRoute103Treecko_V3[] = {
      {
     .lvl = -5,
     .species = SPECIES_AZURILL,
-    .heldItem = ITEM_BERRY_JUICE,	    
+    .heldItem = ITEM_BERRY_JUICE,	
+    .boost = TRAINER_MON_BOOST_40_PERCENT, // Gmax boost (40%)     
     .moves = MOVE_POUND
     },
     {
@@ -3462,7 +3465,8 @@ static const struct TrainerMonItemCustomMoves sParty_MayRoute103Torchic[] = { //
      {
     .lvl = -5,
     .species = SPECIES_AZURILL,
-    .heldItem = ITEM_BERRY_JUICE,	    
+    .heldItem = ITEM_BERRY_JUICE,	
+    .boost = TRAINER_MON_BOOST_40_PERCENT, // Gmax boost (40%)     
     .moves = MOVE_POUND
     },
     {
@@ -3501,7 +3505,8 @@ static const struct TrainerMonItemCustomMoves sParty_MayRoute103Torchic_V2[] = {
      {
     .lvl = -5,
     .species = SPECIES_AZURILL,
-    .heldItem = ITEM_BERRY_JUICE,	    
+    .heldItem = ITEM_BERRY_JUICE,	 
+    .boost = TRAINER_MON_BOOST_40_PERCENT, // Gmax boost (40%)    
     .moves = MOVE_POUND
     },
     {
@@ -3540,7 +3545,8 @@ static const struct TrainerMonItemCustomMoves sParty_MayRoute103Torchic_V3[] = {
      {
     .lvl = -5,
     .species = SPECIES_AZURILL,
-    .heldItem = ITEM_BERRY_JUICE,	    
+    .heldItem = ITEM_BERRY_JUICE,	 
+    .boost = TRAINER_MON_BOOST_40_PERCENT, // Gmax boost (40%)    
     .moves = MOVE_POUND
     },
     {
