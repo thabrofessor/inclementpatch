@@ -2072,16 +2072,24 @@ static u16 ApplyTrainerMonBoost(u16 stat, u8 boost)
 
 static void ApplyTrainerMonBoostToStats(struct Pokemon *mon, u8 boost)
 {
+    u16 maxHp;
+    u16 hp;
+    u16 attack;
+    u16 defense;
+    u16 speed;
+    u16 spAttack;
+    u16 spDefense;
+
     if (boost == TRAINER_MON_BOOST_NONE || boost > TRAINER_MON_BOOST_50_PERCENT)
         return;
 
-    u16 maxHp = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_MAX_HP, NULL), boost);
-    u16 hp = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_HP, NULL), boost);
-    u16 attack = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_ATK, NULL), boost);
-    u16 defense = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_DEF, NULL), boost);
-    u16 speed = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPEED, NULL), boost);
-    u16 spAttack = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPATK, NULL), boost);
-    u16 spDefense = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPDEF, NULL), boost);
+    maxHp = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_MAX_HP, NULL), boost);
+    hp = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_HP, NULL), boost);
+    attack = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_ATK, NULL), boost);
+    defense = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_DEF, NULL), boost);
+    speed = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPEED, NULL), boost);
+    spAttack = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPATK, NULL), boost);
+    spDefense = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPDEF, NULL), boost);
 
     if (hp > maxHp)
         hp = maxHp;
