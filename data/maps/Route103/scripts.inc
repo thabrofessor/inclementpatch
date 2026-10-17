@@ -201,6 +201,9 @@ Route103_EventScript_MayGiveEonTicket::
 
 Route103_EventScript_RivalExit:: @ 81EC50A
 	closemessage
+	@ TEMP DIAGNOSTIC: bypass facing dispatch and movement branches.
+	goto Route103_EventScript_RivalEnd
+	end
 	switch VAR_FACING
 	case DIR_SOUTH, Route103_EventScript_RivalExitFacingSouth
 	case DIR_NORTH, Route103_EventScript_RivalExitFacingNorth
@@ -211,26 +214,29 @@ Route103_EventScript_RivalExit:: @ 81EC50A
 Route103_EventScript_RivalExitFacingNorth:: @ 81EC53D
 	applymovement OBJ_EVENT_ID_PLAYER, Route103_Movement_WatchRivalExitFacingNorth
 	applymovement LOCALID_RIVAL, Route103_Movement_RivalExitFacingNorth1
-	@ TEMP DIAGNOSTIC: skip first waitmovement to test whether it blocks script progress.
+	waitmovement 0
 	playse SE_LEDGE
-	@ TEMP DIAGNOSTIC: skip second rival movement sequence.
+	applymovement LOCALID_RIVAL, Route103_Movement_RivalExitFacingNorth2
+	waitmovement 0
 	goto Route103_EventScript_RivalEnd
 	end
 
 Route103_EventScript_RivalExitFacingEastOrWest:: @ 81EC561
 	applymovement OBJ_EVENT_ID_PLAYER, Route103_Movement_WatchRivalExitFacingEastOrWest
 	applymovement LOCALID_RIVAL, Route103_Movement_RivalExit1
-	@ TEMP DIAGNOSTIC: skip first waitmovement to test whether it blocks script progress.
+	waitmovement 0
 	playse SE_LEDGE
-	@ TEMP DIAGNOSTIC: skip second rival movement sequence.
+	applymovement LOCALID_RIVAL, Route103_Movement_RivalExit2
+	waitmovement 0
 	goto Route103_EventScript_RivalEnd
 	end
 
 Route103_EventScript_RivalExitFacingSouth:: @ 81EC585
 	applymovement LOCALID_RIVAL, Route103_Movement_RivalExit1
-	@ TEMP DIAGNOSTIC: skip first waitmovement to test whether it blocks script progress.
+	waitmovement 0
 	playse SE_LEDGE
-	@ TEMP DIAGNOSTIC: skip second rival movement sequence.
+	applymovement LOCALID_RIVAL, Route103_Movement_RivalExit2
+	waitmovement 0
 	goto Route103_EventScript_RivalEnd
 	end
 
