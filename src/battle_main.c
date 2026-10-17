@@ -2072,6 +2072,9 @@ static u16 ApplyTrainerMonBoost(u16 stat, u8 boost)
 
 static void ApplyTrainerMonBoostToStats(struct Pokemon *mon, u8 boost)
 {
+    if (boost == TRAINER_MON_BOOST_NONE || boost > TRAINER_MON_BOOST_50_PERCENT)
+        return;
+
     u16 maxHp = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_MAX_HP, NULL), boost);
     u16 hp = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_HP, NULL), boost);
     u16 attack = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_ATK, NULL), boost);
