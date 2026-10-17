@@ -216,7 +216,7 @@ Route103_EventScript_RivalExitFacingNorth:: @ 81EC53D
 	applymovement LOCALID_RIVAL, Route103_Movement_RivalExitFacingNorth1
 	waitmovement 0
 	playse SE_LEDGE
-	applymovement LOCALID_RIVAL, Route103_Movement_RivalExitFacingNorth2
+	applymovement LOCALID_RIVAL, Route103_EventScript_RivalExitFacingNorth2
 	waitmovement 0
 	goto Route103_EventScript_RivalEnd
 	end
