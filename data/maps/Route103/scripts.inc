@@ -211,7 +211,7 @@ Route103_EventScript_RivalExit:: @ 81EC50A
 Route103_EventScript_RivalExitFacingNorth:: @ 81EC53D
 	applymovement OBJ_EVENT_ID_PLAYER, Route103_Movement_WatchRivalExitFacingNorth
 	applymovement LOCALID_RIVAL, Route103_Movement_RivalExitFacingNorth1
-	waitmovement 0
+	@ TEMP DIAGNOSTIC: skip first waitmovement to test whether it blocks script progress.
 	playse SE_LEDGE
 	@ TEMP DIAGNOSTIC: skip second rival movement sequence.
 	goto Route103_EventScript_RivalEnd
@@ -220,7 +220,7 @@ Route103_EventScript_RivalExitFacingNorth:: @ 81EC53D
 Route103_EventScript_RivalExitFacingEastOrWest:: @ 81EC561
 	applymovement OBJ_EVENT_ID_PLAYER, Route103_Movement_WatchRivalExitFacingEastOrWest
 	applymovement LOCALID_RIVAL, Route103_Movement_RivalExit1
-	waitmovement 0
+	@ TEMP DIAGNOSTIC: skip first waitmovement to test whether it blocks script progress.
 	playse SE_LEDGE
 	@ TEMP DIAGNOSTIC: skip second rival movement sequence.
 	goto Route103_EventScript_RivalEnd
@@ -228,7 +228,7 @@ Route103_EventScript_RivalExitFacingEastOrWest:: @ 81EC561
 
 Route103_EventScript_RivalExitFacingSouth:: @ 81EC585
 	applymovement LOCALID_RIVAL, Route103_Movement_RivalExit1
-	waitmovement 0
+	@ TEMP DIAGNOSTIC: skip first waitmovement to test whether it blocks script progress.
 	playse SE_LEDGE
 	@ TEMP DIAGNOSTIC: skip second rival movement sequence.
 	goto Route103_EventScript_RivalEnd
