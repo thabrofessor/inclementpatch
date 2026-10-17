@@ -159,8 +159,7 @@ Route103_EventScript_StartBrendanRematchMudkip:: @ 81EC4DE
 
 Route103_EventScript_AfterMayBattle:: @ 81EC4EE
 	msgbox Route103_Text_MayTimeToHeadBack, MSGBOX_DEFAULT
-	@ TEMP DIAGNOSTIC: bypass rival exit movements to test progression commands.
-	goto Route103_EventScript_RivalEnd
+	goto Route103_EventScript_RivalExit
 	end
 
 Route103_EventScript_AfterBrendanBattle:: @ 81EC4FC
@@ -214,8 +213,7 @@ Route103_EventScript_RivalExitFacingNorth:: @ 81EC53D
 	applymovement LOCALID_RIVAL, Route103_Movement_RivalExitFacingNorth1
 	waitmovement 0
 	playse SE_LEDGE
-	applymovement LOCALID_RIVAL, Route103_EventScript_RivalExitFacingNorth2
-	waitmovement 0
+	@ TEMP DIAGNOSTIC: skip second rival movement sequence.
 	goto Route103_EventScript_RivalEnd
 	end
 
@@ -224,8 +222,7 @@ Route103_EventScript_RivalExitFacingEastOrWest:: @ 81EC561
 	applymovement LOCALID_RIVAL, Route103_Movement_RivalExit1
 	waitmovement 0
 	playse SE_LEDGE
-	applymovement LOCALID_RIVAL, Route103_Movement_RivalExit2
-	waitmovement 0
+	@ TEMP DIAGNOSTIC: skip second rival movement sequence.
 	goto Route103_EventScript_RivalEnd
 	end
 
@@ -233,8 +230,7 @@ Route103_EventScript_RivalExitFacingSouth:: @ 81EC585
 	applymovement LOCALID_RIVAL, Route103_Movement_RivalExit1
 	waitmovement 0
 	playse SE_LEDGE
-	applymovement LOCALID_RIVAL, Route103_Movement_RivalExit2
-	waitmovement 0
+	@ TEMP DIAGNOSTIC: skip second rival movement sequence.
 	goto Route103_EventScript_RivalEnd
 	end
 
