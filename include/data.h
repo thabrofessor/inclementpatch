@@ -11,6 +11,16 @@ enum {
     BATTLER_AFFINE_RETURN,
 };
 
+enum TrainerMonBoost
+{
+    TRAINER_MON_BOOST_NONE,
+    TRAINER_MON_BOOST_10_PERCENT,
+    TRAINER_MON_BOOST_20_PERCENT,
+    TRAINER_MON_BOOST_30_PERCENT,
+    TRAINER_MON_BOOST_40_PERCENT,
+    TRAINER_MON_BOOST_50_PERCENT,
+};
+
 struct MonCoords
 {
     // This would use a bitfield, but some function
@@ -45,6 +55,7 @@ struct TrainerMonNoItemCustomMoves
 struct TrainerMonItemCustomMoves
 {
     s8 lvl;
+    u8 boost;
     u16 species;
     u16 heldItem;
     u8 ability;
