@@ -159,7 +159,8 @@ Route103_EventScript_StartBrendanRematchMudkip:: @ 81EC4DE
 
 Route103_EventScript_AfterMayBattle:: @ 81EC4EE
 	msgbox Route103_Text_MayTimeToHeadBack, MSGBOX_DEFAULT
-	goto Route103_EventScript_RivalExit
+	@ TEMP DIAGNOSTIC: bypass rival exit movements to test progression commands.
+	goto Route103_EventScript_RivalEnd
 	end
 
 Route103_EventScript_AfterBrendanBattle:: @ 81EC4FC
