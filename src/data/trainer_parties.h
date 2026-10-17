@@ -3223,7 +3223,8 @@ static const struct TrainerMonItemCustomMoves sParty_MayRoute103Mudkip[] = {
     {
     .lvl = -5,
     .species = SPECIES_AZURILL,
-    .heldItem = ITEM_BERRY_JUICE,	    
+    .heldItem = ITEM_BERRY_JUICE,	
+     .boost = TRAINER_MON_BOOST_40_PERCENT, // Gmax boost (40%)    
     .moves = MOVE_POUND
     },
     {
@@ -3262,7 +3263,8 @@ static const struct TrainerMonItemCustomMoves sParty_MayRoute103Mudkip_V2[] = {
     {
     .lvl = -5,
     .species = SPECIES_AZURILL,
-    .heldItem = ITEM_BERRY_JUICE,	    
+    .heldItem = ITEM_BERRY_JUICE,	
+     .boost = TRAINER_MON_BOOST_40_PERCENT, // Gmax boost (40%)    
     .moves = MOVE_POUND
     },
     {
@@ -3301,7 +3303,8 @@ static const struct TrainerMonItemCustomMoves sParty_MayRoute103Mudkip_V3[] = {
     {
     .lvl = -5,
     .species = SPECIES_AZURILL,
-    .heldItem = ITEM_BERRY_JUICE,	    
+    .heldItem = ITEM_BERRY_JUICE,	 
+     .boost = TRAINER_MON_BOOST_40_PERCENT, // Gmax boost (40%)   
     .moves = MOVE_POUND
     },
     {
