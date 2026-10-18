@@ -8361,7 +8361,7 @@ BattleScript_TrainerMonBoostInitial::
 	waitmessage B_WAIT_TIME_LONG
 	playanimation BS_SCRIPTING, B_ANIM_TRAINER_BOOST, sB_ANIM_ARG1
 	waitanimation
-	end2
+	end3
 
 BattleScript_ActivateAsOne::
 	call BattleScript_AbilityPopUp

@@ -3782,7 +3782,7 @@ static void TryDoEventsBeforeFirstTurn(void)
         gBattleScripting.animArg1 = boostType;
         gBattleScripting.animArg2 = 0;
         gBattlerAttacker = i;
-        BattleScriptExecute(BattleScript_TrainerMonBoostInitial);
+        BattleScriptPushCursorAndCallback(BattleScript_TrainerMonBoostInitial);
         return;
     }
 
