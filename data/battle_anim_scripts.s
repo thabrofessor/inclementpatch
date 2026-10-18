@@ -25892,32 +25892,9 @@ General_ItemHealsHP::
 	end
 
 General_TrainerBoost::
-	jumpargeq 0, 1, General_TrainerBoost_Totem
-	jumpargeq 0, 2, General_TrainerBoost_Alpha
-	jumpargeq 0, 3, General_TrainerBoost_Shadow
-	jumpargeq 0, 4, General_TrainerBoost_Gmax
-	jumpargeq 0, 5, General_TrainerBoost_Primal
-	end
-
-General_TrainerBoost_Totem:
+	@ General battle animations do not copy the supplied argument into gBattleAnimArgs.
+	@ Use a common aura here; the message identifies the boost category.
 	createvisualtask AnimTask_BlendColorCycle, 2, ANIM_PAL_ATK, 2, 2, 0, 20, RGB(31, 20, 0)
-	goto General_TrainerBoost_SparkleBurst
-
-General_TrainerBoost_Alpha:
-	createvisualtask AnimTask_BlendColorCycle, 2, ANIM_PAL_ATK, 2, 2, 0, 20, RGB(0, 15, 31)
-	goto General_TrainerBoost_SparkleBurst
-
-General_TrainerBoost_Shadow:
-	createvisualtask AnimTask_BlendColorCycle, 2, ANIM_PAL_ATK, 2, 2, 0, 20, RGB(18, 0, 24)
-	goto General_TrainerBoost_SparkleBurst
-
-General_TrainerBoost_Gmax:
-	createvisualtask AnimTask_BlendColorCycle, 2, ANIM_PAL_ATK, 2, 2, 0, 20, RGB(31, 0, 20)
-	goto General_TrainerBoost_SparkleBurst
-
-General_TrainerBoost_Primal:
-	createvisualtask AnimTask_BlendColorCycle, 2, ANIM_PAL_ATK, 2, 2, 0, 20, RGB(31, 8, 0)
-	goto General_TrainerBoost_SparkleBurst
 
 @ Reuse Ominous Wind's swirling sparkle particles for a clearly visible
 @ aura, without playing its screen transition or attack impact.
