@@ -73847,8 +73847,7 @@ static const struct TrainerMonItemCustomMoves sParty_Grunt19[] = {
     {
     .lvl = 2,
     .species = SPECIES_AMOONGUSS,
-    .heldItem = ITEM_SITRUS_BERRY,
-	 ITEM_ROSE_INCENSE,   
+	.heldItem = ITEM_ROSE_INCENSE,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_SPORE, MOVE_GIGA_DRAIN, MOVE_SLUDGE_BOMB, MOVE_SYNTHESIS
     },
