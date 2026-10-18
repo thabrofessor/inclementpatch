@@ -3672,6 +3672,8 @@ static void DoBattleIntro(void)
 static void TryDoEventsBeforeFirstTurn(void)
 {
     s32 i, j;
+    u8 partyId;
+    u8 boostType;
 
     if (gBattleControllerExecFlags)
         return;
@@ -3756,6 +3758,32 @@ static void TryDoEventsBeforeFirstTurn(void)
     {
         if (ItemBattleEffects(ITEMEFFECT_ON_SWITCH_IN, gBattlerByTurnOrder[gBattleStruct->switchInItemsCounter++], FALSE))
             return;
+    }
+
+    // Announce boosted opponent leads, which enter through the intro flow rather than the switch-in script.
+    for (i = 0; i < gBattlersCount; i++)
+    {
+        if (GetBattlerSide(i) != B_SIDE_OPPONENT || (gAbsentBattlerFlags & gBitTable[i]))
+            continue;
+
+        partyId = gBattlerPartyIndexes[i];
+        if (partyId >= PARTY_SIZE)
+            continue;
+
+        boostType = gBattleStruct->trainerMonBoostType[partyId];
+        if (boostType < TRAINER_MON_BOOST_10_PERCENT
+         || boostType > TRAINER_MON_BOOST_50_PERCENT
+         || (gBattleStruct->trainerMonBoostAnnounced & gBitTable[partyId]))
+            continue;
+
+        gBattleStruct->trainerMonBoostAnnounced |= gBitTable[partyId];
+        gBattleCommunication[MULTISTRING_CHOOSER] = boostType - TRAINER_MON_BOOST_10_PERCENT;
+        gBattleScripting.battler = i;
+        gBattleScripting.animArg1 = boostType;
+        gBattleScripting.animArg2 = 0;
+        gBattlerAttacker = i;
+        BattleScriptExecute(BattleScript_TrainerMonBoostInitial);
+        return;
     }
 
     for (i = 0; i < MAX_BATTLERS_COUNT; i++)

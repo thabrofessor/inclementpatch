@@ -263,6 +263,7 @@ extern const u8 BattleScript_BadDreamsActivates[];
 extern const u8 BattleScript_SwitchInAbilityMsg[];
 extern const u8 BattleScript_SwitchInAbilityMsgRet[];
 extern const u8 BattleScript_TrainerMonBoost[];
+extern const u8 BattleScript_TrainerMonBoostInitial[];
 extern const u8 BattleScript_ToxicSpikesPoisoned[];
 extern const u8 BattleScript_ToxicSpikesAbsorbed[];
 extern const u8 BattleScript_StickyWebOnSwitchIn[];
