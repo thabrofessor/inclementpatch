@@ -25900,27 +25900,36 @@ General_TrainerBoost::
 	end
 
 General_TrainerBoost_Totem:
-	createvisualtask AnimTask_BlendColorCycle, 2, ANIM_PAL_ATK, 2, 2, 0, 12, RGB(31, 20, 0)
-	waitforvisualfinish
-	end
+	createvisualtask AnimTask_BlendColorCycle, 2, ANIM_PAL_ATK, 2, 2, 0, 20, RGB(31, 20, 0)
+	goto General_TrainerBoost_SparkleBurst
 
 General_TrainerBoost_Alpha:
-	createvisualtask AnimTask_BlendColorCycle, 2, ANIM_PAL_ATK, 2, 2, 0, 12, RGB(0, 15, 31)
-	waitforvisualfinish
-	end
+	createvisualtask AnimTask_BlendColorCycle, 2, ANIM_PAL_ATK, 2, 2, 0, 20, RGB(0, 15, 31)
+	goto General_TrainerBoost_SparkleBurst
 
 General_TrainerBoost_Shadow:
-	createvisualtask AnimTask_BlendColorCycle, 2, ANIM_PAL_ATK, 2, 2, 0, 12, RGB(18, 0, 24)
-	waitforvisualfinish
-	end
+	createvisualtask AnimTask_BlendColorCycle, 2, ANIM_PAL_ATK, 2, 2, 0, 20, RGB(18, 0, 24)
+	goto General_TrainerBoost_SparkleBurst
 
 General_TrainerBoost_Gmax:
-	createvisualtask AnimTask_BlendColorCycle, 2, ANIM_PAL_ATK, 2, 2, 0, 12, RGB(31, 0, 20)
-	waitforvisualfinish
-	end
+	createvisualtask AnimTask_BlendColorCycle, 2, ANIM_PAL_ATK, 2, 2, 0, 20, RGB(31, 0, 20)
+	goto General_TrainerBoost_SparkleBurst
 
 General_TrainerBoost_Primal:
-	createvisualtask AnimTask_BlendColorCycle, 2, ANIM_PAL_ATK, 2, 2, 0, 12, RGB(31, 8, 0)
+	createvisualtask AnimTask_BlendColorCycle, 2, ANIM_PAL_ATK, 2, 2, 0, 20, RGB(31, 8, 0)
+	goto General_TrainerBoost_SparkleBurst
+
+@ Reuse Ominous Wind's swirling sparkle particles for a clearly visible
+@ aura, without playing its screen transition or attack impact.
+General_TrainerBoost_SparkleBurst:
+	loadspritegfx ANIM_TAG_SPARKLE_6
+	delay 0
+	createsprite gSilverWindBigSparkSpriteTemplate, ANIM_ATTACKER, 120, -24, 18, 90, 5, 1, 2, 1
+	createsprite gSilverWindBigSparkSpriteTemplate, ANIM_ATTACKER, 120, -40, 14, 128, 4, 1, 2, 1
+	createsprite gSilverWindMediumSparkSpriteTemplate, ANIM_ATTACKER, 120, -8, 18, 64, 3, 2, 2, 1
+	delay 5
+	createsprite gSilverWindSmallSparkSpriteTemplate, ANIM_ATTACKER, 120, -32, 16, 0, 6, 2, 3, 1
+	createsprite gSilverWindMediumSparkSpriteTemplate, ANIM_ATTACKER, 120, -16, 12, 192, 5, 2, 3, 1
 	waitforvisualfinish
 	end
 
