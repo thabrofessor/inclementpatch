@@ -164,17 +164,15 @@ LittlerootTown_EventScript_GoInsideWithMom:: @ 81E7F17
 	givemon SPECIES_RATTATA, 0, ITEM_NONE
 	msgbox LittlerootTown_Text_OurNewHomeLetsGoInside, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_MOM, LittlerootTown_Movement_MomApproachDoor
-	waitmovement LOCALID_MOM
-	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_Movement_PlayerApproachDoor
-	waitmovement OBJ_EVENT_ID_PLAYER
+	setobjectxy LOCALID_MOM, VAR_0x8004, 9
+	turnobject LOCALID_MOM, DIR_NORTH
+	setobjectxy OBJ_EVENT_ID_PLAYER, VAR_0x8004, 10
+	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
 	opendoor VAR_0x8004, VAR_0x8005
 	waitdooranim
-	applymovement LOCALID_MOM, LittlerootTown_Movement_MomEnterHouse
-	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_Movement_PlayerEnterHouse
-	waitmovement 0
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE
 	setvar VAR_LITTLEROOT_INTRO_STATE, 3
+	removeobject LOCALID_MOM
 	hideobjectat OBJ_EVENT_ID_PLAYER, 0
 	closedoor VAR_0x8004, VAR_0x8005
 	waitdooranim
