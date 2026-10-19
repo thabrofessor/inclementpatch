@@ -441,9 +441,24 @@ Route118_EventScript_FALKNER_3:: @ 81EC1B3
 	end
 
 Route118_EventScript_WINONA_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_WINONA_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_WINONA_3, Route118_Text_Winona3Intro, Route118_Text_Winona3Defeat
+	msgbox Route118_Text_Winona3PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+Route118_Text_Winona3Intro:
+	.string "I travel by air and see how far\n"
+	.string "the League's notices have\l"
+	.string "have spread. Are they asking for\l"
+	.string "more than tournament entries?$"
+
+Route118_Text_Winona3Defeat:
+	.string "Your Pokémon follow you\n"
+	.string "by trust, not because a record\l"
+	.string "says so.$"
+
+Route118_Text_Winona3PostBattle:
+	.string "I will ask the League how it\n"
+	.string "will use those registrations.$"
 
 Route118_EventScript_PHOEBE_3A:: @ 81EC1B3
 	trainerbattle_single TRAINER_PHOEBE_3A, Route102_Text_GENIntro, Route102_Text_GENDefeat

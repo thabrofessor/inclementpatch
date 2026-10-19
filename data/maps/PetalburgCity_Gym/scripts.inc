@@ -1462,7 +1462,11 @@ PetalburgCity_Gym_Text_NormanDefeat: @ 8206107
 	.string "I can't believe it. {PLAYER}…\p"
 	.string "I lost to {PLAYER}?\p"
 	.string "But, rules are rules!\n"
-	.string "Here, take this.$"
+	.string "Here, take this.\p"
+	.string "A Badge should honor a Trainer's\n"
+	.string "judgment and responsibility.\p"
+	.string "It shouldn't be a permit that\n"
+	.string "someone can revoke on a whim.$"
 
 PetalburgCity_Gym_Text_ReceivedBalanceBadge: @ 8206162
 	.string "{PLAYER} received the Balance Badge\n"

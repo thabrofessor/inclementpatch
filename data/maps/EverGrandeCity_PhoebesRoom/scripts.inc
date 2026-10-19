@@ -110,6 +110,10 @@ EverGrandeCity_PhoebesRoom_Text_IntroSpeech: @ 822820E
 	.string "to commune with Ghost-type Pokémon.\p"
 	.string "Yes, the bond I developed with Pokémon\n"
 	.string "is extremely tight.\p"
+	.string "I've heard about your bond.\n"
+	.string "Your Pokémon seem fond of you.\p"
+	.string "Heehee… I'll keep an eye on you.\n"
+	.string "You're hard to forget.\p"
 	.string "So, come on, just try and see if you can\n"
 	.string "even inflict damage on my Pokémon!$"
 

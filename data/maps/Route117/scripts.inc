@@ -248,9 +248,24 @@ Route117_EventScript_CRUSH_3:: @ 81EC1B3
 	end
 
 Route117_EventScript_KAREN_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_KAREN_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_KAREN_3, Route117_Text_Karen3Intro, Route117_Text_Karen3Defeat
+	msgbox Route117_Text_Karen3PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+Route117_Text_Karen3Intro:
+	.string "The tournament sounds less\n"
+	.string "simple now. They want a record\l"
+	.string "of every Pokémon a Trainer owns.\p"
+	.string "Why?$"
+
+Route117_Text_Karen3Defeat:
+	.string "You trust your Pokémon, and\n"
+	.string "they trust you. No list can\l"
+	.string "measure that.$"
+
+Route117_Text_Karen3PostBattle:
+	.string "A registry shouldn't decide\n"
+	.string "who deserves a Pokémon.$"
 
 Route117_EventScript_BROCK_3:: @ 81EC1B3
 	trainerbattle_single TRAINER_BROCK_3, Route102_Text_GENIntro, Route102_Text_GENDefeat

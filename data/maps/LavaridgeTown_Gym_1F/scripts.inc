@@ -447,7 +447,13 @@ LavaridgeTown_Gym_1F_Text_RegisteredArcanine: @ 81FF517
 LavaridgeTown_Gym_1F_Text_FlanneryPostBattle: @ 81FF546
 	.string "Your power reminds me of someone…\p"
 	.string "Oh! I know! You battle like Norman,\n"
-	.string "the Gym Leader of Petalburg.$"
+	.string "the Gym Leader of Petalburg.\p"
+	.string "People say Pokémon are too\n"
+	.string "dangerous for ordinary Trainers.\p"
+	.string "After Mt. Chimney, I understand\n"
+	.string "that fear.\n"
+	.string "But taking every Pokémon won't\l"
+	.string "put things right.$"
 
 LavaridgeTown_Gym_1F_Text_GymStatue: @ 81FF5A9
 	.string "Lavaridge Town Pokémon Gym$"

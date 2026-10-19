@@ -788,9 +788,24 @@ DewfordTown_EventScript_LUCY_2:: @ 81EC1B3
 	end
 
 DewfordTown_EventScript_KAREN_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_KAREN_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_KAREN_2, DewfordTown_Text_Karen2Intro, DewfordTown_Text_Karen2Defeat
+	msgbox DewfordTown_Text_Karen2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+DewfordTown_Text_Karen2Intro:
+	.string "Strong or weak Pokémon…\n"
+	.string "Those labels miss the point.\p"
+	.string "The League tournament\n"
+	.string "sounds fun. I hope it values\l"
+	.string "a Trainer and their Pokémon.$"
+
+DewfordTown_Text_Karen2Defeat:
+	.string "You and your Pokémon fought\n"
+	.string "as one. That's what matters.$"
+
+DewfordTown_Text_Karen2PostBattle:
+	.string "A good Trainer trusts\n"
+	.string "their team.$"
 
 DewfordTown_EventScript_TUCKER_2:: @ 81EC1B3
 	trainerbattle_single TRAINER_TUCKER_2, Route102_Text_GENIntro, Route102_Text_GENDefeat

@@ -500,7 +500,11 @@ DewfordTown_Gym_Text_RegisteredBrawly: @ 81FD1E0
 DewfordTown_Gym_Text_BrawlyPostBattle: @ 81FD20D
 	.string "I can see your talent becoming a giant\n"
 	.string "wave to cause a storm of astonishment\l"
-	.string "among Trainers one day!$"
+	.string "among Trainers one day!\p"
+	.string "I hear the League tournament is\n"
+	.string "drawing Trainers from all Hoenn.\p"
+	.string "A good battle brings people\n"
+	.string "together, forms or no forms!$"
 
 DewfordTown_Gym_Text_GymStatue: @ 81FD272
 	.string "Dewford Town Pokémon Gym$"

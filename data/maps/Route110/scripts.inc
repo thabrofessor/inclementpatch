@@ -820,7 +820,11 @@ Route110_Text_MayExplainItemfinder: @ 81EFD58
 	.string "Okay, {PLAYER}{KUN}, let's meet again!\p"
 	.string "I know it's a little silly coming from\n"
 	.string "me, but I think you should train a lot\l"
-	.string "harder for the next time.$"
+	.string "harder for the next time.\p"
+	.string "The League plans a tournament.\n"
+	.string "Trainers register their teams.\p"
+	.string "It sounds exciting! I hope the\n"
+	.string "forms don't slow the battling.$"
 
 Route110_Text_BrendanLetsBattle: @ 81EFE3F
 	.string "Brendan: Hey, {PLAYER}.\n"
@@ -846,7 +850,12 @@ Route110_Text_BrendanExplainItemfinder: @ 81EFF1C
 	.string "If it senses something, it emits\n"
 	.string "a sound.\p"
 	.string "Anyway, I'm off to look for new\n"
-	.string "Pokémon.$"
+	.string "Pokémon.\p"
+	.string "Have you heard about the League\n"
+	.string "tournament? They want a list of\l"
+	.string "every Pokémon a Trainer has.\p"
+	.string "Maybe it's just organization.\n"
+	.string "Still, it's a lot to ask.$"
 
 Route110_Text_RideBikeAtFullSpeed: @ 81EFFC3
 	.string "Wouldn't it be great to ride a Bike\n"

@@ -397,6 +397,10 @@ RustboroCity_Gym_Text_RoxanneIntro: @ 821362A
 	.string "I became a Gym Leader so that I might\n"
 	.string "apply what I learned at the Pokémon\l"
 	.string "Trainer's School in battle.\p"
+	.string "The League tournament is already\n"
+	.string "popular at the School. I hope it\l"
+	.string "rewards trust between Trainers\l"
+	.string "and Pokémon, too.\p"
 	.string "Would you kindly demonstrate how you\n"
 	.string "battle, and with which Pokémon?$"
 

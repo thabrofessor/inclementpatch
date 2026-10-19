@@ -460,7 +460,11 @@ MauvilleCity_Gym_Text_RegisteredRaichu: @ 820E8B5
 
 MauvilleCity_Gym_Text_WattsonPostBattle: @ 820E8E3
 	.string "I swell with optimism, seeing a promising\n"
-	.string "young Trainer like you!$"
+	.string "young Trainer like you!\p"
+	.string "This tournament's registry drive\n"
+	.string "sounds sensible on paper.\p"
+	.string "But a safety record must never\n"
+	.string "decide who may keep a Pokémon!$"
 
 MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor: @ 820E925
 	.string "Wahahahah!\n"
