@@ -4910,7 +4910,7 @@ IncTrainer_Ally_LatePost:
 
 IncTrainer_Investigator_EarlyIntro:
 	.string "I'm tracing rumors across\n"
-	.string "Hoenn. Seen anything unusual?"$
+	.string "Hoenn. Seen anything unusual?$"
 IncTrainer_Investigator_EarlyDefeat:
 	.string "A useful test. I'll trust what\n"
 	.string "I observed, not idle rumors.$"
