@@ -499,91 +499,91 @@ LavaridgeTown_Gym_1F_Text_FlanneryAllowLegends:
 	.string "with my Legendary Pokémon?$"
 
 LavaridgeTown_Gym_1F_EventScript_FANS_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_FANS_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_FANS_4, IncTrainer_Flirty_MiddleIntro, IncTrainer_Flirty_MiddleDefeat
+	msgbox IncTrainer_Flirty_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_Gym_1F_EventScript_BLAIN_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_BLAIN_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BLAIN_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_Gym_1F_EventScript_YELLOW_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_YELLOW_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_YELLOW_4, IncTrainer_Flirty_MiddleIntro, IncTrainer_Flirty_MiddleDefeat
+	msgbox IncTrainer_Flirty_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_Gym_1F_EventScript_COLE_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_COLE_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COLE_4, IncTrainer_Rival_MiddleIntro, IncTrainer_Rival_MiddleDefeat
+	msgbox IncTrainer_Rival_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_Gym_1F_EventScript_CHAD_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_CHAD_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CHAD_4, IncTrainer_Rival_MiddleIntro, IncTrainer_Rival_MiddleDefeat
+	msgbox IncTrainer_Rival_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_Gym_1F_EventScript_BABE_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_BABE_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BABE_4, IncTrainer_Flirty_MiddleIntro, IncTrainer_Flirty_MiddleDefeat
+	msgbox IncTrainer_Flirty_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_Gym_1F_EventScript_CRUSH_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_CRUSH_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CRUSH_4, IncTrainer_Flirty_MiddleIntro, IncTrainer_Flirty_MiddleDefeat
+	msgbox IncTrainer_Flirty_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_Gym_1F_EventScript_STARLET_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_STARLET_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_STARLET_4, IncTrainer_Flirty_MiddleIntro, IncTrainer_Flirty_MiddleDefeat
+	msgbox IncTrainer_Flirty_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_Gym_1F_EventScript_CRYSTAL_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_CRYSTAL_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CRYSTAL_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_Gym_1F_EventScript_RUNNINGTRIM_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_RUNNINGTRIM_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RUNNINGTRIM_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_Gym_1F_EventScript_KINDLER_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_KINDLER_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_KINDLER_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_Gym_1F_EventScript_SAILOR_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_SAILOR_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SAILOR_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_Gym_1F_EventScript_RUNNINGTRIF_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_RUNNINGTRIF_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RUNNINGTRIF_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_Gym_1F_EventScript_HIKER_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_HIKER_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_HIKER_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_Gym_1F_EventScript_POKEFANM_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_POKEFANM_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_POKEFANM_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_Gym_1F_EventScript_RICHBOY_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_RICHBOY_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RICHBOY_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_Gym_1F_EventScript_GENTALMAN2_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_GENTALMAN2_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GENTALMAN2_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_Gym_1F_EventScript_RUNE_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_RUNE_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RUNE_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end

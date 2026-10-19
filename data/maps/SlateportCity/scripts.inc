@@ -1559,81 +1559,81 @@ SlateportCity_Text_GretaDefeated:
 	.string "no halfhearted rematch allowed!$"
 
 SlateportCity_EventScript_BLUE_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_BLUE_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BLUE_2, IncTrainer_Anti_EarlyIntro, IncTrainer_Anti_EarlyDefeat
+	msgbox IncTrainer_Anti_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 SlateportCity_EventScript_ELESA_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_ELESA_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ELESA_2, IncTrainer_Resistance_EarlyIntro, IncTrainer_Resistance_EarlyDefeat
+	msgbox IncTrainer_Resistance_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 SlateportCity_EventScript_SURGE_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_SURGE_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SURGE_2, IncTrainer_Resistance_EarlyIntro, IncTrainer_Resistance_EarlyDefeat
+	msgbox IncTrainer_Resistance_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 SlateportCity_EventScript_WATSON_2A:: @ 81EC1B3
-	trainerbattle_single TRAINER_WATSON_2A, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_WATSON_2A, IncTrainer_Resistance_EarlyIntro, IncTrainer_Resistance_EarlyDefeat
+	msgbox IncTrainer_Resistance_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 SlateportCity_EventScript_JENNY_2A:: @ 81EC1B3
-	trainerbattle_single TRAINER_JENNY_2A, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_JENNY_2A, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
+	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 SlateportCity_EventScript_STEVEN_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_STEVEN_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_STEVEN_2, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
+	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 SlateportCity_EventScript_NORMAN_2A:: @ 81EC1B3
-	trainerbattle_single TRAINER_NORMAN_2A, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_NORMAN_2A, IncTrainer_Resistance_EarlyIntro, IncTrainer_Resistance_EarlyDefeat
+	msgbox IncTrainer_Resistance_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 SlateportCity_EventScript_LUSAMINE_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_LUSAMINE_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_LUSAMINE_2, IncTrainer_Villain_EarlyIntro, IncTrainer_Villain_EarlyDefeat
+	msgbox IncTrainer_Villain_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 SlateportCity_EventScript_DAHLIA_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_DAHLIA_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_DAHLIA_2, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
+	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 SlateportCity_EventScript_CAITLIN_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_CAITLIN_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CAITLIN_2, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
+	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 SlateportCity_EventScript_DARACH_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_DARACH_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_DARACH_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 SlateportCity_EventScript_ROCKET_106:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_106, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_106, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 SlateportCity_EventScript_MAGMA_106:: @ 81EC1B3
-	trainerbattle_single TRAINER_MAGMA_106, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_MAGMA_106, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 SlateportCity_EventScript_AQUA_106:: @ 81EC1B3
-	trainerbattle_single TRAINER_AQUA_106, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_AQUA_106, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 SlateportCity_EventScript_PLASMA_106:: @ 81EC1B3
-	trainerbattle_single TRAINER_PLASMA_106, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_PLASMA_106, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 SlateportCity_EventScript_GALACTIC_106:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_106, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_106, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end

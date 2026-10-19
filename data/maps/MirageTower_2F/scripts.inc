@@ -10,18 +10,18 @@ MirageTower_2F_SetHoleWarp: @ 823AD21
 	end
 
 MirageTower_2F_EventScript_KAREN_5A:: @ 81EC1B3
-	trainerbattle_single TRAINER_KAREN_5A, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_KAREN_5A, IncTrainer_Flirty_MiddleIntro, IncTrainer_Flirty_MiddleDefeat
+	msgbox IncTrainer_Flirty_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 MirageTower_2F_EventScript_LORELIE_5:: @ 81EC1B3
-	trainerbattle_single TRAINER_LORELIE_5, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_LORELIE_5, IncTrainer_Flirty_MiddleIntro, IncTrainer_Flirty_MiddleDefeat
+	msgbox IncTrainer_Flirty_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 
 MirageTower_2F_EventScript_JASMINE_5:: @ 81EC1B3
-	trainerbattle_single TRAINER_JASMINE_5, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_JASMINE_5, IncTrainer_Flirty_MiddleIntro, IncTrainer_Flirty_MiddleDefeat
+	msgbox IncTrainer_Flirty_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 

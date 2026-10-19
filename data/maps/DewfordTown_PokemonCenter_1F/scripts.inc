@@ -57,6 +57,6 @@ DewfordTown_PokemonCenter_1F_Text_Flannery2PostBattle:
 	.string "tournament after all!$"
 
 DewfordTown_PokemonCenter_1F_EventScript_WALLY_2A:: @ 81EC1B3
-	trainerbattle_single TRAINER_WALLY_2A, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_WALLY_2A, IncTrainer_Rival_EarlyIntro, IncTrainer_Rival_EarlyDefeat
+	msgbox IncTrainer_Rival_EarlyPost, MSGBOX_AUTOCLOSE
 	end

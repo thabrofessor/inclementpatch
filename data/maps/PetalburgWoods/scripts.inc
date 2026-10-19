@@ -485,121 +485,121 @@ PetalburgWoods_Text_TrainerTipsPP: @ 822ED07
 	.string "taken to a Pokémon Center.$"
 
 PetalburgWoods_EventScript_COOLT10_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_COOLT10_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COOLT10_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_COOLT6_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_COOLT6_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COOLT6_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_ROSEMARY_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROSEMARY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROSEMARY_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_RANGER5_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_RANGER5_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RANGER5_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_RANGER7_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_RANGER7_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RANGER7_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_SHADY_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_SHADY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SHADY_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_JANINE_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_JANINE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_JANINE_1, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
+	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_KOGA_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_KOGA_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_KOGA_1, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
+	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_BUGSY_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_BUGSY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BUGSY_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_GREEN_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_GREEN_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GREEN_1, IncTrainer_Anti_EarlyIntro, IncTrainer_Anti_EarlyDefeat
+	msgbox IncTrainer_Anti_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_MAGMA_101:: @ 81EC1B3
-	trainerbattle_single TRAINER_MAGMA_101, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_MAGMA_101, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_MATT_1A:: @ 81EC1B3
-	trainerbattle_single TRAINER_MATT_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_MATT_1A, IncTrainer_Villain_EarlyIntro, IncTrainer_Villain_EarlyDefeat
+	msgbox IncTrainer_Villain_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_ERICA_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_ERICA_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ERICA_1, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
+	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_MORTY_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_MORTY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_MORTY_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_SIDNEY_1A:: @ 81EC1B3
-	trainerbattle_single TRAINER_SIDNEY_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SIDNEY_1A, IncTrainer_Government_EarlyIntro, IncTrainer_Government_EarlyDefeat
+	msgbox IncTrainer_Government_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_RUNE_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_RUNE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RUNE_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_POKEFANM_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_POKEFANM_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_POKEFANM_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_POKEMANIAK_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_POKEMANIAK_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_POKEMANIAK_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_GENTLMAN_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_GENTLMAN_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GENTLMAN_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_BEAUTY_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_BEAUTY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BEAUTY_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_HIKER_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_HIKER_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_HIKER_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_AQUA_102:: @ 81EC1B3
-	trainerbattle_single TRAINER_AQUA_102, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_AQUA_102, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_AQUA_103:: @ 81EC1B3
-	trainerbattle_single TRAINER_AQUA_103, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_AQUA_103, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_BUGMANIAC_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_BUGMANIAC_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BUGMANIAC_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end

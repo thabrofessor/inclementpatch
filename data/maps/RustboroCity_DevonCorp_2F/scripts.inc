@@ -304,31 +304,31 @@ RustboroCity_DevonCorp_2F_Text_ThatsNotAFossil:
 	.string "Come now, that's not a fossil!$"
 
 RustboroCity_DevonCorp_2F_EventScript_OAK_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_OAK_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_OAK_2, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
+	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_BIRCH_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_BIRCH_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BIRCH_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_BILL_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_BILL_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BILL_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_GIOVANNI_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_GIOVANNI_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GIOVANNI_2, IncTrainer_Giovanni_EarlyIntro, IncTrainer_Giovanni_EarlyDefeat
+	msgbox IncTrainer_Giovanni_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_ROCKET_104:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_104, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_104, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_ROCKET_105:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_105, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_105, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
