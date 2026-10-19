@@ -165,8 +165,9 @@ LittlerootTown_EventScript_GoInsideWithMom:: @ 81E7F17
 	msgbox LittlerootTown_Text_OurNewHomeLetsGoInside, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_MOM, LittlerootTown_Movement_MomApproachDoor
+	waitmovement LOCALID_MOM
 	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_Movement_PlayerApproachDoor
-	waitmovement 0
+	waitmovement OBJ_EVENT_ID_PLAYER
 	opendoor VAR_0x8004, VAR_0x8005
 	waitdooranim
 	applymovement LOCALID_MOM, LittlerootTown_Movement_MomEnterHouse
