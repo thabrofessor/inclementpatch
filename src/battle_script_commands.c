@@ -6343,12 +6343,12 @@ static void Cmd_switchineffects(void)
     if (GetBattlerSide(gActiveBattler) == B_SIDE_OPPONENT && partyId < PARTY_SIZE)
     {
         boostType = gBattleStruct->trainerMonBoostType[partyId];
-        if (boostType >= TRAINER_MON_BOOST_10_PERCENT
-         && boostType <= TRAINER_MON_BOOST_50_PERCENT
+        if (boostType >= TRAINER_MON_BOOST_TOTEM
+         && boostType <= TRAINER_MON_BOOST_PRIMAL
          && !(gBattleStruct->trainerMonBoostAnnounced & gBitTable[partyId]))
         {
             gBattleStruct->trainerMonBoostAnnounced |= gBitTable[partyId];
-            gBattleCommunication[MULTISTRING_CHOOSER] = boostType - TRAINER_MON_BOOST_10_PERCENT;
+            gBattleCommunication[MULTISTRING_CHOOSER] = boostType - TRAINER_MON_BOOST_TOTEM;
             gBattleScripting.battler = gActiveBattler;
             gBattleScripting.animArg1 = boostType;
             gBattleScripting.animArg2 = 0;
