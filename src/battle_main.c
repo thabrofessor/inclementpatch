@@ -2062,15 +2062,11 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
     return gTrainers[trainerNum].partySize;
 }
 
-static u16 ApplyTrainerMonBoost(u16 stat, u8 boost)
+static u16 ApplyTrainerMonBoost(u16 stat, u8 percent)
 {
-    static const u8 sBoostPercentages[] = {0, 10, 20, 30, 40, 50};
     u32 boostedStat;
 
-    if (boost >= ARRAY_COUNT(sBoostPercentages))
-        return stat;
-
-    boostedStat = (u32)stat * (100 + sBoostPercentages[boost]) / 100;
+    boostedStat = (u32)stat * (100 + percent) / 100;
     if (boostedStat > 0xFFFF)
         boostedStat = 0xFFFF;
 
@@ -2079,6 +2075,9 @@ static u16 ApplyTrainerMonBoost(u16 stat, u8 boost)
 
 static void ApplyTrainerMonBoostToStats(struct Pokemon *mon, u8 boost)
 {
+    // These arrays follow the legacy enum order: none, Totem, Alpha, Shadow, Dynamax, Primal.
+    static const u8 sStatBoostPercentages[] = {0, 25, 50, 200, 75, 100};
+    static const u8 sHpBoostPercentages[] = {0, 50, 75, 100, 125, 200};
     u16 maxHp;
     u16 hp;
     u16 attack;
@@ -2090,13 +2089,13 @@ static void ApplyTrainerMonBoostToStats(struct Pokemon *mon, u8 boost)
     if (boost == TRAINER_MON_BOOST_NONE || boost > TRAINER_MON_BOOST_50_PERCENT)
         return;
 
-    maxHp = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_MAX_HP, NULL), boost);
-    hp = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_HP, NULL), boost);
-    attack = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_ATK, NULL), boost);
-    defense = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_DEF, NULL), boost);
-    speed = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPEED, NULL), boost);
-    spAttack = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPATK, NULL), boost);
-    spDefense = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPDEF, NULL), boost);
+    maxHp = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_MAX_HP, NULL), sHpBoostPercentages[boost]);
+    hp = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_HP, NULL), sHpBoostPercentages[boost]);
+    attack = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_ATK, NULL), sStatBoostPercentages[boost]);
+    defense = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_DEF, NULL), sStatBoostPercentages[boost]);
+    speed = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPEED, NULL), sStatBoostPercentages[boost]);
+    spAttack = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPATK, NULL), sStatBoostPercentages[boost]);
+    spDefense = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPDEF, NULL), sStatBoostPercentages[boost]);
 
     if (hp > maxHp)
         hp = maxHp;

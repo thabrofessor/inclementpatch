@@ -14,11 +14,11 @@ enum {
 enum TrainerMonBoost
 {
     TRAINER_MON_BOOST_NONE,
-    TRAINER_MON_BOOST_10_PERCENT, // Totem
-    TRAINER_MON_BOOST_20_PERCENT, // Alpha
-    TRAINER_MON_BOOST_30_PERCENT, // Shadow
-    TRAINER_MON_BOOST_40_PERCENT, // Gigantamax
-    TRAINER_MON_BOOST_50_PERCENT, // Primal
+    TRAINER_MON_BOOST_10_PERCENT, // Legacy tier ID: Totem
+    TRAINER_MON_BOOST_20_PERCENT, // Legacy tier ID: Alpha
+    TRAINER_MON_BOOST_30_PERCENT, // Legacy tier ID: Shadow
+    TRAINER_MON_BOOST_40_PERCENT, // Legacy tier ID: Dynamax
+    TRAINER_MON_BOOST_50_PERCENT, // Legacy tier ID: Primal
 };
 
 struct MonCoords
