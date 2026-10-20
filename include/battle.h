@@ -22,6 +22,7 @@
 // These determine what each battler will do in a turn
 #define B_ACTION_USE_MOVE               0
 #define B_ACTION_USE_ITEM               1
+#define MAX_PLAYER_BATTLE_ITEMS_PER_BATTLE 4
 #define B_ACTION_SWITCH                 2
 #define B_ACTION_RUN                    3
 #define B_ACTION_SAFARI_WATCH_CAREFULLY 4
@@ -621,6 +622,7 @@ struct BattleStruct
     u8 appearedInBattle; // Bitfield to track which Pokemon appeared in battle. Used for Burmy's form change
     u8 trainerMonBoostType[PARTY_SIZE]; // Trainer boost tier for each opponent party member
     u8 trainerMonBoostAnnounced; // Bitfield: boosted opponent party members already announced
+    u8 playerBattleItemsUsed; // Battle items used by the player on Hard difficulty
 };
 
 #define GET_MOVE_TYPE(move, typeArg)                        \

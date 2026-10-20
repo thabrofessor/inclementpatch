@@ -3101,6 +3101,7 @@ static void BattleStartClearSetData(void)
     gLeveledUpInBattle = 0;
     gAbsentBattlerFlags = 0;
     gBattleStruct->runTries = 0;
+    gBattleStruct->playerBattleItemsUsed = 0;
     gBattleStruct->safariGoNearCounter = 0;
     gBattleStruct->safariPkblThrowCounter = 0;
     gBattleStruct->safariCatchFactor = gBaseStats[GetMonData(&gEnemyParty[0], MON_DATA_SPECIES)].catchRate * 100 / 1275;
@@ -4118,7 +4119,11 @@ static void HandleTurnActionSelectionState(void)
                                             | BATTLE_TYPE_FRONTIER_NO_PYRAMID
                                             | BATTLE_TYPE_EREADER_TRAINER
                                             | BATTLE_TYPE_RECORDED_LINK)
-                        || (gSaveBlock2Ptr->gameDifficulty == DIFFICULTY_CHALLENGE && (gBattleTypeFlags & BATTLE_TYPE_TRAINER)))
+                        || (GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER
+                            && ((gSaveBlock2Ptr->gameDifficulty == DIFFICULTY_CHALLENGE
+                                 && (gBattleTypeFlags & BATTLE_TYPE_TRAINER))
+                                || (gSaveBlock2Ptr->gameDifficulty == DIFFICULTY_HARD
+                                    && gBattleStruct->playerBattleItemsUsed >= MAX_PLAYER_BATTLE_ITEMS_PER_BATTLE))))
                     {
                         RecordedBattle_ClearBattlerAction(gActiveBattler, 1);
                         gSelectionBattleScripts[gActiveBattler] = BattleScript_ActionSelectionItemsCantBeUsed;
