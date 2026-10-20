@@ -151,36 +151,18 @@ LittlerootTown_EventScript_GoInsideWithMom:: @ 81E7F17
 	playse SE_LEDGE
 	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_Movement_PlayerStepOffTruck
 	waitmovement 0
-	msgbox LittlerootTown_Text_DiagnosticPlayerOffTruck, MSGBOX_DEFAULT
-	closemessage
-	msgbox LittlerootTown_Text_DiagnosticBeforeDoorOpen, MSGBOX_DEFAULT
-	closemessage
 	opendoor VAR_0x8004, VAR_0x8005
 	waitdooranim
-	msgbox LittlerootTown_Text_DiagnosticDoorOpen, MSGBOX_DEFAULT
-	closemessage
 	addobject LOCALID_MOM
-	msgbox LittlerootTown_Text_DiagnosticMomAdded, MSGBOX_DEFAULT
-	closemessage
 	applymovement LOCALID_MOM, LittlerootTown_Movement_MomExitHouse
 	waitmovement 0
-	msgbox LittlerootTown_Text_DiagnosticMomExitMovement, MSGBOX_DEFAULT
-	closemessage
-	msgbox LittlerootTown_Text_DiagnosticMomExited, MSGBOX_DEFAULT
-	closemessage
 	closedoor VAR_0x8004, VAR_0x8005
 	waitdooranim
 	delay 10
 	applymovement LOCALID_MOM, LittlerootTown_Movement_MomApproachPlayerAtTruck
 	waitmovement 0
-	msgbox LittlerootTown_Text_DiagnosticMomTurned, MSGBOX_DEFAULT
-	closemessage
 	givemon SPECIES_RATTATA, 0, ITEM_NONE
-	msgbox LittlerootTown_Text_DiagnosticBeforeIntroDialogue, MSGBOX_DEFAULT
-	closemessage
 	msgbox LittlerootTown_Text_OurNewHomeLetsGoInside, MSGBOX_DEFAULT
-	closemessage
-	msgbox LittlerootTown_Text_DiagnosticAfterIntroDialogue, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_MOM, LittlerootTown_Movement_MomApproachDoor
 	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_Movement_PlayerApproachDoor
@@ -1133,33 +1115,6 @@ LittlerootTown_Text_OurNewHomeLetsGoInside: @ 81E86BC
 
 LittlerootTown_Text_WaitPlayer: @ 81E87E1
 	.string "Mom: Wait, {PLAYER}!$"
-
-LittlerootTown_Text_DiagnosticPlayerOffTruck:
-	.string "DIAG 1: Player finished stepping off truck.$"
-
-LittlerootTown_Text_DiagnosticBeforeDoorOpen:
-	.string "DIAG 1A: Opening the house door next.$"
-
-LittlerootTown_Text_DiagnosticDoorOpen:
-	.string "DIAG 1B: Door animation finished.$"
-
-LittlerootTown_Text_DiagnosticMomAdded:
-	.string "DIAG 1C: Mom object added.$"
-
-LittlerootTown_Text_DiagnosticMomExitMovement:
-	.string "DIAG 1D: Mom's exit movement finished.$"
-
-LittlerootTown_Text_DiagnosticMomExited:
-	.string "DIAG 2: Mom exited the house.$"
-
-LittlerootTown_Text_DiagnosticMomTurned:
-	.string "DIAG 3: Mom finished approaching and turning.$"
-
-LittlerootTown_Text_DiagnosticBeforeIntroDialogue:
-	.string "DIAG 4: Rattata give completed; intro dialogue next.$"
-
-LittlerootTown_Text_DiagnosticAfterIntroDialogue:
-	.string "DIAG 5: Intro dialogue completed.$"
 
 LittlerootTown_Text_WearTheseRunningShoes: @ 81E87F0
 	.string "Mom: {PLAYER}! {PLAYER}! Did you\n"
