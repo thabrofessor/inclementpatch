@@ -2075,8 +2075,7 @@ static u16 ApplyTrainerMonBoost(u16 stat, u8 percent)
 
 static void ApplyTrainerMonBoostToStats(struct Pokemon *mon, u8 boost)
 {
-    static const u8 sStatBoostPercentages[] = {0, 25, 50, 75, 200, 100};
-    static const u8 sHpBoostPercentages[] = {0, 50, 75, 125, 100, 200};
+    static const u8 sBoostPercentages[] = {0, 25, 50, 75, 100, 125};
     u16 maxHp;
     u16 hp;
     u16 attack;
@@ -2088,13 +2087,13 @@ static void ApplyTrainerMonBoostToStats(struct Pokemon *mon, u8 boost)
     if (boost == TRAINER_MON_BOOST_NONE || boost > TRAINER_MON_BOOST_PRIMAL)
         return;
 
-    maxHp = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_MAX_HP, NULL), sHpBoostPercentages[boost]);
-    hp = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_HP, NULL), sHpBoostPercentages[boost]);
-    attack = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_ATK, NULL), sStatBoostPercentages[boost]);
-    defense = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_DEF, NULL), sStatBoostPercentages[boost]);
-    speed = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPEED, NULL), sStatBoostPercentages[boost]);
-    spAttack = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPATK, NULL), sStatBoostPercentages[boost]);
-    spDefense = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPDEF, NULL), sStatBoostPercentages[boost]);
+    maxHp = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_MAX_HP, NULL), sBoostPercentages[boost]);
+    hp = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_HP, NULL), sBoostPercentages[boost]);
+    attack = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_ATK, NULL), sBoostPercentages[boost]);
+    defense = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_DEF, NULL), sBoostPercentages[boost]);
+    speed = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPEED, NULL), sBoostPercentages[boost]);
+    spAttack = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPATK, NULL), sBoostPercentages[boost]);
+    spDefense = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPDEF, NULL), sBoostPercentages[boost]);
 
     if (hp > maxHp)
         hp = maxHp;
