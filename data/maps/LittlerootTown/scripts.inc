@@ -153,11 +153,19 @@ LittlerootTown_EventScript_GoInsideWithMom:: @ 81E7F17
 	waitmovement 0
 	msgbox LittlerootTown_Text_DiagnosticPlayerOffTruck, MSGBOX_DEFAULT
 	closemessage
+	msgbox LittlerootTown_Text_DiagnosticBeforeDoorOpen, MSGBOX_DEFAULT
+	closemessage
 	opendoor VAR_0x8004, VAR_0x8005
 	waitdooranim
+	msgbox LittlerootTown_Text_DiagnosticDoorOpen, MSGBOX_DEFAULT
+	closemessage
 	addobject LOCALID_MOM
+	msgbox LittlerootTown_Text_DiagnosticMomAdded, MSGBOX_DEFAULT
+	closemessage
 	applymovement LOCALID_MOM, LittlerootTown_Movement_MomExitHouse
 	waitmovement 0
+	msgbox LittlerootTown_Text_DiagnosticMomExitMovement, MSGBOX_DEFAULT
+	closemessage
 	msgbox LittlerootTown_Text_DiagnosticMomExited, MSGBOX_DEFAULT
 	closemessage
 	closedoor VAR_0x8004, VAR_0x8005
@@ -1128,6 +1136,18 @@ LittlerootTown_Text_WaitPlayer: @ 81E87E1
 
 LittlerootTown_Text_DiagnosticPlayerOffTruck:
 	.string "DIAG 1: Player finished stepping off truck.$"
+
+LittlerootTown_Text_DiagnosticBeforeDoorOpen:
+	.string "DIAG 1A: Opening the house door next.$"
+
+LittlerootTown_Text_DiagnosticDoorOpen:
+	.string "DIAG 1B: Door animation finished.$"
+
+LittlerootTown_Text_DiagnosticMomAdded:
+	.string "DIAG 1C: Mom object added.$"
+
+LittlerootTown_Text_DiagnosticMomExitMovement:
+	.string "DIAG 1D: Mom's exit movement finished.$"
 
 LittlerootTown_Text_DiagnosticMomExited:
 	.string "DIAG 2: Mom exited the house.$"
