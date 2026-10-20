@@ -8352,14 +8352,14 @@ BattleScript_SwitchInAbilityMsgRet::
 BattleScript_TrainerMonBoost::
 	printfromtable gTrainerMonBoostStringIds
 	waitmessage B_WAIT_TIME_LONG
-	playanimation BS_SCRIPTING, B_ANIM_TRAINER_BOOST, sB_ANIM_ARG1
+	playanimation BS_SCRIPTING, B_ANIM_TOTEM_FLARE, NULL
 	waitanimation
 	return
 
 BattleScript_TrainerMonBoostInitial::
 	printfromtable gTrainerMonBoostStringIds
 	waitmessage B_WAIT_TIME_LONG
-	playanimation BS_SCRIPTING, B_ANIM_TRAINER_BOOST, sB_ANIM_ARG1
+	playanimation BS_SCRIPTING, B_ANIM_TOTEM_FLARE, NULL
 	waitanimation
 	end2
 
