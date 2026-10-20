@@ -99,16 +99,16 @@ PetalburgCity_PokemonCenter_1F_Text_MudkipIsWaterType: @ 8207CB7
 	.string "and Electric-type Pokémon.$"
 
 PetalburgCity_PokemonCenter_1F_EventScript_OAK_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_OAK_1, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
-	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_OAK_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgCity_PokemonCenter_1F_EventScript_BIRCH_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_BIRCH_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BIRCH_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgCity_PokemonCenter_1F_EventScript_BILL_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_BILL_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BILL_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end

@@ -397,10 +397,6 @@ RustboroCity_Gym_Text_RoxanneIntro: @ 821362A
 	.string "I became a Gym Leader so that I might\n"
 	.string "apply what I learned at the Pokémon\l"
 	.string "Trainer's School in battle.\p"
-	.string "The League tournament is already\n"
-	.string "popular at the School. I hope it\l"
-	.string "rewards trust between Trainers\l"
-	.string "and Pokémon, too.\p"
 	.string "Would you kindly demonstrate how you\n"
 	.string "battle, and with which Pokémon?$"
 
@@ -505,171 +501,171 @@ RustboroCity_Gym_Text_RoxanneAllowLegends:
 	.string "Legendary Pokémon?$"
 
 RustboroCity_Gym_EventScript_COOLT13_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_COOLT13_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COOLT13_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_COOLT3_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_COOLT3_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COOLT3_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_COOLT8_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_COOLT8_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COOLT8_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_SWIMMERM_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_SWIMMERM_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SWIMMERM_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_SWIMMERF_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_SWIMMERF_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SWIMMERF_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_FANS_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_FANS_1, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
-	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_FANS_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_BROCK_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_BROCK_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BROCK_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_RUBY_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_RUBY_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RUBY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_RUNNINGTRIM_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_RUNNINGTRIM_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RUNNINGTRIM_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_MISTY_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_MISTY_1, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
-	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_MISTY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_SAPPHIRE_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_SAPPHIRE_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SAPPHIRE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_PARASOLLADY_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_PARASOLLADY_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_PARASOLLADY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_TUBERM_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_TUBERM_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_TUBERM_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_OLDCOUPLE_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_OLDCOUPLE_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_OLDCOUPLE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_PSYCHICF_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_PSYCHICF_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_PSYCHICF_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_KINDLER_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_KINDLER_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_KINDLER_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_NINJABOY_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_NINJABOY_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_NINJABOY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_GUTARIST_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_GUTARIST_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GUTARIST_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_DRAGONTAMER_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_DRAGONTAMER_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_DRAGONTAMER_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_POKEFANF_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_POKEFANF_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_POKEFANF_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_BLACKBELT_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_BLACKBELT_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BLACKBELT_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_BIRDKEEPER_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_BIRDKEEPER_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BIRDKEEPER_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_CRYSTAL_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_CRYSTAL_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CRYSTAL_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_NOLAND_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_NOLAND_1, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
-	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_NOLAND_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_GRETA_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_GRETA_1, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
-	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GRETA_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_LADY_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_LADY_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_LADY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_PICNICER_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_PICNICER_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_PICNICER_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_YOUNGCOUPLE_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_YOUNGCOUPLE_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_YOUNGCOUPLE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_PSYCHICM_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_PSYCHICM_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_PSYCHICM_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_COLECTOR_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_COLECTOR_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COLECTOR_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_HEXMANIAK_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_HEXMANIAK_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_HEXMANIAK_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_SISBRO_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_SISBRO_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SISBRO_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_RUNNINGTRIF_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_RUNNINGTRIF_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RUNNINGTRIF_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_GENTALMAN2_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_GENTALMAN2_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GENTALMAN2_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end

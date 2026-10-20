@@ -66,6 +66,6 @@ RustboroCity_Mart_Text_GettingEscapeRopeJustInCase: @ 821505C
 	.string "the entrance.$"
 
 RustboroCity_Mart_EventScript_MAXIE_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_MAGMA_102, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_MAGMA_102, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end

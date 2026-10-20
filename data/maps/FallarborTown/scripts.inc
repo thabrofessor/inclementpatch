@@ -289,71 +289,71 @@ FallarborTown_Text_MoveTutorSign: @ 81EB534
 	.string "“Special training for Pokémon.”$"
 
 FallarborTown_EventScript_GALACTIC_112:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_112, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_112, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 FallarborTown_EventScript_BRANDON_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_BRANDON_4, IncTrainer_Investigator_MiddleIntro, IncTrainer_Investigator_MiddleDefeat
-	msgbox IncTrainer_Investigator_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BRANDON_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 FallarborTown_EventScript_GEM_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_GEM_4, IncTrainer_Flirty_MiddleIntro, IncTrainer_Flirty_MiddleDefeat
-	msgbox IncTrainer_Flirty_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GEM_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 FallarborTown_EventScript_LUCY_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_LUCY_4, IncTrainer_Flirty_MiddleIntro, IncTrainer_Flirty_MiddleDefeat
-	msgbox IncTrainer_Flirty_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_LUCY_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 FallarborTown_EventScript_ARCH_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_ARCH_4, IncTrainer_Investigator_MiddleIntro, IncTrainer_Investigator_MiddleDefeat
-	msgbox IncTrainer_Investigator_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ARCH_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 FallarborTown_EventScript_HISTORY_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_HISTORY_4, IncTrainer_Investigator_MiddleIntro, IncTrainer_Investigator_MiddleDefeat
-	msgbox IncTrainer_Investigator_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_HISTORY_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 FallarborTown_EventScript_JENNY_4A:: @ 81EC1B3
-	trainerbattle_single TRAINER_JENNY_4A, IncTrainer_Flirty_MiddleIntro, IncTrainer_Flirty_MiddleDefeat
-	msgbox IncTrainer_Flirty_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_JENNY_4A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 FallarborTown_EventScript_ROXAN_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROXAN_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
-	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROXAN_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 FallarborTown_EventScript_JASMINE_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_JASMINE_4, IncTrainer_Flirty_MiddleIntro, IncTrainer_Flirty_MiddleDefeat
-	msgbox IncTrainer_Flirty_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_JASMINE_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 FallarborTown_EventScript_BROCK_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_BROCK_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
-	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BROCK_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 FallarborTown_EventScript_WES_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_WES_4, IncTrainer_Investigator_MiddleIntro, IncTrainer_Investigator_MiddleDefeat
-	msgbox IncTrainer_Investigator_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_WES_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 FallarborTown_EventScript_STEVEN_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_STEVEN_4, IncTrainer_Investigator_MiddleIntro, IncTrainer_Investigator_MiddleDefeat
-	msgbox IncTrainer_Investigator_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_STEVEN_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 FallarborTown_EventScript_NORMAN_4A:: @ 81EC1B3
-	trainerbattle_single TRAINER_NORMAN_4A, IncTrainer_Resistance_MiddleIntro, IncTrainer_Resistance_MiddleDefeat
-	msgbox IncTrainer_Resistance_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_NORMAN_4A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 FallarborTown_EventScript_WATSON_4A:: @ 81EC1B3
-	trainerbattle_single TRAINER_WATSON_4A, IncTrainer_Resistance_MiddleIntro, IncTrainer_Resistance_MiddleDefeat
-	msgbox IncTrainer_Resistance_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_WATSON_4A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end

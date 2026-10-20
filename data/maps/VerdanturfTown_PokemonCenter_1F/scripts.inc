@@ -102,11 +102,11 @@ VerdanturfTown_PokemonCenter_1F_Text_VisitForBattleTent: @ 820280B
 	.string "came to see?$"
 
 VerdanturfTown_PokemonCenter_1F_EventScript_BILL_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_BILL_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BILL_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 VerdanturfTown_PokemonCenter_1F_EventScript_OAK_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_OAK_3, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
-	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_OAK_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end

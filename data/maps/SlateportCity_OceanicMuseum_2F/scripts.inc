@@ -368,9 +368,6 @@ SlateportCity_OceanicMuseum_2F_Text_ArchieDefeat:
 SlateportCity_OceanicMuseum_2F_Text_ArchieDefeated:
 	.string "Ah, whatever. You can keep the parts\n"
 	.string "for the time being.\p"
-	.string "Rich people think offers buy\n"
-	.string "our loyalty. They buy time.\p"
-	.string "Team Aqua serves its own cause!\p"
 	.string "But no one can ever stop us!\n"
 	.string "Team Aqua will prevail!\p"
 	.string "And don't you forget it!$"
@@ -380,10 +377,6 @@ SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs: @ 820C2BE
 	.string "Ah, okay, you're {PLAYER}{KUN}…\p"
 	.string "Anyway, that was a tense situation!\n"
 	.string "Thank you for saving us!\p"
-	.string "League cites Team Aqua's attack\n"
-	.string "to demand tighter rules. I know\l"
-	.string "people are afraid, but don't\l"
-	.string "blame us all for their crimes.\p"
 	.string "Oh, yes, I almost forgot that you\n"
 	.string "even brought the parts from Devon!$"
 
@@ -469,3 +462,4 @@ SlateportCity_OceanicMuseum_2F_Text_SSAnneReplica: @ 820C93A
 	.string "“S.S. ANNE\p"
 	.string "“A replica of the luxury liner that\n"
 	.string "circles the globe.”$"
+

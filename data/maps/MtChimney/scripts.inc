@@ -592,11 +592,7 @@ MtChimney_Text_MaxieYouHaventSeenLastOfMagma: @ 822F5F7
 	.string "you've seen of Team Magma.\p"
 	.string "Fufufu…\p"
 	.string "Even without the Meteorite, if we\n"
-	.string "obtain that Orb… Fufufu…\p"
-	.string "Some think their resources give\n"
-	.string "them a claim over Team Magma.\p"
-	.string "An alliance lasts only as long\n"
-	.string "as it serves our purpose.$"
+	.string "obtain that Orb… Fufufu…$"
 
 MtChimney_Text_TabithaIntro: @ 822F6AA
 	.string "Hehehe!\p"
@@ -861,61 +857,61 @@ MtChimney_Text_SawyerPostRematch: @ 8230614
 	.string "I'm overdressed for these parts.$"
 
 MtChimney_EventScript_GIOVANNI_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_GIOVANNI_4, IncTrainer_Giovanni_MiddleIntro, IncTrainer_Giovanni_MiddleDefeat
-	msgbox IncTrainer_Giovanni_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GIOVANNI_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtChimney_EventScript_ROCKET_110:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_110, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_110, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtChimney_EventScript_ROCKET_111:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_111, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_111, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtChimney_EventScript_ROCKSTAR_4M:: @ 81EC1B3
-	trainerbattle_single TRAINER_N_4, IncTrainer_Idealist_MiddleIntro, IncTrainer_Idealist_MiddleDefeat
-	msgbox IncTrainer_Idealist_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_N_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtChimney_EventScript_ROCKSTAR_4T:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKSTAR_4T, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
-	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKSTAR_4T, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtChimney_EventScript_ROCKSTAR_4B:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKSTAR_4B, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
-	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKSTAR_4B, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtChimney_EventScript_CAM_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_CAM_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
-	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CAM_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtChimney_EventScript_TUCKER_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_TUCKER_4, IncTrainer_Government_MiddleIntro, IncTrainer_Government_MiddleDefeat
-	msgbox IncTrainer_Government_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_TUCKER_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtChimney_EventScript_BURGLAR_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_BURGLAR_4, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BURGLAR_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtChimney_EventScript_GUZMA_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_GUZMA_4, IncTrainer_Guzma_MiddleIntro, IncTrainer_Guzma_MiddleDefeat
-	msgbox IncTrainer_Guzma_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GUZMA_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtChimney_EventScript_WILL_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_WILL_4, IncTrainer_Government_MiddleIntro, IncTrainer_Government_MiddleDefeat
-	msgbox IncTrainer_Government_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_WILL_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtChimney_EventScript_GLACIA_4A:: @ 81EC1B3
-	trainerbattle_single TRAINER_GLACIA_4A, IncTrainer_Government_MiddleIntro, IncTrainer_Government_MiddleDefeat
-	msgbox IncTrainer_Government_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GLACIA_4A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end

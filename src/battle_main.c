@@ -2062,11 +2062,15 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
     return gTrainers[trainerNum].partySize;
 }
 
-static u16 ApplyTrainerMonBoost(u16 stat, u8 percent)
+static u16 ApplyTrainerMonBoost(u16 stat, u8 boost)
 {
+    static const u8 sBoostPercentages[] = {0, 10, 20, 30, 40, 50};
     u32 boostedStat;
 
-    boostedStat = (u32)stat * (100 + percent) / 100;
+    if (boost >= ARRAY_COUNT(sBoostPercentages))
+        return stat;
+
+    boostedStat = (u32)stat * (100 + sBoostPercentages[boost]) / 100;
     if (boostedStat > 0xFFFF)
         boostedStat = 0xFFFF;
 
@@ -2075,7 +2079,6 @@ static u16 ApplyTrainerMonBoost(u16 stat, u8 percent)
 
 static void ApplyTrainerMonBoostToStats(struct Pokemon *mon, u8 boost)
 {
-    static const u8 sBoostPercentages[] = {0, 10, 20, 30, 40, 50};
     u16 maxHp;
     u16 hp;
     u16 attack;
@@ -2084,16 +2087,16 @@ static void ApplyTrainerMonBoostToStats(struct Pokemon *mon, u8 boost)
     u16 spAttack;
     u16 spDefense;
 
-    if (boost == TRAINER_MON_BOOST_NONE || boost > TRAINER_MON_BOOST_PRIMAL)
+    if (boost == TRAINER_MON_BOOST_NONE || boost > TRAINER_MON_BOOST_50_PERCENT)
         return;
 
-    maxHp = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_MAX_HP, NULL), sBoostPercentages[boost]);
-    hp = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_HP, NULL), sBoostPercentages[boost]);
-    attack = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_ATK, NULL), sBoostPercentages[boost]);
-    defense = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_DEF, NULL), sBoostPercentages[boost]);
-    speed = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPEED, NULL), sBoostPercentages[boost]);
-    spAttack = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPATK, NULL), sBoostPercentages[boost]);
-    spDefense = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPDEF, NULL), sBoostPercentages[boost]);
+    maxHp = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_MAX_HP, NULL), boost);
+    hp = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_HP, NULL), boost);
+    attack = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_ATK, NULL), boost);
+    defense = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_DEF, NULL), boost);
+    speed = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPEED, NULL), boost);
+    spAttack = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPATK, NULL), boost);
+    spDefense = ApplyTrainerMonBoost(GetMonData(mon, MON_DATA_SPDEF, NULL), boost);
 
     if (hp > maxHp)
         hp = maxHp;
@@ -3768,13 +3771,13 @@ static void TryDoEventsBeforeFirstTurn(void)
             continue;
 
         boostType = gBattleStruct->trainerMonBoostType[partyId];
-        if (boostType < TRAINER_MON_BOOST_TOTEM
-         || boostType > TRAINER_MON_BOOST_PRIMAL
+        if (boostType < TRAINER_MON_BOOST_10_PERCENT
+         || boostType > TRAINER_MON_BOOST_50_PERCENT
          || (gBattleStruct->trainerMonBoostAnnounced & gBitTable[partyId]))
             continue;
 
         gBattleStruct->trainerMonBoostAnnounced |= gBitTable[partyId];
-        gBattleCommunication[MULTISTRING_CHOOSER] = boostType - TRAINER_MON_BOOST_TOTEM;
+        gBattleCommunication[MULTISTRING_CHOOSER] = boostType - TRAINER_MON_BOOST_10_PERCENT;
         gBattleScripting.battler = i;
         gBattleScripting.animArg1 = boostType;
         gBattleScripting.animArg2 = 0;

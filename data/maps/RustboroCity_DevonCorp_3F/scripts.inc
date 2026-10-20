@@ -208,13 +208,6 @@ RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor: @ 8212609
 	.string "but twice!\p"
 	.string "I have a favor to ask of an amazing\n"
 	.string "person like you.\p"
-	.string "The Pokémon League is preparing a\n"
-	.string "regionwide tournament for licensed\l"
-	.string "Trainers. Devon will help with the\l"
-	.string "registrations, so every competitor\l"
-	.string "can be accounted for. It should be a\l"
-	.string "wonderful chance to celebrate the bond\l"
-	.string "between people and Pokémon.\p"
 	.string "I understand that you're delivering\n"
 	.string "a package to Slateport's Shipyard.\p"
 	.string "Well, on the way, could you stop off in\n"
@@ -244,13 +237,6 @@ RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp: @ 8212837
 	.string "By the way, I've heard that sinister\n"
 	.string "criminals--Magma and Aqua, I believe--\l"
 	.string "have been making trouble far and wide.\p"
-	.string "The League tournament should give\n"
-	.string "responsible Trainers a chance to show\l"
-	.string "what they and their Pokémon can do.\p"
-	.string "With so many Pokémon gathering in one\n"
-	.string "place, we must also think carefully\l"
-	.string "about everyone's safety. That's why\l"
-	.string "registration matters.\p"
 	.string "I think it would be best if you rested\n"
 	.string "up before you go on your way.$"
 
@@ -323,6 +309,6 @@ RustboroCity_DevonCorp_3F_Text_RareRocksDisplay: @ 8212EE9
 	.string "stones assembled by the President.$"
 
 RustboroCity_DevonCorp_3F_EventScript_PRESS_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_PRESS_2, IncTrainer_Press_EarlyIntro, IncTrainer_Press_EarlyDefeat
-	msgbox IncTrainer_Press_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_PRESS_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end

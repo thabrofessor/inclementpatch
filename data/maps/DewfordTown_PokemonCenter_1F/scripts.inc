@@ -38,25 +38,11 @@ DewfordTown_PokemonCenter_1F_Text_FaintedMonCanUseHM: @ 81FC5AE
 	.string "from a Hidden Machine (HM).$"
 
 DewfordTown_PokemonCenter_1F_EventScript_FLANNERY_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_FLANNERY_2, DewfordTown_PokemonCenter_1F_Text_Flannery2Intro, DewfordTown_PokemonCenter_1F_Text_Flannery2Defeat
-	msgbox DewfordTown_PokemonCenter_1F_Text_Flannery2PostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_FLANNERY_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-DewfordTown_PokemonCenter_1F_Text_Flannery2Intro:
-	.string "There's a League tournament\n"
-	.string "coming! I want to show everyone\l"
-	.string "what I can do. I hope\l"
-	.string "the battles are exciting!$"
-
-DewfordTown_PokemonCenter_1F_Text_Flannery2Defeat:
-	.string "Ugh… I wanted to look cool.\n"
-	.string "You were great, though!$"
-
-DewfordTown_PokemonCenter_1F_Text_Flannery2PostBattle:
-	.string "Maybe I'll register for the\n"
-	.string "tournament after all!$"
-
 DewfordTown_PokemonCenter_1F_EventScript_WALLY_2A:: @ 81EC1B3
-	trainerbattle_single TRAINER_WALLY_2A, IncTrainer_Rival_EarlyIntro, IncTrainer_Rival_EarlyDefeat
-	msgbox IncTrainer_Rival_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_WALLY_2A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end

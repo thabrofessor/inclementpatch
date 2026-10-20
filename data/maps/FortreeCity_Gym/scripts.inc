@@ -335,13 +335,7 @@ FortreeCity_Gym_Text_RegisteredWinona: @ 8217044
 
 FortreeCity_Gym_Text_WinonaPostBattle: @ 8217071
 	.string "Though I fell to you, I will remain\n"
-	.string "devoted to Bird Pokémon.\p"
-	.string "The tournament is bringing new\n"
-	.string "attention to Trainer licenses.\p"
-	.string "Rules can guide us, but the bond\n"
-	.string "between Trainer and Pokémon is\l"
-	.string "earned through trust, not issued\l"
-	.string "by an office.$"
+	.string "devoted to Bird Pokémon.$"
 
 FortreeCity_Gym_Text_GymStatue: @ 82170AE
 	.string "Fortree City Pokémon Gym$"

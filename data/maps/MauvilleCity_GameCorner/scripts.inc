@@ -1051,246 +1051,246 @@ MauvilleCity_GameCorner_Text_CantPlayWithNoCoinCase: @ 8210C2E
 	.string "a Coin Case.$"
 
 MauvilleCity_GameCorner_EventScript_ROCKSTAR_3M:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKSTAR_3M, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKSTAR_3M, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKSTAR_3T:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKSTAR_3T, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKSTAR_3T, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKSTAR_3B:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKSTAR_3B, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKSTAR_3B, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ARCHIE_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_ARCHIE_3, IncTrainer_Villain_EarlyIntro, IncTrainer_Villain_EarlyDefeat
-	msgbox IncTrainer_Villain_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ARCHIE_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_MAXIE_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_MAXIE_3, IncTrainer_Villain_EarlyIntro, IncTrainer_Villain_EarlyDefeat
-	msgbox IncTrainer_Villain_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_MAXIE_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_SHADY_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_SHADY_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SHADY_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_GIOVANNI_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_GIOVANNI_3, IncTrainer_Giovanni_EarlyIntro, IncTrainer_Giovanni_EarlyDefeat
-	msgbox IncTrainer_Giovanni_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GIOVANNI_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_LYSANDRE_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_LYSANDRE_3, IncTrainer_Villain_EarlyIntro, IncTrainer_Villain_EarlyDefeat
-	msgbox IncTrainer_Villain_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_LYSANDRE_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_GHETSIS_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_GHETSIS_3, IncTrainer_Villain_EarlyIntro, IncTrainer_Villain_EarlyDefeat
-	msgbox IncTrainer_Villain_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GHETSIS_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_THIEF_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_THIEF_3, IncTrainer_Villain_EarlyIntro, IncTrainer_Villain_EarlyDefeat
-	msgbox IncTrainer_Villain_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_THIEF_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_GUZMA_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_GUZMA_3, IncTrainer_Guzma_EarlyIntro, IncTrainer_Guzma_EarlyDefeat
-	msgbox IncTrainer_Guzma_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GUZMA_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_SHELLY_3A:: @ 81EC1B3
-	trainerbattle_single TRAINER_SHELLY_3A, IncTrainer_Villain_EarlyIntro, IncTrainer_Villain_EarlyDefeat
-	msgbox IncTrainer_Villain_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SHELLY_3A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_TUCKER_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_TUCKER_3, IncTrainer_Government_EarlyIntro, IncTrainer_Government_EarlyDefeat
-	msgbox IncTrainer_Government_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_TUCKER_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_TABITHA_3A:: @ 81EC1B3
-	trainerbattle_single TRAINER_TABITHA_3A, IncTrainer_Villain_EarlyIntro, IncTrainer_Villain_EarlyDefeat
-	msgbox IncTrainer_Villain_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_TABITHA_3A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_AQUA_107:: @ 81EC1B3
-	trainerbattle_single TRAINER_AQUA_107, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_AQUA_107, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_AQUA_108:: @ 81EC1B3
-	trainerbattle_single TRAINER_AQUA_108, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_AQUA_108, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_MAGMA_107:: @ 81EC1B3
-	trainerbattle_single TRAINER_MAGMA_107, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_MAGMA_107, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_MAGMA_108:: @ 81EC1B3
-	trainerbattle_single TRAINER_MAGMA_108, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_MAGMA_108, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_LUSAMINE_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_LUSAMINE_3, IncTrainer_Villain_EarlyIntro, IncTrainer_Villain_EarlyDefeat
-	msgbox IncTrainer_Villain_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_LUSAMINE_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_CYRUS_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_CYRUS_3, IncTrainer_Villain_EarlyIntro, IncTrainer_Villain_EarlyDefeat
-	msgbox IncTrainer_Villain_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CYRUS_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_PLASMA_107:: @ 81EC1B3
-	trainerbattle_single TRAINER_PLASMA_107, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_PLASMA_107, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_PLASMA_108:: @ 81EC1B3
-	trainerbattle_single TRAINER_PLASMA_108, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_PLASMA_108, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_GALACTIC_107:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_107, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_107, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_GALACTIC_108:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_108, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_108, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_26:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_26, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_26, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_27:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_27, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_27, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_28:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_28, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_28, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_29:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_29, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_29, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_30:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_30, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_30, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_31:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_31, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_31, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_32:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_32, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_32, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_33:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_33, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_33, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_34:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_34, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_34, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_35:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_35, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_35, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_36:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_36, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_36, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_37:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_37, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_37, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_38:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_38, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_38, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_39:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_39, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_39, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_40:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_40, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_40, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_41:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_41, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_41, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_42:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_42, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_42, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_43:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_43, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_43, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_44:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_44, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_44, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_45:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_45, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_45, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_46:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_46, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_46, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_47:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_47, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_47, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_48:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_48, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_48, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_49:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_49, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_49, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_GameCorner_EventScript_ROCKET_50:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_50, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_50, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end

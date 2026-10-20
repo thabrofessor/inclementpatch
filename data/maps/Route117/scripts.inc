@@ -213,126 +213,111 @@ Route117_Text_DayCareSign: @ 81F3D8E
 	.string "“Let us raise your Pokémon.”$"
 
 Route117_EventScript_SAGE_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_SAGE_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SAGE_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_RANGER6_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_RANGER6_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RANGER6_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_MAY_3A:: @ 81EC1B3
-	trainerbattle_single TRAINER_MAY_3A, IncTrainer_Rival_EarlyIntro, IncTrainer_Rival_EarlyDefeat
-	msgbox IncTrainer_Rival_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_MAY_3A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_COOLT9_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_COOLT9_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COOLT9_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_COOLT15_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_COOLT15_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COOLT15_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_CHAD_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_CHAD_3, IncTrainer_Rival_EarlyIntro, IncTrainer_Rival_EarlyDefeat
-	msgbox IncTrainer_Rival_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CHAD_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_CRUSH_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_CRUSH_3, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
-	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CRUSH_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_KAREN_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_KAREN_3, Route117_Text_Karen3Intro, Route117_Text_Karen3Defeat
-	msgbox Route117_Text_Karen3PostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_KAREN_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route117_Text_Karen3Intro:
-	.string "The tournament sounds less\n"
-	.string "simple now. They want a record\l"
-	.string "of every Pokémon a Trainer owns.\p"
-	.string "Why?$"
-
-Route117_Text_Karen3Defeat:
-	.string "You trust your Pokémon, and\n"
-	.string "they trust you. No list can\l"
-	.string "measure that.$"
-
-Route117_Text_Karen3PostBattle:
-	.string "A registry shouldn't decide\n"
-	.string "who deserves a Pokémon.$"
-
 Route117_EventScript_BROCK_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_BROCK_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BROCK_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_YELLOW_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_YELLOW_3, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
-	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_YELLOW_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_PALMER_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_PALMER_3, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
-	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_PALMER_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_DAISY_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_DAISY_3, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
-	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_DAISY_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_CRYSTAL_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_CRYSTAL_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CRYSTAL_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_PARASOLLADY_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_PARASOLLADY_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_PARASOLLADY_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_RUNNINGTRIM_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_RUNNINGTRIM_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RUNNINGTRIM_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_TWINS_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_TWINS_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_TWINS_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_SCHOOLKIDF_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_SCHOOLKIDF_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SCHOOLKIDF_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_GENTLMAN_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_GENTLMAN_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GENTLMAN_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_POKEMONBREEDERM_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_POKEMONBREEDERM_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_POKEMONBREEDERM_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_POKEMONBREEDERF_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_POKEMONBREEDERF_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_POKEMONBREEDERF_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_BEAUTY_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_BEAUTY_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BEAUTY_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_ROCKET_109:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKET_109, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
-	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_109, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end

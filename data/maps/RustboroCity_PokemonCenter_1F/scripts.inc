@@ -67,17 +67,17 @@ RustboroCity_PokemonCenter_1F_Text_HMCutNextDoor: @ 8214E81
 	.string "Cut down skinny trees.$"
 
 RustboroCity_PokemonCenter_1F_EventScript_JUAN_1A:: @ 81EC1B3
-	trainerbattle_single TRAINER_JUAN_1A, IncTrainer_Government_EarlyIntro, IncTrainer_Government_EarlyDefeat
-	msgbox IncTrainer_Government_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_JUAN_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_PokemonCenter_1F_EventScript_WALACE_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_WALACE_1, IncTrainer_Government_EarlyIntro, IncTrainer_Government_EarlyDefeat
-	msgbox IncTrainer_Government_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_WALACE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_PokemonCenter_1F_EventScript_PRESS_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_PRESS_1, IncTrainer_Press_EarlyIntro, IncTrainer_Press_EarlyDefeat
-	msgbox IncTrainer_Press_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_PRESS_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 

@@ -703,22 +703,14 @@ LilycoveCity_Text_TeamAquaRenovatedCavern: @ 81E42FC
 	.string "They call themselves\n"
 	.string "the “nature-loving Team Aqua”!\p"
 	.string "But what they do and what they say\n"
-	.string "don't match at all!\p"
-	.string "Now officials point to Team Aqua\n"
-	.string "and call for tighter control.\p"
-	.string "The crooks are dangerous, but\n"
-	.string "why should everyone else pay?$"
+	.string "don't match at all!$"
 
 LilycoveCity_Text_TeamAquaLotGoneForGood: @ 81E43FF
 	.string "That cave in the cove…\p"
 	.string "I didn't notice it right away,\n"
 	.string "but it's completely empty now.\p"
 	.string "That Team Aqua lot, they must\n"
-	.string "have gone away for good.\p"
-	.string "Some say the League wants a list\n"
-	.string "of every Trainer and Pokémon.\p"
-	.string "That sounds like safety turning\n"
-	.string "into control.$"
+	.string "have gone away for good.$"
 
 LilycoveCity_Text_CitySign: @ 81E448B
 	.string "Lilycove City\p"

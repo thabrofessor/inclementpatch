@@ -126,61 +126,61 @@ VerdanturfTown_Text_RusturfTunnelSign: @ 81EBA59
 	.string "canceled.”$"
 
 VerdanturfTown_EventScript_GOLD_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_GOLD_3, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
-	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GOLD_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 VerdanturfTown_EventScript_HISTORY_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_HISTORY_3, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
-	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_HISTORY_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 VerdanturfTown_EventScript_LANCE_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_LANCE_3, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
-	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_LANCE_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 VerdanturfTown_EventScript_TATELIZZ_3A_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_N_3, IncTrainer_Idealist_EarlyIntro, IncTrainer_Idealist_EarlyDefeat
-	msgbox IncTrainer_Idealist_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_N_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 VerdanturfTown_EventScript_DARACH_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_DARACH_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_DARACH_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 VerdanturfTown_EventScript_CAITLIN_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_CAITLIN_3, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
-	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CAITLIN_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 VerdanturfTown_EventScript_WES_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_WES_3, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
-	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_WES_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 VerdanturfTown_EventScript_STEVEN_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_STEVEN_3, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
-	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_STEVEN_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 VerdanturfTown_EventScript_SABRINA_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_SABRINA_3, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
-	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SABRINA_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 VerdanturfTown_EventScript_SPENCER_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_SPENCER_3, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
-	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SPENCER_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 VerdanturfTown_EventScript_FLANNERY_3A:: @ 81EC1B3
-	trainerbattle_single TRAINER_N_3, IncTrainer_Idealist_EarlyIntro, IncTrainer_Idealist_EarlyDefeat
-	msgbox IncTrainer_Idealist_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_N_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 VerdanturfTown_EventScript_JASMINE_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_JASMINE_3, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
-	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_JASMINE_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end

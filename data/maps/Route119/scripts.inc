@@ -511,11 +511,7 @@ Route119_Text_MayDefeat: @ 81F4A98
 	.string "Achah!\n"
 	.string "{PLAYER}{KUN}, you're strong!\p"
 	.string "I was worried that you might be\n"
-	.string "struggling with your training.\p"
-	.string "The tournament sounds different.\p"
-	.string "Officials want every Pokémon\n"
-	.string "a Trainer owns on record.\p"
-	.string "I hope Dad knows more about it.$"
+	.string "struggling with your training.$"
 
 Route119_Text_MayPresentForYou: @ 81F4AF3
 	.string "May: But I had absolutely nothing to\n"
@@ -539,11 +535,7 @@ Route119_Text_BrendanIntro: @ 81F4C9A
 
 Route119_Text_BrendanDefeat: @ 81F4D24
 	.string "Hmm…\n"
-	.string "You've gotten pretty good.\p"
-	.string "Registering every Pokémon for\n"
-	.string "the tournament bothers people.\p"
-	.string "I hope we can still make\n"
-	.string "our own choices.$"
+	.string "You've gotten pretty darn decent.$"
 
 Route119_Text_BrendanIllGiveYouThis: @ 81F4D4B
 	.string "Brendan: I'd say you're good enough\n"

@@ -442,15 +442,7 @@ MossdeepCity_Text_ScottSomethingWrongWithTown: @ 81E5453
 	.string "People are going on about a warning\n"
 	.string "letter and the Space Center…\p"
 	.string "I don't think it concerns me in any\n"
-	.string "way, though…\p"
-	.string "Still, the reports of strange\n"
-	.string "Pokémon at the Space Center\n"
-	.string "worry me.\p"
-	.string "If someone can make Pokémon\n"
-	.string "attack on command, people may\l"
-	.string "demand sweeping rules.\p"
-	.string "I hope we don't lose sight of\n"
-	.string "who is really responsible.$"
+	.string "way, though.$"
 
 MossdeepCity_Text_SootopolisNewGymLeader: @ 81E5581
 	.string "Ahh… It feels great letting the waves\n"

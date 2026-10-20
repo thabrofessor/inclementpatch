@@ -2699,15 +2699,14 @@ gTVPokemonBattleUpdateText07:: @ 0828AE26
 GabbyAndTy_Text_GabbyPreFirstBattle: @ 0828AF05
 	.string "Gabby: Oh! We've just spotted a tough-\n"
 	.string "looking Trainer here of all places!\p"
-	.string "The League tournament has\n"
-	.string "everyone talking. Let's hear\l"
-	.string "from a Trainer!$"
+	.string "Okay, roll camera!\n"
+	.string "Let's get this interview.$"
 
 GabbyAndTy_Text_GabbyIntro: @ 0828AF7D
 	.string "Gabby: Oh! You're {PLAYER}! Hi!\n"
 	.string "Do you remember us from last time?\p"
-	.string "Hoenn's watching the tournament.\n"
-	.string "Show us how much you've grown!$"
+	.string "Can you show us how much stronger\n"
+	.string "you've become? Okay, cue interview!$"
 
 GabbyAndTy_Text_GabbyDefeatFirstTime: @ 0828B000
 	.string "Gabby: My eyes didn't lie!\n"
@@ -2802,9 +2801,7 @@ GabbyAndTy_Text_GiveUsAnInterviewThisTime: @ 0828B62D
 
 GabbyAndTy_Text_GabbyDefeat: @ 0828B719
 	.string "Gabby: That was an intense battle!\n"
-	.string "Did you get it all on camera?\p"
-	.string "People should see the Trainer,\n"
-	.string "not just the battle.$"
+	.string "Did you get all that on camera?$"
 
 GabbyAndTy_Text_TyPreFirstBattle: @ 0828B75C
 	.string "TY: Hey, lookie here! A tough-looking\n"

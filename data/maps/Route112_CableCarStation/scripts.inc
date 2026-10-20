@@ -100,11 +100,11 @@ Route112_CableCarStation_Text_RideAnotherTime: @ 822ABD8
 	.string "Please ride with us another time.$"
 
 Route112_CableCarStation_EventScript_SURGE_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_SURGE_4, IncTrainer_Resistance_MiddleIntro, IncTrainer_Resistance_MiddleDefeat
-	msgbox IncTrainer_Resistance_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SURGE_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route112_CableCarStation_EventScript_NOLAND_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_NOLAND_4, IncTrainer_Investigator_MiddleIntro, IncTrainer_Investigator_MiddleDefeat
-	msgbox IncTrainer_Investigator_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_NOLAND_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end

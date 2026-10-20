@@ -500,11 +500,7 @@ DewfordTown_Gym_Text_RegisteredBrawly: @ 81FD1E0
 DewfordTown_Gym_Text_BrawlyPostBattle: @ 81FD20D
 	.string "I can see your talent becoming a giant\n"
 	.string "wave to cause a storm of astonishment\l"
-	.string "among Trainers one day!\p"
-	.string "I hear the League tournament is\n"
-	.string "drawing Trainers from all Hoenn.\p"
-	.string "A good battle brings people\n"
-	.string "together, forms or no forms!$"
+	.string "among Trainers one day!$"
 
 DewfordTown_Gym_Text_GymStatue: @ 81FD272
 	.string "Dewford Town Pokémon Gym$"
@@ -547,171 +543,171 @@ DewfordTown_Gym_Text_BrawlyAllowLegends:
 	.string "to the challenge?$"
 
 DewfordTown_Gym_EventScript_COOLT6_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_COOLT6_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COOLT6_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_COOLT13_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_COOLT13_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COOLT13_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_BUGCATCHER_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_BUGCATCHER_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BUGCATCHER_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_YOUNGSTER_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_YOUNGSTER_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_YOUNGSTER_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_CAMPER_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_CAMPER_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CAMPER_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_SCHOOLKIDM_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_SCHOOLKIDM_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SCHOOLKIDM_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_LASS_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_LASS_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_LASS_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_SCHOOLKIDF_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_SCHOOLKIDF_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SCHOOLKIDF_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_RICHBOY_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_RICHBOY_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RICHBOY_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_TWINS_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_TWINS_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_TWINS_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_ARROMALADY_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_ARROMALADY_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ARROMALADY_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_GOLD_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_GOLD_2, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
-	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GOLD_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_YELLOW_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_YELLOW_2, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
-	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_YELLOW_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_BRO_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_BRO_2, IncTrainer_Bro_EarlyIntro, IncTrainer_Bro_EarlyDefeat
-	msgbox IncTrainer_Bro_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BRO_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_SILVER_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_SILVER_2, IncTrainer_Anti_EarlyIntro, IncTrainer_Anti_EarlyDefeat
-	msgbox IncTrainer_Anti_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SILVER_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_FANS_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_FANS_2, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
-	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_FANS_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_HOOPSTAR_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_HOOPSTAR_2, IncTrainer_Bro_EarlyIntro, IncTrainer_Bro_EarlyDefeat
-	msgbox IncTrainer_Bro_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_HOOPSTAR_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_LINEBACKER_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_LINEBACKER_2, IncTrainer_Bro_EarlyIntro, IncTrainer_Bro_EarlyDefeat
-	msgbox IncTrainer_Bro_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_LINEBACKER_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_BOARDER_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_BOARDER_2, IncTrainer_Bro_EarlyIntro, IncTrainer_Bro_EarlyDefeat
-	msgbox IncTrainer_Bro_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BOARDER_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_PSYCHICM_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_PSYCHICM_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_PSYCHICM_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_BLACKBELT_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_BLACKBELT_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BLACKBELT_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_POKEMONBREEDERM_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_POKEMONBREEDERM_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_POKEMONBREEDERM_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_POKEMONBREEDERF_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_POKEMONBREEDERF_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_POKEMONBREEDERF_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_DORKLY_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_DORKLY_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_DORKLY_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_PARASOLLADY_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_PARASOLLADY_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_PARASOLLADY_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_GENTALMAN4_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_GENTALMAN4_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GENTALMAN4_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_SISBRO_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_SISBRO_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SISBRO_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_CYCLINGTRIF_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_CYCLINGTRIF_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CYCLINGTRIF_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_CYCLINGTRIM_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_CYCLINGTRIM_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CYCLINGTRIM_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_RUNNINGTRIF_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_RUNNINGTRIF_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RUNNINGTRIF_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_SRJR_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_SRJR_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SRJR_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_BIRDKEEPER_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_BIRDKEEPER_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BIRDKEEPER_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_LADY_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_LADY_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_LADY_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_Gym_EventScript_YOUNGCOUPLE_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_YOUNGCOUPLE_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
-	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_YOUNGCOUPLE_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end

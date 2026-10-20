@@ -442,36 +442,36 @@ LavaridgeTown_Text_HerbShopSign: @ 81EB1CB
 	.string "“Bitter taste--better cure!”$"
 
 LavaridgeTown_EventScript_BLUE_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_BLUE_4, IncTrainer_Anti_MiddleIntro, IncTrainer_Anti_MiddleDefeat
-	msgbox IncTrainer_Anti_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BLUE_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_EventScript_GOLD_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_GOLD_4, IncTrainer_Investigator_MiddleIntro, IncTrainer_Investigator_MiddleDefeat
-	msgbox IncTrainer_Investigator_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GOLD_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_EventScript_JOY_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_JOY_4, IncTrainer_Flirty_MiddleIntro, IncTrainer_Flirty_MiddleDefeat
-	msgbox IncTrainer_Flirty_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_JOY_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_EventScript_OAK_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_OAK_4, IncTrainer_Investigator_MiddleIntro, IncTrainer_Investigator_MiddleDefeat
-	msgbox IncTrainer_Investigator_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_OAK_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_EventScript_BILL_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_BILL_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
-	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BILL_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_EventScript_LI_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_LI_4, IncTrainer_Investigator_MiddleIntro, IncTrainer_Investigator_MiddleDefeat
-	msgbox IncTrainer_Investigator_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_LI_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_EventScript_DAISY_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_DAISY_4, IncTrainer_Flirty_MiddleIntro, IncTrainer_Flirty_MiddleDefeat
-	msgbox IncTrainer_Flirty_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_DAISY_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end

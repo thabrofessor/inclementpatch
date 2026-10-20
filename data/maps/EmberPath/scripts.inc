@@ -43,21 +43,21 @@ EmberPath_EventScript_RanFromMoltres:: @ 8238FA8
 	end
 
 EmberPath_EventScript_CILANTRO_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_CILANTRO_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
-	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CILANTRO_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 EmberPath_EventScript_RANGER7_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_RANGER7_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
-	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RANGER7_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 EmberPath_EventScript_COOLT14_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_COOLT14_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
-	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COOLT14_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 EmberPath_EventScript_FLANNERY_4A:: @ 81EC1B3
-	trainerbattle_single TRAINER_FLANNERY_4A, IncTrainer_Flirty_MiddleIntro, IncTrainer_Flirty_MiddleDefeat
-	msgbox IncTrainer_Flirty_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_FLANNERY_4A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end

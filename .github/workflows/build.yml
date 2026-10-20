@@ -41,14 +41,8 @@ jobs:
       - name: Build ROM
         run: make -j$(nproc) all
 
-      - name: Generate symbols
-        run: make syms
-
-      - name: Upload ROM and debug symbols
+      - name: Upload gba
         uses: actions/upload-artifact@v4
         with:
           name: pokeemerald_built
-          path: |
-            pokeemerald.gba
-            pokeemerald.map
-            pokeemerald.sym
+          path: pokeemerald.gba

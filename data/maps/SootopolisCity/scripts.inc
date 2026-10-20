@@ -1725,11 +1725,7 @@ SootopolisCity_Text_DoesThisMakeYourFearPokemon: @ 81E7737
 	.string "But that's not true.\n"
 	.string "Pokémon are really more…\p"
 	.string "…Why am I asking you this?\n"
-	.string "You already know.\p"
-	.string "People will say this proves no\n"
-	.string "Trainer can be trusted. We must\l"
-	.string "stop those who abuse Pokémon,\l"
-	.string "not punish every bond in Hoenn.$"
+	.string "You already know.$"
 
 SootopolisCity_Text_HereWereAreHelpWallace: @ 81E77F0
 	.string "Steven: Okay, here we are!\p"

@@ -10,21 +10,21 @@ MirageTower_3F_SetHoleWarp: @ 823AD3C
 	end
 
 MirageTower_3F_EventScript_STEVEN_5:: @ 81EC1B3
-	trainerbattle_single TRAINER_STEVEN_5, IncTrainer_Investigator_MiddleIntro, IncTrainer_Investigator_MiddleDefeat
-	msgbox IncTrainer_Investigator_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_STEVEN_5, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MirageTower_3F_EventScript_DRAKE_5A:: @ 81EC1B3
-	trainerbattle_single TRAINER_DRAKE_5A, IncTrainer_Investigator_MiddleIntro, IncTrainer_Investigator_MiddleDefeat
-	msgbox IncTrainer_Investigator_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_DRAKE_5A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MirageTower_3F_EventScript_FLANNERY_5A:: @ 81EC1B3
-	trainerbattle_single TRAINER_FLANNERY_5A, IncTrainer_Flirty_MiddleIntro, IncTrainer_Flirty_MiddleDefeat
-	msgbox IncTrainer_Flirty_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_FLANNERY_5A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MirageTower_3F_EventScript_BLAIN_5:: @ 81EC1B3
-	trainerbattle_single TRAINER_BLAIN_5, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
-	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BLAIN_5, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end

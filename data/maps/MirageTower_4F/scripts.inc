@@ -82,11 +82,11 @@ MirageTower_4F_Text_LeaveClawFossilAlone: @ 823AF18
 
 
 MirageTower_4F_EventScript_LANCE_5:: @ 81EC1B3
-	trainerbattle_single TRAINER_LANCE_5, IncTrainer_Investigator_MiddleIntro, IncTrainer_Investigator_MiddleDefeat
-	msgbox IncTrainer_Investigator_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_LANCE_5, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MirageTower_4F_EventScript_CYNTHIA_5A:: @ 81EC1B3
-	trainerbattle_single TRAINER_CYNTHIA_5A, IncTrainer_Investigator_MiddleIntro, IncTrainer_Investigator_MiddleDefeat
-	msgbox IncTrainer_Investigator_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CYNTHIA_5A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end

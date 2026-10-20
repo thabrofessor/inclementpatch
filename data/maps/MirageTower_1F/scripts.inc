@@ -9,17 +9,17 @@ MirageTower_1F_OnTransition: @ 823AD07
 	end
 
 MirageTower_1F_EventScript_NORMAN_5A:: @ 81EC1B3
-	trainerbattle_single TRAINER_NORMAN_5A, IncTrainer_Resistance_MiddleIntro, IncTrainer_Resistance_MiddleDefeat
-	msgbox IncTrainer_Resistance_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_NORMAN_5A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MirageTower_1F_EventScript_BRUNO_5:: @ 81EC1B3
-	trainerbattle_single TRAINER_BRUNO_5, IncTrainer_Resistance_MiddleIntro, IncTrainer_Resistance_MiddleDefeat
-	msgbox IncTrainer_Resistance_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BRUNO_5, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 
 MirageTower_1F_EventScript_JENNY_5A:: @ 81EC1B3
-	trainerbattle_single TRAINER_JENNY_5A, IncTrainer_Flirty_MiddleIntro, IncTrainer_Flirty_MiddleDefeat
-	msgbox IncTrainer_Flirty_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_JENNY_5A, Route102_Text_GENIntro, Route102_Text_GENDefeat
+	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
 	end
