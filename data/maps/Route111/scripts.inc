@@ -869,18 +869,18 @@ Route111_Text_TrainerHillSign: @ 81F1D61
 	.string "Trainers!”$"
 
 Route111_EventScript_MAGMA_109:: @ 81EC1B3
-	trainerbattle_single TRAINER_N_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_N_3, IncTrainer_Idealist_EarlyIntro, IncTrainer_Idealist_EarlyDefeat
+	msgbox IncTrainer_Idealist_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_MINT_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_MINT_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_MINT_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_RANGER4_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_RANGER4_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RANGER4_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_RED_3:: @ 81EC1B3
@@ -889,251 +889,251 @@ Route111_EventScript_RED_3:: @ 81EC1B3
 	end
 
 Route111_EventScript_COOLT10_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_COOLT10_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COOLT10_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_COOLT11_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_COOLT11_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COOLT11_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_BLUE_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_BLUE_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BLUE_3, IncTrainer_Anti_EarlyIntro, IncTrainer_Anti_EarlyDefeat
+	msgbox IncTrainer_Anti_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_BRO_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_BRO_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BRO_3, IncTrainer_Bro_EarlyIntro, IncTrainer_Bro_EarlyDefeat
+	msgbox IncTrainer_Bro_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_HOOPSTAR_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_HOOPSTAR_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_HOOPSTAR_3, IncTrainer_Bro_EarlyIntro, IncTrainer_Bro_EarlyDefeat
+	msgbox IncTrainer_Bro_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_LINEBACKER_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_LINEBACKER_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_LINEBACKER_3, IncTrainer_Bro_EarlyIntro, IncTrainer_Bro_EarlyDefeat
+	msgbox IncTrainer_Bro_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_BOARDER_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_BOARDER_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BOARDER_3, IncTrainer_Bro_EarlyIntro, IncTrainer_Bro_EarlyDefeat
+	msgbox IncTrainer_Bro_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_WALLY_3A:: @ 81EC1B3
-	trainerbattle_single TRAINER_WALLY_3A, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_WALLY_3A, IncTrainer_Rival_EarlyIntro, IncTrainer_Rival_EarlyDefeat
+	msgbox IncTrainer_Rival_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_SCOTT_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_SCOTT_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SCOTT_3, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
+	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_AGATHA_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_AGATHA_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_AGATHA_3, IncTrainer_Agatha_EarlyIntro, IncTrainer_Agatha_EarlyDefeat
+	msgbox IncTrainer_Agatha_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_ARCH_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_ARCH_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ARCH_3, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
+	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_GEM_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_GEM_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GEM_3, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
+	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_BRANDON_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_BRANDON_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BRANDON_3, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
+	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_LUCY_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_LUCY_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_LUCY_3, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
+	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_BATTLEGIRL_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_BATTLEGIRL_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BATTLEGIRL_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_DRAGONTAMER_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_DRAGONTAMER_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_DRAGONTAMER_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_RUNE_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_RUNE_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RUNE_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_GENTALMAN2_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_GENTALMAN2_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GENTALMAN2_3, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_PEPPERMINT_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_PEPPERMINT_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_PEPPERMINT_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_RANGER1_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_RANGER1_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RANGER1_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_COOLT1_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_COOLT1_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COOLT1_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_COOLT2_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_COOLT2_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COOLT2_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_AQUA_110:: @ 81EC1B3
-	trainerbattle_single TRAINER_AQUA_110, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_AQUA_110, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_AQUA_111:: @ 81EC1B3
-	trainerbattle_single TRAINER_AQUA_111, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_AQUA_111, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_ARCHIE_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_ARCHIE_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ARCHIE_4, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_DORKLY_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_DORKLY_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_DORKLY_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_KAREN_4A:: @ 81EC1B3
-	trainerbattle_single TRAINER_KAREN_4A, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_KAREN_4A, IncTrainer_Flirty_MiddleIntro, IncTrainer_Flirty_MiddleDefeat
+	msgbox IncTrainer_Flirty_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_PALMER_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_PALMER_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_PALMER_4, IncTrainer_Investigator_MiddleIntro, IncTrainer_Investigator_MiddleDefeat
+	msgbox IncTrainer_Investigator_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_RUBY_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_RUBY_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RUBY_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_THORTON_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_THORTON_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_THORTON_4, IncTrainer_Government_MiddleIntro, IncTrainer_Government_MiddleDefeat
+	msgbox IncTrainer_Government_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_BIRCH_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_BIRCH_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BIRCH_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_RANGER4_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_RANGER4_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RANGER4_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_PARASOLLADY_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_PARASOLLADY_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_PARASOLLADY_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_THYME_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_THYME_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_THYME_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_RANGER3_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_RANGER3_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RANGER3_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_COOLT6_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_COOLT6_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COOLT6_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_COOLT7_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_COOLT7_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COOLT7_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_MAY_4A:: @ 81EC1B3
-	trainerbattle_single TRAINER_MAY_4A, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_MAY_4A, IncTrainer_Rival_MiddleIntro, IncTrainer_Rival_MiddleDefeat
+	msgbox IncTrainer_Rival_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_JANINE_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_JANINE_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_JANINE_4, IncTrainer_Flirty_MiddleIntro, IncTrainer_Flirty_MiddleDefeat
+	msgbox IncTrainer_Flirty_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_PRYCE_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_PRYCE_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_PRYCE_4, IncTrainer_Resistance_MiddleIntro, IncTrainer_Resistance_MiddleDefeat
+	msgbox IncTrainer_Resistance_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_CYNTHIA_4A:: @ 81EC1B3
-	trainerbattle_single TRAINER_CYNTHIA_4A, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CYNTHIA_4A, IncTrainer_Investigator_MiddleIntro, IncTrainer_Investigator_MiddleDefeat
+	msgbox IncTrainer_Investigator_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_CAITLIN_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_CAITLIN_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CAITLIN_4, IncTrainer_Flirty_MiddleIntro, IncTrainer_Flirty_MiddleDefeat
+	msgbox IncTrainer_Flirty_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_DARACH_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_DARACH_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_DARACH_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_SCOTT_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_SCOTT_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SCOTT_4, IncTrainer_Investigator_MiddleIntro, IncTrainer_Investigator_MiddleDefeat
+	msgbox IncTrainer_Investigator_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_CHUCK_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_CHUCK_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CHUCK_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_FALKNER_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_FALKNER_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_FALKNER_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_GENTALMAN4_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_GENTALMAN4_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GENTALMAN4_4, IncTrainer_Ally_MiddleIntro, IncTrainer_Ally_MiddleDefeat
+	msgbox IncTrainer_Ally_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_PRESS_5:: @ 81EC1B3
-	trainerbattle_single TRAINER_PRESS_5, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_PRESS_5, IncTrainer_Press_MiddleIntro, IncTrainer_Press_MiddleDefeat
+	msgbox IncTrainer_Press_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_PHOEBE_5A:: @ 81EC1B3
-	trainerbattle_single TRAINER_PHOEBE_5A, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_PHOEBE_5A, IncTrainer_Phoebe_MiddleIntro, IncTrainer_Phoebe_MiddleDefeat
+	msgbox IncTrainer_Phoebe_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_WALACE_5:: @ 81EC1B3
-	trainerbattle_single TRAINER_WALACE_5, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_WALACE_5, IncTrainer_Government_MiddleIntro, IncTrainer_Government_MiddleDefeat
+	msgbox IncTrainer_Government_MiddlePost, MSGBOX_AUTOCLOSE
 	end

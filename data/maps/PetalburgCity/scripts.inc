@@ -783,56 +783,56 @@ PetalburgCity_Text_ImLookingForTalentedTrainers: @ 81DCC09
 	.string "I'm sorry to have taken your time.$"
 
 PetalburgCity_EventScript_BLUE_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_BLUE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BLUE_1, IncTrainer_Anti_EarlyIntro, IncTrainer_Anti_EarlyDefeat
+	msgbox IncTrainer_Anti_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgCity_EventScript_FUJI_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_FUJI_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_FUJI_1, IncTrainer_Resistance_EarlyIntro, IncTrainer_Resistance_EarlyDefeat
+	msgbox IncTrainer_Resistance_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgCity_EventScript_GUZMA_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_GUZMA_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GUZMA_1, IncTrainer_Guzma_EarlyIntro, IncTrainer_Guzma_EarlyDefeat
+	msgbox IncTrainer_Guzma_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgCity_EventScript_LANCE_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_LANCE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_LANCE_1, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
+	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgCity_EventScript_WATSON_1A:: @ 81EC1B3
-	trainerbattle_single TRAINER_WATSON_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_WATSON_1A, IncTrainer_Resistance_EarlyIntro, IncTrainer_Resistance_EarlyDefeat
+	msgbox IncTrainer_Resistance_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgCity_EventScript_LORELIE_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_LORELIE_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_LORELIE_1, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
+	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgCity_EventScript_KAREN_1A:: @ 81EC1B3
-	trainerbattle_single TRAINER_KAREN_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_KAREN_1A, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
+	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgCity_EventScript_ROCKSTAR_1M:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKSTAR_1M, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKSTAR_1M, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgCity_EventScript_PEPPERMINT_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_PEPPERMINT_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_PEPPERMINT_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgCity_EventScript_AQUA_101:: @ 81EC1B3
-	trainerbattle_single TRAINER_AQUA_101, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_AQUA_101, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgCity_EventScript_JOY_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_JOY_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_JOY_1, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
+	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
 	end

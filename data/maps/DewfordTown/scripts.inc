@@ -763,63 +763,78 @@ DewfordTown_Text_BrawlyInSlateport:
 	.string "to go find him.$"
 
 DewfordTown_EventScript_WES_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_WES_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_WES_2, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
+	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_EventScript_CYNTHIA_2A:: @ 81EC1B3
-	trainerbattle_single TRAINER_CYNTHIA_2A, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CYNTHIA_2A, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
+	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_EventScript_GUZMA_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_GUZMA_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GUZMA_2, IncTrainer_Guzma_EarlyIntro, IncTrainer_Guzma_EarlyDefeat
+	msgbox IncTrainer_Guzma_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_EventScript_LANCE_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_LANCE_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_LANCE_2, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
+	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_EventScript_LUCY_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_LUCY_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_LUCY_2, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
+	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_EventScript_KAREN_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_KAREN_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_KAREN_2, DewfordTown_Text_Karen2Intro, DewfordTown_Text_Karen2Defeat
+	msgbox DewfordTown_Text_Karen2PostBattle, MSGBOX_AUTOCLOSE
 	end
 
+DewfordTown_Text_Karen2Intro:
+	.string "Strong or weak Pokémon…\n"
+	.string "Those labels miss the point.\p"
+	.string "The League tournament\n"
+	.string "sounds fun. I hope it values\l"
+	.string "a Trainer and their Pokémon.$"
+
+DewfordTown_Text_Karen2Defeat:
+	.string "You and your Pokémon fought\n"
+	.string "as one. That's what matters.$"
+
+DewfordTown_Text_Karen2PostBattle:
+	.string "A good Trainer trusts\n"
+	.string "their team.$"
+
 DewfordTown_EventScript_TUCKER_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_TUCKER_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_TUCKER_2, IncTrainer_Government_EarlyIntro, IncTrainer_Government_EarlyDefeat
+	msgbox IncTrainer_Government_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_EventScript_BLAIN_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_BLAIN_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BLAIN_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_EventScript_MAY_2A:: @ 81EC1B3
-	trainerbattle_single TRAINER_MAY_2A, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_MAY_2A, IncTrainer_Rival_EarlyIntro, IncTrainer_Rival_EarlyDefeat
+	msgbox IncTrainer_Rival_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_EventScript_TATELIZZ_2A:: @ 81EC1B3
-	trainerbattle_single TRAINER_TATELIZZ_2A, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_TATELIZZ_2A, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_EventScript_GUTARIST_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_GUTARIST_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GUTARIST_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_EventScript_GENTALMAN3_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_GENTALMAN3_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GENTALMAN3_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordTown_EventScript_SandMound::

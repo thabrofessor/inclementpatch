@@ -38,73 +38,73 @@ GraniteCave_1F_Text_ExplainFlash: @ 822DBB7
 	.string "from Dewford's Pokémon Gym.$"
 
 GraniteCave_1F_EventScript_BASIL_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_BASIL_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BASIL_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 GraniteCave_1F_EventScript_RANGER5_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_RANGER5_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RANGER5_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 GraniteCave_1F_EventScript_BROCK_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_BROCK_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BROCK_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 GraniteCave_1F_EventScript_COOLT7_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_COOLT7_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COOLT7_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 GraniteCave_1F_EventScript_ROXAN_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROXAN_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROXAN_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 GraniteCave_1F_EventScript_GEM_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_GEM_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GEM_2, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
+	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 GraniteCave_1F_EventScript_GLACIA_2A:: @ 81EC1B3
-	trainerbattle_single TRAINER_GLACIA_2A, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GLACIA_2A, IncTrainer_Government_EarlyIntro, IncTrainer_Government_EarlyDefeat
+	msgbox IncTrainer_Government_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 GraniteCave_1F_EventScript_PALMER_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_PALMER_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_PALMER_2, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
+	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 GraniteCave_1F_EventScript_JASMINE_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_JASMINE_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_JASMINE_2, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
+	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 GraniteCave_1F_EventScript_RUNE_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_RUNE_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_RUNE_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 GraniteCave_1F_EventScript_HIKER_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_HIKER_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_HIKER_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 GraniteCave_1F_EventScript_SAILOR_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_SAILOR_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SAILOR_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 GraniteCave_1F_EventScript_COLECTOR_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_COLECTOR_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COLECTOR_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 GraniteCave_1F_EventScript_POKEFANF_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_POKEFANF_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_POKEFANF_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 GraniteCave_1F_EventScript_SandMound::

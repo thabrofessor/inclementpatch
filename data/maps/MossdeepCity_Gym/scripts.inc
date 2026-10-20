@@ -617,7 +617,11 @@ MossdeepCity_Gym_Text_TateAndLizaDefeat: @ 82218EC
 	.string "Tate: What?! Our combination…\n"
 	.string "Liza: Was shattered!\p"
 	.string "Tate: It can't be helped. You've won…\n"
-	.string "Liza: So, in recognition, take this.$"
+	.string "Liza: So, take this.\p"
+	.string "Tate: A shadow surrounds some\n"
+	.string "Pokémon. We've sensed it.\p"
+	.string "Liza: It isn't their own fear.\n"
+	.string "Someone placed it there.$"
 
 MossdeepCity_Gym_Text_ReceivedMindBadge: @ 822196A
 	.string "{PLAYER} received the Mind Badge\n"

@@ -329,11 +329,11 @@ MauvilleCity_BikeShop_Text_Jumps: @ 820F898
 	.string "Want to read a different page?$"
 
 MauvilleCity_BikeShop_EventScript_WALACE_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_WALACE_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_WALACE_3, IncTrainer_Government_EarlyIntro, IncTrainer_Government_EarlyDefeat
+	msgbox IncTrainer_Government_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_BikeShop_EventScript_PRESS_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_PRESS_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_PRESS_3, IncTrainer_Press_EarlyIntro, IncTrainer_Press_EarlyDefeat
+	msgbox IncTrainer_Press_EarlyPost, MSGBOX_AUTOCLOSE
 	end

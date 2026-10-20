@@ -54,28 +54,28 @@ Route107_EventScript_Camron:: @ 81EE672
 	end
 
 Route107_EventScript_ROCKSTAR_2M:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKSTAR_2M, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKSTAR_2M, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route107_EventScript_ROCKSTAR_2T:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKSTAR_2T, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKSTAR_2T, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route107_EventScript_ROCKSTAR_2B:: @ 81EC1B3
-	trainerbattle_single TRAINER_ROCKSTAR_2B, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKSTAR_2B, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route107_EventScript_STARLET_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_STARLET_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_STARLET_2, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
+	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route107_EventScript_DRAKE_2A:: @ 81EC1B3
-	trainerbattle_single TRAINER_DRAKE_2A, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_DRAKE_2A, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
+	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route107_EventScript_SandMound::

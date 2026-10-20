@@ -136,11 +136,11 @@ PetalburgCity_WallysHouse_Text_WallyLeftWithoutTelling: @ 82047A7
 	.string "and sound one day!$"
 
 PetalburgCity_WallysHouse_EventScript_FLANNERY_1A:: @ 81EC1B3
-	trainerbattle_single TRAINER_FLANNERY_1A, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_FLANNERY_1A, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
+	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgCity_WallysHouse_EventScript_BLAIN_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_BLAIN_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BLAIN_1, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end

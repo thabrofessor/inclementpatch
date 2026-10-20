@@ -42,11 +42,11 @@ SlateportCity_PokemonCenter_1F_Text_TradedMonWithFriend: @ 820DBBC
 
 
 OldaleTown_EventScript_BURGLAR_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_BURGLAR_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BURGLAR_2, IncTrainer_Villain_EarlyIntro, IncTrainer_Villain_EarlyDefeat
+	msgbox IncTrainer_Villain_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 OldaleTown_EventScript_JOY_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_JOY_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_JOY_2, IncTrainer_Flirty_EarlyIntro, IncTrainer_Flirty_EarlyDefeat
+	msgbox IncTrainer_Flirty_EarlyPost, MSGBOX_AUTOCLOSE
 	end

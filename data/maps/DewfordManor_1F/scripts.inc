@@ -7,163 +7,163 @@ DewfordManor_1F_OnTransition:
 	end
 
 DewfordManor_1F_EventScript_AGATHA_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_AGATHA_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_AGATHA_2, IncTrainer_Agatha_EarlyIntro, IncTrainer_Agatha_EarlyDefeat
+	msgbox IncTrainer_Agatha_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GREEN_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_GREEN_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GREEN_2, IncTrainer_Anti_EarlyIntro, IncTrainer_Anti_EarlyDefeat
+	msgbox IncTrainer_Anti_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_SABRINA_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_SABRINA_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SABRINA_2, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
+	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_MORTY_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_MORTY_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_MORTY_2, IncTrainer_Ally_EarlyIntro, IncTrainer_Ally_EarlyDefeat
+	msgbox IncTrainer_Ally_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_LI_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_LI_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_LI_2, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
+	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_SPENCER_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_SPENCER_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_SPENCER_2, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
+	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_NOLAND_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_NOLAND_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_NOLAND_2, IncTrainer_Investigator_EarlyIntro, IncTrainer_Investigator_EarlyDefeat
+	msgbox IncTrainer_Investigator_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_1, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_1, IncTrainer_Villain_EarlyIntro, IncTrainer_Villain_EarlyDefeat
+	msgbox IncTrainer_Villain_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_2, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_2, IncTrainer_Villain_EarlyIntro, IncTrainer_Villain_EarlyDefeat
+	msgbox IncTrainer_Villain_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_3, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_3, IncTrainer_Villain_EarlyIntro, IncTrainer_Villain_EarlyDefeat
+	msgbox IncTrainer_Villain_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_4, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_4, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_5:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_5, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_5, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_6:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_6, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_6, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_7:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_7, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_7, IncTrainer_Villain_LateIntro, IncTrainer_Villain_LateDefeat
+	msgbox IncTrainer_Villain_LatePost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_8:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_8, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_8, IncTrainer_Villain_LateIntro, IncTrainer_Villain_LateDefeat
+	msgbox IncTrainer_Villain_LatePost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_9:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_9, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_9, IncTrainer_Villain_LateIntro, IncTrainer_Villain_LateDefeat
+	msgbox IncTrainer_Villain_LatePost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_10:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_10, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_10, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_11:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_11, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_11, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_12:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_12, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_12, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_13:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_13, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_13, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_14:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_14, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_14, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_15:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_15, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_15, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_16:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_16, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_16, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_17:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_17, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_17, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_18:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_18, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_18, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_19:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_19, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_19, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_20:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_20, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_20, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_21:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_21, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_21, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_22:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_22, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_22, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_23:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_23, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_23, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_24:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_24, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_24, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_GALACTIC_25:: @ 81EC1B3
-	trainerbattle_single TRAINER_GALACTIC_25, Route102_Text_GENIntro, Route102_Text_GENDefeat
-	msgbox Route102_Text_GENPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GALACTIC_25, IncTrainer_Villain_MiddleIntro, IncTrainer_Villain_MiddleDefeat
+	msgbox IncTrainer_Villain_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordManor_1F_EventScript_SandMound::
