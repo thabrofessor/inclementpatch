@@ -2075,7 +2075,7 @@ static u16 ApplyTrainerMonBoost(u16 stat, u8 percent)
 
 static void ApplyTrainerMonBoostToStats(struct Pokemon *mon, u8 boost)
 {
-    static const u8 sBoostPercentages[] = {0, 25, 50, 75, 100, 125};
+    static const u8 sBoostPercentages[] = {0, 10, 20, 30, 40, 50};
     u16 maxHp;
     u16 hp;
     u16 attack;
