@@ -549,13 +549,6 @@ void HandleAction_UseItem(void)
 
     gLastUsedItem = gBattleResources->bufferB[gBattlerAttacker][1] | (gBattleResources->bufferB[gBattlerAttacker][2] << 8);
 
-    // On Hard, the player may use up to four non-ball items per battle.
-    if (GetBattlerSide(gBattlerAttacker) == B_SIDE_PLAYER
-        && gSaveBlock2Ptr->gameDifficulty == DIFFICULTY_HARD
-        && gLastUsedItem > LAST_BALL_INDEX
-        && gBattleStruct->playerBattleItemsUsed < MAX_PLAYER_BATTLE_ITEMS_PER_BATTLE)
-        gBattleStruct->playerBattleItemsUsed++;
-
     if (gLastUsedItem <= LAST_BALL_INDEX) // is ball
     {
         gBattlescriptCurrInstr = gBattlescriptsForBallThrow[gLastUsedItem];
