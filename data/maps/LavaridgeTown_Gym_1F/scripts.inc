@@ -514,13 +514,13 @@ LavaridgeTown_Gym_1F_EventScript_YELLOW_4:: @ 81EC1B3
 	end
 
 LavaridgeTown_Gym_1F_EventScript_COLE_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_COLE_4, IncTrainer_Rival_MiddleIntro, IncTrainer_Rival_MiddleDefeat
-	msgbox IncTrainer_Rival_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COLE_4, IncTrainer_Cole_MiddleIntro, IncTrainer_Cole_MiddleDefeat
+	msgbox IncTrainer_Cole_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_Gym_1F_EventScript_CHAD_4:: @ 81EC1B3
-	trainerbattle_single TRAINER_CHAD_4, IncTrainer_Rival_MiddleIntro, IncTrainer_Rival_MiddleDefeat
-	msgbox IncTrainer_Rival_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CHAD_4, IncTrainer_Chad_MiddleIntro, IncTrainer_Chad_MiddleDefeat
+	msgbox IncTrainer_Chad_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_Gym_1F_EventScript_BABE_4:: @ 81EC1B3

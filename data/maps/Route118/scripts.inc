@@ -431,8 +431,8 @@ Route118_EventScript_COOLT2_3:: @ 81EC1B3
 	end
 
 Route118_EventScript_COLE_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_COLE_3, IncTrainer_Rival_EarlyIntro, IncTrainer_Rival_EarlyDefeat
-	msgbox IncTrainer_Rival_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COLE_3, IncTrainer_Cole_EarlyIntro, IncTrainer_Cole_EarlyDefeat
+	msgbox IncTrainer_Cole_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route118_EventScript_FALKNER_3:: @ 81EC1B3

@@ -112,13 +112,13 @@ Route102_EventScript_Bro_1:: @ 81EC1B3
 	end
 	
 Route102_EventScript_Cole_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_COLE_1, IncTrainer_Rival_EarlyIntro, IncTrainer_Rival_EarlyDefeat
-	msgbox IncTrainer_Rival_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COLE_1, IncTrainer_Cole_EarlyIntro, IncTrainer_Cole_EarlyDefeat
+	msgbox IncTrainer_Cole_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 		
 Route102_EventScript_Chad_1:: @ 81EC1B3
-	trainerbattle_single TRAINER_CHAD_1, IncTrainer_Rival_EarlyIntro, IncTrainer_Rival_EarlyDefeat
-	msgbox IncTrainer_Rival_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CHAD_1, IncTrainer_Chad_EarlyIntro, IncTrainer_Chad_EarlyDefeat
+	msgbox IncTrainer_Chad_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 		
 Route102_EventScript_N_1:: @ 81EC1B3

@@ -238,8 +238,8 @@ Route117_EventScript_COOLT15_3:: @ 81EC1B3
 	end
 
 Route117_EventScript_CHAD_3:: @ 81EC1B3
-	trainerbattle_single TRAINER_CHAD_3, IncTrainer_Rival_EarlyIntro, IncTrainer_Rival_EarlyDefeat
-	msgbox IncTrainer_Rival_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CHAD_3, IncTrainer_Chad_EarlyIntro, IncTrainer_Chad_EarlyDefeat
+	msgbox IncTrainer_Chad_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_CRUSH_3:: @ 81EC1B3

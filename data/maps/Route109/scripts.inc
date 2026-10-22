@@ -640,8 +640,8 @@ Route109_EventScript_CRUSH_2:: @ 81EC1B3
 	end
 
 Route109_EventScript_COLE_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_COLE_2, IncTrainer_Rival_EarlyIntro, IncTrainer_Rival_EarlyDefeat
-	msgbox IncTrainer_Rival_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COLE_2, IncTrainer_Cole_EarlyIntro, IncTrainer_Cole_EarlyDefeat
+	msgbox IncTrainer_Cole_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 Route109_EventScript_WHITNEY_2A:: @ 81EC1B3

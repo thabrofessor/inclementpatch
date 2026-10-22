@@ -5076,6 +5076,64 @@ IncTrainer_Rival_LatePost:
 	.string "No one chooses who keeps their\n"
 	.string "Pokémon. Not the President.$"
 
+@ Cole is a sharp-edged rival who resents anyone telling him what to do.
+IncTrainer_Cole_EarlyIntro:
+	.string "Try to keep up. I didn't come\n"
+	.string "here to coach you!$"
+IncTrainer_Cole_EarlyDefeat:
+	.string "Lucky break. Don't expect me to\n"
+	.string "make that mistake twice.$"
+IncTrainer_Cole_EarlyPost:
+	.string "That tournament is a stage. I'm\n"
+	.string "not signing up for anyone.$"
+IncTrainer_Cole_MiddleIntro:
+	.string "Now they want my team's names?\n"
+	.string "They can ask someone else.$"
+IncTrainer_Cole_MiddleDefeat:
+	.string "You got stronger. Don't make me\n"
+	.string "say that again.$"
+IncTrainer_Cole_MiddlePost:
+	.string "If the President wants my team,\n"
+	.string "he can come ask me himself.$"
+IncTrainer_Cole_LateIntro:
+	.string "I won't fight for your cause.\n"
+	.string "I just hate his orders more.$"
+IncTrainer_Cole_LateDefeat:
+	.string "Fine. You're still the one I'd\n"
+	.string "trust in a real fight.$"
+IncTrainer_Cole_LatePost:
+	.string "Don't get sentimental. I have\n"
+	.string "your back until this is over.$"
+
+@ Chad is an anxious, energetic rival whose nerves turn into courage.
+IncTrainer_Chad_EarlyIntro:
+	.string "Okay, okay, battle time! I\n"
+	.string "practiced this! Mostly!$"
+IncTrainer_Chad_EarlyDefeat:
+	.string "Whoa! You were really fast!\n"
+	.string "I almost had a plan!$"
+IncTrainer_Chad_EarlyPost:
+	.string "That tournament sounds huge.\n"
+	.string "Do you think they'll pick me?$"
+IncTrainer_Chad_MiddleIntro:
+	.string "The registration list feels\n"
+	.string "weird. I brought notes!$"
+IncTrainer_Chad_MiddleDefeat:
+	.string "I was nervous, then I forgot\n"
+	.string "to be nervous. That helped!$"
+IncTrainer_Chad_MiddlePost:
+	.string "Those Shadow Pokémon scare me.\n"
+	.string "We should find who made them.$"
+IncTrainer_Chad_LateIntro:
+	.string "I'm scared, but I'm not letting\n"
+	.string "them take my Pokémon!$"
+IncTrainer_Chad_LateDefeat:
+	.string "You did it! I'll stand with you\n"
+	.string "even if my knees shake!$"
+IncTrainer_Chad_LatePost:
+	.string "I made a plan! Step one: help.\n"
+	.string "Step two: make it up as we go!$"
+
 IncTrainer_Bro_EarlyIntro:
 	.string "Hey, bro. Heard about the big\n"
 	.string "tournament. Let's warm up!$"

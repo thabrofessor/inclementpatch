@@ -40,8 +40,8 @@ DewfordMeadow_EventScript_BUGSY_2:: @ 81EC1B3
 	end
 
 DewfordMeadow_EventScript_CHAD_2:: @ 81EC1B3
-	trainerbattle_single TRAINER_CHAD_2, IncTrainer_Rival_EarlyIntro, IncTrainer_Rival_EarlyDefeat
-	msgbox IncTrainer_Rival_EarlyPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CHAD_2, IncTrainer_Chad_EarlyIntro, IncTrainer_Chad_EarlyDefeat
+	msgbox IncTrainer_Chad_EarlyPost, MSGBOX_AUTOCLOSE
 	end
 
 DewfordMeadow_EventScript_FALKNER_2:: @ 81EC1B3

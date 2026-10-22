@@ -1979,13 +1979,13 @@ PetalburgCity_Gym_EventScript_FANS_5:: @ 81EC1B3
 	end
 
 PetalburgCity_Gym_EventScript_COLE_5:: @ 81EC1B3
-	trainerbattle_single TRAINER_COLE_5, IncTrainer_Rival_MiddleIntro, IncTrainer_Rival_MiddleDefeat
-	msgbox IncTrainer_Rival_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_COLE_5, IncTrainer_Cole_MiddleIntro, IncTrainer_Cole_MiddleDefeat
+	msgbox IncTrainer_Cole_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgCity_Gym_EventScript_CHAD_5:: @ 81EC1B3
-	trainerbattle_single TRAINER_CHAD_5, IncTrainer_Rival_MiddleIntro, IncTrainer_Rival_MiddleDefeat
-	msgbox IncTrainer_Rival_MiddlePost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CHAD_5, IncTrainer_Chad_MiddleIntro, IncTrainer_Chad_MiddleDefeat
+	msgbox IncTrainer_Chad_MiddlePost, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgCity_Gym_EventScript_HISTORY_5:: @ 81EC1B3
