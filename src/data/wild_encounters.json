@@ -45520,7 +45520,7 @@
           "map": "MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F",
           "base_label": "gLittlerootTown_BrendansHouse_1F0",
           "honey_mons": {
-            "encounter_rate": 40,
+            "encounter_rate": 20,
             "mons": [
               {
                 "min_level": 1,
@@ -45559,7 +45559,7 @@
           "map": "MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F",
           "base_label": "gLittlerootTown_BrendansHouse_2F0",
           "honey_mons": {
-            "encounter_rate": 40,
+            "encounter_rate": 20,
             "mons": [
               {
                 "min_level": 1,
@@ -45598,7 +45598,7 @@
           "map": "MAP_LITTLEROOT_TOWN_MAYS_HOUSE_1F",
           "base_label": "gLittlerootTown_MaysHouse_1F0",
           "honey_mons": {
-            "encounter_rate": 40,
+            "encounter_rate": 20,
             "mons": [
               {
                 "min_level": 1,
@@ -45637,7 +45637,7 @@
           "map": "MAP_LITTLEROOT_TOWN_MAYS_HOUSE_2F",
           "base_label": "gLittlerootTown_MaysHouse_2F0",
           "honey_mons": {
-            "encounter_rate": 40,
+            "encounter_rate": 20,
             "mons": [
               {
                 "min_level": 1,
@@ -45676,7 +45676,7 @@
           "map": "MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB",
           "base_label": "gLittlerootTown_ProfessorBirchsLab0",
           "honey_mons": {
-            "encounter_rate": 0,
+            "encounter_rate": 20,
             "mons": [
               {
                 "min_level": 1,
