@@ -223,7 +223,7 @@ RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor: @ 8212609
 	.string "A clear record gives the League a way\l"
 	.string "to contact a Trainer's family if an\l"
 	.string "emergency occurs. Surely no one could\l"
-	.string "object to a little preparation."\p"
+	.string "object to a little preparation.\p"
 	.string "I understand that you're delivering\n"
 	.string "a package to Slateport's Shipyard.\p"
 	.string "Well, on the way, could you stop off in\n"
