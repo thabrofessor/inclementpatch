@@ -319,7 +319,10 @@ Route104_Text_HaleyPostBattle: @ 8295689
 	.string "If you're faced with a decision and\n"
 	.string "you let someone else choose for you,\l"
 	.string "you will regret it, however things\l"
-	.string "turn out.$"
+	.string "turn out.\p"
+	.string "Everyone's excited about the League\n"
+	.string "tournament, but I hope registration\l"
+	.string "remains a choice.$"
 
 Route104_Text_HaleyRegister1: @ 82956FF
 	.string "You're strong, but should I register\n"
@@ -1105,7 +1108,10 @@ Route110_Text_EdwardDefeated: @ 8298064
 Route110_Text_EdwardPostBattle: @ 829808A
 	.string "I see your future…\p"
 	.string "Hmm…\n"
-	.string "I see a shining light…$"
+	.string "I see a shining light…\p"
+	.string "But behind the League, a dark shape\n"
+	.string "is gathering. Someone wants every\l"
+	.string "Trainer's path to run through them.$"
 
 Route110_Text_JaclynIntro: @ 82980B9
 	.string "Ahahahaha!\n"
@@ -1301,7 +1307,11 @@ Route111_Text_DustyPostBattle: @ 8298B9A
 	.string "For thirty years I have searched for\n"
 	.string "ancient ruins!\p"
 	.string "No, wait, was that forty years?\n"
-	.string "Which was it now?$"
+	.string "Which was it now?\p"
+	.string "Lately, I've found strange traces of\n"
+	.string "Pokémon behaving as if their wills\l"
+	.string "had been clouded. Ancient tales speak\l"
+	.string "of such unnatural darkness.$"
 
 Route111_Text_DustyRegister: @ 8298C00
 	.string "I haven't been searching for any\n"
@@ -2171,7 +2181,11 @@ Route115_Text_MarleneDefeat: @ 829BA67
 
 Route115_Text_MarlenePostBattle: @ 829BA87
 	.string "I was meditating with my Pokémon.\n"
-	.string "But this place isn't very peaceful…$"
+	.string "But this place isn't very peaceful…\p"
+	.string "Something is pressing on their minds.\n"
+	.string "It feels as though a distant will is\l"
+	.string "trying to reach into the hearts of\l"
+	.string "Pokémon.$"
 
 Route116_Text_ClarkIntro: @ 829BACD
 	.string "If the tunnel doesn't go through, then\n"
