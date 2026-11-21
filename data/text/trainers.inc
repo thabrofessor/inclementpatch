@@ -3025,37 +3025,34 @@ Route120_Text_JennaPostBattle: @ 829E996
 	.string "I always run with my Pokémon.$"
 
 Route120_Text_JeffreyIntro: @ 829E9D7
-	.string "… … … … … …\n"
-	.string "… … … … … …\l"
-	.string "Want to battle?$"
+	.string "M-my Bug Pokémon and I have been\n"
+	.string "practicing. Would you battle us?$"
 
 Route120_Text_JeffreyDefeat: @ 829E9FF
 	.string "Lost it…$"
 
 Route120_Text_JeffreyPostBattle: @ 829EA08
-	.string "… … … … … …\n"
-	.string "… … … … … …\l"
-	.string "I'll try harder…$"
+	.string "I get nervous talking to people,\n"
+	.string "but my Pokémon understand me.\p"
+	.string "We'll practice and try again…$"
 
 Route120_Text_JeffreyRegister: @ 829EA31
-	.string "… … … … … …\n"
-	.string "… … … … … …\l"
-	.string "Do you have a PokéNav…?$"
+	.string "Would you mind registering with my\n"
+	.string "PokéNav? I don't meet many Trainers,\l"
+	.string "and I'd like to keep in touch.$"
 
 Route120_Text_JeffreyRematchIntro: @ 829EA61
-	.string "… … … … … …\n"
-	.string "… … … … … …\l"
-	.string "Want to battle again?$"
+	.string "I-I've trained my Bug Pokémon more.\n"
+	.string "Would you battle us again?$"
 
 Route120_Text_JeffreyRematchDefeat: @ 829EA8F
-	.string "… … … … … …\n"
-	.string "I lost again…$"
+	.string "I lost again…\n"
+	.string "I'll keep working with my partners.$"
 
 Route120_Text_JeffreyPostRematch: @ 829EAA9
-	.string "… … … … … …\n"
-	.string "… … … … … …\l"
-	.string "I'll try harder…\l"
-	.string "For my precious Bug Pokémon…$"
+	.string "I was still nervous, but I spoke up.\p"
+	.string "My precious Bug Pokémon deserve a\n"
+	.string "Trainer who keeps trying for them.$"
 
 Route120_Text_JenniferIntro: @ 829EAEF
 	.string "Pokémon have many special abilities.\n"
@@ -3210,7 +3207,10 @@ Route121_Text_TammyDefeat: @ 829F3B9
 Route121_Text_TammyPostBattle: @ 829F3C6
 	.string "Mt. Pyre…\n"
 	.string "There is a mysterious power\l"
-	.string "at work there…$"
+	.string "at work there…\p"
+	.string "The spirits are restless, but this\n"
+	.string "feels like something reaching beyond\l"
+	.string "the dead and into the living.$"
 
 Route121_Text_KateIntro: @ 829F3FB
 	.string "Kate: Together, we're fearless!\n"
@@ -3406,7 +3406,10 @@ Route123_Text_CameronDefeat: @ 829FE1E
 
 Route123_Text_CameronPostBattle: @ 829FE2A
 	.string "Being a psychic is about willpower.\n"
-	.string "I thought I wouldn't lose to you…$"
+	.string "I thought I wouldn't lose to you…\p"
+	.string "But I've sensed a mind pressing\n"
+	.string "against Pokémon from far away.\l"
+	.string "That power isn't natural.$"
 
 Route123_Text_CameronRegister: @ 829FE70
 	.string "I sense it!\n"
@@ -3495,7 +3498,10 @@ Route123_Text_KindraPostBattle: @ 82A02C1
 	.string "Mt. Pyre…\n"
 	.string "Where the spirits of Pokémon sleep…\p"
 	.string "It must overflow with a power that\n"
-	.string "soothes spirits…$"
+	.string "soothes spirits…\p"
+	.string "Yet something else stirs nearby.\n"
+	.string "A presence that does not soothe, but\l"
+	.string "bends the will of the living.$"
 
 Route123_Text_FernandoIntro: @ 82A0323
 	.string "I'll turn your lights out while\n"
