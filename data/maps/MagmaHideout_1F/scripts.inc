@@ -48,6 +48,11 @@ MagmaHideout_1F_Text_Grunt2Defeat: @ 8239ABA
 MagmaHideout_1F_Text_Grunt2PostBattle: @ 8239ACD
 	.string "I won't tell you after all.\n"
 	.string "You'll find out when you get there!\p"
+	.string "We've got new gear and supplies\n"
+	.string "coming in from outside the Team.\p"
+	.string "The Boss says we should focus on the\n"
+	.string "mission and leave the arrangements\l"
+	.string "to the people above us.\p"
 	.string "It'd be better if you saved surprises\n"
 	.string "to the end, don't you think?$"
 
