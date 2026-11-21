@@ -9,7 +9,10 @@ Route102_Text_CalvinDefeated: @ 829457C
 
 Route102_Text_CalvinPostBattle: @ 82945AC
 	.string "Listen, you. If you're strong,\n"
-	.string "you should have told me before!$"
+	.string "you should have told me before!\p"
+	.string "I'm training for that big League\n"
+	.string "tournament. Just imagine getting to\l"
+	.string "challenge the Elite Four!$"
 
 Route102_Text_CalvinRegister: @ 82945EB
 	.string "I've been working hard at this since\n"
@@ -44,7 +47,10 @@ Route102_Text_AllenDefeated: @ 82947AA
 
 Route102_Text_AllenPostBattle: @ 82947DB
 	.string "I haven't won once yet…\n"
-	.string "I wish I would win soon…$"
+	.string "I wish I would win soon…\p"
+	.string "Maybe the League tournament will\n"
+	.string "give beginners like me a chance.\l"
+	.string "I have a lot of training to do first!$"
 
 Route102_Text_RickIntro: @ 829480C
 	.string "Hahah! Our eyes met!\n"
@@ -67,7 +73,10 @@ Route102_Text_TianaDefeated: @ 82948F3
 
 Route102_Text_TianaPostBattle: @ 8294916
 	.string "To keep winning my way up, I see that\n"
-	.string "I have to catch more Pokémon.$"
+	.string "I have to catch more Pokémon.\p"
+	.string "The League tournament sounds like\n"
+	.string "the perfect place to prove myself.\l"
+	.string "I can't wait to sign up!$"
 
 Route103_Text_DaisyIntro: @ 829495A
 	.string "Did you feel the tug of our\n"
