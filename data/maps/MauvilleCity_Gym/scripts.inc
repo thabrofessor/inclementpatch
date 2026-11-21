@@ -464,7 +464,15 @@ MauvilleCity_Gym_Text_WattsonPostBattle: @ 820E8E3
 	.string "This tournament's registry drive\n"
 	.string "sounds sensible on paper.\p"
 	.string "But a safety record must never\n"
-	.string "decide who may keep a Pokémon!$"
+	.string "decide who may keep a Pokémon!\p"
+	.string "I've heard talk of holding a Pokémon\n"
+	.string "until its Trainer can prove every\l"
+	.string "detail on a form. Bah! A missing\l"
+	.string "paper doesn't make a partner\l"
+	.string "ownerless.\p"
+	.string "Judge a Trainer by how they care for\n"
+	.string "their Pokémon, not by how neatly\l"
+	.string "they fill out a registry!$"
 
 MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor: @ 820E925
 	.string "Wahahahah!\n"
