@@ -660,7 +660,15 @@ MossdeepCity_Gym_Text_TateAndLizaPostBattle: @ 8221B1D
 	.string "and your Pokémon is far stronger than\l"
 	.string "the bond that we share as twins.\p"
 	.string "Liza: You will become even stronger!\n"
-	.string "We've battled you, so we know.$"
+	.string "We've battled you, so we know.\p"
+	.string "Tate: Lately, when we quiet our minds,\n"
+	.string "we hear something far to the south.\l"
+	.string "Not a voice. More like a thought that\l"
+	.string "doesn't belong to either of us.\p"
+	.string "Liza: It makes the stars feel distant.\n"
+	.string "We don't know what it means, but\l"
+	.string "something is reaching farther than\l"
+	.string "it should.$"
 
 MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons: @ 8221BCE
 	.string "Tate: Hehehe… Were you surprised?\p"
