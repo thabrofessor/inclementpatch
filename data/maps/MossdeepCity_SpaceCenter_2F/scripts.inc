@@ -516,7 +516,16 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp: @ 82249DC
 	.string "matters that I must examine…\p"
 	.string "Who supplied us with the means\n"
 	.string "to carry out our plans? I must\l"
-	.string "know whether we were being used.$"
+	.string "know whether we were being used.\p"
+	.string "They knew our ambitions. They knew\n"
+	.string "what we hoped to accomplish, and\l"
+	.string "they made certain we had the tools\l"
+	.string "to pursue it. Yet they never stood\l"
+	.string "beside us when the consequences\l"
+	.string "became clear.\p"
+	.string "I will not accept that our failures\n"
+	.string "were simply the price of someone\l"
+	.string "else's design. I must find them.$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome: @ 8224A4A
 	.string "Steven: Whew, that was too tense.\n"
