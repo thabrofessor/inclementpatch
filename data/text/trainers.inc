@@ -3034,11 +3034,11 @@ Route119_Text_JacksonDefeat: @ 829DC9F
 Route119_Text_JacksonPostBattle: @ 829DCC6
 	.string "To break away from civilization and\n"
 	.string "awaken the wild spirit within!\p"
-	.string "That's our vision.\\p"
-	.string "I've seen officials collecting trail\\n"
-	.string "reports from Rangers, then asking\\l"
-	.string "which Trainers travel alone and what\\l"
-	.string "Pokémon they carry. That isn't wild\\l"
+	.string "That's our vision.\p"
+	.string "I've seen officials collecting trail\n"
+	.string "reports from Rangers, then asking\l"
+	.string "which Trainers travel alone and what\l"
+	.string "Pokémon they carry. That isn't wild\l"
 	.string "safety. That's a map of people.$"
 
 Route119_Text_JacksonRegister: @ 829DD1C
@@ -3068,14 +3068,14 @@ Route119_Text_CatherineDefeat: @ 829DE5D
 
 Route119_Text_CatherinePostBattle: @ 829DE88
 	.string "You're traveling light but you have\n"
-	.string "everything you need.\\p"
-	.string "You're on top of things mentally and\\n"
-	.string "physically, too.\\p"
-	.string "A League clerk asked me to list every\\n"
-	.string "Pokémon I travel with, even the ones\\l"
-	.string "not entered in the tournament. I\\l"
-	.string "declined. Preparedness is sensible;\\l"
-	.string "handing strangers a complete inventory\\l"
+	.string "everything you need.\p"
+	.string "You're on top of things mentally and\n"
+	.string "physically, too.\p"
+	.string "A League clerk asked me to list every\n"
+	.string "Pokémon I travel with, even the ones\l"
+	.string "not entered in the tournament. I\l"
+	.string "declined. Preparedness is sensible;\l"
+	.string "handing strangers a complete inventory\l"
 	.string "of your companions is another matter.$"
 
 Route119_Text_CatherineRegister: @ 829DEF7
@@ -3106,12 +3106,12 @@ Route119_Text_HughDefeat: @ 829E063
 
 Route119_Text_HughPostBattle: @ 829E071
 	.string "My Bird Pokémon made my dreams of\n"
-	.string "flying come true!\\p"
-	.string "But lately, the wind carries a strange\\n"
-	.string "stillness. Flocks wheel away from\\l"
-	.string "certain places, even when the air is\\l"
-	.string "clear. My Pokémon feels it too.\\p"
-	.string "I won't force it toward something\\n"
+	.string "flying come true!\p"
+	.string "But lately, the wind carries a strange\n"
+	.string "stillness. Flocks wheel away from\l"
+	.string "certain places, even when the air is\l"
+	.string "clear. My Pokémon feels it too.\p"
+	.string "I won't force it toward something\n"
 	.string "that frightens it.$"
 
 Route119_Text_PhilIntro: @ 829E0A5
@@ -3135,13 +3135,13 @@ Route119_Text_YasuDefeat: @ 829E18D
 
 Route119_Text_YasuPostBattle: @ 829E19D
 	.string "Those defeated in battle withdraw\n"
-	.string "quietly back into the shadows.\\l"
-	.string "That, too, is destiny…\\p"
-	.string "I followed a courier from the weather\\n"
-	.string "station. He carried sealed orders and\\l"
-	.string "never once looked at the sky. His\\l"
-	.string "shadow moved a moment after he did.\\p"
-	.string "I lost him near the trees. Perhaps\\n"
+	.string "quietly back into the shadows.\l"
+	.string "That, too, is destiny…\p"
+	.string "I followed a courier from the weather\n"
+	.string "station. He carried sealed orders and\l"
+	.string "never once looked at the sky. His\l"
+	.string "shadow moved a moment after he did.\p"
+	.string "I lost him near the trees. Perhaps\n"
 	.string "that is where the real danger hides.$"
 
 Route119_Text_TakashiIntro: @ 829E1F5
@@ -3340,13 +3340,13 @@ Route120_Text_ChipDefeat: @ 829EC25
 
 Route120_Text_ChipPostBattle: @ 829EC41
 	.string "That giant rock… I would like to\n"
-	.string "believe it may indeed contain ancient\\l"
-	.string "ruins. But I see no entrance.\\p"
-	.string "I found a fragment nearby. It speaks\\n"
-	.string "of Pokémon whose eyes were darkened\\l"
-	.string "and whose wills were bent by a force\\l"
-	.string "that did not belong to this world.\\p"
-	.string "The final lines are missing. I wish\\n"
+	.string "believe it may indeed contain ancient\l"
+	.string "ruins. But I see no entrance.\p"
+	.string "I found a fragment nearby. It speaks\n"
+	.string "of Pokémon whose eyes were darkened\l"
+	.string "and whose wills were bent by a force\l"
+	.string "that did not belong to this world.\p"
+	.string "The final lines are missing. I wish\n"
 	.string "I knew who removed them.$"
 
 Route120_Text_ClarissaIntro: @ 829ECA6
@@ -3421,11 +3421,11 @@ Route120_Text_LeonelDefeat: @ 829F080
 
 Route120_Text_LeonelPostBattle: @ 829F0A1
 	.string "I think it's awesome you're so strong\n"
-	.string "battling with your favorite Pokémon.\\p"
-	.string "A man at the checkpoint said the new\\n"
-	.string "rules might soon require Trainers to\\l"
-	.string "leave unregistered Pokémon behind.\\p"
-	.string "I told him my partner isn't a danger\\n"
+	.string "battling with your favorite Pokémon.\p"
+	.string "A man at the checkpoint said the new\n"
+	.string "rules might soon require Trainers to\l"
+	.string "leave unregistered Pokémon behind.\p"
+	.string "I told him my partner isn't a danger\n"
 	.string "because a form doesn't mention it.$"
 
 Route121_Text_VanessaIntro: @ 829F0EC
