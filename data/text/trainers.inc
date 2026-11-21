@@ -4001,8 +4001,12 @@ Route124_Text_ChadDefeat: @ 82A0DFF
 Route124_Text_ChadPostBattle: @ 82A0E1E
 	.string "I have it on good authority that\n"
 	.string "there's a Dive spot around here.\p"
-	.string "It gives me the urge to go deep\n"
-	.string "again…$"
+	.string "I went deeper than usual and found\\n"
+	.string "a metal cable running along the reef.\\l"
+	.string "It wasn't part of any research rig.\\p"
+	.string "The cable led toward open water,\\n"
+	.string "then vanished into the dark. Someone\\l"
+	.string "is running equipment out there.$"
 
 Route124_Text_LilaIntro: @ 82A0E87
 	.string "Lila: Sigh…\p"
@@ -4109,7 +4113,12 @@ Route124_Text_IsabellaDefeat: @ 82A14BC
 
 Route124_Text_IsabellaPostBattle: @ 82A14ED
 	.string "You can find pretty colored shards\n"
-	.string "of things around here.$"
+	.string "of things around here.\\p"
+	.string "I found a strange red stamp on a\\n"
+	.string "crate washed up near the rocks. It\\l"
+	.string "looked like the mark on a shipping\\l"
+	.string "case I saw at Slateport. I reported\\l"
+	.string "it, but the clerk told me to forget it.$"
 
 Route125_Text_NolenIntro: @ 82A1527
 	.string "I heard you approaching, so I hung\n"
@@ -4165,9 +4174,14 @@ Route125_Text_ErnestDefeat: @ 82A173A
 
 Route125_Text_ErnestPostBattle: @ 82A1755
 	.string "The tide ebbs and flows inside the\n"
-	.string "Shoal Cave.\p"
-	.string "By the way, it's about six hours from\n"
-	.string "high tide to low tide. Did you know?$"
+	.string "Shoal Cave.\\p"
+	.string "By the way, it's about six hours from\\n"
+	.string "high tide to low tide. Did you know?\\p"
+	.string "A few nights ago, I saw lights beyond\\n"
+	.string "the reef at low tide. They moved\\l"
+	.string "against the current, then disappeared\\l"
+	.string "when a patrol boat approached.\\p"
+	.string "That wasn't a fishing crew.$"
 
 Route125_Text_ErnestRegister: @ 82A17CF
 	.string "Register me in your PokéNav,\n"
@@ -4246,9 +4260,14 @@ Route125_Text_AuronDefeat: @ 82A1BFD
 
 Route125_Text_AuronPostBattle: @ 82A1C2A
 	.string "I found an unsightly bottle bobbing\n"
-	.string "in the waves earlier.\p"
-	.string "It angers me that someone would\n"
-	.string "pollute the sea!$"
+	.string "in the waves earlier.\\p"
+	.string "It angers me that someone would\\n"
+	.string "pollute the sea!\\p"
+	.string "This one held a torn shipping label.\\n"
+	.string "The sender was scratched away, but\\l"
+	.string "the destination code matched a route\\l"
+	.string "used by League supply vessels. I\\l"
+	.string "turned it over to the harbor office.$"
 
 Route126_Text_BarryIntro: @ 82A1C95
 	.string "Swimming is a full-body workout!\n"
@@ -4271,7 +4290,14 @@ Route126_Text_DeanDefeat: @ 82A1D63
 
 Route126_Text_DeanPostBattle: @ 82A1D72
 	.string "I can't find the entrance to\n"
-	.string "Sootopolis. Where could it be?$"
+	.string "Sootopolis. Where could it be?\\p"
+	.string "I did see two officials checking\\n"
+	.string "divers' names near the crater. They\\l"
+	.string "weren't helping people find the city.\\p"
+	.string "They asked who had been inside, what\\n"
+	.string "they saw, and which Pokémon helped\\l"
+	.string "them reach the entrance. Strange\\l"
+	.string "questions for a place they can't find.$"
 
 Route126_Text_NikkiIntro: @ 82A1DAE
 	.string "Ufufufufu!\n"
@@ -4398,7 +4424,12 @@ Route127_Text_JonahDefeat: @ 82A23E1
 
 Route127_Text_JonahPostBattle: @ 82A240C
 	.string "It matters not that I catch nothing.\n"
-	.string "The line remains in the water…$"
+	.string "The line remains in the water…\\p"
+	.string "I have waited here for three nights.\\n"
+	.string "Each night, a vessel passes without\\l"
+	.string "lights, always at the same hour.\\p"
+	.string "No fishing boat keeps that schedule.\\n"
+	.string "And no honest sailor needs to hide.$"
 
 Route127_Text_HenryIntro: @ 82A2450
 	.string "Whoops! Don't tell me I snagged\n"
@@ -4545,7 +4576,13 @@ Route128_Text_AlexaDefeat: @ 82A2C79
 
 Route128_Text_AlexaPostBattle: @ 82A2C95
 	.string "After all I've done to get here,\n"
-	.string "I won't give up after one setback.$"
+	.string "I won't give up after one setback.\\p"
+	.string "The League sent a notice to every\\n"
+	.string "Trainer approaching Ever Grande.\\l"
+	.string "It says unregistered Pokémon may be\\l"
+	.string "held until their ownership is verified.\\p"
+	.string "I came here to challenge the League,\\n"
+	.string "not surrender my partners at the door.$"
 
 Route128_Text_RubenIntro: @ 82A2CD9
 	.string "There is no stronger Trainer than I!$"
@@ -4555,7 +4592,13 @@ Route128_Text_RubenDefeat: @ 82A2CFE
 
 Route128_Text_RubenPostBattle: @ 82A2D0D
 	.string "There probably is no stronger Trainer\n"
-	.string "than you!$"
+	.string "than you!\\p"
+	.string "I used to think the League only cared\\n"
+	.string "about strength. Now there are guards\\l"
+	.string "checking registration papers on the\\l"
+	.string "road ahead. They say it's an order\\l"
+	.string "from the President. What happens if\\l"
+	.string "a Trainer refuses?$"
 
 Route128_Text_WayneIntro: @ 82A2D3D
 	.string "I want to visit Ever Grande, so I\n"
