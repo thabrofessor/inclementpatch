@@ -38,10 +38,10 @@ MtPyre_6F_Text_ValerieDefeat: @ 8231DE2
 MtPyre_6F_Text_ValeriePostBattle: @ 8231DFC
 	.string "Perhaps the power is from the spirits\n"
 	.string "of Pokémon in fitful sleep here…\p"
-	.string "Though… this feels different from\\n"
-	.string "the usual presence of the departed.\\l"
-	.string "It is almost as if something is\\n"
-	.string "reaching toward the living from far\\l"
+	.string "Though… this feels different from\n"
+	.string "the usual presence of the departed.\l"
+	.string "It is almost as if something is\p"
+	.string "reaching toward the living from far\n"
 	.string "away. I cannot tell what, or who.$"
 
 MtPyre_6F_Text_ValerieRegister: @ 8231E43
@@ -60,9 +60,9 @@ MtPyre_6F_Text_ValerieRematchDefeat: @ 8231ECB
 MtPyre_6F_Text_ValeriePostRematch: @ 8231EE1
 	.string "The Pokémon at rest here…\n"
 	.string "Sometimes, they play…\p"
-	.string "But lately, even the spirits seem\\n"
-	.string "wary. Something disturbs the balance\\l"
-	.string "between those who have passed on\\n"
+	.string "But lately, even the spirits seem\n"
+	.string "wary. Something disturbs the balance\l"
+	.string "between those who have passed on\p"
 	.string "and those still living.$"
 
 MtPyre_6F_Text_CedricIntro: @ 8231F11
