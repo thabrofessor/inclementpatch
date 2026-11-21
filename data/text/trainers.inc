@@ -2391,7 +2391,12 @@ Route116_Text_ClarkDefeat: @ 829BB0F
 
 Route116_Text_ClarkPostBattle: @ 829BB31
 	.string "It's no big deal if there's no tunnel.\n"
-	.string "To a Hiker, mountains are roads!$"
+	.string "To a Hiker, mountains are roads!\\p"
+	.string "Though lately, some surveyors have\\n"
+	.string "been asking which trails connect to\\l"
+	.string "the old routes. They say it's for\\l"
+	.string "emergency planning. Funny how they\\l"
+	.string "never ask the people who walk them.$"
 
 Route116_Text_JoeyIntro: @ 829BB79
 	.string "My Pokémon rule!\n"
@@ -2439,8 +2444,13 @@ Route116_Text_JerryDefeat: @ 829BD66
 
 Route116_Text_JerryPostBattle: @ 829BD92
 	.string "I'll have to redo some courses at\n"
-	.string "the Trainer's School.\l"
-	.string "If I don't, Roxanne will be steamed.$"
+	.string "the Trainer's School.\\p"
+	.string "They've started teaching us that\\n"
+	.string "Trainer registration helps officials\\l"
+	.string "know who is responsible when a\\l"
+	.string "Pokémon causes trouble. I understand\\l"
+	.string "that part. But why would they need\\l"
+	.string "to know every Pokémon we own?$"
 
 Route116_Text_JerryRegister1: @ 829BDEF
 	.string "I learned at the Trainer's School\n"
@@ -2464,9 +2474,11 @@ Route116_Text_JerryRematchDefeat: @ 829BF4C
 	.string "I studied diligently.$"
 
 Route116_Text_JerryPostRematch: @ 829BF68
-	.string "I'll have to redo some courses at\n"
-	.string "the Trainer's School.\l"
-	.string "If I don't, Roxanne will be steamed.$"
+	.string "I asked Roxanne about those new\\n"
+	.string "registration lessons. She said safety\\l"
+	.string "rules should be clear and limited.\\p"
+	.string "A rule that keeps growing needs\\n"
+	.string "someone to ask where it ends.$"
 
 Route116_Text_KarenIntro: @ 829BFC5
 	.string "I study at school, and I study on\n"
@@ -2509,9 +2521,16 @@ Route116_Text_SarahDefeat: @ 829C1B8
 
 Route116_Text_SarahPostBattle: @ 829C1EA
 	.string "My life of luxury affords me all that\n"
-	.string "I could possibly desire.\p"
-	.string "However, when it comes to Pokémon,\n"
-	.string "my wealth has no meaning.$"
+	.string "I could possibly desire.\\p"
+	.string "However, when it comes to Pokémon,\\n"
+	.string "my wealth has no meaning.\\p"
+	.string "A representative at the estate asked\\n"
+	.string "whether my family would support a\\l"
+	.string "central registry for every Trainer.\\p"
+	.string "He called it a modern safeguard. I\\n"
+	.string "wonder whether he would feel so\\l"
+	.string "comfortable if someone catalogued\\l"
+	.string "everything he valued.$"
 
 Route116_Text_DawsonIntro: @ 829C266
 	.string "When you lay your eyes on my Pokémon's\n"
@@ -2589,7 +2608,13 @@ Route117_Text_LydiaDefeat: @ 829C659
 
 Route117_Text_LydiaPostBattle: @ 829C679
 	.string "Try raising Pokémon with more\n"
-	.string "attention to their character traits.$"
+	.string "attention to their character traits.\\p"
+	.string "The Day Care has received questions\\n"
+	.string "about keeping more detailed records\\l"
+	.string "of every Pokémon left in our care.\\p"
+	.string "A good record helps us return a lost\\n"
+	.string "partner. It should never become a\\l"
+	.string "reason to keep one from its Trainer.$"
 
 Route117_Text_LydiaRegister: @ 829C6BC
 	.string "I'm glad I met a superb Trainer in you.\n"
@@ -2614,9 +2639,14 @@ Route117_Text_DylanDefeat: @ 829C7EB
 	.string "I ran out of energy!$"
 
 Route117_Text_DylanPostBattle: @ 829C800
-	.string "I may have blown it…\p"
-	.string "I might have dropped to last during\n"
-	.string "that battle…$"
+	.string "I may have blown it…\\p"
+	.string "I might have dropped to last during\\n"
+	.string "that battle…\\p"
+	.string "Some officials were checking names\\n"
+	.string "and Pokémon lists along the course.\\l"
+	.string "They said the tournament needs a\\l"
+	.string "complete roster. I thought it was\\l"
+	.string "just a race. Guess not!$"
 
 Route117_Text_DylanRegister: @ 829C846
 	.string "Pokémon have to be strong, too?\n"
@@ -2828,7 +2858,13 @@ Route118_Text_PerryDefeat: @ 829D45B
 
 Route118_Text_PerryPostBattle: @ 829D46C
 	.string "You've got great Pokémon.\n"
-	.string "I'll have to train mine better.$"
+	.string "I'll have to train mine better.\\p"
+	.string "I've seen flocks break formation\\n"
+	.string "without warning lately. One moment\\l"
+	.string "they're circling normally, then every\\l"
+	.string "bird turns away from the same patch\\l"
+	.string "of sky. Even my Pokémon won't look\\l"
+	.string "that way for long.$"
 
 Route118_Text_ChesterIntro: @ 829D4A6
 	.string "Take flight!\n"
@@ -2851,8 +2887,13 @@ Route118_Text_BarnyDefeat: @ 829D55C
 
 Route118_Text_BarnyPostBattle: @ 829D587
 	.string "I couldn't win by training Pokémon\n"
-	.string "while I fished…\p"
-	.string "Was I doing things in half measures?$"
+	.string "while I fished…\\p"
+	.string "Was I doing things in half measures?\\p"
+	.string "A stranger offered good money for\\n"
+	.string "the rare Pokémon I've caught. He\\l"
+	.string "wanted to know where I fish and when\\l"
+	.string "I bring my catches ashore. Didn't\\l"
+	.string "sound like a collector to me.$"
 
 Route118_Text_WadeIntro: @ 829D5DF
 	.string "For Fishermen, equipment is the key.\p"
@@ -2864,7 +2905,12 @@ Route118_Text_WadeDefeat: @ 829D64C
 
 Route118_Text_WadePostBattle: @ 829D663
 	.string "Come to think of it, fishing is a battle\n"
-	.string "between a Fisherman and a Pokémon.$"
+	.string "between a Fisherman and a Pokémon.\\p"
+	.string "Aqua and Magma aren't the only ones\\n"
+	.string "asking about boats and cargo. A man\\l"
+	.string "with no team uniform offered to pay\\l"
+	.string "for sailing schedules. I told him the\\l"
+	.string "sea isn't his private road.$"
 
 Route118_Text_DaltonIntro: @ 829D6AF
 	.string "Let my melody rock your soul!$"
