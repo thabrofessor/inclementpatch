@@ -1036,7 +1036,10 @@ Route110_Text_BenjaminDefeated: @ 8297C8A
 
 Route110_Text_BenjaminPostBattle: @ 8297CB4
 	.string "There's no need to panic or stress.\n"
-	.string "Take it easy. There's plenty of time.$"
+	.string "Take it easy. There's plenty of time.\p"
+	.string "Still, the tournament forms ask for\n"
+	.string "more than a name. Why list every\l"
+	.string "Pokémon a Trainer owns?$"
 
 Route110_Text_BenjaminRegister: @ 8297CFE
 	.string "I'll keep chugging on without stressing.\n"
@@ -2349,7 +2352,9 @@ Route117_Text_IsaacPostBattle: @ 829C498
 	.string "Pokémon isn't all about power.\p"
 	.string "Polishing a unique aspect of one's\n"
 	.string "character is another way of enjoying\l"
-	.string "Pokémon.$"
+	.string "Pokémon.\p"
+	.string "A bond can't be reduced to a line\n"
+	.string "on a registration form.$"
 
 Route117_Text_IsaacRegister: @ 829C508
 	.string "I'm going to redouble my training.\n"
@@ -3359,7 +3364,11 @@ Route123_Text_BraxtonDefeat: @ 829FCD6
 
 Route123_Text_BraxtonPostBattle: @ 829FCF4
 	.string "You did your Badges proud in that\n"
-	.string "match!$"
+	.string "match!\p"
+	.string "Though I've heard the League wants\n"
+	.string "every Pokémon listed. That sounds\l"
+	.string "more like an inventory than a\l"
+	.string "celebration.$"
 
 Route123_Text_VioletIntro: @ 829FD1D
 	.string "They say that good times are filled\n"
@@ -3629,7 +3638,10 @@ Route124_Text_JennyPostBattle: @ 82A0B9A
 	.string "While swimming, I noticed that some\n"
 	.string "Pokémon attack, and some just watch.\p"
 	.string "I guess Pokémon have personalities\n"
-	.string "of their own.$"
+	.string "of their own.\p"
+	.string "I hear officials want to separate\n"
+	.string "some Pokémon from their Trainers.\l"
+	.string "That doesn't sound like safety to me.$"
 
 Route124_Text_JennyRegister: @ 82A0C14
 	.string "It's only on a whim, but maybe I'll get\n"
@@ -4706,8 +4718,8 @@ Route134_Text_HitoshiIntro: @ 82A4709
 	.string "No need for words. We battle now.$"
 
 Route134_Text_HitoshiDefeat: @ 82A4745
-	.string "… … … … … …\n"
-	.string "… … … … … …$"
+	.string "I had no words for your strength.\n"
+	.string "You have earned my respect.$"
 
 Route134_Text_HitoshiPostBattle: @ 82A475D
 	.string "It was I who challenged you, and yet\n"
@@ -4837,18 +4849,17 @@ AshenWoods_Text_ElmerPostBattle:
 	.string "catching Pokémon much easier.$"
 
 Route102_Text_GENIntro:
-	.string ".... .... ....\n"
-	.string ".... .... ....\p"
-	.string ".... .... ....$"
+	.string "I've heard the League may hold\n"
+	.string "a tournament for Trainers!$"
 
 Route102_Text_GENDefeat:
-	.string ".... .... ....$"
+	.string "I need to train more before I\n"
+	.string "can enter a tournament like that!$"
 
 Route102_Text_GENPostBattle:
-	.string ".... .... ....\n"
-	.string ".... .... ....\p"
-	.string ".... .... ....\n"
-	.string ".... .... ....$"
+	.string "A big League tournament sounds\n"
+	.string "like a great chance to meet strong\n"
+	.string "Trainers and their Pokémon!$"
 
 @ Custom trainer story dialogue. Encounter groups: 1-3 early, 4-6 middle, 7-9 late.
 IncTrainer_Citizen_EarlyIntro:
