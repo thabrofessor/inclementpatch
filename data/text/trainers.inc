@@ -2143,7 +2143,13 @@ Route114_Text_IvyDefeat: @ 829AFAC
 Route114_Text_IvyPostBattle: @ 829AFCF
 	.string "Ivy: I started training Pokémon\n"
 	.string "because Tyra, my student mentor,\l"
-	.string "taught me!$"
+	.string "taught me!\p"
+	.string "Tyra says a good Trainer learns to\n"
+	.string "notice when a Pokémon is worried.\l"
+	.string "One of mine barely reacted when I\l"
+	.string "called it yesterday. It seemed to\l"
+	.string "come back to itself later, but I\l"
+	.string "haven't stopped thinking about it.$"
 
 Route114_Text_IvyNotEnoughMons: @ 829B01B
 	.string "Ivy: Do you only have one Pokémon?\n"
@@ -2305,7 +2311,11 @@ Route115_Text_HectorDefeat: @ 829B7C5
 
 Route115_Text_HectorPostBattle: @ 829B7EA
 	.string "I have this rare Pokémon.\n"
-	.string "It's enough to keep me satisfied.$"
+	.string "It's enough to keep me satisfied.\p"
+	.string "A stranger offered to buy it from me\n"
+	.string "and asked for its registration details.\l"
+	.string "I said no. It's my partner, not a\l"
+	.string "specimen for someone else's list.$"
 
 Route115_Text_KyraIntro: @ 829B826
 	.string "I'll battle while I'm running!\n"
