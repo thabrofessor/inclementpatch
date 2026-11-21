@@ -4588,7 +4588,10 @@ Route132_Text_JonathanDefeat: @ 82A3EDD
 Route132_Text_JonathanPostBattle: @ 82A3F03
 	.string "I can't shake this feeling that\n"
 	.string "someone's watching me.\p"
-	.string "I can't concentrate!$"
+	.string "I've seen officials asking Trainers\n"
+	.string "where they travel and what Pokémon\l"
+	.string "they carry. Maybe that's why I feel\l"
+	.string "like I'm being watched…$"
 
 Route132_Text_PaxtonIntro: @ 82A3F4F
 	.string "Now where could my wife have gone?\n"
@@ -4663,7 +4666,10 @@ Route133_Text_WarrenDefeat: @ 82A42E0
 Route133_Text_WarrenPostBattle: @ 82A4304
 	.string "It's way more fun to do things the way\n"
 	.string "I want than to be like everybody else.\l"
-	.string "I mean, that's obvious!$"
+	.string "I mean, that's obvious!\p"
+	.string "Now they're saying only approved\n"
+	.string "Trainers should be allowed to keep\l"
+	.string "Pokémon. Who gets to decide that?$"
 
 Route133_Text_BeckIntro: @ 82A436A
 	.string "I came all the way out here with my\n"
