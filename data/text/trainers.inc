@@ -4803,8 +4803,14 @@ Route131_Text_ReliDefeat: @ 82A381F
 
 Route131_Text_ReliPostBattle: @ 82A3855
 	.string "Reli: The people of Pacifidlog are\n"
-	.string "together with the sea and Pokémon from\l"
-	.string "the time they are born.$"
+	.string "together with the sea and Pokémon from\\l"
+	.string "the time they are born.\\p"
+	.string "Reli: That's why it felt strange when\\n"
+	.string "strangers asked us to mark the safest\\l"
+	.string "currents and quietest coves on a map.\\p"
+	.string "Reli: They said it was for shipping.\\n"
+	.string "But they knew the old routes better\\l"
+	.string "than most people who live here.$"
 
 Route131_Text_ReliNotEnoughMons: @ 82A38B7
 	.string "Reli: You don't have two Pokémon?\n"
@@ -4838,8 +4844,14 @@ Route131_Text_TaliaDefeat: @ 82A3A38
 
 Route131_Text_TaliaPostBattle: @ 82A3A48
 	.string "There is an odd place nearby.\n"
-	.string "There's a huge tower there.\l"
-	.string "Why don't you go take a look?$"
+	.string "There's a huge tower there.\\l"
+	.string "Why don't you go take a look?\\p"
+	.string "A pair of well-dressed visitors were\\n"
+	.string "asking about the tower's old stones.\\l"
+	.string "They carried no climbing gear, only\\l"
+	.string "maps and a list of names. One asked\\l"
+	.string "whether the League had a record of\\l"
+	.string "every Trainer who had visited it.$"
 
 Route131_Text_KevinIntro: @ 82A3AA0
 	.string "The people of Pacifidlog are\n"
@@ -5067,7 +5079,12 @@ Route134_Text_LaurelDefeat: @ 82A4643
 
 Route134_Text_LaurelPostBattle: @ 82A464B
 	.string "There's a collector who's after\n"
-	.string "the scales of Luvdisc.$"
+	.string "the scales of Luvdisc.\\p"
+	.string "He offered to pay for a whole school\\n"
+	.string "of them, then asked whether any had\\l"
+	.string "been acting strangely. I told him\\l"
+	.string "they're living Pokémon, not samples\\l"
+	.string "for somebody's private cabinet.$"
 
 Route134_Text_AlexIntro: @ 82A4682
 	.string "Okeydokey! That's enough rest, gang!\n"
@@ -5101,9 +5118,14 @@ Route134_Text_AaronDefeat: @ 82A47E1
 
 Route134_Text_AaronPostBattle: @ 82A47FD
 	.string "We will return for more training at\n"
-	.string "Meteor Falls.\p"
-	.string "If you'd like, you should go, too.\n"
-	.string "It will definitely toughen you up!$"
+	.string "Meteor Falls.\\p"
+	.string "If you'd like, you should go, too.\\n"
+	.string "It will definitely toughen you up!\\p"
+	.string "But keep an eye on your Pokémon. One\\n"
+	.string "of mine stared into the cave's dark\\l"
+	.string "for a long while and wouldn't answer\\l"
+	.string "me. It shook itself and came around,\\l"
+	.string "but I won't forget that look.$"
 
 Route134_Text_KelvinIntro: @ 82A4875
 	.string "O-our boat!\n"
@@ -5153,9 +5175,15 @@ Route134_Text_HudsonDefeat: @ 82A4AC1
 	.string "Now, that's something!$"
 
 Route134_Text_HudsonPostBattle: @ 82A4AD8
-	.string "Our boat drifted out to sea.\p"
-	.string "My buddy's a timid fellow, so I'm\n"
-	.string "worried about him.$"
+	.string "Our boat drifted out to sea.\\p"
+	.string "My buddy's a timid fellow, so I'm\\n"
+	.string "worried about him.\\p"
+	.string "A larger vessel passed us before we\\n"
+	.string "lost sight of shore. No markings, no\\l"
+	.string "running lights. It was towing a pair\\l"
+	.string "of sealed containers toward the open\\l"
+	.string "water. Whoever was aboard never\\l"
+	.string "answered our signal.$"
 
 AshenWoods_Text_AlannahIntro:
 	.string "Are you prepared to survive in\n"
