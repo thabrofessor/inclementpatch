@@ -3451,12 +3451,12 @@ Route121_Text_WalterDefeat: @ 829F20D
 
 Route121_Text_WalterPostBattle: @ 829F21E
 	.string "I would like to circle the globe once\n"
-	.string "again with my Pokémon.\\p"
-	.string "In another region, officials have\\n"
-	.string "begun refusing travel permits to\\l"
-	.string "Trainers whose teams aren't on the\\l"
-	.string "central list. They call it temporary.\\p"
-	.string "I've learned that temporary rules\\n"
+	.string "again with my Pokémon.\p"
+	.string "In another region, officials have\n"
+	.string "begun refusing travel permits to\l"
+	.string "Trainers whose teams aren't on the\l"
+	.string "central list. They call it temporary.\p"
+	.string "I've learned that temporary rules\n"
 	.string "can travel farther than anyone expects.$"
 
 Route121_Text_WalterRegister: @ 829F25B
@@ -3502,13 +3502,13 @@ Route121_Text_KateDefeat: @ 829F43F
 
 Route121_Text_KatePostBattle: @ 829F476
 	.string "Kate: When someone's relying on me,\n"
-	.string "I get this urge to look cool in front\\l"
-	.string "of them…\\p"
-	.string "Some officials came through town\\n"
-	.string "asking which young Trainers travel\\l"
-	.string "with older partners. They said they\\l"
-	.string "were checking who might need extra\\l"
-	.string "supervision. I didn't like the way\\l"
+	.string "I get this urge to look cool in front\l"
+	.string "of them…\p"
+	.string "Some officials came through town\n"
+	.string "asking which young Trainers travel\l"
+	.string "with older partners. They said they\l"
+	.string "were checking who might need extra\l"
+	.string "supervision. I didn't like the way\l"
 	.string "they wrote down every name.$"
 
 Route121_Text_KateNotEnoughMons: @ 829F4C9
@@ -3640,12 +3640,12 @@ Route121_Text_MarcelDefeat: @ 829FB8C
 
 Route121_Text_MarcelPostBattle: @ 829FBA8
 	.string "I may have to train my gang some more\n"
-	.string "before entering any Contest.\\p"
-	.string "The Contest office says every Pokémon\\n"
-	.string "must be registered before it can\\l"
-	.string "compete. That's fair for the event.\\p"
-	.string "But now they say the same list may\\n"
-	.string "be shared with the League. I only\\l"
+	.string "before entering any Contest.\p"
+	.string "The Contest office says every Pokémon\n"
+	.string "must be registered before it can\l"
+	.string "compete. That's fair for the event.\p"
+	.string "But now they say the same list may\n"
+	.string "be shared with the League. I only\l"
 	.string "entered my team to show their talent.$"
 
 Route123_Text_WendyIntro: @ 829FBEB
@@ -3731,12 +3731,12 @@ Route123_Text_JackiDefeat: @ 829FFD8
 
 Route123_Text_JackiPostBattle: @ 829FFE5
 	.string "We all have psychic powers.\n"
-	.string "We've just forgotten how to use them.\\p"
-	.string "There is a presence pressing against\\n"
-	.string "the minds of Pokémon across Hoenn.\\l"
-	.string "It does not ask. It reaches in and\\l"
-	.string "makes their own thoughts feel distant.\\p"
-	.string "Someone is doing this deliberately.\\n"
+	.string "We've just forgotten how to use them.\p"
+	.string "There is a presence pressing against\n"
+	.string "the minds of Pokémon across Hoenn.\l"
+	.string "It does not ask. It reaches in and\l"
+	.string "makes their own thoughts feel distant.\p"
+	.string "Someone is doing this deliberately.\n"
 	.string "I fear the source is watching us, too.$"
 
 Route123_Text_JackiRegister: @ 82A0027
