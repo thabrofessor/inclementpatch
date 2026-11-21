@@ -867,10 +867,13 @@ Route108_Text_MatthewDefeated: @ 8296DEA
 Route108_Text_MatthewPostBattle: @ 8296E03
 	.string "Some people even go inside that\n"
 	.string "Abandoned Ship.\p"
-	.string "I hear the old vessel still has rooms\n"
-	.string "worth exploring. Just watch your step\l"
-	.string "and don't mistake every creak for\l"
-	.string "something chasing you!$"
+	.string "A few strangers were asking about\n"
+	.string "old cargo records and who last had\l"
+	.string "access to the ship. Odd questions\l"
+	.string "for people who claim to be salvagers.\p"
+	.string "Watch your step in there. The truth\n"
+	.string "isn't always the only thing buried\l"
+	.string "under a pile of old wreckage!$"
 
 Route108_Text_TaraIntro: @ 8296E33
 	.string "My liar of a boyfriend told me that\n"
@@ -966,7 +969,12 @@ Route109_Text_HueyDefeated: @ 829727B
 
 Route109_Text_HueyPostBattle: @ 829728C
 	.string "In the best port was the best\n"
-	.string "Trainer…$"
+	.string "Trainer…\p"
+	.string "Though lately, some visitors have\n"
+	.string "been asking which ships carry goods\l"
+	.string "for the League and when they leave.\l"
+	.string "A port runs on trust. I don't like\l"
+	.string "strangers taking such an interest.$"
 
 Route109_Text_EdmondIntro: @ 82972B3
 	.string "Urrrrppp…\n"
@@ -1189,7 +1197,12 @@ Route110_Text_BenjaminRematchDefeated: @ 8297D8E
 
 Route110_Text_BenjaminRematchPostBattle: @ 8297DB0
 	.string "There's no need to panic or stress.\n"
-	.string "Take it easy. There's plenty of time.$"
+	.string "Take it easy. There's plenty of time.\p"
+	.string "I asked about that long Pokémon list\n"
+	.string "on the tournament paperwork. They\l"
+	.string "said it was routine. Maybe it is.\l"
+	.string "Still, routine questions deserve\l"
+	.string "honest answers.$"
 
 Route110_Text_AbigailIntro: @ 8297DFA
 	.string "The triathlon is hard in the extreme.\p"
@@ -1243,7 +1256,11 @@ Route110_Text_EdwardPostBattle: @ 829808A
 	.string "I see a shining light…\p"
 	.string "But behind the League, a dark shape\n"
 	.string "is gathering. Someone wants every\l"
-	.string "Trainer's path to run through them.$"
+	.string "Trainer's path to run through them.\p"
+	.string "First they ask for names and records.\n"
+	.string "Then they decide who may travel,\l"
+	.string "battle, or keep a partner. Beware\l"
+	.string "the hand hidden behind a friendly seal.$"
 
 Route110_Text_JaclynIntro: @ 82980B9
 	.string "Ahahahaha!\n"
@@ -1284,7 +1301,12 @@ Route110_Text_EdwinRematchDefeated: @ 8298288
 
 Route110_Text_EdwinRematchPostBattle: @ 82982A2
 	.string "Oh, I long to make all rare Pokémon\n"
-	.string "mine!$"
+	.string "mine!\p"
+	.string "That's what a collector says when\n"
+	.string "he forgets the Pokémon has a choice.\l"
+	.string "I suppose seeing so many Trainers\l"
+	.string "worry about registration has made\l"
+	.string "me think harder about ownership.$"
 
 Route110_Text_DaleIntro: @ 82982CC
 	.string "Hey!\n"
