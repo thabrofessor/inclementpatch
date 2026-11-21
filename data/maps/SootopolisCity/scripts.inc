@@ -1705,7 +1705,14 @@ SootopolisCity_Text_TryingMeaninglessToPokemon: @ 81E74F6
 	.string "Hahaha…\p"
 	.string "Maybe what we were trying to do was\n"
 	.string "something small, even meaningless,\l"
-	.string "to Pokémon…$"
+	.string "to Pokémon…\p"
+	.string "We were so certain we understood\\n"
+	.string "what the world needed. Someone knew\\l"
+	.string "that, and knew exactly what to say\\l"
+	.string "to make us press on.\\p"
+	.string "I thought we were choosing our own\\n"
+	.string "course. Now I wonder how much of it\\l"
+	.string "was laid out for us before we began.$"
 
 SootopolisCity_Text_InvolvedWithCrisisComeWithMe: @ 81E75CB
 	.string "Steven: Those Pokémon fighting…\n"
