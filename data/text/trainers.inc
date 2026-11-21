@@ -1446,7 +1446,12 @@ Route111_Text_BeckyDefeat: @ 8298AAF
 
 Route111_Text_BeckyPostBattle: @ 8298AC0
 	.string "If they can find fossils in the desert,\n"
-	.string "it must have been a sea before.$"
+	.string "it must have been a sea before.\p"
+	.string "The layers tell a story if you know\n"
+	.string "how to read them. I found a patch of\l"
+	.string "stone recently that looked scorched\l"
+	.string "from the inside. No fire had touched\l"
+	.string "the surface. I wish I knew why.$"
 
 Route111_Text_DustyIntro: @ 8298B08
 	.string "For thirty years I have searched for\n"
@@ -1489,7 +1494,14 @@ Route111_Text_DustyPostRematch: @ 8298D0C
 	.string "No, wait, was that forty years\n"
 	.string "I've searched?\p"
 	.string "Hmm… It could even be fifty…\n"
-	.string "How long have I been at this?$"
+	.string "How long have I been at this?\p"
+	.string "I did find a fragment of an old\n"
+	.string "warning. It spoke of creatures whose\l"
+	.string "eyes were darkened and whose wills\l"
+	.string "were bent by a power from beyond.\p"
+	.string "The writer feared that someone would\n"
+	.string "learn to command that power. I had\l"
+	.string "thought it a fable. I am less certain.$"
 
 Route111_Text_TravisIntro: @ 8298DA9
 	.string "I'm full of pep!\n"
@@ -1788,7 +1800,11 @@ Route113_Text_JaylenDefeat: @ 8299D68
 Route113_Text_JaylenPostBattle: @ 8299D7D
 	.string "The volcanic ash blocks the sun,\n"
 	.string "so it doesn't get very warm.\p"
-	.string "That's good for me--I can't stand heat!$"
+	.string "That's good for me--I can't stand heat!\p"
+	.string "Though the ash has been falling in\n"
+	.string "strange bursts lately. Some days the\l"
+	.string "wind carries it far beyond the usual\l"
+	.string "cloud. The mountain seems restless.$"
 
 Route113_Text_DillonIntro: @ 8299DE3
 	.string "The volcano's eruption is proof that\n"
