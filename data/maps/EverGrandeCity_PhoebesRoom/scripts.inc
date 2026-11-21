@@ -135,6 +135,9 @@ EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech: @ 8228343
 	.string "And don't worry, I'll be\nkeeping an\n"
 	.string "eye on you. I do hate to\nlose track\l"
 	.string "of someone interesting.\nHeehee!\p"
+	.string "Still, the spirits on Mt. Pyre have\n"
+	.string "been unusually quiet. Sometimes I\l"
+	.string "wonder what they hear that we don't.\p"
 	.string "Go ahead, move on to the next room.$"
 
 EverGrandeCity_PhoebesRoom_Text_IntroSpeechRematch:
