@@ -309,9 +309,9 @@ LavaridgeTown_Text_MayNiceBadgesTakeThis: @ 81EA7C0
 	.string "League tournament. It sounds exciting!\p"
 	.string "They say the registration will help\n"
 	.string "keep everyone safe. I just hope the\l"
-	.string "League remembers that a Trainer's\n"
-	.string "bond with a Pokémon matters more\l"
-	.string "than whatever happens to be written\n"
+	.string "League remembers that a Trainer's\p"
+	.string "bond with a Pokémon matters more\n"
+	.string "than whatever happens to be written\l"
 	.string "on a form.$"
 
 LavaridgeTown_Text_MayExplainGoGoggles: @ 81EA897
