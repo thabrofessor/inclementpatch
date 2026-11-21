@@ -256,7 +256,11 @@ Route103_Text_RhettDefeated: @ 82951C6
 
 Route103_Text_RhettPostBattle: @ 82951DE
 	.string "Do you like cramped quarters\n"
-	.string "like this?$"
+	.string "like this?\p"
+	.string "I spend so much time squeezed into\n"
+	.string "little spaces that I forget how big\l"
+	.string "the world is outside. Maybe I'll take\l"
+	.string "a long walk after this.$"
 
 Route103_Text_MarcosIntro: @ 8295206
 	.string "Did my guitar's wailing draw you in?$"
@@ -268,7 +272,11 @@ Route103_Text_MarcosPostBattle: @ 8295246
 	.string "I was playing my guitar where few\n"
 	.string "people were around, but a lot of fans\l"
 	.string "have gathered.\p"
-	.string "Heh, maybe I should turn pro.$"
+	.string "Heh, maybe I should turn pro.\p"
+	.string "Though I might miss playing just for\n"
+	.string "the sound of it, with no crowd and no\l"
+	.string "one expecting an encore. A good tune\l"
+	.string "ought to be its own reward.$"
 
 Route104_Text_GinaIntro: @ 82952BB
 	.string "Gina: Okay, let's battle with our\n"
@@ -347,7 +355,11 @@ Route104_Text_HaleyPostBattle: @ 8295689
 	.string "turn out.\p"
 	.string "Everyone's excited about the League\n"
 	.string "tournament, but I hope registration\l"
-	.string "remains a choice.$"
+	.string "remains a choice.\p"
+	.string "I nearly talked myself out of this\n"
+	.string "battle three times before deciding.\l"
+	.string "At least this time, the choice was\l"
+	.string "mine. Even if I did lose!$"
 
 Route104_Text_HaleyRegister1: @ 82956FF
 	.string "You're strong, but should I register\n"
@@ -382,7 +394,11 @@ Route104_Text_WinstonDefeat: @ 82958AD
 
 Route104_Text_WinstonPostBattle: @ 82958C1
 	.string "There are some things money can't buy.\n"
-	.string "That's Pokémon…$"
+	.string "That's Pokémon…\p"
+	.string "I could purchase the finest Poké Balls,\n"
+	.string "the best equipment, and a grand place\l"
+	.string "to train. But none of that can buy the\l"
+	.string "trust a Pokémon gives you willingly.$"
 
 Route104_Text_WinstonRegister1: @ 82958F8
 	.string "Hm?\n"
@@ -418,7 +434,11 @@ Route104_Text_CindyDefeat: @ 8295ABB
 
 Route104_Text_CindyPostBattle: @ 8295AC3
 	.string "“Hello” is the beginning of “good-bye.”\n"
-	.string "I hope we meet again.$"
+	.string "I hope we meet again.\p"
+	.string "Some meetings seem brief, yet leave\n"
+	.string "a curious impression. Perhaps our\l"
+	.string "paths will cross when neither of us\l"
+	.string "expects it.$"
 
 Route104_Text_CindyRegister1: @ 8295B01
 	.string "Hello, we meet again.\p"
