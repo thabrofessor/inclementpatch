@@ -513,7 +513,10 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp: @ 82249DC
 	.string "Maxie: All right…\n"
 	.string "We will give up on the fuel…\p"
 	.string "There appear to be more important\n"
-	.string "matters that I must examine…$"
+	.string "matters that I must examine…\p"
+	.string "Who supplied us with the means\n"
+	.string "to carry out our plans? I must\l"
+	.string "know whether we were being used.$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome: @ 8224A4A
 	.string "Steven: Whew, that was too tense.\n"
