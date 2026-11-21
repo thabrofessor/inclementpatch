@@ -114,6 +114,10 @@ EverGrandeCity_PhoebesRoom_Text_IntroSpeech: @ 822820E
 	.string "Your Pokémon seem fond of you.\p"
 	.string "Heehee… I'll keep an eye on you.\n"
 	.string "You're hard to forget.\p"
+	.string "There's something unusual about your\n"
+	.string "team… a little spark I can't quite place.\p"
+	.string "Maybe I'll have to get to know you\n"
+	.string "better after this battle. Heehee!\p"
 	.string "So, come on, just try and see if you can\n"
 	.string "even inflict damage on my Pokémon!$"
 
@@ -128,6 +132,9 @@ EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech: @ 8228343
 	.string "natural that I lost.\p"
 	.string "Yup, I'd like to see how far your bond\n"
 	.string "will carry you.\p"
+	.string "And don't worry, I'll be keeping an\n"
+	.string "eye on you. I do hate to lose track\l"
+	.string "of someone interesting. Heehee!\p"
 	.string "Go ahead, move on to the next room.$"
 
 EverGrandeCity_PhoebesRoom_Text_IntroSpeechRematch:
