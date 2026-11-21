@@ -98,9 +98,12 @@ Route103_Text_AmyDefeated: @ 8294A3D
 	.string "Amy: Uh-oh, we lost.$"
 
 Route103_Text_AmyPostBattle: @ 8294A52
-	.string "Amy: You have to think about all\n"
-	.string "kinds of things when you're battling\l"
-	.string "against two Trainers.$"
+	.string "Amy: Double battles aren't just two\n"
+	.string "single battles happening at once.\p"
+	.string "You have to watch your partner, too.\n"
+	.string "Liv knows what I'm thinking half the\l"
+	.string "time, but I still have to call out\l"
+	.string "what we should do. That's teamwork!$"
 
 Route103_Text_AmyNotEnoughPokemon: @ 8294AAE
 	.string "Amy: Uh-oh, you have only one\n"
@@ -109,15 +112,17 @@ Route103_Text_AmyNotEnoughPokemon: @ 8294AAE
 
 Route103_Text_LivIntro: @ 8294AFD
 	.string "Liv: We battle together as one\n"
-	.string "team.$"
+	.string "team. Big sister knows my ideas!$"
 
 Route103_Text_LivDefeated: @ 8294B22
 	.string "Liv: Oh, we lost, big sister…$"
 
 Route103_Text_LivPostBattle: @ 8294B40
-	.string "Liv: We work perfectly together,\n"
-	.string "me and my big sister…\p"
-	.string "But we still lost…$"
+	.string "Liv: Amy always says I should watch\n"
+	.string "the other Pokémon, not just mine.\p"
+	.string "I did that! I really did! Maybe I\n"
+	.string "just need to get quicker at telling\l"
+	.string "her what I see. We'll practice!$"
 
 Route103_Text_AmyLivRegister: @ 8294B8A
 	.string "Liv: Really, we're a lot better…\n"
@@ -286,8 +291,11 @@ Route104_Text_GinaDefeat: @ 82952E6
 	.string "Gina: Losing upsets me!$"
 
 Route104_Text_GinaPostBattle: @ 82952FE
-	.string "Gina: You are strong!\n"
-	.string "We have to train lots more!$"
+	.string "Gina: You're really strong!\p"
+	.string "Mia and I practice together, but\n"
+	.string "sometimes we both try to give the\l"
+	.string "orders at once. Next time, we'll\l"
+	.string "take turns being the captain!$"
 
 Route104_Text_GinaNotEnoughMons: @ 8295330
 	.string "Gina: Oh? Only one Pokémon?\n"
@@ -305,7 +313,11 @@ Route104_Text_MiaDefeat: @ 82953E1
 
 Route104_Text_MiaPostBattle: @ 829540D
 	.string "Mia: We will train our Pokémon more\n"
-	.string "and be strong like you.$"
+	.string "and be strong like you.\p"
+	.string "Gina is my twin, so we know each\n"
+	.string "other very well. But I think we\l"
+	.string "should practice listening as much\l"
+	.string "as we practice giving orders!$"
 
 Route104_Text_MiaNotEnoughMons: @ 8295449
 	.string "Mia: You want to battle with us?\p"
@@ -325,7 +337,11 @@ Route104_Text_IvanDefeat: @ 8295509
 
 Route104_Text_IvanPostBattle: @ 829554E
 	.string "I got too into fishing.\n"
-	.string "I forgot I had to raise my Pokémon…$"
+	.string "I forgot I had to raise my Pokémon…\p"
+	.string "A good catch makes for a fine story,\n"
+	.string "but a Water Pokémon won't become\l"
+	.string "strong just sitting beside my rod.\l"
+	.string "Tomorrow, we train before I fish!$"
 
 Route104_Text_BillyIntro: @ 829558A
 	.string "Leaving footprints in the sand is\n"
@@ -338,7 +354,11 @@ Route104_Text_BillyDefeat: @ 82955B4
 Route104_Text_BillyPostBattle: @ 82955E8
 	.string "I want to leave my footprints in\n"
 	.string "the sand everywhere, but they\l"
-	.string "disappear quickly…$"
+	.string "disappear quickly…\p"
+	.string "The waves wash them away, but I\n"
+	.string "don't mind. I can make new ones\l"
+	.string "tomorrow! I wonder if my Pokémon\l"
+	.string "likes running along the beach, too.$"
 
 Route104_Text_HaleyIntro: @ 829563A
 	.string "Should I…\n"
@@ -473,7 +493,11 @@ Route104_Text_DarianDefeat: @ 8295CC9
 
 Route104_Text_DarianPostBattle: @ 8295CD3
 	.string "Hey, Magikarp, you sure don't live up\n"
-	.string "to your name, do you?$"
+	.string "to your name, do you?\p"
+	.string "Still, you keep jumping and trying.\n"
+	.string "That's something, I suppose. Maybe\l"
+	.string "I'll find that magical quality in\l"
+	.string "you yet. Keep at it, little fish!$"
 
 Route105_Text_FosterIntro: @ 8295D0F
 	.string "There's supposed to be a mystical\n"
@@ -486,7 +510,11 @@ Route105_Text_FosterDefeated: @ 8295D62
 
 Route105_Text_FosterPostBattle: @ 8295DAB
 	.string "I can spend hours and hours staring\n"
-	.string "at a nice rock without growing bored.$"
+	.string "at a nice rock without growing bored.\p"
+	.string "People walk past a stone and see\n"
+	.string "nothing. I see its layers, its age,\l"
+	.string "and the long journey that brought\l"
+	.string "it here. That's a good afternoon!$"
 
 Route105_Text_LuisIntro: @ 8295DF5
 	.string "Whew! I was worried that a kid was\n"
