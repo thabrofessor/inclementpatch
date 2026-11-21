@@ -235,7 +235,7 @@ RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav: @ 8211DF3
 	.string "easier to check, too. Though I hope\l"
 	.string "the League remembers that a record\l"
 	.string "can't tell you everything about a\l"
-	.string "Trainer and their Pokémon."
+	.string "Trainer and their Pokémon.\p"
 	.string "Would you like me to describe its\n"
 	.string "features in detail?\p"
 	.string "No, no. I think you'll find out just by\n"
