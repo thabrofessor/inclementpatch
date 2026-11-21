@@ -74,7 +74,10 @@ MtPyre_3F_Text_GabriellePostBattle: @ 823199B
 	.string "And the Pokémon that you will meet\n"
 	.string "in the future…\p"
 	.string "They are all to be equally cherished.\n"
-	.string "Please remember that.$"
+	.string "Please remember that.\p"
+	.string "The spirits here feel troubled lately…\n"
+	.string "As though something distant is\l"
+	.string "calling to them.$"
 
 MtPyre_3F_Text_GabrielleRegister: @ 8231A49
 	.string "I would like to see your Pokémon\n"
