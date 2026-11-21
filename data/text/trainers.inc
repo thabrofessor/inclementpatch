@@ -728,7 +728,11 @@ Route107_Text_TonyPostBattle: @ 82967FF
 	.string "I swim the seas with a heart full of\n"
 	.string "dreams…\p"
 	.string "It's a song!\n"
-	.string "Anyways, I'm swimming some more.$"
+	.string "Anyways, I'm swimming some more.\p"
+	.string "Maybe I'll write a whole sea shanty.\n"
+	.string "First verse: the waves are wide. The\l"
+	.string "second verse can wait until I catch\l"
+	.string "my breath!$"
 
 Route107_Text_TonyRegister: @ 829685A
 	.string "You've shocked me to the bone!\n"
@@ -757,7 +761,11 @@ Route107_Text_DeniseDefeated: @ 829699E
 
 Route107_Text_DenisePostBattle: @ 82969AB
 	.string "A weird saying is getting really\n"
-	.string "trendy at Dewford Hall.$"
+	.string "trendy at Dewford Hall.\p"
+	.string "Everyone keeps repeating it like\n"
+	.string "they know what it means. I asked\l"
+	.string "three people, and each gave me a\l"
+	.string "different explanation!$"
 
 Route107_Text_BethIntro: @ 82969E4
 	.string "Did you want to battle me?\n"
@@ -768,7 +776,11 @@ Route107_Text_BethDefeated: @ 8296A17
 
 Route107_Text_BethPostBattle: @ 8296A35
 	.string "I think you're going to keep getting\n"
-	.string "better. I'll go for it, too!$"
+	.string "better. I'll go for it, too!\p"
+	.string "It's easier to try something new\n"
+	.string "when you see someone else giving it\l"
+	.string "their best. Maybe that's why I said\l"
+	.string "yes to your battle so quickly!$"
 
 Route107_Text_LisaIntro: @ 8296A77
 	.string "Lisa: We challenge you as a sister\n"
@@ -780,7 +792,11 @@ Route107_Text_LisaDefeated: @ 8296AA7
 
 Route107_Text_LisaPostBattle: @ 8296ADC
 	.string "Lisa: Do you have any friends who\n"
-	.string "would go to the beach with you?$"
+	.string "would go to the beach with you?\p"
+	.string "My brother Ray is fun to bring along,\n"
+	.string "even when he complains about losing.\l"
+	.string "He always comes back for another\l"
+	.string "swim, though. That's what matters!$"
 
 Route107_Text_LisaNotEnoughPokemon: @ 8296B1E
 	.string "Lisa: If you want to battle with us,\n"
@@ -799,7 +815,10 @@ Route107_Text_RayDefeated: @ 8296BB3
 Route107_Text_RayPostBattle: @ 8296BE1
 	.string "Ray: My sister gave me my Pokémon.\n"
 	.string "I raised it, and now it's my important\l"
-	.string "partner!$"
+	.string "partner!\p"
+	.string "Lisa says I should stop calling it\n"
+	.string "her present. It's mine now! But I\l"
+	.string "still remember who helped me start.$"
 
 Route107_Text_RayNotEnoughPokemon: @ 8296C34
 	.string "Ray: If you want to battle us,\n"
@@ -815,7 +834,11 @@ Route107_Text_CamronDefeated: @ 8296CAD
 Route107_Text_CamronPostBattle: @ 8296CC0
 	.string "I still have swimming and running left\n"
 	.string "to do after this.\p"
-	.string "Am I going to be okay?$"
+	.string "Am I going to be okay?\p"
+	.string "A triathlon is supposed to test your\n"
+	.string "stamina, but maybe I should stop\l"
+	.string "adding extra challenges in the middle\l"
+	.string "of it. That was a pretty tough battle!$"
 
 Route108_Text_JeromeIntro: @ 8296D10
 	.string "My dream is to swim the world's seven\n"
@@ -827,7 +850,11 @@ Route108_Text_JeromeDefeated: @ 8296D3C
 
 Route108_Text_JeromePostBattle: @ 8296D6E
 	.string "Playing with marine Pokémon is one of\n"
-	.string "the pleasures of swimming!$"
+	.string "the pleasures of swimming!\p"
+	.string "I'd like to see every kind of sea\n"
+	.string "Pokémon on my travels. Some might\l"
+	.string "even help me cross waters I could\l"
+	.string "never swim alone!$"
 
 Route108_Text_MatthewIntro: @ 8296DAF
 	.string "Ahoy, there! Are you going out to\n"
@@ -839,7 +866,11 @@ Route108_Text_MatthewDefeated: @ 8296DEA
 
 Route108_Text_MatthewPostBattle: @ 8296E03
 	.string "Some people even go inside that\n"
-	.string "Abandoned Ship.$"
+	.string "Abandoned Ship.\p"
+	.string "I hear the old vessel still has rooms\n"
+	.string "worth exploring. Just watch your step\l"
+	.string "and don't mistake every creak for\l"
+	.string "something chasing you!$"
 
 Route108_Text_TaraIntro: @ 8296E33
 	.string "My liar of a boyfriend told me that\n"
