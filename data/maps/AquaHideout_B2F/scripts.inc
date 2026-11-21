@@ -144,7 +144,11 @@ AquaHideout_B2F_Text_Grunt6PostBattle: @ 82341FE
 	.string "That reminds me… I can't remember\n"
 	.string "where I put the Master Ball.\p"
 	.string "If I fail to guard it, our Boss will\n"
-	.string "chew me out…$"
+	.string "chew me out…\p"
+	.string "The case it came in had a red R\n"
+	.string "stamped inside the lid. Matt called\l"
+	.string "it a shipping mark, but he did not\n"
+	.string "look convinced when he said it.$"
 
 AquaHideout_B2F_Text_Grunt8Intro: @ 823426F
 	.string "When I joined Team Aqua, the first\n"
