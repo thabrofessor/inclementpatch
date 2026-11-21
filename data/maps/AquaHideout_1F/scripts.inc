@@ -119,5 +119,11 @@ AquaHideout_1F_Text_Grunt1PostBattle: @ 8233977
 	.string "We have supplies now that we\nnever\n"
 	.string "could've afforded before.\nDon't ask\l"
 	.string "where they came from. The\nBoss says\l"
-	.string "it's best not to know.$"
+	.string "it's best not to know.\p"
+	.string "The crates arrive already paid for,\n"
+	.string "with no sender listed. The Boss gets\l"
+	.string "the delivery schedule before the rest\n"
+	.string "of us, and nobody is allowed to ask\l"
+	.string "who arranged it. I used to think\n"
+	.string "that was just how big operations work.$"
 
