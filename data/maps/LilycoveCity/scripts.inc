@@ -516,10 +516,10 @@ LilycoveCity_Text_MayYouGoingToPokemonLeague: @ 81E346D
 	.string "Pokédex?\p"
 	.string "I might've lost to you in battling,\n"
 	.string "but I'll finish my Pokédex before you!\p"
-	.string "Though… I've heard the tournament\n"
-	.string "registry is being shared with officials.\p"
-	.string "I thought it was just for organizing\n"
-	.string "battles. I hope there's nothing more\l"
+	.string "Though… I've heard the\ntournament\n"
+	.string "registry is being shared\nwith officials.\p"
+	.string "I thought it was just for\norganizing\n"
+	.string "battles. I hope there's\nnothing more\l"
 	.string "to it.\p"
 	.string "See you!$"
 
@@ -580,11 +580,11 @@ LilycoveCity_Text_BrendanYouGoingToPokemonLeague: @ 81E390C
 	.string "Heh, even me--if I trained my Pokémon\n"
 	.string "a bit more, I should be stronger than\l"
 	.string "you, {PLAYER}.\p"
-	.string "But have you heard? They're asking\n"
-	.string "for a full list of every Pokémon\l"
-	.string "owned by registered Trainers.\p"
-	.string "A tournament roster is one thing.\n"
-	.string "A government inventory is another.\p"
+	.string "But have you heard? They're\nasking\n"
+	.string "for a full list of every\nPokémon\l"
+	.string "owned by registered\nTrainers.\p"
+	.string "A tournament roster is one\nthing.\n"
+	.string "A government inventory is\nanother.\p"
 	.string "Well, anyway, hang in there!$"
 
 LilycoveCity_Text_BrendanYouGoingToBattleFrontier: @ 81E39E3
@@ -683,8 +683,8 @@ LilycoveCity_Text_SomeoneStoleMyPokemon: @ 81E40AD
 
 LilycoveCity_Text_MissingPokemonCameBack: @ 81E4145
 	.string "My missing Pokémon…\n"
-	.string "It came back without me noticing!\p"
-	.string "But it hardly seemed to recognize me.\n"
+	.string "It came back without me\nnoticing!\p"
+	.string "But it hardly seemed to\nrecognize me.\n"
 	.string "Its eyes looked so cold…$"
 
 LilycoveCity_Text_ImArtDealer: @ 81E417B
