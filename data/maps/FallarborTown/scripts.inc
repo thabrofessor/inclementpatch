@@ -250,7 +250,13 @@ FallarborTown_Text_ShadyCharactersCozmosHome: @ 81EB26B
 	.string "Something's happening,\n"
 	.string "and I don't like it!\p"
 	.string "I've seen shady characters wandering\n"
-	.string "in and out of Prof. Cozmo's home…$"
+	.string "in and out of Prof. Cozmo's home…\p"
+	.string "Not all of them wore Team Magma\n"
+	.string "clothes. One was dressed like an\l"
+	.string "office worker, carrying a neat folder\l"
+	.string "instead of any sort of equipment.\p"
+	.string "He spoke politely, but everyone\n"
+	.string "else seemed nervous when he arrived.$"
 
 FallarborTown_Text_RegionKnownForMeteors: @ 81EB2DE
 	.string "This region's been known for meteors\n"
