@@ -59,6 +59,13 @@ MagmaHideout_1F_Text_Grunt2PostBattle: @ 8239ACD
 	.string "The Boss says we should\nfocus on the\n"
 	.string "mission and leave the\narrangements\l"
 	.string "to the people above us.\p"
+	.string "Come to think of it, I saw a visitor\n"
+	.string "leave the Boss's office one night.\p"
+	.string "No uniform, no Team badge. Even the\n"
+	.string "Admins went quiet while he was there.\p"
+	.string "I figured he was another supplier,\n"
+	.string "but he didn't look much like a\l"
+	.string "businessman.\p"
 	.string "It'd be better if you saved surprises\n"
 	.string "to the end, don't you think?$"
 
