@@ -176,7 +176,11 @@ Route103_Text_AndrewDefeated: @ 8294E92
 
 Route103_Text_AndrewPostBattle: @ 8294EBB
 	.string "Gah, I'm still boiling mad…\n"
-	.string "Grrrrr…$"
+	.string "Grrrrr…\p"
+	.string "First my line gets tangled, then I\n"
+	.string "lose a battle. Maybe I should take a\l"
+	.string "breather before I scare every fish\l"
+	.string "out of the water. Hmph!$"
 
 Route103_Text_MiguelIntro: @ 8294EDF
 	.string "My Pokémon is delightfully adorable!\n"
@@ -188,7 +192,11 @@ Route103_Text_MiguelDefeated: @ 8294F21
 
 Route103_Text_MiguelPostBattle: @ 8294F42
 	.string "My delightful Pokémon looks darling\n"
-	.string "even when it's fainted!$"
+	.string "even when it's fainted!\p"
+	.string "Oh, don't worry, sweetheart. You did\n"
+	.string "your very best, and that's what\l"
+	.string "matters. We'll have a nice rest, then\l"
+	.string "I'll brush your fur until it shines!$"
 
 Route103_Text_MiguelRegister: @ 8294F7E
 	.string "I'll get you to come out and look in\n"
@@ -217,7 +225,11 @@ Route103_Text_PetePostBattle: @ 82950AA
 	.string "Oh, I understand where you're coming\n"
 	.string "from now.\p"
 	.string "If I had a Pokémon that trusty,\n"
-	.string "I'd want to Surf on it, too!$"
+	.string "I'd want to Surf on it, too!\p"
+	.string "There's nothing quite like trusting\n"
+	.string "your partner to carry you over a\l"
+	.string "stretch of water. Makes you feel as\l"
+	.string "though the whole sea is open to you.$"
 
 Route103_Text_IsabelleIntro: @ 8295116
 	.string "Watch where you're going!\n"
@@ -228,7 +240,11 @@ Route103_Text_IsabelleDefeated: @ 8295146
 
 Route103_Text_IsabellePostBattle: @ 829514D
 	.string "I'm a poor swimmer so I was practicing…\n"
-	.string "Sorry for almost crashing into you.$"
+	.string "Sorry for almost crashing into you.\p"
+	.string "I get nervous when the water gets\n"
+	.string "choppy, and then I forget where I'm\l"
+	.string "going. I'll practice somewhere\l"
+	.string "quieter next time. I promise!$"
 
 Route103_Text_RhettIntro: @ 8295199
 	.string "Whoa!\n"
