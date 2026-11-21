@@ -1794,7 +1794,13 @@ SootopolisCity_Text_AquaMagmaDidntMeanHarm: @ 81E7A3E
 	.string "It wouldn't hurt to hear what they\n"
 	.string "have to say for themselves. And we\l"
 	.string "should learn who encouraged them\l"
-	.string "to take such reckless steps.$"
+	.string "to take such reckless steps.\p"
+	.string "Still, the League will have to answer\n"
+	.string "the public's fear of powerful Pokémon.\p"
+	.string "A complete registry may reassure\n"
+	.string "people that someone is keeping track.\l"
+	.string "After all, that is what they will\l"
+	.string "want to hear right now.$"
 
 SootopolisCity_Text_ThankYouForHelpAcceptThis: @ 81E7ACF
 	.string "Wallace: {PLAYER}{KUN}…\n"
