@@ -143,7 +143,15 @@ AquaHideout_B1F_Text_Grunt3Defeat: @ 8233C27
 AquaHideout_B1F_Text_Grunt3PostBattle: @ 8233C41
 	.string "Humph!\n"
 	.string "This was supposed to happen!\p"
-	.string "My mission was to just hold you up!$"
+	.string "My mission was to just hold you up!\\p"
+	.string "The Boss said the submarine had to\\n"
+	.string "leave on schedule, no matter what.\\p"
+	.string "A message came in from someone he\\n"
+	.string "never named. After that, the whole\\l"
+	.string "plan changed. Even the Admins stopped\\l"
+	.string "asking questions.\\p"
+	.string "I don't know who that voice belongs\\n"
+	.string "to. I just know our Boss listened.$"
 
 AquaHideout_B1F_Text_Grunt5Intro: @ 8233C89
 	.string "Yawn… Keeping watch over the\n"
