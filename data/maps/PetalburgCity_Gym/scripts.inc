@@ -1517,6 +1517,13 @@ PetalburgCity_Gym_Text_DadGoingToKeepTraining: @ 8206417
 	.string "your mother every so often.\p"
 	.string "I'm going to stay here and redouble\n"
 	.string "my training.\p"
+	.string "The League's tournament\nshould be a\n"
+	.string "celebration, but I don't\nlike the talk\l"
+	.string "of registering every\nPokémon.\p"
+	.string "A Trainer's responsibility\ncan't be\n"
+	.string "replaced by an office. Keep\nyour team\l"
+	.string "close, and don't let anyone\npressure\l"
+	.string "you into giving it up.\p"
 	.string "It would bother me as a Trainer to\n"
 	.string "not avenge my loss to you, {PLAYER}!$"
 

@@ -1488,7 +1488,15 @@ SlateportCity_Text_YouDroveTeamAquaAway: @ 81DF032
 	.string "If not, my name's SCOTT.\p"
 	.string "I just saw Team Aqua run away from\n"
 	.string "here like they were stung.\p"
-	.string "Let me guess--you drove them away?$"
+	.string "Let me guess--you drove them away?\p"
+	.string "Interesting. They moved as if they\n"
+	.string "knew exactly where to strike. Someone\l"
+	.string "may be feeding them information.\p"
+	.string "And keep your eyes open, {PLAYER}.\n"
+	.string "The President's tournament is drawing\l"
+	.string "a lot of attention to licensed Trainers.\p"
+	.string "A little attention can be useful.\n"
+	.string "Too much can become a leash.$"
 
 SlateportCity_Text_MaybeThisTrainer: @ 81DF0FE
 	.string "Scott: Hmm…\n"

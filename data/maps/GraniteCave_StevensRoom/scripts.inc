@@ -111,7 +111,11 @@ GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister: @ 822DE6B
 	.string "I know, since we've gotten to know each\n"
 	.string "other, let's register one another in\l"
 	.string "our PokéNavs.\p"
-	.string "… … … … … …$"
+	.string "I've heard troubling reports\nof\n"
+	.string "Pokémon behaving unlike\nthemselves.\p"
+	.string "The tournament may bring\nenough\n"
+	.string "Trainers together to compare\nwhat\l"
+	.string "they've seen. I intend to\ninvestigate.$"
 
 GraniteCave_StevensRoom_Text_RegisteredSteven: @ 822DF6A
 	.string "Registered Steven\n"

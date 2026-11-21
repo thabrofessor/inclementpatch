@@ -1658,7 +1658,11 @@ SootopolisCity_Text_WeatherWentWild: @ 81E71A1
 	.string "The weather just went completely\n"
 	.string "wild!\p"
 	.string "Is all of this because of those\n"
-	.string "Pokémon?$"
+	.string "Pokémon?\p"
+	.string "People are already arguing over what\n"
+	.string "rules should follow this disaster.\p"
+	.string "I don't see how more paperwork could\n"
+	.string "have stopped a storm like that.$"
 
 SootopolisCity_Text_YouBroughtFlyingMon: @ 81E728C
 	.string "Oh?\p"
@@ -1729,7 +1733,11 @@ SootopolisCity_Text_DoesThisMakeYourFearPokemon: @ 81E7737
 	.string "People will say this proves no\n"
 	.string "Trainer can be trusted. We must\l"
 	.string "stop those who abuse Pokémon,\l"
-	.string "not punish every bond in Hoenn.$"
+	.string "not punish every bond in Hoenn.\p"
+	.string "I've already heard calls for a\n"
+	.string "registry of every Trainer and\l"
+	.string "Pokémon. Fear makes people eager\n"
+	.string "to surrender choices they should keep.$"
 
 SootopolisCity_Text_HereWereAreHelpWallace: @ 81E77F0
 	.string "Steven: Okay, here we are!\p"

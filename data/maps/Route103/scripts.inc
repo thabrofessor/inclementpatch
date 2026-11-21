@@ -417,6 +417,11 @@ Route103_Text_MayTimeToHeadBack: @ 81EC8AE
 	.string "but it already likes you.\p"
 	.string "You might be able to befriend any\n"
 	.string "kind of Pokémon easily.\p"
+	.string "Dad mentioned a huge League\n"
+	.string "tournament for licensed\nTrainers.\p"
+	.string "It sounds exciting! I hope\nit gives\n"
+	.string "people a chance to show what\nmakes\l"
+	.string "their teams special.\p"
 	.string "Well, it's time to head back to\n"
 	.string "the Lab.$"
 
@@ -443,6 +448,10 @@ Route103_Text_BrendanTimeToHeadBack: @ 81ECA79
 	.string "even though you just got it.\p"
 	.string "{PLAYER}, I get the feeling that you\n"
 	.string "could befriend any Pokémon with ease.\p"
+	.string "Dad says the League is\nplanning a\n"
+	.string "huge tournament for licensed\nTrainers.\p"
+	.string "Sounds like a good excuse to\ntest\n"
+	.string "ourselves against the best!\p"
 	.string "We should head back to the Lab.$"
 
 Route103_Text_ShouldHaveBroughtPotion: @ 81ECB73

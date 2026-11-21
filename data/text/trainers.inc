@@ -319,7 +319,10 @@ Route104_Text_HaleyPostBattle: @ 8295689
 	.string "If you're faced with a decision and\n"
 	.string "you let someone else choose for you,\l"
 	.string "you will regret it, however things\l"
-	.string "turn out.$"
+	.string "turn out.\p"
+	.string "Everyone's excited about the League\n"
+	.string "tournament, but I hope registration\l"
+	.string "remains a choice.$"
 
 Route104_Text_HaleyRegister1: @ 82956FF
 	.string "You're strong, but should I register\n"
@@ -1036,7 +1039,10 @@ Route110_Text_BenjaminDefeated: @ 8297C8A
 
 Route110_Text_BenjaminPostBattle: @ 8297CB4
 	.string "There's no need to panic or stress.\n"
-	.string "Take it easy. There's plenty of time.$"
+	.string "Take it easy. There's plenty of time.\p"
+	.string "Still, the tournament forms ask for\n"
+	.string "more than a name. Why list every\l"
+	.string "Pokémon a Trainer owns?$"
 
 Route110_Text_BenjaminRegister: @ 8297CFE
 	.string "I'll keep chugging on without stressing.\n"
@@ -1102,7 +1108,10 @@ Route110_Text_EdwardDefeated: @ 8298064
 Route110_Text_EdwardPostBattle: @ 829808A
 	.string "I see your future…\p"
 	.string "Hmm…\n"
-	.string "I see a shining light…$"
+	.string "I see a shining light…\p"
+	.string "But behind the League, a dark shape\n"
+	.string "is gathering. Someone wants every\l"
+	.string "Trainer's path to run through them.$"
 
 Route110_Text_JaclynIntro: @ 82980B9
 	.string "Ahahahaha!\n"
@@ -1298,7 +1307,11 @@ Route111_Text_DustyPostBattle: @ 8298B9A
 	.string "For thirty years I have searched for\n"
 	.string "ancient ruins!\p"
 	.string "No, wait, was that forty years?\n"
-	.string "Which was it now?$"
+	.string "Which was it now?\p"
+	.string "Lately, I've found strange traces of\n"
+	.string "Pokémon behaving as if their wills\l"
+	.string "had been clouded. Ancient tales speak\l"
+	.string "of such unnatural darkness.$"
 
 Route111_Text_DustyRegister: @ 8298C00
 	.string "I haven't been searching for any\n"
@@ -2168,7 +2181,11 @@ Route115_Text_MarleneDefeat: @ 829BA67
 
 Route115_Text_MarlenePostBattle: @ 829BA87
 	.string "I was meditating with my Pokémon.\n"
-	.string "But this place isn't very peaceful…$"
+	.string "But this place isn't very peaceful…\p"
+	.string "Something is pressing on their minds.\n"
+	.string "It feels as though a distant will is\l"
+	.string "trying to reach into the hearts of\l"
+	.string "Pokémon.$"
 
 Route116_Text_ClarkIntro: @ 829BACD
 	.string "If the tunnel doesn't go through, then\n"
@@ -2349,7 +2366,9 @@ Route117_Text_IsaacPostBattle: @ 829C498
 	.string "Pokémon isn't all about power.\p"
 	.string "Polishing a unique aspect of one's\n"
 	.string "character is another way of enjoying\l"
-	.string "Pokémon.$"
+	.string "Pokémon.\p"
+	.string "A bond can't be reduced to a line\n"
+	.string "on a registration form.$"
 
 Route117_Text_IsaacRegister: @ 829C508
 	.string "I'm going to redouble my training.\n"
@@ -3006,37 +3025,34 @@ Route120_Text_JennaPostBattle: @ 829E996
 	.string "I always run with my Pokémon.$"
 
 Route120_Text_JeffreyIntro: @ 829E9D7
-	.string "… … … … … …\n"
-	.string "… … … … … …\l"
-	.string "Want to battle?$"
+	.string "M-my Bug Pokémon and I have been\n"
+	.string "practicing. Would you battle us?$"
 
 Route120_Text_JeffreyDefeat: @ 829E9FF
 	.string "Lost it…$"
 
 Route120_Text_JeffreyPostBattle: @ 829EA08
-	.string "… … … … … …\n"
-	.string "… … … … … …\l"
-	.string "I'll try harder…$"
+	.string "I get nervous talking to people,\n"
+	.string "but my Pokémon understand me.\p"
+	.string "We'll practice and try again…$"
 
 Route120_Text_JeffreyRegister: @ 829EA31
-	.string "… … … … … …\n"
-	.string "… … … … … …\l"
-	.string "Do you have a PokéNav…?$"
+	.string "Would you mind registering with my\n"
+	.string "PokéNav? I don't meet many Trainers,\l"
+	.string "and I'd like to keep in touch.$"
 
 Route120_Text_JeffreyRematchIntro: @ 829EA61
-	.string "… … … … … …\n"
-	.string "… … … … … …\l"
-	.string "Want to battle again?$"
+	.string "I-I've trained my Bug Pokémon more.\n"
+	.string "Would you battle us again?$"
 
 Route120_Text_JeffreyRematchDefeat: @ 829EA8F
-	.string "… … … … … …\n"
-	.string "I lost again…$"
+	.string "I lost again…\n"
+	.string "I'll keep working with my partners.$"
 
 Route120_Text_JeffreyPostRematch: @ 829EAA9
-	.string "… … … … … …\n"
-	.string "… … … … … …\l"
-	.string "I'll try harder…\l"
-	.string "For my precious Bug Pokémon…$"
+	.string "I was still nervous, but I spoke up.\p"
+	.string "My precious Bug Pokémon deserve a\n"
+	.string "Trainer who keeps trying for them.$"
 
 Route120_Text_JenniferIntro: @ 829EAEF
 	.string "Pokémon have many special abilities.\n"
@@ -3191,7 +3207,10 @@ Route121_Text_TammyDefeat: @ 829F3B9
 Route121_Text_TammyPostBattle: @ 829F3C6
 	.string "Mt. Pyre…\n"
 	.string "There is a mysterious power\l"
-	.string "at work there…$"
+	.string "at work there…\p"
+	.string "The spirits are restless, but this\n"
+	.string "feels like something reaching beyond\l"
+	.string "the dead and into the living.$"
 
 Route121_Text_KateIntro: @ 829F3FB
 	.string "Kate: Together, we're fearless!\n"
@@ -3359,7 +3378,11 @@ Route123_Text_BraxtonDefeat: @ 829FCD6
 
 Route123_Text_BraxtonPostBattle: @ 829FCF4
 	.string "You did your Badges proud in that\n"
-	.string "match!$"
+	.string "match!\p"
+	.string "Though I've heard the League wants\n"
+	.string "every Pokémon listed. That sounds\l"
+	.string "more like an inventory than a\l"
+	.string "celebration.$"
 
 Route123_Text_VioletIntro: @ 829FD1D
 	.string "They say that good times are filled\n"
@@ -3383,7 +3406,10 @@ Route123_Text_CameronDefeat: @ 829FE1E
 
 Route123_Text_CameronPostBattle: @ 829FE2A
 	.string "Being a psychic is about willpower.\n"
-	.string "I thought I wouldn't lose to you…$"
+	.string "I thought I wouldn't lose to you…\p"
+	.string "But I've sensed a mind pressing\n"
+	.string "against Pokémon from far away.\l"
+	.string "That power isn't natural.$"
 
 Route123_Text_CameronRegister: @ 829FE70
 	.string "I sense it!\n"
@@ -3472,7 +3498,10 @@ Route123_Text_KindraPostBattle: @ 82A02C1
 	.string "Mt. Pyre…\n"
 	.string "Where the spirits of Pokémon sleep…\p"
 	.string "It must overflow with a power that\n"
-	.string "soothes spirits…$"
+	.string "soothes spirits…\p"
+	.string "Yet something else stirs nearby.\n"
+	.string "A presence that does not soothe, but\l"
+	.string "bends the will of the living.$"
 
 Route123_Text_FernandoIntro: @ 82A0323
 	.string "I'll turn your lights out while\n"
@@ -3629,7 +3658,10 @@ Route124_Text_JennyPostBattle: @ 82A0B9A
 	.string "While swimming, I noticed that some\n"
 	.string "Pokémon attack, and some just watch.\p"
 	.string "I guess Pokémon have personalities\n"
-	.string "of their own.$"
+	.string "of their own.\p"
+	.string "I hear officials want to separate\n"
+	.string "some Pokémon from their Trainers.\l"
+	.string "That doesn't sound like safety to me.$"
 
 Route124_Text_JennyRegister: @ 82A0C14
 	.string "It's only on a whim, but maybe I'll get\n"
@@ -4556,7 +4588,10 @@ Route132_Text_JonathanDefeat: @ 82A3EDD
 Route132_Text_JonathanPostBattle: @ 82A3F03
 	.string "I can't shake this feeling that\n"
 	.string "someone's watching me.\p"
-	.string "I can't concentrate!$"
+	.string "I've seen officials asking Trainers\n"
+	.string "where they travel and what Pokémon\l"
+	.string "they carry. Maybe that's why I feel\l"
+	.string "like I'm being watched…$"
 
 Route132_Text_PaxtonIntro: @ 82A3F4F
 	.string "Now where could my wife have gone?\n"
@@ -4631,7 +4666,10 @@ Route133_Text_WarrenDefeat: @ 82A42E0
 Route133_Text_WarrenPostBattle: @ 82A4304
 	.string "It's way more fun to do things the way\n"
 	.string "I want than to be like everybody else.\l"
-	.string "I mean, that's obvious!$"
+	.string "I mean, that's obvious!\p"
+	.string "Now they're saying only approved\n"
+	.string "Trainers should be allowed to keep\l"
+	.string "Pokémon. Who gets to decide that?$"
 
 Route133_Text_BeckIntro: @ 82A436A
 	.string "I came all the way out here with my\n"
@@ -4706,8 +4744,8 @@ Route134_Text_HitoshiIntro: @ 82A4709
 	.string "No need for words. We battle now.$"
 
 Route134_Text_HitoshiDefeat: @ 82A4745
-	.string "… … … … … …\n"
-	.string "… … … … … …$"
+	.string "I had no words for your strength.\n"
+	.string "You have earned my respect.$"
 
 Route134_Text_HitoshiPostBattle: @ 82A475D
 	.string "It was I who challenged you, and yet\n"

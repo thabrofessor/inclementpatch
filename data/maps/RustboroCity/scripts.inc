@@ -1258,6 +1258,10 @@ RustboroCity_Text_MayPassedBrineyWantToBattle: @ 81E1AFA
 	.string "cottage by the sea.\p"
 	.string "How's your Pokédex coming along,\n"
 	.string "{PLAYER}{KUN}? Mine's looking pretty decent!\p"
+	.string "Dad says the League tournament will\n"
+	.string "bring Trainers here from everywhere.\p"
+	.string "I can't wait to see all the different\n"
+	.string "Pokémon and battling styles!\p"
 	.string "So…\n"
 	.string "How about a little battle?$"
 
@@ -1306,6 +1310,10 @@ RustboroCity_Text_BrendanPassedBrineyWantToBattle: @ 81E1E34
 	.string "{PLAYER}, how's your Pokédex?\n"
 	.string "Have you filled in any pages yet?\p"
 	.string "Mine rules.\p"
+	.string "Dad says the League is planning a\n"
+	.string "huge tournament for licensed Trainers.\p"
+	.string "I'm going to enter. You'd better be\n"
+	.string "ready to face me there!\p"
 	.string "Want to have a battle to test how\n"
 	.string "far you've progressed?$"
 
@@ -1383,6 +1391,8 @@ RustboroCity_Text_AddedMatchCallPleaseCallMrStone: @ 81E2331
 	.string "been registered in your PokéNav.\p"
 	.string "{PLAYER}, our President Stone should\n"
 	.string "be registered in your PokéNav.\p"
+	.string "He's helping organize the League's\n"
+	.string "new tournament for licensed Trainers.\p"
 	.string "Test it out.\n"
 	.string "Please give our President a call.$"
 

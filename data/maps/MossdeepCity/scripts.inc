@@ -362,7 +362,9 @@ MossdeepCity_Text_SpaceCenterReceivedLetter: @ 81E4E90
 	.string "The island's Space Center has been\n"
 	.string "launching huge rockets.\p"
 	.string "There's been some kind of an uproar\n"
-	.string "over a letter they received recently.$"
+	.string "over a letter they received recently.\p"
+	.string "It was signed by Team Magma. They\n"
+	.string "actually announced they'd steal fuel!$"
 
 MossdeepCity_Text_SpaceCenterLaunchingRockets: @ 81E4F15
 	.string "The island's Space Center has been\n"
@@ -375,6 +377,9 @@ MossdeepCity_Text_MossdeepTargetedByMagma: @ 81E4F50
 	.string "and wiped the floor with them!\p"
 	.string "But Mossdeep here's been targeted\n"
 	.string "by that Team Magma.\p"
+	.string "Their equipment looks far too costly\n"
+	.string "for a group like that. Someone must\l"
+	.string "be helping them from outside.\p"
 	.string "If you want to know what they're up to,\n"
 	.string "go visit the Space Center.$"
 
