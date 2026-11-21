@@ -723,7 +723,14 @@ PetalburgCity_EventScript_GymBoy:: @ 81DC82E
 PetalburgCity_Text_WhereIsWally: @ 81DC837
 	.string "Where has our Wally gone?\p"
 	.string "We have to leave for Verdanturf Town\n"
-	.string "very soon…$"
+	.string "very soon…\p"
+	.string "He has been talking about becoming a\n"
+	.string "Trainer ever since he met you. I know\l"
+	.string "he is excited, but I hope he remembers\l"
+	.string "to take things at his own pace.\p"
+	.string "Getting stronger is wonderful. Being\n"
+	.string "well enough to enjoy the journey is\l"
+	.string "important, too.$"
 
 PetalburgCity_Text_AreYouRookieTrainer: @ 81DC881
 	.string "Hiya! Are you maybe…\n"
