@@ -1828,9 +1828,9 @@ Route114_Text_LucasPostBattle: @ 829A7D4
 	.string "shelter asking hikers to list their\l"
 	.string "Pokémon before setting out. They call\n"
 	.string "it a safety measure. Maybe it helps\l"
-	.string "officials keep track of travelers, but\n"
-	.string "a paper record won't guide you through\l"
-	.string "a whiteout. Out here, you need good\n"
+	.string "officials keep track of travelers, but\p"
+	.string "a paper record won't guide you through\n"
+	.string "a whiteout. Out here, you need good\l"
 	.string "judgment and a partner you trust.$"
 
 Route114_Text_ShaneIntro: @ 829A818
@@ -2031,9 +2031,9 @@ Route115_Text_TimothyPostBattle: @ 829B258
 	.string "That is what I believe…\p"
 	.string "I saw the notice for the League's big\n"
 	.string "tournament. A roster of the Trainers\l"
-	.string "taking part seems fair enough. But\n"
-	.string "that should not become a list of every\l"
-	.string "Pokémon a person owns. A partner is\n"
+	.string "taking part seems fair enough. But\p"
+	.string "that should not become a list of every\n"
+	.string "Pokémon a person owns. A partner is\l"
 	.string "not a line on a registration form.$"
 
 Route115_Text_TimothyRegister: @ 829B2B3
