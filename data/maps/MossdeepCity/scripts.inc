@@ -363,10 +363,8 @@ MossdeepCity_Text_SpaceCenterReceivedLetter: @ 81E4E90
 	.string "launching huge rockets.\p"
 	.string "There's been some kind of an uproar\n"
 	.string "over a letter they received recently.\p"
-	.string "It warned them that someone would\n"
-	.string "try to seize their equipment.\p"
-	.string "The letter arrived before Team Magma\n"
-	.string "ever showed up. Who knew they'd come?$"
+	.string "It was signed by Team Magma. They\n"
+	.string "actually announced they'd steal fuel!$"
 
 MossdeepCity_Text_SpaceCenterLaunchingRockets: @ 81E4F15
 	.string "The island's Space Center has been\n"
