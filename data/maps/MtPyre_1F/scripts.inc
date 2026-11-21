@@ -44,5 +44,11 @@ MtPyre_1F_Text_ComeToPayRespects: @ 823104F
 
 MtPyre_1F_Text_RestingPlaceOfZigzagoon: @ 82310BA
 	.string "This is the final resting place of my\n"
-	.string "Zigzagoon. I cherished it…$"
+	.string "Zigzagoon. I cherished it…\p"
+	.string "I come here every week. Sometimes I\n"
+	.string "still turn around when I hear a little\l"
+	.string "rustle, expecting it to be beside me.\p"
+	.string "I suppose that is what love does.\n"
+	.string "It leaves you listening for someone\l"
+	.string "even after they are gone.$"
 
