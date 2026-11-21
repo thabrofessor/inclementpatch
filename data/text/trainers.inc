@@ -4849,17 +4849,18 @@ AshenWoods_Text_ElmerPostBattle:
 	.string "catching Pokémon much easier.$"
 
 Route102_Text_GENIntro:
-	.string "I've heard the League may hold\n"
-	.string "a tournament for Trainers!$"
+	.string ".... .... ....\n"
+	.string ".... .... ....\p"
+	.string ".... .... ....$"
 
 Route102_Text_GENDefeat:
-	.string "I need to train more before I\n"
-	.string "can enter a tournament like that!$"
+	.string ".... .... ....$"
 
 Route102_Text_GENPostBattle:
-	.string "A big League tournament sounds\n"
-	.string "like a great chance to meet strong\n"
-	.string "Trainers and their Pokémon!$"
+	.string ".... .... ....\n"
+	.string ".... .... ....\p"
+	.string ".... .... ....\n"
+	.string ".... .... ....$"
 
 @ Custom trainer story dialogue. Encounter groups: 1-3 early, 4-6 middle, 7-9 late.
 IncTrainer_Citizen_EarlyIntro:
