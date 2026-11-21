@@ -550,7 +550,7 @@ MeteorFalls_1F_1R_Text_ArchieSeenYouBefore: @ 822C11C
 	.string "They engage in destruction, claiming\n"
 	.string "to expand the land mass. But this\l"
 	.string "time, they seemed to know exactly\l"
-	.string "which part of Cozmo\x27s research to\l"
+	.string "which part of Cozmo's research to\l"
 	.string "take and where to find him.\p"
 	.string "That kind of precision does not come\n"
 	.string "from a bunch of grunts acting alone.\p"
