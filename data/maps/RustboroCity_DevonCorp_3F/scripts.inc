@@ -267,7 +267,7 @@ RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp: @ 8212837
 	.string "Of course, a record is only useful\n"
 	.string "when it is kept up to date. Devon is\l"
 	.string "working with the League to make those\l"
-	.string "checks easier."
+	.string "checks easier.\p"
 	.string "I think it would be best if you rested\n"
 	.string "up before you go on your way.$"
 
