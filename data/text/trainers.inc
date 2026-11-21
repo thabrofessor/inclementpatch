@@ -527,7 +527,11 @@ Route105_Text_LuisDefeated: @ 8295E66
 
 Route105_Text_LuisPostBattle: @ 8295E72
 	.string "If you are drowning, the signal is to\n"
-	.string "wave one arm toward the beach.$"
+	.string "wave one arm toward the beach.\p"
+	.string "Two arms means something else, so\n"
+	.string "don't wave both unless you mean it!\l"
+	.string "I should probably learn a few more\l"
+	.string "water-safety signals before lecturing.$"
 
 Route105_Text_DominikIntro: @ 8295EB7
 	.string "Swimming the deep blue sea…\n"
@@ -540,7 +544,10 @@ Route105_Text_DominikDefeated: @ 8295EEA
 Route105_Text_DominikPostBattle: @ 8295F08
 	.string "Why is the sea blue?\p"
 	.string "I learned about that at the Museum in\n"
-	.string "Slateport, but I forgot.$"
+	.string "Slateport, but I forgot.\p"
+	.string "Something about sunlight and water\n"
+	.string "scattering colors… I should visit\l"
+	.string "again and take notes this time!$"
 
 Route105_Text_BeverlyIntro: @ 8295F5C
 	.string "My body feels lighter in the water.\n"
@@ -553,7 +560,10 @@ Route105_Text_PostBattle: @ 8295FAE
 	.string "Your body weight is reduced to just\n"
 	.string "one tenth in the water.\p"
 	.string "That would make me…\n"
-	.string "Whoops! I'm not telling you my weight!$"
+	.string "Whoops! I'm not telling you my weight!\p"
+	.string "Anyway, floating feels wonderful.\n"
+	.string "I can forget the number on a scale\l"
+	.string "and just enjoy being in the water!$"
 
 Route105_Text_ImaniIntro: @ 8296025
 	.string "The blue, blue sky…\n"
@@ -565,7 +575,11 @@ Route105_Text_ImaniDefeated: @ 8296059
 
 Route105_Text_ImaniPostBattle: @ 8296076
 	.string "I want to be told I'm relaxing to be\n"
-	.string "with. Giggle.$"
+	.string "with. Giggle.\p"
+	.string "Some people make a place feel noisy\n"
+	.string "even when they're quiet. I hope I'm\l"
+	.string "the opposite. A little sunshine and\l"
+	.string "a calm swim can help, too!$"
 
 Route105_Text_AndresIntro: @ 82960A9
 	.string "I'm convinced that the sea keeps\n"
@@ -578,7 +592,11 @@ Route105_Text_AndresDefeated: @ 82960DB
 Route105_Text_AndresPostBattle: @ 82960FA
 	.string "I'm sure there are many secrets to be\n"
 	.string "discovered in the world's seas.\p"
-	.string "I mean to find them all!$"
+	.string "I mean to find them all!\p"
+	.string "The currents, old wrecks, strange\n"
+	.string "creatures… Every voyage gives me\l"
+	.string "another question to chase. I only\l"
+	.string "wish I had more time to explore!$"
 
 Route105_Text_AndresRegister: @ 8296159
 	.string "Huh? I'm so weak, but you're willing\n"
@@ -608,7 +626,10 @@ Route105_Text_JosueDefeated: @ 82962CB
 
 Route105_Text_JosuePostBattle: @ 82962EC
 	.string "Yeah, for me, the sky is a much better\n"
-	.string "match than the sea.$"
+	.string "match than the sea.\p"
+	.string "I admire swimmers, but I'll take a\n"
+	.string "clear trail and a good view any day.\l"
+	.string "No saltwater in my shoes, either!$"
 
 Route106_Text_ElliotIntro: @ 8296327
 	.string "Which do you prefer, fishing in the\n"
@@ -621,7 +642,10 @@ Route106_Text_ElliotDefeated: @ 829635C
 Route106_Text_ElliotPostBattle: @ 829638C
 	.string "Fishing is the greatest whether it's\n"
 	.string "in the sea or a stream.\l"
-	.string "You agree with me, right?$"
+	.string "You agree with me, right?\p"
+	.string "A stream makes you patient. The sea\n"
+	.string "makes you humble. And both make you\l"
+	.string "wonder what might be tugging below.$"
 
 Route106_Text_ElliotRegister: @ 82963E3
 	.string "Fishing's great, but so is battling.\n"
@@ -650,7 +674,11 @@ Route106_Text_NedDefeated: @ 8296553
 
 Route106_Text_NedPostBattle: @ 8296588
 	.string "Oh, no! I've got this feeling I'll hook\n"
-	.string "a big one!$"
+	.string "a big one!\p"
+	.string "I can't leave now. What if the fish\n"
+	.string "of a lifetime bites while I'm gone?\l"
+	.string "Maybe I should have planned this\l"
+	.string "fishing trip a little better…$"
 
 Route106_Text_DouglasIntro: @ 82965BB
 	.string "Hahahah! I'm a lousy runner, but in\n"
