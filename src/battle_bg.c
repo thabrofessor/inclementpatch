@@ -25,7 +25,6 @@
 #include "constants/songs.h"
 #include "constants/trainers.h"
 #include "constants/battle_anim.h"
-#include "constants/rgb.h"
 
 struct BattleBackground
 {
@@ -37,19 +36,6 @@ struct BattleBackground
 };
 
 // .rodata
-static const u16 sBattleMoveEffectivenessPalette[] =
-{
-    RGB(0, 0, 0),       // Dark gray: black for immunity
-    RGB(16, 16, 16),    // Light gray: neutral
-    RGB(31, 0, 0),      // Red: 4x super effective
-    RGB(31, 16, 0),     // Orange: 2x super effective
-    RGB(0, 31, 0),      // Green: resisted
-    RGB(16, 31, 0),     // Light green
-    RGB(0, 0, 31),      // Blue: 4x resisted
-    RGB(16, 16, 31),    // Light blue
-    RGB(31, 31, 0),     // Yellow: utility
-};
-
 static const u16 sUnrefArray[] = {0x0300, 0x0000}; //OamData?
 
 static const struct OamData sVsLetter_V_OamData =
@@ -208,37 +194,37 @@ static const struct WindowTemplate gStandardBattleWindowTemplates[] =
         .bg = 0,
         .tilemapLeft = 2,
         .tilemapTop = 55,
-        .width = 9,
+        .width = 8,
         .height = 2,
-        .paletteNum = 6,
+        .paletteNum = 5,
         .baseBlock = 0x0300,
     },
     { // 4 Top right move
         .bg = 0,
-        .tilemapLeft = 12,
+        .tilemapLeft = 11,
         .tilemapTop = 55,
-        .width = 9,
+        .width = 8,
         .height = 2,
-        .paletteNum = 6,
-        .baseBlock = 0x0312,
+        .paletteNum = 5,
+        .baseBlock = 0x0310,
     },
     { // 5 Bottom left move
         .bg = 0,
         .tilemapLeft = 2,
         .tilemapTop = 57,
-        .width = 9,
+        .width = 8,
         .height = 2,
-        .paletteNum = 6,
-        .baseBlock = 0x0324,
+        .paletteNum = 5,
+        .baseBlock = 0x0320,
     },
     { // 6 Bottom right move
         .bg = 0,
-        .tilemapLeft = 12,
+        .tilemapLeft = 11,
         .tilemapTop = 57,
-        .width = 9,
+        .width = 8,
         .height = 2,
-        .paletteNum = 6,
-        .baseBlock = 0x0336,
+        .paletteNum = 5,
+        .baseBlock = 0x0330,
     },
     {
         .bg = 0,
@@ -429,37 +415,37 @@ static const struct WindowTemplate gBattleArenaWindowTemplates[] =
         .bg = 0,
         .tilemapLeft = 2,
         .tilemapTop = 55,
-        .width = 9,
+        .width = 8,
         .height = 2,
-        .paletteNum = 6,
+        .paletteNum = 5,
         .baseBlock = 0x0300,
     },
     {
         .bg = 0,
-        .tilemapLeft = 12,
+        .tilemapLeft = 11,
         .tilemapTop = 55,
-        .width = 9,
+        .width = 8,
         .height = 2,
-        .paletteNum = 6,
-        .baseBlock = 0x0312,
+        .paletteNum = 5,
+        .baseBlock = 0x0310,
     },
     {
         .bg = 0,
         .tilemapLeft = 2,
         .tilemapTop = 57,
-        .width = 9,
+        .width = 8,
         .height = 2,
-        .paletteNum = 6,
-        .baseBlock = 0x0324,
+        .paletteNum = 5,
+        .baseBlock = 0x0320,
     },
     {
         .bg = 0,
-        .tilemapLeft = 12,
+        .tilemapLeft = 11,
         .tilemapTop = 57,
-        .width = 9,
+        .width = 8,
         .height = 2,
-        .paletteNum = 6,
-        .baseBlock = 0x0336,
+        .paletteNum = 5,
+        .baseBlock = 0x0330,
     },
     {
         .bg = 0,
@@ -762,10 +748,6 @@ void LoadBattleMenuWindowGfx(void)
     LoadUserWindowBorderGfx(2, 0x12, 0x10);
     LoadUserWindowBorderGfx(2, 0x22, 0x10);
     LoadCompressedPalette(gBattleWindowTextPalette, 0x50, 0x20);
-    // Give move-effect badges their own text palette so each badge can use a
-    // distinct colored background without changing other battle windows.
-    LoadCompressedPalette(gBattleWindowTextPalette, 0x60, 0x20);
-    LoadPalette(sBattleMoveEffectivenessPalette, 0x62, sizeof(sBattleMoveEffectivenessPalette));
 
     if (gBattleTypeFlags & BATTLE_TYPE_ARENA)
     {
