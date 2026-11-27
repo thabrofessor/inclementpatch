@@ -153,7 +153,11 @@ Route119_WeatherInstitute_1F_Text_PleaseTakeThese:
 
 Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo:
 	.string "What I don't understand is what on\n"
-	.string "earth the Aquas were up to.$"
+	.string "earth the Aquas were up to.\p"
+	.string "They seemed to know exactly which\n"
+	.string "Pokémon we were studying and what\l"
+	.string "each one could do. Someone gave them\l"
+	.string "more than a lucky guess.$"
 
 Route119_WeatherInstitute_1F_Text_TakeRestInBed: @ 826FEFC
 	.string "There's a bed…\n"

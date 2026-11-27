@@ -281,7 +281,10 @@ Route128_Text_MaxieThisDefiesBelief: @ 81F704F
 	.string "Maxie: This defies belief…\p"
 	.string "Those super-ancient Pokémon…\p"
 	.string "Their power is unbelievable.\n"
-	.string "They've upset the balance of nature…$"
+	.string "They've upset the balance of nature…\p"
+	.string "We thought we were pursuing our own\n"
+	.string "dreams. Yet someone made sure we had\l"
+	.string "everything needed to awaken them…$"
 
 Route128_Text_StevenWhatIsHappening: @ 81F70C9
 	.string "Steven: {PLAYER}{KUN}!\n"

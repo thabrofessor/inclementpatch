@@ -277,6 +277,12 @@ Route119_WeatherInstitute_2F_Text_ShellyDefeat: @ 82704BD
 Route119_WeatherInstitute_2F_Text_ShellyPostBattle: @ 82704E4
 	.string "It's bad enough to have Team Magma\n"
 	.string "blunder about, but now there's you!\p"
+	.string "Still, every time Magma\ndraws\n"
+	.string "attention, our own work gets\neasier.\p"
+	.string "Someone has arranged things\nrather\n"
+	.string "neatly for both Teams. The\nBoss says\l"
+	.string "we should take the help and\nask no\l"
+	.string "questions.\p"
 	.string "What makes you want to sniff around\n"
 	.string "in our business, anyway?$"
 
