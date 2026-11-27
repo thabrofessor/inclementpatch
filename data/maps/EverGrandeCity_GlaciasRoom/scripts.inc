@@ -123,7 +123,11 @@ EverGrandeCity_GlaciasRoom_Text_Defeat: @ 82285B4
 EverGrandeCity_GlaciasRoom_Text_PostBattleSpeech: @ 8228640
 	.string "Advance to the next room.\p"
 	.string "And there, confirm the truly fearsome\n"
-	.string "side of the Pokémon League.$"
+	.string "side of the Pokémon League.\p"
+	.string "The League is being asked to take\n"
+	.string "greater responsibility for powerful\l"
+	.string "Pokémon across Hoenn. Order can feel\p"
+	.string "cold, but perhaps it is necessary.$"
 
 EverGrandeCity_GlaciasRoom_Text_IntroSpeechRematch:
 	.string "I've been waiting for a Trainer\n"
@@ -136,4 +140,7 @@ EverGrandeCity_GlaciasRoom_Text_PostBattleSpeechRematch:
 	.string "Do you intend to thaw my very heart?\p"
 	.string "That actually wouldn't bother me.\p"
 	.string "Anyway, continue onward!\n"
-	.string "Drake is waiting for you as well.$"
+	.string "Drake is waiting for you as well.\p"
+	.string "Some people mistake restraint for\n"
+	.string "weakness. I believe order is what\l"
+	.string "allows strength to serve a purpose.$"

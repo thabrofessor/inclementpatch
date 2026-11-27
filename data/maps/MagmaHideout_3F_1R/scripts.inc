@@ -39,5 +39,11 @@ MagmaHideout_3F_1R_Text_Grunt16PostBattle: @ 823A37C
 	.string "Listen to me.\n"
 	.string "Team Magma is right!\p"
 	.string "Don't listen to Team Aqua.\n"
-	.string "Don't believe their lies!$"
+	.string "Don't believe their lies!\p"
+	.string "Though… lately, the orders have been\n"
+	.string "coming from people I never see. The\l"
+	.string "Admins say it is all part of the plan,\n"
+	.string "but our leader used to explain why\l"
+	.string "each step mattered. I joined for his\n"
+	.string "vision, not to follow sealed orders.$"
 

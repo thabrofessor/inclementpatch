@@ -144,7 +144,13 @@ Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather: @ 826FDE8
 	.string "the Hoenn region.\p"
 	.string "We've been noticing temporary and\n"
 	.string "isolated cases of droughts and\l"
-	.string "heavy rain lately…$"
+	.string "heavy rain lately…\p"
+	.string "They don't behave like ordinary\n"
+	.string "weather fronts. A patch of clear sky\l"
+	.string "can turn to a downpour while the\l"
+	.string "surrounding routes stay dry. We keep\l"
+	.string "checking the instruments, but the\l"
+	.string "readings are consistent.$"
 
 Route119_WeatherInstitute_1F_Text_PleaseTakeThese:
 	.string "Hello!\n"

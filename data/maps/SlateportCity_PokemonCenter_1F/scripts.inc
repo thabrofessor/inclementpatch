@@ -38,7 +38,14 @@ SlateportCity_PokemonCenter_1F_Text_RaiseDifferentTypesOfPokemon: @ 820DAF3
 SlateportCity_PokemonCenter_1F_Text_TradedMonWithFriend: @ 820DBBC
 	.string "I trade Pokémon with my friends.\p"
 	.string "If a traded Pokémon is holding an\n"
-	.string "item, it makes me twice as happy!$"
+	.string "item, it makes me twice as happy!\p"
+	.string "Though I heard the League may ask\n"
+	.string "tournament entrants to list every\l"
+	.string "Pokémon they plan to bring. I can\l"
+	.string "understand wanting to know who's\l"
+	.string "competing, but a friendly trade\l"
+	.string "shouldn't feel like an official\l"
+	.string "appointment, should it?$"
 
 
 OldaleTown_EventScript_BURGLAR_2:: @ 81EC1B3

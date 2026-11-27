@@ -1340,7 +1340,15 @@ SlateportCity_Text_OhPlayerWeMadeDiscovery: @ 81DE64F
 	.string "We found an underwater cavern on\n"
 	.string "Route 128.\p"
 	.string "We think it's the habitat of a Pokémon\n"
-	.string "that's said to have been long extinct.$"
+	.string "that's said to have been long extinct.\p"
+	.string "The readings are extraordinary, but\n"
+	.string "I want our findings checked before we\l"
+	.string "make claims we can't support. A place\l"
+	.string "like that deserves careful study, not\l"
+	.string "a rush of people hoping to claim it.\p"
+	.string "If the reports are correct, this could\n"
+	.string "change what we know about Hoenn's\l"
+	.string "ancient past.$"
 
 SlateportCity_Text_AquaWillAssumeControlOfSubmarine: @ 81DE724
 	.string "Fufufu…\n"

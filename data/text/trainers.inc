@@ -9,7 +9,10 @@ Route102_Text_CalvinDefeated: @ 829457C
 
 Route102_Text_CalvinPostBattle: @ 82945AC
 	.string "Listen, you. If you're strong,\n"
-	.string "you should have told me before!$"
+	.string "you should have told me before!\p"
+	.string "I'm training for that big League\n"
+	.string "tournament. Just imagine getting to\l"
+	.string "challenge the Elite Four!$"
 
 Route102_Text_CalvinRegister: @ 82945EB
 	.string "I've been working hard at this since\n"
@@ -44,7 +47,10 @@ Route102_Text_AllenDefeated: @ 82947AA
 
 Route102_Text_AllenPostBattle: @ 82947DB
 	.string "I haven't won once yet…\n"
-	.string "I wish I would win soon…$"
+	.string "I wish I would win soon…\p"
+	.string "Maybe the League tournament will\n"
+	.string "give beginners like me a chance.\l"
+	.string "I have a lot of training to do first!$"
 
 Route102_Text_RickIntro: @ 829480C
 	.string "Hahah! Our eyes met!\n"
@@ -67,7 +73,10 @@ Route102_Text_TianaDefeated: @ 82948F3
 
 Route102_Text_TianaPostBattle: @ 8294916
 	.string "To keep winning my way up, I see that\n"
-	.string "I have to catch more Pokémon.$"
+	.string "I have to catch more Pokémon.\p"
+	.string "The League tournament sounds like\n"
+	.string "the perfect place to prove myself.\l"
+	.string "I can't wait to sign up!$"
 
 Route103_Text_DaisyIntro: @ 829495A
 	.string "Did you feel the tug of our\n"
@@ -89,9 +98,12 @@ Route103_Text_AmyDefeated: @ 8294A3D
 	.string "Amy: Uh-oh, we lost.$"
 
 Route103_Text_AmyPostBattle: @ 8294A52
-	.string "Amy: You have to think about all\n"
-	.string "kinds of things when you're battling\l"
-	.string "against two Trainers.$"
+	.string "Amy: Double battles aren't just two\n"
+	.string "single battles happening at once.\p"
+	.string "You have to watch your partner, too.\n"
+	.string "Liv knows what I'm thinking half the\l"
+	.string "time, but I still have to call out\l"
+	.string "what we should do. That's teamwork!$"
 
 Route103_Text_AmyNotEnoughPokemon: @ 8294AAE
 	.string "Amy: Uh-oh, you have only one\n"
@@ -100,15 +112,17 @@ Route103_Text_AmyNotEnoughPokemon: @ 8294AAE
 
 Route103_Text_LivIntro: @ 8294AFD
 	.string "Liv: We battle together as one\n"
-	.string "team.$"
+	.string "team. Big sister knows my ideas!$"
 
 Route103_Text_LivDefeated: @ 8294B22
 	.string "Liv: Oh, we lost, big sister…$"
 
 Route103_Text_LivPostBattle: @ 8294B40
-	.string "Liv: We work perfectly together,\n"
-	.string "me and my big sister…\p"
-	.string "But we still lost…$"
+	.string "Liv: Amy always says I should watch\n"
+	.string "the other Pokémon, not just mine.\p"
+	.string "I did that! I really did! Maybe I\n"
+	.string "just need to get quicker at telling\l"
+	.string "her what I see. We'll practice!$"
 
 Route103_Text_AmyLivRegister: @ 8294B8A
 	.string "Liv: Really, we're a lot better…\n"
@@ -167,7 +181,11 @@ Route103_Text_AndrewDefeated: @ 8294E92
 
 Route103_Text_AndrewPostBattle: @ 8294EBB
 	.string "Gah, I'm still boiling mad…\n"
-	.string "Grrrrr…$"
+	.string "Grrrrr…\p"
+	.string "First my line gets tangled, then I\n"
+	.string "lose a battle. Maybe I should take a\l"
+	.string "breather before I scare every fish\l"
+	.string "out of the water. Hmph!$"
 
 Route103_Text_MiguelIntro: @ 8294EDF
 	.string "My Pokémon is delightfully adorable!\n"
@@ -179,7 +197,11 @@ Route103_Text_MiguelDefeated: @ 8294F21
 
 Route103_Text_MiguelPostBattle: @ 8294F42
 	.string "My delightful Pokémon looks darling\n"
-	.string "even when it's fainted!$"
+	.string "even when it's fainted!\p"
+	.string "Oh, don't worry, sweetheart. You did\n"
+	.string "your very best, and that's what\l"
+	.string "matters. We'll have a nice rest, then\l"
+	.string "I'll brush your fur until it shines!$"
 
 Route103_Text_MiguelRegister: @ 8294F7E
 	.string "I'll get you to come out and look in\n"
@@ -208,7 +230,11 @@ Route103_Text_PetePostBattle: @ 82950AA
 	.string "Oh, I understand where you're coming\n"
 	.string "from now.\p"
 	.string "If I had a Pokémon that trusty,\n"
-	.string "I'd want to Surf on it, too!$"
+	.string "I'd want to Surf on it, too!\p"
+	.string "There's nothing quite like trusting\n"
+	.string "your partner to carry you over a\l"
+	.string "stretch of water. Makes you feel as\l"
+	.string "though the whole sea is open to you.$"
 
 Route103_Text_IsabelleIntro: @ 8295116
 	.string "Watch where you're going!\n"
@@ -219,7 +245,11 @@ Route103_Text_IsabelleDefeated: @ 8295146
 
 Route103_Text_IsabellePostBattle: @ 829514D
 	.string "I'm a poor swimmer so I was practicing…\n"
-	.string "Sorry for almost crashing into you.$"
+	.string "Sorry for almost crashing into you.\p"
+	.string "I get nervous when the water gets\n"
+	.string "choppy, and then I forget where I'm\l"
+	.string "going. I'll practice somewhere\l"
+	.string "quieter next time. I promise!$"
 
 Route103_Text_RhettIntro: @ 8295199
 	.string "Whoa!\n"
@@ -231,7 +261,11 @@ Route103_Text_RhettDefeated: @ 82951C6
 
 Route103_Text_RhettPostBattle: @ 82951DE
 	.string "Do you like cramped quarters\n"
-	.string "like this?$"
+	.string "like this?\p"
+	.string "I spend so much time squeezed into\n"
+	.string "little spaces that I forget how big\l"
+	.string "the world is outside. Maybe I'll take\l"
+	.string "a long walk after this.$"
 
 Route103_Text_MarcosIntro: @ 8295206
 	.string "Did my guitar's wailing draw you in?$"
@@ -243,7 +277,11 @@ Route103_Text_MarcosPostBattle: @ 8295246
 	.string "I was playing my guitar where few\n"
 	.string "people were around, but a lot of fans\l"
 	.string "have gathered.\p"
-	.string "Heh, maybe I should turn pro.$"
+	.string "Heh, maybe I should turn pro.\p"
+	.string "Though I might miss playing just for\n"
+	.string "the sound of it, with no crowd and no\l"
+	.string "one expecting an encore. A good tune\l"
+	.string "ought to be its own reward.$"
 
 Route104_Text_GinaIntro: @ 82952BB
 	.string "Gina: Okay, let's battle with our\n"
@@ -253,8 +291,11 @@ Route104_Text_GinaDefeat: @ 82952E6
 	.string "Gina: Losing upsets me!$"
 
 Route104_Text_GinaPostBattle: @ 82952FE
-	.string "Gina: You are strong!\n"
-	.string "We have to train lots more!$"
+	.string "Gina: You're really strong!\p"
+	.string "Mia and I practice together, but\n"
+	.string "sometimes we both try to give the\l"
+	.string "orders at once. Next time, we'll\l"
+	.string "take turns being the captain!$"
 
 Route104_Text_GinaNotEnoughMons: @ 8295330
 	.string "Gina: Oh? Only one Pokémon?\n"
@@ -272,7 +313,11 @@ Route104_Text_MiaDefeat: @ 82953E1
 
 Route104_Text_MiaPostBattle: @ 829540D
 	.string "Mia: We will train our Pokémon more\n"
-	.string "and be strong like you.$"
+	.string "and be strong like you.\p"
+	.string "Gina is my twin, so we know each\n"
+	.string "other very well. But I think we\l"
+	.string "should practice listening as much\l"
+	.string "as we practice giving orders!$"
 
 Route104_Text_MiaNotEnoughMons: @ 8295449
 	.string "Mia: You want to battle with us?\p"
@@ -292,7 +337,11 @@ Route104_Text_IvanDefeat: @ 8295509
 
 Route104_Text_IvanPostBattle: @ 829554E
 	.string "I got too into fishing.\n"
-	.string "I forgot I had to raise my Pokémon…$"
+	.string "I forgot I had to raise my Pokémon…\p"
+	.string "A good catch makes for a fine story,\n"
+	.string "but a Water Pokémon won't become\l"
+	.string "strong just sitting beside my rod.\l"
+	.string "Tomorrow, we train before I fish!$"
 
 Route104_Text_BillyIntro: @ 829558A
 	.string "Leaving footprints in the sand is\n"
@@ -305,7 +354,11 @@ Route104_Text_BillyDefeat: @ 82955B4
 Route104_Text_BillyPostBattle: @ 82955E8
 	.string "I want to leave my footprints in\n"
 	.string "the sand everywhere, but they\l"
-	.string "disappear quickly…$"
+	.string "disappear quickly…\p"
+	.string "The waves wash them away, but I\n"
+	.string "don't mind. I can make new ones\l"
+	.string "tomorrow! I wonder if my Pokémon\l"
+	.string "likes running along the beach, too.$"
 
 Route104_Text_HaleyIntro: @ 829563A
 	.string "Should I…\n"
@@ -322,7 +375,11 @@ Route104_Text_HaleyPostBattle: @ 8295689
 	.string "turn out.\p"
 	.string "Everyone's excited about the League\n"
 	.string "tournament, but I hope registration\l"
-	.string "remains a choice.$"
+	.string "remains a choice.\p"
+	.string "I nearly talked myself out of this\n"
+	.string "battle three times before deciding.\l"
+	.string "At least this time, the choice was\l"
+	.string "mine. Even if I did lose!$"
 
 Route104_Text_HaleyRegister1: @ 82956FF
 	.string "You're strong, but should I register\n"
@@ -357,7 +414,11 @@ Route104_Text_WinstonDefeat: @ 82958AD
 
 Route104_Text_WinstonPostBattle: @ 82958C1
 	.string "There are some things money can't buy.\n"
-	.string "That's Pokémon…$"
+	.string "That's Pokémon…\p"
+	.string "I could purchase the finest Poké Balls,\n"
+	.string "the best equipment, and a grand place\l"
+	.string "to train. But none of that can buy the\l"
+	.string "trust a Pokémon gives you willingly.$"
 
 Route104_Text_WinstonRegister1: @ 82958F8
 	.string "Hm?\n"
@@ -393,7 +454,11 @@ Route104_Text_CindyDefeat: @ 8295ABB
 
 Route104_Text_CindyPostBattle: @ 8295AC3
 	.string "“Hello” is the beginning of “good-bye.”\n"
-	.string "I hope we meet again.$"
+	.string "I hope we meet again.\p"
+	.string "Some meetings seem brief, yet leave\n"
+	.string "a curious impression. Perhaps our\l"
+	.string "paths will cross when neither of us\l"
+	.string "expects it.$"
 
 Route104_Text_CindyRegister1: @ 8295B01
 	.string "Hello, we meet again.\p"
@@ -428,7 +493,11 @@ Route104_Text_DarianDefeat: @ 8295CC9
 
 Route104_Text_DarianPostBattle: @ 8295CD3
 	.string "Hey, Magikarp, you sure don't live up\n"
-	.string "to your name, do you?$"
+	.string "to your name, do you?\p"
+	.string "Still, you keep jumping and trying.\n"
+	.string "That's something, I suppose. Maybe\l"
+	.string "I'll find that magical quality in\l"
+	.string "you yet. Keep at it, little fish!$"
 
 Route105_Text_FosterIntro: @ 8295D0F
 	.string "There's supposed to be a mystical\n"
@@ -441,7 +510,11 @@ Route105_Text_FosterDefeated: @ 8295D62
 
 Route105_Text_FosterPostBattle: @ 8295DAB
 	.string "I can spend hours and hours staring\n"
-	.string "at a nice rock without growing bored.$"
+	.string "at a nice rock without growing bored.\p"
+	.string "People walk past a stone and see\n"
+	.string "nothing. I see its layers, its age,\l"
+	.string "and the long journey that brought\l"
+	.string "it here. That's a good afternoon!$"
 
 Route105_Text_LuisIntro: @ 8295DF5
 	.string "Whew! I was worried that a kid was\n"
@@ -454,7 +527,11 @@ Route105_Text_LuisDefeated: @ 8295E66
 
 Route105_Text_LuisPostBattle: @ 8295E72
 	.string "If you are drowning, the signal is to\n"
-	.string "wave one arm toward the beach.$"
+	.string "wave one arm toward the beach.\p"
+	.string "Two arms means something else, so\n"
+	.string "don't wave both unless you mean it!\l"
+	.string "I should probably learn a few more\l"
+	.string "water-safety signals before lecturing.$"
 
 Route105_Text_DominikIntro: @ 8295EB7
 	.string "Swimming the deep blue sea…\n"
@@ -467,7 +544,10 @@ Route105_Text_DominikDefeated: @ 8295EEA
 Route105_Text_DominikPostBattle: @ 8295F08
 	.string "Why is the sea blue?\p"
 	.string "I learned about that at the Museum in\n"
-	.string "Slateport, but I forgot.$"
+	.string "Slateport, but I forgot.\p"
+	.string "Something about sunlight and water\n"
+	.string "scattering colors… I should visit\l"
+	.string "again and take notes this time!$"
 
 Route105_Text_BeverlyIntro: @ 8295F5C
 	.string "My body feels lighter in the water.\n"
@@ -480,7 +560,10 @@ Route105_Text_PostBattle: @ 8295FAE
 	.string "Your body weight is reduced to just\n"
 	.string "one tenth in the water.\p"
 	.string "That would make me…\n"
-	.string "Whoops! I'm not telling you my weight!$"
+	.string "Whoops! I'm not telling you my weight!\p"
+	.string "Anyway, floating feels wonderful.\n"
+	.string "I can forget the number on a scale\l"
+	.string "and just enjoy being in the water!$"
 
 Route105_Text_ImaniIntro: @ 8296025
 	.string "The blue, blue sky…\n"
@@ -492,7 +575,11 @@ Route105_Text_ImaniDefeated: @ 8296059
 
 Route105_Text_ImaniPostBattle: @ 8296076
 	.string "I want to be told I'm relaxing to be\n"
-	.string "with. Giggle.$"
+	.string "with. Giggle.\p"
+	.string "Some people make a place feel noisy\n"
+	.string "even when they're quiet. I hope I'm\l"
+	.string "the opposite. A little sunshine and\l"
+	.string "a calm swim can help, too!$"
 
 Route105_Text_AndresIntro: @ 82960A9
 	.string "I'm convinced that the sea keeps\n"
@@ -505,7 +592,11 @@ Route105_Text_AndresDefeated: @ 82960DB
 Route105_Text_AndresPostBattle: @ 82960FA
 	.string "I'm sure there are many secrets to be\n"
 	.string "discovered in the world's seas.\p"
-	.string "I mean to find them all!$"
+	.string "I mean to find them all!\p"
+	.string "The currents, old wrecks, strange\n"
+	.string "creatures… Every voyage gives me\l"
+	.string "another question to chase. I only\l"
+	.string "wish I had more time to explore!$"
 
 Route105_Text_AndresRegister: @ 8296159
 	.string "Huh? I'm so weak, but you're willing\n"
@@ -535,7 +626,10 @@ Route105_Text_JosueDefeated: @ 82962CB
 
 Route105_Text_JosuePostBattle: @ 82962EC
 	.string "Yeah, for me, the sky is a much better\n"
-	.string "match than the sea.$"
+	.string "match than the sea.\p"
+	.string "I admire swimmers, but I'll take a\n"
+	.string "clear trail and a good view any day.\l"
+	.string "No saltwater in my shoes, either!$"
 
 Route106_Text_ElliotIntro: @ 8296327
 	.string "Which do you prefer, fishing in the\n"
@@ -548,7 +642,10 @@ Route106_Text_ElliotDefeated: @ 829635C
 Route106_Text_ElliotPostBattle: @ 829638C
 	.string "Fishing is the greatest whether it's\n"
 	.string "in the sea or a stream.\l"
-	.string "You agree with me, right?$"
+	.string "You agree with me, right?\p"
+	.string "A stream makes you patient. The sea\n"
+	.string "makes you humble. And both make you\l"
+	.string "wonder what might be tugging below.$"
 
 Route106_Text_ElliotRegister: @ 82963E3
 	.string "Fishing's great, but so is battling.\n"
@@ -577,7 +674,11 @@ Route106_Text_NedDefeated: @ 8296553
 
 Route106_Text_NedPostBattle: @ 8296588
 	.string "Oh, no! I've got this feeling I'll hook\n"
-	.string "a big one!$"
+	.string "a big one!\p"
+	.string "I can't leave now. What if the fish\n"
+	.string "of a lifetime bites while I'm gone?\l"
+	.string "Maybe I should have planned this\l"
+	.string "fishing trip a little better…$"
 
 Route106_Text_DouglasIntro: @ 82965BB
 	.string "Hahahah! I'm a lousy runner, but in\n"
@@ -627,7 +728,11 @@ Route107_Text_TonyPostBattle: @ 82967FF
 	.string "I swim the seas with a heart full of\n"
 	.string "dreams…\p"
 	.string "It's a song!\n"
-	.string "Anyways, I'm swimming some more.$"
+	.string "Anyways, I'm swimming some more.\p"
+	.string "Maybe I'll write a whole sea shanty.\n"
+	.string "First verse: the waves are wide. The\l"
+	.string "second verse can wait until I catch\l"
+	.string "my breath!$"
 
 Route107_Text_TonyRegister: @ 829685A
 	.string "You've shocked me to the bone!\n"
@@ -656,7 +761,11 @@ Route107_Text_DeniseDefeated: @ 829699E
 
 Route107_Text_DenisePostBattle: @ 82969AB
 	.string "A weird saying is getting really\n"
-	.string "trendy at Dewford Hall.$"
+	.string "trendy at Dewford Hall.\p"
+	.string "Everyone keeps repeating it like\n"
+	.string "they know what it means. I asked\l"
+	.string "three people, and each gave me a\l"
+	.string "different explanation!$"
 
 Route107_Text_BethIntro: @ 82969E4
 	.string "Did you want to battle me?\n"
@@ -667,7 +776,11 @@ Route107_Text_BethDefeated: @ 8296A17
 
 Route107_Text_BethPostBattle: @ 8296A35
 	.string "I think you're going to keep getting\n"
-	.string "better. I'll go for it, too!$"
+	.string "better. I'll go for it, too!\p"
+	.string "It's easier to try something new\n"
+	.string "when you see someone else giving it\l"
+	.string "their best. Maybe that's why I said\l"
+	.string "yes to your battle so quickly!$"
 
 Route107_Text_LisaIntro: @ 8296A77
 	.string "Lisa: We challenge you as a sister\n"
@@ -679,7 +792,11 @@ Route107_Text_LisaDefeated: @ 8296AA7
 
 Route107_Text_LisaPostBattle: @ 8296ADC
 	.string "Lisa: Do you have any friends who\n"
-	.string "would go to the beach with you?$"
+	.string "would go to the beach with you?\p"
+	.string "My brother Ray is fun to bring along,\n"
+	.string "even when he complains about losing.\l"
+	.string "He always comes back for another\l"
+	.string "swim, though. That's what matters!$"
 
 Route107_Text_LisaNotEnoughPokemon: @ 8296B1E
 	.string "Lisa: If you want to battle with us,\n"
@@ -698,7 +815,10 @@ Route107_Text_RayDefeated: @ 8296BB3
 Route107_Text_RayPostBattle: @ 8296BE1
 	.string "Ray: My sister gave me my Pokémon.\n"
 	.string "I raised it, and now it's my important\l"
-	.string "partner!$"
+	.string "partner!\p"
+	.string "Lisa says I should stop calling it\n"
+	.string "her present. It's mine now! But I\l"
+	.string "still remember who helped me start.$"
 
 Route107_Text_RayNotEnoughPokemon: @ 8296C34
 	.string "Ray: If you want to battle us,\n"
@@ -714,7 +834,11 @@ Route107_Text_CamronDefeated: @ 8296CAD
 Route107_Text_CamronPostBattle: @ 8296CC0
 	.string "I still have swimming and running left\n"
 	.string "to do after this.\p"
-	.string "Am I going to be okay?$"
+	.string "Am I going to be okay?\p"
+	.string "A triathlon is supposed to test your\n"
+	.string "stamina, but maybe I should stop\l"
+	.string "adding extra challenges in the middle\l"
+	.string "of it. That was a pretty tough battle!$"
 
 Route108_Text_JeromeIntro: @ 8296D10
 	.string "My dream is to swim the world's seven\n"
@@ -726,7 +850,11 @@ Route108_Text_JeromeDefeated: @ 8296D3C
 
 Route108_Text_JeromePostBattle: @ 8296D6E
 	.string "Playing with marine Pokémon is one of\n"
-	.string "the pleasures of swimming!$"
+	.string "the pleasures of swimming!\p"
+	.string "I'd like to see every kind of sea\n"
+	.string "Pokémon on my travels. Some might\l"
+	.string "even help me cross waters I could\l"
+	.string "never swim alone!$"
 
 Route108_Text_MatthewIntro: @ 8296DAF
 	.string "Ahoy, there! Are you going out to\n"
@@ -738,7 +866,14 @@ Route108_Text_MatthewDefeated: @ 8296DEA
 
 Route108_Text_MatthewPostBattle: @ 8296E03
 	.string "Some people even go inside that\n"
-	.string "Abandoned Ship.$"
+	.string "Abandoned Ship.\p"
+	.string "A few strangers were asking about\n"
+	.string "old cargo records and who last had\l"
+	.string "access to the ship. Odd questions\l"
+	.string "for people who claim to be salvagers.\p"
+	.string "Watch your step in there. The truth\n"
+	.string "isn't always the only thing buried\l"
+	.string "under a pile of old wreckage!$"
 
 Route108_Text_TaraIntro: @ 8296E33
 	.string "My liar of a boyfriend told me that\n"
@@ -834,7 +969,12 @@ Route109_Text_HueyDefeated: @ 829727B
 
 Route109_Text_HueyPostBattle: @ 829728C
 	.string "In the best port was the best\n"
-	.string "Trainer…$"
+	.string "Trainer…\p"
+	.string "Though lately, some visitors have\n"
+	.string "been asking which ships carry goods\l"
+	.string "for the League and when they leave.\l"
+	.string "A port runs on trust. I don't like\l"
+	.string "strangers taking such an interest.$"
 
 Route109_Text_EdmondIntro: @ 82972B3
 	.string "Urrrrppp…\n"
@@ -1057,7 +1197,12 @@ Route110_Text_BenjaminRematchDefeated: @ 8297D8E
 
 Route110_Text_BenjaminRematchPostBattle: @ 8297DB0
 	.string "There's no need to panic or stress.\n"
-	.string "Take it easy. There's plenty of time.$"
+	.string "Take it easy. There's plenty of time.\p"
+	.string "I asked about that long Pokémon list\n"
+	.string "on the tournament paperwork. They\l"
+	.string "said it was routine. Maybe it is.\l"
+	.string "Still, routine questions deserve\l"
+	.string "honest answers.$"
 
 Route110_Text_AbigailIntro: @ 8297DFA
 	.string "The triathlon is hard in the extreme.\p"
@@ -1111,7 +1256,11 @@ Route110_Text_EdwardPostBattle: @ 829808A
 	.string "I see a shining light…\p"
 	.string "But behind the League, a dark shape\n"
 	.string "is gathering. Someone wants every\l"
-	.string "Trainer's path to run through them.$"
+	.string "Trainer's path to run through them.\p"
+	.string "First they ask for names and records.\n"
+	.string "Then they decide who may travel,\l"
+	.string "battle, or keep a partner. Beware\l"
+	.string "the hand hidden behind a friendly seal.$"
 
 Route110_Text_JaclynIntro: @ 82980B9
 	.string "Ahahahaha!\n"
@@ -1152,7 +1301,12 @@ Route110_Text_EdwinRematchDefeated: @ 8298288
 
 Route110_Text_EdwinRematchPostBattle: @ 82982A2
 	.string "Oh, I long to make all rare Pokémon\n"
-	.string "mine!$"
+	.string "mine!\p"
+	.string "That's what a collector says when\n"
+	.string "he forgets the Pokémon has a choice.\l"
+	.string "I suppose seeing so many Trainers\l"
+	.string "worry about registration has made\l"
+	.string "me think harder about ownership.$"
 
 Route110_Text_DaleIntro: @ 82982CC
 	.string "Hey!\n"
@@ -1292,7 +1446,12 @@ Route111_Text_BeckyDefeat: @ 8298AAF
 
 Route111_Text_BeckyPostBattle: @ 8298AC0
 	.string "If they can find fossils in the desert,\n"
-	.string "it must have been a sea before.$"
+	.string "it must have been a sea before.\p"
+	.string "The layers tell a story if you know\n"
+	.string "how to read them. I found a patch of\l"
+	.string "stone recently that looked scorched\l"
+	.string "from the inside. No fire had touched\l"
+	.string "the surface. I wish I knew why.$"
 
 Route111_Text_DustyIntro: @ 8298B08
 	.string "For thirty years I have searched for\n"
@@ -1335,7 +1494,14 @@ Route111_Text_DustyPostRematch: @ 8298D0C
 	.string "No, wait, was that forty years\n"
 	.string "I've searched?\p"
 	.string "Hmm… It could even be fifty…\n"
-	.string "How long have I been at this?$"
+	.string "How long have I been at this?\p"
+	.string "I did find a fragment of an old\n"
+	.string "warning. It spoke of creatures whose\l"
+	.string "eyes were darkened and whose wills\l"
+	.string "were bent by a power from beyond.\p"
+	.string "The writer feared that someone would\n"
+	.string "learn to command that power. I had\l"
+	.string "thought it a fable. I am less certain.$"
 
 Route111_Text_TravisIntro: @ 8298DA9
 	.string "I'm full of pep!\n"
@@ -1634,7 +1800,11 @@ Route113_Text_JaylenDefeat: @ 8299D68
 Route113_Text_JaylenPostBattle: @ 8299D7D
 	.string "The volcanic ash blocks the sun,\n"
 	.string "so it doesn't get very warm.\p"
-	.string "That's good for me--I can't stand heat!$"
+	.string "That's good for me--I can't stand heat!\p"
+	.string "Though the ash has been falling in\n"
+	.string "strange bursts lately. Some days the\l"
+	.string "wind carries it far beyond the usual\l"
+	.string "cloud. The mountain seems restless.$"
 
 Route113_Text_DillonIntro: @ 8299DE3
 	.string "The volcano's eruption is proof that\n"
@@ -1823,7 +1993,15 @@ Route114_Text_LucasDefeat: @ 829A7B5
 
 Route114_Text_LucasPostBattle: @ 829A7D4
 	.string "In the winter, mountains turn deadly\n"
-	.string "with blizzards and avalanches.$"
+	.string "with blizzards and avalanches.\p"
+	.string "There's a new notice at the trail\n"
+	.string "shelter asking hikers to list their\l"
+	.string "Pokémon before setting out. They call\n"
+	.string "it a safety measure. Maybe it helps\l"
+	.string "officials keep track of travelers, but\p"
+	.string "a paper record won't guide you through\n"
+	.string "a whiteout. Out here, you need good\l"
+	.string "judgment and a partner you trust.$"
 
 Route114_Text_ShaneIntro: @ 829A818
 	.string "Camping's fun! You can fish, roast\n"
@@ -1965,7 +2143,13 @@ Route114_Text_IvyDefeat: @ 829AFAC
 Route114_Text_IvyPostBattle: @ 829AFCF
 	.string "Ivy: I started training Pokémon\n"
 	.string "because Tyra, my student mentor,\l"
-	.string "taught me!$"
+	.string "taught me!\p"
+	.string "Tyra says a good Trainer learns to\n"
+	.string "notice when a Pokémon is worried.\l"
+	.string "One of mine barely reacted when I\l"
+	.string "called it yesterday. It seemed to\l"
+	.string "come back to itself later, but I\l"
+	.string "haven't stopped thinking about it.$"
 
 Route114_Text_IvyNotEnoughMons: @ 829B01B
 	.string "Ivy: Do you only have one Pokémon?\n"
@@ -2020,7 +2204,13 @@ Route115_Text_TimothyDefeat: @ 829B230
 Route115_Text_TimothyPostBattle: @ 829B258
 	.string "There is no such thing as a born genius.\n"
 	.string "It all depends on effort!\l"
-	.string "That is what I believe…$"
+	.string "That is what I believe…\p"
+	.string "I saw the notice for the League's big\n"
+	.string "tournament. A roster of the Trainers\l"
+	.string "taking part seems fair enough. But\p"
+	.string "that should not become a list of every\n"
+	.string "Pokémon a person owns. A partner is\l"
+	.string "not a line on a registration form.$"
 
 Route115_Text_TimothyRegister: @ 829B2B3
 	.string "Hmm… A loss this thorough has been\n"
@@ -2121,7 +2311,11 @@ Route115_Text_HectorDefeat: @ 829B7C5
 
 Route115_Text_HectorPostBattle: @ 829B7EA
 	.string "I have this rare Pokémon.\n"
-	.string "It's enough to keep me satisfied.$"
+	.string "It's enough to keep me satisfied.\p"
+	.string "A stranger offered to buy it from me\n"
+	.string "and asked for its registration details.\l"
+	.string "I said no. It's my partner, not a\l"
+	.string "specimen for someone else's list.$"
 
 Route115_Text_KyraIntro: @ 829B826
 	.string "I'll battle while I'm running!\n"
@@ -2197,7 +2391,12 @@ Route116_Text_ClarkDefeat: @ 829BB0F
 
 Route116_Text_ClarkPostBattle: @ 829BB31
 	.string "It's no big deal if there's no tunnel.\n"
-	.string "To a Hiker, mountains are roads!$"
+	.string "To a Hiker, mountains are roads!\p"
+	.string "Though lately, some surveyors have\n"
+	.string "been asking which trails connect to\l"
+	.string "the old routes. They say it's for\l"
+	.string "emergency planning. Funny how they\l"
+	.string "never ask the people who walk them.$"
 
 Route116_Text_JoeyIntro: @ 829BB79
 	.string "My Pokémon rule!\n"
@@ -2245,8 +2444,13 @@ Route116_Text_JerryDefeat: @ 829BD66
 
 Route116_Text_JerryPostBattle: @ 829BD92
 	.string "I'll have to redo some courses at\n"
-	.string "the Trainer's School.\l"
-	.string "If I don't, Roxanne will be steamed.$"
+	.string "the Trainer's School.\p"
+	.string "They've started teaching us that\n"
+	.string "Trainer registration helps officials\l"
+	.string "know who is responsible when a\l"
+	.string "Pokémon causes trouble. I understand\l"
+	.string "that part. But why would they need\l"
+	.string "to know every Pokémon we own?$"
 
 Route116_Text_JerryRegister1: @ 829BDEF
 	.string "I learned at the Trainer's School\n"
@@ -2270,9 +2474,11 @@ Route116_Text_JerryRematchDefeat: @ 829BF4C
 	.string "I studied diligently.$"
 
 Route116_Text_JerryPostRematch: @ 829BF68
-	.string "I'll have to redo some courses at\n"
-	.string "the Trainer's School.\l"
-	.string "If I don't, Roxanne will be steamed.$"
+	.string "I asked Roxanne about those new\n"
+	.string "registration lessons. She said safety\l"
+	.string "rules should be clear and limited.\p"
+	.string "A rule that keeps growing needs\n"
+	.string "someone to ask where it ends.$"
 
 Route116_Text_KarenIntro: @ 829BFC5
 	.string "I study at school, and I study on\n"
@@ -2317,7 +2523,14 @@ Route116_Text_SarahPostBattle: @ 829C1EA
 	.string "My life of luxury affords me all that\n"
 	.string "I could possibly desire.\p"
 	.string "However, when it comes to Pokémon,\n"
-	.string "my wealth has no meaning.$"
+	.string "my wealth has no meaning.\p"
+	.string "A representative at the estate asked\n"
+	.string "whether my family would support a\l"
+	.string "central registry for every Trainer.\p"
+	.string "He called it a modern safeguard. I\n"
+	.string "wonder whether he would feel so\l"
+	.string "comfortable if someone catalogued\l"
+	.string "everything he valued.$"
 
 Route116_Text_DawsonIntro: @ 829C266
 	.string "When you lay your eyes on my Pokémon's\n"
@@ -2395,7 +2608,13 @@ Route117_Text_LydiaDefeat: @ 829C659
 
 Route117_Text_LydiaPostBattle: @ 829C679
 	.string "Try raising Pokémon with more\n"
-	.string "attention to their character traits.$"
+	.string "attention to their character traits.\p"
+	.string "The Day Care has received questions\n"
+	.string "about keeping more detailed records\l"
+	.string "of every Pokémon left in our care.\p"
+	.string "A good record helps us return a lost\n"
+	.string "partner. It should never become a\l"
+	.string "reason to keep one from its Trainer.$"
 
 Route117_Text_LydiaRegister: @ 829C6BC
 	.string "I'm glad I met a superb Trainer in you.\n"
@@ -2422,7 +2641,12 @@ Route117_Text_DylanDefeat: @ 829C7EB
 Route117_Text_DylanPostBattle: @ 829C800
 	.string "I may have blown it…\p"
 	.string "I might have dropped to last during\n"
-	.string "that battle…$"
+	.string "that battle…\p"
+	.string "Some officials were checking names\n"
+	.string "and Pokémon lists along the course.\l"
+	.string "They said the tournament needs a\l"
+	.string "complete roster. I thought it was\l"
+	.string "just a race. Guess not!$"
 
 Route117_Text_DylanRegister: @ 829C846
 	.string "Pokémon have to be strong, too?\n"
@@ -2634,7 +2858,13 @@ Route118_Text_PerryDefeat: @ 829D45B
 
 Route118_Text_PerryPostBattle: @ 829D46C
 	.string "You've got great Pokémon.\n"
-	.string "I'll have to train mine better.$"
+	.string "I'll have to train mine better.\p"
+	.string "I've seen flocks break formation\n"
+	.string "without warning lately. One moment\l"
+	.string "they're circling normally, then every\l"
+	.string "bird turns away from the same patch\l"
+	.string "of sky. Even my Pokémon won't look\l"
+	.string "that way for long.$"
 
 Route118_Text_ChesterIntro: @ 829D4A6
 	.string "Take flight!\n"
@@ -2658,7 +2888,12 @@ Route118_Text_BarnyDefeat: @ 829D55C
 Route118_Text_BarnyPostBattle: @ 829D587
 	.string "I couldn't win by training Pokémon\n"
 	.string "while I fished…\p"
-	.string "Was I doing things in half measures?$"
+	.string "Was I doing things in half measures?\p"
+	.string "A stranger offered good money for\n"
+	.string "the rare Pokémon I've caught. He\l"
+	.string "wanted to know where I fish and when\l"
+	.string "I bring my catches ashore. Didn't\l"
+	.string "sound like a collector to me.$"
 
 Route118_Text_WadeIntro: @ 829D5DF
 	.string "For Fishermen, equipment is the key.\p"
@@ -2670,7 +2905,12 @@ Route118_Text_WadeDefeat: @ 829D64C
 
 Route118_Text_WadePostBattle: @ 829D663
 	.string "Come to think of it, fishing is a battle\n"
-	.string "between a Fisherman and a Pokémon.$"
+	.string "between a Fisherman and a Pokémon.\p"
+	.string "Aqua and Magma aren't the only ones\n"
+	.string "asking about boats and cargo. A man\l"
+	.string "with no team uniform offered to pay\l"
+	.string "for sailing schedules. I told him the\l"
+	.string "sea isn't his private road.$"
 
 Route118_Text_DaltonIntro: @ 829D6AF
 	.string "Let my melody rock your soul!$"
@@ -2794,7 +3034,12 @@ Route119_Text_JacksonDefeat: @ 829DC9F
 Route119_Text_JacksonPostBattle: @ 829DCC6
 	.string "To break away from civilization and\n"
 	.string "awaken the wild spirit within!\p"
-	.string "That's our vision.$"
+	.string "That's our vision.\p"
+	.string "I've seen officials collecting trail\n"
+	.string "reports from Rangers, then asking\l"
+	.string "which Trainers travel alone and what\l"
+	.string "Pokémon they carry. That isn't wild\l"
+	.string "safety. That's a map of people.$"
 
 Route119_Text_JacksonRegister: @ 829DD1C
 	.string "I hope you'll give me a rematch without\n"
@@ -2825,7 +3070,13 @@ Route119_Text_CatherinePostBattle: @ 829DE88
 	.string "You're traveling light but you have\n"
 	.string "everything you need.\p"
 	.string "You're on top of things mentally and\n"
-	.string "physically, too.$"
+	.string "physically, too.\p"
+	.string "A League clerk asked me to list every\n"
+	.string "Pokémon I travel with, even the ones\l"
+	.string "not entered in the tournament. I\l"
+	.string "declined. Preparedness is sensible;\l"
+	.string "handing strangers a complete inventory\l"
+	.string "of your companions is another matter.$"
 
 Route119_Text_CatherineRegister: @ 829DEF7
 	.string "Do you have a PokéNav?\n"
@@ -2855,7 +3106,13 @@ Route119_Text_HughDefeat: @ 829E063
 
 Route119_Text_HughPostBattle: @ 829E071
 	.string "My Bird Pokémon made my dreams of\n"
-	.string "flying come true!$"
+	.string "flying come true!\p"
+	.string "But lately, the wind carries a strange\n"
+	.string "stillness. Flocks wheel away from\l"
+	.string "certain places, even when the air is\l"
+	.string "clear. My Pokémon feels it too.\p"
+	.string "I won't force it toward something\n"
+	.string "that frightens it.$"
 
 Route119_Text_PhilIntro: @ 829E0A5
 	.string "I'll show you the true potential of me\n"
@@ -2879,7 +3136,13 @@ Route119_Text_YasuDefeat: @ 829E18D
 Route119_Text_YasuPostBattle: @ 829E19D
 	.string "Those defeated in battle withdraw\n"
 	.string "quietly back into the shadows.\l"
-	.string "That, too, is destiny…$"
+	.string "That, too, is destiny…\p"
+	.string "I followed a courier from the weather\n"
+	.string "station. He carried sealed orders and\l"
+	.string "never once looked at the sky. His\l"
+	.string "shadow moved a moment after he did.\p"
+	.string "I lost him near the trees. Perhaps\n"
+	.string "that is where the real danger hides.$"
 
 Route119_Text_TakashiIntro: @ 829E1F5
 	.string "If you're not on your guard,\n"
@@ -3078,7 +3341,13 @@ Route120_Text_ChipDefeat: @ 829EC25
 Route120_Text_ChipPostBattle: @ 829EC41
 	.string "That giant rock… I would like to\n"
 	.string "believe it may indeed contain ancient\l"
-	.string "ruins. But I see no entrance.$"
+	.string "ruins. But I see no entrance.\p"
+	.string "I found a fragment nearby. It speaks\n"
+	.string "of Pokémon whose eyes were darkened\l"
+	.string "and whose wills were bent by a force\l"
+	.string "that did not belong to this world.\p"
+	.string "The final lines are missing. I wish\n"
+	.string "I knew who removed them.$"
 
 Route120_Text_ClarissaIntro: @ 829ECA6
 	.string "Why am I carrying this parasol?\p"
@@ -3152,7 +3421,12 @@ Route120_Text_LeonelDefeat: @ 829F080
 
 Route120_Text_LeonelPostBattle: @ 829F0A1
 	.string "I think it's awesome you're so strong\n"
-	.string "battling with your favorite Pokémon.$"
+	.string "battling with your favorite Pokémon.\p"
+	.string "A man at the checkpoint said the new\n"
+	.string "rules might soon require Trainers to\l"
+	.string "leave unregistered Pokémon behind.\p"
+	.string "I told him my partner isn't a danger\n"
+	.string "because a form doesn't mention it.$"
 
 Route121_Text_VanessaIntro: @ 829F0EC
 	.string "Will you play with my delightfully\n"
@@ -3177,7 +3451,13 @@ Route121_Text_WalterDefeat: @ 829F20D
 
 Route121_Text_WalterPostBattle: @ 829F21E
 	.string "I would like to circle the globe once\n"
-	.string "again with my Pokémon.$"
+	.string "again with my Pokémon.\p"
+	.string "In another region, officials have\n"
+	.string "begun refusing travel permits to\l"
+	.string "Trainers whose teams aren't on the\l"
+	.string "central list. They call it temporary.\p"
+	.string "I've learned that temporary rules\n"
+	.string "can travel farther than anyone expects.$"
 
 Route121_Text_WalterRegister: @ 829F25B
 	.string "Your Pokémon prowess is remarkable.\n"
@@ -3223,7 +3503,13 @@ Route121_Text_KateDefeat: @ 829F43F
 Route121_Text_KatePostBattle: @ 829F476
 	.string "Kate: When someone's relying on me,\n"
 	.string "I get this urge to look cool in front\l"
-	.string "of them…$"
+	.string "of them…\p"
+	.string "Some officials came through town\n"
+	.string "asking which young Trainers travel\l"
+	.string "with older partners. They said they\l"
+	.string "were checking who might need extra\l"
+	.string "supervision. I didn't like the way\l"
+	.string "they wrote down every name.$"
 
 Route121_Text_KateNotEnoughMons: @ 829F4C9
 	.string "Kate: If you've only got one Pokémon,\n"
@@ -3354,7 +3640,13 @@ Route121_Text_MarcelDefeat: @ 829FB8C
 
 Route121_Text_MarcelPostBattle: @ 829FBA8
 	.string "I may have to train my gang some more\n"
-	.string "before entering any Contest.$"
+	.string "before entering any Contest.\p"
+	.string "The Contest office says every Pokémon\n"
+	.string "must be registered before it can\l"
+	.string "compete. That's fair for the event.\p"
+	.string "But now they say the same list may\n"
+	.string "be shared with the League. I only\l"
+	.string "entered my team to show their talent.$"
 
 Route123_Text_WendyIntro: @ 829FBEB
 	.string "Want to determine how strong you are?\n"
@@ -3439,7 +3731,13 @@ Route123_Text_JackiDefeat: @ 829FFD8
 
 Route123_Text_JackiPostBattle: @ 829FFE5
 	.string "We all have psychic powers.\n"
-	.string "We've just forgotten how to use them.$"
+	.string "We've just forgotten how to use them.\p"
+	.string "There is a presence pressing against\n"
+	.string "the minds of Pokémon across Hoenn.\l"
+	.string "It does not ask. It reaches in and\l"
+	.string "makes their own thoughts feel distant.\p"
+	.string "Someone is doing this deliberately.\n"
+	.string "I fear the source is watching us, too.$"
 
 Route123_Text_JackiRegister: @ 82A0027
 	.string "I would like to face you again.\n"
@@ -3703,8 +4001,12 @@ Route124_Text_ChadDefeat: @ 82A0DFF
 Route124_Text_ChadPostBattle: @ 82A0E1E
 	.string "I have it on good authority that\n"
 	.string "there's a Dive spot around here.\p"
-	.string "It gives me the urge to go deep\n"
-	.string "again…$"
+	.string "I went deeper than usual and found\n"
+	.string "a metal cable running along the reef.\l"
+	.string "It wasn't part of any research rig.\p"
+	.string "The cable led toward open water,\n"
+	.string "then vanished into the dark. Someone\l"
+	.string "is running equipment out there.$"
 
 Route124_Text_LilaIntro: @ 82A0E87
 	.string "Lila: Sigh…\p"
@@ -3811,7 +4113,12 @@ Route124_Text_IsabellaDefeat: @ 82A14BC
 
 Route124_Text_IsabellaPostBattle: @ 82A14ED
 	.string "You can find pretty colored shards\n"
-	.string "of things around here.$"
+	.string "of things around here.\p"
+	.string "I found a strange red stamp on a\n"
+	.string "crate washed up near the rocks. It\l"
+	.string "looked like the mark on a shipping\l"
+	.string "case I saw at Slateport. I reported\l"
+	.string "it, but the clerk told me to forget it.$"
 
 Route125_Text_NolenIntro: @ 82A1527
 	.string "I heard you approaching, so I hung\n"
@@ -3869,7 +4176,12 @@ Route125_Text_ErnestPostBattle: @ 82A1755
 	.string "The tide ebbs and flows inside the\n"
 	.string "Shoal Cave.\p"
 	.string "By the way, it's about six hours from\n"
-	.string "high tide to low tide. Did you know?$"
+	.string "high tide to low tide. Did you know?\p"
+	.string "A few nights ago, I saw lights beyond\n"
+	.string "the reef at low tide. They moved\l"
+	.string "against the current, then disappeared\l"
+	.string "when a patrol boat approached.\p"
+	.string "That wasn't a fishing crew.$"
 
 Route125_Text_ErnestRegister: @ 82A17CF
 	.string "Register me in your PokéNav,\n"
@@ -3950,7 +4262,12 @@ Route125_Text_AuronPostBattle: @ 82A1C2A
 	.string "I found an unsightly bottle bobbing\n"
 	.string "in the waves earlier.\p"
 	.string "It angers me that someone would\n"
-	.string "pollute the sea!$"
+	.string "pollute the sea!\p"
+	.string "This one held a torn shipping label.\n"
+	.string "The sender was scratched away, but\l"
+	.string "the destination code matched a route\l"
+	.string "used by League supply vessels. I\l"
+	.string "turned it over to the harbor office.$"
 
 Route126_Text_BarryIntro: @ 82A1C95
 	.string "Swimming is a full-body workout!\n"
@@ -3973,7 +4290,14 @@ Route126_Text_DeanDefeat: @ 82A1D63
 
 Route126_Text_DeanPostBattle: @ 82A1D72
 	.string "I can't find the entrance to\n"
-	.string "Sootopolis. Where could it be?$"
+	.string "Sootopolis. Where could it be?\p"
+	.string "I did see two officials checking\n"
+	.string "divers' names near the crater. They\l"
+	.string "weren't helping people find the city.\p"
+	.string "They asked who had been inside, what\n"
+	.string "they saw, and which Pokémon helped\l"
+	.string "them reach the entrance. Strange\l"
+	.string "questions for a place they can't find.$"
 
 Route126_Text_NikkiIntro: @ 82A1DAE
 	.string "Ufufufufu!\n"
@@ -4100,7 +4424,12 @@ Route127_Text_JonahDefeat: @ 82A23E1
 
 Route127_Text_JonahPostBattle: @ 82A240C
 	.string "It matters not that I catch nothing.\n"
-	.string "The line remains in the water…$"
+	.string "The line remains in the water…\p"
+	.string "I have waited here for three nights.\n"
+	.string "Each night, a vessel passes without\l"
+	.string "lights, always at the same hour.\p"
+	.string "No fishing boat keeps that schedule.\n"
+	.string "And no honest sailor needs to hide.$"
 
 Route127_Text_HenryIntro: @ 82A2450
 	.string "Whoops! Don't tell me I snagged\n"
@@ -4247,7 +4576,13 @@ Route128_Text_AlexaDefeat: @ 82A2C79
 
 Route128_Text_AlexaPostBattle: @ 82A2C95
 	.string "After all I've done to get here,\n"
-	.string "I won't give up after one setback.$"
+	.string "I won't give up after one setback.\p"
+	.string "The League sent a notice to every\n"
+	.string "Trainer approaching Ever Grande.\l"
+	.string "It says unregistered Pokémon may be\l"
+	.string "held until their ownership is verified.\p"
+	.string "I came here to challenge the League,\n"
+	.string "not surrender my partners at the door.$"
 
 Route128_Text_RubenIntro: @ 82A2CD9
 	.string "There is no stronger Trainer than I!$"
@@ -4257,7 +4592,13 @@ Route128_Text_RubenDefeat: @ 82A2CFE
 
 Route128_Text_RubenPostBattle: @ 82A2D0D
 	.string "There probably is no stronger Trainer\n"
-	.string "than you!$"
+	.string "than you!\p"
+	.string "I used to think the League only cared\n"
+	.string "about strength. Now there are guards\l"
+	.string "checking registration papers on the\l"
+	.string "road ahead. They say it's an order\l"
+	.string "from the President. What happens if\l"
+	.string "a Trainer refuses?$"
 
 Route128_Text_WayneIntro: @ 82A2D3D
 	.string "I want to visit Ever Grande, so I\n"
@@ -4463,7 +4804,13 @@ Route131_Text_ReliDefeat: @ 82A381F
 Route131_Text_ReliPostBattle: @ 82A3855
 	.string "Reli: The people of Pacifidlog are\n"
 	.string "together with the sea and Pokémon from\l"
-	.string "the time they are born.$"
+	.string "the time they are born.\p"
+	.string "Reli: That's why it felt strange when\n"
+	.string "strangers asked us to mark the safest\l"
+	.string "currents and quietest coves on a map.\p"
+	.string "Reli: They said it was for shipping.\n"
+	.string "But they knew the old routes better\l"
+	.string "than most people who live here.$"
 
 Route131_Text_ReliNotEnoughMons: @ 82A38B7
 	.string "Reli: You don't have two Pokémon?\n"
@@ -4498,7 +4845,13 @@ Route131_Text_TaliaDefeat: @ 82A3A38
 Route131_Text_TaliaPostBattle: @ 82A3A48
 	.string "There is an odd place nearby.\n"
 	.string "There's a huge tower there.\l"
-	.string "Why don't you go take a look?$"
+	.string "Why don't you go take a look?\p"
+	.string "A pair of well-dressed visitors were\n"
+	.string "asking about the tower's old stones.\l"
+	.string "They carried no climbing gear, only\l"
+	.string "maps and a list of names. One asked\l"
+	.string "whether the League had a record of\l"
+	.string "every Trainer who had visited it.$"
 
 Route131_Text_KevinIntro: @ 82A3AA0
 	.string "The people of Pacifidlog are\n"
@@ -4726,7 +5079,12 @@ Route134_Text_LaurelDefeat: @ 82A4643
 
 Route134_Text_LaurelPostBattle: @ 82A464B
 	.string "There's a collector who's after\n"
-	.string "the scales of Luvdisc.$"
+	.string "the scales of Luvdisc.\p"
+	.string "He offered to pay for a whole school\n"
+	.string "of them, then asked whether any had\l"
+	.string "been acting strangely. I told him\l"
+	.string "they're living Pokémon, not samples\l"
+	.string "for somebody's private cabinet.$"
 
 Route134_Text_AlexIntro: @ 82A4682
 	.string "Okeydokey! That's enough rest, gang!\n"
@@ -4762,7 +5120,12 @@ Route134_Text_AaronPostBattle: @ 82A47FD
 	.string "We will return for more training at\n"
 	.string "Meteor Falls.\p"
 	.string "If you'd like, you should go, too.\n"
-	.string "It will definitely toughen you up!$"
+	.string "It will definitely toughen you up!\p"
+	.string "But keep an eye on your Pokémon. One\n"
+	.string "of mine stared into the cave's dark\l"
+	.string "for a long while and wouldn't answer\l"
+	.string "me. It shook itself and came around,\l"
+	.string "but I won't forget that look.$"
 
 Route134_Text_KelvinIntro: @ 82A4875
 	.string "O-our boat!\n"
@@ -4814,7 +5177,13 @@ Route134_Text_HudsonDefeat: @ 82A4AC1
 Route134_Text_HudsonPostBattle: @ 82A4AD8
 	.string "Our boat drifted out to sea.\p"
 	.string "My buddy's a timid fellow, so I'm\n"
-	.string "worried about him.$"
+	.string "worried about him.\p"
+	.string "A larger vessel passed us before we\n"
+	.string "lost sight of shore. No markings, no\l"
+	.string "running lights. It was towing a pair\l"
+	.string "of sealed containers toward the open\l"
+	.string "water. Whoever was aboard never\l"
+	.string "answered our signal.$"
 
 AshenWoods_Text_AlannahIntro:
 	.string "Are you prepared to survive in\n"
@@ -4828,7 +5197,12 @@ AshenWoods_Text_AlannahPostBattle:
 	.string "There are some pretty strong\n"
 	.string "Pokémon 'round these parts.\p"
 	.string "Rumor has it there's even a Legendary\n"
-	.string "Bird Pokémon roosting near here.$"
+	.string "Bird Pokémon roosting near here.\p"
+	.string "A League surveyor came through asking\n"
+	.string "where rare Pokémon nest and which\l"
+	.string "Rangers know the trails best. I told\l"
+	.string "him those places aren't landmarks to\l"
+	.string "put on a public map. They're homes.$"
 	
 AshenWoods_Text_MartinIntro:
 	.string "Doesn't look like you need any help\n"
@@ -4844,7 +5218,14 @@ AshenWoods_Text_MartinPostBattle:
 	.string "Some say it looked like a pair of\n"
 	.string "flaming wings.\p"
 	.string "Us Rangers are out here investigating,\n"
-	.string "but all we've seen is ash and trees.$"	
+	.string "but all we've seen is ash and trees.\p"
+	.string "We did find a Pokémon wandering\n"
+	.string "through the burn scar. It didn't react\l"
+	.string "to its Trainer calling its name.\p"
+	.string "Then, just before dawn, it blinked\n"
+	.string "and came back to itself. The Trainer\l"
+	.string "said its eyes had looked empty. I\l"
+	.string "reported it to the Ranger station.$"	
 	
 AshenWoods_Text_RomanIntro:
 	.string "Who would've thought the Ashen Woods\n"
@@ -4872,7 +5253,12 @@ AshenWoods_Text_ElmerPostBattle:
 	.string "As a Bug Maniac, I prefer collecting\n"
 	.string "to battling.\p"
 	.string "However, having a strong team makes\n"
-	.string "catching Pokémon much easier.$"
+	.string "catching Pokémon much easier.\p"
+	.string "My Bug Pokémon won't go near the\n"
+	.string "blackened trees. They sense something\l"
+	.string "there, though I can't see or smell\l"
+	.string "anything unusual. Even the little\l"
+	.string "ones know when a place is wrong.$"
 
 Route102_Text_GENIntro:
 	.string ".... .... ....\n"

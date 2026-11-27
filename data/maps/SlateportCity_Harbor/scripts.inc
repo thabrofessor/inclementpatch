@@ -468,7 +468,14 @@ SlateportCity_Harbor_Text_TeamAquaLeftNeedDive: @ 820D42B
 	.string "Perhaps if you went out to\n"
 	.string "Mossdeep City…\p"
 	.string "A lot of divers live out there, so\n"
-	.string "someone might teach you…$"
+	.string "someone might teach you…\p"
+	.string "We are still reviewing the records\n"
+	.string "from the submarine incident. The\l"
+	.string "harbor locks were intact, and no one\l"
+	.string "reported seeing the vessel leave.\p"
+	.string "Someone knew exactly when the yard\n"
+	.string "would be quiet. That troubles me more\l"
+	.string "than the theft itself.$"
 
 SlateportCity_Harbor_Text_NeedDiveToCatchSub: @ 820D58A
 	.string "Capt. Stern: Trying to catch a\n"

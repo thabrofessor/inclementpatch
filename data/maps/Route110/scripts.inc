@@ -824,7 +824,14 @@ Route110_Text_MayExplainItemfinder: @ 81EFD58
 	.string "The League plans a tournament.\n"
 	.string "Trainers register their teams.\p"
 	.string "It sounds exciting! I hope the\n"
-	.string "forms don't slow the battling.$"
+	.string "forms don't slow the battling.\p"
+	.string "I want to meet strong Trainers from\n"
+	.string "all over Hoenn and see what their\l"
+	.string "Pokémon can do. That should be what\l"
+	.string "the tournament is about, right?\p"
+	.string "I would hate for anyone to feel they\n"
+	.string "have to prove they deserve to battle\l"
+	.string "with the Pokémon they love.$"
 
 Route110_Text_BrendanLetsBattle: @ 81EFE3F
 	.string "Brendan: Hey, {PLAYER}.\n"
@@ -854,8 +861,13 @@ Route110_Text_BrendanExplainItemfinder: @ 81EFF1C
 	.string "Have you heard about the League\n"
 	.string "tournament? They want a list of\l"
 	.string "every Pokémon a Trainer has.\p"
-	.string "Maybe it's just organization.\n"
-	.string "Still, it's a lot to ask.$"
+	.string "Maybe it's just organization.\p"
+	.string "But does the League really need a list\n"
+	.string "of every Pokémon a person owns? A\l"
+	.string "tournament roster is one thing.\p"
+	.string "I would rather see officials explain\n"
+	.string "exactly what the information is for\l"
+	.string "before asking everyone to hand it over.$"
 
 Route110_Text_RideBikeAtFullSpeed: @ 81EFFC3
 	.string "Wouldn't it be great to ride a Bike\n"

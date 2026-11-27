@@ -188,7 +188,15 @@ Route123_Text_YouLikeGrassMonsTooHaveThis: @ 81F645D
 
 Route123_Text_CheckTreesWithMyGrassMon: @ 81F64CF
 	.string "I check trees with my Grass-type\n"
-	.string "Pokémon. I'm like a tree doctor.$"
+	.string "Pokémon. I'm like a tree doctor.\p"
+	.string "Lately, even the wild Pokémon seem\n"
+	.string "uneasy. One little Seedot stayed\l"
+	.string "perfectly still while my partner\l"
+	.string "called to it. It did not even look\l"
+	.string "our way.\p"
+	.string "Perhaps something frightened it. I\n"
+	.string "hope it finds its way back to the\l"
+	.string "forest soon.$"
 
 Route123_Text_RouteSign: @ 81F6511
 	.string "{RIGHT_ARROW} Route 123\n"

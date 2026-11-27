@@ -341,7 +341,9 @@ FortreeCity_Gym_Text_WinonaPostBattle: @ 8217071
 	.string "Rules can guide us, but the bond\n"
 	.string "between Trainer and Pokémon is\l"
 	.string "earned through trust, not issued\l"
-	.string "by an office.$"
+	.string "by an office. Even the wildest bird\l"
+	.string "will return to a hand it trusts. No\l"
+	.string "seal or certificate can command that.$"
 
 FortreeCity_Gym_Text_GymStatue: @ 82170AE
 	.string "Fortree City Pokémon Gym$"

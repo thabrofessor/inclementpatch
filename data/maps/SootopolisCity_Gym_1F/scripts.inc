@@ -334,7 +334,15 @@ SootopolisCity_Gym_1F_Text_JuanPostBattle: @ 8225778
 	.string "Travel to the easternmost reaches\n"
 	.string "of Hoenn, to the island Ever Grande.\p"
 	.string "There, you shall find the Pokémon\n"
-	.string "League.$"
+	.string "League.\p"
+	.string "I hear the League is preparing a\n"
+	.string "grand tournament alongside its usual\l"
+	.string "challenge. A record of the entrants\n"
+	.string "is reasonable, perhaps, but do not\l"
+	.string "mistake a list of competitors for a\n"
+	.string "measure of their worth. True elegance\l"
+	.string "is shown in how one treats a partner,\n"
+	.string "not in what an official records.$"
 
 SootopolisCity_Gym_1F_Text_GoGetFortreeBadge: @ 8225865
 	.string "There remains but one Badge to\n"

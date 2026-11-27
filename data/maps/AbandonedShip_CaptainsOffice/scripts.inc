@@ -27,7 +27,16 @@ AbandonedShip_CaptainsOffice_Text_NoSuccessFindingScanner: @ 8238824
 	.string "I'm investigating this ship on behalf\n"
 	.string "of Capt. Stern.\p"
 	.string "He also asked me to find a Scanner,\n"
-	.string "but I haven't had any success…$"
+	.string "but I haven't had any success…\p"
+	.string "The strange thing is, the cabins have\n"
+	.string "been searched, but the old logbooks\l"
+	.string "were left neatly in place. Whoever\l"
+	.string "came through seemed to know exactly\l"
+	.string "what they wanted.\p"
+	.string "I can't tell whether they were after\n"
+	.string "the Scanner or something else, but\l"
+	.string "this doesn't look like ordinary\l"
+	.string "salvage work to me.$"
 
 AbandonedShip_CaptainsOffice_Text_OhCanYouDeliverScanner: @ 823889D
 	.string "Oh! That's a Scanner!\p"

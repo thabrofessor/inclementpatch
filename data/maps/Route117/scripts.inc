@@ -190,7 +190,13 @@ Route117_Text_DayCarePokemonHadNewMove: @ 81F3C7C
 	.string "I left my Pokémon at the Day Care.\p"
 	.string "When I got it back, it had a new move\n"
 	.string "that I didn't teach it.\l"
-	.string "I was really, really surprised.$"
+	.string "I was really, really surprised!\p"
+	.string "The people here said it must have\n"
+	.string "picked it up while playing with the\l"
+	.string "other Pokémon. I suppose that makes\l"
+	.string "sense. It certainly seems happy.\p"
+	.string "I just wish I could have seen it\n"
+	.string "learn something new for myself!$"
 
 Route117_Text_ArentTheseFlowersPretty: @ 81F3CFD
 	.string "What do you think?\n"

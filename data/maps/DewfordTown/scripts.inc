@@ -629,7 +629,13 @@ DewfordTown_EventScript_PhraseNotTrendyEnough:: @ 81E999E
 DewfordTown_Text_TinyIslandCommunity: @ 81E99A8
 	.string "Dewford is a tiny island community.\n"
 	.string "If something gets trendy here,\l"
-	.string "everyone picks up on it right away.$"
+	.string "everyone picks up on it right away.\p"
+	.string "Lately, a few strangers have been\n"
+	.string "asking when the fishing boats leave\l"
+	.string "and which coves are quiet at night.\p"
+	.string "Maybe they're just curious visitors.\n"
+	.string "Still, folks here usually ask about\l"
+	.string "the weather or the catch, not that.$"
 
 DewfordTown_Text_TownSign: @ 81E9A0F
 	.string "Dewford Town\n"

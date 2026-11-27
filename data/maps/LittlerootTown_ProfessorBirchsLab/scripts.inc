@@ -760,7 +760,13 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo: @ 81FA6CE
 	.string "Prof. Birch is studying the habitats\n"
 	.string "and distribution of Pokémon.\p"
 	.string "The Prof enjoys {RIVAL}'s help, too.\n"
-	.string "There's a lot of love there.$"
+	.string "There's a lot of love there.\p"
+	.string "Lately, though, he's been spending\n"
+	.string "extra time comparing field notes.\p"
+	.string "A few Pokémon he's observed seem\n"
+	.string "unusually unresponsive to familiar\l"
+	.string "calls. He won't guess at the cause\l"
+	.string "until he has more evidence.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon: @ 81FA74D
 	.string "Prof. Birch: So, {PLAYER}{KUN}.\p"

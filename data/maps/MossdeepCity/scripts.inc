@@ -387,7 +387,16 @@ MossdeepCity_Text_FeelReliefOnLand: @ 81E5051
 	.string "I'm a Sailor, so the sea's obviously\n"
 	.string "more important to me.\p"
 	.string "But you know? When I get back on land\n"
-	.string "after a long voyage, I do feel relief!$"
+	.string "after a long voyage, I do feel relief!\p"
+	.string "Since Team Magma came through here,\n"
+	.string "the harbor office has started asking\l"
+	.string "for more details about the Pokémon\l"
+	.string "travelers bring aboard.\p"
+	.string "I understand wanting to keep people\n"
+	.string "safe after an attack like that. But\l"
+	.string "a ship's manifest should tell them\l"
+	.string "what's on the ship, not who owns\l"
+	.string "every Pokémon in the whole region.$"
 
 MossdeepCity_Text_NiceIfWorldCoveredByFlowers: @ 81E50D9
 	.string "Wouldn't it be nice?\p"

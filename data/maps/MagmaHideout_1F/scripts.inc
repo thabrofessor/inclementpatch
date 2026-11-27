@@ -30,7 +30,13 @@ MagmaHideout_1F_Text_Grunt1Defeat: @ 8239964
 
 MagmaHideout_1F_Text_Grunt1PostBattle: @ 82399B1
 	.string "Okay, I'll try to put a little more\n"
-	.string "effort into things from now on…$"
+	.string "effort into things from now on…\p"
+	.string "Some of the Pokémon brought in for\n"
+	.string "our drills have been acting strangely.\p"
+	.string "They barely react to their Trainers,\n"
+	.string "and their eyes look so empty…\p"
+	.string "The others say I'm imagining things.\n"
+	.string "I hope they're right.$"
 
 MagmaHideout_1F_Text_Grunt2Intro: @ 82399F5
 	.string "Our leader told us to dig into\n"
@@ -53,6 +59,13 @@ MagmaHideout_1F_Text_Grunt2PostBattle: @ 8239ACD
 	.string "The Boss says we should\nfocus on the\n"
 	.string "mission and leave the\narrangements\l"
 	.string "to the people above us.\p"
+	.string "Come to think of it, I saw a visitor\n"
+	.string "leave the Boss's office one night.\p"
+	.string "No uniform, no Team badge. Even the\n"
+	.string "Admins went quiet while he was there.\p"
+	.string "I figured he was another supplier,\n"
+	.string "but he didn't look much like a\l"
+	.string "businessman.\p"
 	.string "It'd be better if you saved surprises\n"
 	.string "to the end, don't you think?$"
 

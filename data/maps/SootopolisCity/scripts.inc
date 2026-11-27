@@ -1705,7 +1705,14 @@ SootopolisCity_Text_TryingMeaninglessToPokemon: @ 81E74F6
 	.string "Hahaha…\p"
 	.string "Maybe what we were trying to do was\n"
 	.string "something small, even meaningless,\l"
-	.string "to Pokémon…$"
+	.string "to Pokémon…\p"
+	.string "We were so certain we understood\n"
+	.string "what the world needed. Someone knew\l"
+	.string "that, and knew exactly what to say\l"
+	.string "to make us press on.\p"
+	.string "I thought we were choosing our own\n"
+	.string "course. Now I wonder how much of it\l"
+	.string "was laid out for us before we began.$"
 
 SootopolisCity_Text_InvolvedWithCrisisComeWithMe: @ 81E75CB
 	.string "Steven: Those Pokémon fighting…\n"
@@ -1776,10 +1783,24 @@ SootopolisCity_Text_HaventYouScaledSkyPillar: @ 81E79C8
 
 SootopolisCity_Text_AquaMagmaDidntMeanHarm: @ 81E7A3E
 	.string "Wallace: {PLAYER}{KUN}…\p"
-	.string "The leaders of Team Magma and Aqua,\n"
-	.string "I don't think they meant harm.\p"
+	.string "The leaders of Team Magma and Aqua\n"
+	.string "made terrible choices. Their actions\l"
+	.string "put all of Hoenn in danger.\p"
+	.string "But I don't believe either set out\n"
+	.string "to destroy the world. They were so\l"
+	.string "certain they were helping it that\l"
+	.string "they stopped listening to anyone\l"
+	.string "who questioned them.\p"
 	.string "It wouldn't hurt to hear what they\n"
-	.string "have to say for themselves.$"
+	.string "have to say for themselves. And we\l"
+	.string "should learn who encouraged them\l"
+	.string "to take such reckless steps.\p"
+	.string "Still, the League will have to answer\n"
+	.string "the public's fear of powerful Pokémon.\p"
+	.string "A complete registry may reassure\n"
+	.string "people that someone is keeping track.\l"
+	.string "After all, that is what they will\l"
+	.string "want to hear right now.$"
 
 SootopolisCity_Text_ThankYouForHelpAcceptThis: @ 81E7ACF
 	.string "Wallace: {PLAYER}{KUN}…\n"

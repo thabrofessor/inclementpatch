@@ -685,7 +685,12 @@ LilycoveCity_Text_MissingPokemonCameBack: @ 81E4145
 	.string "My missing Pokémon…\n"
 	.string "It came back without me\nnoticing!\p"
 	.string "But it hardly seemed to\nrecognize me.\n"
-	.string "Its eyes looked so cold…$"
+	.string "Its eyes looked so cold…\p"
+	.string "It won't come when I call, either.\n"
+	.string "It just stares ahead, as if it can't\l"
+	.string "hear me. I know it's frightened, but\l"
+	.string "I don't know how to reach it.\p"
+	.string "I only want my old partner back…$"
 
 LilycoveCity_Text_ImArtDealer: @ 81E417B
 	.string "I'm an Art Dealer.\p"

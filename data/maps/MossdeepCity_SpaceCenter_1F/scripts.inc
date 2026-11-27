@@ -330,7 +330,13 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaHaveSightsOnSpaceCenter: @ 82234B7
 	.string "Those Magma thugs have their sights\n"
 	.string "set on our Space Center.\p"
 	.string "But we can't allow anything that minor\n"
-	.string "to interfere with our rocket launch!$"
+	.string "to interfere with our rocket launch!\p"
+	.string "The launch window is carefully planned,\n"
+	.string "but safety checks come first. If they\l"
+	.string "damage the fuel systems or equipment,\l"
+	.string "no one is going into space.\p"
+	.string "I only hope the guards can keep them\n"
+	.string "away from the work areas.$"
 
 MossdeepCity_SpaceCenter_1F_Text_FoundThisYouCanHaveIt: @ 8223540
 	.string "I was taking a stroll down the beach\n"
@@ -426,7 +432,14 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt4PostBattle: @ 8223B37
 	.string "What are we going to do with\n"
 	.string "the rocket fuel?\p"
 	.string "How would I know?\n"
-	.string "Ask our leader upstairs!$"
+	.string "Ask our leader upstairs!\p"
+	.string "We were told it was essential to the\n"
+	.string "mission, but nobody explained how.\p"
+	.string "The orders were exact: guard the\n"
+	.string "containers, move them when told, and\l"
+	.string "don't interfere with the Admins.\p"
+	.string "I joined to help change the world,\n"
+	.string "not to stand around guarding crates.$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt2Intro: @ 8223B90
 	.string "Our leader said no one, but no one,\n"

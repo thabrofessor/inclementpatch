@@ -31,7 +31,12 @@ PacifidlogTown_Text_FastRunningCurrent: @ 81EBAE7
 	.string "The sea between Pacifidlog and\n"
 	.string "Slateport has a fast-running tide.\p"
 	.string "If you decide to Surf, you could end\n"
-	.string "up swept away somewhere else.$"
+	.string "up swept away somewhere else.\p"
+	.string "Lately, the current has been changing\n"
+	.string "before the wind does. A boat can drift\l"
+	.string "off course on a perfectly clear day.\p"
+	.string "The old sailors say the sea has moods.\n"
+	.string "I just wish it would warn us first!$"
 
 PacifidlogTown_Text_NeatHousesOnWater: @ 81EBB6C
 	.string "See, isn't it neat?\n"
