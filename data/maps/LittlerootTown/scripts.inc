@@ -166,14 +166,12 @@ LittlerootTown_EventScript_GoInsideWithMom:: @ 81E7F17
 	closemessage
 	applymovement LOCALID_MOM, LittlerootTown_Movement_MomApproachDoor
 	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_Movement_PlayerApproachDoor
-	waitmovement LOCALID_MOM
-	waitmovement OBJ_EVENT_ID_PLAYER
+	waitmovement 0
 	opendoor VAR_0x8004, VAR_0x8005
 	waitdooranim
 	applymovement LOCALID_MOM, LittlerootTown_Movement_MomEnterHouse
 	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_Movement_PlayerEnterHouse
-	waitmovement LOCALID_MOM
-	waitmovement OBJ_EVENT_ID_PLAYER
+	waitmovement 0
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE
 	setvar VAR_LITTLEROOT_INTRO_STATE, 3
 	hideobjectat OBJ_EVENT_ID_PLAYER, 0
