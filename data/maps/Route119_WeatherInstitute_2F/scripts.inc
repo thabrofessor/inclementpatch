@@ -347,7 +347,7 @@ Route119_WeatherInstitute_2F_Text_NoAbnormalWeather: @ 82708FC
 	.string "The occasional rainfall is a blessing,\n"
 	.string "really. Still, some of our instruments\l"
 	.string "recorded pressure shifts before the\l"
-	.string "storms arrived—far too sudden to fit\l"
+	.string "storms arrived, far too sudden to fit\l"
 	.string "our usual models.\p"
 	.string "I'd like to compare those records with\n"
 	.string "the other weather stations before I\l"
