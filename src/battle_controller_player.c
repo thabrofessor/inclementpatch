@@ -8,6 +8,7 @@
 #include "battle_message.h"
 #include "battle_setup.h"
 #include "battle_tv.h"
+#include "battle_util.h"
 #include "battle_main.h"
 #include "bg.h"
 #include "data.h"
@@ -1656,6 +1657,99 @@ static void PlayerHandleYesNoInput(void)
     }
 }
 
+static void MoveSelectionAppendEffectiveness(u8 *text, u16 move)
+{
+    u8 target = GetBattlerAtPosition(B_POSITION_OPPONENT_LEFT);
+    u8 rightTarget = GetBattlerAtPosition(B_POSITION_OPPONENT_RIGHT);
+    u8 moveType;
+    u8 fgColor = TEXT_COLOR_WHITE;
+    u8 bgColor = TEXT_COLOR_DARK_GRAY;
+    u8 shadowColor = TEXT_COLOR_LIGHT_GRAY;
+    u16 effectiveness;
+    const u8 *label;
+
+    if (move == MOVE_NONE)
+        return;
+
+    if (IS_MOVE_STATUS(move))
+    {
+        fgColor = TEXT_COLOR_DARK_GRAY;
+        bgColor = TEXT_DYNAMIC_COLOR_1;
+        shadowColor = TEXT_COLOR_TRANSPARENT;
+        label = (const u8*)"UTILITY";
+    }
+    else
+    {
+        GET_MOVE_TYPE(move, moveType);
+        if (gAbsentBattlerFlags & gBitTable[target])
+            target = rightTarget;
+
+        effectiveness = CalcTypeEffectivenessMultiplier(move, moveType, gActiveBattler, target, FALSE);
+        if (!(gAbsentBattlerFlags & gBitTable[GetBattlerAtPosition(B_POSITION_OPPONENT_LEFT)])
+         && !(gAbsentBattlerFlags & gBitTable[rightTarget])
+         && effectiveness != CalcTypeEffectivenessMultiplier(move, moveType, gActiveBattler, rightTarget, FALSE))
+        {
+            // There is no single effectiveness value when both opponents differ.
+            label = (const u8*)"VARIES";
+            bgColor = TEXT_COLOR_LIGHT_GRAY;
+            fgColor = TEXT_COLOR_DARK_GRAY;
+            shadowColor = TEXT_COLOR_TRANSPARENT;
+        }
+        else
+        {
+            switch (effectiveness)
+            {
+            case UQ_4_12(0.0):
+                label = (const u8*)"NO EFFECT";
+                bgColor = TEXT_COLOR_DARK_GRAY;
+                break;
+            case UQ_4_12(0.25):
+                label = (const u8*)"1/4";
+                bgColor = TEXT_COLOR_BLUE;
+                break;
+            case UQ_4_12(0.5):
+                label = (const u8*)"1/2";
+                bgColor = TEXT_COLOR_GREEN;
+                break;
+            case UQ_4_12(2.0):
+                label = (const u8*)"2x";
+                bgColor = TEXT_COLOR_LIGHT_RED;
+                break;
+            case UQ_4_12(4.0):
+                label = (const u8*)"4x";
+                bgColor = TEXT_COLOR_RED;
+                break;
+            default:
+                label = (const u8*)"1x";
+                bgColor = TEXT_COLOR_LIGHT_GRAY;
+                fgColor = TEXT_COLOR_DARK_GRAY;
+                shadowColor = TEXT_COLOR_TRANSPARENT;
+                break;
+            }
+        }
+    }
+
+    *text++ = EXT_CTRL_CODE_BEGIN;
+    *text++ = EXT_CTRL_CODE_SIZE;
+    *text++ = 1;
+    *text++ = CHAR_SPACE;
+    *text++ = EXT_CTRL_CODE_BEGIN;
+    *text++ = EXT_CTRL_CODE_COLOR;
+    *text++ = fgColor;
+    *text++ = bgColor;
+    *text++ = shadowColor;
+    text = StringCopy(text, label);
+    text += StringLength(text);
+    *text++ = EXT_CTRL_CODE_BEGIN;
+    *text++ = EXT_CTRL_CODE_COLOR;
+    *text++ = TEXT_COLOR_WHITE;
+    *text++ = TEXT_COLOR_TRANSPARENT;
+    *text++ = TEXT_COLOR_DARK_GRAY;
+    *text++ = EXT_CTRL_CODE_BEGIN;
+    *text++ = EXT_CTRL_CODE_RESET_SIZE;
+    *text = EOS;
+}
+
 static void MoveSelectionDisplayMoveNames(void)
 {
     s32 i;
@@ -1664,10 +1758,12 @@ static void MoveSelectionDisplayMoveNames(void)
 
     for (i = 0; i < MAX_MON_MOVES; i++)
     {
+        u16 move = moveInfo->moves[i];
         MoveSelectionDestroyCursorAt(i);
-        StringCopy(gDisplayedStringBattle, gMoveNames[moveInfo->moves[i]]);
+        StringCopy(gDisplayedStringBattle, gMoveNames[move]);
+        MoveSelectionAppendEffectiveness(gDisplayedStringBattle + StringLength(gDisplayedStringBattle), move);
         BattlePutTextOnWindow(gDisplayedStringBattle, i + 3);
-        if (moveInfo->moves[i] != MOVE_NONE)
+        if (move != MOVE_NONE)
             gNumberOfMovesToChoose++;
     }
 }
@@ -1715,7 +1811,7 @@ static void MoveSelectionCreateCursorAt(u8 cursorPosition, u8 arg1)
     src[0] = arg1 + 1;
     src[1] = arg1 + 2;
 
-    CopyToBgTilemapBufferRect_ChangePalette(0, src, 9 * (cursorPosition & 1) + 1, 55 + (cursorPosition & 2), 1, 2, 0x11);
+    CopyToBgTilemapBufferRect_ChangePalette(0, src, 10 * (cursorPosition & 1) + 1, 55 + (cursorPosition & 2), 1, 2, 0x11);
     CopyBgTilemapBufferToVram(0);
 }
 
@@ -1725,7 +1821,7 @@ static void MoveSelectionDestroyCursorAt(u8 cursorPosition)
     src[0] = 0x1016;
     src[1] = 0x1016;
 
-    CopyToBgTilemapBufferRect_ChangePalette(0, src, 9 * (cursorPosition & 1) + 1, 55 + (cursorPosition & 2), 1, 2, 0x11);
+    CopyToBgTilemapBufferRect_ChangePalette(0, src, 10 * (cursorPosition & 1) + 1, 55 + (cursorPosition & 2), 1, 2, 0x11);
     CopyBgTilemapBufferToVram(0);
 }
 
